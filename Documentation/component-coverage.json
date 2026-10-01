@@ -4,7 +4,7 @@
     "variants": 3927,
     "iOSVariants": 2008,
     "documentedComponents": 108,
-    "completeComponents": 0
+    "completeComponents": 1
   },
   "components": [
     {
@@ -1243,7 +1243,7 @@
     {
       "id": "6392:51900",
       "name": "tui-badge [t-client]",
-      "status": "catalogued",
+      "status": "complete",
       "totalVariants": 2,
       "iOSVariants": 1,
       "variantProperties": {
@@ -1258,8 +1258,8 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "visual": true
       }
     },
     {

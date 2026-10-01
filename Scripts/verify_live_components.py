@@ -32,15 +32,19 @@ expected = {
     "10467:91596": 6,
     "37840:45833": 2,
     "25738:689227": 3,
+    "6392:51900": 1,
 }
+complete_ids = {"6392:51900"}
 coverage_by_id = {component["id"]: component for component in coverage["components"]}
-assert {item["id"] for item in coverage["components"] if item["status"] == "in-progress"} == set(expected)
+assert {item["id"] for item in coverage["components"] if item["status"] in ("in-progress", "complete")} == set(expected)
+assert {item["id"] for item in coverage["components"] if item["status"] == "complete"} == complete_ids
 for set_id, count in expected.items():
     imported = [v for v in variants if v["setId"] == set_id and is_ios(v)]
     assert len(imported) == count, (set_id, len(imported), count)
     assert coverage_by_id[set_id]["iOSVariants"] == count
-    assert coverage_by_id[set_id]["status"] == "in-progress"
+    assert coverage_by_id[set_id]["status"] == ("complete" if set_id in complete_ids else "in-progress")
     assert coverage_by_id[set_id]["verification"]["implementation"]
+    assert coverage_by_id[set_id]["verification"]["visual"] == (set_id in complete_ids)
 
 button_ids = {v["id"] for v in variants if v["setId"] == "41658:296906" and is_ios(v)}
 style_ids = {s["id"] for s in button_styles}
@@ -77,5 +81,5 @@ theme_names = {variable["name"] for variable in theme["variables"]}
 swift_source = "\n".join(path.read_text() for path in (root / "Sources/TUIDesignSystem").rglob("*.swift"))
 named_colors = set(re.findall(r'TUIColor\.named\("([^"]+)"', swift_source))
 assert named_colors <= theme_names, sorted(named_colors - theme_names)
-assert coverage["summary"]["completeComponents"] == 0
-print("Checked metadata for 10 live component sets (407 iOS variants) and their image assets")
+assert coverage["summary"]["completeComponents"] == len(complete_ids)
+print("Checked metadata for 11 live component sets (408 iOS variants) and their image assets")

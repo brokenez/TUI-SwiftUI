@@ -60,6 +60,11 @@ public struct TUIComponentCatalogView: View {
                         TUIComponentReferenceView(component: badge)
                     }
                 }
+                if let clientBadge = catalog.components(matching: "tui-badge [t-client]").first(where: { $0.id == "6392:51900" }) {
+                    NavigationLink("tui-badge [t-client] · 1 вариант iOS") {
+                        TUIComponentReferenceView(component: clientBadge)
+                    }
+                }
             }
             Section("Компоненты Figma") {
                 ForEach(catalog.components(matching: query)) { component in
@@ -150,9 +155,16 @@ private struct TUIComponentReferenceView: View {
                 Section("Живой компонент") {
                     TUINotificationBadgePlayground()
                 }
+            } else if component.id == "6392:51900" {
+                Section("Живой компонент") {
+                    TUIClientBadge()
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 88)
+                        .background(.white, in: RoundedRectangle(cornerRadius: 16))
+                }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227"].contains(component.id) ? "In progress" : "Catalogued")
+                LabeledContent("Status", value: component.id == "6392:51900" ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }

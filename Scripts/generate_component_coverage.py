@@ -14,7 +14,8 @@ variants_by_set = {}
 for variant in variants:
     variants_by_set.setdefault(variant["setId"], []).append(variant)
 
-implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227"}
+implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "6392:51900"}
+complete_ids = {"6392:51900"}
 coverage = []
 for component_set in component_sets:
     component_variants = variants_by_set.get(component_set["id"], [])
@@ -34,13 +35,13 @@ for component_set in component_sets:
     coverage.append({
         "id": component_set["id"],
         "name": component_set["name"],
-        "status": "in-progress" if has_implementation else "catalogued",
+        "status": "complete" if component_set["id"] in complete_ids else ("in-progress" if has_implementation else "catalogued"),
         "totalVariants": len(component_variants),
         "iOSVariants": sum(1 for variant in component_variants if is_ios(variant)),
         "variantProperties": {key: sorted(values) for key, values in sorted(property_values.items())},
         "componentProperties": sorted(component_set.get("properties", {}).keys()),
         "specificationURLs": [link["uri"] for link in component_set.get("documentationLinks", [])],
-        "verification": {"metadata": True, "implementation": has_implementation, "visual": False}
+        "verification": {"metadata": True, "implementation": has_implementation, "visual": component_set["id"] in complete_ids}
     })
 
 payload = {
@@ -49,7 +50,7 @@ payload = {
         "variants": len(variants),
         "iOSVariants": sum(item["iOSVariants"] for item in coverage),
         "documentedComponents": sum(bool(item["specificationURLs"]) for item in coverage),
-        "completeComponents": 0
+        "completeComponents": len(complete_ids)
     },
     "components": coverage
 }
