@@ -1,0 +1,7133 @@
+{
+  "source": {
+    "fileKey": "OBPLqL8JDThLuOP8M4JzBL",
+    "nodeId": "0:1",
+    "name": "TUI Mobile"
+  },
+  "componentSets": [
+    {
+      "id": "20582:43392",
+      "name": " tui-avatar [subscription]",
+      "description": "Атом для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-avatar-subscription"
+        }
+      ],
+      "variantCount": 15,
+      "properties": {
+        "icon#410:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "62300:60105",
+          "preferredValues": []
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "icon",
+          "variantOptions": [
+            "icon",
+            "image"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53309:296335",
+      "name": ".bullet",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 3,
+      "properties": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Bullet - Primary",
+          "variantOptions": [
+            "Bullet - Primary",
+            "Bullet - Accent",
+            "Bullet - Opposite"
+          ]
+        }
+      }
+    },
+    {
+      "id": "27940:58934",
+      "name": "[pwa-webview] tui-dialog",
+      "description": "Мобильная версия компонента tui-dialog для веба",
+      "documentationLinks": [],
+      "variantCount": 6,
+      "properties": {
+        "placeholder-1#27940:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28497:456765",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "c9c1386707b5848b98434dd981d512ff84c5c6e7"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "98c9c0d8f3e66ece912a98a31c7657f3dc61ba36"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "9c9e4870345e464e2648c50461069132186a71d4"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "e77a51984e50e6fef616904be887bf86ff3fbbfe"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "fb89416f81607847966be2cdbbb9a55295953b6b"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "92542c03b5b128b64b617e0d9b4cf4088fcf63ea"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "68f2f0f511e8a6d86796bcdbe66ffbdd8ba8c87c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "d1c9e8a289f9b8873bfef5fff583d7927925fb5d"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "8a10e88c5a4f40799fdc23d5f9d655a380d81cba"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "5962f9c053abbe9b5f6a40c5d5707140a167fb6c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "183e23935900e1d2e352ecc677f1c3bce8fc808e"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "be753bc489d8582c116494dc3b2ee6d85b8f96e3"
+            }
+          ]
+        },
+        "show-footer#27940:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-legal#134524:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "fullscreen",
+          "variantOptions": [
+            "fullscreen",
+            "bottomsheet",
+            "fullscreen-small-title"
+          ]
+        }
+      }
+    },
+    {
+      "id": "39867:46664",
+      "name": "[pwa] tui-input-search",
+      "description": "Отдельный инпут поиска, стилизованный под нативный айос",
+      "documentationLinks": [],
+      "variantCount": 8,
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus",
+            "disabled",
+            "pressed"
+          ]
+        },
+        "filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "45931:47324",
+      "name": "payment-logo",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 13,
+      "properties": {
+        "logo": {
+          "type": "VARIANT",
+          "defaultValue": "mastercard-metal",
+          "variantOptions": [
+            "mastercard-metal",
+            "maestro",
+            "mastercard",
+            "mastercard-gold",
+            "mastercard-metal-inverse",
+            "mir",
+            "mir-monochrome",
+            "unionpay",
+            "unionpay-monochrome",
+            "visa",
+            "visa-monochrome",
+            "mir-supreme",
+            "mir-supreme-metall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9151:1662",
+      "name": "system-action-sheet",
+      "description": "Системная шторка действий на iOS",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-action-sheet"
+        }
+      ],
+      "variantCount": 2,
+      "properties": {
+        "show-title#90359:497": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "subtitle#90359:499": {
+          "type": "TEXT",
+          "defaultValue": "A short description of the actions goes here."
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "iOS 26"
+          ]
+        }
+      }
+    },
+    {
+      "id": "24689:584469",
+      "name": "system-alert",
+      "description": "Системные всплывающие диалоговые окна",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-alerts"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "title#20572:0": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#20572:9": {
+          "type": "TEXT",
+          "defaultValue": "Body Text"
+        },
+        "action-1#20572:18": {
+          "type": "TEXT",
+          "defaultValue": "Action"
+        },
+        "action-2#20572:27": {
+          "type": "TEXT",
+          "defaultValue": "Action"
+        },
+        "show-description#22981:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-title#60632:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "Android",
+            "iOS 18",
+            "iOS 26"
+          ]
+        },
+        "night-mode": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "vertical": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "24708:577310",
+      "name": "system-bottom-bar",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-bottom-bar"
+        }
+      ],
+      "variantCount": 30,
+      "properties": {
+        "show-dragger#90258:415": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Dragger",
+          "variantOptions": [
+            "Dragger",
+            "Buttons"
+          ]
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Opposite",
+          "variantOptions": [
+            "Transparent Light",
+            "Light Bg",
+            "Dark Bg",
+            "Transparent Dark",
+            "Opposite"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "Android",
+            "Android (samsung)",
+            "iOS 18",
+            "iOS 26"
+          ]
+        },
+        "Keyboard": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "544:151464",
+      "name": "system-browser-bar",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 4,
+      "properties": {
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "While Scrolling",
+            "Normal"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "iOS 26"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42221:48343",
+      "name": "system-browser-chrome",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 3,
+      "properties": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Address bar",
+          "variantOptions": [
+            "Address bar",
+            "Tab bar"
+          ]
+        },
+        "Scrolled": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "10312:84",
+      "name": "system-checkbox",
+      "description": "Стилизованный системный чекбокс",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-checkbox"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "selected",
+          "variantOptions": [
+            "normal",
+            "indeterminate",
+            "selected",
+            "selected-disabled",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53362:296599",
+      "name": "system-context-menu",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Dark Mode": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25165:592774",
+      "name": "system-keyboard",
+      "description": "Системные клавиатуры",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-keyboard"
+        }
+      ],
+      "variantCount": 35,
+      "properties": {
+        "Suggest#52760:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-button#90500:608": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "iOS 26",
+            "Android"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Text Rus",
+          "variantOptions": [
+            "Text Eng",
+            "Text Rus",
+            "Numeric",
+            "Emoji"
+          ]
+        },
+        "Night mode": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Smartfields": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53444:299205",
+      "name": "system-lockscreen",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 5,
+      "properties": {
+        "Show Stack#53444:24": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "Android",
+            "iOS 26"
+          ]
+        },
+        "Mode": {
+          "type": "VARIANT",
+          "defaultValue": "Day",
+          "variantOptions": [
+            "Day",
+            "Night"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53362:297214",
+      "name": "system-push",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "App Name#1067:49": {
+          "type": "TEXT",
+          "defaultValue": "Т-Банк"
+        },
+        "Desc.#1067:62": {
+          "type": "TEXT",
+          "defaultValue": "Покупка на 100₽, карта *1123 Доступно 1 298 789 ₽"
+        },
+        "Sec. Title#1259:6": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Sec. Title Text#1259:8": {
+          "type": "TEXT",
+          "defaultValue": "Покупка"
+        },
+        "Time#1259:9": {
+          "type": "TEXT",
+          "defaultValue": "Сейчас"
+        },
+        "Image#53376:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Dark Mode": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True",
+            "off"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Avatar"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "Android",
+            "iOS 26"
+          ]
+        }
+      }
+    },
+    {
+      "id": "28036:523553",
+      "name": "system-radiobutton",
+      "description": "Стилизованный системный радиобаттон\nНа айосе выглядит так же как, чекбокс",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-radiobutton"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "selected",
+          "variantOptions": [
+            "normal",
+            "selected",
+            "disabled",
+            "selected-disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "91657:37703",
+      "name": "system-searchfield",
+      "description": "ТОЛЬКО НАТИВНЫЙ iOS26! СИСТЕМНЫЙ КОМПОНЕНТ",
+      "documentationLinks": [],
+      "variantCount": 8,
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus"
+          ]
+        },
+        "filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "inline",
+          "variantOptions": [
+            "inline",
+            "floating"
+          ]
+        }
+      }
+    },
+    {
+      "id": "24684:593518",
+      "name": "system-segmented-control (tabs)",
+      "description": "Нативные табы",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-segmented-control-tabs"
+        }
+      ],
+      "variantCount": 44,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Night mode": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Quantity": {
+          "type": "VARIANT",
+          "defaultValue": "2 tabs",
+          "variantOptions": [
+            "4 tabs",
+            "5+ tabs",
+            "3 tabs",
+            "2 tabs"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "1st",
+          "variantOptions": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44720:304564",
+      "name": "system-share-sheet",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 2,
+      "properties": {
+        "Night Mode": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "8930:26243",
+      "name": "system-status-bar",
+      "description": "Нативная статусная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/system-status-bar"
+        }
+      ],
+      "variantCount": 22,
+      "properties": {
+        "Time#22101:1": {
+          "type": "TEXT",
+          "defaultValue": "9:41"
+        },
+        "Show Notch#53444:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Sheet Bar#53444:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Light Bg",
+          "variantOptions": [
+            "Light Bg",
+            "Dark Bg",
+            "Page Sheet"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 26",
+            "iOS 18",
+            "Android"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "iPhone 11 Pro",
+          "variantOptions": [
+            "iPhone 11 Pro",
+            "iPhone 14 Pro",
+            "iPhone 16 Pro",
+            "Pixel",
+            "Samsung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9940:39560",
+      "name": "system-switch",
+      "description": "Системный тоггл",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-switch"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "iOS 26",
+            "Android"
+          ]
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "disabled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44037:288637",
+      "name": "tui-amount",
+      "description": "Форматтер для отображения денежных сумм и других числовых значений\n\n\nKeywords: money, quantity, number",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-amount-specs"
+        }
+      ],
+      "variantCount": 108,
+      "properties": {
+        "icon-small#33978:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "33978:46175",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8a3f72ef2c8744562b3cfd522dcc4b67e35e34f3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2f8b1cdf953525eb0537914ad134c81b411bf582"
+            }
+          ]
+        },
+        "icon-large#33978:1": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "33978:46179",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "75b6c94aa319a94e95eadfcfb301744f29758298"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d52e7affbe8aa682079604419832dbd490008ac8"
+            }
+          ]
+        },
+        "show-fraction#44042:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-sign#44042:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "integer#44042:6": {
+          "type": "TEXT",
+          "defaultValue": "123"
+        },
+        "fraction#44042:11": {
+          "type": "TEXT",
+          "defaultValue": "45"
+        },
+        "currency#44042:16": {
+          "type": "TEXT",
+          "defaultValue": "₽"
+        },
+        "show-currency#44042:21": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "Numbers XL",
+          "variantOptions": [
+            "UI XS",
+            "UI S",
+            "Body M",
+            "Body L",
+            "Numbers M",
+            "Numbers XL"
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "format": {
+          "type": "VARIANT",
+          "defaultValue": "Russian",
+          "variantOptions": [
+            "Russian",
+            "Foreign (symbol)",
+            "Foreign (code)",
+            "Russian (icon)"
+          ]
+        },
+        "sign ±": {
+          "type": "VARIANT",
+          "defaultValue": "Minus",
+          "variantOptions": [
+            "Minus",
+            "Plus"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25752:487144",
+      "name": "tui-app-bar",
+      "description": "Навигационный блок для верхней части экрана\n\ntui-appbar, navbar",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-appbar-specs"
+        }
+      ],
+      "variantCount": 74,
+      "properties": {
+        "show-subtitle#47923:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "title#63750:0": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "action-right#63750:64": {
+          "type": "TEXT",
+          "defaultValue": "Action"
+        },
+        "show-start-button#90258:51": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-end-button#90258:107": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "subtitle#90258:163": {
+          "type": "TEXT",
+          "defaultValue": "Subtitle"
+        },
+        "show-top-indent#90258:219": {
+          "type": "BOOLEAN",
+          "boundVariables": {
+            "defaultValue": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:90258:111294"
+            }
+          },
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "Android",
+            "iOS 18",
+            "iOS 26"
+          ]
+        },
+        "middle": {
+          "type": "VARIANT",
+          "defaultValue": "Title",
+          "variantOptions": [
+            "Title",
+            "Progress",
+            "None"
+          ]
+        },
+        "left": {
+          "type": "VARIANT",
+          "defaultValue": "Back",
+          "variantOptions": [
+            "Back",
+            "Close",
+            "None"
+          ]
+        },
+        "right": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "Icon",
+            "Text",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25745:690405",
+      "name": "tui-avatar",
+      "description": "Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-avatar-specs"
+        }
+      ],
+      "variantCount": 316,
+      "properties": {
+        "Icon#41334:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41881:45334",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "0a8b652c9135f788a9a45f048d6746aeab2c0e6f"
+            }
+          ]
+        },
+        "Image (Instance)#46852:193": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41842:46366",
+          "preferredValues": []
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small",
+            "xx-small"
+          ]
+        },
+        "Square": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Badge": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "top",
+            "top-plus-bottom",
+            "bottom",
+            "t-client",
+            "off"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Image (Fill)",
+            "Text",
+            "Image (Instance)",
+            "Initials"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "68613:55962",
+      "name": "tui-avatar [badged-subscription-icon]",
+      "description": "Пресет аватара с бейджем сложной формы",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-avatar-specs"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "show-badge-top#84842:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-badge-bottom#84842:13": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "square": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53606:309279",
+      "name": "tui-avatar-labelled",
+      "description": "Обычный аватар с лейблом",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-avatar-labelled-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "first-line#20324:0": {
+          "type": "TEXT",
+          "defaultValue": "Avatar label"
+        },
+        "seond-line#20331:7": {
+          "type": "TEXT",
+          "defaultValue": "Avatar label"
+        },
+        "show-second-line#20331:26": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-ripple#97811:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "fade": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "medium",
+          "variantOptions": [
+            "medium",
+            "large",
+            "small"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25526:614200",
+      "name": "tui-avatar-stack",
+      "description": "Стопка аватаров для использования в карточках или отдельно. Чтобы убрать лишние аватары, просто удалите их",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-avatar-stack-specs"
+        }
+      ],
+      "variantCount": 48,
+      "properties": {
+        "Avatar 4#42195:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Avatar 3#42195:17": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Avatar 2#42195:34": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android",
+            "–"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "medium",
+          "variantOptions": [
+            "medium",
+            "large",
+            "small",
+            "xx-small"
+          ]
+        },
+        "Square": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Flip": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25738:686585",
+      "name": "tui-badge",
+      "description": "Бейдж для использования в ячейках, заголовках, карточках и любых других местах",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badge-specs"
+        }
+      ],
+      "variantCount": 124,
+      "properties": {
+        "text#19805:0": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "logo#45235:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41842:46366",
+          "preferredValues": []
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "icon+text",
+          "variantOptions": [
+            "icon",
+            "icon+text",
+            "image (fill)",
+            "image (instance)",
+            "text"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "x-large",
+          "variantOptions": [
+            "x-large",
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "light-text",
+          "variantOptions": [
+            "dark-text",
+            "light-text",
+            "accent-1 (cashback)",
+            "accent-2 (installment)",
+            "image (fill)",
+            "image"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "Off",
+          "variantOptions": [
+            "Off",
+            "On"
+          ]
+        }
+      }
+    },
+    {
+      "id": "26895:46826",
+      "name": "tui-badge [cashback]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badge-cashback"
+        }
+      ],
+      "variantCount": 84,
+      "properties": {
+        "show-icon#6:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "text#6:144": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "x-large",
+          "variantOptions": [
+            "x-large",
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "all-airlines",
+          "variantOptions": [
+            "all-airlines",
+            "black",
+            "all-games-debit",
+            "all-games-credit",
+            "platinum"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "icon-position": {
+          "type": "VARIANT",
+          "defaultValue": "right",
+          "variantOptions": [
+            "right",
+            "left"
+          ]
+        }
+      }
+    },
+    {
+      "id": "68613:55102",
+      "name": "tui-badge [subscription-icon-shield]",
+      "description": "Бейдж нестандартной формы",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badge-shield"
+        }
+      ],
+      "variantCount": 28,
+      "properties": {
+        "show-mask#6028:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "x-large",
+          "variantOptions": [
+            "x-large",
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearsance": {
+          "type": "VARIANT",
+          "defaultValue": "premium",
+          "variantOptions": [
+            "private",
+            "premium",
+            "t-bank"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "87688:44061",
+      "name": "tui-badge [subscription-icon]",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 12,
+      "properties": {
+        "show-mask#5:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "x-large",
+          "variantOptions": [
+            "x-large",
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "68613:55199",
+      "name": "tui-badge [subscription]",
+      "description": "Пресеты бейджей с иконками подписок",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badge-subscription"
+        }
+      ],
+      "variantCount": 56,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "logo-plus-label",
+          "variantOptions": [
+            "icon-plus-label",
+            "logo-plus-label"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "x-large",
+          "variantOptions": [
+            "x-large",
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "pro",
+          "variantOptions": [
+            "premium",
+            "private",
+            "pro"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "6392:51900",
+      "name": "tui-badge [t-client]",
+      "description": "Badge для индикации клиентов Тинькофф",
+      "documentationLinks": [],
+      "variantCount": 2,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25738:689227",
+      "name": "tui-badge notification",
+      "description": "Бейдж для использования в ячейках, заголовках, карточках и любых других местах",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badge-notification"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "medium",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25745:690323",
+      "name": "tui-badged-content",
+      "description": "Обертка с бейджами, которую можно применить к любому компоненту, где требуется бейдж",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-badged-content-specs"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Badge": {
+          "type": "VARIANT",
+          "defaultValue": "top-plus-bottom",
+          "variantOptions": [
+            "top",
+            "top-plus-bottom",
+            "bottom",
+            "t-client",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "47912:303878",
+      "name": "tui-block-details",
+      "description": "Блок с контентом для экранов деталей операций и т.д.",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-block-details-specs"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "comment-text#20020:0": {
+          "type": "TEXT",
+          "defaultValue": "Comment"
+        },
+        "show-amount-description-2#23763:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-status#23763:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "icon-status#23763:10": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "62300:60218",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "71cafb4f593973b650f2ff78103df9d55eb5edf5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fc2086d21ba389d05b7fcbcfdc90394c75416412"
+            }
+          ]
+        },
+        "title-description-text#47912:1": {
+          "type": "TEXT",
+          "defaultValue": "TitleDescription"
+        },
+        "show-title-desctiption#47912:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-amount-description#47912:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title-value-text#47912:5": {
+          "type": "TEXT",
+          "defaultValue": "TitleValue"
+        },
+        "show-badges#47912:6": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "amount-description-text #47912:7": {
+          "type": "TEXT",
+          "defaultValue": "AmountDescription"
+        },
+        "show-comment#47912:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "preview#47912:11": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "46852:304991",
+          "preferredValues": []
+        },
+        "show-amount #49448:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "43816:296648",
+      "name": "tui-block-status",
+      "description": "Статусный блок для зеро-стейтов, экранов с ошибками и т.д.",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-block-status-specs"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "Show Text#17404:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-2nd-button#27546:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Title#44884:5": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "Text#44884:10": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "Image#45037:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "1902:66139",
+          "preferredValues": []
+        },
+        "Show Image#46555:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show Title#46555:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Fullscreen",
+          "variantOptions": [
+            "Fullscreen",
+            "Card"
+          ]
+        },
+        "Button": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44431:321226",
+      "name": "tui-bottom-sheet",
+      "description": "Модальная или немодальная шторка с кастомным контентом внутри\n\nkeywords: bottomsheet, sheet, tui-sheet",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-bottomsheet-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "placeholder-1#26278:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28497:456765",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "c9c1386707b5848b98434dd981d512ff84c5c6e7"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "e77a51984e50e6fef616904be887bf86ff3fbbfe"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "fb89416f81607847966be2cdbbb9a55295953b6b"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "92542c03b5b128b64b617e0d9b4cf4088fcf63ea"
+            }
+          ]
+        },
+        "placeholder-2#26278:19": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28497:456765",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "c9c1386707b5848b98434dd981d512ff84c5c6e7"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "e77a51984e50e6fef616904be887bf86ff3fbbfe"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "92542c03b5b128b64b617e0d9b4cf4088fcf63ea"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "fb89416f81607847966be2cdbbb9a55295953b6b"
+            }
+          ]
+        },
+        "show-footer#26828:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Height": {
+          "type": "VARIANT",
+          "defaultValue": "dynamic",
+          "variantOptions": [
+            "dynamic",
+            "full-screen",
+            "full-screen-navbar",
+            "half-screen"
+          ]
+        },
+        "show-overlay": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "show-indicator": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41658:296906",
+      "name": "tui-button",
+      "description": "Обычные кнопки в разных стилях",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-specs"
+        }
+      ],
+      "variantCount": 294,
+      "properties": {
+        "Icon#41658:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41881:45334",
+          "preferredValues": []
+        },
+        "Icon (16)#41658:7": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "106794:35086",
+          "preferredValues": []
+        },
+        "show-Icon#41658:14": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-label#41658:21": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Text#41658:28": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "accent",
+            "primary-destructive",
+            "primary-grayscale",
+            "secondary",
+            "secondary-destructive",
+            "secondary-grayscale",
+            "flat",
+            "flat-destructive",
+            "flat-grayscale",
+            "glass",
+            "floating"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed",
+            "loading",
+            "disabled"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "7319:38983",
+      "name": "tui-button [add-card]",
+      "description": "Дополнительный стиль tui-button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-add-card"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large 54x36",
+          "variantOptions": [
+            "large 54x36",
+            "medium 48x32",
+            "small 40x26"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53169:295889",
+      "name": "tui-button [cell]",
+      "description": "Кнопка-ссылка, растянутая на всю ширину. Вставляется в список с ячейками",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-cell"
+        }
+      ],
+      "variantCount": 32,
+      "properties": {
+        "show-icon#14280:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "icon#14280:33": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "12716:39618",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "06cfffd0f9ecff20353e70ef5916cf79b066d875"
+            }
+          ]
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "destructicve"
+          ]
+        },
+        "is-compact": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "disabled",
+            "loading",
+            "pressed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "30258:432933",
+      "name": "tui-button [close]",
+      "description": "Дополнительный стиль tui-button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-close"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "android",
+            "ios"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal"
+          ]
+        },
+        "environment": {
+          "type": "VARIANT",
+          "defaultValue": "on-base",
+          "variantOptions": [
+            "on-base",
+            "on-light",
+            "on-dark"
+          ]
+        },
+        "Theme": {
+          "type": "VARIANT",
+          "defaultValue": "light",
+          "variantOptions": [
+            "light",
+            "dark",
+            "—"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "small",
+            "x-small"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44290:299166",
+      "name": "tui-button [like]",
+      "description": "Стиль компонента Button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-like"
+        }
+      ],
+      "variantCount": 24,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "secondary",
+          "variantOptions": [
+            "secondary",
+            "glass-on-light",
+            "glass-on-dark"
+          ]
+        },
+        "is-selected": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42565:304987",
+      "name": "tui-button [link]",
+      "description": "Стиль компонента Button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-link"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "Text#53244:0": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Icon",
+            "Text"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "Loading",
+            "Normal",
+            "Pressed",
+            "Disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "59194:53406",
+      "name": "tui-button [on-light-on-dark]",
+      "description": "Кнопки, внешний вид которых не меняется при переключении тем. Используются на контрастных фонах, цвет которых не зависит от темы",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-specs"
+        }
+      ],
+      "variantCount": 198,
+      "properties": {
+        "Icon#59194:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41881:45334",
+          "preferredValues": []
+        },
+        "Icon (16)#59194:1": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "106794:35086",
+          "preferredValues": []
+        },
+        "Text#59194:2": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "show-Icon#59194:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-label#59194:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "android",
+            "ios"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "primary-grayscale-on-dark",
+          "variantOptions": [
+            "primary-grayscale-on-dark",
+            "primary-grayscale-on-light",
+            "secondary-grayscale-on-dark",
+            "secondary-grayscale-on-light",
+            "flat-grayscale-on-dark",
+            "flat-grayscale-on-light",
+            "glass-on-dark",
+            "glass-on-light"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed",
+            "loading",
+            "disabled"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44290:299199",
+      "name": "tui-button [share]",
+      "description": "Стиль компонента Button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-share"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "secondary",
+          "variantOptions": [
+            "glass-on-light",
+            "secondary",
+            "glass-on-dark"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44236:302826",
+      "name": "tui-button [subscription]",
+      "description": "Стиль tui-button с иконками подписок",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-subscription"
+        }
+      ],
+      "variantCount": 50,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "premium",
+          "variantOptions": [
+            "premium",
+            "pro",
+            "private"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Disabled",
+            "Loading",
+            "Pressed"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "51388:47169",
+      "name": "tui-button [two labels]",
+      "description": "Вариант обычной кнопки с 2 лейблами",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-specs"
+        }
+      ],
+      "variantCount": 20,
+      "properties": {
+        "platform": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed",
+            "loading",
+            "disabled"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41691:305320",
+      "name": "tui-button [vertical]",
+      "description": "Вертикальный стиль кнопки tui-button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-vertical"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "Icon#42807:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "106794:35086",
+          "preferredValues": []
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "Normal",
+            "Pressed",
+            "Disabled"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "54757:286088",
+      "name": "tui-button [wallet]",
+      "description": "Нативные кнопки добавления в кошелек",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-wallet"
+        }
+      ],
+      "variantCount": 34,
+      "properties": {
+        "Label#54470:0": {
+          "type": "TEXT",
+          "defaultValue": "Добавить в "
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "Android",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Tinkoff Pay",
+          "variantOptions": [
+            "Apple Wallet",
+            "Tinkoff Pay",
+            "Google Pay",
+            "Samsung Pay",
+            "Mir Pay"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "L - 56",
+          "variantOptions": [
+            "L - 56",
+            "M - 44"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "Normal",
+            "Pressed",
+            "Loading",
+            "Disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25748:771367",
+      "name": "tui-button tooltip",
+      "description": "Стиль компонента Button",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-tooltip"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "is-selected": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "is-pressed": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "icon": {
+          "type": "VARIANT",
+          "defaultValue": "hint",
+          "variantOptions": [
+            "hint",
+            "info"
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "36326:422777",
+      "name": "tui-button-group-card",
+      "description": "Компактный блок с быстрыми действиями. Может быть от 1 до 3 кнопок",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-button-group-card-specs"
+        }
+      ],
+      "variantCount": 22,
+      "properties": {
+        "btn-1 badge#42988:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "btn-1 badge icon#42988:19": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "79982:45522",
+          "preferredValues": []
+        },
+        "btn-1 label#42988:57": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "btn-2 icon#43374:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "62300:60215",
+          "preferredValues": []
+        },
+        "btn-2 label#43374:19": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "btn-2 badge#43374:38": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "btn-2 badge icon#43374:57": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "79982:45522",
+          "preferredValues": []
+        },
+        "btn-3 icon#43374:76": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "62300:60215",
+          "preferredValues": []
+        },
+        "btn-3 label#43374:95": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "btn-3 badge#43374:114": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "btn-3 badge icon#43374:133": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "79982:45522",
+          "preferredValues": []
+        },
+        "btn-1 icon#43374:152": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "62300:60215",
+          "preferredValues": []
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "elevated",
+          "variantOptions": [
+            "dark-bg",
+            "elevated",
+            "flat"
+          ]
+        },
+        "buttons": {
+          "type": "VARIANT",
+          "defaultValue": "3",
+          "variantOptions": [
+            "3",
+            "2",
+            "1"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2793:75470",
+      "name": "tui-card [account]",
+      "description": "⚪ Not In TUI (Дизайн-шаблон)",
+      "documentationLinks": [],
+      "variantCount": 6,
+      "properties": {
+        "Show Notification#2793:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show tui-row#2793:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "account-type": {
+          "type": "VARIANT",
+          "defaultValue": "debit",
+          "variantOptions": [
+            "debit",
+            "deposit",
+            "other"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42587:291989",
+      "name": "tui-card-large",
+      "description": "Карточка с разным контентом внутри",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-card-large-specs"
+        }
+      ],
+      "variantCount": 48,
+      "properties": {
+        "Content#44231:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "13167:129045",
+          "preferredValues": []
+        },
+        "Systеm": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "Preset": {
+          "type": "VARIANT",
+          "defaultValue": "Header Subheader",
+          "variantOptions": [
+            "Cell",
+            "Cell List",
+            "Custom",
+            "Header",
+            "Header Subheader",
+            "Small",
+            "Cell + Close",
+            "Map",
+            "Cell + Button",
+            "Scroll card"
+          ]
+        },
+        "Flat": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Footer": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "id": "11335:41574",
+      "name": "tui-card-medium ",
+      "description": "Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-card-medium-specs"
+        }
+      ],
+      "variantCount": 41,
+      "properties": {
+        "show-tui-badge notification#90:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "image#139:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "11335:41752",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "366a3e053c2b0c5bf870e735851e6c84e630b9ee"
+            }
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "text",
+            "text+icon",
+            "text+badge",
+            "text+avatar",
+            "text+avatar-stack"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "text-position": {
+          "type": "VARIANT",
+          "defaultValue": "bottom",
+          "variantOptions": [
+            "top",
+            "bottom"
+          ]
+        },
+        "background": {
+          "type": "VARIANT",
+          "defaultValue": "image-placeholder",
+          "variantOptions": [
+            "image-placeholder",
+            "fill"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41569:290555",
+      "name": "tui-cell",
+      "description": "Ячейка с текстом",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 42,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "value#42565:0": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "value-description#42565:17": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "show-badge#42565:34": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#42565:51": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "right-side": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "None",
+            "Text",
+            "Accessory"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Compact",
+            "Default",
+            "Extended"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2793:73350",
+      "name": "tui-cell [account]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 14,
+      "properties": {
+        "family-access#3:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "cashback#3:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "income#3:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "bonus#3:19": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "loss#7:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "badges#7:13": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "100 000 ₽"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "right-side": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Text"
+          ]
+        },
+        "account-type": {
+          "type": "VARIANT",
+          "defaultValue": "—",
+          "variantOptions": [
+            "—",
+            "Debit",
+            "Deposit",
+            "Credit",
+            "Saving",
+            "Invest"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41637:306482",
+      "name": "tui-cell [action]",
+      "description": "Ячейка с действием",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "action-text#41637:27": {
+          "type": "TEXT",
+          "defaultValue": "Action"
+        },
+        "show-badge#55902:146": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#55902:147": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41637:306089",
+      "name": "tui-cell [button]",
+      "description": "Ячейка с кнопкой",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show-badge#55902:92": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#55902:101": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41637:307793",
+      "name": "tui-cell [checkbox]",
+      "description": "Ячейка с чекбоксом",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show-badge#41569:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#41569:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41637:306903",
+      "name": "tui-cell [checkicon]",
+      "description": "Ячейка с иконкой выбора",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show-selected#49089:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53219:295268",
+      "name": "tui-cell [connected]",
+      "description": "Ячейка с соединительными линиями",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-connected-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description text#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption text#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show bottom connect#53219:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show top connect#53219:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-accessories#62256:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "version": {
+          "type": "VARIANT",
+          "defaultValue": "actual",
+          "variantOptions": [
+            "actual"
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41637:305628",
+      "name": "tui-cell [disclosure]",
+      "description": "Ячейка с индикатором раскрытия",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 20,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show-disclosure-text#41637:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "disclosure-text#41637:18": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "show-badge#41637:36": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#41637:45": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "compact": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44305:304744",
+      "name": "tui-cell [invest]",
+      "description": "Шаблон ячейки для инвестиций на основе tui-cell-operation",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 14,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "value#42565:0": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "value-description#42565:17": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "show-notification#44290:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-checkbox#44290:30": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-lock-badge#44305:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-blue-badge#44305:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-red-badge#44305:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-green-badge#44305:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "positive-value#44305:20": {
+          "type": "TEXT",
+          "defaultValue": "+99,99 ₽"
+        },
+        "negative-value#44305:29": {
+          "type": "TEXT",
+          "defaultValue": "−99,99 ₽"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "value-description-style": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Text",
+            "Positive",
+            "Negative"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "63132:295599",
+      "name": "tui-cell [mobile]",
+      "description": "Шаблон ячейки для Мобайла",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "value#42565:0": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "value-description#42565:17": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "show-notification#44290:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Aon ✅#63304:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Aon ❌#63327:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Aon ⚠️#63327:5": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Crimea#63327:20": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Roaming#63327:25": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Secretary#63341:45": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Record#63341:50": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Protect#63341:55": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Virtual#63341:60": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "status": {
+          "type": "VARIANT",
+          "defaultValue": "Income",
+          "variantOptions": [
+            "Income",
+            "Missed",
+            "Outcome"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44290:314128",
+      "name": "tui-cell [operation]",
+      "description": "Ячейка операции.",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-operation-specs"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "value#42565:0": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "value-description#42565:17": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "show-notification#44290:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "outgoing-message#44290:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "incoming-message#44290:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-comment#44290:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-badge#44290:20": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-checkbox#44290:30": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "extended": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41569:291397",
+      "name": "tui-cell [switch]",
+      "description": "Ячейка с тогглом",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-cell-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "show-caption#41541:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-description#41541:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-avatar#41541:38": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#41541:45": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "description#41541:55": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "caption#41541:65": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "show-badge#41569:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-hint#41569:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "fixed-height": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42638:295990",
+      "name": "tui-chip",
+      "description": "Отдельный чипс. Используется как элемент выбора, элемент фильтра или как элемент вывода информации\n\n\nKeywords: chip, chips, tag, чип, тэг, чипсы",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-chips-specs"
+        }
+      ],
+      "variantCount": 118,
+      "properties": {
+        "show badge#20703:119": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "medium",
+            "small"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "neutral",
+          "variantOptions": [
+            "accent",
+            "floating",
+            "neutral"
+          ]
+        },
+        "left content": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "icon",
+            "image",
+            "none"
+          ]
+        },
+        "right content": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "close",
+            "dropdown",
+            "none"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "is-disable": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "115603:32334",
+      "name": "tui-chip-group",
+      "description": "Вывод чипсов списком. Кликабельные и некликабельные",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-chip-group-specs"
+        }
+      ],
+      "variantCount": 8,
+      "properties": {
+        "slot#115603:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": true,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "6bcfbfa4a317f66d3eabb45597bfd55fc5638e34"
+            }
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Scrollable": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "S",
+          "variantOptions": [
+            "S",
+            "M"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44286:300575",
+      "name": "tui-chip-group [choice]",
+      "description": "Единичный выбор чипсов",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-chip-group-specs"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Scrollable": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "S",
+          "variantOptions": [
+            "S",
+            "M"
+          ]
+        },
+        "Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "Start",
+          "variantOptions": [
+            "Start",
+            "Center"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44286:300668",
+      "name": "tui-chip-group [filter]",
+      "description": "Фильтр с удаляемыми чипсами",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-chips-specs"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Scrollable": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "S",
+          "variantOptions": [
+            "S",
+            "M"
+          ]
+        },
+        "Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "Start",
+          "variantOptions": [
+            "Start",
+            "Center"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44286:300482",
+      "name": "tui-chip-group [list]",
+      "description": "Вывод чипсов списком. Кликабельные и некликабельные",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-chip-group-specs"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Scrollable": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "S",
+          "variantOptions": [
+            "S",
+            "M"
+          ]
+        },
+        "Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "Start",
+          "variantOptions": [
+            "Start",
+            "Center"
+          ]
+        }
+      }
+    },
+    {
+      "id": "16661:51922",
+      "name": "tui-counter",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-counter-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "Preset": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary",
+            "Secondary Separated"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44286:299509",
+      "name": "tui-floating-container",
+      "description": "Блок с закрепленными при скролле действиями",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-floating-container-specs"
+        }
+      ],
+      "variantCount": 12,
+      "properties": {
+        "show-fade#55399:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-home-indicator#57425:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "two-actions",
+          "variantOptions": [
+            "action",
+            "two-actions",
+            "action+legal",
+            "custom-content"
+          ]
+        },
+        "background": {
+          "type": "VARIANT",
+          "defaultValue": "base",
+          "variantOptions": [
+            "off",
+            "base",
+            "elevation-1"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42565:304670",
+      "name": "tui-header",
+      "description": "Заголовок для группы контента или шторки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 30,
+      "properties": {
+        "Hint#41997:12": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Badge#41997:19": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "HeaderText#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "SubheaderText#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "DescriptionText#42565:86": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "Subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Medium",
+          "variantOptions": [
+            "Medium",
+            "Small"
+          ]
+        },
+        "Description": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "TextAlign": {
+          "type": "VARIANT",
+          "defaultValue": "start",
+          "variantOptions": [
+            "start",
+            "center"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "41997:290341",
+      "name": "tui-header [action]",
+      "description": "Заголовок для группы контента или шторки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "Hint#41997:12": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Badge#41997:19": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "HeaderText#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "SubheaderText#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "DescriptionText#42565:86": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "Subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Medium",
+          "variantOptions": [
+            "Medium",
+            "Small"
+          ]
+        },
+        "Description": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42565:304195",
+      "name": "tui-header [button]",
+      "description": "Заголовок для группы контента или шторки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "Hint#41997:12": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Badge#41997:19": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "HeaderText#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "SubheaderText#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "DescriptionText#42565:86": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "Subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Medium",
+          "variantOptions": [
+            "Medium",
+            "Small"
+          ]
+        },
+        "Description": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44217:298609",
+      "name": "tui-header [card]",
+      "description": "Заголовок для карточки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "Hint#41997:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Badge#41997:19": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "HeaderText#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "SubheaderText#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "Subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Description#56480:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Caption#59837:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "CaptionText#59837:15": {
+          "type": "TEXT",
+          "defaultValue": "Caption"
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "Accessory": {
+          "type": "VARIANT",
+          "defaultValue": "Avatar",
+          "variantOptions": [
+            "Avatar",
+            "Button",
+            "Button Link",
+            "Switch",
+            "None"
+          ]
+        },
+        "Extended": {
+          "type": "VARIANT",
+          "defaultValue": "Off",
+          "variantOptions": [
+            "Off",
+            "On"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42565:305012",
+      "name": "tui-header [large]",
+      "description": "Заголовок экрана",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 20,
+      "properties": {
+        "title#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "subheader#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "descrption#42565:86": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "show-subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-icon#42579:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "show-description": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "text-align": {
+          "type": "VARIANT",
+          "defaultValue": "start",
+          "variantOptions": [
+            "start",
+            "center"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "extended": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42565:303804",
+      "name": "tui-header [switch]",
+      "description": "Заголовок для группы контента или шторки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-header-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "Hint#41997:12": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Badge#41997:19": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "HeaderText#42565:68": {
+          "type": "TEXT",
+          "defaultValue": "Header"
+        },
+        "SubheaderText#42565:77": {
+          "type": "TEXT",
+          "defaultValue": "Subheader"
+        },
+        "DescriptionText#42565:86": {
+          "type": "TEXT",
+          "defaultValue": "Description"
+        },
+        "Subheader#42565:95": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Medium",
+          "variantOptions": [
+            "Medium",
+            "Small"
+          ]
+        },
+        "Description": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Accessories": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "43816:296032",
+      "name": "tui-illustration-screen",
+      "description": "Шаблон экрана с иллюстрацией для одноэкранных онбордингов или статусных экранов.",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-illustration-screen-specs"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "Image#44884:15": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "732:67510",
+          "preferredValues": []
+        },
+        "Show Placeholder#51812:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Title#63519:0": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "Subtitle#63519:5": {
+          "type": "TEXT",
+          "defaultValue": "Subtitle"
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android",
+            "PWA/WebView -  bottomsheet",
+            "PWA/Webview - fullscreen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "55278:70443",
+      "name": "tui-link",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-link-specs"
+        }
+      ],
+      "variantCount": 30,
+      "properties": {
+        "icon-left#29801:31": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "55278:70419",
+          "preferredValues": []
+        },
+        "show-icon-left#29801:46": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-icon-right#29801:51": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "label#29801:89": {
+          "type": "TEXT",
+          "defaultValue": "Link"
+        },
+        "platform": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "mode": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "text-primary",
+            "text-secondary",
+            "text-primary-on-dark",
+            "text-primary-on-light"
+          ]
+        }
+      }
+    },
+    {
+      "id": "79180:42610",
+      "name": "tui-list [bulleted]",
+      "description": "Шаблон маркированного списка\n\nkeywords: tui-list, ul, ol, bullet, marker",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-list-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "2 item#6145:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "3 item#6145:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "4 item#6145:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "5 item#6145:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "6 item#6145:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "IOS",
+          "variantOptions": [
+            "Android",
+            "IOS"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "Body L",
+            "Body M",
+            "Body S"
+          ]
+        }
+      }
+    },
+    {
+      "id": "79180:42880",
+      "name": "tui-list [numbered]",
+      "description": "Шаблон нумерованного списка\n\nkeywords: tui-list, ol, ul, number, digit",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-list-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "2 item#6146:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "3 item#6146:18": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "4 item#6146:21": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "5 item#6146:24": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "6 item#6146:27": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "IOS",
+          "variantOptions": [
+            "IOS",
+            "Android"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "Body M",
+            "Body L",
+            "Body S"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53190:295267",
+      "name": "tui-list-item [bulleted]",
+      "description": "Элемент маркированного списка",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-list-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "UI S",
+            "Body M",
+            "Body L"
+          ]
+        }
+      }
+    },
+    {
+      "id": "79180:42849",
+      "name": "tui-list-item [numbered]",
+      "description": "Элемент нумерованного списка",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-list-specs"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "item-number#6250:0": {
+          "type": "TEXT",
+          "defaultValue": "1."
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "Body L",
+            "Body M",
+            "UI S"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "IOS",
+          "variantOptions": [
+            "IOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9999:26",
+      "name": "tui-loader",
+      "description": "Индикатор загрузки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-loader-specs"
+        }
+      ],
+      "variantCount": 5,
+      "properties": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "12x12",
+          "variantOptions": [
+            "12x12",
+            "16x16",
+            "24x24",
+            "32x32",
+            "40x40"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44231:314707",
+      "name": "tui-message-bubble",
+      "description": "Баббл инлайнового комментария или сообщения",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-message-bubble-specs"
+        }
+      ],
+      "variantCount": 24,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "accent",
+          "variantOptions": [
+            "accent",
+            "neutral-1"
+          ]
+        },
+        "length": {
+          "type": "VARIANT",
+          "defaultValue": "short",
+          "variantOptions": [
+            "short",
+            "long fade",
+            "long multiline"
+          ]
+        },
+        "position": {
+          "type": "VARIANT",
+          "defaultValue": "left",
+          "variantOptions": [
+            "left",
+            "right"
+          ]
+        }
+      }
+    },
+    {
+      "id": "22466:378682",
+      "name": "tui-notification-banner",
+      "description": "Баннер со статусным уведомлением",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-notification-banner-specs"
+        }
+      ],
+      "variantCount": 60,
+      "properties": {
+        "is-interactive-icon#14282:66": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "39560:46125",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "5f07f19941fd54d7765d8fb3f752c04401065edd"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "8594355c299b76df7c11ee71f6796ec38499ddb9"
+            }
+          ]
+        },
+        "label#20572:36": {
+          "type": "TEXT",
+          "defaultValue": "Notification label"
+        },
+        "Icon#44231:44": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "info",
+          "variantOptions": [
+            "info",
+            "success",
+            "warning",
+            "negative",
+            "neutral"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed"
+          ]
+        },
+        "is-interactive": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        }
+      }
+    },
+    {
+      "id": "39739:293413",
+      "name": "tui-notification-middle",
+      "description": "Модальная нотификация в центре экрана",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-notification-middle-specs"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "icon#70856:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "43680:292637",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "a6636d6c60fc50a297e500c613c2cc64d6229568"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "320d54db3141144cf2f84aaf50b05b2a0e6295ac"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "21e3331eb82bc892cc899800d3bd46ba9deb0e39"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5b852ae923c5a18d5e44a8d06de59ec740e68600"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "54c9a7ece7fa8611652197013c540dd54d619fa3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1b0f14c2fafb289df5ff4bf2c9e2e2daeaa3444f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "440a2266c38048c5579d0676460d499bd1e70325"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "35a3422d655075a9bf505e6ad221f02f256f0237"
+            }
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "text": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "32204:470960",
+      "name": "tui-notification-toast",
+      "description": "ℹ️ Отступ зашит, прижимаем к верху основного фрейма",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-notification-toast-specs"
+        }
+      ],
+      "variantCount": 24,
+      "properties": {
+        "icon#63940:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "52740:47309",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "1b0f14c2fafb289df5ff4bf2c9e2e2daeaa3444f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "320d54db3141144cf2f84aaf50b05b2a0e6295ac"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a6636d6c60fc50a297e500c613c2cc64d6229568"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "440a2266c38048c5579d0676460d499bd1e70325"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "21e3331eb82bc892cc899800d3bd46ba9deb0e39"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "54c9a7ece7fa8611652197013c540dd54d619fa3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5b852ae923c5a18d5e44a8d06de59ec740e68600"
+            }
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "none",
+            "icon",
+            "badge",
+            "avatar"
+          ]
+        },
+        "accessory": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "none",
+            "chevron",
+            "button"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44290:300333",
+      "name": "tui-onboarding-flow",
+      "description": "Компонент для пошагового онбординга",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-onboarding-flow-specs"
+        }
+      ],
+      "variantCount": 22,
+      "properties": {
+        "image (centered)#40559:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "36549:63646",
+          "preferredValues": []
+        },
+        "show-fade#40633:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "image (full)#40633:13": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "40618:295242",
+          "preferredValues": []
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android",
+            "PWA/Webview - bottomsheet",
+            "PWA/Webview - fullscreen"
+          ]
+        },
+        "template": {
+          "type": "VARIANT",
+          "defaultValue": "Image Centered",
+          "variantOptions": [
+            "Custom Content",
+            "Image Centered",
+            "Image Full Cover",
+            "Image with Padding",
+            "Phone Bottom",
+            "Phone Top"
+          ]
+        }
+      }
+    },
+    {
+      "id": "34357:426019",
+      "name": "tui-pager",
+      "description": "Индикатор постраничной навигации",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-pager-specs"
+        }
+      ],
+      "variantCount": 20,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "small",
+            "medium"
+          ]
+        },
+        "pages": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6+"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44302:52347",
+      "name": "tui-panel",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 12,
+      "properties": {
+        "show-footer-actions#21:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-accessories#61:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-glow#575:24": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-amount-hide-button#575:25": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-subtitle#575:26": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-subtitle-badge#575:27": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "placeholder-2#575:28": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "106794:35048",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "1bd8ab6884ae41c22105697a0328e386e9eeaf39"
+            }
+          ]
+        },
+        "show-placeholder-1#575:29": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-cards#575:31": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show-placeholder-2#575:32": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "placeholder-1#575:34": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "106794:35048",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "1bd8ab6884ae41c22105697a0328e386e9eeaf39"
+            }
+          ]
+        },
+        "show-footer#577:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-edit-button#624:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "title#1080:0": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "subtitle#1080:15": {
+          "type": "TEXT",
+          "defaultValue": "Subtitle"
+        },
+        "show-bg-placeholder#48526:13": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "account-card",
+          "variantOptions": [
+            "account-card",
+            "account",
+            "default"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "45576:359285",
+      "name": "tui-pin",
+      "description": "Компонент для отображения точек на карте",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-pin-specs"
+        }
+      ],
+      "variantCount": 24,
+      "properties": {
+        "subtitle#45576:50": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "subtitle-icon#45590:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "badge#45896:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "title#45959:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-direction#45977:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "icon#46093:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "12445:43478",
+          "preferredValues": []
+        },
+        "title-text#46093:19": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "subtitle-text#46093:38": {
+          "type": "TEXT",
+          "defaultValue": "Subtitle"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "User-Position",
+          "variantOptions": [
+            "Image",
+            "Icon",
+            "Icon-with-Border",
+            "Rating",
+            "Cluster",
+            "Dot",
+            "User-Position"
+          ]
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25951:712646",
+      "name": "tui-progress-bar",
+      "description": "Линейка отображения прогресса. В один компонент в фигме вшит атом и молекулы с сегментами и лейблами",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-progress-bar-specs"
+        }
+      ],
+      "variantCount": 96,
+      "properties": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "12",
+          "variantOptions": [
+            "12",
+            "8",
+            "4"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Cap": {
+          "type": "VARIANT",
+          "defaultValue": "Round",
+          "variantOptions": [
+            "Round",
+            "Square"
+          ]
+        },
+        "Segmented": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "LabelTop": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "LabelBottom": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25942:708453",
+      "name": "tui-progress-circle",
+      "description": "Круговая диаграмма прогресса",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-progress-circle-specs"
+        }
+      ],
+      "variantCount": 434,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "circleMode": {
+          "type": "VARIANT",
+          "defaultValue": "Closed",
+          "variantOptions": [
+            "Closed",
+            "Open"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "128",
+          "variantOptions": [
+            "32",
+            "40",
+            "56",
+            "64",
+            "80",
+            "96",
+            "128"
+          ]
+        },
+        "Preset": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "None",
+            "Icon",
+            "Text"
+          ]
+        },
+        "Thickness": {
+          "type": "VARIANT",
+          "defaultValue": "12",
+          "variantOptions": [
+            "2",
+            "4",
+            "6",
+            "8",
+            "12"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "10467:91596",
+      "name": "tui-rating",
+      "description": "Универсальный компонент для оценки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-rating"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "Instance#32:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "41881:45334",
+          "preferredValues": []
+        },
+        "quantity": {
+          "type": "VARIANT",
+          "defaultValue": "0",
+          "variantOptions": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53606:308726",
+      "name": "tui-row [avatar-labelled]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-row-specs"
+        }
+      ],
+      "variantCount": 2,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "48700:323897",
+      "name": "tui-row [button-vertical]",
+      "description": "Ряд вертикальных кнопок в tui-row",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-row-specs"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "Quantity": {
+          "type": "VARIANT",
+          "defaultValue": "1-3",
+          "variantOptions": [
+            "1-3",
+            "4+"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "16273:42831",
+      "name": "tui-row [card-medium]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-row-specs"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "preset": {
+          "type": "VARIANT",
+          "defaultValue": "140x140",
+          "variantOptions": [
+            "140x140",
+            "92x92"
+          ]
+        }
+      }
+    },
+    {
+      "id": "16753:52842",
+      "name": "tui-row [custom]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-row-specs"
+        }
+      ],
+      "variantCount": 2,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "25762:537956",
+      "name": "tui-search-bar",
+      "description": "Панель поиска с полем и кнопкой \"Отменить\" в фокусе.\n\nВ айосе используется нативный UISearchBar",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-searchbar-specs"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "Android",
+            "iOS 26"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed",
+            "active"
+          ]
+        },
+        "filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "16874:41486",
+      "name": "tui-segmented",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-segmented"
+        }
+      ],
+      "variantCount": 24,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "ios",
+          "variantOptions": [
+            "ios",
+            "android"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "small",
+            "medium",
+            "large"
+          ]
+        },
+        "shape": {
+          "type": "VARIANT",
+          "defaultValue": "square",
+          "variantOptions": [
+            "square",
+            "rounded"
+          ]
+        },
+        "auto-fit": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      }
+    },
+    {
+      "id": "46866:304541",
+      "name": "tui-sensitive-mode",
+      "description": "Маска, чтобы показать на дизайне sensitive mode",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-sensitive"
+        }
+      ],
+      "variantCount": 5,
+      "properties": {
+        "Font Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "Body M",
+            "UI S",
+            "UI XS",
+            "Font Size5",
+            "Body L"
+          ]
+        }
+      }
+    },
+    {
+      "id": "37840:45833",
+      "name": "tui-skeleton",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 2,
+      "properties": {
+        "keyframe": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "37840:45836",
+      "name": "tui-skeleton [text]",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 26,
+      "properties": {
+        "text-style": {
+          "type": "VARIANT",
+          "defaultValue": "heading-l",
+          "variantOptions": [
+            "heading-l",
+            "heading-m",
+            "heading-s",
+            "body-m",
+            "body-l",
+            "body-s",
+            "ui-l",
+            "ui-m",
+            "ui-s",
+            "ui-xs",
+            "ui-xxs",
+            "numbers-xl",
+            "numbers-m"
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "28406:482266",
+      "name": "tui-spacing",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 21,
+      "properties": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "10 - 48px",
+          "variantOptions": [
+            "0",
+            "01 - 2px",
+            "02 - 4px",
+            "03 - 8px",
+            "04 - 12px",
+            "05 - 16px",
+            "06 - 20px",
+            "07 - 24px",
+            "08 - 32px",
+            "09 - 40px",
+            "10 - 48px"
+          ]
+        },
+        "Visible": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "21811:56398",
+      "name": "tui-splash-screen",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 20,
+      "properties": {
+        "logo#47:3": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "13167:129045",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "a2770803b78f358d8c61fa2229d91ccdb654cc18"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "720f4f45f8870dec4d08cebab129ad024b948e9c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0c2875c8657bcbec4308efc5aa14ecbec90957c9"
+            }
+          ]
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "appearance": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "mb",
+            "invest",
+            "mobile",
+            "sme"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "loading"
+          ]
+        }
+      }
+    },
+    {
+      "id": "53204:296101",
+      "name": "tui-swipe-actions",
+      "description": "Компонент-обертка для добавления доп.действий при свайпе. Подходит для карточек и ячеек",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-swipe-actions"
+        }
+      ],
+      "variantCount": 4,
+      "properties": {
+        "Action #1#53204:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Action #2#53204:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Action #3#53204:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Expanded#53204:6": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Contents": {
+          "type": "VARIANT",
+          "defaultValue": "Cell",
+          "variantOptions": [
+            "Cell",
+            "Card"
+          ]
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23068:2266",
+      "name": "tui-tab-bar",
+      "description": "Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше",
+      "documentationLinks": [],
+      "variantCount": 5,
+      "properties": {
+        "Home Indicator#63101:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS 18",
+          "variantOptions": [
+            "iOS 18",
+            "Android",
+            "PWA (standalone)",
+            "PWA (browser)",
+            "iOS 26"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23142:458939",
+      "name": "tui-tab-bar / Bookkeeping",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 6,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Чат",
+            "Еще"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23142:453257",
+      "name": "tui-tab-bar / Invest",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Что купить",
+            "Лента",
+            "Чат",
+            "Еще"
+          ]
+        }
+      }
+    },
+    {
+      "id": "112725:32337",
+      "name": "tui-tab-bar / Junior",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Платежи",
+            "Чат",
+            "Джуниор",
+            "Город"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23142:450541",
+      "name": "tui-tab-bar / MB",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android",
+            "PWA (Browser)",
+            "PWA (standalone)"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Платежи",
+            "Город",
+            "Чат",
+            "Еще",
+            "Войти"
+          ]
+        },
+        "User": {
+          "type": "VARIANT",
+          "defaultValue": "Authorized",
+          "variantOptions": [
+            "Authorized",
+            "Origination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23142:455406",
+      "name": "tui-tab-bar / Mobile",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 10,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Роуминг",
+            "Услуги",
+            "Чат",
+            "Еще"
+          ]
+        }
+      }
+    },
+    {
+      "id": "23068:2615",
+      "name": "tui-tab-bar / SME",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 22,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android",
+            "PWA (standalone)",
+            "PWA (browser)"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Главная",
+          "variantOptions": [
+            "Главная",
+            "Платежи",
+            "Сервисы",
+            "Чат",
+            "Еще",
+            "Заявка"
+          ]
+        },
+        "User": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Origination",
+            "Origination + Chat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "58367:296400",
+      "name": "tui-tab-bar / Signature",
+      "description": "Нативная навигационная панель",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tabbar"
+        }
+      ],
+      "variantCount": 16,
+      "properties": {
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "Документы",
+          "variantOptions": [
+            "Выпуск подписи",
+            "Документы",
+            "Чат",
+            "Еще"
+          ]
+        },
+        "User": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Origination",
+            "Origination + Chat"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44305:306527",
+      "name": "tui-text-expandable",
+      "description": "Текстовый блок с возможностью добавить схлопывание",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-text-expandable-specs"
+        }
+      ],
+      "variantCount": 18,
+      "properties": {
+        "Show More#44305:42": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Body L",
+          "variantOptions": [
+            "UI S",
+            "Body M",
+            "Body L"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "65702:51131",
+      "name": "tui-textfield ",
+      "description": "Поле для ввода текста. Используется в&nbsp;фреймворке SmartFields, PWA, WebView",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-textfield-specs"
+        }
+      ],
+      "variantCount": 44,
+      "properties": {
+        "show-start-accessory#6594:64": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-hint#7615:435": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "hint-text#7615:480": {
+          "type": "TEXT",
+          "defaultValue": "Hint text"
+        },
+        "show-end-accessory#8771:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-loader#8783:45": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "accessory-type#8820:45": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "65702:51106",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8ac392dbafb663cc29de77706e4b9491761c9102"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5ea997987c706211d85962d0f18d2afb7b5c96b7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d7f21dc5601e1234bec43157521731ad5fb11e86"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "06cfffd0f9ecff20353e70ef5916cf79b066d875"
+            }
+          ]
+        },
+        "value-text#29896:318": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "label-text#29896:355": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "placeholder-text#29897:80": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder"
+        },
+        "show-placeholder#29897:120": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "error-text#29897:268": {
+          "type": "TEXT",
+          "defaultValue": "Error"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus",
+            "invalid",
+            "invalid-focus",
+            "read-only",
+            "disabled"
+          ]
+        },
+        "is-filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "show-label": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "26960:617080",
+      "name": "tui-textfield [convert]",
+      "description": "Смарт-поле для двух сумм для конвертации валют",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-textfield-convert"
+        }
+      ],
+      "variantCount": 88,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus",
+            "pressed",
+            "disabled"
+          ]
+        },
+        "invalid": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "currency-left": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "hint": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "54443:283316",
+      "name": "tui-textfield [counter]",
+      "description": "",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-textfield-counter"
+        }
+      ],
+      "variantCount": 44,
+      "properties": {
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "filled": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "Yes",
+            "No"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "pressed",
+            "focus",
+            "disabled"
+          ]
+        },
+        "error": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        },
+        "hint": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "69850:48152",
+      "name": "tui-textfield [multiline]",
+      "description": "Поле для ввода текста. Используется в&nbsp;фреймворке SmartFields, PWA, WebView",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-textfield-multiline-specs"
+        }
+      ],
+      "variantCount": 44,
+      "properties": {
+        "show-hint#7615:435": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "hint-text#7615:480": {
+          "type": "TEXT",
+          "defaultValue": "Hint text"
+        },
+        "show-loader#8783:45": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "value-text#29896:318": {
+          "type": "TEXT",
+          "defaultValue": "Value"
+        },
+        "label-text#29896:355": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "placeholder-text#29897:80": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder"
+        },
+        "show-placeholder#29897:120": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "error-text#29897:268": {
+          "type": "TEXT",
+          "defaultValue": "Error"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus",
+            "invalid",
+            "invalid-focus",
+            "read-only",
+            "disabled"
+          ]
+        },
+        "is-filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "show-label": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "69850:47618",
+      "name": "tui-textfield [number]",
+      "description": "Поле для ввода текста. Используется в&nbsp;фреймворке SmartFields, PWA, WebView\n\nkeywords: amount, sum, money, quiantity, number\nаналог в десктопе tui-input-number",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-textfield-number-specs"
+        }
+      ],
+      "variantCount": 26,
+      "properties": {
+        "show-hint#7615:435": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "hint-text#7615:480": {
+          "type": "TEXT",
+          "defaultValue": "Hint text"
+        },
+        "show-loader#8783:45": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "prefix-text#9361:380": {
+          "type": "TEXT",
+          "defaultValue": "$"
+        },
+        "show-prefix#9361:407": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-suffix#9361:434": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "suffix-text#9361:461": {
+          "type": "TEXT",
+          "defaultValue": "₽"
+        },
+        "show-end-accessories#9361:515": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "accessory-slot#9385:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "65702:51106",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "06cfffd0f9ecff20353e70ef5916cf79b066d875"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8ac392dbafb663cc29de77706e4b9491761c9102"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "087ee6a1bf535507bd5c5f443b67315bb70ca62e"
+            }
+          ]
+        },
+        "show-accessory-slot#9385:27": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "value-text#29896:318": {
+          "type": "TEXT",
+          "defaultValue": "1000"
+        },
+        "label-text#29896:355": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "placeholder-text#29897:80": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder"
+        },
+        "show-placeholder#29897:120": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "error-text#29897:268": {
+          "type": "TEXT",
+          "defaultValue": "Error"
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "focus",
+            "invalid",
+            "invalid-focus",
+            "read-only",
+            "disabled"
+          ]
+        },
+        "is-filled": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "show-label": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "39763:297614",
+      "name": "tui-thumbnail-card",
+      "description": "Миниатюра банковской карты",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-thumbnail-card-specs"
+        }
+      ],
+      "variantCount": 78,
+      "properties": {
+        "isFrozen#42213:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show-icon-left#42214:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "icon-left#42214:49": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "79982:45522",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "cbd0d12d555b392e5ac9218519d653b9036627d4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "842049b05ca0fb8848b26ba36b85e59475adfbc4"
+            }
+          ]
+        },
+        "show-icon-right#42214:98": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "icon-right#42214:147": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "3:141998",
+          "preferredValues": []
+        },
+        "system": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "Android",
+            "iOS"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "background": {
+          "type": "VARIANT",
+          "defaultValue": "Black",
+          "variantOptions": [
+            "AllAirlines",
+            "Alpha",
+            "Black",
+            "Business",
+            "Platinum",
+            "Premium",
+            "Junior",
+            "Sber",
+            "VTB",
+            "Family",
+            "Business Credit Card",
+            "Custom"
+          ]
+        },
+        "skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "Off",
+          "variantOptions": [
+            "Off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "42583:296173",
+      "name": "tui-tooltip",
+      "description": "Всплывающие подсказки",
+      "documentationLinks": [
+        {
+          "uri": "https://go.tcsbank.ru/tui-tooltip-specs"
+        }
+      ],
+      "variantCount": 48,
+      "properties": {
+        "Button#42583:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Tail#42583:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Text#42604:0": {
+          "type": "TEXT",
+          "defaultValue": "Короткий и бодрый текст подсказки"
+        },
+        "Icon#65226:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "System": {
+          "type": "VARIANT",
+          "defaultValue": "iOS",
+          "variantOptions": [
+            "iOS",
+            "Android"
+          ]
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "floating"
+          ]
+        },
+        "Resizable": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "Position": {
+          "type": "VARIANT",
+          "defaultValue": "Bottom Right",
+          "variantOptions": [
+            "Top Right",
+            "Top",
+            "Top Left",
+            "Bottom Right",
+            "Bottom",
+            "Bottom Left"
+          ]
+        }
+      }
+    },
+    {
+      "id": "55278:70654",
+      "name": "underline",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 2,
+      "properties": {
+        "pseudo": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "55278:70659",
+      "name": "underline",
+      "description": "",
+      "documentationLinks": [],
+      "variantCount": 2,
+      "properties": {
+        "pseudo": {
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      }
+    }
+  ]
+}
+

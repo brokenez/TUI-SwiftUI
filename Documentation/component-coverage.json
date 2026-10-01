@@ -1,0 +1,5208 @@
+{
+  "summary": {
+    "componentSets": 128,
+    "variants": 3927,
+    "iOSVariants": 2756,
+    "documentedComponents": 108,
+    "completeComponents": 0
+  },
+  "components": [
+    {
+      "id": "20582:43392",
+      "name": " tui-avatar [subscription]",
+      "status": "catalogued",
+      "totalVariants": 15,
+      "iOSVariants": 9,
+      "variantProperties": {
+        "content": [
+          "icon",
+          "image"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "content",
+        "icon#410:0",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-avatar-subscription"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53309:296335",
+      "name": ".bullet",
+      "status": "catalogued",
+      "totalVariants": 3,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "Type": [
+          "Bullet - Accent",
+          "Bullet - Opposite",
+          "Bullet - Primary"
+        ]
+      },
+      "componentProperties": [
+        "Type"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "27940:58934",
+      "name": "[pwa-webview] tui-dialog",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "type": [
+          "bottomsheet",
+          "fullscreen",
+          "fullscreen-small-title"
+        ]
+      },
+      "componentProperties": [
+        "placeholder-1#27940:0",
+        "show-footer#27940:1",
+        "show-legal#134524:0",
+        "system",
+        "type"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "39867:46664",
+      "name": "[pwa] tui-input-search",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "filled": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "normal",
+          "pressed"
+        ]
+      },
+      "componentProperties": [
+        "filled",
+        "state"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "45931:47324",
+      "name": "payment-logo",
+      "status": "catalogued",
+      "totalVariants": 13,
+      "iOSVariants": 13,
+      "variantProperties": {
+        "logo": [
+          "maestro",
+          "mastercard",
+          "mastercard-gold",
+          "mastercard-metal",
+          "mastercard-metal-inverse",
+          "mir",
+          "mir-monochrome",
+          "mir-supreme",
+          "mir-supreme-metall",
+          "unionpay",
+          "unionpay-monochrome",
+          "visa",
+          "visa-monochrome"
+        ]
+      },
+      "componentProperties": [
+        "logo"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "9151:1662",
+      "name": "system-action-sheet",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "System": [
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "System",
+        "show-title#90359:497",
+        "subtitle#90359:499"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-action-sheet"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "24689:584469",
+      "name": "system-alert",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "System": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ],
+        "night-mode": [
+          "off",
+          "on"
+        ],
+        "vertical": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "System",
+        "action-1#20572:18",
+        "action-2#20572:27",
+        "description#20572:9",
+        "night-mode",
+        "show-description#22981:0",
+        "show-title#60632:0",
+        "title#20572:0",
+        "vertical"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-alerts"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "24708:577310",
+      "name": "system-bottom-bar",
+      "status": "catalogued",
+      "totalVariants": 30,
+      "iOSVariants": 30,
+      "variantProperties": {
+        "Appearance": [
+          "Dark Bg",
+          "Light Bg",
+          "Opposite",
+          "Transparent Dark",
+          "Transparent Light"
+        ],
+        "Keyboard": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "Android (samsung)",
+          "iOS 18",
+          "iOS 26"
+        ],
+        "Type": [
+          "Buttons",
+          "Dragger"
+        ]
+      },
+      "componentProperties": [
+        "Appearance",
+        "Keyboard",
+        "System",
+        "Type",
+        "show-dragger#90258:415"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-bottom-bar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "544:151464",
+      "name": "system-browser-bar",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "Appearance": [
+          "Normal",
+          "While Scrolling"
+        ],
+        "System": [
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "Appearance",
+        "System"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42221:48343",
+      "name": "system-browser-chrome",
+      "status": "catalogued",
+      "totalVariants": 3,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "Scrolled": [
+          "No",
+          "Yes"
+        ],
+        "Type": [
+          "Address bar",
+          "Tab bar"
+        ]
+      },
+      "componentProperties": [
+        "Scrolled",
+        "Type"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "10312:84",
+      "name": "system-checkbox",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "state": [
+          "disabled",
+          "indeterminate",
+          "normal",
+          "selected",
+          "selected-disabled"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-checkbox"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53362:296599",
+      "name": "system-context-menu",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "Dark Mode": [
+          "False",
+          "True"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Dark Mode",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25165:592774",
+      "name": "system-keyboard",
+      "status": "catalogued",
+      "totalVariants": 35,
+      "iOSVariants": 35,
+      "variantProperties": {
+        "Night mode": [
+          "off",
+          "on"
+        ],
+        "Smartfields": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ],
+        "Type": [
+          "Emoji",
+          "Numeric",
+          "Text Eng",
+          "Text Rus"
+        ]
+      },
+      "componentProperties": [
+        "Night mode",
+        "Smartfields",
+        "Suggest#52760:0",
+        "System",
+        "Type",
+        "show-button#90500:608"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-keyboard"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53444:299205",
+      "name": "system-lockscreen",
+      "status": "catalogued",
+      "totalVariants": 5,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "Mode": [
+          "Day",
+          "Night"
+        ],
+        "System": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "Mode",
+        "Show Stack#53444:24",
+        "System"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53362:297214",
+      "name": "system-push",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "Dark Mode": [
+          "False",
+          "True",
+          "off"
+        ],
+        "System": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ],
+        "Type": [
+          "Avatar",
+          "Default"
+        ]
+      },
+      "componentProperties": [
+        "App Name#1067:49",
+        "Dark Mode",
+        "Desc.#1067:62",
+        "Image#53376:0",
+        "Sec. Title Text#1259:8",
+        "Sec. Title#1259:6",
+        "System",
+        "Time#1259:9",
+        "Type"
+      ],
+      "specificationURLs": [
+        "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "28036:523553",
+      "name": "system-radiobutton",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "state": [
+          "disabled",
+          "normal",
+          "selected",
+          "selected-disabled"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-radiobutton"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "91657:37703",
+      "name": "system-searchfield",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "filled": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "focus",
+          "normal"
+        ],
+        "type": [
+          "floating",
+          "inline"
+        ]
+      },
+      "componentProperties": [
+        "filled",
+        "state",
+        "type"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "24684:593518",
+      "name": "system-segmented-control (tabs)",
+      "status": "catalogued",
+      "totalVariants": 44,
+      "iOSVariants": 44,
+      "variantProperties": {
+        "Active Tab": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th"
+        ],
+        "Night mode": [
+          "off",
+          "on"
+        ],
+        "Quantity": [
+          "2 tabs",
+          "3 tabs",
+          "4 tabs",
+          "5+ tabs"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "Night mode",
+        "Quantity",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-segmented-control-tabs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44720:304564",
+      "name": "system-share-sheet",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "Night Mode": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Night Mode"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "8930:26243",
+      "name": "system-status-bar",
+      "status": "catalogued",
+      "totalVariants": 22,
+      "iOSVariants": 22,
+      "variantProperties": {
+        "Appearance": [
+          "Dark Bg",
+          "Light Bg",
+          "Page Sheet"
+        ],
+        "Device": [
+          "Pixel",
+          "Samsung",
+          "iPhone 11 Pro",
+          "iPhone 14 Pro",
+          "iPhone 16 Pro"
+        ],
+        "System": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "Appearance",
+        "Device",
+        "Show Notch#53444:0",
+        "Show Sheet Bar#53444:12",
+        "System",
+        "Time#22101:1"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/system-status-bar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "9940:39560",
+      "name": "system-switch",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 0,
+      "variantProperties": {
+        "disabled": [
+          "off",
+          "on"
+        ],
+        "selected": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "disabled",
+        "selected",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-switch"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44037:288637",
+      "name": "tui-amount",
+      "status": "catalogued",
+      "totalVariants": 108,
+      "iOSVariants": 54,
+      "variantProperties": {
+        "format": [
+          "Foreign (code)",
+          "Foreign (symbol)",
+          "Russian",
+          "Russian (icon)"
+        ],
+        "sign ±": [
+          "Minus",
+          "Plus"
+        ],
+        "size": [
+          "Body L",
+          "Body M",
+          "Numbers M",
+          "Numbers XL",
+          "UI S",
+          "UI XS"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "currency#44042:16",
+        "format",
+        "fraction#44042:11",
+        "icon-large#33978:1",
+        "icon-small#33978:0",
+        "integer#44042:6",
+        "show-currency#44042:21",
+        "show-fraction#44042:0",
+        "show-sign#44042:3",
+        "sign ±",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-amount-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25752:487144",
+      "name": "tui-app-bar",
+      "status": "catalogued",
+      "totalVariants": 74,
+      "iOSVariants": 0,
+      "variantProperties": {
+        "left": [
+          "Back",
+          "Close",
+          "None"
+        ],
+        "middle": [
+          "None",
+          "Progress",
+          "Title"
+        ],
+        "right": [
+          "Icon",
+          "None",
+          "Text"
+        ],
+        "system": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "action-right#63750:64",
+        "left",
+        "middle",
+        "right",
+        "show-end-button#90258:107",
+        "show-start-button#90258:51",
+        "show-subtitle#47923:0",
+        "show-top-indent#90258:219",
+        "subtitle#90258:163",
+        "system",
+        "title#63750:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-appbar-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25745:690405",
+      "name": "tui-avatar",
+      "status": "catalogued",
+      "totalVariants": 316,
+      "iOSVariants": 316,
+      "variantProperties": {
+        "Badge": [
+          "bottom",
+          "off",
+          "t-client",
+          "top",
+          "top-plus-bottom"
+        ],
+        "Content": [
+          "Icon",
+          "Image (Fill)",
+          "Image (Instance)",
+          "Initials",
+          "Text"
+        ],
+        "Size": [
+          "large",
+          "medium",
+          "small",
+          "xx-small"
+        ],
+        "Skeleton": [
+          "off",
+          "on"
+        ],
+        "Square": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Badge",
+        "Content",
+        "Icon#41334:0",
+        "Image (Instance)#46852:193",
+        "Size",
+        "Skeleton",
+        "Square",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-avatar-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "68613:55962",
+      "name": "tui-avatar [badged-subscription-icon]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "square": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "show-badge-bottom#84842:13",
+        "show-badge-top#84842:0",
+        "size",
+        "square",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-avatar-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53606:309279",
+      "name": "tui-avatar-labelled",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "fade": [
+          "off",
+          "on"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "System",
+        "fade",
+        "first-line#20324:0",
+        "seond-line#20331:7",
+        "show-ripple#97811:0",
+        "show-second-line#20331:26",
+        "size",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-avatar-labelled-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25526:614200",
+      "name": "tui-avatar-stack",
+      "status": "catalogued",
+      "totalVariants": 48,
+      "iOSVariants": 48,
+      "variantProperties": {
+        "Flip": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "large",
+          "medium",
+          "small",
+          "xx-small"
+        ],
+        "Skeleton": [
+          "off",
+          "on"
+        ],
+        "Square": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS",
+          "–"
+        ]
+      },
+      "componentProperties": [
+        "Avatar 2#42195:34",
+        "Avatar 3#42195:17",
+        "Avatar 4#42195:0",
+        "Flip",
+        "Size",
+        "Skeleton",
+        "Square",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-avatar-stack-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25738:686585",
+      "name": "tui-badge",
+      "status": "catalogued",
+      "totalVariants": 124,
+      "iOSVariants": 68,
+      "variantProperties": {
+        "appearance": [
+          "accent-1 (cashback)",
+          "accent-2 (installment)",
+          "dark-text",
+          "image",
+          "image (fill)",
+          "light-text"
+        ],
+        "content": [
+          "icon",
+          "icon+text",
+          "image (fill)",
+          "image (instance)",
+          "text"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small",
+          "x-large"
+        ],
+        "skeleton": [
+          "Off",
+          "On"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "content",
+        "logo#45235:0",
+        "size",
+        "skeleton",
+        "system",
+        "text#19805:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badge-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "26895:46826",
+      "name": "tui-badge [cashback]",
+      "status": "catalogued",
+      "totalVariants": 84,
+      "iOSVariants": 40,
+      "variantProperties": {
+        "appearance": [
+          "all-airlines",
+          "all-games-credit",
+          "all-games-debit",
+          "black",
+          "platinum"
+        ],
+        "icon-position": [
+          "left",
+          "right"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small",
+          "x-large"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "icon-position",
+        "show-icon#6:0",
+        "size",
+        "skeleton",
+        "system",
+        "text#6:144"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badge-cashback"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "68613:55102",
+      "name": "tui-badge [subscription-icon-shield]",
+      "status": "catalogued",
+      "totalVariants": 28,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "appearsance": [
+          "premium",
+          "private",
+          "t-bank"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small",
+          "x-large"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearsance",
+        "show-mask#6028:0",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badge-shield"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "87688:44061",
+      "name": "tui-badge [subscription-icon]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "size": [
+          "large",
+          "medium",
+          "small",
+          "x-large"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "show-mask#5:0",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "68613:55199",
+      "name": "tui-badge [subscription]",
+      "status": "catalogued",
+      "totalVariants": 56,
+      "iOSVariants": 24,
+      "variantProperties": {
+        "appearance": [
+          "premium",
+          "private",
+          "pro"
+        ],
+        "content": [
+          "icon-plus-label",
+          "logo-plus-label"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small",
+          "x-large"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "content",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badge-subscription"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "6392:51900",
+      "name": "tui-badge [t-client]",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 1,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "system"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25738:689227",
+      "name": "tui-badge notification",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "size",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badge-notification"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25745:690323",
+      "name": "tui-badged-content",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "Badge": [
+          "bottom",
+          "off",
+          "t-client",
+          "top",
+          "top-plus-bottom"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Badge",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-badged-content-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "47912:303878",
+      "name": "tui-block-details",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "amount-description-text #47912:7",
+        "comment-text#20020:0",
+        "icon-status#23763:10",
+        "preview#47912:11",
+        "show-amount #49448:0",
+        "show-amount-description#47912:3",
+        "show-amount-description-2#23763:0",
+        "show-badges#47912:6",
+        "show-comment#47912:10",
+        "show-status#23763:5",
+        "show-title-desctiption#47912:2",
+        "skeleton",
+        "system",
+        "title-description-text#47912:1",
+        "title-value-text#47912:5"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-block-details-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "43816:296648",
+      "name": "tui-block-status",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "Button": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "Type": [
+          "Card",
+          "Fullscreen"
+        ]
+      },
+      "componentProperties": [
+        "Button",
+        "Image#45037:0",
+        "Show Image#46555:0",
+        "Show Text#17404:0",
+        "Show Title#46555:3",
+        "System",
+        "Text#44884:10",
+        "Title#44884:5",
+        "Type",
+        "show-2nd-button#27546:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-block-status-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44431:321226",
+      "name": "tui-bottom-sheet",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 9,
+      "variantProperties": {
+        "Height": [
+          "dynamic",
+          "full-screen",
+          "full-screen-navbar",
+          "half-screen"
+        ],
+        "show-indicator": [
+          "off",
+          "on"
+        ],
+        "show-overlay": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Height",
+        "placeholder-1#26278:0",
+        "placeholder-2#26278:19",
+        "show-footer#26828:0",
+        "show-indicator",
+        "show-overlay",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-bottomsheet-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41658:296906",
+      "name": "tui-button",
+      "status": "catalogued",
+      "totalVariants": 294,
+      "iOSVariants": 147,
+      "variantProperties": {
+        "appearance": [
+          "accent",
+          "flat",
+          "flat-destructive",
+          "flat-grayscale",
+          "floating",
+          "glass",
+          "primary",
+          "primary-destructive",
+          "primary-grayscale",
+          "secondary",
+          "secondary-destructive",
+          "secondary-grayscale"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "loading",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "Icon (16)#41658:7",
+        "Icon#41658:0",
+        "Text#41658:28",
+        "appearance",
+        "show-Icon#41658:14",
+        "show-label#41658:21",
+        "size",
+        "skeleton",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "7319:38983",
+      "name": "tui-button [add-card]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "size": [
+          "large 54x36",
+          "medium 48x32",
+          "small 40x26"
+        ],
+        "state": [
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "size",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-add-card"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53169:295889",
+      "name": "tui-button [cell]",
+      "status": "catalogued",
+      "totalVariants": 32,
+      "iOSVariants": 16,
+      "variantProperties": {
+        "appearance": [
+          "destructicve",
+          "primary"
+        ],
+        "is-compact": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "loading",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "icon#14280:33",
+        "is-compact",
+        "show-icon#14280:0",
+        "state",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-cell"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "30258:432933",
+      "name": "tui-button [close]",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "Theme": [
+          "dark",
+          "light",
+          "—"
+        ],
+        "environment": [
+          "on-base",
+          "on-dark",
+          "on-light"
+        ],
+        "size": [
+          "small",
+          "x-small"
+        ],
+        "state": [
+          "normal"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "Theme",
+        "environment",
+        "size",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-close"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44290:299166",
+      "name": "tui-button [like]",
+      "status": "catalogued",
+      "totalVariants": 24,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "appearance": [
+          "glass-on-dark",
+          "glass-on-light",
+          "secondary"
+        ],
+        "is-selected": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "is-selected",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-like"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42565:304987",
+      "name": "tui-button [link]",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 16,
+      "variantProperties": {
+        "Content": [
+          "Icon",
+          "Text"
+        ],
+        "State": [
+          "Disabled",
+          "Loading",
+          "Normal",
+          "Pressed"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Content",
+        "State",
+        "System",
+        "Text#53244:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-link"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "59194:53406",
+      "name": "tui-button [on-light-on-dark]",
+      "status": "catalogued",
+      "totalVariants": 198,
+      "iOSVariants": 99,
+      "variantProperties": {
+        "appearance": [
+          "flat-grayscale-on-dark",
+          "flat-grayscale-on-light",
+          "glass-on-dark",
+          "glass-on-light",
+          "primary-grayscale-on-dark",
+          "primary-grayscale-on-light",
+          "secondary-grayscale-on-dark",
+          "secondary-grayscale-on-light"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "loading",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "Icon (16)#59194:1",
+        "Icon#59194:0",
+        "Text#59194:2",
+        "appearance",
+        "show-Icon#59194:3",
+        "show-label#59194:4",
+        "size",
+        "skeleton",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44290:299199",
+      "name": "tui-button [share]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "appearance": [
+          "glass-on-dark",
+          "glass-on-light",
+          "secondary"
+        ],
+        "state": [
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-share"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44236:302826",
+      "name": "tui-button [subscription]",
+      "status": "catalogued",
+      "totalVariants": 50,
+      "iOSVariants": 26,
+      "variantProperties": {
+        "appearance": [
+          "premium",
+          "private",
+          "pro"
+        ],
+        "size": [
+          "large",
+          "medium"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "Default",
+          "Disabled",
+          "Loading",
+          "Pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "size",
+        "skeleton",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-subscription"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "51388:47169",
+      "name": "tui-button [two labels]",
+      "status": "catalogued",
+      "totalVariants": 20,
+      "iOSVariants": 20,
+      "variantProperties": {
+        "platform": [
+          "Android",
+          "iOS"
+        ],
+        "size": [
+          "large",
+          "medium"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "loading",
+          "normal",
+          "pressed"
+        ]
+      },
+      "componentProperties": [
+        "platform",
+        "size",
+        "skeleton",
+        "state"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41691:305320",
+      "name": "tui-button [vertical]",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "Skeleton": [
+          "off",
+          "on"
+        ],
+        "State": [
+          "Disabled",
+          "Normal",
+          "Pressed"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Icon#42807:0",
+        "Skeleton",
+        "State",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-vertical"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "54757:286088",
+      "name": "tui-button [wallet]",
+      "status": "catalogued",
+      "totalVariants": 34,
+      "iOSVariants": 34,
+      "variantProperties": {
+        "Appearance": [
+          "Apple Wallet",
+          "Google Pay",
+          "Mir Pay",
+          "Samsung Pay",
+          "Tinkoff Pay"
+        ],
+        "Size": [
+          "L - 56",
+          "M - 44"
+        ],
+        "State": [
+          "Disabled",
+          "Loading",
+          "Normal",
+          "Pressed"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Appearance",
+        "Label#54470:0",
+        "Size",
+        "State",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-wallet"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25748:771367",
+      "name": "tui-button tooltip",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "icon": [
+          "hint",
+          "info"
+        ],
+        "is-pressed": [
+          "off",
+          "on"
+        ],
+        "is-selected": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "icon",
+        "is-pressed",
+        "is-selected",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-tooltip"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "36326:422777",
+      "name": "tui-button-group-card",
+      "status": "catalogued",
+      "totalVariants": 22,
+      "iOSVariants": 11,
+      "variantProperties": {
+        "appearance": [
+          "dark-bg",
+          "elevated",
+          "flat"
+        ],
+        "buttons": [
+          "1",
+          "2",
+          "3"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "btn-1 badge icon#42988:19",
+        "btn-1 badge#42988:0",
+        "btn-1 icon#43374:152",
+        "btn-1 label#42988:57",
+        "btn-2 badge icon#43374:57",
+        "btn-2 badge#43374:38",
+        "btn-2 icon#43374:0",
+        "btn-2 label#43374:19",
+        "btn-3 badge icon#43374:133",
+        "btn-3 badge#43374:114",
+        "btn-3 icon#43374:76",
+        "btn-3 label#43374:95",
+        "buttons",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-button-group-card-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "2793:75470",
+      "name": "tui-card [account]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "account-type": [
+          "debit",
+          "deposit",
+          "other"
+        ]
+      },
+      "componentProperties": [
+        "Show Notification#2793:0",
+        "Show tui-row#2793:3",
+        "System",
+        "account-type"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42587:291989",
+      "name": "tui-card-large",
+      "status": "catalogued",
+      "totalVariants": 48,
+      "iOSVariants": 48,
+      "variantProperties": {
+        "Flat": [
+          "False",
+          "True"
+        ],
+        "Footer": [
+          "False",
+          "True"
+        ],
+        "Preset": [
+          "Cell",
+          "Cell + Button",
+          "Cell + Close",
+          "Cell List",
+          "Custom",
+          "Header",
+          "Header Subheader",
+          "Map",
+          "Scroll card",
+          "Small"
+        ],
+        "Skeleton": [
+          "False",
+          "True"
+        ],
+        "Systеm": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Content#44231:0",
+        "Flat",
+        "Footer",
+        "Preset",
+        "Skeleton",
+        "Systеm"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-card-large-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "11335:41574",
+      "name": "tui-card-medium ",
+      "status": "catalogued",
+      "totalVariants": 41,
+      "iOSVariants": 21,
+      "variantProperties": {
+        "background": [
+          "fill",
+          "image-placeholder"
+        ],
+        "content": [
+          "text",
+          "text+avatar",
+          "text+avatar-stack",
+          "text+badge",
+          "text+icon"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "text-position": [
+          "bottom",
+          "top"
+        ]
+      },
+      "componentProperties": [
+        "background",
+        "content",
+        "image#139:0",
+        "show-tui-badge notification#90:0",
+        "skeleton",
+        "system",
+        "text-position"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-card-medium-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41569:290555",
+      "name": "tui-cell",
+      "status": "catalogued",
+      "totalVariants": 42,
+      "iOSVariants": 21,
+      "variantProperties": {
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "right-side": [
+          "Accessory",
+          "None",
+          "Text"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "type": [
+          "Compact",
+          "Default",
+          "Extended"
+        ]
+      },
+      "componentProperties": [
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "right-side",
+        "show-avatar#41541:38",
+        "show-badge#42565:34",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-hint#42565:51",
+        "skeleton",
+        "system",
+        "title#41541:45",
+        "type",
+        "value#42565:0",
+        "value-description#42565:17"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "2793:73350",
+      "name": "tui-cell [account]",
+      "status": "catalogued",
+      "totalVariants": 14,
+      "iOSVariants": 7,
+      "variantProperties": {
+        "account-type": [
+          "Credit",
+          "Debit",
+          "Deposit",
+          "Invest",
+          "Saving",
+          "—"
+        ],
+        "right-side": [
+          "Text"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "account-type",
+        "badges#7:13",
+        "bonus#3:19",
+        "caption#41541:65",
+        "cashback#3:5",
+        "family-access#3:0",
+        "income#3:10",
+        "loss#7:0",
+        "right-side",
+        "show-avatar#41541:38",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41637:306482",
+      "name": "tui-cell [action]",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "accessories": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessories",
+        "action-text#41637:27",
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "show-avatar#41541:38",
+        "show-badge#55902:146",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-hint#55902:147",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41637:306089",
+      "name": "tui-cell [button]",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "accessories": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessories",
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "show-avatar#41541:38",
+        "show-badge#55902:92",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-hint#55902:101",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41637:307793",
+      "name": "tui-cell [checkbox]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 9,
+      "variantProperties": {
+        "accessories": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "selected": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessories",
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "selected",
+        "show-avatar#41541:38",
+        "show-badge#41569:0",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-hint#41569:9",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41637:306903",
+      "name": "tui-cell [checkicon]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "show-avatar#41541:38",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-selected#49089:0",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53219:295268",
+      "name": "tui-cell [connected]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 3,
+      "variantProperties": {
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ],
+        "version": [
+          "actual"
+        ]
+      },
+      "componentProperties": [
+        "caption text#41541:65",
+        "caption#41541:0",
+        "description text#41541:55",
+        "description#41541:10",
+        "fixed-height",
+        "show bottom connect#53219:0",
+        "show top connect#53219:5",
+        "show-accessories#62256:0",
+        "skeleton",
+        "system",
+        "title#41541:45",
+        "version"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-connected-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41637:305628",
+      "name": "tui-cell [disclosure]",
+      "status": "catalogued",
+      "totalVariants": 20,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "accessories": [
+          "off",
+          "on"
+        ],
+        "compact": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessories",
+        "caption#41541:65",
+        "compact",
+        "description#41541:55",
+        "disclosure-text#41637:18",
+        "fixed-height",
+        "show-avatar#41541:38",
+        "show-badge#41637:36",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-disclosure-text#41637:0",
+        "show-hint#41637:45",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44305:304744",
+      "name": "tui-cell [invest]",
+      "status": "catalogued",
+      "totalVariants": 14,
+      "iOSVariants": 7,
+      "variantProperties": {
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "value-description-style": [
+          "Negative",
+          "Positive",
+          "Text"
+        ]
+      },
+      "componentProperties": [
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "negative-value#44305:29",
+        "positive-value#44305:20",
+        "show-avatar#41541:38",
+        "show-blue-badge#44305:5",
+        "show-caption#41541:0",
+        "show-checkbox#44290:30",
+        "show-description#41541:10",
+        "show-green-badge#44305:15",
+        "show-lock-badge#44305:0",
+        "show-notification#44290:0",
+        "show-red-badge#44305:10",
+        "skeleton",
+        "system",
+        "title#41541:45",
+        "value#42565:0",
+        "value-description#42565:17",
+        "value-description-style"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "63132:295599",
+      "name": "tui-cell [mobile]",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "status": [
+          "Income",
+          "Missed",
+          "Outcome"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Aon ⚠️#63327:5",
+        "Aon ✅#63304:0",
+        "Aon ❌#63327:0",
+        "Crimea#63327:20",
+        "Protect#63341:55",
+        "Record#63341:50",
+        "Roaming#63327:25",
+        "Secretary#63341:45",
+        "Virtual#63341:60",
+        "description#41541:55",
+        "show-avatar#41541:38",
+        "show-description#41541:10",
+        "show-notification#44290:0",
+        "skeleton",
+        "status",
+        "system",
+        "title#41541:45",
+        "value#42565:0",
+        "value-description#42565:17"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44290:314128",
+      "name": "tui-cell [operation]",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "extended": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "caption#41541:65",
+        "description#41541:55",
+        "extended",
+        "fixed-height",
+        "incoming-message#44290:10",
+        "outgoing-message#44290:5",
+        "show-avatar#41541:38",
+        "show-badge#44290:20",
+        "show-caption#41541:0",
+        "show-checkbox#44290:30",
+        "show-comment#44290:15",
+        "show-description#41541:10",
+        "show-notification#44290:0",
+        "skeleton",
+        "system",
+        "title#41541:45",
+        "value#42565:0",
+        "value-description#42565:17"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-operation-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41569:291397",
+      "name": "tui-cell [switch]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 9,
+      "variantProperties": {
+        "accessories": [
+          "off",
+          "on"
+        ],
+        "fixed-height": [
+          "off",
+          "on"
+        ],
+        "selected": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessories",
+        "caption#41541:65",
+        "description#41541:55",
+        "fixed-height",
+        "selected",
+        "show-avatar#41541:38",
+        "show-badge#41569:0",
+        "show-caption#41541:0",
+        "show-description#41541:10",
+        "show-hint#41569:9",
+        "skeleton",
+        "system",
+        "title#41541:45"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-cell-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42638:295990",
+      "name": "tui-chip",
+      "status": "catalogued",
+      "totalVariants": 118,
+      "iOSVariants": 60,
+      "variantProperties": {
+        "appearance": [
+          "accent",
+          "floating",
+          "neutral"
+        ],
+        "is-disable": [
+          "off",
+          "on"
+        ],
+        "left content": [
+          "icon",
+          "image",
+          "none"
+        ],
+        "right content": [
+          "close",
+          "dropdown",
+          "none"
+        ],
+        "size": [
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "is-disable",
+        "left content",
+        "right content",
+        "show badge#20703:119",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-chips-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "115603:32334",
+      "name": "tui-chip-group",
+      "status": "catalogued",
+      "totalVariants": 8,
+      "iOSVariants": 8,
+      "variantProperties": {
+        "Scrollable": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "M",
+          "S"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Scrollable",
+        "Size",
+        "System",
+        "slot#115603:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-chip-group-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44286:300575",
+      "name": "tui-chip-group [choice]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "Alignment": [
+          "Center",
+          "Start"
+        ],
+        "Scrollable": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "M",
+          "S"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Alignment",
+        "Scrollable",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-chip-group-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44286:300668",
+      "name": "tui-chip-group [filter]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "Alignment": [
+          "Center",
+          "Start"
+        ],
+        "Scrollable": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "M",
+          "S"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Alignment",
+        "Scrollable",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-chips-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44286:300482",
+      "name": "tui-chip-group [list]",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "Alignment": [
+          "Center",
+          "Start"
+        ],
+        "Scrollable": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "M",
+          "S"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Alignment",
+        "Scrollable",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-chip-group-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "16661:51922",
+      "name": "tui-counter",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Preset": [
+          "Primary",
+          "Secondary",
+          "Secondary Separated"
+        ],
+        "Size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Preset",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-counter-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44286:299509",
+      "name": "tui-floating-container",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "background": [
+          "base",
+          "elevation-1",
+          "off"
+        ],
+        "content": [
+          "action",
+          "action+legal",
+          "custom-content",
+          "two-actions"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "background",
+        "content",
+        "show-fade#55399:0",
+        "show-home-indicator#57425:0",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-floating-container-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42565:304670",
+      "name": "tui-header",
+      "status": "catalogued",
+      "totalVariants": 30,
+      "iOSVariants": 30,
+      "variantProperties": {
+        "Accessories": [
+          "off",
+          "on"
+        ],
+        "Description": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "Medium",
+          "Small"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "TextAlign": [
+          "center",
+          "start"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Accessories",
+        "Badge#41997:19",
+        "Description",
+        "DescriptionText#42565:86",
+        "HeaderText#42565:68",
+        "Hint#41997:12",
+        "Size",
+        "Subheader#42565:95",
+        "SubheaderText#42565:77",
+        "System",
+        "TextAlign",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "41997:290341",
+      "name": "tui-header [action]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Accessories": [
+          "off",
+          "on"
+        ],
+        "Description": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "Medium",
+          "Small"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Accessories",
+        "Badge#41997:19",
+        "Description",
+        "DescriptionText#42565:86",
+        "HeaderText#42565:68",
+        "Hint#41997:12",
+        "Size",
+        "Subheader#42565:95",
+        "SubheaderText#42565:77",
+        "System",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42565:304195",
+      "name": "tui-header [button]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Accessories": [
+          "off",
+          "on"
+        ],
+        "Description": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "Medium",
+          "Small"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Accessories",
+        "Badge#41997:19",
+        "Description",
+        "DescriptionText#42565:86",
+        "HeaderText#42565:68",
+        "Hint#41997:12",
+        "Size",
+        "Subheader#42565:95",
+        "SubheaderText#42565:77",
+        "System",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44217:298609",
+      "name": "tui-header [card]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Accessory": [
+          "Avatar",
+          "Button",
+          "Button Link",
+          "None",
+          "Switch"
+        ],
+        "Extended": [
+          "Off",
+          "On"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Accessory",
+        "Badge#41997:19",
+        "Caption#59837:0",
+        "CaptionText#59837:15",
+        "Description#56480:0",
+        "Extended",
+        "HeaderText#42565:68",
+        "Hint#41997:12",
+        "Subheader#42565:95",
+        "SubheaderText#42565:77",
+        "System",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42565:305012",
+      "name": "tui-header [large]",
+      "status": "catalogued",
+      "totalVariants": 20,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "extended": [
+          "off",
+          "on"
+        ],
+        "show-description": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "text-align": [
+          "center",
+          "start"
+        ]
+      },
+      "componentProperties": [
+        "descrption#42565:86",
+        "extended",
+        "show-description",
+        "show-icon#42579:0",
+        "show-subheader#42565:95",
+        "skeleton",
+        "subheader#42565:77",
+        "system",
+        "text-align",
+        "title#42565:68"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42565:303804",
+      "name": "tui-header [switch]",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Accessories": [
+          "off",
+          "on"
+        ],
+        "Description": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "Medium",
+          "Small"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Accessories",
+        "Badge#41997:19",
+        "Description",
+        "DescriptionText#42565:86",
+        "HeaderText#42565:68",
+        "Hint#41997:12",
+        "Size",
+        "Subheader#42565:95",
+        "SubheaderText#42565:77",
+        "System",
+        "skeleton"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-header-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "43816:296032",
+      "name": "tui-illustration-screen",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "System": [
+          "Android",
+          "PWA/WebView -  bottomsheet",
+          "PWA/Webview - fullscreen",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Image#44884:15",
+        "Show Placeholder#51812:0",
+        "Subtitle#63519:5",
+        "System",
+        "Title#63519:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-illustration-screen-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "55278:70443",
+      "name": "tui-link",
+      "status": "catalogued",
+      "totalVariants": 30,
+      "iOSVariants": 30,
+      "variantProperties": {
+        "mode": [
+          "default",
+          "text-primary",
+          "text-primary-on-dark",
+          "text-primary-on-light",
+          "text-secondary"
+        ],
+        "platform": [
+          "Android",
+          "iOS"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ]
+      },
+      "componentProperties": [
+        "icon-left#29801:31",
+        "label#29801:89",
+        "mode",
+        "platform",
+        "show-icon-left#29801:46",
+        "show-icon-right#29801:51",
+        "size"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-link-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "79180:42610",
+      "name": "tui-list [bulleted]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "Size": [
+          "Body L",
+          "Body M",
+          "Body S"
+        ],
+        "System": [
+          "Android",
+          "IOS"
+        ]
+      },
+      "componentProperties": [
+        "2 item#6145:0",
+        "3 item#6145:1",
+        "4 item#6145:2",
+        "5 item#6145:3",
+        "6 item#6145:4",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-list-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "79180:42880",
+      "name": "tui-list [numbered]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "Size": [
+          "Body L",
+          "Body M",
+          "Body S"
+        ],
+        "System": [
+          "Android",
+          "IOS"
+        ]
+      },
+      "componentProperties": [
+        "2 item#6146:15",
+        "3 item#6146:18",
+        "4 item#6146:21",
+        "5 item#6146:24",
+        "6 item#6146:27",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-list-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53190:295267",
+      "name": "tui-list-item [bulleted]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "Size": [
+          "Body L",
+          "Body M",
+          "UI S"
+        ],
+        "Style": [
+          "Primary"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Size",
+        "Style",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-list-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "79180:42849",
+      "name": "tui-list-item [numbered]",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "Size": [
+          "Body L",
+          "Body M",
+          "UI S"
+        ],
+        "System": [
+          "Android",
+          "IOS"
+        ]
+      },
+      "componentProperties": [
+        "Size",
+        "System",
+        "item-number#6250:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-list-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "9999:26",
+      "name": "tui-loader",
+      "status": "catalogued",
+      "totalVariants": 5,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "Size": [
+          "12x12",
+          "16x16",
+          "24x24",
+          "32x32",
+          "40x40"
+        ]
+      },
+      "componentProperties": [
+        "Size"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-loader-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44231:314707",
+      "name": "tui-message-bubble",
+      "status": "catalogued",
+      "totalVariants": 24,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "appearance": [
+          "accent",
+          "neutral-1"
+        ],
+        "length": [
+          "long fade",
+          "long multiline",
+          "short"
+        ],
+        "position": [
+          "left",
+          "right"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "length",
+        "position",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-message-bubble-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "22466:378682",
+      "name": "tui-notification-banner",
+      "status": "catalogued",
+      "totalVariants": 60,
+      "iOSVariants": 30,
+      "variantProperties": {
+        "appearance": [
+          "info",
+          "negative",
+          "neutral",
+          "success",
+          "warning"
+        ],
+        "is-interactive": [
+          "false",
+          "true"
+        ],
+        "size": [
+          "large",
+          "medium"
+        ],
+        "state": [
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "Icon#44231:44",
+        "appearance",
+        "is-interactive",
+        "is-interactive-icon#14282:66",
+        "label#20572:36",
+        "size",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-notification-banner-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "39739:293413",
+      "name": "tui-notification-middle",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "text": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "icon#70856:0",
+        "system",
+        "text"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-notification-middle-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "32204:470960",
+      "name": "tui-notification-toast",
+      "status": "catalogued",
+      "totalVariants": 24,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "accessory": [
+          "button",
+          "chevron",
+          "none"
+        ],
+        "content": [
+          "avatar",
+          "badge",
+          "icon",
+          "none"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessory",
+        "content",
+        "icon#63940:0",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-notification-toast-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44290:300333",
+      "name": "tui-onboarding-flow",
+      "status": "catalogued",
+      "totalVariants": 22,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "PWA/Webview - bottomsheet",
+          "PWA/Webview - fullscreen",
+          "iOS"
+        ],
+        "template": [
+          "Custom Content",
+          "Image Centered",
+          "Image Full Cover",
+          "Image with Padding",
+          "Phone Bottom",
+          "Phone Top"
+        ]
+      },
+      "componentProperties": [
+        "image (centered)#40559:0",
+        "image (full)#40633:13",
+        "show-fade#40633:0",
+        "system",
+        "template"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-onboarding-flow-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "34357:426019",
+      "name": "tui-pager",
+      "status": "catalogued",
+      "totalVariants": 20,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "pages": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6+"
+        ],
+        "size": [
+          "medium",
+          "small"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "pages",
+        "size",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-pager-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44302:52347",
+      "name": "tui-panel",
+      "status": "catalogued",
+      "totalVariants": 12,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "content": [
+          "account",
+          "account-card",
+          "default"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "content",
+        "placeholder-1#575:34",
+        "placeholder-2#575:28",
+        "show-accessories#61:0",
+        "show-amount-hide-button#575:25",
+        "show-bg-placeholder#48526:13",
+        "show-cards#575:31",
+        "show-edit-button#624:0",
+        "show-footer#577:4",
+        "show-footer-actions#21:7",
+        "show-glow#575:24",
+        "show-placeholder-1#575:29",
+        "show-placeholder-2#575:32",
+        "show-subtitle#575:26",
+        "show-subtitle-badge#575:27",
+        "skeleton",
+        "subtitle#1080:15",
+        "system",
+        "title#1080:0"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "45576:359285",
+      "name": "tui-pin",
+      "status": "catalogued",
+      "totalVariants": 24,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "selected": [
+          "off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "type": [
+          "Cluster",
+          "Dot",
+          "Icon",
+          "Icon-with-Border",
+          "Image",
+          "Rating",
+          "User-Position"
+        ]
+      },
+      "componentProperties": [
+        "badge#45896:0",
+        "icon#46093:0",
+        "selected",
+        "show-direction#45977:0",
+        "subtitle#45576:50",
+        "subtitle-icon#45590:0",
+        "subtitle-text#46093:38",
+        "system",
+        "title#45959:0",
+        "title-text#46093:19",
+        "type"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-pin-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25951:712646",
+      "name": "tui-progress-bar",
+      "status": "catalogued",
+      "totalVariants": 96,
+      "iOSVariants": 96,
+      "variantProperties": {
+        "Cap": [
+          "Round",
+          "Square"
+        ],
+        "LabelBottom": [
+          "off",
+          "on"
+        ],
+        "LabelTop": [
+          "off",
+          "on"
+        ],
+        "Segmented": [
+          "off",
+          "on"
+        ],
+        "Size": [
+          "12",
+          "4",
+          "8"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Cap",
+        "LabelBottom",
+        "LabelTop",
+        "Segmented",
+        "Size",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-progress-bar-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25942:708453",
+      "name": "tui-progress-circle",
+      "status": "catalogued",
+      "totalVariants": 434,
+      "iOSVariants": 434,
+      "variantProperties": {
+        "Preset": [
+          "Icon",
+          "None",
+          "Text"
+        ],
+        "Size": [
+          "128",
+          "32",
+          "40",
+          "56",
+          "64",
+          "80",
+          "96"
+        ],
+        "Skeleton": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "Thickness": [
+          "12",
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "circleMode": [
+          "Closed",
+          "Open"
+        ]
+      },
+      "componentProperties": [
+        "Preset",
+        "Size",
+        "Skeleton",
+        "System",
+        "Thickness",
+        "circleMode"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-progress-circle-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "10467:91596",
+      "name": "tui-rating",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "quantity": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "componentProperties": [
+        "Instance#32:0",
+        "quantity"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-rating"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53606:308726",
+      "name": "tui-row [avatar-labelled]",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 1,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-row-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "48700:323897",
+      "name": "tui-row [button-vertical]",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "Quantity": [
+          "1-3",
+          "4+"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Quantity",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-row-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "16273:42831",
+      "name": "tui-row [card-medium]",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "preset": [
+          "140x140",
+          "92x92"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "preset",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-row-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "16753:52842",
+      "name": "tui-row [custom]",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 1,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-row-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "25762:537956",
+      "name": "tui-search-bar",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 0,
+      "variantProperties": {
+        "filled": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "active",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "filled",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-searchbar-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "16874:41486",
+      "name": "tui-segmented",
+      "status": "catalogued",
+      "totalVariants": 24,
+      "iOSVariants": 12,
+      "variantProperties": {
+        "auto-fit": [
+          "False",
+          "True"
+        ],
+        "shape": [
+          "rounded",
+          "square"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "system": [
+          "android",
+          "ios"
+        ]
+      },
+      "componentProperties": [
+        "auto-fit",
+        "shape",
+        "size",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-segmented"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "46866:304541",
+      "name": "tui-sensitive-mode",
+      "status": "catalogued",
+      "totalVariants": 5,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "Font Size": [
+          "Body L",
+          "Body M",
+          "Font Size5",
+          "UI S",
+          "UI XS"
+        ]
+      },
+      "componentProperties": [
+        "Font Size"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-sensitive"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "37840:45833",
+      "name": "tui-skeleton",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "keyframe": [
+          "1",
+          "2"
+        ]
+      },
+      "componentProperties": [
+        "keyframe"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "37840:45836",
+      "name": "tui-skeleton [text]",
+      "status": "catalogued",
+      "totalVariants": 26,
+      "iOSVariants": 13,
+      "variantProperties": {
+        "system": [
+          "Android",
+          "iOS"
+        ],
+        "text-style": [
+          "body-l",
+          "body-m",
+          "body-s",
+          "heading-l",
+          "heading-m",
+          "heading-s",
+          "numbers-m",
+          "numbers-xl",
+          "ui-l",
+          "ui-m",
+          "ui-s",
+          "ui-xs",
+          "ui-xxs"
+        ]
+      },
+      "componentProperties": [
+        "system",
+        "text-style"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "28406:482266",
+      "name": "tui-spacing",
+      "status": "catalogued",
+      "totalVariants": 21,
+      "iOSVariants": 21,
+      "variantProperties": {
+        "Size": [
+          "0",
+          "01 - 2px",
+          "02 - 4px",
+          "03 - 8px",
+          "04 - 12px",
+          "05 - 16px",
+          "06 - 20px",
+          "07 - 24px",
+          "08 - 32px",
+          "09 - 40px",
+          "10 - 48px"
+        ],
+        "Visible": [
+          "off",
+          "on"
+        ]
+      },
+      "componentProperties": [
+        "Size",
+        "Visible"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "21811:56398",
+      "name": "tui-splash-screen",
+      "status": "catalogued",
+      "totalVariants": 20,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "appearance": [
+          "default",
+          "invest",
+          "mb",
+          "mobile",
+          "sme"
+        ],
+        "state": [
+          "loading",
+          "normal"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "appearance",
+        "logo#47:3",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "53204:296101",
+      "name": "tui-swipe-actions",
+      "status": "catalogued",
+      "totalVariants": 4,
+      "iOSVariants": 4,
+      "variantProperties": {
+        "Contents": [
+          "Card",
+          "Cell"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Action #1#53204:0",
+        "Action #2#53204:2",
+        "Action #3#53204:4",
+        "Contents",
+        "Expanded#53204:6",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-swipe-actions"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23068:2266",
+      "name": "tui-tab-bar",
+      "status": "catalogued",
+      "totalVariants": 5,
+      "iOSVariants": 5,
+      "variantProperties": {
+        "System": [
+          "Android",
+          "PWA (browser)",
+          "PWA (standalone)",
+          "iOS 18",
+          "iOS 26"
+        ]
+      },
+      "componentProperties": [
+        "Home Indicator#63101:0",
+        "System"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23142:458939",
+      "name": "tui-tab-bar / Bookkeeping",
+      "status": "catalogued",
+      "totalVariants": 6,
+      "iOSVariants": 6,
+      "variantProperties": {
+        "Active Tab": [
+          "Главная",
+          "Еще",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23142:453257",
+      "name": "tui-tab-bar / Invest",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "Active Tab": [
+          "Главная",
+          "Еще",
+          "Лента",
+          "Чат",
+          "Что купить"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "112725:32337",
+      "name": "tui-tab-bar / Junior",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "Active Tab": [
+          "Главная",
+          "Город",
+          "Джуниор",
+          "Платежи",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23142:450541",
+      "name": "tui-tab-bar / MB",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 16,
+      "variantProperties": {
+        "Active Tab": [
+          "Войти",
+          "Главная",
+          "Город",
+          "Еще",
+          "Платежи",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "PWA (Browser)",
+          "PWA (standalone)",
+          "iOS"
+        ],
+        "User": [
+          "Authorized",
+          "Origination"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System",
+        "User"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23142:455406",
+      "name": "tui-tab-bar / Mobile",
+      "status": "catalogued",
+      "totalVariants": 10,
+      "iOSVariants": 10,
+      "variantProperties": {
+        "Active Tab": [
+          "Главная",
+          "Еще",
+          "Роуминг",
+          "Услуги",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "23068:2615",
+      "name": "tui-tab-bar / SME",
+      "status": "catalogued",
+      "totalVariants": 22,
+      "iOSVariants": 22,
+      "variantProperties": {
+        "Active Tab": [
+          "Главная",
+          "Еще",
+          "Заявка",
+          "Платежи",
+          "Сервисы",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "PWA (browser)",
+          "PWA (standalone)",
+          "iOS"
+        ],
+        "User": [
+          "Default",
+          "Origination",
+          "Origination + Chat"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System",
+        "User"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "58367:296400",
+      "name": "tui-tab-bar / Signature",
+      "status": "catalogued",
+      "totalVariants": 16,
+      "iOSVariants": 16,
+      "variantProperties": {
+        "Active Tab": [
+          "Выпуск подписи",
+          "Документы",
+          "Еще",
+          "Чат"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ],
+        "User": [
+          "Default",
+          "Origination",
+          "Origination + Chat"
+        ]
+      },
+      "componentProperties": [
+        "Active Tab",
+        "System",
+        "User"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tabbar"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "44305:306527",
+      "name": "tui-text-expandable",
+      "status": "catalogued",
+      "totalVariants": 18,
+      "iOSVariants": 18,
+      "variantProperties": {
+        "Size": [
+          "Body L",
+          "Body M",
+          "UI S"
+        ],
+        "Skeleton": [
+          "off",
+          "on"
+        ],
+        "Style": [
+          "Primary",
+          "Secondary"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Show More#44305:42",
+        "Size",
+        "Skeleton",
+        "Style",
+        "System"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-text-expandable-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "65702:51131",
+      "name": "tui-textfield ",
+      "status": "catalogued",
+      "totalVariants": 44,
+      "iOSVariants": 22,
+      "variantProperties": {
+        "is-filled": [
+          "off",
+          "on"
+        ],
+        "show-label": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "invalid",
+          "invalid-focus",
+          "normal",
+          "read-only"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessory-type#8820:45",
+        "error-text#29897:268",
+        "hint-text#7615:480",
+        "is-filled",
+        "label-text#29896:355",
+        "placeholder-text#29897:80",
+        "show-end-accessory#8771:0",
+        "show-hint#7615:435",
+        "show-label",
+        "show-loader#8783:45",
+        "show-placeholder#29897:120",
+        "show-start-accessory#6594:64",
+        "skeleton",
+        "state",
+        "system",
+        "value-text#29896:318"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-textfield-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "26960:617080",
+      "name": "tui-textfield [convert]",
+      "status": "catalogued",
+      "totalVariants": 88,
+      "iOSVariants": 44,
+      "variantProperties": {
+        "currency-left": [
+          "off",
+          "on"
+        ],
+        "filled": [
+          "off",
+          "on"
+        ],
+        "hint": [
+          "off",
+          "on"
+        ],
+        "invalid": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "currency-left",
+        "filled",
+        "hint",
+        "invalid",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-textfield-convert"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "54443:283316",
+      "name": "tui-textfield [counter]",
+      "status": "catalogued",
+      "totalVariants": 44,
+      "iOSVariants": 22,
+      "variantProperties": {
+        "error": [
+          "No",
+          "Yes"
+        ],
+        "filled": [
+          "No",
+          "Yes"
+        ],
+        "hint": [
+          "No",
+          "Yes"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "normal",
+          "pressed"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "error",
+        "filled",
+        "hint",
+        "state",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-textfield-counter"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "69850:48152",
+      "name": "tui-textfield [multiline]",
+      "status": "catalogued",
+      "totalVariants": 44,
+      "iOSVariants": 22,
+      "variantProperties": {
+        "is-filled": [
+          "off",
+          "on"
+        ],
+        "show-label": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "invalid",
+          "invalid-focus",
+          "normal",
+          "read-only"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "error-text#29897:268",
+        "hint-text#7615:480",
+        "is-filled",
+        "label-text#29896:355",
+        "placeholder-text#29897:80",
+        "show-hint#7615:435",
+        "show-label",
+        "show-loader#8783:45",
+        "show-placeholder#29897:120",
+        "skeleton",
+        "state",
+        "system",
+        "value-text#29896:318"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-textfield-multiline-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "69850:47618",
+      "name": "tui-textfield [number]",
+      "status": "catalogued",
+      "totalVariants": 26,
+      "iOSVariants": 13,
+      "variantProperties": {
+        "is-filled": [
+          "off",
+          "on"
+        ],
+        "show-label": [
+          "off",
+          "on"
+        ],
+        "skeleton": [
+          "off",
+          "on"
+        ],
+        "state": [
+          "disabled",
+          "focus",
+          "invalid",
+          "invalid-focus",
+          "normal",
+          "read-only"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "accessory-slot#9385:0",
+        "error-text#29897:268",
+        "hint-text#7615:480",
+        "is-filled",
+        "label-text#29896:355",
+        "placeholder-text#29897:80",
+        "prefix-text#9361:380",
+        "show-accessory-slot#9385:27",
+        "show-end-accessories#9361:515",
+        "show-hint#7615:435",
+        "show-label",
+        "show-loader#8783:45",
+        "show-placeholder#29897:120",
+        "show-prefix#9361:407",
+        "show-suffix#9361:434",
+        "skeleton",
+        "state",
+        "suffix-text#9361:461",
+        "system",
+        "value-text#29896:318"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-textfield-number-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "39763:297614",
+      "name": "tui-thumbnail-card",
+      "status": "catalogued",
+      "totalVariants": 78,
+      "iOSVariants": 39,
+      "variantProperties": {
+        "background": [
+          "AllAirlines",
+          "Alpha",
+          "Black",
+          "Business",
+          "Business Credit Card",
+          "Custom",
+          "Family",
+          "Junior",
+          "Platinum",
+          "Premium",
+          "Sber",
+          "VTB"
+        ],
+        "size": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "skeleton": [
+          "Off",
+          "on"
+        ],
+        "system": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "background",
+        "icon-left#42214:49",
+        "icon-right#42214:147",
+        "isFrozen#42213:0",
+        "show-icon-left#42214:0",
+        "show-icon-right#42214:98",
+        "size",
+        "skeleton",
+        "system"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-thumbnail-card-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "42583:296173",
+      "name": "tui-tooltip",
+      "status": "catalogued",
+      "totalVariants": 48,
+      "iOSVariants": 48,
+      "variantProperties": {
+        "Appearance": [
+          "default",
+          "floating"
+        ],
+        "Position": [
+          "Bottom",
+          "Bottom Left",
+          "Bottom Right",
+          "Top",
+          "Top Left",
+          "Top Right"
+        ],
+        "Resizable": [
+          "off",
+          "on"
+        ],
+        "System": [
+          "Android",
+          "iOS"
+        ]
+      },
+      "componentProperties": [
+        "Appearance",
+        "Button#42583:0",
+        "Icon#65226:0",
+        "Position",
+        "Resizable",
+        "System",
+        "Tail#42583:9",
+        "Text#42604:0"
+      ],
+      "specificationURLs": [
+        "https://go.tcsbank.ru/tui-tooltip-specs"
+      ],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "55278:70654",
+      "name": "underline",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "pseudo": [
+          "No",
+          "Yes"
+        ]
+      },
+      "componentProperties": [
+        "pseudo"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    },
+    {
+      "id": "55278:70659",
+      "name": "underline",
+      "status": "catalogued",
+      "totalVariants": 2,
+      "iOSVariants": 2,
+      "variantProperties": {
+        "pseudo": [
+          "No",
+          "Yes"
+        ]
+      },
+      "componentProperties": [
+        "pseudo"
+      ],
+      "specificationURLs": [],
+      "verification": {
+        "metadata": true,
+        "implementation": false,
+        "visual": false
+      }
+    }
+  ]
+}

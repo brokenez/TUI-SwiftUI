@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TUI Mobile — iOS Design System</title>
+  <style>
+    :root { color-scheme: light dark; --accent:#ffdd2d; --action:#428bf9; --negative:#f52222; --positive:#00b92d; --bg:#fff; --surface:#f3f4f5; --text:#333; --secondary:#9299a2; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#000; --surface:#1c1c1e; --text:#f6f7f8; --action:#66a3ff; } }
+    * { box-sizing:border-box } body { margin:0; padding:48px; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif }
+    main { max-width:1080px; margin:auto } h1 { font-size:40px; letter-spacing:-.5px } h2 { margin-top:56px } .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px }
+    .card { background:var(--surface); border-radius:16px; padding:20px; min-height:112px } .swatch { height:72px; border-radius:12px; margin-bottom:12px; border:1px solid color-mix(in srgb,var(--text) 12%,transparent) }
+    .muted { color:var(--secondary) } button { border:0; border-radius:12px; min-height:56px; padding:0 24px; font:600 17px/20px -apple-system; background:var(--accent); color:#333 }
+    button.secondary { background:var(--surface); color:var(--action) } .type p { margin:8px 0 } .space { height:12px; background:var(--action); border-radius:6px; margin:10px 0 }
+    code { color:var(--action) }
+  </style>
+</head>
+<body><main>
+  <h1>TUI Mobile · iOS</h1><p class="muted">Локальный Swift Package для iOS 26. Снимок: 957 variables, 128 component sets, 3 927 variants, 3 518 assets.</p>
+  <section data-design-group="Colors"><h2>Colors</h2><div class="grid">
+    <div class="card"><div class="swatch" style="background:#ffdd2d"></div><b>Background/Accent 1</b><div>#FFDD2D</div></div>
+    <div class="card"><div class="swatch" style="background:#428bf9"></div><b>Text/Action</b><div>#428BF9</div></div>
+    <div class="card"><div class="swatch" style="background:#00b92d"></div><b>Text/Positive</b><div>#00B92D</div></div>
+    <div class="card"><div class="swatch" style="background:#f52222"></div><b>Text/Negative</b><div>#F52222</div></div>
+  </div></section>
+  <section data-design-group="Type" class="type"><h2>Typography</h2>
+    <p style="font-size:30px;font-weight:700;line-height:36px;letter-spacing:.4px">Heading Mobile L</p>
+    <p style="font-size:17px;line-height:24px;letter-spacing:-.43px">Body L · SF Pro Regular 17</p>
+    <p style="font-size:15px;line-height:20px;letter-spacing:-.23px">Body M · SF Pro Regular 15</p>
+    <p style="font-size:13px;line-height:18px;letter-spacing:-.08px">Body S · SF Pro Regular 13</p>
+  </section>
+  <section data-design-group="Spacing"><h2>Spacing</h2><div class="card">
+    <div class="space" style="width:4px"></div><div class="space" style="width:8px"></div><div class="space" style="width:12px"></div><div class="space" style="width:16px"></div><div class="space" style="width:24px"></div><div class="space" style="width:32px"></div><div class="space" style="width:48px"></div>
+  </div></section>
+  <section data-design-group="Components"><h2>Components</h2><div class="grid"><div class="card"><button>Primary button</button></div><div class="card"><button class="secondary">Secondary button</button></div><div class="card"><b>Notification</b><p class="muted">Supporting text</p></div></div></section>
+  <section data-design-group="Assets"><h2>Assets</h2><p>Полный индекс Icons, Logos, Flags, BMS, App Icons, Illustrations и Emoji находится в <code>figma-assets.json</code>.</p></section>
+</main></body></html>
