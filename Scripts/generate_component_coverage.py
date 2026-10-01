@@ -14,7 +14,7 @@ variants_by_set = {}
 for variant in variants:
     variants_by_set.setdefault(variant["setId"], []).append(variant)
 
-implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26"}
+implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227"}
 coverage = []
 for component_set in component_sets:
     component_variants = variants_by_set.get(component_set["id"], [])

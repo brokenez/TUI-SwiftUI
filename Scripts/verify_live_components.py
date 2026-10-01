@@ -25,6 +25,11 @@ expected = {
     "28036:523553": 4,
     "53309:296335": 3,
     "9999:26": 5,
+    "55278:70443": 15,
+    "25942:708453": 217,
+    "10467:91596": 6,
+    "37840:45833": 2,
+    "25738:689227": 3,
 }
 coverage_by_id = {component["id"]: component for component in coverage["components"]}
 for set_id, count in expected.items():
@@ -52,6 +57,11 @@ for name in (
     "tui-loader-24",
     "tui-loader-32",
     "tui-loader-40",
+    "tui-link-arrow-right-circle",
+    "tui-link-chevron-down",
+    "tui-progress-mountains-flag",
+    "tui-rating-star-empty",
+    "tui-rating-star-filled",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())
@@ -59,4 +69,4 @@ for name in (
     assert image.is_file() and image.stat().st_size > 100, image
 
 assert coverage["summary"]["iOSVariants"] == 2008
-print("Verified 5 live components, 164 iOS variants, and vector assets")
+print("Checked metadata for 10 live component sets (407 iOS variants) and their image assets")

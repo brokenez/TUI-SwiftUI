@@ -1265,7 +1265,7 @@
     {
       "id": "25738:689227",
       "name": "tui-badge notification",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -1288,7 +1288,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -3431,7 +3431,7 @@
     {
       "id": "55278:70443",
       "name": "tui-link",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 30,
       "iOSVariants": 15,
       "variantProperties": {
@@ -3466,7 +3466,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -4014,7 +4014,7 @@
     {
       "id": "25942:708453",
       "name": "tui-progress-circle",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 434,
       "iOSVariants": 217,
       "variantProperties": {
@@ -4065,14 +4065,14 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "10467:91596",
       "name": "tui-rating",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 6,
       "variantProperties": {
@@ -4094,7 +4094,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -4310,7 +4310,7 @@
     {
       "id": "37840:45833",
       "name": "tui-skeleton",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4325,7 +4325,7 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
