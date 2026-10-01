@@ -2,7 +2,7 @@
   "summary": {
     "componentSets": 128,
     "variants": 3927,
-    "iOSVariants": 2756,
+    "iOSVariants": 2008,
     "documentedComponents": 108,
     "completeComponents": 0
   },
@@ -51,7 +51,7 @@
     {
       "id": "53309:296335",
       "name": ".bullet",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 3,
       "iOSVariants": 3,
       "variantProperties": {
@@ -67,7 +67,7 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -195,7 +195,7 @@
       "name": "system-alert",
       "status": "catalogued",
       "totalVariants": 8,
-      "iOSVariants": 8,
+      "iOSVariants": 6,
       "variantProperties": {
         "System": [
           "Android",
@@ -236,7 +236,7 @@
       "name": "system-bottom-bar",
       "status": "catalogued",
       "totalVariants": 30,
-      "iOSVariants": 30,
+      "iOSVariants": 6,
       "variantProperties": {
         "Appearance": [
           "Dark Bg",
@@ -333,7 +333,7 @@
     {
       "id": "10312:84",
       "name": "system-checkbox",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -358,7 +358,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -367,7 +367,7 @@
       "name": "system-context-menu",
       "status": "catalogued",
       "totalVariants": 4,
-      "iOSVariants": 4,
+      "iOSVariants": 2,
       "variantProperties": {
         "Dark Mode": [
           "False",
@@ -396,7 +396,7 @@
       "name": "system-keyboard",
       "status": "catalogued",
       "totalVariants": 35,
-      "iOSVariants": 35,
+      "iOSVariants": 21,
       "variantProperties": {
         "Night mode": [
           "off",
@@ -440,7 +440,7 @@
       "name": "system-lockscreen",
       "status": "catalogued",
       "totalVariants": 5,
-      "iOSVariants": 5,
+      "iOSVariants": 3,
       "variantProperties": {
         "Mode": [
           "Day",
@@ -469,7 +469,7 @@
       "name": "system-push",
       "status": "catalogued",
       "totalVariants": 10,
-      "iOSVariants": 10,
+      "iOSVariants": 6,
       "variantProperties": {
         "Dark Mode": [
           "False",
@@ -509,7 +509,7 @@
     {
       "id": "28036:523553",
       "name": "system-radiobutton",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -533,7 +533,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -574,7 +574,7 @@
       "name": "system-segmented-control (tabs)",
       "status": "catalogued",
       "totalVariants": 44,
-      "iOSVariants": 44,
+      "iOSVariants": 18,
       "variantProperties": {
         "Active Tab": [
           "1st",
@@ -639,7 +639,7 @@
       "name": "system-status-bar",
       "status": "catalogued",
       "totalVariants": 22,
-      "iOSVariants": 22,
+      "iOSVariants": 18,
       "variantProperties": {
         "Appearance": [
           "Dark Bg",
@@ -681,7 +681,7 @@
       "name": "system-switch",
       "status": "catalogued",
       "totalVariants": 12,
-      "iOSVariants": 0,
+      "iOSVariants": 8,
       "variantProperties": {
         "disabled": [
           "off",
@@ -774,7 +774,7 @@
       "name": "tui-app-bar",
       "status": "catalogued",
       "totalVariants": 74,
-      "iOSVariants": 0,
+      "iOSVariants": 49,
       "variantProperties": {
         "left": [
           "Back",
@@ -824,7 +824,7 @@
       "name": "tui-avatar",
       "status": "catalogued",
       "totalVariants": 316,
-      "iOSVariants": 316,
+      "iOSVariants": 158,
       "variantProperties": {
         "Badge": [
           "bottom",
@@ -920,7 +920,7 @@
       "name": "tui-avatar-labelled",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "System": [
           "Android",
@@ -964,7 +964,7 @@
       "name": "tui-avatar-stack",
       "status": "catalogued",
       "totalVariants": 48,
-      "iOSVariants": 48,
+      "iOSVariants": 32,
       "variantProperties": {
         "Flip": [
           "off",
@@ -1297,7 +1297,7 @@
       "name": "tui-badged-content",
       "status": "catalogued",
       "totalVariants": 10,
-      "iOSVariants": 10,
+      "iOSVariants": 5,
       "variantProperties": {
         "Badge": [
           "bottom",
@@ -1371,7 +1371,7 @@
       "name": "tui-block-status",
       "status": "catalogued",
       "totalVariants": 8,
-      "iOSVariants": 8,
+      "iOSVariants": 4,
       "variantProperties": {
         "Button": [
           "off",
@@ -1454,7 +1454,7 @@
     {
       "id": "41658:296906",
       "name": "tui-button",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 294,
       "iOSVariants": 147,
       "variantProperties": {
@@ -1509,7 +1509,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -1682,7 +1682,7 @@
       "name": "tui-button [link]",
       "status": "catalogued",
       "totalVariants": 16,
-      "iOSVariants": 16,
+      "iOSVariants": 8,
       "variantProperties": {
         "Content": [
           "Icon",
@@ -1859,7 +1859,7 @@
       "name": "tui-button [two labels]",
       "status": "catalogued",
       "totalVariants": 20,
-      "iOSVariants": 20,
+      "iOSVariants": 10,
       "variantProperties": {
         "platform": [
           "Android",
@@ -1900,7 +1900,7 @@
       "name": "tui-button [vertical]",
       "status": "catalogued",
       "totalVariants": 8,
-      "iOSVariants": 8,
+      "iOSVariants": 4,
       "variantProperties": {
         "Skeleton": [
           "off",
@@ -1936,7 +1936,7 @@
       "name": "tui-button [wallet]",
       "status": "catalogued",
       "totalVariants": 34,
-      "iOSVariants": 34,
+      "iOSVariants": 2,
       "variantProperties": {
         "Appearance": [
           "Apple Wallet",
@@ -2073,7 +2073,7 @@
       "name": "tui-card [account]",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "System": [
           "Android",
@@ -2103,7 +2103,7 @@
       "name": "tui-card-large",
       "status": "catalogued",
       "totalVariants": 48,
-      "iOSVariants": 48,
+      "iOSVariants": 24,
       "variantProperties": {
         "Flat": [
           "False",
@@ -2872,7 +2872,7 @@
       "name": "tui-chip-group",
       "status": "catalogued",
       "totalVariants": 8,
-      "iOSVariants": 8,
+      "iOSVariants": 4,
       "variantProperties": {
         "Scrollable": [
           "off",
@@ -2907,7 +2907,7 @@
       "name": "tui-chip-group [choice]",
       "status": "catalogued",
       "totalVariants": 12,
-      "iOSVariants": 12,
+      "iOSVariants": 6,
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -2946,7 +2946,7 @@
       "name": "tui-chip-group [filter]",
       "status": "catalogued",
       "totalVariants": 12,
-      "iOSVariants": 12,
+      "iOSVariants": 6,
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -2985,7 +2985,7 @@
       "name": "tui-chip-group [list]",
       "status": "catalogued",
       "totalVariants": 12,
-      "iOSVariants": 12,
+      "iOSVariants": 6,
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -3024,7 +3024,7 @@
       "name": "tui-counter",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Preset": [
           "Primary",
@@ -3099,7 +3099,7 @@
       "name": "tui-header",
       "status": "catalogued",
       "totalVariants": 30,
-      "iOSVariants": 30,
+      "iOSVariants": 15,
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3154,7 +3154,7 @@
       "name": "tui-header [action]",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3204,7 +3204,7 @@
       "name": "tui-header [button]",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3254,7 +3254,7 @@
       "name": "tui-header [card]",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Accessory": [
           "Avatar",
@@ -3353,7 +3353,7 @@
       "name": "tui-header [switch]",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3403,7 +3403,7 @@
       "name": "tui-illustration-screen",
       "status": "catalogued",
       "totalVariants": 4,
-      "iOSVariants": 4,
+      "iOSVariants": 1,
       "variantProperties": {
         "System": [
           "Android",
@@ -3433,7 +3433,7 @@
       "name": "tui-link",
       "status": "catalogued",
       "totalVariants": 30,
-      "iOSVariants": 30,
+      "iOSVariants": 15,
       "variantProperties": {
         "mode": [
           "default",
@@ -3475,7 +3475,7 @@
       "name": "tui-list [bulleted]",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3510,7 +3510,7 @@
       "name": "tui-list [numbered]",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3545,7 +3545,7 @@
       "name": "tui-list-item [bulleted]",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3579,7 +3579,7 @@
       "name": "tui-list-item [numbered]",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3608,7 +3608,7 @@
     {
       "id": "9999:26",
       "name": "tui-loader",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 5,
       "iOSVariants": 5,
       "variantProperties": {
@@ -3628,7 +3628,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -3966,7 +3966,7 @@
       "name": "tui-progress-bar",
       "status": "catalogued",
       "totalVariants": 96,
-      "iOSVariants": 96,
+      "iOSVariants": 48,
       "variantProperties": {
         "Cap": [
           "Round",
@@ -4016,7 +4016,7 @@
       "name": "tui-progress-circle",
       "status": "catalogued",
       "totalVariants": 434,
-      "iOSVariants": 434,
+      "iOSVariants": 217,
       "variantProperties": {
         "Preset": [
           "Icon",
@@ -4127,7 +4127,7 @@
       "name": "tui-row [button-vertical]",
       "status": "catalogued",
       "totalVariants": 4,
-      "iOSVariants": 4,
+      "iOSVariants": 2,
       "variantProperties": {
         "Quantity": [
           "1-3",
@@ -4209,7 +4209,7 @@
       "name": "tui-search-bar",
       "status": "catalogued",
       "totalVariants": 16,
-      "iOSVariants": 0,
+      "iOSVariants": 10,
       "variantProperties": {
         "filled": [
           "off",
@@ -4444,7 +4444,7 @@
       "name": "tui-swipe-actions",
       "status": "catalogued",
       "totalVariants": 4,
-      "iOSVariants": 4,
+      "iOSVariants": 2,
       "variantProperties": {
         "Contents": [
           "Card",
@@ -4477,7 +4477,7 @@
       "name": "tui-tab-bar",
       "status": "catalogued",
       "totalVariants": 5,
-      "iOSVariants": 5,
+      "iOSVariants": 2,
       "variantProperties": {
         "System": [
           "Android",
@@ -4503,7 +4503,7 @@
       "name": "tui-tab-bar / Bookkeeping",
       "status": "catalogued",
       "totalVariants": 6,
-      "iOSVariants": 6,
+      "iOSVariants": 3,
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4533,7 +4533,7 @@
       "name": "tui-tab-bar / Invest",
       "status": "catalogued",
       "totalVariants": 10,
-      "iOSVariants": 10,
+      "iOSVariants": 5,
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4565,7 +4565,7 @@
       "name": "tui-tab-bar / Junior",
       "status": "catalogued",
       "totalVariants": 10,
-      "iOSVariants": 10,
+      "iOSVariants": 5,
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4597,7 +4597,7 @@
       "name": "tui-tab-bar / MB",
       "status": "catalogued",
       "totalVariants": 16,
-      "iOSVariants": 16,
+      "iOSVariants": 7,
       "variantProperties": {
         "Active Tab": [
           "Войти",
@@ -4637,7 +4637,7 @@
       "name": "tui-tab-bar / Mobile",
       "status": "catalogued",
       "totalVariants": 10,
-      "iOSVariants": 10,
+      "iOSVariants": 5,
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4669,7 +4669,7 @@
       "name": "tui-tab-bar / SME",
       "status": "catalogued",
       "totalVariants": 22,
-      "iOSVariants": 22,
+      "iOSVariants": 10,
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4710,7 +4710,7 @@
       "name": "tui-tab-bar / Signature",
       "status": "catalogued",
       "totalVariants": 16,
-      "iOSVariants": 16,
+      "iOSVariants": 8,
       "variantProperties": {
         "Active Tab": [
           "Выпуск подписи",
@@ -4747,7 +4747,7 @@
       "name": "tui-text-expandable",
       "status": "catalogued",
       "totalVariants": 18,
-      "iOSVariants": 18,
+      "iOSVariants": 9,
       "variantProperties": {
         "Size": [
           "Body L",
@@ -5118,7 +5118,7 @@
       "name": "tui-tooltip",
       "status": "catalogued",
       "totalVariants": 48,
-      "iOSVariants": 48,
+      "iOSVariants": 24,
       "variantProperties": {
         "Appearance": [
           "default",

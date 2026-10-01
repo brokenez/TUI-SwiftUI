@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -13,6 +14,7 @@ variants_by_set = {}
 for variant in variants:
     variants_by_set.setdefault(variant["setId"], []).append(variant)
 
+implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26"}
 coverage = []
 for component_set in component_sets:
     component_variants = variants_by_set.get(component_set["id"], [])
@@ -23,19 +25,22 @@ for component_set in component_sets:
 
     def is_ios(variant):
         properties = variant.get("variantProperties") or {}
-        system = properties.get("system")
-        return system is None or system.lower() == "ios"
+        platform = next((value for key, value in properties.items()
+                         if key.lower().replace("е", "e") in ("system", "platform")), None)
+        return platform is None or platform.lower().startswith("ios") or platform == "–"
+
+    has_implementation = component_set["id"] in implemented_ids
 
     coverage.append({
         "id": component_set["id"],
         "name": component_set["name"],
-        "status": "catalogued",
+        "status": "in-progress" if has_implementation else "catalogued",
         "totalVariants": len(component_variants),
         "iOSVariants": sum(1 for variant in component_variants if is_ios(variant)),
         "variantProperties": {key: sorted(values) for key, values in sorted(property_values.items())},
         "componentProperties": sorted(component_set.get("properties", {}).keys()),
         "specificationURLs": [link["uri"] for link in component_set.get("documentationLinks", [])],
-        "verification": {"metadata": True, "implementation": False, "visual": False}
+        "verification": {"metadata": True, "implementation": has_implementation, "visual": False}
     })
 
 payload = {
@@ -49,10 +54,14 @@ payload = {
     "components": coverage
 }
 
-documentation.mkdir(parents=True, exist_ok=True)
-(documentation / "component-coverage.json").write_text(
-    json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-)
+rendered = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+output = documentation / "component-coverage.json"
+if "--check" in sys.argv:
+    if not output.exists() or output.read_text() != rendered:
+        raise SystemExit("component-coverage.json is out of date")
+else:
+    documentation.mkdir(parents=True, exist_ok=True)
+    output.write_text(rendered)
 
 known_set_ids = {component_set["id"] for component_set in component_sets}
 unknown = [variant["id"] for variant in variants if variant["setId"] not in known_set_ids]

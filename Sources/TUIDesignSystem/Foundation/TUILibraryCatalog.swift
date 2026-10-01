@@ -27,8 +27,11 @@ public struct TUIComponentVariantReference: Sendable, Identifiable, Hashable {
     public let height: Double
 
     public var isIOS: Bool {
-        guard let system = properties["system"] else { return true }
-        return system.caseInsensitiveCompare("iOS") == .orderedSame
+        guard let platform = properties.first(where: { key, _ in
+            let normalized = key.lowercased().replacingOccurrences(of: "е", with: "e")
+            return normalized == "system" || normalized == "platform"
+        })?.value else { return true }
+        return platform.lowercased().hasPrefix("ios") || platform == "–"
     }
 }
 

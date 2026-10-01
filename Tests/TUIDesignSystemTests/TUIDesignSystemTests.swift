@@ -14,6 +14,13 @@ import Testing
     #expect(TUILibraryCatalog.shared.assets.count == 3_518)
     #expect(TUILibraryCatalog.shared.variants.count == 3_927)
     #expect(TUILibraryCatalog.shared.components.filter { !$0.specificationURLs.isEmpty }.count == 108)
+    #expect(TUILibraryCatalog.shared.variants.filter(\.isIOS).count == 2_008)
+    #expect(TUILibraryCatalog.shared.variants(for: "55278:70443").count == 15)
+    #expect(TUILibraryCatalog.shared.variants(for: "41658:296906").count == 147)
+}
+
+@MainActor @Test func buttonStylesCoverEveryImportedIOSVariant() {
+    #expect(TUIButton.importedVariantCount == 147)
 }
 
 @Test func typographyUsesExactFigmaMetrics() {
@@ -27,4 +34,3 @@ import Testing
     #expect(body.lineHeight == 24)
     #expect(body.letterSpacing == -0.43)
 }
-
