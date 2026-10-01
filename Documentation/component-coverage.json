@@ -167,7 +167,7 @@
     {
       "id": "9151:1662",
       "name": "system-action-sheet",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -186,7 +186,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -365,7 +365,7 @@
     {
       "id": "53362:296599",
       "name": "system-context-menu",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -387,7 +387,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -615,7 +615,7 @@
     {
       "id": "44720:304564",
       "name": "system-share-sheet",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -630,7 +630,7 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -679,7 +679,7 @@
     {
       "id": "9940:39560",
       "name": "system-switch",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 12,
       "iOSVariants": 8,
       "variantProperties": {
@@ -707,7 +707,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -3473,7 +3473,7 @@
     {
       "id": "79180:42610",
       "name": "tui-list [bulleted]",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3501,14 +3501,14 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "79180:42880",
       "name": "tui-list [numbered]",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3536,14 +3536,14 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "53190:295267",
       "name": "tui-list-item [bulleted]",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3570,14 +3570,14 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "79180:42849",
       "name": "tui-list-item [numbered]",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3601,7 +3601,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },

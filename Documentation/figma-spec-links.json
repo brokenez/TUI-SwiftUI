@@ -1,0 +1,1491 @@
+{
+  "source": "Figma component documentationLinks, resolved 2026-10-01",
+  "links": {
+    "https://go.tcsbank.ru/system-action-sheet": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=486-6109&t=lno0RLL6TG3he2qI-1"
+    },
+    "https://go.tcsbank.ru/system-alerts": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=13698-468613&t=fJnemUazO7DUob4M-1"
+    },
+    "https://go.tcsbank.ru/system-bottom-bar": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-32&t=fJnemUazO7DUob4M-1"
+    },
+    "https://go.tcsbank.ru/system-keyboard": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=470-7660&t=fJnemUazO7DUob4M-1"
+    },
+    "https://go.tcsbank.ru/system-segmented-control-tabs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-26&t=fJnemUazO7DUob4M-1"
+    },
+    "https://go.tcsbank.ru/system-status-bar": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-1&t=fJnemUazO7DUob4M-1"
+    },
+    "https://go.tcsbank.ru/tui-amount-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/2A6TJKC6Ijfq4eXJKjgeVP/tui-amount"
+    },
+    "https://go.tcsbank.ru/tui-appbar-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/hiSQkVgQ7rBSdPuzjywApt/tui-appbar"
+    },
+    "https://go.tcsbank.ru/tui-avatar-labelled-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar"
+    },
+    "https://go.tcsbank.ru/tui-avatar-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar?node-id=2-7812&t=AEBwEL9RV1rggst0-1"
+    },
+    "https://go.tcsbank.ru/tui-avatar-stack-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar"
+    },
+    "https://go.tcsbank.ru/tui-avatar-subscription": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar?node-id=1313-4943&t=oe5gbrUPxTB4AvHk-1"
+    },
+    "https://go.tcsbank.ru/tui-badge-cashback": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=2351-3149&t=TpcSIY63ENPTCCA9-1"
+    },
+    "https://go.tcsbank.ru/tui-badge-notification": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=18-86130&t=QaOhpC6j1N5bVpSJ-1"
+    },
+    "https://go.tcsbank.ru/tui-badge-shield": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge--tui-badged-content?node-id=11163-13347"
+    },
+    "https://go.tcsbank.ru/tui-badge-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=3-4&t=b2LMMPMVTKzxqPLq-1"
+    },
+    "https://go.tcsbank.ru/tui-badge-subscription": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-126&t=jNssbxslgzKMCln7-1"
+    },
+    "https://go.tcsbank.ru/tui-badged-content-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-127&t=Qq8ME1XzXFMywyIi-1"
+    },
+    "https://go.tcsbank.ru/tui-block-details-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/eSNNgNPLtZWUncKVcQL0Nb/tui-block-details?node-id=8-58011&t=PGITHXcBuPGScWO1-1"
+    },
+    "https://go.tcsbank.ru/tui-block-status-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/zLcO4oClyyv0RBF2iiCjVG/tui-block-status?node-id=312-2516&t=Thh8E91y3u1c3GC2-1"
+    },
+    "https://go.tcsbank.ru/tui-bottomsheet-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/PAYDPmjaaZHJCE27zEHOh9/tui-bottomsheet"
+    },
+    "https://go.tcsbank.ru/tui-button-add-card": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=134-284588&t=Es87PtoJvQXFMiU2-1"
+    },
+    "https://go.tcsbank.ru/tui-button-cell": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-7&t=nSV2bpjYOJNu5ove-1"
+    },
+    "https://go.tcsbank.ru/tui-button-close": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-5&t=zjDUZgIBMJO5Rtc5-1"
+    },
+    "https://go.tcsbank.ru/tui-button-group-card-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/mIHvcOgh7vWNwIMDpHwXMe/tui-button-group-card"
+    },
+    "https://go.tcsbank.ru/tui-button-like": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-6&t=fsm2q4uGMv5RCEEO-1"
+    },
+    "https://go.tcsbank.ru/tui-button-link": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=5-20137&t=61QLAz6M9714Q0Df-1"
+    },
+    "https://go.tcsbank.ru/tui-button-share": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=8573-7202&t=OM1oF2ATxVLUof9O-1"
+    },
+    "https://go.tcsbank.ru/tui-button-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-3&t=MC3cfB58GDhCp9tW-1"
+    },
+    "https://go.tcsbank.ru/tui-button-subscription": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=6-41778&t=VeWHsGt8ja0tHe9O-1"
+    },
+    "https://go.tcsbank.ru/tui-button-tooltip": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-8&t=jNJeGbaRipKRw5Pl-1"
+    },
+    "https://go.tcsbank.ru/tui-button-vertical": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-4&t=pDIlZNqVI2iz4c7Y-1"
+    },
+    "https://go.tcsbank.ru/tui-button-wallet": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=6-41777&t=cCMnEiZRbgoviLIa-1"
+    },
+    "https://go.tcsbank.ru/tui-card-large-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/J47iKq86xSm5piVUwsUwYX/tui-card-large"
+    },
+    "https://go.tcsbank.ru/tui-card-medium-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/bftkqiWl2LMLIXsAnPKZar/tui-card-medium"
+    },
+    "https://go.tcsbank.ru/tui-cell-connected-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell"
+    },
+    "https://go.tcsbank.ru/tui-cell-operation-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=12613-255589&mode=design&t=uYZhF22PtSqdLjH6-0"
+    },
+    "https://go.tcsbank.ru/tui-cell-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+    },
+    "https://go.tcsbank.ru/tui-checkbox": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=2-147&t=Z6yGjoxT2X1lw4Ue-1"
+    },
+    "https://go.tcsbank.ru/tui-chip-group-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/nlKukod1Agx5JuLMWM8aej/tui-chip-group?node-id=0-1&t=TJjpSDHiO3wRpbvZ-1"
+    },
+    "https://go.tcsbank.ru/tui-chips-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/file/Dn9obiJAxL4juOqCYj6tEb/tui-chips?type=design&node-id=1-2800&mode=design&t=09IFjBUvwnptAm4P-0"
+    },
+    "https://go.tcsbank.ru/tui-counter-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/eoVbiSMrWULegIcqUA12OE/tui-counter"
+    },
+    "https://go.tcsbank.ru/tui-floating-container-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/jvYMs0sCSCZCHEFrRcL4vW/tui-floating-container"
+    },
+    "https://go.tcsbank.ru/tui-header-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+    },
+    "https://go.tcsbank.ru/tui-illustration-screen-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/LKM99EuzymuOkpgiXX34yr/tui-illustration-screen?node-id=4371-1359&t=SA92uvB2kQKcXuNx-1"
+    },
+    "https://go.tcsbank.ru/tui-link-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/sLNvPatnUTkEeabuLCXk9O/tui-link?node-id=1-8839&t=EE7VbjhjIumxenCC-4"
+    },
+    "https://go.tcsbank.ru/tui-list-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/GWcFNWEbFqxemWpGpmY3yZ/tui-list--bulleted---tui-list--numbered-?node-id=6075-14846&t=KpZI0MsT6Q0ZXJjJ-1"
+    },
+    "https://go.tcsbank.ru/tui-loader-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/Nv37Me0sNdmm3wt0L1j8dF/tui-loader?node-id=6241-1360&t=vkuRWDNf34lwP3zv-1"
+    },
+    "https://go.tcsbank.ru/tui-message-bubble-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/JsGo4SRLMX8yeP8Awg1R84/tui-message-bubble?node-id=86-1101&t=jZ0iepByPUtnw66K-1"
+    },
+    "https://go.tcsbank.ru/tui-notification-banner-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/fpKwg210ywC0zieYt1OQcD/tui-notification?node-id=1-3&t=gXYIJ1eb9D0N82F1-1"
+    },
+    "https://go.tcsbank.ru/tui-notification-middle-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/jFl0KNdtWJbSqMAb2YCXUU/tui-notification-middle?node-id=6051-10594&t=RyIG1hdRJgYY0Iej-1"
+    },
+    "https://go.tcsbank.ru/tui-notification-toast-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/xkznDUnrswht5cjKVPxyBB/tui-notification-toast"
+    },
+    "https://go.tcsbank.ru/tui-onboarding-flow-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/MytD6dFQ8J6Arl86hW7VxA/tui-onboarding-flow"
+    },
+    "https://go.tcsbank.ru/tui-pager-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/Gkt5uTUWBk0spEoU7EAT5j/tui-pager?node-id=124-1455&t=N2wbU5DZRWhbFAip-11"
+    },
+    "https://go.tcsbank.ru/tui-pin-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=53677-482261&mode=design&t=uYZhF22PtSqdLjH6-0"
+    },
+    "https://go.tcsbank.ru/tui-progress-bar-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/1BsWIz550um5AhNQoGhPGa/tui-progress?node-id=1-4&t=0k4t0cFIrOS9eR0w-1"
+    },
+    "https://go.tcsbank.ru/tui-progress-circle-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/1BsWIz550um5AhNQoGhPGa/tui-progress"
+    },
+    "https://go.tcsbank.ru/tui-radiobutton": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=2-148&t=hnVwy381HpFtKp1L-1"
+    },
+    "https://go.tcsbank.ru/tui-rating": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/GML4f7dIhrCjPoxf7gzF7e/tui-rating?node-id=1-2461&t=MYCTlduhaqyrgIyu-1"
+    },
+    "https://go.tcsbank.ru/tui-row-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/Mae0LyznsyCbWbHhT7KbwF/tui-row"
+    },
+    "https://go.tcsbank.ru/tui-searchbar-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/n7VJkgfOx2GsecqNG6h177/tui-search-bar?node-id=0-1&t=f0tWKNPJ6cLzmg6R-1"
+    },
+    "https://go.tcsbank.ru/tui-segmented": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/mkmOd2iW7CUFixpEX3Yju7/tui-segmented?node-id=56-3148&t=5IUlgqS5RBsgs78n-1"
+    },
+    "https://go.tcsbank.ru/tui-sensitive": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/qT8MjPknoT5knKCjHxwG7e/tui-sensitive?node-id=15-6026&t=EuQS3MKHcdSPexca-1"
+    },
+    "https://go.tcsbank.ru/tui-swipe-actions": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/W1VUOFHYFbutZXVL3tdl0V/tui-swipe-actions?node-id=8015-8374&t=LIAVFlPreoOnAhtx-1"
+    },
+    "https://go.tcsbank.ru/tui-switch": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=1-4&t=OUJ1pAmmNC6uUKV9-1"
+    },
+    "https://go.tcsbank.ru/tui-tabbar": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+    },
+    "https://go.tcsbank.ru/tui-text-expandable-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=61329-50682&mode=design&t=4Dv3Pq0UWGBP0yb7-4"
+    },
+    "https://go.tcsbank.ru/tui-textfield-convert": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/2KNW2dqkurLaAXPLixMOVU/tui-textfield%2C-Smartfields?node-id=2669-6488&t=ng1VSIEhdBJENllk-1"
+    },
+    "https://go.tcsbank.ru/tui-textfield-counter": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/2KNW2dqkurLaAXPLixMOVU/tui-textfield%2C-Smartfields?node-id=2141-16576&t=l92i5Vsd75Qfa5gg-1"
+    },
+    "https://go.tcsbank.ru/tui-textfield-multiline-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=7021-69558&t=A0a7aIw74809dP5N-11"
+    },
+    "https://go.tcsbank.ru/tui-textfield-number-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=9361-154458&t=A0a7aIw74809dP5N-11"
+    },
+    "https://go.tcsbank.ru/tui-textfield-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=4923-11438&t=A0a7aIw74809dP5N-11"
+    },
+    "https://go.tcsbank.ru/tui-thumbnail-card-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/qPHKGmDGNE0IpNhv4pai90/tui-thumbnail-card"
+    },
+    "https://go.tcsbank.ru/tui-tooltip-specs": {
+      "status": 307,
+      "destination": "https://www.figma.com/design/nSiopv7Uwd27EpiwO6p9x1/tui-tooltip"
+    }
+  },
+  "componentSpecifications": [
+    {
+      "id": "20582:43392",
+      "name": " tui-avatar [subscription]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-avatar-subscription",
+          "status": 307,
+          "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar?node-id=1313-4943&t=oe5gbrUPxTB4AvHk-1"
+        }
+      ]
+    },
+    {
+      "id": "9151:1662",
+      "name": "system-action-sheet",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-action-sheet",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=486-6109&t=lno0RLL6TG3he2qI-1"
+        }
+      ]
+    },
+    {
+      "id": "24689:584469",
+      "name": "system-alert",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-alerts",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=13698-468613&t=fJnemUazO7DUob4M-1"
+        }
+      ]
+    },
+    {
+      "id": "24708:577310",
+      "name": "system-bottom-bar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-bottom-bar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-32&t=fJnemUazO7DUob4M-1"
+        }
+      ]
+    },
+    {
+      "id": "10312:84",
+      "name": "system-checkbox",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-checkbox",
+          "status": 307,
+          "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=2-147&t=Z6yGjoxT2X1lw4Ue-1"
+        }
+      ]
+    },
+    {
+      "id": "53362:296599",
+      "name": "system-context-menu",
+      "links": [
+        {
+          "source": "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/",
+          "status": null,
+          "destination": "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/"
+        }
+      ]
+    },
+    {
+      "id": "25165:592774",
+      "name": "system-keyboard",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-keyboard",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=470-7660&t=fJnemUazO7DUob4M-1"
+        }
+      ]
+    },
+    {
+      "id": "53362:297214",
+      "name": "system-push",
+      "links": [
+        {
+          "source": "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/",
+          "status": null,
+          "destination": "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/"
+        }
+      ]
+    },
+    {
+      "id": "28036:523553",
+      "name": "system-radiobutton",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-radiobutton",
+          "status": 307,
+          "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=2-148&t=hnVwy381HpFtKp1L-1"
+        }
+      ]
+    },
+    {
+      "id": "24684:593518",
+      "name": "system-segmented-control (tabs)",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-segmented-control-tabs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-26&t=fJnemUazO7DUob4M-1"
+        }
+      ]
+    },
+    {
+      "id": "8930:26243",
+      "name": "system-status-bar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/system-status-bar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?node-id=8706-1&t=fJnemUazO7DUob4M-1"
+        }
+      ]
+    },
+    {
+      "id": "9940:39560",
+      "name": "system-switch",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-switch",
+          "status": 307,
+          "destination": "https://www.figma.com/design/vMhDQeRwUyMAk3lY2IdOn2/tui-checkbox%2Ctoggle%2Cradio?node-id=1-4&t=OUJ1pAmmNC6uUKV9-1"
+        }
+      ]
+    },
+    {
+      "id": "44037:288637",
+      "name": "tui-amount",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-amount-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/2A6TJKC6Ijfq4eXJKjgeVP/tui-amount"
+        }
+      ]
+    },
+    {
+      "id": "25752:487144",
+      "name": "tui-app-bar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-appbar-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/hiSQkVgQ7rBSdPuzjywApt/tui-appbar"
+        }
+      ]
+    },
+    {
+      "id": "25745:690405",
+      "name": "tui-avatar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-avatar-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar?node-id=2-7812&t=AEBwEL9RV1rggst0-1"
+        }
+      ]
+    },
+    {
+      "id": "68613:55962",
+      "name": "tui-avatar [badged-subscription-icon]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-avatar-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar?node-id=2-7812&t=AEBwEL9RV1rggst0-1"
+        }
+      ]
+    },
+    {
+      "id": "53606:309279",
+      "name": "tui-avatar-labelled",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-avatar-labelled-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar"
+        }
+      ]
+    },
+    {
+      "id": "25526:614200",
+      "name": "tui-avatar-stack",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-avatar-stack-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/5PeYihsCgLMdt2JILSLdoL/tui-avatar"
+        }
+      ]
+    },
+    {
+      "id": "25738:686585",
+      "name": "tui-badge",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badge-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=3-4&t=b2LMMPMVTKzxqPLq-1"
+        }
+      ]
+    },
+    {
+      "id": "26895:46826",
+      "name": "tui-badge [cashback]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badge-cashback",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=2351-3149&t=TpcSIY63ENPTCCA9-1"
+        }
+      ]
+    },
+    {
+      "id": "68613:55102",
+      "name": "tui-badge [subscription-icon-shield]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badge-shield",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge--tui-badged-content?node-id=11163-13347"
+        }
+      ]
+    },
+    {
+      "id": "68613:55199",
+      "name": "tui-badge [subscription]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badge-subscription",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-126&t=jNssbxslgzKMCln7-1"
+        }
+      ]
+    },
+    {
+      "id": "25738:689227",
+      "name": "tui-badge notification",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badge-notification",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=18-86130&t=QaOhpC6j1N5bVpSJ-1"
+        }
+      ]
+    },
+    {
+      "id": "25745:690323",
+      "name": "tui-badged-content",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-badged-content-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-127&t=Qq8ME1XzXFMywyIi-1"
+        }
+      ]
+    },
+    {
+      "id": "47912:303878",
+      "name": "tui-block-details",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-block-details-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/eSNNgNPLtZWUncKVcQL0Nb/tui-block-details?node-id=8-58011&t=PGITHXcBuPGScWO1-1"
+        }
+      ]
+    },
+    {
+      "id": "43816:296648",
+      "name": "tui-block-status",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-block-status-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/zLcO4oClyyv0RBF2iiCjVG/tui-block-status?node-id=312-2516&t=Thh8E91y3u1c3GC2-1"
+        }
+      ]
+    },
+    {
+      "id": "44431:321226",
+      "name": "tui-bottom-sheet",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-bottomsheet-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/PAYDPmjaaZHJCE27zEHOh9/tui-bottomsheet"
+        }
+      ]
+    },
+    {
+      "id": "41658:296906",
+      "name": "tui-button",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-3&t=MC3cfB58GDhCp9tW-1"
+        }
+      ]
+    },
+    {
+      "id": "7319:38983",
+      "name": "tui-button [add-card]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-add-card",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=134-284588&t=Es87PtoJvQXFMiU2-1"
+        }
+      ]
+    },
+    {
+      "id": "53169:295889",
+      "name": "tui-button [cell]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-cell",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-7&t=nSV2bpjYOJNu5ove-1"
+        }
+      ]
+    },
+    {
+      "id": "30258:432933",
+      "name": "tui-button [close]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-close",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-5&t=zjDUZgIBMJO5Rtc5-1"
+        }
+      ]
+    },
+    {
+      "id": "44290:299166",
+      "name": "tui-button [like]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-like",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-6&t=fsm2q4uGMv5RCEEO-1"
+        }
+      ]
+    },
+    {
+      "id": "42565:304987",
+      "name": "tui-button [link]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-link",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=5-20137&t=61QLAz6M9714Q0Df-1"
+        }
+      ]
+    },
+    {
+      "id": "59194:53406",
+      "name": "tui-button [on-light-on-dark]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-3&t=MC3cfB58GDhCp9tW-1"
+        }
+      ]
+    },
+    {
+      "id": "44290:299199",
+      "name": "tui-button [share]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-share",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=8573-7202&t=OM1oF2ATxVLUof9O-1"
+        }
+      ]
+    },
+    {
+      "id": "44236:302826",
+      "name": "tui-button [subscription]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-subscription",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=6-41778&t=VeWHsGt8ja0tHe9O-1"
+        }
+      ]
+    },
+    {
+      "id": "51388:47169",
+      "name": "tui-button [two labels]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-3&t=MC3cfB58GDhCp9tW-1"
+        }
+      ]
+    },
+    {
+      "id": "41691:305320",
+      "name": "tui-button [vertical]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-vertical",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-4&t=pDIlZNqVI2iz4c7Y-1"
+        }
+      ]
+    },
+    {
+      "id": "54757:286088",
+      "name": "tui-button [wallet]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-wallet",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=6-41777&t=cCMnEiZRbgoviLIa-1"
+        }
+      ]
+    },
+    {
+      "id": "25748:771367",
+      "name": "tui-button tooltip",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-tooltip",
+          "status": 307,
+          "destination": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=1-8&t=jNJeGbaRipKRw5Pl-1"
+        }
+      ]
+    },
+    {
+      "id": "36326:422777",
+      "name": "tui-button-group-card",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-button-group-card-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/mIHvcOgh7vWNwIMDpHwXMe/tui-button-group-card"
+        }
+      ]
+    },
+    {
+      "id": "42587:291989",
+      "name": "tui-card-large",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-card-large-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/J47iKq86xSm5piVUwsUwYX/tui-card-large"
+        }
+      ]
+    },
+    {
+      "id": "11335:41574",
+      "name": "tui-card-medium ",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-card-medium-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/bftkqiWl2LMLIXsAnPKZar/tui-card-medium"
+        }
+      ]
+    },
+    {
+      "id": "41569:290555",
+      "name": "tui-cell",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "2793:73350",
+      "name": "tui-cell [account]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "41637:306482",
+      "name": "tui-cell [action]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "41637:306089",
+      "name": "tui-cell [button]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "41637:307793",
+      "name": "tui-cell [checkbox]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "41637:306903",
+      "name": "tui-cell [checkicon]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "53219:295268",
+      "name": "tui-cell [connected]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-connected-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell"
+        }
+      ]
+    },
+    {
+      "id": "41637:305628",
+      "name": "tui-cell [disclosure]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "44305:304744",
+      "name": "tui-cell [invest]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "63132:295599",
+      "name": "tui-cell [mobile]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "44290:314128",
+      "name": "tui-cell [operation]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-operation-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=12613-255589&mode=design&t=uYZhF22PtSqdLjH6-0"
+        }
+      ]
+    },
+    {
+      "id": "41569:291397",
+      "name": "tui-cell [switch]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-cell-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/E5smFo7uxLRjWx7Ov2e3zt/tui-cell?node-id=17-2105&t=WeXeeUrSMWJYXvo3-1"
+        }
+      ]
+    },
+    {
+      "id": "42638:295990",
+      "name": "tui-chip",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-chips-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/file/Dn9obiJAxL4juOqCYj6tEb/tui-chips?type=design&node-id=1-2800&mode=design&t=09IFjBUvwnptAm4P-0"
+        }
+      ]
+    },
+    {
+      "id": "115603:32334",
+      "name": "tui-chip-group",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-chip-group-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/nlKukod1Agx5JuLMWM8aej/tui-chip-group?node-id=0-1&t=TJjpSDHiO3wRpbvZ-1"
+        }
+      ]
+    },
+    {
+      "id": "44286:300575",
+      "name": "tui-chip-group [choice]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-chip-group-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/nlKukod1Agx5JuLMWM8aej/tui-chip-group?node-id=0-1&t=TJjpSDHiO3wRpbvZ-1"
+        }
+      ]
+    },
+    {
+      "id": "44286:300668",
+      "name": "tui-chip-group [filter]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-chips-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/file/Dn9obiJAxL4juOqCYj6tEb/tui-chips?type=design&node-id=1-2800&mode=design&t=09IFjBUvwnptAm4P-0"
+        }
+      ]
+    },
+    {
+      "id": "44286:300482",
+      "name": "tui-chip-group [list]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-chip-group-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/nlKukod1Agx5JuLMWM8aej/tui-chip-group?node-id=0-1&t=TJjpSDHiO3wRpbvZ-1"
+        }
+      ]
+    },
+    {
+      "id": "16661:51922",
+      "name": "tui-counter",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-counter-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/eoVbiSMrWULegIcqUA12OE/tui-counter"
+        }
+      ]
+    },
+    {
+      "id": "44286:299509",
+      "name": "tui-floating-container",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-floating-container-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/jvYMs0sCSCZCHEFrRcL4vW/tui-floating-container"
+        }
+      ]
+    },
+    {
+      "id": "42565:304670",
+      "name": "tui-header",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "41997:290341",
+      "name": "tui-header [action]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "42565:304195",
+      "name": "tui-header [button]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "44217:298609",
+      "name": "tui-header [card]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "42565:305012",
+      "name": "tui-header [large]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "42565:303804",
+      "name": "tui-header [switch]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-header-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Vt4htBIFAjKUg8c547G0Ez/tui-header?node-id=1-2&t=piPmlEpFuc3QqAOn-1"
+        }
+      ]
+    },
+    {
+      "id": "43816:296032",
+      "name": "tui-illustration-screen",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-illustration-screen-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/LKM99EuzymuOkpgiXX34yr/tui-illustration-screen?node-id=4371-1359&t=SA92uvB2kQKcXuNx-1"
+        }
+      ]
+    },
+    {
+      "id": "55278:70443",
+      "name": "tui-link",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-link-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/sLNvPatnUTkEeabuLCXk9O/tui-link?node-id=1-8839&t=EE7VbjhjIumxenCC-4"
+        }
+      ]
+    },
+    {
+      "id": "79180:42610",
+      "name": "tui-list [bulleted]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-list-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/GWcFNWEbFqxemWpGpmY3yZ/tui-list--bulleted---tui-list--numbered-?node-id=6075-14846&t=KpZI0MsT6Q0ZXJjJ-1"
+        }
+      ]
+    },
+    {
+      "id": "79180:42880",
+      "name": "tui-list [numbered]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-list-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/GWcFNWEbFqxemWpGpmY3yZ/tui-list--bulleted---tui-list--numbered-?node-id=6075-14846&t=KpZI0MsT6Q0ZXJjJ-1"
+        }
+      ]
+    },
+    {
+      "id": "53190:295267",
+      "name": "tui-list-item [bulleted]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-list-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/GWcFNWEbFqxemWpGpmY3yZ/tui-list--bulleted---tui-list--numbered-?node-id=6075-14846&t=KpZI0MsT6Q0ZXJjJ-1"
+        }
+      ]
+    },
+    {
+      "id": "79180:42849",
+      "name": "tui-list-item [numbered]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-list-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/GWcFNWEbFqxemWpGpmY3yZ/tui-list--bulleted---tui-list--numbered-?node-id=6075-14846&t=KpZI0MsT6Q0ZXJjJ-1"
+        }
+      ]
+    },
+    {
+      "id": "9999:26",
+      "name": "tui-loader",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-loader-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Nv37Me0sNdmm3wt0L1j8dF/tui-loader?node-id=6241-1360&t=vkuRWDNf34lwP3zv-1"
+        }
+      ]
+    },
+    {
+      "id": "44231:314707",
+      "name": "tui-message-bubble",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-message-bubble-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/JsGo4SRLMX8yeP8Awg1R84/tui-message-bubble?node-id=86-1101&t=jZ0iepByPUtnw66K-1"
+        }
+      ]
+    },
+    {
+      "id": "22466:378682",
+      "name": "tui-notification-banner",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-notification-banner-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/fpKwg210ywC0zieYt1OQcD/tui-notification?node-id=1-3&t=gXYIJ1eb9D0N82F1-1"
+        }
+      ]
+    },
+    {
+      "id": "39739:293413",
+      "name": "tui-notification-middle",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-notification-middle-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/jFl0KNdtWJbSqMAb2YCXUU/tui-notification-middle?node-id=6051-10594&t=RyIG1hdRJgYY0Iej-1"
+        }
+      ]
+    },
+    {
+      "id": "32204:470960",
+      "name": "tui-notification-toast",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-notification-toast-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/xkznDUnrswht5cjKVPxyBB/tui-notification-toast"
+        }
+      ]
+    },
+    {
+      "id": "44290:300333",
+      "name": "tui-onboarding-flow",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-onboarding-flow-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/MytD6dFQ8J6Arl86hW7VxA/tui-onboarding-flow"
+        }
+      ]
+    },
+    {
+      "id": "34357:426019",
+      "name": "tui-pager",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-pager-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Gkt5uTUWBk0spEoU7EAT5j/tui-pager?node-id=124-1455&t=N2wbU5DZRWhbFAip-11"
+        }
+      ]
+    },
+    {
+      "id": "45576:359285",
+      "name": "tui-pin",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-pin-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=53677-482261&mode=design&t=uYZhF22PtSqdLjH6-0"
+        }
+      ]
+    },
+    {
+      "id": "25951:712646",
+      "name": "tui-progress-bar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-progress-bar-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/1BsWIz550um5AhNQoGhPGa/tui-progress?node-id=1-4&t=0k4t0cFIrOS9eR0w-1"
+        }
+      ]
+    },
+    {
+      "id": "25942:708453",
+      "name": "tui-progress-circle",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-progress-circle-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/1BsWIz550um5AhNQoGhPGa/tui-progress"
+        }
+      ]
+    },
+    {
+      "id": "10467:91596",
+      "name": "tui-rating",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-rating",
+          "status": 307,
+          "destination": "https://www.figma.com/design/GML4f7dIhrCjPoxf7gzF7e/tui-rating?node-id=1-2461&t=MYCTlduhaqyrgIyu-1"
+        }
+      ]
+    },
+    {
+      "id": "53606:308726",
+      "name": "tui-row [avatar-labelled]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-row-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Mae0LyznsyCbWbHhT7KbwF/tui-row"
+        }
+      ]
+    },
+    {
+      "id": "48700:323897",
+      "name": "tui-row [button-vertical]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-row-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Mae0LyznsyCbWbHhT7KbwF/tui-row"
+        }
+      ]
+    },
+    {
+      "id": "16273:42831",
+      "name": "tui-row [card-medium]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-row-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Mae0LyznsyCbWbHhT7KbwF/tui-row"
+        }
+      ]
+    },
+    {
+      "id": "16753:52842",
+      "name": "tui-row [custom]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-row-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/Mae0LyznsyCbWbHhT7KbwF/tui-row"
+        }
+      ]
+    },
+    {
+      "id": "25762:537956",
+      "name": "tui-search-bar",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-searchbar-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/n7VJkgfOx2GsecqNG6h177/tui-search-bar?node-id=0-1&t=f0tWKNPJ6cLzmg6R-1"
+        }
+      ]
+    },
+    {
+      "id": "16874:41486",
+      "name": "tui-segmented",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-segmented",
+          "status": 307,
+          "destination": "https://www.figma.com/design/mkmOd2iW7CUFixpEX3Yju7/tui-segmented?node-id=56-3148&t=5IUlgqS5RBsgs78n-1"
+        }
+      ]
+    },
+    {
+      "id": "46866:304541",
+      "name": "tui-sensitive-mode",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-sensitive",
+          "status": 307,
+          "destination": "https://www.figma.com/design/qT8MjPknoT5knKCjHxwG7e/tui-sensitive?node-id=15-6026&t=EuQS3MKHcdSPexca-1"
+        }
+      ]
+    },
+    {
+      "id": "53204:296101",
+      "name": "tui-swipe-actions",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-swipe-actions",
+          "status": 307,
+          "destination": "https://www.figma.com/design/W1VUOFHYFbutZXVL3tdl0V/tui-swipe-actions?node-id=8015-8374&t=LIAVFlPreoOnAhtx-1"
+        }
+      ]
+    },
+    {
+      "id": "23142:458939",
+      "name": "tui-tab-bar / Bookkeeping",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "23142:453257",
+      "name": "tui-tab-bar / Invest",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "112725:32337",
+      "name": "tui-tab-bar / Junior",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "23142:450541",
+      "name": "tui-tab-bar / MB",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "23142:455406",
+      "name": "tui-tab-bar / Mobile",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "23068:2615",
+      "name": "tui-tab-bar / SME",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "58367:296400",
+      "name": "tui-tab-bar / Signature",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tabbar",
+          "status": 307,
+          "destination": "https://www.figma.com/design/uTil8F35FDsTVLJv4em1wX/tui-tabbar?node-id=1-14305&t=wg8gDYbCuL8B4enh-1"
+        }
+      ]
+    },
+    {
+      "id": "44305:306527",
+      "name": "tui-text-expandable",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-text-expandable-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=61329-50682&mode=design&t=4Dv3Pq0UWGBP0yb7-4"
+        }
+      ]
+    },
+    {
+      "id": "65702:51131",
+      "name": "tui-textfield ",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-textfield-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=4923-11438&t=A0a7aIw74809dP5N-11"
+        }
+      ]
+    },
+    {
+      "id": "26960:617080",
+      "name": "tui-textfield [convert]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-textfield-convert",
+          "status": 307,
+          "destination": "https://www.figma.com/design/2KNW2dqkurLaAXPLixMOVU/tui-textfield%2C-Smartfields?node-id=2669-6488&t=ng1VSIEhdBJENllk-1"
+        }
+      ]
+    },
+    {
+      "id": "54443:283316",
+      "name": "tui-textfield [counter]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-textfield-counter",
+          "status": 307,
+          "destination": "https://www.figma.com/design/2KNW2dqkurLaAXPLixMOVU/tui-textfield%2C-Smartfields?node-id=2141-16576&t=l92i5Vsd75Qfa5gg-1"
+        }
+      ]
+    },
+    {
+      "id": "69850:48152",
+      "name": "tui-textfield [multiline]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-textfield-multiline-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=7021-69558&t=A0a7aIw74809dP5N-11"
+        }
+      ]
+    },
+    {
+      "id": "69850:47618",
+      "name": "tui-textfield [number]",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-textfield-number-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe/%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B2%D0%BE%D0%B4%D0%B0--tui-input--tui-textfield--tui-select--tui-combobox--tui-textarea-?node-id=9361-154458&t=A0a7aIw74809dP5N-11"
+        }
+      ]
+    },
+    {
+      "id": "39763:297614",
+      "name": "tui-thumbnail-card",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-thumbnail-card-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/qPHKGmDGNE0IpNhv4pai90/tui-thumbnail-card"
+        }
+      ]
+    },
+    {
+      "id": "42583:296173",
+      "name": "tui-tooltip",
+      "links": [
+        {
+          "source": "https://go.tcsbank.ru/tui-tooltip-specs",
+          "status": 307,
+          "destination": "https://www.figma.com/design/nSiopv7Uwd27EpiwO6p9x1/tui-tooltip"
+        }
+      ]
+    }
+  ]
+}

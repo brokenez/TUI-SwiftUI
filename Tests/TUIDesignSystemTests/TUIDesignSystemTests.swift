@@ -34,3 +34,18 @@ import Testing
     #expect(body.lineHeight == 24)
     #expect(body.letterSpacing == -0.43)
 }
+
+@Test func motionUsesFigmaDurationTokens() {
+    #expect(abs(TUIMotionDuration.fast.seconds - 0.15) < 0.0001)
+    #expect(abs(TUIMotionDuration.moderate.seconds - 0.30) < 0.0001)
+}
+
+@Test func listSizeMappingMatchesImportedIOSVariants() {
+    let catalog = TUILibraryCatalog.shared
+    for id in ["53190:295267", "79180:42849", "79180:42610", "79180:42880"] {
+        #expect(catalog.variants(for: id).count == 3)
+    }
+    #expect(TUIListSize.large.componentLetterSpacing == -0.41)
+    #expect(TUIListSize.medium.componentLetterSpacing == -0.24)
+    #expect(TUIListSize.small.componentLetterSpacing == -0.08)
+}

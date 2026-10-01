@@ -66,6 +66,24 @@ public struct TUIComponentCatalogView: View {
                     }
                 }
             }
+            Section("Списки") {
+                ForEach(["53190:295267", "79180:42849", "79180:42610", "79180:42880"], id: \.self) { identifier in
+                    if let component = catalog.components(matching: "tui-list").first(where: { $0.id == identifier }) {
+                        NavigationLink(component.name) {
+                            TUIComponentReferenceView(component: component)
+                        }
+                    }
+                }
+            }
+            Section("Системные iOS-компоненты") {
+                ForEach(["9940:39560", "9151:1662", "53362:296599", "44720:304564"], id: \.self) { identifier in
+                    if let component = catalog.components(matching: "system-").first(where: { $0.id == identifier }) {
+                        NavigationLink(component.name) {
+                            TUIComponentReferenceView(component: component)
+                        }
+                    }
+                }
+            }
             Section("Компоненты Figma") {
                 ForEach(catalog.components(matching: query)) { component in
                     NavigationLink {
@@ -155,6 +173,14 @@ private struct TUIComponentReferenceView: View {
                 Section("Живой компонент") {
                     TUINotificationBadgePlayground()
                 }
+            } else if ["53190:295267", "79180:42849", "79180:42610", "79180:42880"].contains(component.id) {
+                Section("Живой компонент") {
+                    TUIListPlayground(componentID: component.id)
+                }
+            } else if ["9940:39560", "9151:1662", "53362:296599", "44720:304564"].contains(component.id) {
+                Section("Живой компонент") {
+                    TUISystemControlsPlayground(componentID: component.id)
+                }
             } else if component.id == "6392:51900" {
                 Section("Живой компонент") {
                     TUIClientBadge()
@@ -164,7 +190,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: component.id == "6392:51900" ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: component.id == "6392:51900" ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "53362:296599", "44720:304564"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -194,6 +220,123 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUIListPlayground: View {
+    let componentID: String
+    @State private var size: TUIListSize = .large
+    @State private var count = 3
+    @State private var text = "Текст пункта списка, который может переноситься на следующую строку"
+
+    private var isNumbered: Bool { ["79180:42849", "79180:42880"].contains(componentID) }
+    private var isSingleItem: Bool { ["53190:295267", "79180:42849"].contains(componentID) }
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: componentID).first { variant in
+            let figmaSize = variant.properties["Size"] ?? variant.properties["size"]
+            return figmaSize == size.rawValue || (figmaSize == "Body S" && size == .small)
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 16) {
+            Group {
+                if isSingleItem {
+                    TUIListItem(text, size: size, marker: isNumbered ? .number("1.") : .bullet)
+                } else {
+                    TUIList(
+                        Array(repeating: text, count: count),
+                        size: size,
+                        style: isNumbered ? .numbered() : .bulleted
+                    )
+                }
+            }
+            .frame(maxWidth: .infinity)
+            .background(.white, in: RoundedRectangle(cornerRadius: 16))
+
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id).font(.caption)
+            }
+            Picker("Размер", selection: $size) {
+                ForEach(TUIListSize.allCases, id: \.self) { option in
+                    Text(option == .small && !isSingleItem ? "Body S" : option.rawValue).tag(option)
+                }
+            }
+            TextField("Текст", text: $text, axis: .vertical)
+            if !isSingleItem {
+                Stepper("Пунктов: \(count)", value: $count, in: 1...6)
+            }
+        }
+    }
+}
+
+private struct TUISystemControlsPlayground: View {
+    let componentID: String
+    @State private var isOn = true
+    @State private var isEnabled = true
+    @State private var isPresented = false
+    @State private var isDark = false
+    @State private var selectedAction = ""
+    @State private var actionSheetTitle = "A short description of the actions goes here."
+    @State private var showsActionSheetTitle = true
+
+    private var actions: [TUISystemMenuAction] {
+        let defaults = (1...5).map { index in
+            TUISystemMenuAction(id: "default-\(index)", title: "Default Action") {
+                selectedAction = "Default Action \(index)"
+            }
+        }
+        return defaults + [
+            TUISystemMenuAction(id: "destructive", title: "Destructive Action", role: .destructive) { selectedAction = "Destructive Action" },
+            TUISystemMenuAction(id: "disabled", title: "Disabled Action", isEnabled: false) {}
+        ]
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            Group {
+                switch componentID {
+                case "9940:39560":
+                    TUISystemSwitch("Системный переключатель", isOn: $isOn, isEnabled: isEnabled)
+                        .frame(maxWidth: .infinity)
+                case "9151:1662":
+                    Button("Открыть шторку действий") { isPresented = true }
+                        .tuiSystemActionSheet(
+                            isPresented: $isPresented,
+                            title: actionSheetTitle,
+                            showsTitle: showsActionSheetTitle,
+                            actions: actions
+                        )
+                case "53362:296599":
+                    Text("Нажмите и удерживайте")
+                        .padding(20)
+                        .background(TUIColor.named("Background/Neutral 1"), in: RoundedRectangle(cornerRadius: 12))
+                        .tuiSystemContextMenu(actions: actions)
+                default:
+                    TUISystemShareLink("Открыть системное меню «Поделиться»", url: URL(string: "https://www.tbank.ru/")!)
+                }
+            }
+            .frame(maxWidth: .infinity)
+            .frame(minHeight: 100)
+            .background(.white, in: RoundedRectangle(cornerRadius: 16))
+
+            if componentID == "9940:39560" {
+                Toggle("Доступен", isOn: $isEnabled)
+                LabeledContent("Состояние", value: isOn ? "Включён" : "Выключен")
+            } else if componentID == "9151:1662" {
+                Toggle("Показывать заголовок", isOn: $showsActionSheetTitle)
+                TextField("Текст шторки", text: $actionSheetTitle, axis: .vertical)
+            } else if componentID == "53362:296599" || componentID == "44720:304564" {
+                Toggle("Тёмная тема", isOn: $isDark)
+            }
+            if !selectedAction.isEmpty {
+                LabeledContent("Выбрано", value: selectedAction)
+            }
+            Text("Системный вид и анимация зависят от установленной версии iOS.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .preferredColorScheme(isDark ? .dark : .light)
     }
 }
 
@@ -366,6 +509,7 @@ private struct TUIProgressCirclePlayground: View {
 
 private struct TUIRatingPlayground: View {
     @State private var value = 3
+    @State private var showsSparkles = true
 
     private var selectedVariant: TUIComponentVariantReference? {
         TUILibraryCatalog.shared.variants(for: "10467:91596").first { variant in
@@ -375,15 +519,19 @@ private struct TUIRatingPlayground: View {
 
     var body: some View {
         VStack(spacing: 18) {
-            TUIRating(value: $value)
+            TUIRating(value: $value, showsSparkles: showsSparkles)
                 .frame(maxWidth: .infinity)
-                .frame(height: 88)
+                .frame(height: 160)
                 .background(.white, in: RoundedRectangle(cornerRadius: 16))
             LabeledContent("Оценка", value: "\(value) из 5")
             if let selectedVariant {
                 LabeledContent("Figma node", value: selectedVariant.id)
                     .font(.caption)
             }
+            Toggle("Искры при выборе", isOn: $showsSparkles)
+            Text("Нажмите на звезду или проведите пальцем по шкале")
+                .font(.caption)
+                .foregroundStyle(.secondary)
             Button("Сбросить оценку") { value = 0 }
         }
     }
