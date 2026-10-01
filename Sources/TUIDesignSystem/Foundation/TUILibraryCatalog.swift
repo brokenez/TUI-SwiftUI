@@ -133,7 +133,8 @@ public final class TUILibraryCatalog: @unchecked Sendable {
 
     private static func json(named name: String, bundle: Bundle) -> [String: Any]? {
         guard
-            let url = bundle.url(forResource: name, withExtension: "json", subdirectory: "Metadata"),
+            let url = bundle.url(forResource: name, withExtension: "json", subdirectory: "Metadata")
+                ?? bundle.url(forResource: name, withExtension: "json"),
             let data = try? Data(contentsOf: url)
         else { return nil }
         return try? JSONSerialization.jsonObject(with: data) as? [String: Any]

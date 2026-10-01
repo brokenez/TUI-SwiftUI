@@ -10,7 +10,8 @@ public final class TUITokenCatalog: @unchecked Sendable {
     public init(bundle requestedBundle: Bundle? = nil) {
         let bundle = requestedBundle ?? .module
         guard
-            let url = bundle.url(forResource: "figma-foundations", withExtension: "json", subdirectory: "Metadata"),
+            let url = bundle.url(forResource: "figma-foundations", withExtension: "json", subdirectory: "Metadata")
+                ?? bundle.url(forResource: "figma-foundations", withExtension: "json"),
             let data = try? Data(contentsOf: url),
             let root = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
             let collections = root["collections"] as? [[String: Any]]
