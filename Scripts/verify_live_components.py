@@ -2,6 +2,7 @@
 """Check that live previews cover the imported Figma variant data."""
 
 import json
+import re
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -10,6 +11,7 @@ assets = root / "Sources/TUIDesignSystem/Resources/Assets.xcassets"
 variants = json.loads((metadata / "figma-component-variants.json").read_text())["variants"]
 button_styles = json.loads((metadata / "figma-button-styles.json").read_text())["styles"]
 coverage = json.loads((root / "Documentation/component-coverage.json").read_text())
+foundations = json.loads((metadata / "figma-foundations.json").read_text())
 
 
 def is_ios(variant):
@@ -32,6 +34,7 @@ expected = {
     "25738:689227": 3,
 }
 coverage_by_id = {component["id"]: component for component in coverage["components"]}
+assert {item["id"] for item in coverage["components"] if item["status"] == "in-progress"} == set(expected)
 for set_id, count in expected.items():
     imported = [v for v in variants if v["setId"] == set_id and is_ios(v)]
     assert len(imported) == count, (set_id, len(imported), count)
@@ -69,4 +72,10 @@ for name in (
     assert image.is_file() and image.stat().st_size > 100, image
 
 assert coverage["summary"]["iOSVariants"] == 2008
+theme = next(collection for collection in foundations["collections"] if collection["name"] == "Theme")
+theme_names = {variable["name"] for variable in theme["variables"]}
+swift_source = "\n".join(path.read_text() for path in (root / "Sources/TUIDesignSystem").rglob("*.swift"))
+named_colors = set(re.findall(r'TUIColor\.named\("([^"]+)"', swift_source))
+assert named_colors <= theme_names, sorted(named_colors - theme_names)
+assert coverage["summary"]["completeComponents"] == 0
 print("Checked metadata for 10 live component sets (407 iOS variants) and their image assets")
