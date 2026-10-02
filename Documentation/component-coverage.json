@@ -3725,7 +3725,7 @@
     {
       "id": "39739:293413",
       "name": "tui-notification-middle",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -3748,7 +3748,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },

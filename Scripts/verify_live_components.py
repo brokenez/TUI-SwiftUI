@@ -45,6 +45,7 @@ expected = {
     "24689:584469": 6,
     "87688:44061": 4,
     "25745:690323": 5,
+    "39739:293413": 2,
 }
 complete_ids = {"6392:51900", "87688:44061"}
 catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()

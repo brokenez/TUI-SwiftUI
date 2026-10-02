@@ -76,6 +76,13 @@ public struct TUIComponentCatalogView: View {
                         }
                     }
                 }
+                Section("Нотификации") {
+                    if let notification = catalog.components(matching: "tui-notification-middle").first(where: { $0.id == "39739:293413" }) {
+                        NavigationLink("tui-notification-middle · 2 варианта iOS") {
+                            TUIComponentReferenceView(component: notification)
+                        }
+                    }
+                }
                 Section("Бейджи") {
                     if let subscriptionBadge = catalog.components(matching: "tui-badge [subscription-icon]").first(where: { $0.id == "87688:44061" }) {
                         NavigationLink("tui-badge [subscription-icon] · 4 размера iOS") {
@@ -208,6 +215,10 @@ private struct TUIComponentReferenceView: View {
                         focused: $nativeSearchFocused
                     )
                 }
+            } else if component.id == "39739:293413" {
+                Section("Живой компонент") {
+                    TUINotificationMiddlePlayground()
+                }
             } else if component.id == "25745:690323" {
                 Section("Живой компонент") {
                     TUIBadgedContentPlayground()
@@ -225,7 +236,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -255,6 +266,34 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUINotificationMiddlePlayground: View {
+    @State private var showsText = true
+    @State private var text = "Text"
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "39739:293413").first { variant in
+            variant.properties["system"] == "iOS" && variant.properties["text"] == (showsText ? "on" : "off")
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            TUINotificationMiddle(text: showsText ? text : nil)
+                .frame(maxWidth: .infinity)
+                .frame(height: 180)
+                .background(TUIColor.named("Background/Base"), in: RoundedRectangle(cornerRadius: 16))
+            Toggle("Показать текст", isOn: $showsText)
+            if showsText {
+                TextField("Текст уведомления", text: $text)
+            }
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
     }
 }
 
