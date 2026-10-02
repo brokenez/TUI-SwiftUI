@@ -9,84 +9,86 @@ public struct TUIComponentCatalogView: View {
 
     public var body: some View {
         List {
-            Section("Интерактивные компоненты") {
-                if let button = catalog.components(matching: "tui-button").first(where: { $0.id == "41658:296906" }) {
-                    NavigationLink("tui-button · 147 вариантов") {
-                        TUIComponentReferenceView(component: button)
+            if query.isEmpty {
+                Section("Интерактивные компоненты") {
+                    if let button = catalog.components(matching: "tui-button").first(where: { $0.id == "41658:296906" }) {
+                        NavigationLink("tui-button · 147 вариантов") {
+                            TUIComponentReferenceView(component: button)
+                        }
                     }
-                }
-                if let checkbox = catalog.components(matching: "system-checkbox").first(where: { $0.id == "10312:84" }) {
-                    NavigationLink("system-checkbox · 5 вариантов iOS") {
-                        TUIComponentReferenceView(component: checkbox)
+                    if let checkbox = catalog.components(matching: "system-checkbox").first(where: { $0.id == "10312:84" }) {
+                        NavigationLink("system-checkbox · 5 вариантов iOS") {
+                            TUIComponentReferenceView(component: checkbox)
+                        }
                     }
-                }
-                if let radio = catalog.components(matching: "system-radiobutton").first(where: { $0.id == "28036:523553" }) {
-                    NavigationLink("system-radiobutton · 4 варианта iOS") {
-                        TUIComponentReferenceView(component: radio)
+                    if let radio = catalog.components(matching: "system-radiobutton").first(where: { $0.id == "28036:523553" }) {
+                        NavigationLink("system-radiobutton · 4 варианта iOS") {
+                            TUIComponentReferenceView(component: radio)
+                        }
                     }
-                }
-                if let bullet = catalog.components(matching: ".bullet").first(where: { $0.id == "53309:296335" }) {
-                    NavigationLink(".bullet · 3 варианта") {
-                        TUIComponentReferenceView(component: bullet)
+                    if let bullet = catalog.components(matching: ".bullet").first(where: { $0.id == "53309:296335" }) {
+                        NavigationLink(".bullet · 3 варианта") {
+                            TUIComponentReferenceView(component: bullet)
+                        }
                     }
-                }
-                if let loader = catalog.components(matching: "tui-loader").first(where: { $0.id == "9999:26" }) {
-                    NavigationLink("tui-loader · 5 размеров") {
-                        TUIComponentReferenceView(component: loader)
+                    if let loader = catalog.components(matching: "tui-loader").first(where: { $0.id == "9999:26" }) {
+                        NavigationLink("tui-loader · 5 размеров") {
+                            TUIComponentReferenceView(component: loader)
+                        }
                     }
-                }
-                if let link = catalog.components(matching: "tui-link").first(where: { $0.id == "55278:70443" }) {
-                    NavigationLink("tui-link · 15 вариантов iOS") {
-                        TUIComponentReferenceView(component: link)
+                    if let link = catalog.components(matching: "tui-link").first(where: { $0.id == "55278:70443" }) {
+                        NavigationLink("tui-link · 15 вариантов iOS") {
+                            TUIComponentReferenceView(component: link)
+                        }
                     }
-                }
-                if let progress = catalog.components(matching: "tui-progress-circle").first(where: { $0.id == "25942:708453" }) {
-                    NavigationLink("tui-progress-circle · 217 вариантов iOS") {
-                        TUIComponentReferenceView(component: progress)
+                    if let progress = catalog.components(matching: "tui-progress-circle").first(where: { $0.id == "25942:708453" }) {
+                        NavigationLink("tui-progress-circle · 217 вариантов iOS") {
+                            TUIComponentReferenceView(component: progress)
+                        }
                     }
-                }
-                if let rating = catalog.components(matching: "tui-rating").first(where: { $0.id == "10467:91596" }) {
-                    NavigationLink("tui-rating · 6 состояний") {
-                        TUIComponentReferenceView(component: rating)
+                    if let rating = catalog.components(matching: "tui-rating").first(where: { $0.id == "10467:91596" }) {
+                        NavigationLink("tui-rating · 6 состояний") {
+                            TUIComponentReferenceView(component: rating)
+                        }
                     }
-                }
-                if let skeleton = catalog.components(matching: "tui-skeleton").first(where: { $0.id == "37840:45833" }) {
-                    NavigationLink("tui-skeleton · 2 кадра") {
-                        TUIComponentReferenceView(component: skeleton)
+                    if let skeleton = catalog.components(matching: "tui-skeleton").first(where: { $0.id == "37840:45833" }) {
+                        NavigationLink("tui-skeleton · 2 кадра") {
+                            TUIComponentReferenceView(component: skeleton)
+                        }
                     }
-                }
-                if let badge = catalog.components(matching: "tui-badge notification").first(where: { $0.id == "25738:689227" }) {
-                    NavigationLink("tui-badge notification · 3 размера iOS") {
-                        TUIComponentReferenceView(component: badge)
+                    if let badge = catalog.components(matching: "tui-badge notification").first(where: { $0.id == "25738:689227" }) {
+                        NavigationLink("tui-badge notification · 3 размера iOS") {
+                            TUIComponentReferenceView(component: badge)
+                        }
                     }
-                }
-                if let clientBadge = catalog.components(matching: "tui-badge [t-client]").first(where: { $0.id == "6392:51900" }) {
-                    NavigationLink("tui-badge [t-client] · 1 вариант iOS") {
-                        TUIComponentReferenceView(component: clientBadge)
-                    }
-                }
-            }
-            Section("Списки") {
-                ForEach(["53190:295267", "79180:42849", "79180:42610", "79180:42880"], id: \.self) { identifier in
-                    if let component = catalog.components(matching: "tui-list").first(where: { $0.id == identifier }) {
-                        NavigationLink(component.name) {
-                            TUIComponentReferenceView(component: component)
+                    if let clientBadge = catalog.components(matching: "tui-badge [t-client]").first(where: { $0.id == "6392:51900" }) {
+                        NavigationLink("tui-badge [t-client] · 1 вариант iOS") {
+                            TUIComponentReferenceView(component: clientBadge)
                         }
                     }
                 }
-            }
-            Section("Бейджи") {
-                if let subscriptionBadge = catalog.components(matching: "tui-badge [subscription-icon]").first(where: { $0.id == "87688:44061" }) {
-                    NavigationLink("tui-badge [subscription-icon] · 4 размера iOS") {
-                        TUIComponentReferenceView(component: subscriptionBadge)
+                Section("Списки") {
+                    ForEach(["53190:295267", "79180:42849", "79180:42610", "79180:42880"], id: \.self) { identifier in
+                        if let component = catalog.components(matching: "tui-list").first(where: { $0.id == identifier }) {
+                            NavigationLink(component.name) {
+                                TUIComponentReferenceView(component: component)
+                            }
+                        }
                     }
                 }
-            }
-            Section("Системные iOS-компоненты") {
-                ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564"], id: \.self) { identifier in
-                    if let component = catalog.components(matching: "system-").first(where: { $0.id == identifier }) {
-                        NavigationLink(component.name) {
-                            TUIComponentReferenceView(component: component)
+                Section("Бейджи") {
+                    if let subscriptionBadge = catalog.components(matching: "tui-badge [subscription-icon]").first(where: { $0.id == "87688:44061" }) {
+                        NavigationLink("tui-badge [subscription-icon] · 4 размера iOS") {
+                            TUIComponentReferenceView(component: subscriptionBadge)
+                        }
+                    }
+                }
+                Section("Системные iOS-компоненты") {
+                    ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564"], id: \.self) { identifier in
+                        if let component = catalog.components(matching: "system-").first(where: { $0.id == identifier }) {
+                            NavigationLink(component.name) {
+                                TUIComponentReferenceView(component: component)
+                            }
                         }
                     }
                 }
@@ -105,22 +107,24 @@ public struct TUIComponentCatalogView: View {
                     }
                 }
             }
-            Section("Figma snapshot") {
-                LabeledContent("Variables", value: "957")
-                LabeledContent("Component sets", value: "128")
-                LabeledContent("Variants", value: "3 927")
-                LabeledContent("Assets", value: "3 518")
-            }
-            Section("TUI Typography · iOS") {
-                ForEach(TUITypographyRole.allCases, id: \.self) { role in
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(role.rawValue.split(separator: "/").suffix(2).joined(separator: " / "))
-                            .tuiTypography(role)
-                        Text(typographyDetails(role.metrics))
-                            .font(.caption.monospaced())
-                            .foregroundStyle(.secondary)
+            if query.isEmpty {
+                Section("Figma snapshot") {
+                    LabeledContent("Variables", value: "957")
+                    LabeledContent("Component sets", value: "128")
+                    LabeledContent("Variants", value: "3 927")
+                    LabeledContent("Assets", value: "3 518")
+                }
+                Section("TUI Typography · iOS") {
+                    ForEach(TUITypographyRole.allCases, id: \.self) { role in
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(role.rawValue.split(separator: "/").suffix(2).joined(separator: " / "))
+                                .tuiTypography(role)
+                            Text(typographyDetails(role.metrics))
+                                .font(.caption.monospaced())
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding(.vertical, 4)
                     }
-                    .padding(.vertical, 4)
                 }
             }
         }
