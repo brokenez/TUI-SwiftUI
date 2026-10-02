@@ -10,7 +10,9 @@
     {
       "id": "20582:43392",
       "name": " tui-avatar [subscription]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=20582-43392",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 15,
       "iOSVariants": 9,
       "variantProperties": {
@@ -51,7 +53,12 @@
     {
       "id": "53309:296335",
       "name": ".bullet",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53309-296335",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIBullet",
+        "source": "Sources/TUIDesignSystem/Components/Bullet/TUIBullet.swift"
+      },
       "totalVariants": 3,
       "iOSVariants": 3,
       "variantProperties": {
@@ -74,7 +81,9 @@
     {
       "id": "27940:58934",
       "name": "[pwa-webview] tui-dialog",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=27940-58934",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -105,7 +114,9 @@
     {
       "id": "39867:46664",
       "name": "[pwa] tui-input-search",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39867-46664",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 8,
       "iOSVariants": 8,
       "variantProperties": {
@@ -134,7 +145,9 @@
     {
       "id": "45931:47324",
       "name": "payment-logo",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=45931-47324",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 13,
       "iOSVariants": 13,
       "variantProperties": {
@@ -167,7 +180,12 @@
     {
       "id": "9151:1662",
       "name": "system-action-sheet",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9151-1662",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "tuiSystemActionSheet",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      },
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -193,7 +211,12 @@
     {
       "id": "24689:584469",
       "name": "system-alert",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24689-584469",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "tuiSystemAlert",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      },
       "totalVariants": 8,
       "iOSVariants": 6,
       "variantProperties": {
@@ -234,7 +257,9 @@
     {
       "id": "24708:577310",
       "name": "system-bottom-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24708-577310",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 30,
       "iOSVariants": 6,
       "variantProperties": {
@@ -279,7 +304,9 @@
     {
       "id": "544:151464",
       "name": "system-browser-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=544-151464",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 4,
       "variantProperties": {
@@ -306,7 +333,9 @@
     {
       "id": "42221:48343",
       "name": "system-browser-chrome",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42221-48343",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 3,
       "iOSVariants": 3,
       "variantProperties": {
@@ -333,7 +362,12 @@
     {
       "id": "10312:84",
       "name": "system-checkbox",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=10312-84",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISystemCheckbox",
+        "source": "Sources/TUIDesignSystem/Components/SystemCheckbox/TUISystemCheckbox.swift"
+      },
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -365,7 +399,12 @@
     {
       "id": "53362:296599",
       "name": "system-context-menu",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53362-296599",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "tuiSystemContextMenu",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      },
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -394,7 +433,9 @@
     {
       "id": "25165:592774",
       "name": "system-keyboard",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25165-592774",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 35,
       "iOSVariants": 21,
       "variantProperties": {
@@ -438,7 +479,9 @@
     {
       "id": "53444:299205",
       "name": "system-lockscreen",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53444-299205",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 5,
       "iOSVariants": 3,
       "variantProperties": {
@@ -467,7 +510,9 @@
     {
       "id": "53362:297214",
       "name": "system-push",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53362-297214",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 6,
       "variantProperties": {
@@ -509,7 +554,12 @@
     {
       "id": "28036:523553",
       "name": "system-radiobutton",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=28036-523553",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISystemRadioButton",
+        "source": "Sources/TUIDesignSystem/Components/SystemRadioButton/TUISystemRadioButton.swift"
+      },
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -540,7 +590,12 @@
     {
       "id": "91657:37703",
       "name": "system-searchfield",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=91657-37703",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "tuiSystemSearchField",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemSearchField.swift"
+      },
       "totalVariants": 8,
       "iOSVariants": 8,
       "variantProperties": {
@@ -572,7 +627,9 @@
     {
       "id": "24684:593518",
       "name": "system-segmented-control (tabs)",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24684-593518",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 44,
       "iOSVariants": 18,
       "variantProperties": {
@@ -615,7 +672,12 @@
     {
       "id": "44720:304564",
       "name": "system-share-sheet",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44720-304564",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISystemShareLink",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      },
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -637,7 +699,9 @@
     {
       "id": "8930:26243",
       "name": "system-status-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=8930-26243",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 22,
       "iOSVariants": 18,
       "variantProperties": {
@@ -679,7 +743,12 @@
     {
       "id": "9940:39560",
       "name": "system-switch",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9940-39560",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISystemSwitch",
+        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      },
       "totalVariants": 12,
       "iOSVariants": 8,
       "variantProperties": {
@@ -714,7 +783,9 @@
     {
       "id": "44037:288637",
       "name": "tui-amount",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44037-288637",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 108,
       "iOSVariants": 54,
       "variantProperties": {
@@ -772,7 +843,9 @@
     {
       "id": "25752:487144",
       "name": "tui-app-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25752-487144",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 74,
       "iOSVariants": 49,
       "variantProperties": {
@@ -822,7 +895,9 @@
     {
       "id": "25745:690405",
       "name": "tui-avatar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25745-690405",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 316,
       "iOSVariants": 158,
       "variantProperties": {
@@ -881,7 +956,9 @@
     {
       "id": "68613:55962",
       "name": "tui-avatar [badged-subscription-icon]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55962",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -918,7 +995,9 @@
     {
       "id": "53606:309279",
       "name": "tui-avatar-labelled",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53606-309279",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -962,7 +1041,9 @@
     {
       "id": "25526:614200",
       "name": "tui-avatar-stack",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25526-614200",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 48,
       "iOSVariants": 32,
       "variantProperties": {
@@ -1012,7 +1093,9 @@
     {
       "id": "25738:686585",
       "name": "tui-badge",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25738-686585",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 124,
       "iOSVariants": 68,
       "variantProperties": {
@@ -1067,7 +1150,9 @@
     {
       "id": "26895:46826",
       "name": "tui-badge [cashback]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=26895-46826",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 84,
       "iOSVariants": 40,
       "variantProperties": {
@@ -1118,7 +1203,9 @@
     {
       "id": "68613:55102",
       "name": "tui-badge [subscription-icon-shield]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55102",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 28,
       "iOSVariants": 12,
       "variantProperties": {
@@ -1161,7 +1248,12 @@
     {
       "id": "87688:44061",
       "name": "tui-badge [subscription-icon]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=87688-44061",
       "status": "complete",
+      "swiftAPI": {
+        "symbol": "TUISubscriptionBadge",
+        "source": "Sources/TUIDesignSystem/Components/ClientBadge/TUISubscriptionBadge.swift"
+      },
       "totalVariants": 12,
       "iOSVariants": 4,
       "variantProperties": {
@@ -1196,7 +1288,9 @@
     {
       "id": "68613:55199",
       "name": "tui-badge [subscription]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55199",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 56,
       "iOSVariants": 24,
       "variantProperties": {
@@ -1243,7 +1337,12 @@
     {
       "id": "6392:51900",
       "name": "tui-badge [t-client]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=6392-51900",
       "status": "complete",
+      "swiftAPI": {
+        "symbol": "TUIClientBadge",
+        "source": "Sources/TUIDesignSystem/Components/ClientBadge/TUIClientBadge.swift"
+      },
       "totalVariants": 2,
       "iOSVariants": 1,
       "variantProperties": {
@@ -1265,7 +1364,12 @@
     {
       "id": "25738:689227",
       "name": "tui-badge notification",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25738-689227",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUINotificationBadge",
+        "source": "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -1295,7 +1399,12 @@
     {
       "id": "25745:690323",
       "name": "tui-badged-content",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25745-690323",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIBadgedContent",
+        "source": "Sources/TUIDesignSystem/Components/BadgedContent/TUIBadgedContent.swift"
+      },
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -1327,7 +1436,9 @@
     {
       "id": "47912:303878",
       "name": "tui-block-details",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=47912-303878",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -1369,7 +1480,9 @@
     {
       "id": "43816:296648",
       "name": "tui-block-status",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=43816-296648",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -1410,7 +1523,9 @@
     {
       "id": "44431:321226",
       "name": "tui-bottom-sheet",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44431-321226",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -1454,7 +1569,12 @@
     {
       "id": "41658:296906",
       "name": "tui-button",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-296906",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIButton",
+        "source": "Sources/TUIDesignSystem/Components/Button/TUIButton.swift"
+      },
       "totalVariants": 294,
       "iOSVariants": 147,
       "variantProperties": {
@@ -1516,7 +1636,9 @@
     {
       "id": "7319:38983",
       "name": "tui-button [add-card]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=7319-38983",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -1551,7 +1673,9 @@
     {
       "id": "53169:295889",
       "name": "tui-button [cell]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53169-295889",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 32,
       "iOSVariants": 16,
       "variantProperties": {
@@ -1595,7 +1719,9 @@
     {
       "id": "30258:432933",
       "name": "tui-button [close]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=30258-432933",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 8,
       "variantProperties": {
@@ -1640,7 +1766,9 @@
     {
       "id": "44290:299166",
       "name": "tui-button [like]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-299166",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 24,
       "iOSVariants": 12,
       "variantProperties": {
@@ -1680,7 +1808,9 @@
     {
       "id": "42565:304987",
       "name": "tui-button [link]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304987",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 8,
       "variantProperties": {
@@ -1717,7 +1847,9 @@
     {
       "id": "59194:53406",
       "name": "tui-button [on-light-on-dark]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=59194-53406",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 198,
       "iOSVariants": 99,
       "variantProperties": {
@@ -1775,7 +1907,9 @@
     {
       "id": "44290:299199",
       "name": "tui-button [share]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-299199",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -1810,7 +1944,9 @@
     {
       "id": "44236:302826",
       "name": "tui-button [subscription]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44236-302826",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 50,
       "iOSVariants": 26,
       "variantProperties": {
@@ -1857,7 +1993,9 @@
     {
       "id": "51388:47169",
       "name": "tui-button [two labels]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=51388-47169",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 20,
       "iOSVariants": 10,
       "variantProperties": {
@@ -1898,7 +2036,12 @@
     {
       "id": "41691:305320",
       "name": "tui-button [vertical]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41691-305320",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIButtonVertical",
+        "source": "Sources/TUIDesignSystem/Components/ButtonVertical/TUIButtonVertical.swift"
+      },
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -1934,7 +2077,9 @@
     {
       "id": "54757:286088",
       "name": "tui-button [wallet]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=54757-286088",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 34,
       "iOSVariants": 2,
       "variantProperties": {
@@ -1979,7 +2124,9 @@
     {
       "id": "25748:771367",
       "name": "tui-button tooltip",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25748-771367",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 8,
       "variantProperties": {
@@ -2018,7 +2165,9 @@
     {
       "id": "36326:422777",
       "name": "tui-button-group-card",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=36326-422777",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 22,
       "iOSVariants": 11,
       "variantProperties": {
@@ -2071,7 +2220,9 @@
     {
       "id": "2793:75470",
       "name": "tui-card [account]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=2793-75470",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -2101,7 +2252,9 @@
     {
       "id": "42587:291989",
       "name": "tui-card-large",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42587-291989",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 48,
       "iOSVariants": 24,
       "variantProperties": {
@@ -2154,7 +2307,9 @@
     {
       "id": "11335:41574",
       "name": "tui-card-medium ",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=11335-41574",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 41,
       "iOSVariants": 21,
       "variantProperties": {
@@ -2203,7 +2358,9 @@
     {
       "id": "41569:290555",
       "name": "tui-cell",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41569-290555",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 42,
       "iOSVariants": 21,
       "variantProperties": {
@@ -2259,7 +2416,9 @@
     {
       "id": "2793:73350",
       "name": "tui-cell [account]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=2793-73350",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 14,
       "iOSVariants": 7,
       "variantProperties": {
@@ -2312,7 +2471,9 @@
     {
       "id": "41637:306482",
       "name": "tui-cell [action]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306482",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -2360,7 +2521,9 @@
     {
       "id": "41637:306089",
       "name": "tui-cell [button]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306089",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -2407,7 +2570,9 @@
     {
       "id": "41637:307793",
       "name": "tui-cell [checkbox]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-307793",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -2459,7 +2624,9 @@
     {
       "id": "41637:306903",
       "name": "tui-cell [checkicon]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306903",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -2500,7 +2667,9 @@
     {
       "id": "53219:295268",
       "name": "tui-cell [connected]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53219-295268",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -2546,7 +2715,9 @@
     {
       "id": "41637:305628",
       "name": "tui-cell [disclosure]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-305628",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 20,
       "iOSVariants": 10,
       "variantProperties": {
@@ -2600,7 +2771,9 @@
     {
       "id": "44305:304744",
       "name": "tui-cell [invest]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44305-304744",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 14,
       "iOSVariants": 7,
       "variantProperties": {
@@ -2656,7 +2829,9 @@
     {
       "id": "63132:295599",
       "name": "tui-cell [mobile]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=63132-295599",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -2707,7 +2882,9 @@
     {
       "id": "44290:314128",
       "name": "tui-cell [operation]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-314128",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -2760,7 +2937,9 @@
     {
       "id": "41569:291397",
       "name": "tui-cell [switch]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41569-291397",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -2812,7 +2991,12 @@
     {
       "id": "42638:295990",
       "name": "tui-chip",
-      "status": "catalogued",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42638-295990",
+      "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIChip",
+        "source": "Sources/TUIDesignSystem/Components/Chip/TUIChip.swift"
+      },
       "totalVariants": 118,
       "iOSVariants": 60,
       "variantProperties": {
@@ -2863,14 +3047,19 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "115603:32334",
       "name": "tui-chip-group",
-      "status": "catalogued",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=115603-32334",
+      "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIChipGroup",
+        "source": "Sources/TUIDesignSystem/Components/Chip/TUIChipGroup.swift"
+      },
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -2898,14 +3087,16 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
     {
       "id": "44286:300575",
       "name": "tui-chip-group [choice]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300575",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -2944,7 +3135,9 @@
     {
       "id": "44286:300668",
       "name": "tui-chip-group [filter]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300668",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -2983,7 +3176,9 @@
     {
       "id": "44286:300482",
       "name": "tui-chip-group [list]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300482",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -3022,7 +3217,9 @@
     {
       "id": "16661:51922",
       "name": "tui-counter",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16661-51922",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -3058,7 +3255,9 @@
     {
       "id": "44286:299509",
       "name": "tui-floating-container",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-299509",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -3097,7 +3296,9 @@
     {
       "id": "42565:304670",
       "name": "tui-header",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304670",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 30,
       "iOSVariants": 15,
       "variantProperties": {
@@ -3152,7 +3353,9 @@
     {
       "id": "41997:290341",
       "name": "tui-header [action]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41997-290341",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -3202,7 +3405,9 @@
     {
       "id": "42565:304195",
       "name": "tui-header [button]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304195",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -3252,7 +3457,9 @@
     {
       "id": "44217:298609",
       "name": "tui-header [card]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44217-298609",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -3302,7 +3509,9 @@
     {
       "id": "42565:305012",
       "name": "tui-header [large]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-305012",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 20,
       "iOSVariants": 10,
       "variantProperties": {
@@ -3351,7 +3560,9 @@
     {
       "id": "42565:303804",
       "name": "tui-header [switch]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-303804",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -3401,7 +3612,9 @@
     {
       "id": "43816:296032",
       "name": "tui-illustration-screen",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=43816-296032",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 1,
       "variantProperties": {
@@ -3431,7 +3644,12 @@
     {
       "id": "55278:70443",
       "name": "tui-link",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70443",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUILink",
+        "source": "Sources/TUIDesignSystem/Components/Link/TUILink.swift"
+      },
       "totalVariants": 30,
       "iOSVariants": 15,
       "variantProperties": {
@@ -3473,7 +3691,12 @@
     {
       "id": "79180:42610",
       "name": "tui-list [bulleted]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42610",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIList",
+        "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3508,7 +3731,12 @@
     {
       "id": "79180:42880",
       "name": "tui-list [numbered]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42880",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIList",
+        "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3543,7 +3771,12 @@
     {
       "id": "53190:295267",
       "name": "tui-list-item [bulleted]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53190-295267",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIListItem",
+        "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3577,7 +3810,12 @@
     {
       "id": "79180:42849",
       "name": "tui-list-item [numbered]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42849",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIListItem",
+        "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -3608,7 +3846,12 @@
     {
       "id": "9999:26",
       "name": "tui-loader",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9999-26",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUILoader",
+        "source": "Sources/TUIDesignSystem/Components/Loader/TUILoader.swift"
+      },
       "totalVariants": 5,
       "iOSVariants": 5,
       "variantProperties": {
@@ -3635,7 +3878,9 @@
     {
       "id": "44231:314707",
       "name": "tui-message-bubble",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44231-314707",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 24,
       "iOSVariants": 12,
       "variantProperties": {
@@ -3675,7 +3920,9 @@
     {
       "id": "22466:378682",
       "name": "tui-notification-banner",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=22466-378682",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 60,
       "iOSVariants": 30,
       "variantProperties": {
@@ -3725,7 +3972,12 @@
     {
       "id": "39739:293413",
       "name": "tui-notification-middle",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39739-293413",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUINotificationMiddle",
+        "source": "Sources/TUIDesignSystem/Components/NotificationMiddle/TUINotificationMiddle.swift"
+      },
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -3755,7 +4007,9 @@
     {
       "id": "32204:470960",
       "name": "tui-notification-toast",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=32204-470960",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 24,
       "iOSVariants": 12,
       "variantProperties": {
@@ -3793,7 +4047,9 @@
     {
       "id": "44290:300333",
       "name": "tui-onboarding-flow",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-300333",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 22,
       "iOSVariants": 6,
       "variantProperties": {
@@ -3831,7 +4087,9 @@
     {
       "id": "34357:426019",
       "name": "tui-pager",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=34357-426019",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 20,
       "iOSVariants": 10,
       "variantProperties": {
@@ -3868,7 +4126,9 @@
     {
       "id": "44302:52347",
       "name": "tui-panel",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44302-52347",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 12,
       "iOSVariants": 6,
       "variantProperties": {
@@ -3917,7 +4177,9 @@
     {
       "id": "45576:359285",
       "name": "tui-pin",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=45576-359285",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 24,
       "iOSVariants": 12,
       "variantProperties": {
@@ -3964,7 +4226,9 @@
     {
       "id": "25951:712646",
       "name": "tui-progress-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25951-712646",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 96,
       "iOSVariants": 48,
       "variantProperties": {
@@ -4014,7 +4278,12 @@
     {
       "id": "25942:708453",
       "name": "tui-progress-circle",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25942-708453",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIProgressCircle",
+        "source": "Sources/TUIDesignSystem/Components/ProgressCircle/TUIProgressCircle.swift"
+      },
       "totalVariants": 434,
       "iOSVariants": 217,
       "variantProperties": {
@@ -4072,7 +4341,12 @@
     {
       "id": "10467:91596",
       "name": "tui-rating",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=10467-91596",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIRating",
+        "source": "Sources/TUIDesignSystem/Components/Rating/TUIRating.swift"
+      },
       "totalVariants": 6,
       "iOSVariants": 6,
       "variantProperties": {
@@ -4101,7 +4375,9 @@
     {
       "id": "53606:308726",
       "name": "tui-row [avatar-labelled]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53606-308726",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 2,
       "iOSVariants": 1,
       "variantProperties": {
@@ -4125,7 +4401,9 @@
     {
       "id": "48700:323897",
       "name": "tui-row [button-vertical]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=48700-323897",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4154,7 +4432,9 @@
     {
       "id": "16273:42831",
       "name": "tui-row [card-medium]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16273-42831",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4183,7 +4463,9 @@
     {
       "id": "16753:52842",
       "name": "tui-row [custom]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16753-52842",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 2,
       "iOSVariants": 1,
       "variantProperties": {
@@ -4207,7 +4489,9 @@
     {
       "id": "25762:537956",
       "name": "tui-search-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25762-537956",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 10,
       "variantProperties": {
@@ -4243,7 +4527,9 @@
     {
       "id": "16874:41486",
       "name": "tui-segmented",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16874-41486",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 24,
       "iOSVariants": 12,
       "variantProperties": {
@@ -4283,7 +4569,9 @@
     {
       "id": "46866:304541",
       "name": "tui-sensitive-mode",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=46866-304541",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 5,
       "iOSVariants": 5,
       "variantProperties": {
@@ -4310,7 +4598,12 @@
     {
       "id": "37840:45833",
       "name": "tui-skeleton",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=37840-45833",
       "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISkeleton",
+        "source": "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift"
+      },
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4332,7 +4625,9 @@
     {
       "id": "37840:45836",
       "name": "tui-skeleton [text]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=37840-45836",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 26,
       "iOSVariants": 13,
       "variantProperties": {
@@ -4370,7 +4665,9 @@
     {
       "id": "28406:482266",
       "name": "tui-spacing",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=28406-482266",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 21,
       "iOSVariants": 21,
       "variantProperties": {
@@ -4406,7 +4703,9 @@
     {
       "id": "21811:56398",
       "name": "tui-splash-screen",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=21811-56398",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 20,
       "iOSVariants": 10,
       "variantProperties": {
@@ -4442,7 +4741,9 @@
     {
       "id": "53204:296101",
       "name": "tui-swipe-actions",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53204-296101",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 4,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4475,7 +4776,9 @@
     {
       "id": "23068:2266",
       "name": "tui-tab-bar",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23068-2266",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 5,
       "iOSVariants": 2,
       "variantProperties": {
@@ -4501,7 +4804,9 @@
     {
       "id": "23142:458939",
       "name": "tui-tab-bar / Bookkeeping",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-458939",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 6,
       "iOSVariants": 3,
       "variantProperties": {
@@ -4531,7 +4836,9 @@
     {
       "id": "23142:453257",
       "name": "tui-tab-bar / Invest",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-453257",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -4563,7 +4870,9 @@
     {
       "id": "112725:32337",
       "name": "tui-tab-bar / Junior",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=112725-32337",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -4595,7 +4904,9 @@
     {
       "id": "23142:450541",
       "name": "tui-tab-bar / MB",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-450541",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 7,
       "variantProperties": {
@@ -4635,7 +4946,9 @@
     {
       "id": "23142:455406",
       "name": "tui-tab-bar / Mobile",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-455406",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -4667,7 +4980,9 @@
     {
       "id": "23068:2615",
       "name": "tui-tab-bar / SME",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23068-2615",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 22,
       "iOSVariants": 10,
       "variantProperties": {
@@ -4708,7 +5023,9 @@
     {
       "id": "58367:296400",
       "name": "tui-tab-bar / Signature",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=58367-296400",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 16,
       "iOSVariants": 8,
       "variantProperties": {
@@ -4745,7 +5062,9 @@
     {
       "id": "44305:306527",
       "name": "tui-text-expandable",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44305-306527",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 18,
       "iOSVariants": 9,
       "variantProperties": {
@@ -4786,7 +5105,9 @@
     {
       "id": "65702:51131",
       "name": "tui-textfield ",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=65702-51131",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 44,
       "iOSVariants": 22,
       "variantProperties": {
@@ -4845,7 +5166,9 @@
     {
       "id": "26960:617080",
       "name": "tui-textfield [convert]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=26960-617080",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 88,
       "iOSVariants": 44,
       "variantProperties": {
@@ -4896,7 +5219,9 @@
     {
       "id": "54443:283316",
       "name": "tui-textfield [counter]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=54443-283316",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 44,
       "iOSVariants": 22,
       "variantProperties": {
@@ -4942,7 +5267,9 @@
     {
       "id": "69850:48152",
       "name": "tui-textfield [multiline]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=69850-48152",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 44,
       "iOSVariants": 22,
       "variantProperties": {
@@ -4998,7 +5325,9 @@
     {
       "id": "69850:47618",
       "name": "tui-textfield [number]",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=69850-47618",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 26,
       "iOSVariants": 13,
       "variantProperties": {
@@ -5061,7 +5390,9 @@
     {
       "id": "39763:297614",
       "name": "tui-thumbnail-card",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39763-297614",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 78,
       "iOSVariants": 39,
       "variantProperties": {
@@ -5116,7 +5447,9 @@
     {
       "id": "42583:296173",
       "name": "tui-tooltip",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42583-296173",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 48,
       "iOSVariants": 24,
       "variantProperties": {
@@ -5163,7 +5496,9 @@
     {
       "id": "55278:70654",
       "name": "underline",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70654",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {
@@ -5185,7 +5520,9 @@
     {
       "id": "55278:70659",
       "name": "underline",
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70659",
       "status": "catalogued",
+      "swiftAPI": null,
       "totalVariants": 2,
       "iOSVariants": 2,
       "variantProperties": {

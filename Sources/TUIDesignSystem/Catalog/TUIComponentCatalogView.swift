@@ -76,6 +76,18 @@ public struct TUIComponentCatalogView: View {
                         }
                     }
                 }
+                Section("Чипы") {
+                    if let group = catalog.components(matching: "tui-chip-group").first(where: { $0.id == "115603:32334" }) {
+                        NavigationLink("tui-chip-group · 4 варианта iOS") {
+                            TUIComponentReferenceView(component: group)
+                        }
+                    }
+                    if let chip = catalog.components(matching: "tui-chip").first(where: { $0.id == "42638:295990" }) {
+                        NavigationLink("tui-chip · 60 вариантов iOS") {
+                            TUIComponentReferenceView(component: chip)
+                        }
+                    }
+                }
                 Section("Кнопки") {
                     if let verticalButton = catalog.components(matching: "tui-button [vertical]").first(where: { $0.id == "41691:305320" }) {
                         NavigationLink("tui-button [vertical] · 4 варианта iOS") {
@@ -222,6 +234,14 @@ private struct TUIComponentReferenceView: View {
                         focused: $nativeSearchFocused
                     )
                 }
+            } else if component.id == "115603:32334" {
+                Section("Живой компонент") {
+                    TUIChipGroupPlayground()
+                }
+            } else if component.id == "42638:295990" {
+                Section("Живой компонент") {
+                    TUIChipPlayground()
+                }
             } else if component.id == "41691:305320" {
                 Section("Живой компонент") {
                     TUIButtonVerticalPlayground()
@@ -247,7 +267,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "41691:305320", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "41691:305320", "42638:295990", "115603:32334", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -277,6 +297,112 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUIChipGroupPlayground: View {
+    @State private var size: TUIChipSize = .small
+    @State private var scrollable = true
+    @State private var selectedIndex: Int?
+    @State private var tapCount = 0
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "115603:32334").first { variant in
+            variant.properties["System"] == "iOS"
+                && variant.properties["Scrollable"] == (scrollable ? "on" : "off")
+                && variant.properties["Size"] == (size == .small ? "S" : "M")
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            TUIChipGroup(size: size, scrollable: scrollable) { chipSize in
+                ForEach(0..<(scrollable ? 9 : (size == .small ? 9 : 8)), id: \.self) { index in
+                    TUIChip("Label", size: chipSize, appearance: selectedIndex == index ? .accent : .neutral) {
+                        selectedIndex = index
+                        tapCount += 1
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity)
+            .background(TUIColor.named("Background/Base"), in: RoundedRectangle(cornerRadius: 16))
+            Picker("Размер", selection: $size) {
+                Text("S").tag(TUIChipSize.small)
+                Text("M").tag(TUIChipSize.medium)
+            }
+            .pickerStyle(.segmented)
+            Toggle("Горизонтальная прокрутка", isOn: $scrollable)
+            LabeledContent("Нажатий", value: "\(tapCount)")
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
+    }
+}
+
+private struct TUIChipPlayground: View {
+    @State private var selectedID = "44231:309990"
+    @State private var label = "Label"
+    @State private var showsBadge = false
+    @State private var tapCount = 0
+
+    private var variants: [TUIComponentVariantReference] {
+        TUILibraryCatalog.shared.variants(for: "42638:295990").filter(\.isIOS)
+    }
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        variants.first { $0.id == selectedID }
+    }
+
+    private func variantLabel(_ variant: TUIComponentVariantReference) -> String {
+        let p = variant.properties
+        let size = p["size"] == "small" ? "S" : "M"
+        let appearance = p["appearance"] ?? "neutral"
+        let leading = p["left content"] ?? "none"
+        let trailing = p["right content"] ?? "none"
+        let state = p["skeleton"] == "on" ? " · skeleton" : (p["is-disable"] == "on" ? " · disabled" : "")
+        return "\(size) · \(appearance) · \(leading)/\(trailing)\(state)"
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            if let variant = selectedVariant,
+               let size = TUIChipSize(rawValue: variant.properties["size"] ?? ""),
+               let appearance = TUIChipAppearance(rawValue: variant.properties["appearance"] ?? ""),
+               let leading = TUIChipLeadingContent(rawValue: variant.properties["left content"] ?? ""),
+               let trailing = TUIChipTrailingContent(rawValue: variant.properties["right content"] ?? "") {
+                TUIChip(
+                    label,
+                    size: size,
+                    appearance: appearance,
+                    leadingContent: leading,
+                    trailingContent: trailing,
+                    disabled: variant.properties["is-disable"] == "on",
+                    skeleton: variant.properties["skeleton"] == "on",
+                    badge: showsBadge ? "1" : nil
+                ) {
+                    tapCount += 1
+                }
+                .frame(maxWidth: .infinity)
+                .frame(height: 100)
+                .background(TUIColor.named("Background/Base"), in: RoundedRectangle(cornerRadius: 16))
+            }
+            Picker("Вариант Figma", selection: $selectedID) {
+                ForEach(variants) { variant in
+                    Text(variantLabel(variant))
+                        .tag(variant.id)
+                }
+            }
+            .pickerStyle(.navigationLink)
+            TextField("Название чипа", text: $label)
+            Toggle("Бейдж", isOn: $showsBadge)
+            LabeledContent("Нажатий", value: "\(tapCount)")
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
     }
 }
 

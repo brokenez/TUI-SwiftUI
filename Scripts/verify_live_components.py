@@ -47,6 +47,8 @@ expected = {
     "25745:690323": 5,
     "39739:293413": 2,
     "41691:305320": 4,
+    "42638:295990": 60,
+    "115603:32334": 4,
 }
 complete_ids = {"6392:51900", "87688:44061"}
 catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()
@@ -63,6 +65,16 @@ for set_id, count in expected.items():
     assert coverage_by_id[set_id]["status"] == ("complete" if set_id in complete_ids else "in-progress")
     assert coverage_by_id[set_id]["verification"]["implementation"]
     assert coverage_by_id[set_id]["verification"]["visual"] == (set_id in complete_ids)
+    api = coverage_by_id[set_id]["swiftAPI"]
+    source = root / api["source"]
+    assert source.is_file(), source
+    source_text = source.read_text()
+    if api["symbol"][0].islower():
+        assert "public extension View" in source_text
+        assert re.search(r"\bfunc " + re.escape(api["symbol"]) + r"\b", source_text), api
+    else:
+        assert re.search(r"public struct " + re.escape(api["symbol"]) + r"\b", source_text), api
+    assert coverage_by_id[set_id]["figmaURL"].endswith("node-id=" + set_id.replace(":", "-"))
 
 button_ids = {v["id"] for v in variants if v["setId"] == "41658:296906" and is_ios(v)}
 style_ids = {s["id"] for s in button_styles}
@@ -94,6 +106,9 @@ for name in (
     "tui-badged-content-check",
     "tui-button-vertical-star",
     "tui-button-vertical-star-disabled",
+    "tui-chip-plus",
+    "tui-chip-cross",
+    "tui-chip-dropdown",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())

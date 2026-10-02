@@ -78,6 +78,23 @@ public enum TUIControlSize {
 }
 
 public enum TUIShadow {
+    public static let smallColor = TUIColor.named("Hide from publishing/Shadow/Small/Color")
+
+    public static func smallBlur(theme: TUITheme) -> CGFloat {
+        CGFloat(TUITokenCatalog.shared.number(
+            named: "Hide from publishing/Shadow/Small/Blur",
+            collection: "Theme",
+            mode: theme.rawValue
+        ) ?? (theme == .day ? 20 : 0))
+    }
+
+    public static func smallYOffset(theme: TUITheme) -> CGFloat {
+        CGFloat(TUITokenCatalog.shared.number(
+            named: "Hide from publishing/Shadow/Small/Y-axis",
+            collection: "Theme",
+            mode: theme.rawValue
+        ) ?? (theme == .day ? 5 : 0))
+    }
     public static let popupColor = TUIColor.named("Hide from publishing/Shadow/Popup/Color")
 
     public static func popupBlur(theme: TUITheme) -> CGFloat {
