@@ -46,6 +46,7 @@ expected = {
     "87688:44061": 4,
     "25745:690323": 5,
     "39739:293413": 2,
+    "41691:305320": 4,
 }
 complete_ids = {"6392:51900", "87688:44061"}
 catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()
@@ -91,6 +92,8 @@ for name in (
     "tui-subscription-badge-medium",
     "tui-subscription-badge-small",
     "tui-badged-content-check",
+    "tui-button-vertical-star",
+    "tui-button-vertical-star-disabled",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())

@@ -76,6 +76,13 @@ public struct TUIComponentCatalogView: View {
                         }
                     }
                 }
+                Section("Кнопки") {
+                    if let verticalButton = catalog.components(matching: "tui-button [vertical]").first(where: { $0.id == "41691:305320" }) {
+                        NavigationLink("tui-button [vertical] · 4 варианта iOS") {
+                            TUIComponentReferenceView(component: verticalButton)
+                        }
+                    }
+                }
                 Section("Нотификации") {
                     if let notification = catalog.components(matching: "tui-notification-middle").first(where: { $0.id == "39739:293413" }) {
                         NavigationLink("tui-notification-middle · 2 варианта iOS") {
@@ -215,6 +222,10 @@ private struct TUIComponentReferenceView: View {
                         focused: $nativeSearchFocused
                     )
                 }
+            } else if component.id == "41691:305320" {
+                Section("Живой компонент") {
+                    TUIButtonVerticalPlayground()
+                }
             } else if component.id == "39739:293413" {
                 Section("Живой компонент") {
                     TUINotificationMiddlePlayground()
@@ -236,7 +247,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "41691:305320", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -266,6 +277,43 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUIButtonVerticalPlayground: View {
+    @State private var selectedState: TUIButtonVerticalState = .normal
+    @State private var skeleton = false
+    @State private var tapCount = 0
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "41691:305320").first { variant in
+            variant.properties["System"] == "iOS"
+                && variant.properties["State"] == (skeleton ? "Normal" : selectedState.rawValue.capitalized)
+                && variant.properties["Skeleton"] == (skeleton ? "on" : "off")
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            TUIButtonVertical("Label", state: selectedState, skeleton: skeleton) {
+                tapCount += 1
+            }
+            .frame(maxWidth: .infinity)
+            .frame(height: 130)
+            .background(TUIColor.named("Background/Base"), in: RoundedRectangle(cornerRadius: 16))
+            Picker("Состояние", selection: $selectedState) {
+                ForEach(TUIButtonVerticalState.allCases, id: \.self) { state in
+                    Text(state.rawValue.capitalized).tag(state)
+                }
+            }
+            .pickerStyle(.segmented)
+            Toggle("Скелетон", isOn: $skeleton)
+            LabeledContent("Нажатий", value: "\(tapCount)")
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
     }
 }
 

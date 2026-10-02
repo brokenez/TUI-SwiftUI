@@ -1898,7 +1898,7 @@
     {
       "id": "41691:305320",
       "name": "tui-button [vertical]",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 8,
       "iOSVariants": 4,
       "variantProperties": {
@@ -1927,7 +1927,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
