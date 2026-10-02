@@ -1295,7 +1295,7 @@
     {
       "id": "25745:690323",
       "name": "tui-badged-content",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 10,
       "iOSVariants": 5,
       "variantProperties": {
@@ -1320,7 +1320,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },

@@ -44,6 +44,7 @@ expected = {
     "91657:37703": 8,
     "24689:584469": 6,
     "87688:44061": 4,
+    "25745:690323": 5,
 }
 complete_ids = {"6392:51900", "87688:44061"}
 catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()
@@ -88,6 +89,7 @@ for name in (
     "tui-subscription-badge-large",
     "tui-subscription-badge-medium",
     "tui-subscription-badge-small",
+    "tui-badged-content-check",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())
@@ -105,6 +107,14 @@ for name, points in (
     assert header[:8] == b"\x89PNG\r\n\x1a\n"
     assert int.from_bytes(header[16:20], "big") == points * 3
     assert int.from_bytes(header[20:24], "big") == points * 3
+
+original_check = root / "Sources/TUIDesignSystem/Resources/OriginalSVG/BadgedContent/tui-badged-content-check.svg"
+assert original_check.is_file() and 'width="8.125" height="5.625"' in original_check.read_text()
+check_png = assets / "tui-badged-content-check.imageset/tui-badged-content-check.png"
+check_header = check_png.read_bytes()[:24]
+assert check_header[:8] == b"\x89PNG\r\n\x1a\n"
+assert int.from_bytes(check_header[16:20], "big") == 25
+assert int.from_bytes(check_header[20:24], "big") == 17
 
 assert coverage["summary"]["iOSVariants"] == 2008
 theme = next(collection for collection in foundations["collections"] if collection["name"] == "Theme")

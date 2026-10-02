@@ -82,6 +82,11 @@ public struct TUIComponentCatalogView: View {
                             TUIComponentReferenceView(component: subscriptionBadge)
                         }
                     }
+                    if let badgedContent = catalog.components(matching: "tui-badged-content").first(where: { $0.id == "25745:690323" }) {
+                        NavigationLink("tui-badged-content · 5 вариантов iOS") {
+                            TUIComponentReferenceView(component: badgedContent)
+                        }
+                    }
                 }
                 Section("Системные iOS-компоненты") {
                     ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703"], id: \.self) { identifier in
@@ -203,6 +208,10 @@ private struct TUIComponentReferenceView: View {
                         focused: $nativeSearchFocused
                     )
                 }
+            } else if component.id == "25745:690323" {
+                Section("Живой компонент") {
+                    TUIBadgedContentPlayground()
+                }
             } else if component.id == "87688:44061" {
                 Section("Живой компонент") {
                     TUISubscriptionBadgePlayground()
@@ -216,7 +225,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -246,6 +255,47 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUIBadgedContentPlayground: View {
+    @State private var badge: TUIBadgedContentBadge = .topPlusBottom
+    @State private var showsExampleContent = false
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "25745:690323").first { variant in
+            variant.properties["System"] == "iOS" && variant.properties["Badge"] == badge.rawValue
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            TUIBadgedContent(badge: badge) {
+                Group {
+                    if showsExampleContent {
+                        RoundedRectangle(cornerRadius: 20)
+                            .fill(TUIColor.named("Background/Neutral 2"))
+                            .overlay(Text("Контент").font(.subheadline))
+                    } else {
+                        Color.clear
+                    }
+                }
+                .frame(width: 128, height: 128)
+            }
+            .frame(maxWidth: .infinity)
+            .frame(height: 160)
+            .background(Color(uiColor: .secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16))
+            Picker("Badge", selection: $badge) {
+                ForEach(TUIBadgedContentBadge.allCases, id: \.self) { option in
+                    Text(option.rawValue).tag(option)
+                }
+            }
+            Toggle("Показать пример контента", isOn: $showsExampleContent)
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
     }
 }
 
