@@ -75,8 +75,15 @@ public struct TUIComponentCatalogView: View {
                     }
                 }
             }
+            Section("Бейджи") {
+                if let subscriptionBadge = catalog.components(matching: "tui-badge [subscription-icon]").first(where: { $0.id == "87688:44061" }) {
+                    NavigationLink("tui-badge [subscription-icon] · 4 размера iOS") {
+                        TUIComponentReferenceView(component: subscriptionBadge)
+                    }
+                }
+            }
             Section("Системные iOS-компоненты") {
-                ForEach(["9940:39560", "9151:1662", "53362:296599", "44720:304564"], id: \.self) { identifier in
+                ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564"], id: \.self) { identifier in
                     if let component = catalog.components(matching: "system-").first(where: { $0.id == identifier }) {
                         NavigationLink(component.name) {
                             TUIComponentReferenceView(component: component)
@@ -177,9 +184,13 @@ private struct TUIComponentReferenceView: View {
                 Section("Живой компонент") {
                     TUIListPlayground(componentID: component.id)
                 }
-            } else if ["9940:39560", "9151:1662", "53362:296599", "44720:304564"].contains(component.id) {
+            } else if ["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564"].contains(component.id) {
                 Section("Живой компонент") {
                     TUISystemControlsPlayground(componentID: component.id)
+                }
+            } else if component.id == "87688:44061" {
+                Section("Живой компонент") {
+                    TUISubscriptionBadgePlayground()
                 }
             } else if component.id == "6392:51900" {
                 Section("Живой компонент") {
@@ -190,7 +201,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: component.id == "6392:51900" ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "53362:296599", "44720:304564"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -279,6 +290,9 @@ private struct TUISystemControlsPlayground: View {
     @State private var selectedAction = ""
     @State private var actionSheetTitle = "A short description of the actions goes here."
     @State private var showsActionSheetTitle = true
+    @State private var alertTitle = "Title"
+    @State private var alertMessage = "Body Text"
+    @State private var hasThirdAction = false
 
     private var actions: [TUISystemMenuAction] {
         let defaults = (1...5).map { index in
@@ -307,6 +321,14 @@ private struct TUISystemControlsPlayground: View {
                             showsTitle: showsActionSheetTitle,
                             actions: actions
                         )
+                case "24689:584469":
+                    Button("Открыть системный alert") { isPresented = true }
+                        .tuiSystemAlert(
+                            isPresented: $isPresented,
+                            title: alertTitle,
+                            message: alertMessage,
+                            actions: hasThirdAction ? actions.prefix(3).map { $0 } : actions.prefix(2).map { $0 }
+                        )
                 case "53362:296599":
                     Text("Нажмите и удерживайте")
                         .padding(20)
@@ -326,6 +348,11 @@ private struct TUISystemControlsPlayground: View {
             } else if componentID == "9151:1662" {
                 Toggle("Показывать заголовок", isOn: $showsActionSheetTitle)
                 TextField("Текст шторки", text: $actionSheetTitle, axis: .vertical)
+            } else if componentID == "24689:584469" {
+                Toggle("Три действия", isOn: $hasThirdAction)
+                Toggle("Тёмная тема", isOn: $isDark)
+                TextField("Заголовок", text: $alertTitle)
+                TextField("Описание", text: $alertMessage)
             } else if componentID == "53362:296599" || componentID == "44720:304564" {
                 Toggle("Тёмная тема", isOn: $isDark)
             }
@@ -337,6 +364,33 @@ private struct TUISystemControlsPlayground: View {
                 .foregroundStyle(.secondary)
         }
         .preferredColorScheme(isDark ? .dark : .light)
+    }
+}
+
+private struct TUISubscriptionBadgePlayground: View {
+    @State private var size: TUISubscriptionBadgeSize = .xLarge
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "87688:44061").first { variant in
+            variant.properties["size"] == size.figmaName
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            TUISubscriptionBadge(size: size)
+                .frame(maxWidth: .infinity)
+                .frame(height: 100)
+                .background(.white, in: RoundedRectangle(cornerRadius: 16))
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id).font(.caption)
+            }
+            Picker("Размер", selection: $size) {
+                ForEach(TUISubscriptionBadgeSize.allCases, id: \.self) { option in
+                    Text("\(option.figmaName) · \(option.rawValue) pt").tag(option)
+                }
+            }
+        }
     }
 }
 

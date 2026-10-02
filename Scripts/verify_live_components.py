@@ -41,8 +41,14 @@ expected = {
     "9151:1662": 2,
     "53362:296599": 2,
     "44720:304564": 2,
+    "24689:584469": 6,
+    "87688:44061": 4,
 }
-complete_ids = {"6392:51900"}
+complete_ids = {"6392:51900", "87688:44061"}
+catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()
+status_line = next(line for line in catalog_source.splitlines() if 'LabeledContent("Status"' in line)
+status_ids = set(re.findall(r'"(\d+:\d+)"', status_line))
+assert status_ids == set(expected), sorted(set(expected) ^ status_ids)
 coverage_by_id = {component["id"]: component for component in coverage["components"]}
 assert {item["id"] for item in coverage["components"] if item["status"] in ("in-progress", "complete")} == set(expected)
 assert {item["id"] for item in coverage["components"] if item["status"] == "complete"} == complete_ids
@@ -77,11 +83,27 @@ for name in (
     "tui-progress-mountains-flag",
     "tui-rating-star-empty",
     "tui-rating-star-filled",
+    "tui-subscription-badge-x-large",
+    "tui-subscription-badge-large",
+    "tui-subscription-badge-medium",
+    "tui-subscription-badge-small",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())
     image = imageset / manifest["images"][0]["filename"]
     assert image.is_file() and image.stat().st_size > 100, image
+
+for name, points in (
+    ("x-large", 28), ("large", 24), ("medium", 20), ("small", 16)
+):
+    stem = f"tui-subscription-badge-{name}"
+    original = root / "Sources/TUIDesignSystem/Resources/OriginalSVG/SubscriptionBadge" / f"{stem}.svg"
+    assert original.is_file() and f'width="{points}" height="{points}"' in original.read_text()
+    png = assets / f"{stem}.imageset" / f"{stem}.png"
+    header = png.read_bytes()[:24]
+    assert header[:8] == b"\x89PNG\r\n\x1a\n"
+    assert int.from_bytes(header[16:20], "big") == points * 3
+    assert int.from_bytes(header[20:24], "big") == points * 3
 
 assert coverage["summary"]["iOSVariants"] == 2008
 theme = next(collection for collection in foundations["collections"] if collection["name"] == "Theme")
@@ -90,4 +112,4 @@ swift_source = "\n".join(path.read_text() for path in (root / "Sources/TUIDesign
 named_colors = set(re.findall(r'TUIColor\.named\("([^"]+)"', swift_source))
 assert named_colors <= theme_names, sorted(named_colors - theme_names)
 assert coverage["summary"]["completeComponents"] == len(complete_ids)
-print("Checked metadata for 19 live component sets (434 iOS variants) and their image assets")
+print("Checked metadata for 21 live component sets (444 iOS variants) and their image assets")

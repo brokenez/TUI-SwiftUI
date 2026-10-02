@@ -4,7 +4,7 @@
     "variants": 3927,
     "iOSVariants": 2008,
     "documentedComponents": 108,
-    "completeComponents": 1
+    "completeComponents": 2
   },
   "components": [
     {
@@ -193,7 +193,7 @@
     {
       "id": "24689:584469",
       "name": "system-alert",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 8,
       "iOSVariants": 6,
       "variantProperties": {
@@ -227,7 +227,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
@@ -1161,7 +1161,7 @@
     {
       "id": "87688:44061",
       "name": "tui-badge [subscription-icon]",
-      "status": "catalogued",
+      "status": "complete",
       "totalVariants": 12,
       "iOSVariants": 4,
       "variantProperties": {
@@ -1189,8 +1189,8 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "visual": true
       }
     },
     {

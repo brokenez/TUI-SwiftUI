@@ -66,7 +66,43 @@ public struct TUISystemActionSheetModifier: ViewModifier {
     }
 }
 
+public struct TUISystemAlertModifier: ViewModifier {
+    @Binding public var isPresented: Bool
+    public let title: String
+    public let message: String?
+    public let actions: [TUISystemMenuAction]
+
+    public init(isPresented: Binding<Bool>, title: String, message: String? = nil, actions: [TUISystemMenuAction]) {
+        _isPresented = isPresented
+        self.title = title
+        self.message = message
+        self.actions = actions
+    }
+
+    public func body(content: Content) -> some View {
+        content.alert(title, isPresented: $isPresented) {
+            ForEach(actions) { action in
+                Button(action.title, role: action.role, action: action.handler)
+                    .disabled(!action.isEnabled)
+            }
+        } message: {
+            if let message, !message.isEmpty {
+                Text(message)
+            }
+        }
+    }
+}
+
 public extension View {
+    func tuiSystemAlert(
+        isPresented: Binding<Bool>,
+        title: String,
+        message: String? = nil,
+        actions: [TUISystemMenuAction]
+    ) -> some View {
+        modifier(TUISystemAlertModifier(isPresented: isPresented, title: title, message: message, actions: actions))
+    }
+
     func tuiSystemActionSheet(
         isPresented: Binding<Bool>,
         title: String,
