@@ -306,6 +306,14 @@ private struct TUISystemControlsPlayground: View {
         ]
     }
 
+    private var contextActions: [TUISystemMenuAction] {
+        (1...6).map { index in
+            TUISystemMenuAction(id: "context-\(index)", title: "Label") {
+                selectedAction = "Label \(index)"
+            }
+        }
+    }
+
     var body: some View {
         VStack(spacing: 18) {
             Group {
@@ -333,15 +341,22 @@ private struct TUISystemControlsPlayground: View {
                     Text("Нажмите и удерживайте")
                         .padding(20)
                         .background(TUIColor.named("Background/Neutral 1"), in: RoundedRectangle(cornerRadius: 12))
-                        .tuiSystemContextMenu(actions: actions)
+                        .tuiSystemContextMenu(actions: contextActions)
                 default:
                     TUISystemShareLink("Открыть системное меню «Поделиться»", url: URL(string: "https://www.tbank.ru/")!)
                 }
             }
             .frame(maxWidth: .infinity)
             .frame(minHeight: 100)
-            .background(.white, in: RoundedRectangle(cornerRadius: 16))
+            .background(Color(uiColor: .secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16))
 
+            if componentID == "53362:296599" {
+                Menu("Открыть меню нажатием") {
+                    ForEach(contextActions) { action in
+                        Button(action.title, action: action.handler)
+                    }
+                }
+            }
             if componentID == "9940:39560" {
                 Toggle("Доступен", isOn: $isEnabled)
                 LabeledContent("Состояние", value: isOn ? "Включён" : "Выключен")
