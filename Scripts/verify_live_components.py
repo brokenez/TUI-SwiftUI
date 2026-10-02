@@ -41,6 +41,7 @@ expected = {
     "9151:1662": 2,
     "53362:296599": 2,
     "44720:304564": 2,
+    "91657:37703": 8,
     "24689:584469": 6,
     "87688:44061": 4,
 }
@@ -112,4 +113,4 @@ swift_source = "\n".join(path.read_text() for path in (root / "Sources/TUIDesign
 named_colors = set(re.findall(r'TUIColor\.named\("([^"]+)"', swift_source))
 assert named_colors <= theme_names, sorted(named_colors - theme_names)
 assert coverage["summary"]["completeComponents"] == len(complete_ids)
-print("Checked metadata for 21 live component sets (444 iOS variants) and their image assets")
+print(f"Checked metadata for {len(expected)} live component sets ({sum(expected.values())} iOS variants) and their image assets")

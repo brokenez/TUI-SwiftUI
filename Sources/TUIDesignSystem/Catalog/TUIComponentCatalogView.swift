@@ -84,7 +84,7 @@ public struct TUIComponentCatalogView: View {
                     }
                 }
                 Section("Системные iOS-компоненты") {
-                    ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564"], id: \.self) { identifier in
+                    ForEach(["9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703"], id: \.self) { identifier in
                         if let component = catalog.components(matching: "system-").first(where: { $0.id == identifier }) {
                             NavigationLink(component.name) {
                                 TUIComponentReferenceView(component: component)
@@ -140,6 +140,9 @@ public struct TUIComponentCatalogView: View {
 private struct TUIComponentReferenceView: View {
     let component: TUIComponentReference
     private let catalog = TUILibraryCatalog.shared
+    @State private var nativeSearchText = ""
+    @State private var nativeSearchPlacement: TUISystemSearchFieldPlacement = .floating
+    @State private var nativeSearchFocused = false
 
     var body: some View {
         let variants = catalog.variants(for: component.id)
@@ -192,6 +195,14 @@ private struct TUIComponentReferenceView: View {
                 Section("Живой компонент") {
                     TUISystemControlsPlayground(componentID: component.id)
                 }
+            } else if component.id == "91657:37703" {
+                Section("Живой компонент") {
+                    TUISystemSearchFieldPlayground(
+                        placement: $nativeSearchPlacement,
+                        text: $nativeSearchText,
+                        focused: $nativeSearchFocused
+                    )
+                }
             } else if component.id == "87688:44061" {
                 Section("Живой компонент") {
                     TUISubscriptionBadgePlayground()
@@ -205,7 +216,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -235,6 +246,73 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUISystemSearchFieldPlayground: View {
+    @Binding var placement: TUISystemSearchFieldPlacement
+    @Binding var text: String
+    @Binding var focused: Bool
+    @State private var showingPreview = false
+
+    private var selectedVariant: TUIComponentVariantReference? {
+        TUILibraryCatalog.shared.variants(for: "91657:37703").first { variant in
+            variant.properties["type"] == placement.rawValue &&
+            variant.properties["filled"] == (text.isEmpty ? "off" : "on") &&
+            variant.properties["state"] == (focused ? "focus" : "normal")
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 16) {
+            Text("Выберите положение, заполнение и фокус, затем откройте нативный предпросмотр.")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+            Picker("Тип", selection: $placement) {
+                Text("Inline").tag(TUISystemSearchFieldPlacement.inline)
+                Text("Floating").tag(TUISystemSearchFieldPlacement.floating)
+            }
+            .pickerStyle(.segmented)
+            Toggle("Заполнено", isOn: Binding(
+                get: { !text.isEmpty },
+                set: { text = $0 ? "Запрос" : "" }
+            ))
+            Toggle("Фокус", isOn: $focused)
+            Button("Открыть нативный предпросмотр") { showingPreview = true }
+            if let selectedVariant {
+                LabeledContent("Figma node", value: selectedVariant.id)
+                    .font(.caption)
+            }
+        }
+        .sheet(isPresented: $showingPreview) {
+            TUISystemSearchFieldPreview(text: $text, placement: placement, startsFocused: focused)
+        }
+    }
+}
+
+private struct TUISystemSearchFieldPreview: View {
+    @Binding var text: String
+    let placement: TUISystemSearchFieldPlacement
+    let startsFocused: Bool
+    @FocusState private var isFocused: Bool
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Text("Нативное поле поиска iOS 26. Нажмите на поле и введите запрос.")
+                    .foregroundStyle(.secondary)
+            }
+            .navigationTitle("Поиск")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Готово") { dismiss() }
+                }
+            }
+            .tuiSystemSearchField(text: $text, placement: placement)
+            .searchFocused($isFocused)
+            .onAppear { isFocused = startsFocused }
+        }
     }
 }
 

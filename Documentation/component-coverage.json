@@ -540,7 +540,7 @@
     {
       "id": "91657:37703",
       "name": "system-searchfield",
-      "status": "catalogued",
+      "status": "in-progress",
       "totalVariants": 8,
       "iOSVariants": 8,
       "variantProperties": {
@@ -565,7 +565,7 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },
