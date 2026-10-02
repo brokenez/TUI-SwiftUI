@@ -4,7 +4,7 @@
 
 ## Как найти реализацию
 
-1. Найдите ID набора в `Documentation/component-coverage.json`. Поле `swiftAPI` указывает публичный SwiftUI-символ и исходный файл. `status: complete` означает, что вся iOS-матрица и визуальное сравнение пройдены. `in-progress` означает рабочий компонент с незавершённой сверкой; `catalogued` — реализации пока нет.
+1. Выполните `python3 Scripts/resolve_figma_node.py 'https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=115603-32367'` или найдите ID набора в `Documentation/component-coverage.json`. Резолвер возвращает публичный SwiftUI-символ, исходный файл, статус и свойства варианта. `status: complete` означает, что вся iOS-матрица и визуальное сравнение пройдены. `in-progress` означает рабочий компонент с незавершённой сверкой; `catalogued` — реализации пока нет.
 2. Если ссылка ведёт на вариант, найдите его ID в `Sources/TUIDesignSystem/Resources/Metadata/figma-component-variants.json`. Поля `setId` и `variantProperties` связывают этот вариант с компонентом и его свойствами. Для экрана с несколькими компонентами повторите это для каждого вложенного набора.
 3. Проверьте детали в файле `swiftAPI.source` и в Figma-спецификации из `specificationURLs`: допустимые значения, поведение, контент и доступность. Сопоставьте свойства варианта с публичным инициализатором. Не выводите готовность из одного только наличия символа.
 4. Используйте `TUIColor`, `TUITypographyRole`, `TUISpacing`, `TUIRadius` и `TUIControlSize` для недостающей композиции экрана. Системные элементы навигации, шторки, меню, списки и поля поиска оставляйте нативными для iOS 26.
