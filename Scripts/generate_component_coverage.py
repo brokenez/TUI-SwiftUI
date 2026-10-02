@@ -14,7 +14,7 @@ variants_by_set = {}
 for variant in variants:
     variants_by_set.setdefault(variant["setId"], []).append(variant)
 
-implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "6392:51900", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "53362:296599", "44720:304564", "91657:37703", "24689:584469", "87688:44061", "25745:690323", "39739:293413", "41691:305320", "42638:295990", "115603:32334"}
+implemented_ids = {"41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "6392:51900", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "53362:296599", "44720:304564", "91657:37703", "24689:584469", "87688:44061", "25745:690323", "39739:293413", "41691:305320", "42638:295990", "115603:32334", "43816:296032"}
 complete_ids = {"6392:51900", "87688:44061"}
 swift_api = {
     "53309:296335": ("TUIBullet", "Components/Bullet/TUIBullet.swift"),
@@ -34,6 +34,7 @@ swift_api = {
     "41691:305320": ("TUIButtonVertical", "Components/ButtonVertical/TUIButtonVertical.swift"),
     "42638:295990": ("TUIChip", "Components/Chip/TUIChip.swift"),
     "115603:32334": ("TUIChipGroup", "Components/Chip/TUIChipGroup.swift"),
+    "43816:296032": ("TUIIllustrationScreen", "Components/IllustrationScreen/TUIIllustrationScreen.swift"),
     "55278:70443": ("TUILink", "Components/Link/TUILink.swift"),
     "79180:42610": ("TUIList", "Components/List/TUIList.swift"),
     "79180:42880": ("TUIList", "Components/List/TUIList.swift"),

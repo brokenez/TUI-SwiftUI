@@ -3613,8 +3613,11 @@
       "id": "43816:296032",
       "name": "tui-illustration-screen",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=43816-296032",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIIllustrationScreen",
+        "source": "Sources/TUIDesignSystem/Components/IllustrationScreen/TUIIllustrationScreen.swift"
+      },
       "totalVariants": 4,
       "iOSVariants": 1,
       "variantProperties": {
@@ -3637,7 +3640,7 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
+        "implementation": true,
         "visual": false
       }
     },

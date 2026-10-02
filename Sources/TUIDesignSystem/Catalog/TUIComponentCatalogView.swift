@@ -234,6 +234,10 @@ private struct TUIComponentReferenceView: View {
                         focused: $nativeSearchFocused
                     )
                 }
+            } else if component.id == "43816:296032" {
+                Section("Живой компонент") {
+                    TUIIllustrationScreenPlayground()
+                }
             } else if component.id == "115603:32334" {
                 Section("Живой компонент") {
                     TUIChipGroupPlayground()
@@ -267,7 +271,7 @@ private struct TUIComponentReferenceView: View {
                 }
             }
             Section("Coverage") {
-                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "41691:305320", "42638:295990", "115603:32334", "87688:44061"].contains(component.id) ? "In progress" : "Catalogued"))
+                LabeledContent("Status", value: ["6392:51900", "87688:44061"].contains(component.id) ? "Complete" : (["41658:296906", "10312:84", "28036:523553", "53309:296335", "9999:26", "55278:70443", "25942:708453", "10467:91596", "37840:45833", "25738:689227", "53190:295267", "79180:42849", "79180:42610", "79180:42880", "9940:39560", "9151:1662", "24689:584469", "53362:296599", "44720:304564", "91657:37703", "25745:690323", "39739:293413", "41691:305320", "42638:295990", "115603:32334", "43816:296032"].contains(component.id) ? "In progress" : "Catalogued"))
                 LabeledContent("iOS variants", value: "\(variants.count)")
                 LabeledContent("All variants", value: "\(component.variantCount)")
             }
@@ -297,6 +301,43 @@ private struct TUIComponentReferenceView: View {
         }
         .navigationTitle(component.name)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TUIIllustrationScreenPlayground: View {
+    @State private var isPresented = false
+    @State private var title = "Title"
+    @State private var subtitle = "Subtitle"
+    @State private var showPlaceholder = false
+    @State private var actionCount = 0
+
+    var body: some View {
+        VStack(spacing: 16) {
+            TUIButton("Открыть экран", appearance: .primary) {
+                isPresented = true
+            }
+            TextField("Заголовок", text: $title)
+            TextField("Подзаголовок", text: $subtitle)
+            Toggle("Показывать placeholder", isOn: $showPlaceholder)
+            LabeledContent("Нажатий на действия", value: "\(actionCount)")
+            LabeledContent("Figma node", value: "63877:294676")
+                .font(.caption)
+        }
+        .sheet(isPresented: $isPresented) {
+            NavigationStack {
+                TUIIllustrationScreen(
+                    title: title,
+                    subtitle: subtitle,
+                    showPlaceholder: showPlaceholder,
+                    closeTitle: "Закрыть",
+                    primaryTitle: "Main action",
+                    secondaryTitle: "Secondary action",
+                    primaryAction: { actionCount += 1 },
+                    secondaryAction: { actionCount += 1 }
+                )
+            }
+            .presentationDetents([.large])
+        }
     }
 }
 

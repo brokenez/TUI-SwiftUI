@@ -49,6 +49,7 @@ expected = {
     "41691:305320": 4,
     "42638:295990": 60,
     "115603:32334": 4,
+    "43816:296032": 1,
 }
 complete_ids = {"6392:51900", "87688:44061"}
 catalog_source = (root / "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift").read_text()
@@ -109,11 +110,18 @@ for name in (
     "tui-chip-plus",
     "tui-chip-cross",
     "tui-chip-dropdown",
+    "tui-illustration-briefcase-light",
 ):
     imageset = assets / f"{name}.imageset"
     manifest = json.loads((imageset / "Contents.json").read_text())
     image = imageset / manifest["images"][0]["filename"]
     assert image.is_file() and image.stat().st_size > 100, image
+
+illustration_source = root / "Sources/TUIDesignSystem/Resources/OriginalSVG/Illustrations/tui-illustration-briefcase-light.svg"
+illustration_asset = assets / "tui-illustration-briefcase-light.imageset/tui-illustration-briefcase-light.svg"
+assert illustration_source.is_file() and illustration_asset.is_file()
+assert illustration_source.read_bytes() == illustration_asset.read_bytes()
+assert 'width="220" height="220" viewBox="0 0 220 220"' in illustration_asset.read_text()
 
 for name, points in (
     ("x-large", 28), ("large", 24), ("medium", 20), ("small", 16)
