@@ -1,0 +1,145 @@
+{
+  "iOS": "26.4.1",
+  "theme": "Day",
+  "comparison": "Source 1x versus native 3x reduced with LANCZOS, both composited on white. Effect bounds not altered in originals. Elevated shadow outside natural viewport not compared.",
+  "results": [
+    {
+      "variantID": "42587:292099",
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292099-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/1E4DFE25-5AD6-48A8-9F23-F8641E52779C.png",
+      "naturalSize": [
+        375,
+        84
+      ],
+      "figmaExportSize": [
+        411,
+        152
+      ],
+      "figmaViewport": [
+        18,
+        28,
+        393,
+        112
+      ],
+      "nativeScale": 3,
+      "MAE_255": 1.7397,
+      "fullShadowCompared": false,
+      "decision": "pending; no automatic visual acceptance"
+    },
+    {
+      "variantID": "42587:292105",
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292105-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/ABA87D3D-D24C-4D82-A661-C1B18B0F2CC2.png",
+      "naturalSize": [
+        375,
+        144
+      ],
+      "figmaExportSize": [
+        411,
+        212
+      ],
+      "figmaViewport": [
+        18,
+        28,
+        393,
+        172
+      ],
+      "nativeScale": 3,
+      "MAE_255": 1.3961,
+      "fullShadowCompared": false,
+      "decision": "pending; no automatic visual acceptance"
+    },
+    {
+      "variantID": "44231:308359",
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-308359-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/2C294035-6724-414E-9642-DF1FEEB847D8.png",
+      "naturalSize": [
+        375,
+        72
+      ],
+      "figmaExportSize": [
+        411,
+        140
+      ],
+      "figmaViewport": [
+        18,
+        28,
+        393,
+        100
+      ],
+      "nativeScale": 3,
+      "MAE_255": 1.6004,
+      "fullShadowCompared": false,
+      "decision": "pending; no automatic visual acceptance"
+    },
+    {
+      "variantID": "44231:312881",
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-312881-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/A9B75AF5-0DF3-428A-ACAE-47A0A0D4B1AE.png",
+      "naturalSize": [
+        375,
+        84
+      ],
+      "figmaExportSize": [
+        375,
+        84
+      ],
+      "figmaViewport": [
+        0,
+        0,
+        375,
+        84
+      ],
+      "nativeScale": 3,
+      "MAE_255": 0.6203,
+      "fullShadowCompared": true,
+      "decision": "pending; no automatic visual acceptance"
+    },
+    {
+      "variantID": "44231:312885",
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-312885-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/0A0A2B2B-F192-442B-B251-8A473F570669.png",
+      "naturalSize": [
+        375,
+        72
+      ],
+      "figmaExportSize": [
+        375,
+        72
+      ],
+      "figmaViewport": [
+        0,
+        0,
+        375,
+        72
+      ],
+      "nativeScale": 3,
+      "MAE_255": 0.5133,
+      "fullShadowCompared": true,
+      "decision": "pending; no automatic visual acceptance"
+    },
+    {
+      "variantID": "44231:312889",
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-312889-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeHeaderCompositions/3B8CF6BF-73FA-431E-B2DE-36D142F46EB3.png",
+      "naturalSize": [
+        375,
+        144
+      ],
+      "figmaExportSize": [
+        375,
+        144
+      ],
+      "figmaViewport": [
+        0,
+        0,
+        375,
+        144
+      ],
+      "nativeScale": 3,
+      "MAE_255": 0.6924,
+      "fullShadowCompared": true,
+      "decision": "pending; no automatic visual acceptance"
+    }
+  ]
+}

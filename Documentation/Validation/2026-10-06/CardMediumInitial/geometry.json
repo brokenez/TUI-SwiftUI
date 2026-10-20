@@ -1,0 +1,47 @@
+{
+  "method": "Actual native RGBA pixels; exact Accent 2 interior pixels locate the avatar. Insets remain 12 pt at standard, AX1 and capped AX5; antialiased edge pixels excluded. This does not certify all child Dynamic Type rules.",
+  "measurements": [
+    {
+      "size": "standard",
+      "nativeFile": "Documentation/Validation/2026-10-06/CardMediumInitial/Native/4847F52A-755B-45EA-846F-B24ECFC9ACE3.png",
+      "imageSizePixels": [
+        420,
+        420
+      ],
+      "accentAvatarInteriorBoundsPoints": [
+        12.0,
+        12.0,
+        68.0,
+        68.0
+      ]
+    },
+    {
+      "size": "AX1",
+      "nativeFile": "Documentation/Validation/2026-10-06/CardMediumInitial/Native/73E9360E-063C-4A0E-958E-5707A016790B.png",
+      "imageSizePixels": [
+        644,
+        644
+      ],
+      "accentAvatarInteriorBoundsPoints": [
+        12.0,
+        12.0,
+        68.0,
+        68.0
+      ]
+    },
+    {
+      "size": "AX5",
+      "nativeFile": "Documentation/Validation/2026-10-06/CardMediumInitial/Native/BD3A9012-FACD-4D70-9F60-E4D45C6688FC.png",
+      "imageSizePixels": [
+        644,
+        644
+      ],
+      "accentAvatarInteriorBoundsPoints": [
+        12.0,
+        12.0,
+        68.0,
+        68.0
+      ]
+    }
+  ]
+}

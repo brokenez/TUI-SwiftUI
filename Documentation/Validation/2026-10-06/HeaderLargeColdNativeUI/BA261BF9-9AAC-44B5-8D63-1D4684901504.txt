@@ -1,0 +1,33 @@
+Attributes: Application, 0x11493e300, pid: 83737, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x11493e300, pid: 83737, label: 'TUIConsumer'
+    Window (Main), 0x11493c500, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11493c280, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11493e6c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x11493e800, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x11493e940, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x11493f700, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x11493d040, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x11493cc80, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x11493cb40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11493c640, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x11493c3c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x11493e580, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x11493ea80, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x11493d2c0, {{29.5, 176.7}, {308.3, 110.0}}, label: 'Заголовок, который занимает несколько строк Favourite'
+                        StaticText, 0x11493d400, {{147.3, 324.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x11493d540, {{160.7, 360.7}, {80.7, 20.3}}, label: 'Ссылок: 0'
+                        StaticText, 0x11493d680, {{128.7, 397.0}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x11493d7c0, {{98.2, 433.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x11493cf00, {{150.0, 469.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x11493da40, {{132.3, 506.0}, {137.3, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, inlineSymbol'
+                          StaticText, 0x11493ca00, {{144.0, 513.0}, {97.0, 20.3}}, label: 'inlineSymbol'
+                Other, 0x11493c780, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11493db80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x11493e300, pid: 83737, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x11493cdc0, pid: 83737, label: 'TUIConsumer'
+  }

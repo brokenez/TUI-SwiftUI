@@ -1,0 +1,112 @@
+{
+  "method": "Compare decoded full RGBA buffers at original native 3x, without resizing, alignment or normalization. Day variants use accepted runtime-render evidence; Night keyframe color checks are in the new native test summary.",
+  "matchedRenders": 15,
+  "identicalRenders": 15,
+  "renders": [
+    {
+      "componentID": "37840:45833",
+      "variantID": "37840:45834",
+      "previous": "Documentation/References/Skeleton/ios-37840-45834-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/6D3B4D7C-475E-46A4-8E22-8CFC6C2F4268.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45833",
+      "variantID": "37840:45835",
+      "previous": "Documentation/References/Skeleton/ios-37840-45835-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/DB155627-01C9-423A-B5CB-EA3EB2582FF0.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45837",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45837-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/FBBBA077-A8D5-40F5-A4A3-9044C54C17FC.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45839",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45839-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/0DB3284B-A992-4464-B936-A61C78CD6224.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45843",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45843-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/720CC344-6E4A-45C3-ABEB-AC45802F1D1D.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45849",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45849-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/51335859-D117-4C27-8DFA-E271B7597999.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45853",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45853-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/E7A64533-6AEF-477F-8374-FDC898EBE877.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45857",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45857-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/9953212F-9981-4D4B-A9B0-042A5E8D8408.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45861",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45861-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/3B60E939-E034-49BD-BD48-453BD264C065.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45865",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45865-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/DBF1AA16-DBE9-4DD6-8D58-B287D4B1F911.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45869",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45869-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/D51A4FD8-BED3-4EFD-9252-5BFCF94A95AC.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45873",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45873-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/58379AF6-B54A-4B35-9AD5-225F36758186.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45877",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45877-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/C9F81FBD-6565-4374-BA56-FCE7603FF03D.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45881",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45881-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/11F5D39C-B566-4900-928B-3E7D784FD957.png",
+      "pixelsIdentical": true
+    },
+    {
+      "componentID": "37840:45836",
+      "variantID": "37840:45883",
+      "previous": "Documentation/References/SkeletonText/ios-37840-45883-day-motion-2026-10-05-3x.png",
+      "current": "Documentation/Validation/2026-10-08/FoundationShadow/Native/19663CA0-7FA4-4941-BBD5-7B6324DEB95B.png",
+      "pixelsIdentical": true
+    }
+  ]
+}

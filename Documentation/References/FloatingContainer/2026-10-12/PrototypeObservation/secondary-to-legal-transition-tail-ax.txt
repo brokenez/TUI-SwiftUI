@@ -1,0 +1,526 @@
+Window: "[ARCHIVE] Animation Examples", App: Figma.
+0 стандартное окно [ARCHIVE] Animation Examples, Secondary Actions: Raise
+	1 container [ARCHIVE] Animation Examples
+		2 container
+			3 HTML-содержание Figma, URL: file:///Applications/Figma.app/Contents/Resources/app.asar/shell.html
+				4 container
+					5 группа вкладок Tab bar
+						6 container
+							7 tab (settable, integer) Description: Home, Value: 0
+							8 tab (settable, integer) Description: Зарплатный клуб, Value: 0
+							9 tab (settable, integer) Description: MBAC-4760 – Кредитный брокер, Value: 0
+							10 tab (settable, integer) Description: 🚗 Сфера Авто, Value: 0
+							11 tab (settable, integer) Description: Помощь на дороге, Value: 0
+							12 tab (settable, integer) Description: 🔥 Сферы на главной, Value: 0
+							13 tab (settable, integer) Description: TUI Mobile, Value: 0
+							14 tab (settable, integer) Description: 3D / Мобильный банк, Value: 0
+							15 tab (settable, integer) Description: Продуктовая 2.0, Value: 0
+							16 tab (settable, integer) Description: Гайд по вебвью, Value: 0
+							17 tab (settable, integer) Description: Дебетовый счет / МБ, Value: 0
+							18 tab (settable, integer) Description: TUI Нelpers, Value: 0
+							19 tab (settable, integer) Description: TUI Foundations, Value: 0
+							20 tab (settable, integer) Description: Квесты WebView + PWA, Value: 0
+							21 tab (settable, integer) Description: Origination. Demo/Guides [Web], Value: 0
+							22 tab (settable, integer) Description: tui-checkbox,tui-switch,tui-radio, Value: 0
+							23 tab (settable, integer) Description: tui-card-medium, Value: 0
+							24 tab (settable, integer) Description: tui-card-large, Value: 0
+							25 tab (settable, integer) Description: Главный экран PFM, Value: 0
+							26 tab (settable, integer) Description: [TUI-1966] tui-pdf-viewer, Value: 0
+							27 tab (settable, integer) Description: tui-button, Value: 0
+							28 tab (settable, integer) Description: tui-sensitive, Value: 0
+							29 tab (settable, integer) Description: tui-input, tui-textfield, tui-select, tui-combobox, tui-textarea, Value: 0
+							30 tab (settable, integer) Description: tui-floating-container, Value: 0
+							31 tab (settable, integer) Description: [ARCHIVE] Animation Examples - Floating-container, Value: 0
+							32 tab (selected) Description: [ARCHIVE] Animation Examples, Value: 1
+								33 кнопка Close tab
+							34 кнопка New file
+						35 всплывающая кнопка Open and recently closed tabs
+			36 HTML-содержание [ARCHIVE] Animation Examples – Figma, URL: figma.com/design/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?node-id=3438-381&m=dev
+				37 container
+					38 container
+						39 container
+						40 container Figma Design, 1 item selected
+						41 текст Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .
+						42 container Comments on canvas
+							43 кнопка Create new comment
+						44 container Left sidebar
+							45 панель инструментов Navigation Bar
+								46 всплывающая кнопка Main menu
+									47 изображение
+								48 кнопка File
+									49 изображение
+								50 кнопка Variables
+									51 изображение
+								52 всплывающая кнопка Review library updates
+							53 container
+								54 кнопка [ARCHIVE] Animation Examples, file name
+								55 текст File name
+								56 всплывающая кнопка Edit file menu
+								57 кнопка Minimize UI
+								58 link Description: [ TUI ] Archive, Value: figma.com/files/team/1171424596214635332/project/87851892
+								59 container
+									60 заголовок Pages Find, Value: 2
+										61 кнопка Pages
+										62 кнопка Find
+									63 container
+										64 container
+											65 таблица
+												66 row Tokens
+													67 ячейка
+														68 кнопка Tokens
+												69 row Page divider
+													70 ячейка
+														71 кнопка Page divider
+												72 row Skeleton
+													73 ячейка
+														74 кнопка Skeleton
+												75 row Notification-middle
+													76 ячейка
+														77 кнопка Notification-middle
+												78 row Navigation
+													79 ячейка
+														80 кнопка Navigation
+												81 row Text
+													82 ячейка
+														83 кнопка Text
+												84 row Segmented
+													85 ячейка
+														86 кнопка Segmented
+												87 row Card
+													88 ячейка
+														89 кнопка Card
+												90 row Slider
+													91 ячейка
+														92 кнопка Slider
+												93 row BottomSheet
+													94 ячейка
+														95 кнопка BottomSheet
+												96 row Tooltip
+													97 ячейка
+														98 кнопка Tooltip
+												99 row App Bar
+													100 ячейка
+														101 кнопка App Bar
+												102 row Button Group
+													103 ячейка
+														104 кнопка Button Group
+												105 row Notification push
+													106 ячейка
+														107 кнопка Notification push
+												108 row Smartfields
+													109 ячейка
+														110 кнопка Smartfields
+												111 row Progressbar
+													112 ячейка
+														113 кнопка Progressbar
+												114 row Counter
+													115 ячейка
+														116 кнопка Counter
+												117 row Skeleton
+													118 ячейка
+														119 кнопка Skeleton
+												120 row Onboarding-flow
+													121 ячейка
+														122 кнопка Onboarding-flow
+												123 row Chips
+													124 ячейка
+														125 кнопка Chips
+												126 row Floating-container
+													127 ячейка
+														128 кнопка Floating-container
+												129 row Page divider
+													130 ячейка
+														131 кнопка Page divider
+												132 row Components
+													133 ячейка
+														134 кнопка Components
+												135 row Thumbnail
+													136 ячейка
+														137 кнопка Thumbnail
+										138 ползунок Description: Resize handle, Value: 100, Details: 185 pixels, Secondary Actions: Increment, Decrement
+								139 кнопка Ready for development
+								140 container
+									141 container
+										142 изображение
+										143 текст Nothing marked as ready for development yet.
+								144 container
+									145 кнопка Layers
+										146 текст Layers
+									147 кнопка Frame Смена второстепенной кнопки на текст и наоборот
+										148 изображение Frame
+										149 текст Смена второстепенной кнопки на текст и наоборот
+									150 кнопка Instance tui-floating-container
+										151 изображение Instance
+										152 текст tui-floating-container
+								153 ползунок Description: Resize handle, Value: 245, Details: 245 pixels, Secondary Actions: Increment, Decrement
+						154 container Properties and plugins
+							155 container
+								156 container
+									157 всплывающая кнопка Multiplayer tools
+										158 изображение
+									159 container Prototype view
+										160 кнопка Present
+										161 всплывающая кнопка Prototype view
+									162 кнопка Share
+									163 группа вкладок
+										164 tab (selected) Inspect, Value: 1
+										165 tab (settable, integer) Plugins, Value: 0
+									166 всплывающая кнопка 100%, zoom and view options
+										167 текст 100%
+										168 изображение
+									169 container Inspect
+										170 container
+											171 container
+												172 кнопка Click to copy layer name: Смена второстепенной кнопки на текст и наоборот
+												173 кнопка Copy URL for selected layer
+												174 всплывающая кнопка More actions
+												175 изображение Frame
+												176 текст Frame
+											177 container
+												178 кнопка MCP
+													179 заголовок MCP, Value: 3
+														180 текст MCP
+												181 всплывающая кнопка Open help
+												182 всплывающая кнопка Open set up modal
+												183 кнопка Set up third-party agents for Figma MCP
+												184 text Selection details Session activity Sent  2 hours ago Estimated tokens 1.1k
+												185 кнопка Implement this design from Figma. @https://www.figma.com/design/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?node-id=3438-381&m=dev
+													186 текст Implement this design from Figma.
+													187 текст @https://www.figma.com/design/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?node-id=3438-381&m=dev
+												188 кнопка Copy example prompt
+											189 container
+												190 кнопка Layer properties
+													191 заголовок Layer properties, Value: 3
+														192 текст Layer properties
+												193 изображение Visual representation of element layout properties including padding, border box, and spacing
+												194 View
+													195 текст View
+													196 container
+														197 переключатель List, Value: 0
+														198 текст List
+													199 container
+														200 переключатель Code, Value: 1
+														201 текст Code
+												202 текст Language: SwiftUI
+												203 всплывающая кнопка Language: SwiftUI
+												204 container
+													205 заголовок VStack, Value: 3
+														206 текст VStack
+													207 кнопка Copy VStack, press shift to copy all code
+													208 container
+														209 container
+															210 container
+																211 text VStack ( alignment : . center ,  spacing : 0 ) { ... }
+															212 container
+																213 text . padding ( . horizontal , 0 )
+															214 container
+																215 text . padding ( . top , 641.99902 )
+															216 container
+																217 text . padding ( . bottom , 0 )
+															218 container
+																219 text . frame ( width : 375 ,  height : 812 ,  alignment : . bottom )
+															220 container
+																221 text . background (
+																222 кнопка .white
+																	223 текст .
+																	224 текст white
+																225 текст )
+															226 кнопка This color is not tied to a style or variable in the design
+																227 изображение
+												228 заголовок Modes, Value: 3
+													229 текст Modes
+												230 кнопка Copy Primitive: Auto (Mode 1)
+													231 container Primitive
+														232 текст Primitive
+													233 container Auto (Mode 1)
+														234 текст Auto (Mode 1)
+												235 кнопка Copy iOS version: Auto (iOS 18)
+													236 container iOS version
+														237 текст iOS version
+													238 container Auto (iOS 18)
+														239 текст Auto (iOS 18)
+												240 кнопка Copy Platform: Auto (iOS)
+													241 container Platform
+														242 текст Platform
+													243 container Auto (iOS)
+														244 текст Auto (iOS)
+												245 кнопка Copy tui-button [radius]: Auto (default)
+													246 container tui-button [radius]
+														247 текст tui-button [radius]
+													248 container Auto (default)
+														249 текст Auto (default)
+												250 кнопка Copy Theme: Auto (Day)
+													251 container Theme
+														252 текст Theme
+													253 container Auto (Day)
+														254 текст Auto (Day)
+												255 заголовок Colors, Value: 3
+													256 текст Colors
+												257 текст Color format
+												258 поле со списком (settable) Color format, Value: Hex
+													259 текст Hex
+													260 изображение
+												261 container
+													262 заголовок Background colors, Value: 3
+														263 текст Background colors
+													264 кнопка Copy Light - Background / elevation1
+														265 изображение
+														266 container Light - Background / elevation1
+															267 текст Light - Background / elevation1
+													268 кнопка-переключатель Description: Style details, Value: 0
+														269 изображение
+												270 container
+													271 заголовок Selection colors, Value: 3
+														272 текст Selection colors
+													273 кнопка Copy UIColor.tui.background.accentOpposite
+														274 container UIColor.tui.background.accentOpposite
+															275 текст UIColor.tui.background.accentOpposite
+													276 кнопка-переключатель Description: Variable details: UIColor.tui.background.accentOpposite, Value: 0
+														277 изображение
+													278 кнопка Copy UIColor.tui.text.primaryOnAccent1
+														279 container UIColor.tui.text.primaryOnAccent1
+															280 текст UIColor.tui.text.primaryOnAccent1
+													281 кнопка-переключатель Description: Variable details: UIColor.tui.text.primaryOnAccent1, Value: 0
+														282 изображение
+													283 кнопка Copy UIColor.tui.text.action
+														284 container UIColor.tui.text.action
+															285 текст UIColor.tui.text.action
+													286 кнопка-переключатель Description: Variable details: UIColor.tui.text.action, Value: 0
+														287 изображение
+													288 кнопка Copy UIColor.tui.background.accent1
+														289 container UIColor.tui.background.accent1
+															290 текст UIColor.tui.background.accent1
+													291 кнопка-переключатель Description: Variable details: UIColor.tui.background.accent1, Value: 0
+														292 изображение
+													293 кнопка 1 more
+											294 container
+												295 кнопка Motion
+													296 заголовок Motion, Value: 3
+														297 текст Motion
+												298 Motion display preference
+													299 текст Motion display preference
+													300 container
+														301 переключатель List, Value: 0
+														302 текст List
+													303 container
+														304 переключатель Code, Value: 1
+														305 текст Code
+												306 container
+													307 text Explore more on the timeline Use the timeline view to interact with animations and see a breakdown of transitions.
+												308 кнопка Dismiss
+												309 заголовок Transitions, Value: 3
+													310 текст Transitions
+												311 кнопка Смена второстепенной кнопки на текст и наоборот > Click > Смена второстепенной кнопки на текст и наоборот
+													312 изображение Frame
+													313 текст Смена второстепенной кнопки на текст и наоборот
+													314 текст Click
+													315 изображение Frame
+													316 текст Смена второстепенной кнопки на текст и наоборот
+												317 кнопка Copy
+												318 container Generated animation code
+													319 container
+														320 container
+															321 container (showing 28-128 of 128 items)
+																322 текст ]
+																323 container
+																	324 text } ,
+																325 текст {
+																326 container
+																	327 text "node" : "3438:380" ,
+																328 container
+																	329 text "timelineDurationMs" : 200 ,
+																330 container
+																	331 text "fields" : [
+																332 текст {
+																333 container
+																	334 text "field" : "dissolveProgress@-1:-1" ,
+																335 container
+																	336 text "keyframes" : [
+																337 текст {
+																338 container
+																	339 text "timeMs" : 0 ,
+																340 container
+																	341 text "value" : 0 ,
+																342 container
+																	343 text "easingToNext" : {
+																344 container
+																	345 text "bezierValues" : {
+																346 container
+																	347 text "p1x" : 0.20000000298023224 ,
+																348 container
+																	349 text "p1y" : 0 ,
+																350 container
+																	351 text "p2x" : 0.4000000059604645 ,
+																352 container
+																	353 text "p2y" : 0.8999999761581421
+																354 текст }
+																355 текст }
+																356 container
+																	357 text } ,
+																358 текст {
+																359 container
+																	360 text "timeMs" : 200 ,
+																361 container
+																	362 text "value" : 1
+																363 текст }
+																364 текст ]
+																365 container
+																	366 text } ,
+																367 текст {
+																368 container
+																	369 text "field" : "height@-1:-1" ,
+																370 container
+																	371 text "keyframes" : [
+																372 текст {
+																373 container
+																	374 text "timeMs" : 0 ,
+																375 container
+																	376 text "value" : 170.00100708007812 ,
+																377 container
+																	378 text "easingToNext" : {
+																379 container
+																	380 text "bezierValues" : {
+																381 container
+																	382 text "p1x" : 0.20000000298023224 ,
+																383 container
+																	384 text "p1y" : 0 ,
+																385 container
+																	386 text "p2x" : 0.4000000059604645 ,
+																387 container
+																	388 text "p2y" : 0.8999999761581421
+																389 текст }
+																390 текст }
+																391 container
+																	392 text } ,
+																393 текст {
+																394 container
+																	395 text "timeMs" : 200 ,
+																396 container
+																	397 text "value" : 154.00100708007812
+																398 текст }
+																399 текст ]
+																400 container
+																	401 text } ,
+																402 текст {
+																403 container
+																	404 text "field" : "motionTranslationY@-1:-1" ,
+																405 container
+																	406 text "keyframes" : [
+																407 текст {
+																408 container
+																	409 text "timeMs" : 0 ,
+																410 container
+																	411 text "value" : 657.9990234375 ,
+																412 container
+																	413 text "easingToNext" : {
+																414 container
+																	415 text "bezierValues" : {
+																416 container
+																	417 text "p1x" : 0.20000000298023224 ,
+																418 container
+																	419 text "p1y" : 0 ,
+																420 container
+																	421 text "p2x" : 0.4000000059604645 ,
+																422 container
+																	423 text "p2y" : 0.8999999761581421
+																424 текст }
+																425 текст }
+																426 container
+																	427 text } ,
+																428 текст {
+																429 container
+																	430 text "timeMs" : 200 ,
+																431 container
+																	432 text "value" : 673.9990234375
+																433 текст }
+																434 текст ]
+																435 текст }
+																436 текст ]
+																437 container
+																	438 text } ,
+																439 текст {
+																440 container
+																	441 text "node" : "I3438:380;44286:299558" ,
+																442 container
+																	443 text "timelineDurationMs" : 200 ,
+																444 container
+																	445 text "fields" : [
+																446 текст {
+																447 container
+																	448 text "field" : "height@-1:-1" ,
+																449 container
+																	450 text "keyframes" : [
+																451 текст {
+																452 container
+																	453 text "timeMs" : 0 ,
+																454 container
+																	455 text "value" : 136 ,
+																456 container
+																	457 text "easingToNext" : {
+																458 container
+																	459 text "bezierValues" : {
+																460 container
+																	461 text "p1x" : 0.20000000298023224 ,
+																462 container
+																	463 text "p1y" : 0 ,
+																464 container
+																	465 text "p2x" : 0.4000000059604645 ,
+																466 container
+																	467 text "p2y" : 0.8999999761581421
+																468 текст }
+																469 текст }
+																470 container
+																	471 text } ,
+																472 текст {
+																473 container
+																	474 text "timeMs" : 200 ,
+																475 container
+																	476 text "value" : 72
+																477 текст }
+																478 текст ]
+																479 текст }
+																480 текст ]
+																481 текст }
+																482 текст ]
+																483 текст }
+											484 container
+												485 кнопка Export
+												486 кнопка Add export settings
+								487 ползунок Description: Resize handle, Value: 100, Details: 320 pixels, Secondary Actions: Increment, Decrement
+					488 container Application toolbar
+						489 container
+							490 панель инструментов Editor
+								491 кнопка-переключатель Description: Move, Value: 1
+									492 изображение
+								493 кнопка-переключатель Description: Copy colors, Value: 0
+									494 изображение
+								495 кнопка-переключатель Description: Comment, Value: 0
+									496 изображение
+								497 Toolbelt Mode
+									498 текст Toolbelt Mode
+									499 переключатель Draw, Value: 0
+									500 переключатель Design, Value: 0
+									501 переключатель Motion, Value: 0
+									502 переключатель Dev Mode, Value: 1
+							503 панель инструментов Inspect
+								504 кнопка Previous frame
+									505 изображение
+								506 текст 9 / 17
+								507 кнопка Next frame
+									508 изображение
+					509 container Help/zoom toolbar
+						510 панель инструментов Help/zoom toolbar
+							511 всплывающая кнопка Help
+								512 изображение
+	513 кнопка закрытия
+	514 кнопка полноэкранного режима Help: эта кнопка позволяет также изменять масштаб окна, Secondary Actions: изменить масштаб окна
+	515 кнопка свертывания
+516 menu bar
+	517 Figma
+	518 File
+	519 Edit
+	520 View
+	521 Plugins
+	522 Widgets
+	523 Window
+	524 Help

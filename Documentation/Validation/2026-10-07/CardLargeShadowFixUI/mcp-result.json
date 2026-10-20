@@ -1,0 +1,36 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 53275,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T14-29-24-482Z_pid90401_c1a034dd.log",
+      "xcresultPath": "/private/tmp/tui-card-large-shadow-fix-ui-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T14-29-24-482Z_pid90401_6929b4aa.xctestproducts"
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "CardLargeUITests",
+        "test": "testChildActionsAndSingleCardActionStayIndependent",
+        "status": "passed",
+        "durationMs": 15305
+      }
+    ]
+  }
+}

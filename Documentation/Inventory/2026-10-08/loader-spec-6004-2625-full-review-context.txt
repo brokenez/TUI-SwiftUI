@@ -1,0 +1,174 @@
+const imgSize16X16 = "[TEMPORARY_ASSET_URL]";
+const imgSize12X12 = "[TEMPORARY_ASSET_URL]";
+const imgSize24X24 = "[TEMPORARY_ASSET_URL]";
+const imgSize32X32 = "[TEMPORARY_ASSET_URL]";
+const imgSize40X40 = "[TEMPORARY_ASSET_URL]";
+const imgSize16X17 = "[TEMPORARY_ASSET_URL]";
+const imgSize12X13 = "[TEMPORARY_ASSET_URL]";
+const imgSize24X25 = "[TEMPORARY_ASSET_URL]";
+const imgSize32X33 = "[TEMPORARY_ASSET_URL]";
+const imgSize40X41 = "[TEMPORARY_ASSET_URL]";
+
+type TuiLoaderProps = {
+  className?: string;
+  size?: "12x12" | "16x16" | "24x24" | "32x32" | "40x40";
+};
+
+function TuiLoader({ className, size = "12x12" }: TuiLoaderProps) {
+  const is12X12 = size === "12x12";
+  const is24X24 = size === "24x24";
+  const is32X32 = size === "32x32";
+  const is40X40 = size === "40x40";
+  return (
+    <div className={className || `relative ${is40X40 ? "size-[40px]" : is32X32 ? "size-[32px]" : is24X24 ? "size-[24px]" : is12X12 ? "size-[12px]" : "size-[16px]"}`} id={is40X40 ? "node-6258_675" : is32X32 ? "node-6258_674" : is24X24 ? "node-6258_673" : is12X12 ? "node-6258_672" : "node-6258_671"}>
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={is40X40 ? imgSize40X40 : is32X32 ? imgSize32X32 : is24X24 ? imgSize24X24 : is12X12 ? imgSize12X12 : imgSize16X16} />
+    </div>
+  );
+}
+
+type TuiLoader1Props = {
+  className?: string;
+  size?: "12x12" | "16x16" | "24x24" | "32x32" | "40x40";
+};
+
+function TuiLoader1({ className, size = "12x12" }: TuiLoader1Props) {
+  const is12X12 = size === "12x12";
+  const is24X24 = size === "24x24";
+  const is32X32 = size === "32x32";
+  const is40X40 = size === "40x40";
+  return (
+    <div className={className || `relative ${is40X40 ? "size-[40px]" : is32X32 ? "size-[32px]" : is24X24 ? "size-[24px]" : is12X12 ? "size-[12px]" : "size-[16px]"}`} id={is40X40 ? "node-7164_1674" : is32X32 ? "node-7164_1673" : is24X24 ? "node-7164_1672" : is12X12 ? "node-7164_1671" : "node-7164_1670"}>
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={is40X40 ? imgSize40X41 : is32X32 ? imgSize32X33 : is24X24 ? imgSize24X25 : is12X12 ? imgSize12X13 : imgSize16X17} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="6004:2625" data-name="Варианты">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="6004:2626" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I6004:2626;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I6004:2626;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Варианты
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[16px] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6005:1750" data-name="Table Header">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="6005:1751" data-name="Heading Column">
+          <div className="content-stretch flex items-start py-[16px] relative shrink-0 w-[240px]" data-node-id="6005:1752" data-name="Heading Column">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I6005:1752;6076:9589">
+              Size
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] h-[55px] items-start min-w-px p-[16px] relative" data-node-id="6005:1753" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="6005:1754">
+            12x12
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] h-[55px] items-start min-w-px p-[16px] relative" data-node-id="6005:1755" data-name="Column 2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="6005:1756">
+            16x16
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] h-[55px] items-start min-w-px py-[16px] relative" data-node-id="6005:1757" data-name="Column 3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="6005:1758">
+            24x24
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] h-[55px] items-start min-w-px py-[16px] relative" data-node-id="6005:1764" data-name="Column 5">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="6005:1765">
+            32x32
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] h-[55px] items-start min-w-px py-[16px] relative" data-node-id="6005:1759" data-name="Column 4">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="6005:1760">
+            40x40
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="6005:1761" data-name="Divider" />
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6004:3339" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] h-[100px] items-start relative shrink-0 w-full" data-node-id="6005:1707" data-name="Table Row Content">
+          <div className="content-stretch flex flex-col gap-[8px] items-start py-[var(--vertical-spacing,32px)] relative shrink-0 w-[240px]" data-node-id="6005:1708" data-name="Heading Row">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[24px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6005:1708;6076:9603">
+              Mobile
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative" data-node-id="6005:1709" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] items-start justify-between min-w-px relative" data-node-id="6005:1710" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1711" data-name="Row 1 / Cell 1">
+                <TuiLoader1 className="relative shrink-0 size-[12px]" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1713" data-name="Row 1 / Cell 5">
+                <TuiLoader1 className="relative shrink-0 size-[16px]" size="16x16" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1715" data-name="Row 1 / Cell 2">
+                <TuiLoader1 className="relative shrink-0 size-[24px]" size="24x24" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1717" data-name="Row 1 / Cell 3">
+                <TuiLoader1 className="relative shrink-0 size-[32px]" size="32x32" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1719" data-name="Row 1 / Cell 4">
+                <TuiLoader1 className="relative shrink-0 size-[40px]" size="40x40" />
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="6005:1721" data-name="Divider" />
+        </div>
+        <div className="content-stretch flex gap-[32px] h-[100px] items-start relative shrink-0 w-full" data-node-id="6004:3340" data-name="Table Row Content">
+          <div className="content-stretch flex flex-col gap-[8px] items-start py-[var(--vertical-spacing,32px)] relative shrink-0 w-[240px]" data-node-id="6004:3341" data-name="Heading Row">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[24px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6004:3341;6076:9603">
+              Desktop
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative" data-node-id="6004:3362" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] items-start justify-between min-w-px relative" data-node-id="6004:3363" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1684" data-name="Row 1 / Cell 1">
+                <TuiLoader className="relative shrink-0 size-[12px]" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1696" data-name="Row 1 / Cell 5">
+                <TuiLoader className="relative shrink-0 size-[16px]" size="16x16" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1687" data-name="Row 1 / Cell 2">
+                <TuiLoader className="relative shrink-0 size-[24px]" size="24x24" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1693" data-name="Row 1 / Cell 3">
+                <TuiLoader className="relative shrink-0 size-[32px]" size="32x32" />
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col h-[76px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="6005:1690" data-name="Row 1 / Cell 4">
+                <TuiLoader className="relative shrink-0 size-[40px]" size="40x40" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-loader
+**Node ID:** 7164:1669
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+## tui-loader
+**Node ID:** 6258:670
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

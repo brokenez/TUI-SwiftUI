@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "componentSets": [
+    "41637:306903",
+    "30258:432933"
+  ],
+  "scope": "Compile and integration only; visual, interaction, accessibility and motion acceptance remain separate.",
+  "swiftPackage": {
+    "result": "passed",
+    "tests": 47,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "Documentation/Validation/2026-10-05/swift-tests-close-pressed-summary.json"
+  },
+  "catalog": {
+    "result": "passed",
+    "exitCode": 0,
+    "project": "TUIDesignSystemCatalog.xcodeproj",
+    "scheme": "TUIDesignSystemCatalog",
+    "destination": "generic/platform=iOS Simulator",
+    "installedDevice": "iPhone 17 / iOS 26.4"
+  },
+  "inputHashes": {
+    "Sources/TUIDesignSystem/Components/Cell/TUICellCheckicon.swift": "423ae956f23065a25bc1efdf9f9e9d89b4eccdb87fcc0ac18843d4d234f7fe4f",
+    "Sources/TUIDesignSystem/Components/ButtonClose/TUIButtonClose.swift": "3a6792f4ee46b00cd5dd0ed932a92e73b5c132eb9afa1ec4f09a30e81ea2e681",
+    "Tests/TUIDesignSystemTests/TUIDesignSystemTests.swift": "33ac2b28f3e5c0d49b2fc04300babc66adbcbd033b46d1197cf6a74fa49d92ef",
+    "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift": "83456c5bafdb8106f9589529ff296cdf4fc9aee4a92b0591b750a682119f0f66",
+    "Sources/TUIDesignSystem/Foundation/TUILibraryCatalog.swift": "bb49916bfffc1561fdd048cd985da0448d5e885d5879b415f655bb134f5ce1d9",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-component-variants.json": "41d1b91fc5df5854b95f728d7f6bb21eda51a903243afa48ce0ad540373a8c11",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json": "bc3140e4761494f35fdbc7f00174c8b55e05e55a4d2547878c73052b6c52b11a"
+  }
+}

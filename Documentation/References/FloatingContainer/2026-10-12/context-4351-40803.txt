@@ -1,0 +1,466 @@
+import { imgCont, imgColor, imgColor1, imgStart, imgShowSecondary } from "./svg-uk0yp";
+type SystemBottomBarProps = {
+  className?: string;
+  appearance?: "Dark Bg" | "Opposite";
+  keyboard?: boolean;
+  system?: "Android" | "iOS";
+  type?: "Dragger" | "Buttons";
+};
+
+function SystemBottomBar({ className, appearance = "Dark Bg", keyboard = false, system = "Android", type = "Buttons" }: SystemBottomBarProps) {
+  const isDraggerAndOppositeAndAndroidAndFalse = type === "Dragger" && appearance === "Opposite" && system === "Android" && !keyboard;
+  const isDraggerAndOppositeAndIOsAndFalse = type === "Dragger" && appearance === "Opposite" && system === "iOS" && !keyboard;
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative ${isDraggerAndOppositeAndIOsAndFalse ? "w-[375px]" : isDraggerAndOppositeAndAndroidAndFalse ? "" : String.raw`bg-[var(--background\/base,white)]`}`} id={isDraggerAndOppositeAndIOsAndFalse ? "node-4310_21788" : isDraggerAndOppositeAndAndroidAndFalse ? "node-4310_21772" : "node-4310_21762"}>
+      {!keyboard && ((type === "Buttons" && appearance === "Dark Bg" && system === "Android") || (type === "Dragger" && appearance === "Opposite" && system === "iOS")) && (
+        <div className={`relative shrink-0 ${isDraggerAndOppositeAndIOsAndFalse ? "h-[34px] w-full" : "h-[42px] w-[360px]"}`} id={isDraggerAndOppositeAndIOsAndFalse ? "node-4310_21927" : "node-4310_21792"} data-name="cont">
+          {type === "Buttons" && appearance === "Dark Bg" && system === "Android" && !keyboard && <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCont} />}
+          {isDraggerAndOppositeAndIOsAndFalse && <div className="-translate-x-1/2 absolute bg-[var(--background\/accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="4310:21928" data-name="bar" />}
+        </div>
+      )}
+      {isDraggerAndOppositeAndAndroidAndFalse && (
+        <div className="h-[14px] opacity-32 relative shrink-0 w-[360px]" data-node-id="4310:21838" data-name="Union">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[34px] left-1/2 top-[calc(50%-10px)] w-[360px]" data-node-id="I4310:21838;24701:578204" data-name="Union" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[2px] left-1/2 rounded-[32px] top-[calc(50%+2px)] w-[64px]" data-node-id="I4310:21838;24701:578205" data-name="Union" />
+        </div>
+      )}
+    </div>
+  );
+}
+type TuiFloatingContainerProps = {
+  className?: string;
+  background?: "off" | "base";
+  content?: "action" | "two-actions";
+  showFade?: boolean;
+  showHomeIndicator?: boolean;
+  system?: "iOS";
+};
+
+function TuiFloatingContainer({ className, background = "base", content = "two-actions", showFade = false, showHomeIndicator = true, system = "iOS" }: TuiFloatingContainerProps) {
+  const isActionAndOff = content === "action" && background === "off";
+  const isTwoActionsAndBase = content === "two-actions" && background === "base";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative w-[375px] ${isActionAndOff ? "overflow-clip" : ""}`} id={isActionAndOff ? "node-4310_21941" : "node-4310_21933"}>
+      {isTwoActionsAndBase && (
+        <>
+          <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="4310:21945" data-name="fade">
+            <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="4310:21946" data-name="container">
+              <div className="absolute bg-[var(--background\/base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="4310:21948" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[8px] items-start pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="4310:21949" data-name="Buttons cont">
+            <div className="bg-[var(--background\/accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--radius-large,16px)] shrink-0 w-full" data-node-id="4310:21950" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4310:21950;41658:296910" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--text\/primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4310:21950;41658:296911">
+                  Main action
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--radius-large,16px)] shrink-0 w-full" data-node-id="4310:21951" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4310:21951;42596:297181" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--text\/action,#428bf9)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4310:21951;42596:297182">
+                  Secondary action
+                </p>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+      {isTwoActionsAndBase && showHomeIndicator && <SystemBottomBar appearance="Opposite" className="content-stretch flex flex-col items-start relative shrink-0 w-full" system="iOS" type="Dragger" />}
+      {isActionAndOff && showFade && (
+        <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="4310:22021" data-name="fade">
+          <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="4310:22022" data-name="container">
+            <div className="absolute bg-[var(--background\/base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="4310:22024" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+        </div>
+      )}
+      {isActionAndOff && (
+        <div className="content-stretch flex flex-col items-start pb-[24px] px-[16px] relative shrink-0 w-full" data-node-id="4310:22025" data-name="Buttons cont">
+          <div className="bg-[var(--background\/accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--radius-large,16px)] shrink-0 w-full" data-node-id="4310:22026" data-name="tui-button">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4310:22026;41658:296910" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--text\/primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4310:22026;41658:296911">
+                Main action
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+      {isActionAndOff && showHomeIndicator && <SystemBottomBar appearance="Opposite" className="content-stretch flex flex-col items-start relative shrink-0 w-full" system="iOS" type="Dragger" />}
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="4351:40803" data-name="Поведение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="4351:40804" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I4351:40804;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I4351:40804;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I4351:40804;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I4351:40804;9462:7160">
+            При скролле компонент прикреплен к низу экрана. Может отображаться всегда или появляться с анимацией по триггеру или якорю
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="4351:40805" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40805;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)] whitespace-nowrap" data-node-id="I4351:40805;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Появление и скрытие
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I4351:40805;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40805;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40805;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40805;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40805;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40805;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40805;2128:283;6917:52782">
+                  show-primary-button
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I4351:40805;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[0px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I4351:40805;9462:7170">
+            <span className="leading-[24px] text-[15px]">{`Блок поднимается снизу и опускается обратно. `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] text-[15px] underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3445-1212&t=fRQCLtIBMsyXVxhC-0&scaling=min-zoom&starting-point-node-id=3445%3A1212&show-proto-sidebar=1" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3445-1212&t=fRQCLtIBMsyXVxhC-0&scaling=min-zoom&starting-point-node-id=3445%3A1212&show-proto-sidebar=1" target="_blank">
+                Прототип
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4351:40806" data-name="Code 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40806;2099:310" data-name="code-1">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40806;2099:281" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40806;2099:282">
+              <p className="leading-[28px] mb-0">curve: expressive-entrance</p>
+              <p>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">duration</span>
+                <span className="leading-[28px]">: duration-slow (500 ms)</span>
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40806;2099:309">
+            Появление
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40806;2099:311" data-name="code-2">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40806;2099:313" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40806;2099:314">
+              <p className="leading-[28px] mb-0">curve: productive-exit</p>
+              <p className="leading-[28px]">duration: (200 ms)</p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40806;2099:312">
+            Скрытие
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="4351:40807" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40807;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)] whitespace-nowrap" data-node-id="I4351:40807;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Анимация смены кнопки
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I4351:40807;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40807;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40807;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40807;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40807;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40807;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40807;2128:283;6917:52782">
+                  change-primary-button
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I4351:40807;9462:7169" data-name="Paragraph">
+          <a className="[word-break:break-word] block font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[#126df7] text-[15px] w-full" href="https://www.figma.com/proto/jvYMs0sCSCZCHEFrRcL4vW/%5BTUI-467%5D-tui-floating-container?page-id=26%3A2239&type=design&node-id=63-3657&t=Zwb4G9E2wAhPMImw-0&scaling=min-zoom&starting-point-node-id=63%3A3657&show-proto-sidebar=1" data-node-id="I4351:40807;9462:7170" target="_blank">
+            <p className="cursor-pointer">
+              <span className="leading-[24px] text-[rgba(0,0,0,0.8)]">{`Кнопки меняются друг на друга через фейд. `}</span>
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid leading-[24px] underline" role="link" tabIndex="0">
+                Прототип
+              </span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4351:40808" data-name="Code 1x1">
+        <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start relative shrink-0 w-full" data-node-id="I4351:40808;5139:596" data-name="code-1">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40808;5139:570" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40808;9460:7126">
+              <p className="leading-[28px] mb-0">curve: productive-exit</p>
+              <p>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">duration</span>
+                <span className="leading-[28px]">: duration-fastest (75 ms)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="4351:40809" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40809;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)] whitespace-nowrap" data-node-id="I4351:40809;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Анимация разных элементов
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I4351:40809;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40809;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40809;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40809;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40809;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40809;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40809;2128:283;6917:52782">
+                  change-element
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I4351:40809;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[0px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I4351:40809;9462:7170">
+            <span className="leading-[24px] text-[15px]">{`Если форма разная, текущий элемент уезжает вниз и снизу приезжает другой. `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] text-[15px] underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3351-4506&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3351%3A4506&show-proto-sidebar=1" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3351-4506&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3351%3A4506&show-proto-sidebar=1" target="_blank">
+                Прототип
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4351:40810" data-name="Code 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40810;2099:310" data-name="code-1">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40810;2099:281" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40810;2099:282">
+              <p className="leading-[28px] mb-0">curve: productive-exit</p>
+              <p className="leading-[28px]">duration: (200 ms)</p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40810;2099:309">
+            Скрытие
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40810;2099:311" data-name="code-2">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40810;2099:313" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40810;2099:314">
+              <p className="leading-[28px] mb-0">curve: expressive-entrance</p>
+              <p className="leading-[28px]">duration: duration-slow (500 ms)</p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40810;2099:312">
+            Появление
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="4351:40811" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40811;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)] whitespace-nowrap" data-node-id="I4351:40811;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Анимация второй кнопки и текста
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I4351:40811;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40811;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40811;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40811;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40811;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40811;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40811;2128:283;6917:52782">
+                  swap-button,text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I4351:40811;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I4351:40811;9462:7170">
+            <span className="leading-[24px]">{`Меняются через фейд. `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3438-381&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3438%3A381&show-proto-sidebar=1" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/Mobile.-Animation-Examples?page-id=3351%3A2207&type=design&node-id=3438-381&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3438%3A381&show-proto-sidebar=1" target="_blank">
+                Прототип
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4351:40812" data-name="Code 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40812;2099:310" data-name="code-1">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40812;2099:281" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40812;2099:282">
+              <p className="leading-[28px] mb-0">curve: productive-standard</p>
+              <p>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">duration</span>
+                <span className="leading-[28px]">:</span>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">{` `}</span>
+                <span className="leading-[28px]">(200 ms)</span>
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40812;2099:309">
+            Появление
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40812;2099:311" data-name="code-2">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40812;2099:313" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40812;2099:314">
+              <p className="leading-[28px] mb-0">curve: productive-standard</p>
+              <p>
+                <span className="leading-[28px]">{`duration: `}</span>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">{`duration-moderate `}</span>
+                <span className="leading-[28px]">(3</span>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">00 ms)</span>
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40812;2099:312">
+            Скрытие
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="4351:40813" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40813;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)] whitespace-nowrap" data-node-id="I4351:40813;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Анимация второстепенных элементов
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I4351:40813;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40813;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40813;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40813;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40813;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40813;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40813;2128:283;6917:52782">
+                  show-button,text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I4351:40813;9462:7169" data-name="Paragraph">
+          <a className="[word-break:break-word] block font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[#126df7] text-[15px] w-full" href="https://www.figma.com/proto/jvYMs0sCSCZCHEFrRcL4vW/%5BTUI-467%5D-tui-floating-container?page-id=26%3A2239&type=design&node-id=63-2454&t=Zwb4G9E2wAhPMImw-0&scaling=min-zoom&starting-point-node-id=63%3A2454&show-proto-sidebar=1" data-node-id="I4351:40813;9462:7170" target="_blank">
+            <p className="cursor-pointer">
+              <span className="leading-[24px] text-[rgba(0,0,0,0.8)]">{`Кнопки или текст появляются снизу экрана. Если в стартовом состоянии не было подложки, а в конечном она есть, подложка появляется с теми же параметрами анимации. `}</span>
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid leading-[24px] underline" role="link" tabIndex="0">
+                Прототип
+              </span>
+              <span className="leading-[24px]">{` `}</span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="4351:40814" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I4351:40814;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40814;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40814;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I4351:40814;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I4351:40814;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I4351:40814;9469:7126;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgShowSecondary} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I4351:40814;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4351:40815" data-name="Code 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40815;2099:310" data-name="code-1">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40815;2099:281" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40815;2099:282">
+              <p className="leading-[28px] mb-0">curve: expressive-entrance</p>
+              <p>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">duration</span>
+                <span className="leading-[28px]">{`: `}</span>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">{`duration-slow `}</span>
+                <span className="leading-[28px]">(500 ms)</span>
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40815;2099:309">
+            Появление
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40815;2099:311" data-name="code-2">
+          <div className="bg-[var(--UIColor.tui.background.neutral1Opaque,#f6f7f8)] content-stretch flex flex-col items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="I4351:40815;2099:313" data-name="code">
+            <div className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[0] lowercase relative shrink-0 text-[#333] text-[15px] w-full" data-node-id="I4351:40815;2099:314">
+              <p className="leading-[28px] mb-0">curve: productive-exit</p>
+              <p>
+                <span className="leading-[28px]">duration: (</span>
+                <span className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[28px]">200 ms)</span>
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40815;2099:312">
+            Скрытие
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10), Day/Text/primary: #333333, Day/Text/action: #126DF7, iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-badge
+**Node ID:** 7524:5521
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 23:2541
+
+save, mark, favorite, remember
+
+## tui-floating-container
+**Node ID:** 4310:21932
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## tui-button
+**Node ID:** 4310:14986
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS, Keyboard=off
+**Node ID:** 4310:21788
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 4310:21761
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40803/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

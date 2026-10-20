@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "3ADC47A2-18FA-4D14-91CA-B90740E66D21",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "DBDECB18-4876-47DB-84A9-5858491A9717.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-faded-label-visible-suffix-3x_0_587F33C9-BDB4-440D-86A1-8B317250ABC1.png",
+        "timestamp" : 1791282155.08
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "3ADC47A2-18FA-4D14-91CA-B90740E66D21",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "A90A0465-D496-4695-8D2E-19A0E395E1A3.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-short-label-suffix-3x_0_A9FDABA6-F4CA-4618-97B7-2E8F9FF203C9.png",
+        "timestamp" : 1791282155.073
+      }
+    ],
+    "testIdentifier" : "HeaderLargeTests/testSuffixHugsShortLabelAndRemainsVisibleAfterSingleLineFade()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystem/TUIDesignSystemTests/HeaderLargeTests/testSuffixHugsShortLabelAndRemainsVisibleAfterSingleLineFade"
+  }
+]

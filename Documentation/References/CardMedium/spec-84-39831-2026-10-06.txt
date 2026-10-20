@@ -1,0 +1,214 @@
+const imgVector832 = "https://www.figma.com/api/mcp/asset/34948550-32c6-4c52-bc74-4feb98d892bf.svg";
+const imgVector833 = "https://www.figma.com/api/mcp/asset/5a7cdea0-ce0f-43fa-b267-6185c149b84c.svg";
+const imgRectangle2259 = "https://www.figma.com/api/mcp/asset/e1b0c4d9-e0eb-458a-8590-8dfd0fb7ef56.svg";
+const imgVector829 = "https://www.figma.com/api/mcp/asset/f2702ae8-29cc-4031-bd89-627abe55289f.svg";
+const imgFrame1948755171 = "https://www.figma.com/api/mcp/asset/3321afee-0c14-42d7-93ed-92c93264a8fa.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/7b90f473-613e-447d-b64a-835693a64e62.svg";
+const imgVector834 = "https://www.figma.com/api/mcp/asset/268cd45e-0892-4ee5-84dc-070aef96c198.svg";
+
+function CardFooter({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="80:37655" data-name="card-footer">
+      <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="80:37656" data-name="footer-container" />
+    </div>
+  );
+}
+
+type CardHeaderProps = {
+  className?: string;
+  content?: "off";
+};
+
+function CardHeader({ className, content = "off" }: CardHeaderProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col h-[32px] items-start overflow-clip relative w-[934px]"} data-node-id="80:37653">
+      <div className="bg-[#f6f7f8] h-[120px] relative rounded-tl-[24px] rounded-tr-[24px] shrink-0 w-full" data-node-id="80:37654" data-name="card-container" />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="84:39831" data-name="Поведение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="84:39832" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I84:39832;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I84:39832;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I84:39832;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[0px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I84:39832;9462:7160">
+            <span className="leading-[28px] text-[17px]">{`При взаимодействии используются установки из `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[28px] text-[17px] underline" href="https://www.figma.com/file/lXi9cwi2lbl32pQKML2X5A/tui-surface?type=design&node-id=9-8937&mode=design&t=6tsMGni2w0BO03ne-11" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/file/lXi9cwi2lbl32pQKML2X5A/tui-surface?type=design&node-id=9-8937&mode=design&t=6tsMGni2w0BO03ne-11" target="_blank">
+                tui-surface
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="84:39833" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I84:39833;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I84:39833;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Mobile
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I84:39833;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full whitespace-pre-wrap" data-node-id="I84:39833;9462:7170">
+            {`На айосе при нажатии скейлим в меньшую сторону вместе с контентом. `}
+            <br aria-hidden />
+            Остальные элементы снаружи при этом не должны сдвигаться
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="84:39834" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="84:39835" data-name="Container">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="84:39836" data-name="Card Header">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I84:39836;9510:6914" data-name="card-container" />
+          </div>
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[294px] items-start px-[32px] relative shrink-0 w-full" data-node-id="84:39837" data-name="card-content">
+            <div className="h-[320px] relative shrink-0 w-full" data-node-id="84:39838" data-name="image">
+              <div className="absolute border border-[#333] border-dashed h-[100px] left-[32.53%] right-[55.98%] top-[83.5px]" data-node-id="84:39839" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[35.29%] not-italic right-[58.74%] text-[#333] text-[12px] top-[121.35px] whitespace-nowrap" data-node-id="84:39840">
+                scale=1
+              </p>
+              <div className="absolute h-0 left-[45.93%] right-[45.6%] top-[134.14px]" data-node-id="84:39841">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector832} />
+                </div>
+              </div>
+              <div className="absolute border border-[#333] border-dashed h-[95px] left-[56.6%] right-[32.48%] top-[86.24px]" data-node-id="84:39842" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[22.8px] left-[58.39%] not-italic right-[34.26%] text-[#333] text-[11.4px] top-[121.85px] whitespace-nowrap" data-node-id="84:39843">
+                scale=.95
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[38.97%] not-italic right-[38.85%] text-[#333] text-[12px] text-center top-[217px] whitespace-nowrap" data-node-id="84:39844">
+                duration: 100ms
+                <br aria-hidden />
+                curve: productive-standard
+              </p>
+              <div className="absolute h-0 left-[32.53%] right-[32.48%] top-[84px]" data-node-id="84:39845">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector833} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[32.53%] right-[32.48%] top-[183px]" data-node-id="84:39846">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector833} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Tinkoff_Sans:Medium'] leading-[28px] left-[357px] not-italic text-[24px] text-[rgba(0,0,0,0.8)] top-[35px] whitespace-nowrap" data-node-id="84:39847" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Scale decrease
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="84:39848" data-name=".card-footer">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I84:39848;9499:6876" data-name="footer-container" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="84:39849" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-full not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-[min-content]" data-node-id="I84:39849;9459:12596">
+          На андроиде используется нативный ripple-эффект. Все тайминги и внешний вид — системные
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="84:39850" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="84:39851" data-name="Container">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="84:39852" data-name="Card Header">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I84:39852;9510:6914" data-name="card-container" />
+          </div>
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[295px] items-start px-[32px] relative shrink-0 w-full" data-node-id="84:39853" data-name="card-content">
+            <div className="h-[320px] relative shrink-0 w-full" data-node-id="84:39854" data-name="image">
+              <div className="absolute h-[100px] left-[32.53%] right-[55.98%] top-[70.24px]" data-node-id="84:39855">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle2259} />
+              </div>
+              <div className="absolute h-0 left-[45.75%] right-[45.75%] top-[121px]" data-node-id="84:39856">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector829} />
+                </div>
+              </div>
+              <div className="absolute left-[484px] size-[100.489px] top-[70px]" data-node-id="84:39857">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1948755171} />
+              </div>
+              <div className="absolute h-[40px] left-[64.94%] right-[30.46%] top-[144.09px]" data-node-id="84:39860">
+                <div className="absolute inset-[-37.5%_-50%_-62.5%_-50%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[41.84%] not-italic right-[41.95%] text-[#333] text-[12px] text-center top-[204px] whitespace-nowrap" data-node-id="84:39861">
+                duration: as system
+                <br aria-hidden />
+                curve: as system
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="84:39862" data-name=".card-footer">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I84:39862;9499:6876" data-name="footer-container" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="84:39863" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I84:39863;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I84:39863;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Desktop
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I84:39863;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I84:39863;9462:7170">
+            При наведении увеличиваем контейнер вместе с контентом. Остальные элементы снаружи при этом не должны сдвигаться
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="84:39864" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="84:39865" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="84:39867" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="84:39868" data-name="image">
+              <div className="absolute border border-[#333] border-dashed h-[100px] left-[32.99%] right-[55.52%] top-[119.5px]" data-node-id="84:39869" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[35.75%] not-italic right-[58.28%] text-[#333] text-[12px] top-[157.35px] whitespace-nowrap" data-node-id="84:39870">
+                scale=1
+              </p>
+              <p className="[word-break:break-word] absolute font-['Tinkoff_Sans:Medium'] leading-[28px] left-[41.72%] not-italic right-[41.03%] text-[24px] text-[rgba(0,0,0,0.8)] top-[64px] whitespace-nowrap" data-node-id="84:39871" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Scale increase
+              </p>
+              <div className="absolute h-0 left-[46.39%] right-[45.15%] top-[170.14px]" data-node-id="84:39872">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector832} />
+                </div>
+              </div>
+              <div className="absolute border border-[#333] border-dashed h-[115px] left-[56.67%] right-[30.11%] top-[112px]" data-node-id="84:39873" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[22.8px] left-[59.54%] not-italic right-[32.3%] text-[#333] text-[11.4px] top-[157.85px] whitespace-nowrap" data-node-id="84:39874">
+                scale=1.15
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[40.69%] not-italic right-[37.93%] text-[#333] text-[12px] text-center top-[254px] whitespace-nowrap" data-node-id="84:39875">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+              <div className="absolute h-0 left-[32.99%] right-[30.11%] top-[117px]" data-node-id="84:39876">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector834} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[32.99%] right-[30.11%] top-[222px]" data-node-id="84:39877">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector834} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Text/text-01: #000000, Desktop/Body L: Font(family: "Neue Haas Unica W1G", style: Regular, size: 17, weight: 400, lineHeight: 28, letterSpacing: 0), Day/Background/base-alt: #F6F7F8, Light/Text/primary: #333333, Desktop/Heading 5: Font(family: "Tinkoff Sans", style: Medium, size: 24, weight: 500, lineHeight: 28, letterSpacing: 0), Light/Background/highlight: #000000, _Local/Divider: #3C3C43, shadow-1: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0), Day/Base/base-02: #F6F7F8.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

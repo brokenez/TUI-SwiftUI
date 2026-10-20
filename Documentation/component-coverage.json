@@ -1,10 +1,27 @@
 {
+  "schemaVersion": 2,
+  "platformPolicy": {
+    "target": "iOS 26",
+    "historicalPlatforms": [
+      "iOS 18"
+    ],
+    "decision": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+  },
   "summary": {
-    "componentSets": 128,
-    "variants": 3927,
-    "iOSVariants": 2008,
-    "documentedComponents": 108,
-    "completeComponents": 2
+    "importedComponentSets": 128,
+    "excludedSystemComponents": 16,
+    "componentSets": 112,
+    "importedVariants": 3927,
+    "importedIOSVariants": 2008,
+    "variants": 3720,
+    "iOSVariants": 1892,
+    "documentedComponents": 97,
+    "completeComponents": 2,
+    "previouslyCompleteComponents": 33,
+    "implementedComponents": 53,
+    "variantMappedComponents": 15,
+    "iOS26Variants": 1860,
+    "historicalIOS18Variants": 32
   },
   "components": [
     {
@@ -12,9 +29,13 @@
       "name": " tui-avatar [subscription]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=20582-43392",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 15,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "content": [
           "icon",
@@ -47,7 +68,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -55,12 +85,16 @@
       "name": ".bullet",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53309-296335",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIBullet",
         "source": "Sources/TUIDesignSystem/Components/Bullet/TUIBullet.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 3,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Type": [
           "Bullet - Accent",
@@ -75,7 +109,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -83,9 +126,13 @@
       "name": "[pwa-webview] tui-dialog",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=27940-58934",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -108,17 +155,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "39867:46664",
       "name": "[pwa] tui-input-search",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39867-46664",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISearchInput",
+        "source": "Sources/TUIDesignSystem/Components/SearchInput/TUISearchInput.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 8,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "filled": [
           "off",
@@ -138,18 +201,34 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "45931:47324",
       "name": "payment-logo",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=45931-47324",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIPaymentLogo",
+        "source": "Sources/TUIDesignSystem/Components/PaymentLogo/TUIPaymentLogo.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 13,
       "iOSVariants": 13,
+      "iOS26Variants": 13,
+      "historicalVariants": [],
       "variantProperties": {
         "logo": [
           "maestro",
@@ -173,21 +252,51 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "9151:1662",
       "name": "system-action-sheet",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9151-1662",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "tuiSystemActionSheet",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      "status": "excluded",
+      "previousStatus": "in-progress",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-action-sheet",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 2,
       "iOSVariants": 2,
+      "iOS26Variants": 1,
+      "historicalVariants": [
+        {
+          "id": "1444:3120",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "System": [
           "iOS 18",
@@ -204,21 +313,63 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "24689:584469",
       "name": "system-alert",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24689-584469",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "tuiSystemAlert",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      "status": "excluded",
+      "previousStatus": "in-progress",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-alert",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 8,
       "iOSVariants": 6,
+      "iOS26Variants": 2,
+      "historicalVariants": [
+        {
+          "id": "24689:584550",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "24689:584606",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "24689:584634",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "24689:584690",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "System": [
           "Android",
@@ -250,18 +401,59 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "24708:577310",
       "name": "system-bottom-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24708-577310",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-bottom-bar",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 30,
       "iOSVariants": 6,
+      "iOS26Variants": 3,
+      "historicalVariants": [
+        {
+          "id": "55061:283707",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "5926:33072",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "5926:33081",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Appearance": [
           "Dark Bg",
@@ -298,17 +490,54 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "544:151464",
       "name": "system-browser-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=544-151464",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-browser-bar",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 4,
       "iOSVariants": 4,
+      "iOS26Variants": 2,
+      "historicalVariants": [
+        {
+          "id": "544:151345",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "544:151387",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Appearance": [
           "Normal",
@@ -327,17 +556,45 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "42221:48343",
       "name": "system-browser-chrome",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42221-48343",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "complete",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-browser-chrome",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 3,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Scrolled": [
           "No",
@@ -356,20 +613,45 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "10312:84",
       "name": "system-checkbox",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=10312-84",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "TUISystemCheckbox",
-        "source": "Sources/TUIDesignSystem/Components/SystemCheckbox/TUISystemCheckbox.swift"
+      "status": "excluded",
+      "previousStatus": "complete",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-checkbox",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "state": [
           "disabled",
@@ -392,21 +674,46 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "53362:296599",
       "name": "system-context-menu",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53362-296599",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "tuiSystemContextMenu",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      "status": "excluded",
+      "previousStatus": "complete",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-context-menu",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "Dark Mode": [
           "False",
@@ -426,18 +733,103 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "25165:592774",
       "name": "system-keyboard",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25165-592774",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-keyboard",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 35,
       "iOSVariants": 21,
+      "iOS26Variants": 7,
+      "historicalVariants": [
+        {
+          "id": "25165:593165",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25165:593209",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25165:593253",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25165:593346",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25167:592372",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25167:593680",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25187:591207",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "25200:591046",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310044",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310146",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310293",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310476",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310658",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "44290:310839",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Night mode": [
           "off",
@@ -473,17 +865,54 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "53444:299205",
       "name": "system-lockscreen",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53444-299205",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-lockscreen",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 5,
       "iOSVariants": 3,
+      "iOS26Variants": 1,
+      "historicalVariants": [
+        {
+          "id": "53444:299145",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53444:299206",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Mode": [
           "Day",
@@ -504,17 +933,62 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "53362:297214",
       "name": "system-push",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53362-297214",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-push",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 10,
       "iOSVariants": 6,
+      "iOS26Variants": 2,
+      "historicalVariants": [
+        {
+          "id": "53362:297229",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53362:297290",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53444:296210",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53444:296227",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Dark Mode": [
           "False",
@@ -548,20 +1022,45 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "28036:523553",
       "name": "system-radiobutton",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=28036-523553",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "TUISystemRadioButton",
-        "source": "Sources/TUIDesignSystem/Components/SystemRadioButton/TUISystemRadioButton.swift"
+      "status": "excluded",
+      "previousStatus": "complete",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-radiobutton",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 8,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "state": [
           "disabled",
@@ -583,21 +1082,46 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "91657:37703",
       "name": "system-searchfield",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=91657-37703",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "tuiSystemSearchField",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemSearchField.swift"
+      "status": "excluded",
+      "previousStatus": "in-progress",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-searchfield",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 8,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "filled": [
           "off",
@@ -620,18 +1144,46 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "24684:593518",
       "name": "system-segmented-control (tabs)",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=24684-593518",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-segmented-control (tabs)",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 44,
       "iOSVariants": 18,
+      "iOS26Variants": 18,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "1st",
@@ -666,20 +1218,45 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44720:304564",
       "name": "system-share-sheet",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44720-304564",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "TUISystemShareLink",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      "status": "excluded",
+      "previousStatus": "complete",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-share-sheet",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 2,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "Night Mode": [
           "off",
@@ -692,18 +1269,83 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "8930:26243",
       "name": "system-status-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=8930-26243",
-      "status": "catalogued",
+      "status": "excluded",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-status-bar",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
+      },
       "totalVariants": 22,
       "iOSVariants": 18,
+      "iOS26Variants": 9,
+      "historicalVariants": [
+        {
+          "id": "15023:367546",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53444:297644",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "53444:299074",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "57427:357104",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "8930:26244",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "8932:25850",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "90258:117375",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "90258:117385",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "90258:117396",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "Appearance": [
           "Dark Bg",
@@ -737,20 +1379,62 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "9940:39560",
       "name": "system-switch",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9940-39560",
-      "status": "in-progress",
-      "swiftAPI": {
-        "symbol": "TUISystemSwitch",
-        "source": "Sources/TUIDesignSystem/Components/SystemControls/TUISystemControls.swift"
+      "status": "excluded",
+      "previousStatus": "in-progress",
+      "swiftAPI": null,
+      "scopeExclusion": {
+        "classification": "apple-system-component",
+        "reviewedAt": "2026-10-09",
+        "reason": "Explicit user decision: exclude Apple system components from Figma transfer; continue custom TUI SwiftUI components. Source system-* sets retained as references; use native iOS 26 APIs in consumers.",
+        "sourceName": "system-switch",
+        "evidence": [
+          {
+            "path": "Documentation/system-components-scope-2026-10-09.md",
+            "sha256": "d17f3ca39515409d4c38b4510cc24a7fb392e8e0dd58b0d6500f305dabf1deca"
+          },
+          {
+            "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+            "sha256": "cabd404a7210d7f696fed4f143bdbb654e1ff79c3aa615182722d4c5d81fce0c"
+          }
+        ]
       },
       "totalVariants": 12,
       "iOSVariants": 8,
+      "iOS26Variants": 4,
+      "historicalVariants": [
+        {
+          "id": "18:707",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "18:715",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "18:723",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "18:727",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "disabled": [
           "off",
@@ -776,8 +1460,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": true,
-        "visual": false
+        "implementation": false,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -785,9 +1478,13 @@
       "name": "tui-amount",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44037-288637",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 108,
       "iOSVariants": 54,
+      "iOS26Variants": 54,
+      "historicalVariants": [],
       "variantProperties": {
         "format": [
           "Foreign (code)",
@@ -837,7 +1534,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -845,9 +1551,114 @@
       "name": "tui-app-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25752-487144",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 74,
       "iOSVariants": 49,
+      "iOS26Variants": 24,
+      "historicalVariants": [
+        {
+          "id": "28645:462592",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:462627",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:462818",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:462842",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:462992",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:463016",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:464229",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:464253",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:464277",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:464325",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28645:464349",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500811",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500835",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500859",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500883",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500907",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "28729:500979",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29263:442593",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29446:436694",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29446:436916",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29561:430794",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29561:430863",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29561:431055",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29561:431190",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "29849:432890",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "left": [
           "Back",
@@ -889,7 +1700,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -897,9 +1717,13 @@
       "name": "tui-avatar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25745-690405",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 316,
       "iOSVariants": 158,
+      "iOS26Variants": 158,
+      "historicalVariants": [],
       "variantProperties": {
         "Badge": [
           "bottom",
@@ -950,7 +1774,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -958,9 +1791,13 @@
       "name": "tui-avatar [badged-subscription-icon]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55962",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "size": [
           "large",
@@ -989,7 +1826,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -997,9 +1843,13 @@
       "name": "tui-avatar-labelled",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53606-309279",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "System": [
           "Android",
@@ -1035,7 +1885,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1043,9 +1902,13 @@
       "name": "tui-avatar-stack",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25526-614200",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 48,
       "iOSVariants": 32,
+      "iOS26Variants": 32,
+      "historicalVariants": [],
       "variantProperties": {
         "Flip": [
           "off",
@@ -1087,7 +1950,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1095,9 +1967,13 @@
       "name": "tui-badge",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25738-686585",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 124,
       "iOSVariants": 68,
+      "iOS26Variants": 68,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "accent-1 (cashback)",
@@ -1144,7 +2020,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1152,9 +2037,13 @@
       "name": "tui-badge [cashback]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=26895-46826",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 84,
       "iOSVariants": 40,
+      "iOS26Variants": 40,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "all-airlines",
@@ -1197,7 +2086,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1205,9 +2103,13 @@
       "name": "tui-badge [subscription-icon-shield]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55102",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 28,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "appearsance": [
           "premium",
@@ -1242,20 +2144,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "87688:44061",
       "name": "tui-badge [subscription-icon]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=87688-44061",
-      "status": "complete",
+      "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUISubscriptionBadge",
         "source": "Sources/TUIDesignSystem/Components/ClientBadge/TUISubscriptionBadge.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "size": [
           "large",
@@ -1282,7 +2197,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": true
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1290,9 +2214,13 @@
       "name": "tui-badge [subscription]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=68613-55199",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 56,
       "iOSVariants": 24,
+      "iOS26Variants": 24,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "premium",
@@ -1331,20 +2259,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "6392:51900",
       "name": "tui-badge [t-client]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=6392-51900",
-      "status": "complete",
+      "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIClientBadge",
         "source": "Sources/TUIDesignSystem/Components/ClientBadge/TUIClientBadge.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 1,
+      "iOS26Variants": 1,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -1358,7 +2299,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": true
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1366,12 +2316,16 @@
       "name": "tui-badge notification",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25738-689227",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUINotificationBadge",
         "source": "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "size": [
           "large",
@@ -1393,7 +2347,20 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITypography.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1401,12 +2368,16 @@
       "name": "tui-badged-content",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25745-690323",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIBadgedContent",
         "source": "Sources/TUIDesignSystem/Components/BadgedContent/TUIBadgedContent.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Badge": [
           "bottom",
@@ -1430,17 +2401,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "47912:303878",
       "name": "tui-block-details",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=47912-303878",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIBlockDetails",
+        "source": "Sources/TUIDesignSystem/Components/BlockDetails/TUIBlockDetails.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "skeleton": [
           "off",
@@ -1473,18 +2460,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "43816:296648",
       "name": "tui-block-status",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=43816-296648",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIBlockStatus",
+        "source": "Sources/TUIDesignSystem/Components/BlockStatus/TUIBlockStatus.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 8,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "Button": [
           "off",
@@ -1516,8 +2519,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1525,9 +2537,13 @@
       "name": "tui-bottom-sheet",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44431-321226",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Height": [
           "dynamic",
@@ -1563,7 +2579,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1571,12 +2596,16 @@
       "name": "tui-button",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-296906",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIButton",
         "source": "Sources/TUIDesignSystem/Components/Button/TUIButton.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 294,
       "iOSVariants": 147,
+      "iOS26Variants": 147,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "accent",
@@ -1630,17 +2659,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "7319:38983",
       "name": "tui-button [add-card]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=7319-38983",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIButtonAddCard",
+        "source": "Sources/TUIDesignSystem/Components/ButtonAddCard/TUIButtonAddCard.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "size": [
           "large 54x36",
@@ -1666,8 +2711,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/ButtonAddCard/audit.md"
       }
     },
     {
@@ -1675,9 +2729,13 @@
       "name": "tui-button [cell]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53169-295889",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 32,
       "iOSVariants": 16,
+      "iOS26Variants": 16,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "destructicve",
@@ -1713,17 +2771,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "30258:432933",
       "name": "tui-button [close]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=30258-432933",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIButtonClose",
+        "source": "Sources/TUIDesignSystem/Components/ButtonClose/TUIButtonClose.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "Theme": [
           "dark",
@@ -1759,18 +2833,36 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/ButtonClose/revalidation-2026-10-05.md"
       }
     },
     {
       "id": "44290:299166",
       "name": "tui-button [like]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-299166",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUIButtonLike",
+        "source": "Sources/TUIDesignSystem/Components/ButtonLike/TUIButtonLike.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 24,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "glass-on-dark",
@@ -1801,8 +2893,19 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/ButtonLike/implementation-preparation-2026-10-05.md"
       }
     },
     {
@@ -1810,9 +2913,13 @@
       "name": "tui-button [link]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304987",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "Content": [
           "Icon",
@@ -1841,7 +2948,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1849,9 +2965,13 @@
       "name": "tui-button [on-light-on-dark]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=59194-53406",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 198,
       "iOSVariants": 99,
+      "iOS26Variants": 99,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "flat-grayscale-on-dark",
@@ -1901,17 +3021,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44290:299199",
       "name": "tui-button [share]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-299199",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUIButtonShare",
+        "source": "Sources/TUIDesignSystem/Components/ButtonShare/TUIButtonShare.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "glass-on-dark",
@@ -1937,8 +3073,19 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/ButtonShare/implementation-preparation-2026-10-05.md"
       }
     },
     {
@@ -1946,9 +3093,13 @@
       "name": "tui-button [subscription]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44236-302826",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 50,
       "iOSVariants": 26,
+      "iOS26Variants": 26,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "premium",
@@ -1987,7 +3138,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -1995,9 +3155,13 @@
       "name": "tui-button [two labels]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=51388-47169",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 20,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "platform": [
           "Android",
@@ -2030,7 +3194,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2038,12 +3211,16 @@
       "name": "tui-button [vertical]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41691-305320",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIButtonVertical",
         "source": "Sources/TUIDesignSystem/Components/ButtonVertical/TUIButtonVertical.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 8,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "Skeleton": [
           "off",
@@ -2071,17 +3248,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "54757:286088",
       "name": "tui-button [wallet]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=54757-286088",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIButtonWallet",
+        "source": "Sources/TUIDesignSystem/Components/ButtonWallet/TUIButtonWallet.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 34,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "Appearance": [
           "Apple Wallet",
@@ -2117,8 +3310,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/ButtonWallet/audit.md"
       }
     },
     {
@@ -2126,9 +3328,13 @@
       "name": "tui-button tooltip",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25748-771367",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "icon": [
           "hint",
@@ -2159,7 +3365,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2167,9 +3382,13 @@
       "name": "tui-button-group-card",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=36326-422777",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 22,
       "iOSVariants": 11,
+      "iOS26Variants": 11,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "dark-bg",
@@ -2214,7 +3433,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2222,9 +3450,13 @@
       "name": "tui-card [account]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=2793-75470",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "System": [
           "Android",
@@ -2246,17 +3478,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "42587:291989",
       "name": "tui-card-large",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42587-291989",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUICardLarge",
+        "source": "Sources/TUIDesignSystem/Components/CardLarge/TUICardLarge.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 48,
       "iOSVariants": 24,
+      "iOS26Variants": 24,
+      "historicalVariants": [],
       "variantProperties": {
         "Flat": [
           "False",
@@ -2300,18 +3548,45 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderCard.swift",
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift",
+          "Sources/TUIDesignSystem/Components/Button/TUIButton.swift",
+          "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift",
+          "Sources/TUIDesignSystem/Components/Cell/TUICell.swift",
+          "Tests/TUIDesignSystemTests/CellTests.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "11335:41574",
       "name": "tui-card-medium ",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=11335-41574",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUICardMedium",
+        "source": "Sources/TUIDesignSystem/Components/CardMedium/TUICardMedium.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 41,
       "iOSVariants": 21,
+      "iOS26Variants": 21,
+      "historicalVariants": [],
       "variantProperties": {
         "background": [
           "fill",
@@ -2351,18 +3626,42 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": true,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/CardMedium/TUICardMediumText.swift",
+          "Tests/TUIDesignSystemTests/CardMediumTests.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITypography.swift",
+          "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift",
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "41569:290555",
       "name": "tui-cell",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41569-290555",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUICell",
+        "source": "Sources/TUIDesignSystem/Components/Cell/TUICell.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 42,
       "iOSVariants": 21,
+      "iOS26Variants": 21,
+      "historicalVariants": [],
       "variantProperties": {
         "fixed-height": [
           "off",
@@ -2409,8 +3708,27 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Cell/TUICell.swift",
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift",
+          "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift",
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITypography.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Tests/TUIDesignSystemTests/CellTests.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2418,9 +3736,13 @@
       "name": "tui-cell [account]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=2793-73350",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 14,
       "iOSVariants": 7,
+      "iOS26Variants": 7,
+      "historicalVariants": [],
       "variantProperties": {
         "account-type": [
           "Credit",
@@ -2465,7 +3787,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2473,9 +3804,13 @@
       "name": "tui-cell [action]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306482",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "accessories": [
           "off",
@@ -2515,7 +3850,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2523,9 +3867,13 @@
       "name": "tui-cell [button]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306089",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "accessories": [
           "off",
@@ -2564,7 +3912,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2572,9 +3929,13 @@
       "name": "tui-cell [checkbox]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-307793",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "accessories": [
           "off",
@@ -2618,17 +3979,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "41637:306903",
       "name": "tui-cell [checkicon]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-306903",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUICellCheckicon",
+        "source": "Sources/TUIDesignSystem/Components/Cell/TUICellCheckicon.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "fixed-height": [
           "off",
@@ -2660,8 +4037,22 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Cell/TUICellCheckicon.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/CellCheckicon/audit.md"
       }
     },
     {
@@ -2669,9 +4060,13 @@
       "name": "tui-cell [connected]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53219-295268",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "fixed-height": [
           "off",
@@ -2709,7 +4104,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2717,9 +4121,13 @@
       "name": "tui-cell [disclosure]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41637-305628",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 20,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "accessories": [
           "off",
@@ -2765,7 +4173,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2773,9 +4190,13 @@
       "name": "tui-cell [invest]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44305-304744",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 14,
       "iOSVariants": 7,
+      "iOS26Variants": 7,
+      "historicalVariants": [],
       "variantProperties": {
         "fixed-height": [
           "off",
@@ -2823,7 +4244,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2831,9 +4261,13 @@
       "name": "tui-cell [mobile]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=63132-295599",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 8,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "skeleton": [
           "off",
@@ -2876,7 +4310,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2884,9 +4327,13 @@
       "name": "tui-cell [operation]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-314128",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "extended": [
           "off",
@@ -2931,7 +4378,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2939,9 +4395,13 @@
       "name": "tui-cell [switch]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41569-291397",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "accessories": [
           "off",
@@ -2985,7 +4445,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -2993,12 +4462,16 @@
       "name": "tui-chip",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42638-295990",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIChip",
         "source": "Sources/TUIDesignSystem/Components/Chip/TUIChip.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 118,
       "iOSVariants": 60,
+      "iOS26Variants": 60,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "accent",
@@ -3048,7 +4521,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3056,12 +4538,16 @@
       "name": "tui-chip-group",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=115603-32334",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIChipGroup",
         "source": "Sources/TUIDesignSystem/Components/Chip/TUIChipGroup.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 8,
       "iOSVariants": 4,
+      "iOS26Variants": 4,
+      "historicalVariants": [],
       "variantProperties": {
         "Scrollable": [
           "off",
@@ -3088,17 +4574,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44286:300575",
       "name": "tui-chip-group [choice]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300575",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIChipGroup",
+        "source": "Sources/TUIDesignSystem/Components/Chip/TUIChipGroup.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -3128,18 +4630,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44286:300668",
       "name": "tui-chip-group [filter]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300668",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIChipGroup",
+        "source": "Sources/TUIDesignSystem/Components/Chip/TUIChipGroup.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -3169,18 +4687,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44286:300482",
       "name": "tui-chip-group [list]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-300482",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIChipGroup",
+        "source": "Sources/TUIDesignSystem/Components/Chip/TUIChipGroup.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "Alignment": [
           "Center",
@@ -3210,18 +4744,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "16661:51922",
       "name": "tui-counter",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16661-51922",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUICounter",
+        "source": "Sources/TUIDesignSystem/Components/Counter/TUICounter.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Preset": [
           "Primary",
@@ -3248,18 +4798,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44286:299509",
       "name": "tui-floating-container",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44286-299509",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUIFloatingContainer",
+        "source": "Sources/TUIDesignSystem/Components/FloatingContainer/TUIFloatingContainer.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "background": [
           "base",
@@ -3289,8 +4855,24 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Button/TUIButton.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift",
+          "Scripts/generate_web_catalog.py",
+          "Documentation/assembling-screens-from-figma.md",
+          "Tests/TUIDesignSystemTests/WebCatalogExamplesTests.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/Validation/2026-10-12/FloatingContainerHeight"
       }
     },
     {
@@ -3298,9 +4880,13 @@
       "name": "tui-header",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304670",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 30,
       "iOSVariants": 15,
+      "iOS26Variants": 15,
+      "historicalVariants": [],
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3347,7 +4933,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3355,9 +4950,13 @@
       "name": "tui-header [action]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41997-290341",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3399,7 +4998,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3407,9 +5015,13 @@
       "name": "tui-header [button]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-304195",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3451,17 +5063,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44217:298609",
       "name": "tui-header [card]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44217-298609",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUIHeaderCard",
+        "source": "Sources/TUIDesignSystem/Components/Header/TUIHeaderCard.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Accessory": [
           "Avatar",
@@ -3502,18 +5130,45 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderCard.swift",
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift",
+          "Sources/TUIDesignSystem/Components/Button/TUIButton.swift",
+          "Sources/TUIDesignSystem/Components/NotificationBadge/TUINotificationBadge.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift",
+          "CatalogApp/TUIDesignSystemCatalogApp.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "42565:305012",
       "name": "tui-header [large]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-305012",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUIHeaderLarge",
+        "source": "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 20,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "extended": [
           "off",
@@ -3553,8 +5208,24 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": true,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": true,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITypography.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Package.swift",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3562,9 +5233,13 @@
       "name": "tui-header [switch]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42565-303804",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Accessories": [
           "off",
@@ -3606,7 +5281,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3614,12 +5298,16 @@
       "name": "tui-illustration-screen",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=43816-296032",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIIllustrationScreen",
         "source": "Sources/TUIDesignSystem/Components/IllustrationScreen/TUIIllustrationScreen.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 1,
+      "iOS26Variants": 1,
+      "historicalVariants": [],
       "variantProperties": {
         "System": [
           "Android",
@@ -3641,7 +5329,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3649,12 +5346,16 @@
       "name": "tui-link",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70443",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUILink",
         "source": "Sources/TUIDesignSystem/Components/Link/TUILink.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 30,
       "iOSVariants": 15,
+      "iOS26Variants": 15,
+      "historicalVariants": [],
       "variantProperties": {
         "mode": [
           "default",
@@ -3688,7 +5389,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3696,12 +5406,16 @@
       "name": "tui-list [bulleted]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42610",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIList",
         "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3728,7 +5442,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3736,12 +5459,16 @@
       "name": "tui-list [numbered]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42880",
       "status": "in-progress",
+      "previousStatus": "in-progress",
       "swiftAPI": {
         "symbol": "TUIList",
         "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3768,7 +5495,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3776,12 +5512,16 @@
       "name": "tui-list-item [bulleted]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53190-295267",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIListItem",
         "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3807,7 +5547,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3815,12 +5564,16 @@
       "name": "tui-list-item [numbered]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=79180-42849",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIListItem",
         "source": "Sources/TUIDesignSystem/Components/List/TUIList.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "Body L",
@@ -3843,7 +5596,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3851,12 +5613,16 @@
       "name": "tui-loader",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=9999-26",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUILoader",
         "source": "Sources/TUIDesignSystem/Components/Loader/TUILoader.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 5,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "12x12",
@@ -3875,7 +5641,21 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": false,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITokenCatalog.swift",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3883,9 +5663,13 @@
       "name": "tui-message-bubble",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44231-314707",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 24,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "accent",
@@ -3917,7 +5701,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3925,9 +5718,13 @@
       "name": "tui-notification-banner",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=22466-378682",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 60,
       "iOSVariants": 30,
+      "iOS26Variants": 30,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "info",
@@ -3969,7 +5766,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -3977,12 +5783,16 @@
       "name": "tui-notification-middle",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39739-293413",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUINotificationMiddle",
         "source": "Sources/TUIDesignSystem/Components/NotificationMiddle/TUINotificationMiddle.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -4004,7 +5814,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4012,9 +5831,13 @@
       "name": "tui-notification-toast",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=32204-470960",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 24,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "accessory": [
           "button",
@@ -4044,7 +5867,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4052,9 +5884,13 @@
       "name": "tui-onboarding-flow",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44290-300333",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 22,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -4084,17 +5920,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "34357:426019",
       "name": "tui-pager",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=34357-426019",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUIPager",
+        "source": "Sources/TUIDesignSystem/Components/Pager/TUIPager.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 20,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "pages": [
           "2",
@@ -4122,8 +5974,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/Pager/audit.md"
       }
     },
     {
@@ -4131,9 +5992,13 @@
       "name": "tui-panel",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44302-52347",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 12,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "content": [
           "account",
@@ -4174,7 +6039,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4182,9 +6056,13 @@
       "name": "tui-pin",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=45576-359285",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 24,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "selected": [
           "off",
@@ -4223,7 +6101,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4231,9 +6118,13 @@
       "name": "tui-progress-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25951-712646",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 96,
       "iOSVariants": 48,
+      "iOS26Variants": 48,
+      "historicalVariants": [],
       "variantProperties": {
         "Cap": [
           "Round",
@@ -4275,7 +6166,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4283,12 +6183,16 @@
       "name": "tui-progress-circle",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25942-708453",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIProgressCircle",
         "source": "Sources/TUIDesignSystem/Components/ProgressCircle/TUIProgressCircle.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 434,
       "iOSVariants": 217,
+      "iOS26Variants": 217,
+      "historicalVariants": [],
       "variantProperties": {
         "Preset": [
           "Icon",
@@ -4338,7 +6242,16 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4346,12 +6259,16 @@
       "name": "tui-rating",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=10467-91596",
       "status": "in-progress",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUIRating",
         "source": "Sources/TUIDesignSystem/Components/Rating/TUIRating.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 6,
+      "iOS26Variants": 6,
+      "historicalVariants": [],
       "variantProperties": {
         "quantity": [
           "0",
@@ -4372,17 +6289,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "53606:308726",
       "name": "tui-row [avatar-labelled]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53606-308726",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIRowAvatarLabelled",
+        "source": "Sources/TUIDesignSystem/Components/Row/TUIAvatarLabelled.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 1,
+      "iOS26Variants": 1,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -4397,18 +6330,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "48700:323897",
       "name": "tui-row [button-vertical]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=48700-323897",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIRowButtonVertical",
+        "source": "Sources/TUIDesignSystem/Components/Row/TUIRowButtonVertical.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "Quantity": [
           "1-3",
@@ -4428,18 +6377,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "16273:42831",
       "name": "tui-row [card-medium]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16273-42831",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIRowCardMedium",
+        "source": "Sources/TUIDesignSystem/Components/Row/TUIRowCardMedium.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "preset": [
           "140x140",
@@ -4459,18 +6424,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "16753:52842",
       "name": "tui-row [custom]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16753-52842",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIRowCustom",
+        "source": "Sources/TUIDesignSystem/Components/Row/TUIRowCustom.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 1,
+      "iOS26Variants": 1,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -4485,8 +6466,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4494,9 +6484,38 @@
       "name": "tui-search-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=25762-537956",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 10,
+      "iOS26Variants": 4,
+      "historicalVariants": [
+        {
+          "id": "58518:70955",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "58518:70963",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "58518:70971",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "58518:70979",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "58518:70990",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        },
+        {
+          "id": "58518:71001",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "filled": [
           "off",
@@ -4524,7 +6543,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4532,9 +6560,13 @@
       "name": "tui-segmented",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=16874-41486",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 24,
       "iOSVariants": 12,
+      "iOS26Variants": 12,
+      "historicalVariants": [],
       "variantProperties": {
         "auto-fit": [
           "False",
@@ -4566,17 +6598,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "46866:304541",
       "name": "tui-sensitive-mode",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=46866-304541",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUISensitiveMode",
+        "source": "Sources/TUIDesignSystem/Components/SensitiveMode/TUISensitiveMode.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 5,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Font Size": [
           "Body L",
@@ -4594,21 +6642,39 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": true,
+        "accessibility": true,
+        "motion": false,
+        "integration": true,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Components/Button/TUIButton.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Sources/TUIDesignSystem/Foundation/TUITokenCatalog.swift",
+          "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "37840:45833",
       "name": "tui-skeleton",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=37840-45833",
-      "status": "in-progress",
+      "status": "complete",
+      "previousStatus": "complete",
       "swiftAPI": {
         "symbol": "TUISkeleton",
         "source": "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift"
       },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "keyframe": [
           "1",
@@ -4622,17 +6688,33 @@
       "verification": {
         "metadata": true,
         "implementation": true,
-        "visual": false
+        "variantMapping": true,
+        "specification": true,
+        "visual": true,
+        "interaction": true,
+        "accessibility": true,
+        "motion": true,
+        "integration": true,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/Skeleton/revalidation-2026-10-05.md"
       }
     },
     {
       "id": "37840:45836",
       "name": "tui-skeleton [text]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=37840-45836",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "complete",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUISkeletonText",
+        "source": "Sources/TUIDesignSystem/Components/Skeleton/TUISkeletonText.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 26,
       "iOSVariants": 13,
+      "iOS26Variants": 13,
+      "historicalVariants": [],
       "variantProperties": {
         "system": [
           "Android",
@@ -4661,18 +6743,34 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": true,
+        "visual": true,
+        "interaction": true,
+        "accessibility": true,
+        "motion": true,
+        "integration": true,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": "Documentation/References/Skeleton/revalidation-2026-10-05.md"
       }
     },
     {
       "id": "28406:482266",
       "name": "tui-spacing",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=28406-482266",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUISpacingIndicator",
+        "source": "Sources/TUIDesignSystem/Components/Spacing/TUISpacingIndicator.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 21,
       "iOSVariants": 21,
+      "iOS26Variants": 21,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "0",
@@ -4699,8 +6797,19 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": true,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4708,9 +6817,13 @@
       "name": "tui-splash-screen",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=21811-56398",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 20,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "appearance": [
           "default",
@@ -4738,17 +6851,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "53204:296101",
       "name": "tui-swipe-actions",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=53204-296101",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUISwipeActions",
+        "source": "Sources/TUIDesignSystem/Components/SwipeActions/TUISwipeActions.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 4,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "Contents": [
           "Card",
@@ -4772,8 +6901,17 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4781,9 +6919,18 @@
       "name": "tui-tab-bar",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23068-2266",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 5,
       "iOSVariants": 2,
+      "iOS26Variants": 1,
+      "historicalVariants": [
+        {
+          "id": "23068:882",
+          "reason": "Пользователь 5 октября 2026: только нативная iOS 26; исторические варианты учитывать отдельно."
+        }
+      ],
       "variantProperties": {
         "System": [
           "Android",
@@ -4801,7 +6948,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4809,9 +6965,13 @@
       "name": "tui-tab-bar / Bookkeeping",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-458939",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 6,
       "iOSVariants": 3,
+      "iOS26Variants": 3,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4833,7 +6993,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4841,9 +7010,13 @@
       "name": "tui-tab-bar / Invest",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-453257",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4867,7 +7040,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4875,9 +7057,13 @@
       "name": "tui-tab-bar / Junior",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=112725-32337",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4901,7 +7087,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4909,9 +7104,13 @@
       "name": "tui-tab-bar / MB",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-450541",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 7,
+      "iOS26Variants": 7,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Войти",
@@ -4943,7 +7142,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4951,9 +7159,13 @@
       "name": "tui-tab-bar / Mobile",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23142-455406",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 10,
       "iOSVariants": 5,
+      "iOS26Variants": 5,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -4977,7 +7189,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -4985,9 +7206,13 @@
       "name": "tui-tab-bar / SME",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=23068-2615",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 22,
       "iOSVariants": 10,
+      "iOS26Variants": 10,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Главная",
@@ -5020,7 +7245,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5028,9 +7262,13 @@
       "name": "tui-tab-bar / Signature",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=58367-296400",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 16,
       "iOSVariants": 8,
+      "iOS26Variants": 8,
+      "historicalVariants": [],
       "variantProperties": {
         "Active Tab": [
           "Выпуск подписи",
@@ -5059,17 +7297,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "44305:306527",
       "name": "tui-text-expandable",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=44305-306527",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "in-progress",
+      "swiftAPI": {
+        "symbol": "TUITextExpandable",
+        "source": "Sources/TUIDesignSystem/Components/TextExpandable/TUITextExpandable.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 18,
       "iOSVariants": 9,
+      "iOS26Variants": 9,
+      "historicalVariants": [],
       "variantProperties": {
         "Size": [
           "Body L",
@@ -5101,18 +7355,34 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "65702:51131",
       "name": "tui-textfield ",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=65702-51131",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "catalogued",
+      "swiftAPI": {
+        "symbol": "TUITextfield",
+        "source": "Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 44,
       "iOSVariants": 22,
+      "iOS26Variants": 22,
+      "historicalVariants": [],
       "variantProperties": {
         "is-filled": [
           "off",
@@ -5162,8 +7432,33 @@
       ],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [
+          "CatalogApp/TUIDesignSystemCatalogApp.swift",
+          "CatalogUITests/TextfieldUITests.swift",
+          "Documentation/assembling-screens-from-figma.md",
+          "Examples/ConsumerApp/App/TUIConsumerApp.swift",
+          "Package.swift",
+          "Sources/TUIDesignSystem/Catalog/TUITextfieldPlayground.swift",
+          "Sources/TUIDesignSystem/Components/Button/TUIButton.swift",
+          "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift",
+          "Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift",
+          "Sources/TUIDesignSystem/Components/Textfield/TUITextfieldForm.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift",
+          "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift",
+          "Tests/TUIDesignSystemTests/TextfieldFormTests.swift",
+          "Tests/TUIDesignSystemTests/TextfieldTests.swift",
+          "Tests/TUIDesignSystemTests/WebCatalogExamplesTests.swift"
+        ],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5171,9 +7466,13 @@
       "name": "tui-textfield [convert]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=26960-617080",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 88,
       "iOSVariants": 44,
+      "iOS26Variants": 44,
+      "historicalVariants": [],
       "variantProperties": {
         "currency-left": [
           "off",
@@ -5216,7 +7515,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5224,9 +7532,13 @@
       "name": "tui-textfield [counter]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=54443-283316",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 44,
       "iOSVariants": 22,
+      "iOS26Variants": 22,
+      "historicalVariants": [],
       "variantProperties": {
         "error": [
           "No",
@@ -5264,7 +7576,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5272,9 +7593,13 @@
       "name": "tui-textfield [multiline]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=69850-48152",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 44,
       "iOSVariants": 22,
+      "iOS26Variants": 22,
+      "historicalVariants": [],
       "variantProperties": {
         "is-filled": [
           "off",
@@ -5322,7 +7647,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5330,9 +7664,13 @@
       "name": "tui-textfield [number]",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=69850-47618",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 26,
       "iOSVariants": 13,
+      "iOS26Variants": 13,
+      "historicalVariants": [],
       "variantProperties": {
         "is-filled": [
           "off",
@@ -5387,7 +7725,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5395,9 +7742,13 @@
       "name": "tui-thumbnail-card",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=39763-297614",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 78,
       "iOSVariants": 39,
+      "iOS26Variants": 39,
+      "historicalVariants": [],
       "variantProperties": {
         "background": [
           "AllAirlines",
@@ -5444,7 +7795,16 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
@@ -5452,9 +7812,13 @@
       "name": "tui-tooltip",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42583-296173",
       "status": "catalogued",
+      "previousStatus": "catalogued",
       "swiftAPI": null,
+      "scopeExclusion": null,
       "totalVariants": 48,
       "iOSVariants": 24,
+      "iOS26Variants": 24,
+      "historicalVariants": [],
       "variantProperties": {
         "Appearance": [
           "default",
@@ -5493,17 +7857,33 @@
       "verification": {
         "metadata": true,
         "implementation": false,
-        "visual": false
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "55278:70654",
       "name": "underline",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70654",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIUnderline",
+        "source": "Sources/TUIDesignSystem/Components/Underline/TUIUnderline.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "pseudo": [
           "No",
@@ -5516,18 +7896,34 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     },
     {
       "id": "55278:70659",
       "name": "underline",
       "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=55278-70659",
-      "status": "catalogued",
-      "swiftAPI": null,
+      "status": "in-progress",
+      "previousStatus": "complete",
+      "swiftAPI": {
+        "symbol": "TUIUnderline",
+        "source": "Sources/TUIDesignSystem/Components/Underline/TUIUnderline.swift"
+      },
+      "scopeExclusion": null,
       "totalVariants": 2,
       "iOSVariants": 2,
+      "iOS26Variants": 2,
+      "historicalVariants": [],
       "variantProperties": {
         "pseudo": [
           "No",
@@ -5540,8 +7936,17 @@
       "specificationURLs": [],
       "verification": {
         "metadata": true,
-        "implementation": false,
-        "visual": false
+        "implementation": true,
+        "variantMapping": false,
+        "specification": false,
+        "visual": false,
+        "interaction": false,
+        "accessibility": true,
+        "motion": false,
+        "integration": false,
+        "staleInputs": [],
+        "record": "Documentation/component-verification.json",
+        "evidenceArchive": null
       }
     }
   ]

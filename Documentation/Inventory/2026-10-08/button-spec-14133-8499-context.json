@@ -1,0 +1,12 @@
+{
+  "fileKey": "HErJrp1BcNRUFCyg3QccuG",
+  "nodeId": "14133:8499",
+  "url": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=14133-8499",
+  "retrievedAt": "2026-10-08",
+  "method": "Figma Desktop MCP get_design_context",
+  "isError": false,
+  "content": [
+    "<frame id=\"14133:8499\" name=\"Построение\" x=\"1996\" y=\"100\" width=\"1190\" height=\"3717\">\n  <instance id=\"14133:8500\" name=\"H1 + P\" x=\"128\" y=\"128\" width=\"934\" height=\"88\" />\n  <instance id=\"14133:8501\" name=\"H2 + P\" x=\"128\" y=\"216\" width=\"934\" height=\"88\" />\n  <instance id=\"14133:8502\" name=\"Image 1x1\" x=\"128\" y=\"304\" width=\"934\" height=\"300\" />\n  <instance id=\"14133:8503\" name=\"H3 + P\" x=\"128\" y=\"604\" width=\"934\" height=\"72\" />\n  <instance id=\"14133:8504\" name=\"List Bulleted\" x=\"128\" y=\"676\" width=\"934\" height=\"73\" />\n  <instance id=\"14133:8505\" name=\"Image 1x1\" x=\"128\" y=\"749\" width=\"934\" height=\"852\" />\n  <instance id=\"14133:8506\" name=\"H2 + P\" x=\"128\" y=\"1601\" width=\"934\" height=\"88\" />\n  <instance id=\"14133:8507\" name=\"Image 1x1\" x=\"128\" y=\"1689\" width=\"934\" height=\"300\" />\n  <instance id=\"14133:8508\" name=\"H3 + P\" x=\"128\" y=\"1989\" width=\"934\" height=\"128\" />\n  <instance id=\"14287:11672\" name=\"Image 1x1\" x=\"128\" y=\"2117\" width=\"934\" height=\"672\" />\n  <instance id=\"14309:11174\" name=\"H3 + P\" x=\"128\" y=\"2789\" width=\"934\" height=\"128\" />\n  <instance id=\"14309:11180\" name=\"Image 1x1\" x=\"128\" y=\"2917\" width=\"934\" height=\"672\" />\n</frame>",
+    "IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit."
+  ]
+}

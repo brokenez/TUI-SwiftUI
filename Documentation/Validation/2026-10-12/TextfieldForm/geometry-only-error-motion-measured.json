@@ -1,0 +1,50 @@
+{
+  "status": "passed-observed-native-geometry",
+  "source": "Documentation/Validation/2026-10-12/TextfieldForm/GeometryOnlyMotion/samples.json",
+  "sourceSHA256": "8a9bdd5db6c9e601252fddd8228c704f1028e57f3b9e9c46dd669114067630d5",
+  "frames": 117,
+  "baselineX": 53.0,
+  "events": [
+    {
+      "event": "first",
+      "samples": 52,
+      "minimumOffset": -3.0,
+      "maximumOffset": 2.6666666666666643,
+      "signSequence": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "lastMovementAfterEvent": 0.5437386666744715
+    },
+    {
+      "event": "repeated",
+      "samples": 43,
+      "minimumOffset": -2.6666666666666714,
+      "maximumOffset": 2.6666666666666643,
+      "signSequence": [
+        -1,
+        1
+      ],
+      "lastMovementAfterEvent": 0.3248089999979129
+    },
+    {
+      "event": "focus-only",
+      "samples": 1,
+      "minimumOffset": 0.0,
+      "maximumOffset": 0.0,
+      "signSequence": [],
+      "lastMovementAfterEvent": null
+    },
+    {
+      "event": "reset",
+      "samples": 3,
+      "minimumOffset": 0.0,
+      "maximumOffset": 0.0,
+      "signSequence": [],
+      "lastMovementAfterEvent": null
+    }
+  ],
+  "limits": "Checks native displacement, sign sequence, approximate total duration, return and non-validation focus/reset. Exact per-step source times, hint motion and physical haptic remain UNVERIFIED; no full motion acceptance."
+}

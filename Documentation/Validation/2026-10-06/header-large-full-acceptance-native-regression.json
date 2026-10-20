@@ -1,0 +1,146 @@
+{
+  "method": "Decoded RGBA arrays; no transformations or tolerance applied. Current 20 native Day/Night variants compared with the prior accepted native matrix.",
+  "comparisons": [
+    {
+      "variantTheme": "17714:51940/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/08BF10A0-617D-42F5-9745-F613D344A632.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/66DBEE70-4F5A-4903-9871-A0C708664523.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51940/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/41049172-82BA-48A3-BD3C-A00A598B6EE8.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/48C802ED-A026-4C15-B266-D016ED7EC957.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51950/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/9746AB2B-BC18-4117-B486-64FAEFE690B0.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/3783D1E1-B6A1-435B-B34B-49C5D247497B.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51950/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/4855DBA9-5AAF-4DD2-AA9F-B2A329E2A5C4.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A377E54F-0F57-423E-AA20-26551498FE6A.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51980/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/8F399FDF-15CB-4525-B160-5FDB3A753458.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/CA6CE7AC-D413-495E-881F-6E7C60E30B0A.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51980/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/A85A1DF1-7CC7-47D0-9C15-28168C9808FD.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/88CCA3F0-8E3B-4D31-B5FF-B88FC293A0AF.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51990/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/96C818C5-9484-481A-860C-DB059BFDDF6E.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/55522B1F-D9E3-413A-AB58-199E21F2AED9.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "17714:51990/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/37B1AD0F-94FB-4F1F-A917-0F7742B0145D.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A06EAD3F-35CC-4184-9E3D-F6BC809AE901.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "18083:44906/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/6BBA1D96-222E-47F0-909B-128720873F5D.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/5BB51431-EEC0-4D1C-9E5C-35803356BA25.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "18083:44906/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/82208EDE-AEEA-47A6-AD07-75D5AB67C214.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/DC020935-1322-47FE-8821-BFC226B76B8F.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "18083:44942/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/BFB3E144-F4DE-475F-A33F-1A880E0ED3D4.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/0325ACDA-EA12-4C81-8C31-D4EB89440D03.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "18083:44942/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/302A141C-DA7B-4675-8AC4-D7DD8E963FB8.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/08FF5596-5A86-4F87-9CE0-01C99B74EF23.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "42565:305013/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/660F96D0-3D7D-4485-A420-EEF356FA3109.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/44675CF6-8F45-45A1-BF88-FA9537BBD178.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "42565:305013/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/3D03D274-B5C2-4557-81D8-5E2BD943E3B1.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/CCC0CE67-D81A-4B5A-9ADF-629CCC63F6D3.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "42565:305051/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/CAF1393A-1CD7-4D40-81BE-A78F37AECE7E.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/691892B3-B37A-4E4A-9406-085E99121003.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "42565:305051/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/4F9784E6-8D0B-4697-87F8-D49FACE69E5F.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A61F5DFC-A56A-47E0-ADDB-6F6158A06E44.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "547:151714/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/768421DA-73F3-4314-A207-A573F870B91D.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/09F94752-C88E-4190-9D05-F1AAD482658F.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "547:151714/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/6F2BA7DA-4FA0-4665-B54B-0FEE9CB27C7E.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/B3D969ED-4797-47AF-9C49-EEC133205BCA.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "547:151734/day",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/0F91B4A2-DD04-4419-8786-43770671ED90.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A6E4B0A8-A038-405A-989B-DF8A93232BA3.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    },
+    {
+      "variantTheme": "547:151734/night",
+      "prior": "Documentation/Validation/2026-10-06/HeaderLargeContinuousFadeNative/6C940604-9311-4CDF-AB5A-FDE74BE532B5.png",
+      "current": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/DF0A1A22-3D06-476E-8287-8B7BBC7F974D.png",
+      "changedPixels": 0,
+      "maximumRGBAChannelDifference": 0
+    }
+  ],
+  "allDecodedPixelsEqual": true
+}

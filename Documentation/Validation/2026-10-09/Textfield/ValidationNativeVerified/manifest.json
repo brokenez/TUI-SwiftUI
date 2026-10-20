@@ -1,0 +1,74 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "566886CF-4F1C-495A-9EAB-13E53707BF34.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-independent-consumer-night_0_F20E5F44-F390-402C-95A1-566078DB8EF0.png",
+        "timestamp" : 1791555920.757
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "00DAC7F1-F969-4CAF-82C9-7529A55F772C.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-independent-consumer-day_0_F98FF488-823C-4CA7-8E35-5A2DD526409F.png",
+        "timestamp" : 1791555911.886
+      }
+    ],
+    "testIdentifier" : "TextfieldConsumerUITests/testPublicPackageFormInIndependentConsumerInBothThemes()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/TextfieldConsumerUITests/testPublicPackageFormInIndependentConsumerInBothThemes"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "329A54CC-232A-4C2E-9246-8654C67778BB.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-disabled_0_5E45D165-E7FB-4BA5-AEAB-05AB96543D29.png",
+        "timestamp" : 1791555951.204
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "A2B99A96-D1F7-4435-8350-0AF46395E439.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-copy-paste-round-trip_0_37F62BE0-B7BF-478B-977D-BF7232B603E8.png",
+        "timestamp" : 1791555946.859
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "EDCB5A3E-0D5C-4640-A2A9-4D7C60F8DF4B.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-read-only-native-selection_0_B3C68FC0-75F9-416B-9A87-F7DAD56356DD.png",
+        "timestamp" : 1791555940.172
+      }
+    ],
+    "testIdentifier" : "TextfieldUITests/testReadOnlySelectionAndDisabledDoNotOpenKeyboard()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/TextfieldUITests/testReadOnlySelectionAndDisabledDoNotOpenKeyboard"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D0C68535-0929-4575-A616-79C790B6FAF4.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "textfield-validation-motion-probe-finished_0_F568714F-4113-4FAB-A6A4-F1ED6D300870.png",
+        "timestamp" : 1791555960.026
+      }
+    ],
+    "testIdentifier" : "TextfieldUITests/testValidationFeedbackInActiveNativeScene()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/TextfieldUITests/testValidationFeedbackInActiveNativeScene"
+  }
+]

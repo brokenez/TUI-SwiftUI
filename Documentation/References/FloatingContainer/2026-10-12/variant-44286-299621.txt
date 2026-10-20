@@ -1,0 +1,70 @@
+type TuiFloatingContainerProps = {
+  className?: string;
+  background?: "off";
+  content?: "custom-content";
+  showHomeIndicator?: boolean;
+  system?: "iOS";
+};
+
+function TuiFloatingContainer({ className, background = "off", content = "custom-content", showHomeIndicator = true, system = "iOS" }: TuiFloatingContainerProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[375px]"} data-node-id="44286:299621">
+      <div className="content-stretch flex flex-col items-start pb-[24px] px-[var(--screen-padding,16px)] relative shrink-0 w-full" data-node-id="44286:299622" data-name="Buttons cont">
+        <div className="content-stretch flex flex-col h-[56px] items-start relative shrink-0 w-full" data-node-id="44286:299623" data-name="Placeholder">
+          <div className="border-[0.5px] border-[var(--tui-text-secondary,#9299a2)] border-dashed content-stretch flex flex-[1_0_0] items-center justify-center min-h-px py-[16px] relative rounded-[8px] w-full" data-node-id="I44286:299623;13167:125434" data-name="frame">
+            <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] text-center tracking-[-0.24px]" data-node-id="I44286:299623;13167:125435">
+              <p className="leading-[normal]">Custom View</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="44286:299625" data-name="system-bottom-bar">
+          <div className="h-[34px] relative shrink-0 w-full" data-node-id="I44286:299625;8956:350" data-name="cont">
+            <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I44286:299625;8956:351" data-name="bar" />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-floating-container
+**Node ID:** 44286:299509
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## Placeholder
+**Node ID:** 28497:456764
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 5926:33072
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 24708:577310
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

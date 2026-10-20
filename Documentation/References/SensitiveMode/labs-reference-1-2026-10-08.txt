@@ -1,0 +1,537 @@
+const imgImage1 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage2 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage3 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage4 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage5 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage6 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage7 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage8 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage9 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage10 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage11 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img1 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img2 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img3 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img4 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgTuiPanel1 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgFrame11 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgTuiPanel21 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgFrame21 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgImage12 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgBullet = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgColor = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgVector1 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgVector2 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgArrow1 = "[TEMPORARY_ASSET_URL_REDACTED]";
+
+function CardFooter({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="12497:28221" data-name="Card Footer">
+      <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-bl-[var(--roundings\/card-rounding,24px)] rounded-br-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="12497:28222" data-name="Footer Container" />
+    </div>
+  );
+}
+
+type CardHeaderProps = {
+  className?: string;
+  content?: "off";
+};
+
+function CardHeader({ className, content = "off" }: CardHeaderProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="24900:15411">
+      <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="24900:15416" data-name="card-container" />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="10820:5000" data-name="Построение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10820:5001" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I10820:5001;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5001;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I10820:5001;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10820:5001;9462:7160">
+            Sensitive Mode — фича, позволяющая скрывать чувствительные данные под маской
+            <br aria-hidden />
+            Это могут быть балансы счетов, суммы списаний и любой другой контент
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5002" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5002;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10820:5002;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как работает маска
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10820:5002;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10820:5002;9462:7170">
+            Маска покрывает только контейнер с текстом. Если текст сам лежит в каком-то контейнере, например в бейдже, фон не трогаем, только текст.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5003" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I10820:5003;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5003;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5003;9460:7064;9460:7062">
+            Берем цвет текста
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10820:5003;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5003;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5003;9460:7070;9460:7062">
+            Скрываем текст
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10820:5003;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5003;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5003;9460:7077;9460:7062">
+            <span className="leading-[24px]">{`Формируем маску из частиц с цветом текста по `}</span>
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline">описанной логике</span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="10856:1868" data-name="card-1x1">
+        <div className="h-[461px] relative shrink-0 w-full" data-node-id="10856:1869" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[397px] left-0 top-[32px] w-[934px]" data-node-id="10856:1871" data-name="card-content">
+            <div className="absolute h-[396.612px] left-[34px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10856:1872" data-name="image 1">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage1} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage2} />
+              </div>
+            </div>
+            <div className="absolute h-[396.612px] left-[257.01px] top-[0.39px] w-[183.008px]" data-node-id="24969:4535">
+              <div className="absolute h-[396.612px] left-0 rounded-[20px] top-0 w-[183.008px]" data-node-id="10856:1874" data-name="image 2">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                  <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage3} />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage4} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex items-center left-[77.99px] min-h-[8.999999761581421px] min-w-[8.999999761581421px] px-[1.8px] rounded-[100px] top-[115.61px]" data-node-id="24867:5124" style={{ backgroundImage: "linear-gradient(83.94480885155731deg, rgb(51, 51, 51) 0%, rgb(92, 92, 92) 100%)" }} data-name="tui-badge [cashback]">
+                <div className="content-stretch flex flex-col h-[9px] items-center justify-center pb-[1.125px] pt-[0.675px] px-[0.9px] relative shrink-0 w-[13.95px]" data-node-id="I24867:5124;44824:47531" data-name="LabelCont" />
+              </div>
+            </div>
+          </div>
+          <CardFooter className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[429px] w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5244" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5244;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10820:5244;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение в тексте
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I10820:5244;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I10820:5244;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I10820:5244;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I10820:5244;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I10820:5244;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I10820:5244;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I10820:5244;2128:283;6917:52782">
+                  in-text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10828:864" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I10828:864;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10828:864;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:864;9460:7064;9460:7062">
+            Если внутри текстового блока сочетаются разные цвета текста, цвет частиц должен подстраиваться
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10828:864;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10828:864;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:864;9460:7070;9460:7062">
+            Если частицы закрывает часть ссылки, ссылка продолжает нажиматься целиком
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="10884:1406" data-name="card-1x1">
+        <div className="h-[461px] relative shrink-0 w-full" data-node-id="10884:1407" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[397px] left-0 top-[32px] w-[934px]" data-node-id="10884:1409" data-name="card-content">
+            <div className="absolute h-[396.612px] left-[34px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10884:1410" data-name="image 1">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage1} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage2} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage5} />
+              </div>
+            </div>
+            <div className="absolute h-[396.612px] left-[480.02px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10884:1411" data-name="image 3">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgImage6} />
+            </div>
+            <div className="absolute h-[396.612px] left-[684px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10884:1416" data-name="image 4">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgImage7} />
+            </div>
+            <div className="absolute h-[396.612px] left-[238px] rounded-[20px] top-[0.39px] w-[183.008px]" data-node-id="10884:1412" data-name="image 2">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage3} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage4} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage8} />
+              </div>
+            </div>
+          </div>
+          <CardFooter className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[429px] w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10884:1417" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10884:1417;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10884:1417;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Размеры
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I10884:1417;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I10884:1417;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I10884:1417;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I10884:1417;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I10884:1417;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I10884:1417;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I10884:1417;2128:283;6917:52782">
+                  size
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10884:1418" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10884:1418;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10884:1418;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10884:1418;9460:7070;9460:7062">
+            Размер контейнера маски с частицами должен совпадать с размером текстового блока
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10884:1418;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10884:1418;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10884:1418;9460:7082;9460:7062">
+            Допускается легкий выход частиц за границы контейнера во время анимации
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="10884:1584" data-name="card-1x1">
+        <div className="h-[461px] relative shrink-0 w-full" data-node-id="10884:1585" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[397px] left-0 top-[32px] w-[934px]" data-node-id="10884:1587" data-name="card-content">
+            <div className="absolute h-[396.612px] left-[34px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10884:1588" data-name="image 1">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage1} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage2} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage5} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage9} />
+              </div>
+            </div>
+            <div className="absolute h-[396.612px] left-[442px] rounded-[20px] top-0 w-[183.008px]" data-node-id="10884:1589" data-name="image 3">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage6} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage10} />
+              </div>
+            </div>
+            <div className="absolute h-[396.612px] left-[238px] rounded-[20px] top-[0.39px] w-[183.008px]" data-node-id="10884:1591" data-name="image 2">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage3} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage4} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage8} />
+                <img alt="" className="absolute max-w-none object-cover rounded-[20px] size-full" src={imgImage11} />
+              </div>
+            </div>
+          </div>
+          <CardFooter className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[429px] w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="12799:1470" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I12799:1470;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I12799:1470;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Моментальный вход и офлайн режим
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="12799:1483" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I12799:1483;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I12799:1483;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I12799:1483;9460:7070;9460:7062">
+            Маска не меняет цвет при моментальном входе, когда сам текст мигает под ней
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I12799:1483;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I12799:1483;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I12799:1483;9460:7082;9460:7062">
+            Блик текста не проигрывается на маске
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="12799:1505" data-name="card-1x1">
+        <div className="h-[461px] relative shrink-0 w-full" data-node-id="12799:1506" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[397px] left-0 top-[32px] w-[934px]" data-node-id="12799:1508" data-name="card-content">
+            <div className="absolute h-[397px] left-[48px] rounded-[20px] top-0 w-[183px]" data-node-id="12818:1439" data-name="Моментальный вход 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={img1} />
+            </div>
+            <div className="-translate-y-1/2 absolute h-[397px] left-[325px] rounded-[20px] top-1/2 w-[183px]" data-node-id="12818:1440" data-name="Скрытые балансы 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={img2} />
+            </div>
+            <div className="absolute content-stretch flex items-center left-[206px] overflow-clip top-[124px] w-[78px]" data-node-id="12818:1502" data-name="comment-feedback">
+              <div className="flex h-[14.62px] items-center justify-center relative shrink-0 w-[4.021px]" data-node-id="I12818:1502;9833:7066">
+                <div className="-rotate-90 -scale-y-100 flex-none">
+                  <div className="h-[4.021px] relative w-[14.62px]" data-name>
+                    <div className="absolute inset-[0_20%_18.43%_20%]">
+                      <img alt="" className="block max-w-none size-full" src={img} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[var(--helper-neutral,#484a52)] content-stretch flex flex-[1_0_0] items-start min-w-px overflow-clip pb-[4.177px] pt-[3.133px] px-[5.221px] relative rounded-[8px]" data-node-id="I12818:1502;9817:7079" data-name="Content">
+                <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Medium'] justify-center leading-[0] min-w-px not-italic relative text-[6.79px] text-[color:var(--tui-text-primary-on-opposite,white)]" data-node-id="I12818:1502;9817:7080">
+                  <p className="leading-[8.354px] mb-[4px]">Текст мигает</p>
+                  <p className="leading-[8.354px]">Opacity 25%→50%</p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-[480px] overflow-clip top-[124px] w-[78px]" data-node-id="12818:1510" data-name="comment-feedback">
+              <div className="flex h-[14.62px] items-center justify-center relative shrink-0 w-[4.021px]" data-node-id="I12818:1510;9833:7066">
+                <div className="-rotate-90 -scale-y-100 flex-none">
+                  <div className="h-[4.021px] relative w-[14.62px]" data-name>
+                    <div className="absolute inset-[0_20%_18.43%_20%]">
+                      <img alt="" className="block max-w-none size-full" src={img} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[var(--helper-neutral,#484a52)] content-stretch flex flex-[1_0_0] items-start min-w-px overflow-clip pb-[4.177px] pt-[3.133px] px-[5.221px] relative rounded-[8px]" data-node-id="I12818:1510;9817:7079" data-name="Content">
+                <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Medium'] justify-center leading-[0] min-w-px not-italic relative text-[6.79px] text-[color:var(--tui-text-primary-on-opposite,white)]" data-node-id="I12818:1510;9817:7080">
+                  <p className="leading-[8.354px]">Маска остается дефолтного цвета</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[429px] w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="12822:1445" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I12822:1445;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I12822:1445;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение маски при обновлении данных
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="12822:1450" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I12822:1450;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I12822:1450;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I12822:1450;9460:7070;9460:7062">
+            При обновлении балансов под маской она меняется чеоез fade in / fade out
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="12822:1472" data-name="card-1x1">
+        <div className="h-[461px] relative shrink-0 w-full" data-node-id="12822:1473" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[397px] left-0 top-[32px] w-[934px]" data-node-id="12822:1475" data-name="card-content">
+            <div className="-translate-y-1/2 absolute h-[397px] left-[48px] rounded-[20px] top-1/2 w-[183px]" data-node-id="12825:1489" data-name="Старые балансы 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={img3} />
+            </div>
+            <div className="-translate-y-1/2 absolute h-[397px] left-[316px] rounded-[20px] top-1/2 w-[183px]" data-node-id="25226:1892" data-name="Старые балансы 2">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={img3} />
+            </div>
+            <div className="-translate-y-1/2 absolute h-[397px] left-[585px] rounded-[20px] top-1/2 w-[183px]" data-node-id="12825:1490" data-name="Новые балансы 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={img4} />
+            </div>
+            <div className="absolute h-[6px] left-[82.5px] top-[147.5px] w-[111.5px]" data-node-id="12825:1492">
+              <div className="absolute inset-[0_-0.45%_-8.33%_-0.45%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector1} />
+              </div>
+            </div>
+            <div className="absolute h-[6px] left-[649px] top-[148px] w-[56px]" data-node-id="12825:1493">
+              <div className="absolute inset-[0_-0.89%_-8.33%_-0.89%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector2} />
+              </div>
+            </div>
+            <div className="absolute h-0 left-[243px] top-[134px] w-[50px]" data-node-id="12825:1494">
+              <div className="absolute inset-[-7.36px_-2%_-7.36px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow1} />
+              </div>
+            </div>
+            <div className="absolute h-0 left-[517px] top-[134px] w-[50px]" data-node-id="25226:1893">
+              <div className="absolute inset-[-7.36px_-2%_-7.36px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow1} />
+              </div>
+            </div>
+            <div className="absolute bg-white h-[31px] left-[347px] top-[124px] w-[120px]" data-node-id="25226:1894" />
+          </div>
+          <CardFooter className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[429px] w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="12899:1469" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I12899:1469;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I12899:1469;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Кейсы с текстом в несколько строк
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col h-[575px] items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="12899:1493" data-name="card-1x1">
+        <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="12899:1494" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[479px] left-0 top-[32px] w-[934px]" data-node-id="12899:1496" data-name="card-content">
+            <div className="absolute h-[184px] left-[48px] top-[32px] w-[183px]" data-node-id="12937:10125" data-name="tui-panel 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTuiPanel1} />
+            </div>
+            <div className="absolute left-[312px] size-[183px] top-[32px]" data-node-id="12937:10127" data-name="Frame 1 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame11} />
+            </div>
+            <div className="absolute h-0 left-[243px] top-[124px] w-[50px]" data-node-id="12937:10128">
+              <div className="absolute inset-[-7.36px_-2%_-7.36px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow1} />
+              </div>
+            </div>
+            <div className="absolute h-0 left-[243px] top-[373px] w-[50px]" data-node-id="12948:10131">
+              <div className="absolute inset-[-7.36px_-2%_-7.36px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgArrow1} />
+              </div>
+            </div>
+            <div className="absolute left-[48px] size-[183px] top-[281px]" data-node-id="12948:10129" data-name="tui-panel2 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTuiPanel21} />
+            </div>
+            <div className="absolute left-[312px] size-[183px] top-[281px]" data-node-id="12948:10130" data-name="Frame 2 1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame21} />
+            </div>
+          </div>
+          <CardFooter className="absolute bottom-0 content-stretch flex flex-col items-start left-0 overflow-clip w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="23620:8681" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I23620:8681;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I23620:8681;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Фейд маски
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I23620:8681;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I23620:8681;9462:7170">
+            Если текст в интерфейсе уходит в фейд, то маска тоже фейдится
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col h-[314px] items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="23620:8664" data-name="card-1x1">
+        <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="23620:8665" data-name="Container">
+          <CardHeader className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-0 w-[934px]" />
+          <div className="absolute bg-[#f6f7f8] h-[479px] left-0 top-[32px] w-[934px]" data-node-id="23620:8667" data-name="card-content">
+            <div className="absolute h-[182px] left-[48px] top-[29px] w-[183px]" data-node-id="23620:8688" data-name="image 5">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[217.89%] left-0 max-w-none top-[-0.16%] w-full" src={imgImage12} />
+              </div>
+            </div>
+            <div className="absolute border-[#f21c1c] border-[0.5px] border-solid h-[22px] left-[54px] rounded-[16px] top-[152px] w-[82px]" data-node-id="23620:8690" />
+          </div>
+          <CardFooter className="absolute bottom-0 content-stretch flex flex-col items-start left-0 overflow-clip w-[934px]" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="14574:1701" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I14574:1701;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I14574:1701;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Режим энергосбережения и LOW-девайсы
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="14574:1706" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I14574:1706;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I14574:1706;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I14574:1706;9460:7070;9460:7062">
+            Выключается анимация и маска отображается статичной
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5289" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5289;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5289;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Хаптик
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10820:5289;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10820:5289;9462:7170">
+            Срабатывает при показе / скрытии контента
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5245" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I10820:5245;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5245;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5245;9460:7064;9460:7062">
+            iOS: UIImpactFeedbackGenerator.FeedbackStyle.soft
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10820:5245;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5245;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5245;9460:7070;9460:7062">
+            Android: vibrationEffect.EFFECT_TICK
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Gradient/Brand/Black: , Day/Base/base-02: #F6F7F8, iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-badge [cashback]
+**Node ID:** 11676:2649
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-cashback](https://go.tcsbank.ru/tui-badge-cashback)
+
+## tui-badge
+**Node ID:** 22582:3053
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 6014:47559
+
+save, mark, favorite, remember
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL_REDACTED]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,26 @@
+[
+  {
+    "nodeID": "37840:45834",
+    "referenceSize": [
+      40,
+      40
+    ],
+    "runtimeScale": 3,
+    "runtimeMethod": "SwiftUI ImageRenderer on iOS 26.4.1",
+    "meanAbsoluteError1x": 0.00688,
+    "p99AbsoluteChannelError": 0.0,
+    "maximumAbsoluteChannelError": 1.0
+  },
+  {
+    "nodeID": "37840:45835",
+    "referenceSize": [
+      40,
+      40
+    ],
+    "runtimeScale": 3,
+    "runtimeMethod": "SwiftUI ImageRenderer on iOS 26.4.1",
+    "meanAbsoluteError1x": 0.00438,
+    "p99AbsoluteChannelError": 0.0,
+    "maximumAbsoluteChannelError": 1.0
+  }
+]

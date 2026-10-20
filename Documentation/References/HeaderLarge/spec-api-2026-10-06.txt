@@ -1,0 +1,396 @@
+const imgTuiIcFixedColorAlertWarning = "https://www.figma.com/api/mcp/asset/2c4b960b-15b9-4a70-85d5-7f77f1cd1e70.svg";
+
+type TuiSpacingProps = {
+  className?: string;
+  size?: "05 - 16px";
+  visible?: "off";
+};
+
+function TuiSpacing({ className, size = "05 - 16px", visible = "off" }: TuiSpacingProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[16px]"} data-node-id="23:52299">
+      <div className="h-[16px] relative shrink-0 w-full" data-node-id="23:52300" data-name />
+    </div>
+  );
+}
+
+function TuiIcFixedColorAlertWarning({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="11785:122" data-name="tui-ic-fixed-color / alert-warning">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorAlertWarning} />
+    </div>
+  );
+}
+
+export default function Api() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="84:16822" data-name="API">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="84:16823" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I84:16823;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I84:16823;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            API
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="84:16824" data-name="Note">
+        <div className="bg-[var(--tui-status-warning-pale,rgba(255,221,45,0.3))] content-stretch flex flex-[1_0_0] gap-[16px] items-start min-w-px p-[24px] relative rounded-[var(--roundings\/note-rounding,24px)]" data-node-id="I84:16824;9462:8076" data-name="container">
+          <div className="content-stretch flex items-start pt-px relative shrink-0" data-node-id="I84:16824;9462:8032" data-name="Icon">
+            <TuiIcFixedColorAlertWarning className="relative shrink-0 size-[24px]" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I84:16824;9462:8034" data-name="Text">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I84:16824;9462:8035" style={{ fontFeatureSettings: '"liga" 0' }}>
+              Это драфт для разработчиков веба
+            </p>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I84:16824;9462:8079" data-name="Paragraph">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I84:16824;9462:8078">
+                Уберем после разработки компонента
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16825" data-name="row">
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex items-center relative shrink-0 w-[310px]" data-node-id="84:16826" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I84:16826;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="I84:16826;30429:176791" data-name="Content">
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I84:16826;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I84:16826;30429:176794">
+                  Property name
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" />
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" />
+        </div>
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="84:16827" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I84:16827;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I84:16827;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px relative" data-node-id="I84:16827;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I84:16827;30429:176794">
+                  Values
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16828" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16829" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16831" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16833" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16833;9504:7015">
+                size
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16834">
+              Размер лейаута
+            </p>
+          </div>
+        </div>
+        <div className="content-start flex flex-[1_0_0] flex-wrap items-start min-w-px relative" data-node-id="84:16836" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative" data-node-id="84:16837" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16838" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16838;9504:7015">
+                large-h1
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:17173" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:17173;9504:7015">
+                large-h2
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:17175" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:17175;9504:7015">
+                large-h3
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16839" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16839;9504:7015">
+                medium-h4
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16840" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16840;9504:7015">
+                small-h5
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:17177" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:17177;9504:7015">
+                small-h6
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:17179" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:17179;9504:7015">
+                small-body-xl
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16853" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16854" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16856" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16858" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16858;9504:7015">
+                title
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16860" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16861" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16862" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16862;9504:7015">
+                string
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16863" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16863;9504:7015">
+                object
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16864" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16865" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16867" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16869" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16869;9504:7015">
+                description
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16870">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16872" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16873" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16874" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16874;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16875" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16875;9504:7015">
+                string
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16876" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16876;9504:7015">
+                object
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16903" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16904" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16906" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16908" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16908;9504:7015">
+                caption
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16909">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16911" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16912" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16913" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16913;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16914" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16914;9504:7015">
+                string
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16915" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16915;9504:7015">
+                object
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16916" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16917" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16919" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16921" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16921;9504:7015">
+                leftContent
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16922">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16924" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16925" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16926" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16926;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16927" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16927;9504:7015">
+                avatar
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16928" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16928;9504:7015">
+                []
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16929" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16930" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16932" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16934" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16934;9504:7015">
+                accessory
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16935">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-start flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16937" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] h-[122px] items-start min-w-px p-[40px] relative" data-node-id="84:16938" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16939" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16939;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16940" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16940;9504:7015">
+                avatar
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16941" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16941;9504:7015">
+                button
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16943" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16943;9504:7015">
+                action
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16944" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16944;9504:7015">
+                switch
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16946" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16947" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16949" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16951" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16951;9504:7015">
+                accessoryBadge
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16952">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16954" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16955" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16956" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16956;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16957" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16957;9504:7015">
+                []
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="84:16958" data-name="row">
+        <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="84:16959" data-name="tui-table сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="84:16961" data-name="Text">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16963" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16963;9504:7015">
+                accessoryHint
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] min-w-full not-italic relative shrink-0 text-[13px] text-[rgba(0,0,0,0.54)] w-[min-content]" data-node-id="84:16964">
+              hidden if null
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-wrap items-start min-w-px relative self-stretch" data-node-id="84:16966" data-name="preview">
+          <div className="border-[rgba(0,0,0,0.21)] border-b border-solid content-start flex flex-[1_0_0] flex-wrap gap-[10px] items-start min-w-px p-[40px] relative self-stretch" data-node-id="84:16967" data-name="tui-table сell">
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16968" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16968;9504:7015">
+                null
+              </p>
+            </div>
+            <div className="bg-[var(--tui-background-base-alt,#f6f7f8)] border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid content-stretch flex flex-col items-start px-[8px] py-[2px] relative rounded-[8px] shrink-0" data-node-id="84:16969" data-name="`code`">
+              <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I84:16969;9504:7015">
+                []
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Desktop/Body M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 24, letterSpacing: 0), Day/Text/secondary: #000000, Desktop/Body S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 20, letterSpacing: 0), Day/Border/normal: #000000.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Note
+**Node ID:** 11785:19585
+
+v 1.1.0
+
+## tui-ic-fixed-color / alert-warning
+**Node ID:** 11785:122
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-table-сell
+**Node ID:** 11785:7948
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-table](https://go.tcsbank.ru/tui-table)
+
+## tui-spacing
+**Node ID:** 23:52272
+
+Компонент отступов. Лучше использовать родные фигмовские отступы автолейауте, эти подойдут если нужны разные отступы внутри блока
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

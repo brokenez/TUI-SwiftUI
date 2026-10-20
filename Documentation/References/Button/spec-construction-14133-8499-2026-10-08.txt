@@ -1,0 +1,120 @@
+По с тр о ение
+Desktop
+t u i - b u t t o n
+i c o n - s t a r t l a b e l i c o n - e n d
+Р азм еры
+Выс о т а у к а ждог о ра змера фик сир ованная
+Д ля де ск т опных ин т ер ф ейс ов е с т ь 4 ба зовых ра змера
+L ar ge
+radius 12
+L ab el
+20 20
+56
+2 4
+L ab el
+16 8 20 16
+2 4
+8
+L ab el
+8
+16
+16
+Me dium
+radius 8
+L ab el
+16 16
+44
+2 4
+L ab el
+10 8 16 10
+2 4
+8
+L ab el
+8
+16
+10
+Small
+radius 8
+L ab el
+10 10
+32
+16
+L ab el
+8 4 10 8
+16 16
+L ab el
+4 4 8
+Ex tr a Small
+radius 4
+L ab el
+6 6
+2 4
+16
+L ab el
+4 4 6
+16 16
+L ab el
+4 4 4 4
+M obile
+t u i - b u t t o n
+i c o n l a b e l
+Р азм еры iOS
+На мо би лк е т о ль к о три ра змера. У к а ждог о ра змера е с т ь минима ль ная выс о т а. Ширин у к нопк и 
+мо ж но меня т ь, рас т яг ивая
+L ar ge
+radius 16
+L a b e l
+2 4 2 4
+56
+2 4
+L a b e l
+16 8 2 4 16 16
+2 4
+Me dium
+radius 12
+L a b e l
+18 18
+44
+2 4
+L a b e l
+10 8 18 10 10
+2 4
+Small
+radius 100
+L a b e l
+11 11
+30
+1 6
+L a b e l
+7 4 11 7 7
+1 6
+Р азм еры Andr oid
+На мо би лк е т о ль к о три ра змера. У к а ждог о ра змера е с т ь минима ль ная выс о т а. Ширин у к нопк и 
+мо ж но меня т ь, рас т яг ивая
+L ar ge
+radius 16
+Label
+2 4 2 4
+56
+2 4
+Label
+16 8 2 4 16 16
+2 4
+Me dium
+radius 12
+Label
+18 18
+44
+2 4
+Label
+10 8 18 10 10
+2 4
+Small
+radius 100
+Label
+11 11
+30
+1 6
+Label
+7 4 11 7 7
+1 6

@@ -1,0 +1,466 @@
+{
+  "date": "2026-10-15",
+  "method": "Read-only Figma MCP get_design_context, figma-design-to-code; exact inline image/png decoded without resizing. Original Figma unchanged.",
+  "fileKey": "OBPLqL8JDThLuOP8M4JzBL",
+  "sourceRegistry": "Sources/TUIDesignSystem/Resources/Metadata/figma-button-styles.json",
+  "sourceRegistrySHA256": "57cdda0088f7ab6c1df28edbefe38e868cda07ec6fdce285c66ea2957fa2bb63",
+  "count": 24,
+  "variants": [
+    {
+      "variantID": "41658:297467",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297467",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297467.txt",
+      "contextSHA256": "72907b8ca9c6fb5416b19cdbc1525e84762b37793baccaa33123db5d31a0a0be",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297467.png",
+      "imageSHA256": "9af595753caf3da3d3259754ad92c1e07ff35b61299d71607cd53f6e1381b41b"
+    },
+    {
+      "variantID": "41658:297472",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297472",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297472.txt",
+      "contextSHA256": "8e5009ad43dfe07b0636f8bef89aa6b078c93a82b07fda786f160270cd154e2a",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297472.png",
+      "imageSHA256": "f193b6e0cfb399f9c305aa6cddf881a2ceff04fa4fbdac318b4ce52df9f7e22a"
+    },
+    {
+      "variantID": "41658:297477",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297477",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297477.txt",
+      "contextSHA256": "bb03026193cf9a9611d2a8b8ef55df99a1c062cf757fcc310398e16c503bd9de",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297477.png",
+      "imageSHA256": "eca3c8dacc075130c57c633f70962b6de69bddd23837eb0ad57fe41107dcaff8"
+    },
+    {
+      "variantID": "41658:297479",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297479",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297479.txt",
+      "contextSHA256": "2a95b5742bbbf7f6f5f723989ed2545bbd8ea5a7af663fe405a1928876c0f132",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297479.png",
+      "imageSHA256": "0e2c9d3b2374dd0b83099388fee1062c8102530d70052956c78ca34ccdcf1774"
+    },
+    {
+      "variantID": "41658:297501",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297501",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297501.txt",
+      "contextSHA256": "9b2a76f44fdaa4feb92a58d00c24b6d9628c9825e815f235cb053b02afe9ac3c",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297501.png",
+      "imageSHA256": "01b6b2317672e32011d6270ca7e8d97011bd4ec61e0d2b74c9be9212e05e89e0"
+    },
+    {
+      "variantID": "41658:297506",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297506",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297506.txt",
+      "contextSHA256": "9375c3184179c2638c7ca005e19eb3050c63f04a52d15caa97ddb993d393aede",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297506.png",
+      "imageSHA256": "b1f36ec59739ae81bcb625a4482e60587115f18d31198db39d93266ad63221cf"
+    },
+    {
+      "variantID": "41658:297511",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 30,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297511",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297511.txt",
+      "contextSHA256": "b6203ccaf13aa71e097e64c8abbfd592b9b10dbb773b9dfef6a348f27558abef",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297511.png",
+      "imageSHA256": "fda630efd29a1c16f1f276cea9f259001c7c51786cf05ac07905358fce017f70"
+    },
+    {
+      "variantID": "41658:297513",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297513",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297513.txt",
+      "contextSHA256": "8d187a0f20b84a004987f829d5b3cefa989f861aa50271836a1fe1b48890188b",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297513.png",
+      "imageSHA256": "10543eb201433e166e3ae28a42e4484de61840a7be22117388cbb80c771be4d9"
+    },
+    {
+      "variantID": "41658:297535",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297535",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297535.txt",
+      "contextSHA256": "c36f5e09f9c4ad8153803efbcee6125d218fd3ac9813d14a2c8e0abaefcff49f",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297535.png",
+      "imageSHA256": "e666e9bde1d7cb96e615f75d60f5fad63b71a7a42107d7868bb11837b9af248d"
+    },
+    {
+      "variantID": "41658:297540",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297540",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297540.txt",
+      "contextSHA256": "9477d5846a23037dd34220b6a45194592c4fae4f32d588425dd68a2fd66e2312",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297540.png",
+      "imageSHA256": "0258a51438716facd15a6345509c0cec47f37f5720151db8ca9370fef15c42a2"
+    },
+    {
+      "variantID": "41658:297545",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297545",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297545.txt",
+      "contextSHA256": "0f6a0610e09422edefb13b3828bc7b966eef83c6153499e414bfffd7af67dc53",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297545.png",
+      "imageSHA256": "eb4a36b00e69bf3ecd8ab3a27b31e0280ddba29ce646b0efd5f864c07b46b81b"
+    },
+    {
+      "variantID": "41658:297547",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=41658-297547",
+      "context": "Documentation/References/Button/2026-10-15/accent-41658-297547.txt",
+      "contextSHA256": "ba77d58b7a99b62642c115148765bca925ae08e4ebace98d5199c439842ab91c",
+      "image": "Documentation/References/Button/2026-10-15/accent-41658-297547.png",
+      "imageSHA256": "db06eaea7e1b0a34d51d051bd37b50133861fe32f974e174c90b5719bdee5b69"
+    },
+    {
+      "variantID": "42596:296638",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296638",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296638.txt",
+      "contextSHA256": "6c807cc05afafb03ef23aeeff8457738c6c9029c68d147601ad31db81863c337",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296638.png",
+      "imageSHA256": "d1a3e301cad647c94ee597746d4d0bc0a5e1dd28b9b2af06c2b59022b3933a4e"
+    },
+    {
+      "variantID": "42596:296643",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296643",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296643.txt",
+      "contextSHA256": "5318bcf1ce03f8c616937ab25d76f627af59afb3453ae9728ff43c6a62205ad6",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296643.png",
+      "imageSHA256": "f193b6e0cfb399f9c305aa6cddf881a2ceff04fa4fbdac318b4ce52df9f7e22a"
+    },
+    {
+      "variantID": "42596:296648",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296648",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296648.txt",
+      "contextSHA256": "caea2b3a92f27c74fffdc18cca3821370eb585aa55397d2fbc43ce025e8d5692",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296648.png",
+      "imageSHA256": "2f0887976d36ea00999b6d3629748df95c306840f86d839bb1272ccf9df51d51"
+    },
+    {
+      "variantID": "42596:296650",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 56
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296650",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296650.txt",
+      "contextSHA256": "a1eb1d20842aa35c8f04fe544754246a539254c17fb3415b6168ac56d25822da",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296650.png",
+      "imageSHA256": "dcc6e9f544fc185f2323760b797dc2459b66376fff0c75ea15aca61706a59ccb"
+    },
+    {
+      "variantID": "42596:296672",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296672",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296672.txt",
+      "contextSHA256": "20802886b30555a123a999237911db6082b6b2307ad2792d9109fbefafdb1a87",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296672.png",
+      "imageSHA256": "0cb8ab74b37df50d5cabd7ff4dbb878d9d3474be74c86355c5de560a0866b91c"
+    },
+    {
+      "variantID": "42596:296677",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296677",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296677.txt",
+      "contextSHA256": "3471cee2c8e93cb3dbd26518c9411c98c90fb9b83a152cf8a8f1849aad9967bb",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296677.png",
+      "imageSHA256": "b1f36ec59739ae81bcb625a4482e60587115f18d31198db39d93266ad63221cf"
+    },
+    {
+      "variantID": "42596:296682",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 30,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296682",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296682.txt",
+      "contextSHA256": "f39d799d9a4efde9c2b64adeb5d54cc004ac6b7c003d520baab96001285bd298",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296682.png",
+      "imageSHA256": "ebb219857322b71e9109649027281169c75bb63d04d60f33696ba59df1cad77f"
+    },
+    {
+      "variantID": "42596:296684",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 57,
+        "height": 30
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296684",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296684.txt",
+      "contextSHA256": "165fbcbf5b8cd7ad2f1d129cd0ebbd16a80289180356e72213a37f69384c5bb0",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296684.png",
+      "imageSHA256": "d1d2d4b5da5a72a11bce369e39ff215a6406920d8b1278e881e2a05113a756c3"
+    },
+    {
+      "variantID": "42596:296706",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296706",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296706.txt",
+      "contextSHA256": "b32812041d7ffc602cbc89cd9f9f51a444f7f2353fb3ec7bed23f1d2a111a997",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296706.png",
+      "imageSHA256": "a2c8bdf36d9365664005fb25f0b8b6d783ba67118b573cff13e48675f803dedf"
+    },
+    {
+      "variantID": "42596:296711",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296711",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296711.txt",
+      "contextSHA256": "e9a30e25a1edecd72e83635cbcaec56958eeeba567d0b057a5300c48028876d6",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296711.png",
+      "imageSHA256": "0258a51438716facd15a6345509c0cec47f37f5720151db8ca9370fef15c42a2"
+    },
+    {
+      "variantID": "42596:296716",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296716",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296716.txt",
+      "contextSHA256": "48bdf05ce0345b2a29bb1eaf378bccd163b698c31cbc8dde250881d5d7f1ea57",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296716.png",
+      "imageSHA256": "89f5c45e7971bf542898a209d4c133e5442f1beef4ed75035af86ac63c0eae72"
+    },
+    {
+      "variantID": "42596:296718",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "sourceFrame": {
+        "width": 323,
+        "height": 44
+      },
+      "figmaURL": "https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile?node-id=42596-296718",
+      "context": "Documentation/References/Button/2026-10-15/secondary-42596-296718.txt",
+      "contextSHA256": "0f3d0cb2955b7742cbcb23723f1d45632109330737708bcafdf21c5caba47ffd",
+      "image": "Documentation/References/Button/2026-10-15/secondary-42596-296718.png",
+      "imageSHA256": "b7e55c11c4f5a17bd4baba8813756dfe22f8a8cc6a0f8cbe01294cd97ea98d29"
+    }
+  ]
+}

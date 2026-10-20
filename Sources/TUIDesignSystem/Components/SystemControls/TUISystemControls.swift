@@ -1,5 +1,54 @@
 import SwiftUI
 
+public enum TUISystemSwitchPlatform: String, CaseIterable, Sendable {
+    case iOS18 = "iOS 18"
+    case iOS26 = "iOS 26"
+
+    public static var current: Self {
+        if #available(iOS 26.0, *) { .iOS26 } else { .iOS18 }
+    }
+}
+
+/// Figma's native switch state matrix. The rendered control remains the OS-native `Toggle`.
+public struct TUISystemSwitchVariant: Identifiable, Equatable, Sendable {
+    public let platform: TUISystemSwitchPlatform
+    public let isOn: Bool
+    public let isEnabled: Bool
+
+    public init(platform: TUISystemSwitchPlatform, isOn: Bool, isEnabled: Bool) {
+        self.platform = platform
+        self.isOn = isOn
+        self.isEnabled = isEnabled
+    }
+
+    public var id: String { figmaNodeID }
+
+    public var figmaNodeID: String {
+        switch (platform, isOn, isEnabled) {
+        case (.iOS18, true, true): "18:707"
+        case (.iOS18, true, false): "18:715"
+        case (.iOS18, false, true): "18:723"
+        case (.iOS18, false, false): "18:727"
+        case (.iOS26, false, true): "88671:44070"
+        case (.iOS26, true, true): "88671:44072"
+        case (.iOS26, true, false): "90225:32220"
+        case (.iOS26, false, false): "90225:32222"
+        }
+    }
+
+    public static let all: [Self] = TUISystemSwitchPlatform.allCases.flatMap { platform in
+        [false, true].flatMap { isOn in
+            [true, false].map { isEnabled in
+                Self(platform: platform, isOn: isOn, isEnabled: isEnabled)
+            }
+        }
+    }
+
+    public static func current(isOn: Bool, isEnabled: Bool) -> Self {
+        Self(platform: .current, isOn: isOn, isEnabled: isEnabled)
+    }
+}
+
 /// Uses the operating system's switch, including its iOS 26 appearance and motion.
 public struct TUISystemSwitch: View {
     @Binding public var isOn: Bool
@@ -19,6 +68,56 @@ public struct TUISystemSwitch: View {
             .disabled(!isEnabled)
             .accessibilityLabel(label)
     }
+}
+
+public enum TUISystemActionSheetPlatform: String, CaseIterable, Sendable {
+    case iOS18 = "iOS 18"
+    case iOS26 = "iOS 26"
+
+    public static var current: Self {
+        if #available(iOS 26.0, *) { .iOS26 } else { .iOS18 }
+    }
+}
+
+/// Platform-specific Figma reference for the system-provided confirmation dialog.
+public struct TUISystemActionSheetVariant: Identifiable, Equatable, Sendable {
+    public let platform: TUISystemActionSheetPlatform
+
+    public init(platform: TUISystemActionSheetPlatform) {
+        self.platform = platform
+    }
+
+    public var id: String { figmaNodeID }
+    public var figmaNodeID: String { platform == .iOS18 ? "1444:3120" : "90500:303337" }
+
+    public static let all = TUISystemActionSheetPlatform.allCases.map(Self.init(platform:))
+    public static var current: Self { Self(platform: .current) }
+}
+
+public struct TUISystemContextMenuVariant: Identifiable, Equatable, Sendable {
+    public let isDarkMode: Bool
+
+    public init(isDarkMode: Bool) {
+        self.isDarkMode = isDarkMode
+    }
+
+    public var id: String { figmaNodeID }
+    public var figmaNodeID: String { isDarkMode ? "53489:297102" : "53362:296600" }
+
+    public static let all = [Self(isDarkMode: false), Self(isDarkMode: true)]
+}
+
+public struct TUISystemShareSheetVariant: Identifiable, Equatable, Sendable {
+    public let isDarkMode: Bool
+
+    public init(isDarkMode: Bool) {
+        self.isDarkMode = isDarkMode
+    }
+
+    public var id: String { figmaNodeID }
+    public var figmaNodeID: String { isDarkMode ? "44737:304939" : "44720:304565" }
+
+    public static let all = [Self(isDarkMode: false), Self(isDarkMode: true)]
 }
 
 public struct TUISystemMenuAction: Identifiable {

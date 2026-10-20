@@ -1,0 +1,117 @@
+{
+  "sourceReport": "TUIDesignSystemCatalog-2026-10-12-134135.ips",
+  "exception": {
+    "codes": "0x0000000000000001, 0x00000001801baf5c",
+    "rawCodes": [
+      1,
+      6444265308
+    ],
+    "type": "EXC_BREAKPOINT",
+    "signal": "SIGTRAP"
+  },
+  "termination": {
+    "flags": 0,
+    "code": 5,
+    "namespace": "SIGNAL",
+    "indicator": "Trace/BPT trap: 5",
+    "byProc": "exc handler",
+    "byPid": 75301
+  },
+  "frames": [
+    {
+      "imageOffset": 225116,
+      "symbol": "_dispatch_assert_queue_fail",
+      "symbolLocation": 104,
+      "imageIndex": 10
+    },
+    {
+      "imageOffset": 227696,
+      "symbol": "dispatch_assert_queue$V2.cold.1",
+      "symbolLocation": 136,
+      "imageIndex": 10
+    },
+    {
+      "imageOffset": 18904,
+      "symbol": "dispatch_assert_queue",
+      "symbolLocation": 84,
+      "imageIndex": 10
+    },
+    {
+      "imageOffset": 242308,
+      "symbol": "_swift_task_checkIsolatedSwift",
+      "symbolLocation": 32,
+      "imageIndex": 16
+    },
+    {
+      "imageOffset": 18280,
+      "symbol": "swift_task_isCurrentExecutorWithFlagsImpl(swift::SerialExecutorRef, swift::swift_task_is_current_executor_flag)",
+      "symbolLocation": 356,
+      "imageIndex": 16
+    },
+    {
+      "imageOffset": 3360812,
+      "sourceFile": "<stdin>",
+      "symbol": "closure #1 in TUIFloatingContainerFadeTransition.body(content:phase:)",
+      "symbolLocation": 208,
+      "imageIndex": 2
+    },
+    {
+      "imageOffset": 10835976,
+      "symbol": "View.transaction<A>(_:body:)",
+      "symbolLocation": 212,
+      "imageIndex": 8
+    },
+    {
+      "imageOffset": 10836252,
+      "symbol": "View.animation<A>(_:body:)",
+      "symbolLocation": 140,
+      "imageIndex": 8
+    },
+    {
+      "imageOffset": 3360384,
+      "sourceLine": 229,
+      "sourceFile": "TUIFloatingContainer.swift",
+      "symbol": "TUIFloatingContainerFadeTransition.body(content:phase:)",
+      "imageIndex": 2,
+      "symbolLocation": 452
+    },
+    {
+      "imageOffset": 3361084,
+      "sourceFile": "/<compiler-generated>",
+      "symbol": "protocol witness for Transition.body(content:phase:) in conformance TUIFloatingContainerFadeTransition",
+      "symbolLocation": 20,
+      "imageIndex": 2
+    },
+    {
+      "imageOffset": 5277032,
+      "symbol": "closure #1 in ViewListTransition.updateValue()",
+      "symbolLocation": 216,
+      "imageIndex": 8
+    },
+    {
+      "imageOffset": 5276604,
+      "symbol": "ViewListTransition.updateValue()",
+      "symbolLocation": 344,
+      "imageIndex": 8
+    },
+    {
+      "imageOffset": 1893076,
+      "symbol": "partial apply for implicit closure #1 in closure #1 in closure #1 in Attribute.init<A>(_:)",
+      "symbolLocation": 28,
+      "imageIndex": 8
+    },
+    {
+      "imageOffset": 46784,
+      "symbol": "AG::Graph::UpdateStack::update()",
+      "symbolLocation": 488,
+      "imageIndex": 17
+    },
+    {
+      "imageOffset": 107920,
+      "symbol": "AG::Subgraph::update(unsigned int)",
+      "symbolLocation": 952,
+      "imageIndex": 17
+    }
+  ],
+  "conclusion": "MainActor-isolated scoped animation body called by SwiftUI asynchronous graph update; this recording did not complete. Persisted events were from the preceding successful run."
+}

@@ -1,0 +1,90 @@
+const imgColor = "https://www.figma.com/api/mcp/asset/29628426-47cf-46ee-97b7-ca5904e6d1f6.svg";
+
+type TuiFloatingContainerProps = {
+  className?: string;
+  background?: "elevation-1";
+  content?: "action+legal";
+  showHomeIndicator?: boolean;
+  system?: "iOS";
+};
+
+function TuiFloatingContainer({ className, background = "elevation-1", content = "action+legal", showHomeIndicator = true, system = "iOS" }: TuiFloatingContainerProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[375px]"} data-node-id="55095:283930">
+      <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="55095:283932" data-name="fade">
+        <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="55095:283933" data-name="container">
+          <div className="absolute bg-[var(--tui-background-elevation-1,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="55095:283935" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] px-[var(--screen-padding,16px)] relative shrink-0 w-full" data-node-id="55095:283936" data-name="Buttons cont">
+        <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="55095:283937" data-name="tui-button">
+          <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I55095:283937;41658:296910" data-name="LabelCont">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I55095:283937;41658:296911">
+              Main action
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start justify-center min-h-[48px] px-[16px] relative shrink-0 w-full" data-node-id="55095:283938" data-name="LegalTextCont">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] text-center tracking-[-0.08px]" data-node-id="55095:283939">
+          Legal text, max 3 lines
+        </p>
+      </div>
+      {showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="55095:283941" data-name="system-bottom-bar">
+          <div className="h-[34px] relative shrink-0 w-full" data-node-id="I55095:283941;8956:350" data-name="cont">
+            <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I55095:283941;8956:351" data-name="bar" />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-floating-container
+**Node ID:** 44286:299509
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 41658:296907
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 41658:296906
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 5926:33072
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 24708:577310
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

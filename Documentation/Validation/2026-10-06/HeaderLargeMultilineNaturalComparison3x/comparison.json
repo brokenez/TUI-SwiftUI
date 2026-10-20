@@ -1,0 +1,97 @@
+{
+  "method": "Figma RGBA composited on white; actual native 3x PNG compared directly at 3x.",
+  "sourceScale": 3,
+  "automaticAcceptance": false,
+  "variants": [
+    {
+      "variantId": "17714:51940",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51940-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/F91FD29D-A61F-45CA-8F15-D61C3C352F77.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.00023931623931623932,
+      "maximumRGBDifference": 1,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51950",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51950-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/15994B2A-6BB6-482A-875E-A800DEA240DF.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.001754985754985755,
+      "maximumRGBDifference": 5,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51980",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51980-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/D0E05EB1-8B48-414A-A3A2-FBE92D6BD596.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.00023238925199709515,
+      "maximumRGBDifference": 1,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51990",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51990-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/D026DA0C-EF90-4350-A414-FA80A146EB50.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.0017893972403776326,
+      "maximumRGBDifference": 5,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "18083:44906",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/18083-44906-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/3C0D6530-886E-4D38-9914-7F871933EEE1.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.5404814814814815,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0069544159544159545
+    },
+    {
+      "variantId": "18083:44942",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/18083-44942-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/210A3596-CB70-4E47-A3BD-D4A345DF26BB.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.38800290486565,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0059114015976761075
+    },
+    {
+      "variantId": "42565:305013",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/42565-305013-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/818EF6BD-0495-4740-8BE4-98759F53022D.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.5394216524216524,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0069544159544159545
+    },
+    {
+      "variantId": "42565:305051",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/42565-305051-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/84B85639-3A92-4E79-A5E6-F37B254DE45F.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.38693391430646334,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0059114015976761075
+    },
+    {
+      "variantId": "547:151714",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/547-151714-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/332753F2-D99F-4F8F-8924-7D6425ED7014.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.45765242165242165,
+      "maximumRGBDifference": 202,
+      "pixelsOver16Fraction": 0.007074074074074074
+    },
+    {
+      "variantId": "547:151734",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/547-151734-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/02DE7406-C31F-4C8F-A71E-5EFFFAAE0573.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.3918324860808521,
+      "maximumRGBDifference": 202,
+      "pixelsOver16Fraction": 0.006605664488017429
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Attributes: Application, 0x1179c2300, pid: 82587, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x1179c2300, pid: 82587, label: 'TUIConsumer'
+    Window (Main), 0x1179c2440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1179c2580, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1179c26c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1179c2800, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1179c2940, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1179c2a80, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x1179c2bc0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x1179c2d00, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x1179c2e40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1179c2f80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1179c3480, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1179c35c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x1179c3700, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x1179c3840, {{29.7, 176.3}, {298.7, 106.0}}, label: 'Настройки
+уведомлений, Получать новости сервиса'
+                          StaticText, 0x1179c3980, {{29.5, 176.7}, {200.3, 72.0}}, label: 'Настройки
+уведомлений'
+                          StaticText, 0x1179c3ac0, {{29.5, 264.0}, {192.7, 18.0}}, label: 'Получать новости сервиса'
+                        Button, 0x1179c3c00, {{344.3, 189.3}, {28.3, 20.0}}, label: 'Все'
+                        StaticText, 0x1179c3d40, {{147.3, 322.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x1179c3e80, {{162.2, 358.7}, {77.7, 20.3}}, label: 'Ссылок: 1'
+                        StaticText, 0x10a3ec280, {{128.7, 395.0}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x10a3ec3c0, {{98.2, 431.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x10a3ec500, {{150.0, 467.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x10a3ec640, {{133.7, 504.0}, {135.0, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, baselineLink'
+                          StaticText, 0x10a3ec780, {{145.7, 511.0}, {94.7, 20.3}}, label: 'baselineLink'
+                Other, 0x10a3ec8c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10a3eca00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1179c2300, pid: 82587, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x10a3ecb40, pid: 82587, label: 'TUIConsumer'
+  }

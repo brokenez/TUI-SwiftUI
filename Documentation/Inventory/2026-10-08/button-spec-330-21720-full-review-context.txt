@@ -1,0 +1,386 @@
+const imgTuiIcFixedColorCrossCircleNegative = "[TEMPORARY_ASSET_URL]";
+const imgTuiIcFixedColorCheckCirclePositive = "[TEMPORARY_ASSET_URL]";
+const imgStart = "[TEMPORARY_ASSET_URL]";
+const imgTuiButton = "[TEMPORARY_ASSET_URL]";
+const imgStart1 = "[TEMPORARY_ASSET_URL]";
+const imgBullet = "[TEMPORARY_ASSET_URL]";
+const imgTemplateApplicationCells = "[TEMPORARY_ASSET_URL]";
+
+function TuiIcFixedColorCrossCircleNegative({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="14302:38532" data-name="tui-ic-fixed-color / cross-circle-negative">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCrossCircleNegative} />
+    </div>
+  );
+}
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="32862:46" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+
+type StatusProps = {
+  className?: string;
+  rule?: "Right";
+};
+
+function Status({ className, rule = "Right" }: StatusProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[8px] items-start relative"} data-node-id="32862:53">
+      <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+      <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="32862:57">
+        Правильно
+      </p>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="330:21720" data-name="Общее для всех кнопок">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="330:21721" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I330:21721;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:21721;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Общее для всех кнопок
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="330:22053" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I330:22053;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22053;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Назначение — запускать действие
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I330:22053;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I330:22053;9462:7170">
+            Кнопка — компонент, который побуждает пользователя произвести какое‑то действие или сделать выбор. Например, положить товар в корзину или заказать карту, дать согласие на обработку данных, подтвердить другие действие и т.п.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="330:22054" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-center overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I330:22054;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22054;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22054;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I330:22054;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[16px] items-center justify-center left-1/2 top-1/2" data-node-id="I330:22054;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I330:22054;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[128px]" data-node-id="I330:22054;9469:7126;475:2321;475:2285;525:2116" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I330:22054;9469:7126;475:2321;475:2287" data-name="Instance Container">
+              <div className="relative shrink-0 size-[128px]" data-node-id="I330:22054;9469:7126;475:2321;475:2287;525:2116" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I330:22054;9469:7126;475:2321;475:2291" data-name="Instance Container">
+              <div className="relative shrink-0 size-[128px]" data-node-id="I330:22054;9469:7126;475:2321;475:2291;525:2116" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I330:22054;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="330:22079" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I330:22079;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22079;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Кнопка — это не ссылка
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I330:22079;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I330:22079;9462:7170">
+            Граница между кнопками и ссылками размыта, однако кнопка отличается тем, что она заметнее и почти никогда не используется просто для перехода на другую страницу. Если мы переходим на другую страницу по кнопке, это скорее всего связано с каким‑то действием или функцией, а не является просто инструментом перехода
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="330:22083" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I330:22083;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22083;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как использовать состояния загрузки
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I330:22083;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I330:22083;9462:7170">
+            Когда нужно отобразить состояние загрузки при нажатии на кнопку — вставляем внутрь лоадер. Менять текст нельзя
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="330:22087" data-name="Rules 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I330:22087;9462:7294" data-name="Rules 1">
+          <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I330:22087;9469:7138" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22087;9469:7138;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22087;9469:7138;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I330:22087;9469:7138;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[12px] items-center justify-center left-1/2 top-1/2" data-node-id="I330:22087;9469:7138;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I330:22087;9469:7138;475:2321;475:2295" data-name="Instance Container">
+                <div className="relative shrink-0 size-[128px]" data-node-id="I330:22087;9469:7138;475:2321;475:2295;525:2116" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I330:22087;9469:7138;8349:7195">
+              ...
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I330:22087;9462:7295" data-name="Status">
+            <TuiIcFixedColorCrossCircleNegative className="relative shrink-0 size-[24px]" />
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22087;9462:7295;9460:7248">
+              Неправильно
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I330:22087;9462:7301" data-name="Rules 2">
+          <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I330:22087;9469:7179" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22087;9469:7179;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I330:22087;9469:7179;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I330:22087;9469:7179;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[12px] items-center justify-center left-1/2 top-1/2" data-node-id="I330:22087;9469:7179;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I330:22087;9469:7179;475:2321;475:2295" data-name="Instance Container">
+                <div className="relative shrink-0 size-[128px]" data-node-id="I330:22087;9469:7179;475:2321;475:2295;525:2116" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I330:22087;9469:7179;8349:7195">
+              ...
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I330:22087;9462:7305" data-name="Status">
+            <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22087;9462:7305;9460:7251">
+              Правильно
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="330:22186" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I330:22186;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22186;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как использовать Disabled-состояния
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I330:22186;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I330:22186;9462:7170">
+            Мы стараемся не блокировать кнопки в большинстве случаев, чтобы не путать пользователей и давать им очевидную обратную связь.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="330:22191" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I330:22191;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I330:22191;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22191;9460:7064;9460:7062">
+            На формах вместо блокировки кнопки оставляйте ее активной, а при клике валидируйте поля или показывайте toast-нотификации
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I330:22191;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I330:22191;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I330:22191;9460:7070;9460:7062">
+            Допускается включение disabled состояний, если вся форма или блок находится в состоянии загрузки
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="1818:21212" data-name="Rules 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I1818:21212;9462:7294" data-name="Rules 1">
+          <div className="content-stretch flex flex-col gap-[900px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I1818:21212;9469:7138" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I1818:21212;9469:7138;9469:7234" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I1818:21212;9469:7138;9469:7235" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I1818:21212;9469:7138;5375:1824" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I1818:21212;9469:7138;9470:7246" data-name="Instance Container">
+              <div className="relative shrink-0 size-[375px]" data-node-id="I1818:21212;9469:7138;9470:7246;609:2046" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTemplateApplicationCells} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I1818:21212;9469:7138;8349:7026">
+              ...
+            </p>
+          </div>
+          <Status className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" />
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I1818:21212;9462:7301" data-name="Rules 2">
+          <div className="content-stretch flex flex-col gap-[900px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I1818:21212;9469:7179" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I1818:21212;9469:7179;9469:7234" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I1818:21212;9469:7179;9469:7235" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I1818:21212;9469:7179;5375:1824" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I1818:21212;9469:7179;9470:7246" data-name="Instance Container">
+              <div className="relative shrink-0 size-[375px]" data-node-id="I1818:21212;9469:7179;9470:7246;609:2046" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTemplateApplicationCells} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I1818:21212;9469:7179;8349:7026">
+              ...
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1818:21212;9462:7305" data-name="Status">
+            <TuiIcFixedColorCrossCircleNegative className="relative shrink-0 size-[24px]" />
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I1818:21212;9462:7305;9460:7248">
+              Disable в формах не используем
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Text/primary: #000000, Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Service/navbar: #FFFFFF, blur-navbar: Effect(type: BACKGROUND_BLUR, radius: 40), iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Day/Background/base-ios: #FFFFFF.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 32862:25087
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-ic-fixed-color / cross-circle-negative
+**Node ID:** 14302:38532
+
+cancel, delete, remove, X
+
+## tui-loader
+**Node ID:** 29373:30708
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 32862:46
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## template-application-cells
+**Node ID:** 32862:23983
+
+Дизайн-шаблон экрана флоу заявки
+
+## Appearance=Light Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 32862:20807
+
+⚪ Not In TUI (Native)
+
+## system-status-bar
+**Node ID:** 32862:20793
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-notification-toast
+**Node ID:** 32862:39554
+
+ℹ️ Отступ зашит, прижимаем к верху основного фрейма
+
+  
+
+Только для уведомлений, незавиcящих напрямую от действий пользователя, например если отпал или восстановился интернет
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-notification-toast-specs](https://go.tcsbank.ru/tui-notification-toast-specs)
+
+## tui-header [large]
+**Node ID:** 32862:23466
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-cell [checkbox]
+**Node ID:** 32862:24575
+
+Ячейка с чекбоксом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## system=iOS, state=normal
+**Node ID:** 32862:24547
+
+⚪ Not In TUI (Native)
+
+## system-checkbox
+**Node ID:** 32862:24543
+
+Стилизованный системный чекбокс
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-checkbox](https://go.tcsbank.ru/tui-checkbox)
+
+## tui-floating-container
+**Node ID:** 32862:23873
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=accent, state=normal, skeleton=off
+**Node ID:** 32862:15286
+
+Ex. primary-accent
+
+## tui-button
+**Node ID:** 32862:15276
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 32862:23728
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 32862:23699
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## system=ios, size=large, appearance=accent, state=disabled, skeleton=off
+**Node ID:** 32862:15297
+
+Ex. primary-accent
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

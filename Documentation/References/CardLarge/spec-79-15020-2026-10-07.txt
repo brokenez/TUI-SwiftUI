@@ -1,0 +1,68 @@
+<frame id="79:15020" name="Кастомизация" x="3348" y="-3629" width="1190" height="11297">
+  <instance id="79:15021" name="H1 + P" x="128" y="128" width="934" height="132" />
+  <instance id="79:15022" name="H2 + P" x="128" y="260" width="934" height="152" />
+  <frame id="79:15023" name="image" x="128" y="412" width="934" height="448">
+    <frame id="79:15024" name="img-placeholder" x="0" y="0" width="934" height="400">
+      <vector id="79:15025" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="79:15026" name="end" x="0" y="400" width="760" height="0" />
+      <instance id="79:15027" name="tui-card-large" x="131" y="91" width="672" height="218" />
+      <instance id="79:15028" name="Instance Container" x="225" y="118" width="40" height="40" hidden="true" />
+      <instance id="79:15029" name="Instance Container" x="277" y="118" width="40" height="40" hidden="true" />
+      <instance id="79:15030" name="Instance Container" x="329" y="118" width="40" height="40" hidden="true" />
+      <instance id="79:15031" name="Instance Container" x="381" y="118" width="40" height="40" hidden="true" />
+    </frame>
+  </frame>
+  <instance id="79:15032" name="Paragraph" x="128" y="860" width="934" height="72" />
+  <frame id="79:15033" name="image" x="128" y="932" width="934" height="448">
+    <frame id="79:15034" name="img-placeholder" x="0" y="0" width="934" height="400">
+      <instance id="79:15035" name="tui-card-large" x="111" y="100" width="340" height="200" />
+      <instance id="79:15036" name="tui-card-large" x="483" y="100" width="340" height="200" />
+    </frame>
+  </frame>
+  <instance id="79:15037" name="H2 + P" x="128" y="1380" width="934" height="88" />
+  <instance id="281:17640" name="List Bulleted" x="128" y="1468" width="934" height="149" />
+  <instance id="79:15038" name="Image 1x1" x="128" y="1617" width="934" height="392" />
+  <instance id="79:15039" name="H2 + P" x="128" y="2009" width="934" height="152" />
+  <instance id="79:15040" name="Image 1x1" x="128" y="2161" width="934" height="432" />
+  <instance id="79:15041" name="H2 + P" x="128" y="2593" width="934" height="180" />
+  <instance id="79:15042" name="H2 + P" x="128" y="2773" width="934" height="152" />
+  <instance id="79:15043" name="Image 1x1" x="128" y="2925" width="934" height="392" />
+  <instance id="79:15044" name="Paragraph" x="128" y="3317" width="934" height="44" />
+  <instance id="79:15045" name="Image 1x1" x="128" y="3361" width="934" height="392" />
+  <instance id="79:15046" name="Paragraph" x="128" y="3753" width="934" height="44" />
+  <instance id="79:15047" name="Image 1x1" x="128" y="3797" width="934" height="432" />
+  <instance id="4600:11827" name="Paragraph" x="128" y="4229" width="934" height="44" />
+  <instance id="4600:11789" name="Image 1x1" x="128" y="4273" width="934" height="432" />
+  <instance id="79:15048" name="H2 + P" x="128" y="4705" width="934" height="124" />
+  <instance id="79:15049" name="Image 1x1" x="128" y="4829" width="934" height="432" />
+  <instance id="79:15050" name="Paragraph" x="128" y="5261" width="934" height="44" />
+  <instance id="79:15051" name="Image 1x1" x="128" y="5305" width="934" height="432" />
+  <instance id="79:15052" name="Paragraph" x="128" y="5737" width="934" height="72" />
+  <instance id="79:15053" name="Image 1x1" x="128" y="5809" width="934" height="432" />
+  <instance id="1772:29035" name="Paragraph" x="128" y="6241" width="934" height="44" />
+  <instance id="1772:35096" name="Image 1x1" x="128" y="6285" width="934" height="432" />
+  <instance id="79:15054" name="Paragraph" x="128" y="6717" width="934" height="44" />
+  <instance id="79:15055" name="Image 1x1" x="128" y="6761" width="934" height="432" />
+  <instance id="79:15056" name="Paragraph" x="128" y="7193" width="934" height="72" />
+  <instance id="79:15057" name="Image 1x1" x="128" y="7265" width="934" height="432" />
+  <instance id="79:15058" name="H2 + P" x="128" y="7697" width="934" height="124" />
+  <instance id="79:15059" name="Image 1x1" x="128" y="7821" width="934" height="622" />
+  <instance id="12501:13445" name="Paragraph" x="128" y="8443" width="934" height="40" />
+  <instance id="12501:13404" name="Image 1x1" x="128" y="8483" width="934" height="622" />
+  <instance id="216:11388" name="Paragraph" x="128" y="9105" width="934" height="40" />
+  <instance id="216:11358" name="Image 1x1" x="128" y="9145" width="934" height="432" />
+  <instance id="79:15060" name="H2 + P" x="128" y="9577" width="934" height="124" />
+  <frame id="79:15061" name="image" x="128" y="9701" width="934" height="448">
+    <frame id="79:15062" name="img-placeholder" x="0" y="0" width="934" height="400">
+      <vector id="79:15063" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="79:15064" name="end" x="0" y="400" width="760" height="0" />
+      <instance id="79:15065" name="tui-card-large" x="75" y="84" width="783" height="204" />
+    </frame>
+  </frame>
+  <instance id="2264:19307" name="H2 + P" x="128" y="10149" width="934" height="124" />
+  <instance id="2264:19322" name="Image 1x1" x="128" y="10273" width="934" height="432" />
+  <instance id="2264:19404" name="Paragraph" x="128" y="10705" width="934" height="72" />
+  <instance id="2264:19405" name="Rules 2x1" x="128" y="10777" width="934" height="392" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

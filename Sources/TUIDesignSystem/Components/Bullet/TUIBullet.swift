@@ -5,11 +5,19 @@ public enum TUIBulletType: String, CaseIterable, Sendable {
     case accent = "Bullet - Accent"
     case opposite = "Bullet - Opposite"
 
+    public var figmaNodeID: String {
+        switch self {
+        case .primary: "53309:296334"
+        case .accent: "53309:296336"
+        case .opposite: "53480:295831"
+        }
+    }
+
     var color: Color {
         switch self {
-        case .primary: Color(red: 1, green: 221 / 255, blue: 45 / 255)
-        case .accent: Color(red: 66 / 255, green: 139 / 255, blue: 249 / 255)
-        case .opposite: .black
+        case .primary: TUIColor.accent
+        case .accent: TUIColor.named("Status/Info", fallback: 0x428BF9)
+        case .opposite: TUIColor.named("Background/Accent Opposite", fallback: 0x000000)
         }
     }
 }
@@ -26,6 +34,7 @@ public struct TUIBullet: View {
         Circle()
             .fill(type.color)
             .frame(width: 6, height: 6)
+            .accessibilityIdentifier(type.figmaNodeID)
             .accessibilityLabel(type.rawValue)
     }
 }

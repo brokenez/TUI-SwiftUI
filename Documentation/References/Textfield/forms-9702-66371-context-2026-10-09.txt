@@ -1,0 +1,61 @@
+import { imgColor } from "./svg-txlkt";
+type H2PProps = {
+  className?: string;
+  showBadge?: boolean;
+  showParagraph?: boolean;
+  titleText?: string;
+};
+
+function H2P({ className, showBadge = false, showParagraph = true, titleText = "## H2" }: H2PProps) {
+  const isNotShowParagraph = !showParagraph;
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--indents\\/bottom-indent-l,32px)] pt-[var(--indents\\/top-indent-s,16px)] relative w-[934px]"} id={isNotShowParagraph ? "node-22232_19526" : "node-22232_19525"}>
+      <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" id={isNotShowParagraph ? "node-22232_19533" : "node-22232_19527"} data-name="## H2">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="22232:19528" style={{ fontFeatureSettings: '"liga" 0' }}>
+          {titleText}
+        </p>
+        {showBadge && (
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="22232:19529" data-name="badge">
+            {showBadge && (
+              <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="22232:19530" data-name="tui-badge">
+                <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I22232:19530;6917:52779" data-name="IconCont">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I22232:19530;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                    <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I22232:19530;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I22232:19530;6917:52781" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I22232:19530;6917:52782">
+                    story-name
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+      {showParagraph && (
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="22232:19531" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="22232:19532">
+            Paragraph
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function H2P1() {
+  return <H2P className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative size-full" showParagraph={false} titleText="Кнопка «Дальше» / «Готово»" />;
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/Textfield/FormsAssets/9702-66371/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

@@ -1,0 +1,62 @@
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/eb33783d-fd35-410c-8766-6dba9b879daa.svg";
+
+type TuiButtonProps = {
+  className?: string;
+  appearance?: "floating";
+  icon?: React.ReactNode | null;
+  showIcon?: boolean;
+  showLabel?: boolean;
+  size?: "medium";
+  skeleton?: "off";
+  state?: "normal";
+  system?: "ios";
+  text?: string;
+};
+
+function TuiButton({ className, appearance = "floating", icon = null, showIcon = false, showLabel = true, size = "medium", skeleton = "off", state = "normal", system = "ios", text = "Label" }: TuiButtonProps) {
+  return (
+    <div className={className || "bg-[var(--tui-background-elevation-1,white)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[var(--tui-button\\/radius-medium,12px)] shadow-[0px_var(--hide-from-publishing\\/shadow\\/small\\/y-axis,5px)_var(--hide-from-publishing\\/shadow\\/small\\/blur,20px)_0px_var(--hide-from-publishing\\/shadow\\/small\\/color,rgba(0,0,0,0.1))] w-[323px]"} data-node-id="49513:311400">
+      {showIcon && (
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="49513:311290" data-name="Left iconCont">
+          {showIcon &&
+            (icon || (
+              <div className="relative shrink-0 size-[24px]" data-node-id="49513:311291" data-name="tui-ic-medium / star">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+              </div>
+            ))}
+        </div>
+      )}
+      {showLabel && (
+        <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[3px] relative shrink-0" data-node-id="49513:311292" data-name="LabelCont">
+          <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="49513:311293">
+            {text}
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Small: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 41658:296906
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

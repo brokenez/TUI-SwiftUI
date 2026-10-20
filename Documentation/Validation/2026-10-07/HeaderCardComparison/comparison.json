@@ -1,0 +1,69 @@
+{
+  "automaticAcceptance": false,
+  "method": "Actual native 3x pixels downsampled to Figma 1x with LANCZOS, white backing. No alignment shifts or color changes. Switch native screenshot captures a real fixed 375\u00d780 view at its measured screen origin.",
+  "variants": [
+    {
+      "variantID": "17714:53773",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/17714-53773-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/68E00287-6435-4860-B298-17F42CD0963D.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.0012666666666666666
+    },
+    {
+      "variantID": "17714:53869",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/17714-53869-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/018948E1-F152-46BD-BC55-D3D79DC49008.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.0015199999999999999
+    },
+    {
+      "variantID": "44217:298678",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/44217-298678-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/EE66267D-7E51-4A69-BDA0-1394C27C8D12.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.5667666666666666
+    },
+    {
+      "variantID": "44217:299480",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/44217-299480-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/B721BF15-5178-4E32-A34A-0D57AFF29DA5.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.9100777777777779
+    },
+    {
+      "variantID": "44217:299616",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/44217-299616-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/9B314196-B92F-4DD0-B36D-B50E5A006A94.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.9042333333333333
+    },
+    {
+      "variantID": "44217:299699",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/44217-299699-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardProbeUI/E7F047FB-DCC2-45FA-AD2D-1C390E8037A5.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 1.6780111111111111
+    },
+    {
+      "variantID": "44217:299799",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/44217-299799-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/5FB3924D-A44E-494C-AB64-5ACB7D1150B3.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.49165555555555557
+    },
+    {
+      "variantID": "59830:293851",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/59830-293851-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/0BA1634C-6DE5-4379-BA4D-511ACFCA566D.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 1.783368888888889
+    },
+    {
+      "variantID": "59830:293951",
+      "reference": "Documentation/References/HeaderCard/FigmaPNG/59830-293951-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/6610D6BE-3646-4EB2-AFCB-CAF06CAB32D8.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 1.72328
+    }
+  ]
+}

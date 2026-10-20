@@ -1,0 +1,103 @@
+const imgDimensionVer = "https://www.figma.com/api/mcp/asset/383d3b76-28e1-4551-ac27-d0045f1a8077.svg";
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/675d6da3-3288-465c-8444-c1f9bd685da2.svg";
+const imgDiamond = "https://www.figma.com/api/mcp/asset/2e981992-e964-42be-acf3-ac75c5238dbc.svg";
+
+function DimensionVer({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[8px] relative w-[5px]"} data-node-id="8319:43323" data-name=".DimensionVer">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+    </div>
+  );
+}
+
+export default function Image() {
+  return (
+    <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] size-full" data-node-id="730:20419" data-name="image">
+      <div className="bg-[#f6f7f8] h-[386px] relative rounded-[24px] shrink-0 w-full" data-node-id="730:20420" data-name="img-placeholder">
+        <div className="absolute bg-white content-stretch flex items-start left-[256px] min-h-[56px] px-[var(--padding,16px)] top-[165px] w-[374px]" data-node-id="730:20421" data-name="tui-cell">
+          <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I730:20421;41569:290639" data-name="Avatar">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I730:20421;41569:290640" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I730:20421;41569:290640;25745:690432" data-name="Container">
+                <div className="absolute inset-[20%]" data-node-id="I730:20421;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I730:20421;41569:290641" data-name="TextCont">
+            <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I730:20421;41569:290644" data-name="TitleCont">
+              <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I730:20421;41569:290645" data-name="CellTitleCont">
+                <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I730:20421;41569:290646">
+                  Mobile Cell
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I730:20421;41569:290647" data-name="DescriptionCont">
+              <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I730:20421;41569:290648" data-name="TitleDescriptionCont">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I730:20421;41569:290649">
+                  Description
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[56px] left-[643px] top-[165px] w-[36px]" data-node-id="730:20422" data-name="Height - Right">
+          <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+          <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I730:20422;5686:348" data-name="comment-arrow">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="I730:20422;5686:348;5686:15">
+              <div className="flex-none rotate-180">
+                <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                  <div className="absolute inset-[0_5.18%_0_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgDiamond} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I730:20422;5686:348;5685:1160" data-name="comment-arrow">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--tui-text-primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I730:20422;5686:348;5685:1160;5685:1099">
+                min 56
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), iOS/UI XS: Font(family: "SF Pro Text", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-cell
+**Node ID:** 30370:20402
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 30333:13681
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

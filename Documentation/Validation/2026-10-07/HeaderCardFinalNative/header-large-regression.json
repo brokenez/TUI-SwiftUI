@@ -1,0 +1,257 @@
+{
+  "reason": "Only private/internal access levels changed; render/layout implementation is unchanged. All common saved native PNGs compared without transforms.",
+  "images": [
+    {
+      "name": "header-17714-51940-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/66DBEE70-4F5A-4903-9871-A0C708664523.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/DB07FDA7-2800-4972-8668-5645D89A82FD.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51940-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/48C802ED-A026-4C15-B266-D016ED7EC957.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/8283AC19-C8B3-42CD-A720-E614E1D45372.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51950-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/3783D1E1-B6A1-435B-B34B-49C5D247497B.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/2C75B132-B219-472F-AF5E-7EC84B6D7927.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51950-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A377E54F-0F57-423E-AA20-26551498FE6A.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/9D658C5C-D698-4D30-836B-4628012B0B8E.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51980-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/CA6CE7AC-D413-495E-881F-6E7C60E30B0A.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/9D74D935-9BDB-49BE-BCC3-32311A582E85.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51980-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/88CCA3F0-8E3B-4D31-B5FF-B88FC293A0AF.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/F69AA1DE-BBE2-4317-97AB-95508F322C80.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51990-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/55522B1F-D9E3-413A-AB58-199E21F2AED9.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/96A1797B-C68A-43E8-A357-302250FDAC08.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-17714-51990-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A06EAD3F-35CC-4184-9E3D-F6BC809AE901.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/B2C051F3-B054-45CC-B7B6-1A5813038ABA.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-18083-44906-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/5BB51431-EEC0-4D1C-9E5C-35803356BA25.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/BDCD3DD0-EA80-4D6E-B545-E0AD2D650304.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-18083-44906-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/DC020935-1322-47FE-8821-BFC226B76B8F.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/684AC669-C61C-43DE-A9CE-BD055ED330DA.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-18083-44942-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/0325ACDA-EA12-4C81-8C31-D4EB89440D03.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/B98926B7-6DC9-413D-8EB0-112BD7C551DF.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-18083-44942-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/08FF5596-5A86-4F87-9CE0-01C99B74EF23.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/0DEFE5BB-F3BA-48F9-A1B5-7D9DAD6D794C.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-42565-305013-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/44675CF6-8F45-45A1-BF88-FA9537BBD178.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/18DFD7C3-B6A5-42EC-BFA8-1A19B1076E58.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-42565-305013-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/CCC0CE67-D81A-4B5A-9ADF-629CCC63F6D3.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/F83C412F-E806-46B5-88BF-60993ADD2CD6.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-42565-305051-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/691892B3-B37A-4E4A-9406-085E99121003.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/0F826190-360C-44C8-B8AC-51F75D868073.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-42565-305051-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A61F5DFC-A56A-47E0-ADDB-6F6158A06E44.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/D0B0A698-EA12-40F3-90C0-575E9E309191.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-547-151714-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/09F94752-C88E-4190-9D05-F1AAD482658F.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/91481E7E-676C-4E61-80EB-8B928DCDDE7D.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-547-151714-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/B3D969ED-4797-47AF-9C49-EEC133205BCA.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/F383BFB6-072C-498C-BA03-D5BB7E213576.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-547-151734-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/A6E4B0A8-A038-405A-989B-DF8A93232BA3.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/2EDF8AD8-F80F-4C40-9012-077039482A13.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-547-151734-night-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/DF0A1A22-3D06-476E-8287-8B7BBC7F974D.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/840034D9-EE99-4009-BEC4-9E15C4660555.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-accessory-inline-ax1-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/E7A9DEC1-032B-4B04-A844-5A2EAB6C18E6.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/62EDAF1F-6B7D-4DD6-B824-99A231A2C6F0.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-accessory-reflow-ax1-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/9B4DE8EA-019A-49FD-AF2A-D97D1B31535D.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/3C5BE624-93C5-48C8-AE80-184629A5027D.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-accessory-reflow-ax5-capped-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/876A90DE-2E4F-49B1-BDDB-E9686B208E87.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/DBF4AF11-63E3-449A-AA28-B7B380951784.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-avatar-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/12F94AB6-248A-441F-BE14-C6637E1B2C6E.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/9C3E600F-FC2F-42F9-A53C-2B98061E9538.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-description-reflow-ax1-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/28A44228-5C23-4D71-9303-E53065708313.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/1B154D5B-B81A-4606-92F3-DD01D290D17E.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-fade-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/2F46CAFA-95F3-4BD7-911B-CB32BC0650DE.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/E922B25B-606E-445F-814C-E63D5A4A0D39.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-faded-label-visible-suffix-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/08FAF361-EC35-4268-97F3-D5C7F2AFE790.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/74053D03-C792-485F-93C5-87E2E18A29EE.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-link-accessory-firstBaseline-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/287AFD5F-AC08-41D9-AC8C-701AA5B3247A.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/C06D138A-0F58-4BFE-A1D4-B677B06AF2E7.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-link-accessory-firstLineCenter-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/8D37A49B-4E75-44C5-BE39-BC00F684B4B8.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/3939D73E-46B8-4C19-B9D9-4E4162F7EFCC.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-explicit-paragraph-limit-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/1B9ABACA-B14F-49B7-9A54-566178BA52CE.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/E7F26A21-D95E-4C32-9836-87B5F03ACB00.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-native-full-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/5651F4ED-4786-4852-B37D-102D2DE2E48A.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/41D8FE46-E704-4A3A-9A1E-7D65A9D81479.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-native-three-lines-fade-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/333F4CF2-DA2B-4B20-A711-850B342C11C3.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/68DB51A0-3467-4732-9204-6E4851FF765F.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-slot-bottom-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/5E3F320F-E21C-4A56-B634-BEEAB337AD0B.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/B66936B0-17F2-4607-9F67-B729CEC5D199.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-slot-center-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/7A2C62D7-3D87-4F54-8214-BECD1526150C.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/1F4EB552-1FEF-4A86-B780-BB340A5DAACF.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-slot-firstBaseline-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/EDFB560F-231D-40D4-9797-9D622F816BA0.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/1357CE2F-CE52-47FB-AD1A-106EC2602492.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-slot-firstLineCenter-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/16E92E2E-43B3-48EE-B131-D48979537D48.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/9AC68FF6-0B1E-4479-8016-449A57EC1E89.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-multiline-slot-top-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/080E9630-4E97-4CB2-AAFE-9A38928D84A4.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/FD989A86-7B43-4433-9852-E2CAFB31D45B.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-native-inline-symbol-wrap-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/7263818F-EEAC-4DFE-B847-9F0E8AA85CB5.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/3BD3C712-2875-4540-BA2F-586551BB1594.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-natural-multiline-final-word-fade-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/D25A9ABD-1CED-46BE-A4BA-C71EFE8F75D9.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/B7773795-3986-4894-BF8A-81521BCA22D6.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-no-subheader-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/813EF598-82BA-4357-AD3E-C1A56070DA22.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/53CCA2FE-9FD7-4740-8894-5736E20724D4.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-short-label-suffix-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/8617EFC5-E499-4FBC-BC46-DCDEBA16BA0F.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/30CA81AA-0A60-43CC-899C-A1FFFD40985C.png",
+      "pixelIdentical": true
+    },
+    {
+      "name": "header-wrap-day-3x",
+      "baseline": "Documentation/Validation/2026-10-06/HeaderLargeFullAcceptanceNative/4F65E426-D0B7-4DAA-943C-AF35F9C23B78.png",
+      "current": "Documentation/Validation/2026-10-07/HeaderCardFinalNative/2E53A8B8-C879-432F-9566-238975CB0475.png",
+      "pixelIdentical": true
+    }
+  ]
+}

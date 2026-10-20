@@ -1,0 +1,369 @@
+const img202601191231261 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img202601191243081 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const img202601191245441 = "[TEMPORARY_ASSET_URL_REDACTED]";
+
+type CardHeaderProps = {
+  className?: string;
+  content?: "off";
+};
+
+function CardHeader({ className, content = "off" }: CardHeaderProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="24900:15411">
+      <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="24900:15416" data-name="card-container" />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="10828:887" data-name="Построение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10828:888" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I10828:888;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:888;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Базовая логика
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I10828:888;9462:7159" data-name="Paragraph">
+          <div className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:888;9462:7160">
+            <p className="mb-0">
+              <span className="leading-[24px]">{`Анимация частиц представляет собой эффект, при котором текст или изображение «распадается» на множество отдельных частиц, которые затем могут «собраться» обратно в исходную форму. Эффект поддерживает два основных состояния: `}</span>
+              <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] not-italic">разлёт (explosion)</span>
+              <span className="leading-[24px]">{` и `}</span>
+              <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] not-italic">сборка (gathering)</span>
+            </p>
+            <p>
+              <span className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px]">Примечание:</span>
+              <span className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px]">{` Описанные ниже числовые значения параметров и детали реализации могут изменяться, однако визуальный результат и общая логика сохранятся.`}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10828:889" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:889;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:889;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Стадия инициализации (создание маски)
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0 w-[934px]" data-node-id="10828:1003" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1003;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1003;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Процесс генерации частиц
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10828:890" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I10828:890;9460:7064" data-name="Item">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I10828:890;9460:7064;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:890;9460:7064;9460:7139">
+              1.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Bold'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:890;9460:7064;9460:7137">
+            <span className="leading-[24px]">
+              Рендеринг исходного контента
+              <br aria-hidden />
+            </span>
+            <span className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px]">Исходный текст/изображение рендерится в растровое изображение (bitmap) с масштабом 1:1.</span>
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10828:890;9460:7070" data-name="Item">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I10828:890;9460:7070;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:890;9460:7070;9460:7139">
+              2.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:890;9460:7070;9460:7137">
+            <span className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px]">Определение области размещения</span>
+            <span className="leading-[24px]">
+              <br aria-hidden />
+              Вычисляется центр холста и смещение для центрирования контента.
+            </span>
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10828:890;9460:7077" data-name="Item">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I10828:890;9460:7077;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:890;9460:7077;9460:7139">
+              3.
+            </p>
+          </div>
+          <div className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:890;9460:7077;9460:7137">
+            <p className="mb-0">
+              <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] not-italic">Случайная выборка пикселей</span>
+              <span className="leading-[24px]">
+                <br aria-hidden />
+                Для каждой частицы:
+              </span>
+            </p>
+            <ul className="list-disc">
+              <li className="mb-0 ms-[22.5px]">
+                <span className="leading-[24px]">Выбирается случайная позиция (x,y) внутри растрового изображения</span>
+              </li>
+              <li className="leading-[24px] mb-0 ms-[22.5px]">
+                Проверяется альфа-канал пикселя (порог прозрачности: α ≥ 32<span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] not-italic">{` `}</span>
+                <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] not-italic">из</span>
+                <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] not-italic">{` `}</span>255)
+              </li>
+              <li className="mb-0 ms-[22.5px]">
+                <span className="leading-[24px]">Если пиксель достаточно непрозрачный — позиция принимается</span>
+              </li>
+              <li className="ms-[22.5px]">
+                <span className="leading-[24px]">Если прозрачный — выбор повторяется до нахождения подходящего пикселя</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I10828:890;9460:7087" data-name="Item">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I10828:890;9460:7087;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:890;9460:7087;9460:7139">
+              4.
+            </p>
+          </div>
+          <div className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:890;9460:7087;9460:7137">
+            <p className="mb-0">
+              <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] not-italic">Сохранение данных частицы</span>
+              <span className="leading-[24px]">
+                <br aria-hidden />
+                Для каждой частицы запоминаются:
+              </span>
+            </p>
+            <ul className="leading-[24px] list-disc">
+              <li className="mb-0 ms-[22.5px]">
+                <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] not-italic">Базовая позиция</span>
+                {` — координаты в «собранном» состоянии (позиция в тексте)`}
+              </li>
+              <li className="mb-0 ms-[22.5px]">
+                <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] not-italic">Цвет</span>
+                {` — RGBA-значение пикселя из исходного изображения`}
+              </li>
+              <li className="ms-[22.5px]">
+                <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Bold'] not-italic">Целевая позиция разлёта</span>
+                {` — случайная точка на фиксированном расстоянии от базовой позиции (направление случайное, расстояние фиксированное)`}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="10828:1019" data-name="Item">
+        <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I10828:1019;9460:7135" data-name="Bullet">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1019;9460:7139">
+            5.
+          </p>
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10828:1019;9460:7137">
+          <span className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px]">Начальная позиция частицы</span>
+          <span className="leading-[24px]">
+            <br aria-hidden />
+          </span>
+          <span className="leading-[24px]">Ч</span>
+          <span className="leading-[24px]">астицы появляются рядом с базовой позицией (смещение ±0.5</span>
+          <span className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px]">{` `}</span>
+          <span className="leading-[24px]">пикселя)</span>
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] pt-[32px] relative shrink-0 w-[934px]" data-node-id="10828:1023" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1023;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1023;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Расчёт количества частиц
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[32px] relative shrink-0 w-full" data-node-id="10828:1046" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="10828:1047">
+          Количество частиц определяется по формуле:
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="10828:891" data-name="card-1x1">
+        <div className="content-stretch flex flex-col h-[124px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="10828:892" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" />
+          <div className="bg-[#f6f7f8] h-[92px] relative shrink-0 w-[934px]" data-node-id="10828:894" data-name="card-content">
+            <div className="absolute h-[76px] left-0 top-0 w-[902px]" data-node-id="10828:1050" data-name="Снимок экрана 2026-01-19 в 12.31.26 1">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute left-[13.86%] max-w-none size-full top-[0.19%]" src={img202601191231261} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col items-start left-0 overflow-clip top-[159px] w-[934px]" data-node-id="10828:895" data-name="Card Footer">
+            <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-bl-[var(--roundings\/card-rounding,24px)] rounded-br-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I10828:895;9499:6876" data-name="Footer Container" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="10828:1048" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="10828:1049">
+          Степень 0.7 обеспечивает субквадратичный рост — при увеличении площади текста количество частиц растёт медленнее, что предотвращает перегрузку на больших элементах.
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[48px] relative shrink-0 w-[934px]" data-node-id="10828:1051" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1051;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1051;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Обновление каждый кадр
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10828:1051;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:1051;9462:7170">
+            Каждый кадр для каждой частицы выполняются следующие шаги:
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0 w-[934px]" data-node-id="10828:1060" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1060;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1060;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            1. Обновление фазы левитации
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10828:1060;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:1060;9462:7170">
+            Каждая частица имеет независимые синусоидальные колебания по осям X и Y. Фазы колебаний инкрементируются с индивидуальной скоростью.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[8px] relative shrink-0 w-[934px]" data-node-id="10828:1069" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1069;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1069;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            2. Определение целевой точки
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10828:1069;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:1069;9462:7170">
+            Каждая частица имеет независимые синусоидальные колебания по осям X и Y. Фазы колебаний инкрементируются с индивидуальной скоростью.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="10856:1950" data-name="Table Header">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10856:1950;6076:10250" data-name="Heading Column">
+          <div className="content-stretch flex items-start py-[16px] relative shrink-0 w-[240px]" data-node-id="I10856:1950;6076:10251" data-name="Heading Column">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I10856:1950;6076:10251;6076:9589">
+              Состояние
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] items-start min-w-px py-[16px] relative" data-node-id="I10856:1950;6076:10252" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I10856:1950;6076:10253">
+            Целевая точка
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I10856:1950;6076:10254" data-name="Divider" />
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="10856:1951" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I10856:1951;17650:10104" data-name="Table Row Content">
+          <div className="content-stretch flex flex-col gap-[8px] items-start py-[var(--vertical-spacing,16px)] relative shrink-0 w-[240px]" data-node-id="I10856:1951;17650:10105" data-name="Heading Row">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I10856:1951;17650:10105;6076:9604">
+              Сборка
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I10856:1951;17650:10106" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I10856:1951;17650:10106;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,16px)] relative" data-node-id="I10856:1951;17650:10106;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I10856:1951;17650:10106;6076:9231;6076:9579">
+                  Базовая позиция (место в тексте)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I10856:1951;17650:10107" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative shrink-0 w-[934px]" data-node-id="10882:1385" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I10882:1385;17650:10104" data-name="Table Row Content">
+          <div className="content-stretch flex flex-col gap-[8px] items-start py-[var(--vertical-spacing,16px)] relative shrink-0 w-[240px]" data-node-id="I10882:1385;17650:10105" data-name="Heading Row">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I10882:1385;17650:10105;6076:9604">
+              Разлет
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I10882:1385;17650:10106" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I10882:1385;17650:10106;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,16px)] relative" data-node-id="I10882:1385;17650:10106;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I10882:1385;17650:10106;6076:9231;6076:9579">
+                  Случайная точка на фиксированном расстоянии + смещение левитации
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I10882:1385;17650:10107" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0 w-[934px]" data-node-id="10828:1084" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1084;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1084;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            3. Расчёт физики движения
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10828:1084;9462:7169" data-name="Paragraph">
+          <div className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:1084;9462:7170">
+            <p className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] mb-0">Пружинная модель:</p>
+            <ul className="list-disc mb-0">
+              <li className="mb-0 ms-[22.5px]">
+                <span className="leading-[24px]">Вычисляется вектор от текущей позиции к целевой</span>
+              </li>
+              <li className="mb-0 ms-[22.5px]">
+                <span className="leading-[24px]">Применяется сила пружины (stiffness) — чем дальше от цели, тем сильнее притяжение</span>
+              </li>
+              <li className="ms-[22.5px]">
+                <span className="leading-[24px]">Применяется трение (friction) — гасит скорость</span>
+              </li>
+            </ul>
+            <p className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] mb-0">Адаптивные параметры:</p>
+            <p className="leading-[24px]">Коэффициент близости ttt рассчитывается как:</p>
+          </div>
+        </div>
+      </div>
+      <div className="h-[222px] relative shrink-0 w-[580px]" data-node-id="10828:1097" data-name="Снимок экрана 2026-01-19 в 12.43.08 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[94.14%] left-0 max-w-none top-0 w-full" src={img202601191243081} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0 w-[934px]" data-node-id="10828:1099" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10828:1099;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10828:1099;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            5. Применение массы
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10828:1099;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10828:1099;9462:7170">
+            Ускорение частицы рассчитывается с учётом массы:
+          </p>
+        </div>
+      </div>
+      <div className="h-[58px] relative shrink-0 w-[262px]" data-node-id="10828:1106" data-name="Снимок экрана 2026-01-19 в 12.45.44 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img202601191245441} />
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[32px] pt-[8px] relative shrink-0 w-full" data-node-id="10828:1116" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="10828:1117">
+          Каждая частица имеет индивидуальную массу. Более тяжёлые частицы медленнее реагируют на силы, что создаёт разнообразие в скоростях.
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0 w-[934px]" data-node-id="10856:1118" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10856:1118;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I10856:1118;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            6. Обновление визуальных эффектов
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10856:1118;9462:7169" data-name="Paragraph">
+          <div className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10856:1118;9462:7170">
+            <p className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px] mb-0">Мерцание (flicker):</p>
+            <ul className="list-disc mb-0">
+              <li className="mb-0 ms-[22.5px]">
+                <span className="leading-[24px]">Прозрачность: opacity = 0.8 + 0.2 ⋅ sin(ϕ)</span>
+              </li>
+              <li className="ms-[22.5px]">
+                <span className="leading-[24px]">Размер: size=1.0 + 0.2 ⋅ sin(1.3 ⋅ ϕ)</span>
+              </li>
+            </ul>
+            <p className="leading-[24px]">где ϕ — фаза мерцания, инкрементируемая на 0.05 каждый кадр.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day/Base/base-02: #F6F7F8.
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL_REDACTED]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

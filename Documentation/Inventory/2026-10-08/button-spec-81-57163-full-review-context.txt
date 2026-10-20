@@ -1,0 +1,187 @@
+const imgPreview = "[TEMPORARY_ASSET_URL]";
+const imgPreview1 = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoader = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoaderSBlack = "[TEMPORARY_ASSET_URL]";
+const imgRipple = "[TEMPORARY_ASSET_URL]";
+
+export default function Row() {
+  return (
+    <div className="content-stretch flex items-start relative size-full" data-node-id="81:57163" data-name="row">
+      <div className="content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[310px]" data-node-id="81:57164" data-name="tui-table-сell">
+        <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col h-full items-start min-w-px not-italic relative" data-node-id="I81:57164;30429:176354" data-name="Text">
+          <p className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[28px] relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I81:57164;30429:176356">
+            Glass-on-light
+          </p>
+          <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full whitespace-pre-wrap" data-node-id="I81:57164;30429:176357">{`Стеклянные кнопки с блюром, для использования на пестрых светлых  фонах`}</p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="81:57165" data-name="preview">
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          <div className="absolute bg-size-[auto_auto,32px_32px] bg-top-left inset-0" style={{ backgroundImage: `linear-gradient(90deg, rgba(226, 226, 226, 0.96) 0%, rgba(226, 226, 226, 0.96) 100%), url("${imgPreview}")` }} />
+          <div className="absolute inset-0 overflow-hidden">
+            <img alt="" className="absolute h-[137.77%] left-[-0.48%] max-w-none top-0 w-[324.46%]" src={imgPreview1} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[40px] items-start p-[40px] relative shrink-0 w-[190px]" data-node-id="130:284093" data-name="tui-table сell">
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="130:284094" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I130:284094;200:102032" data-name="container">
+              <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] whitespace-nowrap" data-node-id="I130:284094;200:102033">
+                Normal
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] border-2 border-[rgba(255,255,255,0.64)] border-solid content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="130:284095" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I130:284095;200:102032" data-name="container">
+              <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] whitespace-nowrap" data-node-id="I130:284095;200:102033">
+                Focus
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-hover,rgba(0,0,0,0.48))] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="130:284096" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I130:284096;2428:35087" data-name="container">
+              <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I130:284096;2428:35088">
+                Hover
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="130:284097" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I130:284097;200:102152" data-name="container">
+              <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I130:284097;200:102153">
+                Pressed
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0 w-[103px]" data-node-id="130:284098" data-name="tui-button [on-light-on-dark]">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I130:284098;222:99351" data-name="tui-loader">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] opacity-50 overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0 w-[110px]" data-node-id="130:284099" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I130:284099;229:98858" data-name="container">
+              <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] whitespace-nowrap" data-node-id="I130:284099;229:98859">
+                Disabled
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[40px] items-start p-[40px] relative shrink-0" data-node-id="81:57171" data-name="tui-table сell">
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57172" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I81:57172;42604:297723" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-dark,white)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I81:57172;42604:297724">
+                Normal
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[56px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-center text-white tracking-[-0.41px] w-[290px]" data-node-id="130:284081">
+            <p className="leading-[normal]">—</p>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[56px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-center text-white tracking-[-0.41px] w-[290px]" data-node-id="130:284083">
+            <p className="leading-[normal]">—</p>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57173" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I81:57173;42604:297735" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-dark,white)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I81:57173;42604:297736">
+                Pressed
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57174" data-name="tui-button [on-light-on-dark]">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I81:57174;42604:297731" data-name="tui-loader/S/Black">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoaderSBlack} />
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57175" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I81:57175;42604:297728" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-tertiary-on-dark,rgba(255,255,255,0.3))] tracking-[-0.41px] whitespace-nowrap" data-node-id="I81:57175;42604:297729">
+                Disabled
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[40px] items-start p-[40px] relative shrink-0" data-node-id="81:57176" data-name="tui-table сell">
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57177" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I81:57177;42604:297740" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary-on-dark,white)] whitespace-nowrap" data-node-id="I81:57177;42604:297741" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Normal
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[56px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-center text-white tracking-[-0.41px] w-[290px]" data-node-id="130:284082">
+            <p className="leading-[normal]">—</p>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[56px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-center text-white tracking-[-0.41px] w-[290px]" data-node-id="130:284084">
+            <p className="leading-[normal]">—</p>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57178" data-name="tui-button [on-light-on-dark]">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-0.5px)] size-[222px] top-1/2" data-node-id="I81:57178;8181:39075" data-name="Ripple">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRipple} />
+            </div>
+            <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I81:57178;42604:297752" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary-on-dark,white)] whitespace-nowrap" data-node-id="I81:57178;42604:297753" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Pressed
+              </p>
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57179" data-name="tui-button [on-light-on-dark]">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I81:57179;42604:297748" data-name="tui-loader/S/Black">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoaderSBlack} />
+            </div>
+          </div>
+          <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[290px]" data-node-id="81:57180" data-name="tui-button [on-light-on-dark]">
+            <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I81:57180;42604:297745" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-tertiary-on-dark,rgba(255,255,255,0.3))] whitespace-nowrap" data-node-id="I81:57180;42604:297746" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Disabled
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Desktop/Body L Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 17, weight: 500, lineHeight: 28, letterSpacing: 0), Desktop/Body S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 20, letterSpacing: 0), Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Day/Text/primary-on-dark: #FFFFFF, Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-table-сell
+**Node ID:** 37636:15255
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-table](https://go.tcsbank.ru/tui-table)
+
+## tui-button [on-light-on-dark]
+**Node ID:** 32862:10739
+
+Кнопки, внешний вид которых не меняется при переключении тем. Используются на контрастных фонах, цвет которых не зависит от темы
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-loader
+**Node ID:** 29373:30708
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+## tui-button [on-light-on-dark]
+**Node ID:** 32862:8425
+
+Кнопки, внешний вид которых не меняется при переключении тем. Используются на контрастных фонах, цвет которых не зависит от темы
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-loader/S/Black
+**Node ID:** 30347:2479
+
+Progress Indicator
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+
+        A20000000000000000000001 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUIDesignSystemCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        A20000000000000000000002 = {isa = PBXFileSystemSynchronizedRootGroup; path = CatalogUITests; sourceTree = "<group>"; };
+        A20000000000000000000003 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A20000000000000000000004 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A20000000000000000000005 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A20000000000000000000006 = {isa = PBXNativeTarget; buildConfigurationList = A20000000000000000000007; buildPhases = (A20000000000000000000003, A20000000000000000000004, A20000000000000000000005); buildRules = (); dependencies = (A20000000000000000000010); fileSystemSynchronizedGroups = (A20000000000000000000002); name = TUIDesignSystemCatalogUITests; productName = TUIDesignSystemCatalogUITests; productReference = A20000000000000000000001; productType = "com.apple.product-type.bundle.ui-testing"; };
+        A20000000000000000000007 = {isa = XCConfigurationList; buildConfigurations = (A20000000000000000000008, A20000000000000000000009); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A20000000000000000000008 = {isa = XCBuildConfiguration; name = Debug; buildSettings = {CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = local.TUIDesignSystemCatalogUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = TUIDesignSystemCatalog; }; };
+        A20000000000000000000009 = {isa = XCBuildConfiguration; name = Release; buildSettings = {CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = local.TUIDesignSystemCatalogUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = TUIDesignSystemCatalog; }; };
+        A20000000000000000000010 = {isa = PBXTargetDependency; target = F567BD0B30418F2F00DC7CE3; targetProxy = A20000000000000000000011; };
+        A20000000000000000000011 = {isa = PBXContainerItemProxy; containerPortal = F567BD0430418F2F00DC7CE3; proxyType = 1; remoteGlobalIDString = F567BD0B30418F2F00DC7CE3; remoteInfo = TUIDesignSystemCatalog; };
+
 /* Begin PBXBuildFile section */
 		A10000000000000000000001 /* TUIDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000003 /* TUIDesignSystem */; };
 /* End PBXBuildFile section */
@@ -38,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				F567BD0E30418F2F00DC7CE3 /* CatalogApp */,
+				A20000000000000000000002 /* CatalogUITests */,
 				F567BD0D30418F2F00DC7CE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F567BD0C30418F2F00DC7CE3 /* TUIDesignSystemCatalog.app */,
+				A20000000000000000000001 /* TUIDesignSystemCatalogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +124,7 @@
 			);
 			targets = (
 				F567BD0B30418F2F00DC7CE3 /* TUIDesignSystemCatalog */,
+				A20000000000000000000006 /* TUIDesignSystemCatalogUITests */,
 			);
 		};
 /* End PBXProject section */

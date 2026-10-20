@@ -1,0 +1,59 @@
+const imgIcon = "https://www.figma.com/api/mcp/asset/c582ccf5-8089-4b58-bedb-6e9dd56e50f0.svg";
+
+type TuiButtonProps = {
+  className?: string;
+  appearance?: "flat";
+  icon16?: React.ReactNode | null;
+  showIcon?: boolean;
+  showLabel?: boolean;
+  size?: "small";
+  skeleton?: "off";
+  state?: "normal";
+  system?: "ios";
+  text?: string;
+};
+
+function TuiButton({ className, appearance = "flat", icon16 = null, showIcon = false, showLabel = true, size = "small", skeleton = "off", state = "normal", system = "ios", text = "Label" }: TuiButtonProps) {
+  return (
+    <div className={className || "content-stretch flex items-center justify-center min-h-[30px] overflow-clip px-[7px] py-[3px] relative rounded-[100px]"} data-node-id="42596:297212">
+      {showIcon && (
+        <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="42596:297213" data-name="Left iconCont">
+          {showIcon &&
+            (icon16 || (
+              <div className="relative shrink-0 size-[16px]" data-node-id="42596:297214" data-name="Icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+              </div>
+            ))}
+        </div>
+      )}
+      {showLabel && (
+        <div className="content-stretch flex flex-col items-center overflow-clip p-[4px] relative shrink-0" data-node-id="42596:297215" data-name="LabelCont">
+          {showLabel && (
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-action,#428bf9)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="42596:297216">
+              {text}
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 41658:296906
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

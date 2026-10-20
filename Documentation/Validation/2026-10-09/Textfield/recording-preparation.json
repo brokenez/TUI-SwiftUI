@@ -1,0 +1,68 @@
+{
+  "end" : 79.5,
+  "frames" : [
+    {
+      "clipTime" : 0,
+      "originalTime" : 74.5,
+      "path" : "recorded-74.5.png"
+    },
+    {
+      "clipTime" : 0.5,
+      "originalTime" : 75,
+      "path" : "recorded-75.0.png"
+    },
+    {
+      "clipTime" : 1,
+      "originalTime" : 75.5,
+      "path" : "recorded-75.5.png"
+    },
+    {
+      "clipTime" : 1.5,
+      "originalTime" : 76,
+      "path" : "recorded-76.0.png"
+    },
+    {
+      "clipTime" : 2,
+      "originalTime" : 76.5,
+      "path" : "recorded-76.5.png"
+    },
+    {
+      "clipTime" : 2.5,
+      "originalTime" : 77,
+      "path" : "recorded-77.0.png"
+    },
+    {
+      "clipTime" : 3,
+      "originalTime" : 77.5,
+      "path" : "recorded-77.5.png"
+    },
+    {
+      "clipTime" : 3.5,
+      "originalTime" : 78,
+      "path" : "recorded-78.0.png"
+    },
+    {
+      "clipTime" : 4,
+      "originalTime" : 78.5,
+      "path" : "recorded-78.5.png"
+    },
+    {
+      "clipTime" : 4.5,
+      "originalTime" : 79,
+      "path" : "recorded-79.0.png"
+    },
+    {
+      "clipTime" : 5,
+      "originalTime" : 79.5,
+      "path" : "recorded-79.5.png"
+    }
+  ],
+  "measuringSceneSeconds" : [
+    76,
+    77,
+    78
+  ],
+  "method" : "Native AVAssetExportPresetPassthrough time range; no speed change, overlays or reconstructed frames",
+  "originalDuration" : 123.86833333333334,
+  "start" : 74.5
+}

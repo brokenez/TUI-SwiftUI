@@ -1,0 +1,44 @@
+const imgBullet = "https://www.figma.com/api/mcp/asset/3b0cc287-d28e-4508-8d4d-26f842304088.svg";
+
+export default function ListBulleted() {
+  return (
+    <div className="content-stretch flex flex-col items-start pb-[var(--spacing\/paragraph-spacing,16px)] relative size-full" data-node-id="731:21346" data-name="List Bulleted">
+      <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I731:21346;9460:7064" data-name="Item">
+        <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I731:21346;9460:7064;9460:7060" data-name="Bullet">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I731:21346;9460:7064;9460:7062">
+          Ячейки должны упирваться в края карточки, паддинг внутри ячейки по умолчанию 20рx
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I731:21346;9460:7070" data-name="Item">
+        <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I731:21346;9460:7070;9460:7060" data-name="Bullet">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I731:21346;9460:7070;9460:7062">
+          Между ячейками добавляем вертикальный отступ 4рх (добавляется в самой карточке, подробнее в спеке карточки)
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I731:21346;9460:7077" data-name="Item">
+        <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I731:21346;9460:7077;9460:7060" data-name="Bullet">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I731:21346;9460:7077;9460:7062">
+          При нажатии заливается вся область до краев. Подробнее в разделе «Поведение»
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

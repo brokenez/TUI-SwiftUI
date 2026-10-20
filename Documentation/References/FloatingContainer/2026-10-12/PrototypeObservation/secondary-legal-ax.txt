@@ -1,0 +1,108 @@
+Window: "[ARCHIVE] Animation Examples - Floating-container", App: Figma.
+0 стандартное окно [ARCHIVE] Animation Examples - Floating-container, Secondary Actions: Raise
+	1 container [ARCHIVE] Animation Examples - Floating-container
+		2 container
+			3 HTML-содержание Figma, URL: file:///Applications/Figma.app/Contents/Resources/app.asar/shell.html
+				4 container
+					5 группа вкладок Tab bar
+						6 container
+							7 tab (settable, integer) Description: Home, Value: 0
+							8 tab (settable, integer) Description: Зарплатный клуб, Value: 0
+							9 tab (settable, integer) Description: MBAC-4760 – Кредитный брокер, Value: 0
+							10 tab (settable, integer) Description: 🚗 Сфера Авто, Value: 0
+							11 tab (settable, integer) Description: Помощь на дороге, Value: 0
+							12 tab (settable, integer) Description: 🔥 Сферы на главной, Value: 0
+							13 tab (settable, integer) Description: TUI Mobile, Value: 0
+							14 tab (settable, integer) Description: 3D / Мобильный банк, Value: 0
+							15 tab (settable, integer) Description: Продуктовая 2.0, Value: 0
+							16 tab (settable, integer) Description: Гайд по вебвью, Value: 0
+							17 tab (settable, integer) Description: Дебетовый счет / МБ, Value: 0
+							18 tab (settable, integer) Description: TUI Нelpers, Value: 0
+							19 tab (settable, integer) Description: TUI Foundations, Value: 0
+							20 tab (settable, integer) Description: Квесты WebView + PWA, Value: 0
+							21 tab (settable, integer) Description: Origination. Demo/Guides [Web], Value: 0
+							22 tab (settable, integer) Description: tui-checkbox,tui-switch,tui-radio, Value: 0
+							23 tab (settable, integer) Description: tui-card-medium, Value: 0
+							24 tab (settable, integer) Description: tui-card-large, Value: 0
+							25 tab (settable, integer) Description: Главный экран PFM, Value: 0
+							26 tab (settable, integer) Description: [TUI-1966] tui-pdf-viewer, Value: 0
+							27 tab (settable, integer) Description: tui-button, Value: 0
+							28 tab (settable, integer) Description: tui-sensitive, Value: 0
+							29 tab (settable, integer) Description: tui-input, tui-textfield, tui-select, tui-combobox, tui-textarea, Value: 0
+							30 tab (settable, integer) Description: tui-floating-container, Value: 0
+							31 tab (selected) Description: [ARCHIVE] Animation Examples - Floating-container, Value: 1
+								32 кнопка Close tab
+							33 кнопка New file
+						34 всплывающая кнопка Open and recently closed tabs
+			35 HTML-содержание [ARCHIVE] Animation Examples - Floating-container, URL: figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?type=design&node-id=3438-381&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3438%3A381&show-proto-sidebar=1&page-id=3351%3A2207
+				36 container
+					37 container
+						38 container Prototype controls
+							39 кнопка Skip to content
+							40 link Description: File browser, Value: figma.com/
+							41 кнопка Close flows list
+							42 кнопка Comment
+								43 изображение
+							44 заголовок [ARCHIVE] Animation Examples, Value: 1
+								45 текст [ARCHIVE] Animation Examples
+							46 всплывающая кнопка Options dropdown
+								47 изображение
+							48 всплывающая кнопка Multiplayer tools
+								49 изображение
+							50 кнопка Share prototype
+							51 всплывающая кнопка Options
+								52 изображение
+							53 кнопка Enter full screen (F)
+								54 изображение
+						55 container
+							56 container Flows
+								57 container
+									58 container
+										59 текст Flows
+										60 кнопка Close
+											61 изображение
+									62 container
+										63 ссылка Смена второстепенной кнопки на текст и наоборот
+											64 изображение
+											65 текст Смена второстепенной кнопки на текст и наоборот
+										66 ссылка Смена второстепенной кнопки на текст и наоборот 1
+											67 текст Смена второстепенной кнопки на текст и наоборот 1
+										68 ссылка Замена элемента на элемент другой формы
+											69 текст Замена элемента на элемент другой формы
+										70 ссылка Изменение праймари кнопки
+											71 текст Изменение праймари кнопки
+										72 ссылка Появление и скрытие праймари кнопки
+											73 текст Появление и скрытие праймари кнопки
+										74 ссылка Появление и скрытие второстепенной кнопки или текста
+											75 текст Появление и скрытие второстепенной кнопки или текста
+									76 container Flow description
+										77 текст No description
+						78 container
+							79 ссылка tui-floating-container
+								80 container tui-floating-container
+									81 container tui-button
+										82 текст Main action
+									83 container tui-button
+										84 текст Secondary action
+									85 container system-bottom-bar
+							86 container Pages
+								87 панель инструментов Stepper
+									88 кнопка (disabled) Previous frame
+										89 изображение
+									90 кнопка Next frame
+										91 изображение
+								92 кнопка Restart
+									93 изображение
+									94 текст Restart
+	95 кнопка закрытия
+	96 кнопка полноэкранного режима Help: эта кнопка позволяет также изменять масштаб окна, Secondary Actions: изменить масштаб окна
+	97 кнопка свертывания
+98 menu bar
+	99 Figma
+	100 File
+	101 Edit
+	102 View
+	103 Window
+	104 Help
+
+The focused UI element is 79 ссылка tui-floating-container

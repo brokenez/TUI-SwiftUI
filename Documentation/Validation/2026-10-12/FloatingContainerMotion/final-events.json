@@ -1,0 +1,62 @@
+{
+  "capture" : "External simctl native movie; no replicated component or animation",
+  "consumerContainer" : {
+    "height" : 724,
+    "scale" : 3,
+    "width" : 402
+  },
+  "device" : "iPhone",
+  "events" : [
+    {
+      "elapsed" : 1.1464826250012266,
+      "name" : "show-primary",
+      "stage" : 1
+    },
+    {
+      "elapsed" : 2.2568096249888185,
+      "name" : "same-shape-primary",
+      "stage" : 2
+    },
+    {
+      "elapsed" : 3.3924242083303398,
+      "name" : "same-shape-primary-return",
+      "stage" : 3
+    },
+    {
+      "elapsed" : 4.5661472916544881,
+      "name" : "different-shape-compact",
+      "stage" : 4
+    },
+    {
+      "elapsed" : 5.7132992083352292,
+      "name" : "different-shape-large",
+      "stage" : 5
+    },
+    {
+      "elapsed" : 6.880093499989016,
+      "name" : "show-secondary",
+      "stage" : 6
+    },
+    {
+      "elapsed" : 8.0475590416608611,
+      "name" : "secondary-to-legal",
+      "stage" : 7
+    },
+    {
+      "elapsed" : 9.2128933333297027,
+      "name" : "legal-to-secondary",
+      "stage" : 8
+    },
+    {
+      "elapsed" : 10.380123999988427,
+      "name" : "hide-secondary",
+      "stage" : 9
+    },
+    {
+      "elapsed" : 11.547822458334849,
+      "name" : "hide-primary",
+      "stage" : 10
+    }
+  ],
+  "stageMarker" : "RGB(stage\/16, 0.2, 0.8), first native rendered frame; movie resolution governs time precision"
+}

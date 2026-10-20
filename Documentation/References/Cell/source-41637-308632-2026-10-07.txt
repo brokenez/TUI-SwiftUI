@@ -1,0 +1,134 @@
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/16aa1704-864c-48e9-999e-5d78022d57c7.svg";
+
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="4790:1158" data-name="placeholder-single" />;
+}
+
+type PlaceholderMultipleProps = {
+  className?: string;
+  quantity?: "1";
+};
+
+function PlaceholderMultiple({ className, quantity = "1" }: PlaceholderMultipleProps) {
+  return (
+    <div className={className || "content-stretch flex items-start relative"} data-node-id="23657:461706">
+      <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+    </div>
+  );
+}
+
+type TuiCellProps = {
+  className?: string;
+  caption?: string;
+  description?: string;
+  fixedHeight?: "on";
+  rightSide?: "None";
+  showAvatar?: boolean;
+  showCaption?: boolean;
+  showDescription?: boolean;
+  skeleton?: "off";
+  system?: "iOS";
+  title?: string;
+  type?: "Extended";
+};
+
+function TuiCell({ className, caption = "Caption", description = "Description", fixedHeight = "on", rightSide = "None", showAvatar = true, showCaption = false, showDescription = true, skeleton = "off", system = "iOS", title = "Title", type = "Extended" }: TuiCellProps) {
+  return (
+    <div className={className || "content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative w-[375px]"} data-node-id="41637:308632">
+      {showAvatar && (
+        <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="41637:308633" data-name="Avatar">
+          <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="41637:308634" data-name="tui-avatar">
+            <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I41637:308634;25745:690432" data-name="Container">
+              <div className="absolute inset-[20%]" data-node-id="I41637:308634;25745:690434" data-name="tui-ic-medium / star">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="41637:308635" data-name="TextCont">
+        {showCaption && (
+          <div className="content-stretch flex gap-[4px] items-start overflow-clip relative shrink-0 w-full" data-node-id="41637:308636" data-name="CaptionCont">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="90950:30081" data-name="placeholder-multiple">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I90950:30081;23657:461707" data-name="placeholder-single" />
+            </div>
+            {showCaption && (
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="41637:308637">
+                {caption}
+              </p>
+            )}
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="90950:30084" data-name="placeholder-multiple">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I90950:30084;23657:461707" data-name="placeholder-single" />
+            </div>
+          </div>
+        )}
+        <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="41637:308638" data-name="TitleCont">
+          <div className="content-stretch flex flex-[1_0_0] gap-[4px] h-[20px] items-center min-w-px relative" data-node-id="41637:308639" data-name="CellTitleCont">
+            <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="41637:308640">
+              {title}
+            </p>
+            <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+          </div>
+        </div>
+        {showDescription && (
+          <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="41637:308641" data-name="DescriptionCont">
+            {showDescription && (
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] h-[16px] items-center min-w-px relative" data-node-id="41637:308642" data-name="TitleDescriptionCont">
+                <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+                {showDescription && (
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="41637:308643">
+                    {description}
+                  </p>
+                )}
+                <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-cell
+**Node ID:** 41569:290555
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 25745:690405
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 41881:45334
+
+rating, favorite, bookmark, gold star, rating system
+
+## placeholder-multiple
+**Node ID:** 23657:461568
+
+Это плейсхолдер, чтобы вставлять свои инстансы
+
+## placeholder-single
+**Node ID:** 4790:1158
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

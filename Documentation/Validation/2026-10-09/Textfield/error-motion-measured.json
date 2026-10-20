@@ -1,0 +1,50 @@
+{
+  "status": "passed-observed-native-geometry",
+  "source": "Documentation/Validation/2026-10-09/Textfield/ErrorMotionNativeVerified/samples.json",
+  "sourceSHA256": "870038414258fc0df54d02e2c44d365573718ceeacd94080746504a92fdc9627",
+  "frames": 114,
+  "baselineX": 53,
+  "events": [
+    {
+      "event": "first",
+      "samples": 44,
+      "minimumOffset": -3,
+      "maximumOffset": 3,
+      "signSequence": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "lastMovementAfterEvent": 0.5245945416681934
+    },
+    {
+      "event": "repeated",
+      "samples": 36,
+      "minimumOffset": -2.6666666666666714,
+      "maximumOffset": 2.6666666666666643,
+      "signSequence": [
+        -1,
+        1
+      ],
+      "lastMovementAfterEvent": 0.3237722083358676
+    },
+    {
+      "event": "focus-only",
+      "samples": 7,
+      "minimumOffset": 0,
+      "maximumOffset": 0,
+      "signSequence": [],
+      "lastMovementAfterEvent": null
+    },
+    {
+      "event": "reset",
+      "samples": 16,
+      "minimumOffset": 0,
+      "maximumOffset": 0,
+      "signSequence": [],
+      "lastMovementAfterEvent": null
+    }
+  ],
+  "limits": "Checks native displacement, sign sequence, approximate total duration, return and non-validation focus/reset. Exact per-step source times, hint motion and physical haptic remain UNVERIFIED; no full motion acceptance."
+}

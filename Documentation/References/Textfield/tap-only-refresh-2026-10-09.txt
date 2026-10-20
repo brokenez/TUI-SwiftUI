@@ -1,0 +1,56 @@
+const imgColor = "https://www.figma.com/api/mcp/asset/598aff57-224a-4bdf-ac41-20da7d2a05ab.svg";
+
+export default function H2P() {
+  return (
+    <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative size-full" data-node-id="6845:62102" data-name="H2 + P">
+      <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I6845:62102;2130:381" data-name="## H2">
+        <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I6845:62102;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          Только нажатие
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I6845:62102;2130:408" data-name="badge">
+          <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I6845:62102;2128:283" data-name="tui-badge">
+            <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I6845:62102;2128:283;6917:52779" data-name="IconCont">
+              <div className="relative shrink-0 size-[16px]" data-node-id="I6845:62102;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I6845:62102;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I6845:62102;2128:283;6917:52781" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I6845:62102;2128:283;6917:52782">
+                tap-only
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I6845:62102;9462:7169" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I6845:62102;9462:7170">
+          Используется, когда недоступны ввод, выделение и редактирование текста, а есть только нажатие на поле целиком. Например, для копирования в буфер обмена.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-badge
+**Node ID:** 20640:22903
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 31:5489
+
+save, mark, favorite, remember
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

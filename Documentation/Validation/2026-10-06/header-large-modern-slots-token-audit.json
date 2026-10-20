@@ -1,0 +1,296 @@
+{
+  "foundationSource": "Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json",
+  "foundationSha256": "bc3140e4761494f35fdbc7f00174c8b55e05e55a4d2547878c73052b6c52b11a",
+  "liveDayBindingReference": "Documentation/References/HeaderLarge/extended-variable-definitions-2026-10-06.json",
+  "scope": "Native Day and Night text colors against imported Foundation modes; not a Figma Night screenshot comparison. On Light placeholder intentionally stays black alpha 3% in both modes. Source token identity is preserved.",
+  "tokens": {
+    "Text/Primary": {
+      "Day": {
+        "r": 0.20000000298023224,
+        "g": 0.20000000298023224,
+        "b": 0.20000000298023224,
+        "a": 1
+      },
+      "Night": {
+        "r": 0.9647058844566345,
+        "g": 0.9686274528503418,
+        "b": 0.9725490212440491,
+        "a": 1
+      }
+    },
+    "Text/Secondary": {
+      "Day": {
+        "r": 0.572549045085907,
+        "g": 0.6000000238418579,
+        "b": 0.6352941393852234,
+        "a": 1
+      },
+      "Night": {
+        "r": 0.572549045085907,
+        "g": 0.6000000238418579,
+        "b": 0.6352941393852234,
+        "a": 1
+      }
+    },
+    "Text/Primary On Dark": {
+      "Day": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "Night": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    "Background/Accent 2": {
+      "Day": {
+        "r": 0.25882354378700256,
+        "g": 0.545098066329956,
+        "b": 0.9764705896377563,
+        "a": 1
+      },
+      "Night": {
+        "r": 0.25882354378700256,
+        "g": 0.545098066329956,
+        "b": 0.9764705896377563,
+        "a": 1
+      }
+    },
+    "Background/Neutral 1 On Light": {
+      "Day": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.029999999329447746
+      },
+      "Night": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.029999999329447746
+      }
+    }
+  },
+  "nativeTextChecks": [
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/68F207D6-58EE-476E-90AE-C10BD25A9E28.png",
+      "name": "header-18083-44906-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 9876
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/76468FAA-002A-43B4-AF6F-3D435D4EFF0E.png",
+      "name": "header-547-151734-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/76468FAA-002A-43B4-AF6F-3D435D4EFF0E.png",
+      "name": "header-547-151734-night-3x",
+      "theme": "Night",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1553
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/53230887-E592-45A7-A93A-C048B2C88F79.png",
+      "name": "header-18083-44942-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/53230887-E592-45A7-A93A-C048B2C88F79.png",
+      "name": "header-18083-44942-night-3x",
+      "theme": "Night",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1553
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/23532B6D-9C5C-475A-995C-51BF255A671D.png",
+      "name": "header-42565-305051-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/23532B6D-9C5C-475A-995C-51BF255A671D.png",
+      "name": "header-42565-305051-night-3x",
+      "theme": "Night",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1553
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/76B5B6A3-DE30-4704-8123-BE7C825880C4.png",
+      "name": "header-547-151714-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 9876
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/D36E0519-9864-48CF-B939-82E917640412.png",
+      "name": "header-42565-305013-night-3x",
+      "theme": "Night",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        246,
+        247,
+        248
+      ],
+      "matchingPixels": 9876
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/3A047E79-D9CF-4658-9E1C-3F5A53DF91A2.png",
+      "name": "header-18083-44906-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 9876
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/937CD03A-B8F0-495B-BA49-834164AD5648.png",
+      "name": "header-547-151734-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/937CD03A-B8F0-495B-BA49-834164AD5648.png",
+      "name": "header-547-151734-day-3x",
+      "theme": "Day",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1565
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C9C4F906-6749-49B6-90C1-490E364E80EA.png",
+      "name": "header-18083-44942-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C9C4F906-6749-49B6-90C1-490E364E80EA.png",
+      "name": "header-18083-44942-day-3x",
+      "theme": "Day",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1565
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/6828F03D-2103-4AA9-A31D-21E3065ACFC0.png",
+      "name": "header-42565-305051-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 7832
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/6828F03D-2103-4AA9-A31D-21E3065ACFC0.png",
+      "name": "header-42565-305051-day-3x",
+      "theme": "Day",
+      "token": "Text/Secondary",
+      "expectedSolidRGB": [
+        146,
+        153,
+        162
+      ],
+      "matchingPixels": 1565
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/D0D566AB-96AD-4DB6-A22C-F9B23BC30E4A.png",
+      "name": "header-547-151714-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 9876
+    },
+    {
+      "render": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C8DE7363-06BD-4ABE-9055-B5D2CE0960D1.png",
+      "name": "header-42565-305013-day-3x",
+      "theme": "Day",
+      "token": "Text/Primary",
+      "expectedSolidRGB": [
+        51,
+        51,
+        51
+      ],
+      "matchingPixels": 9876
+    }
+  ]
+}

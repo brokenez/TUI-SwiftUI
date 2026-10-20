@@ -1,0 +1,34 @@
+<frame id="4831:7321" name="Дополнительные возможности" x="14093" y="100" width="1190" height="7540">
+  <instance id="4831:7322" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="4831:7323" name="H2 + P" x="128" y="216" width="934" height="168" />
+  <instance id="7111:24223" name="H2 + P" x="128" y="384" width="934" height="144" />
+  <instance id="4868:8943" name="Image 2x1" x="128" y="528" width="934" height="462" />
+  <instance id="4864:10007" name="H2 + P" x="128" y="990" width="934" height="144" />
+  <instance id="4891:20291" name="Image 1x1" x="128" y="1134" width="934" height="442" />
+  <instance id="4859:6725" name="H2 + P" x="128" y="1576" width="934" height="120" />
+  <instance id="4859:6741" name="List Bulleted" x="128" y="1696" width="934" height="129" />
+  <instance id="4868:9062" name="Image 2x1" x="128" y="1825" width="934" height="462" />
+  <instance id="4859:6731" name="Note" x="128" y="2287" width="934" height="105" />
+  <instance id="4831:7330" name="Width - Bottom " x="656" y="1189" width="12" height="32" />
+  <instance id="4864:7608" name="H2 + P" x="128" y="2392" width="934" height="120" />
+  <instance id="4864:7609" name="Image 1x1" x="128" y="2512" width="934" height="392" />
+  <instance id="4897:27195" name="H2 + P" x="128" y="2904" width="934" height="144" />
+  <instance id="4899:28315" name="Image 2x1" x="128" y="3048" width="934" height="462" />
+  <instance id="6614:15993" name="List Bulleted" x="128" y="3510" width="934" height="100" />
+  <instance id="22700:42816" name="Note" x="128" y="3610" width="934" height="128" />
+  <instance id="6617:36552" name="Image 1x1" x="128" y="3738" width="934" height="542" />
+  <instance id="4898:27462" name="H2 + P" x="128" y="4280" width="934" height="144" />
+  <instance id="6617:35830" name="List Bulleted" x="128" y="4424" width="934" height="101" />
+  <instance id="5089:17047" name="Image 1x1" x="128" y="4525" width="934" height="892" />
+  <instance id="8005:25306" name="H2 + P" x="128" y="5417" width="934" height="168" />
+  <instance id="8005:25307" name="Image 1x1" x="128" y="5585" width="934" height="512" />
+  <instance id="4975:11437" name="H2 + P" x="128" y="6097" width="934" height="88" />
+  <instance id="5494:12078" name="List Bulleted" x="128" y="6185" width="934" height="100" />
+  <instance id="10065:90675" name="Spacing" x="128" y="6285" width="934" height="24" />
+  <instance id="5490:11787" name="Image 2x1" x="128" y="6309" width="934" height="392" />
+  <instance id="6845:62102" name="H2 + P" x="128" y="6701" width="934" height="144" />
+  <instance id="9803:30024" name="Note" x="128" y="6845" width="934" height="105" />
+  <instance id="6845:62641" name="Image 2x1" x="128" y="6950" width="934" height="462" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

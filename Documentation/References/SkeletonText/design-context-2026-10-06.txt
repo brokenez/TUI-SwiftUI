@@ -1,0 +1,37 @@
+type TuiSkeletonProps = {
+  className?: string;
+  keyframe?: "1";
+};
+
+function TuiSkeleton({ className, keyframe = "1" }: TuiSkeletonProps) {
+  return <div className={className || "bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] overflow-clip relative rounded-[4px] size-[40px]"} data-node-id="37840:45834" />;
+}
+
+type TuiSkeletonTextProps = {
+  className?: string;
+  system?: "iOS" | "Android";
+  textStyle?: "heading-l" | "heading-m" | "heading-s" | "body-m" | "body-l" | "body-s" | "ui-l" | "ui-m" | "ui-s" | "ui-xs" | "ui-xxs" | "numbers-xl" | "numbers-m";
+};
+
+export default function TuiSkeletonText({ className, system = "iOS", textStyle = "heading-l" }: TuiSkeletonTextProps) {
+  const isHeadingLAndAndroid = textStyle === "heading-l" && system === "Android";
+  const isHeadingMAndAndroid = textStyle === "heading-m" && system === "Android";
+  const isNumbersMAndAndroid = textStyle === "numbers-m" && system === "Android";
+  return (
+    <div className={className || `content-stretch flex items-center relative w-[92px] ${["ui-xs", "ui-xxs"].includes(textStyle) ? "py-[2px]" : system === "Android" && ["heading-s", "body-l", "body-m", "body-s", "ui-l", "ui-m", "ui-s"].includes(textStyle) ? "py-[2.5px]" : system === "iOS" && ["heading-s", "body-l", "body-m", "body-s", "ui-l", "ui-m", "ui-s"].includes(textStyle) ? "py-[3px]" : isHeadingMAndAndroid ? "py-[3.5px]" : isNumbersMAndAndroid ? "overflow-clip py-[3.5px]" : system === "iOS" && ["numbers-m", "heading-m"].includes(textStyle) ? "py-[4px]" : system === "Android" && ["numbers-xl", "heading-l"].includes(textStyle) ? "py-[5.5px]" : "py-[6px]"}`} id={textStyle === "ui-xxs" && system === "Android" ? "node-37840_45887" : textStyle === "ui-xs" && system === "Android" ? "node-37840_45885" : textStyle === "ui-xxs" && system === "iOS" ? "node-37840_45883" : textStyle === "ui-xs" && system === "iOS" ? "node-37840_45881" : textStyle === "ui-s" && system === "Android" ? "node-37840_45879" : textStyle === "ui-s" && system === "iOS" ? "node-37840_45877" : textStyle === "ui-m" && system === "Android" ? "node-37840_45875" : textStyle === "ui-m" && system === "iOS" ? "node-37840_45873" : textStyle === "ui-l" && system === "Android" ? "node-37840_45871" : textStyle === "ui-l" && system === "iOS" ? "node-37840_45869" : textStyle === "body-s" && system === "Android" ? "node-37840_45867" : textStyle === "body-s" && system === "iOS" ? "node-37840_45865" : textStyle === "body-m" && system === "Android" ? "node-37840_45863" : textStyle === "body-m" && system === "iOS" ? "node-37840_45861" : textStyle === "body-l" && system === "Android" ? "node-37840_45859" : textStyle === "body-l" && system === "iOS" ? "node-37840_45857" : textStyle === "heading-s" && system === "Android" ? "node-37840_45855" : textStyle === "heading-s" && system === "iOS" ? "node-37840_45853" : isHeadingMAndAndroid ? "node-37840_45851" : textStyle === "heading-m" && system === "iOS" ? "node-37840_45849" : isHeadingLAndAndroid ? "node-37840_45847" : isNumbersMAndAndroid ? "node-37840_45845" : textStyle === "numbers-m" && system === "iOS" ? "node-37840_45843" : textStyle === "numbers-xl" && system === "Android" ? "node-37840_45841" : textStyle === "numbers-xl" && system === "iOS" ? "node-37840_45839" : "node-37840_45837"}>
+      <TuiSkeleton className={`bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] flex-[1_0_0] min-w-px relative rounded-[4px] ${textStyle === "ui-xxs" ? "h-[9px]" : ["body-s", "ui-s", "ui-xs"].includes(textStyle) ? "h-[10px]" : system === "Android" && ["body-m", "ui-m"].includes(textStyle) ? "h-[11px]" : system === "iOS" && ["body-m", "ui-m"].includes(textStyle) ? "h-[12px]" : ["heading-s", "body-l", "ui-l"].includes(textStyle) ? "h-[14px]" : isHeadingLAndAndroid ? "h-[22px]" : ["numbers-m", "heading-m"].includes(textStyle) ? "h-[16px]" : "h-[24px]"}`} />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "6104F492-1A25-4578-8ECD-0AC281059531.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-system-geometry-and-semantics_0_7CB2F83D-1C3B-49E5-AADC-1DBCF656B158.txt",
+        "timestamp" : 1791458420.729
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "FBB67B0F-CBDC-4697-A2E7-C64542352C87.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-system-UICTContentSizeCategoryAccessibilityM_0_40E5E74F-3996-4EF2-9CB4-26B562393614.png",
+        "timestamp" : 1791458420.542
+      }
+    ],
+    "testIdentifier" : "CardMediumUITests/testSystemDynamicTypeAndAccessibleActions()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/CardMediumUITests/testSystemDynamicTypeAndAccessibleActions"
+  }
+]

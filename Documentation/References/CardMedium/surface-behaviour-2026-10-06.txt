@@ -1,0 +1,354 @@
+const imgRectangle2262 = "https://www.figma.com/api/mcp/asset/4d388e1a-9269-409c-9ef9-19ac9e28668e.png";
+const imgVector829 = "https://www.figma.com/api/mcp/asset/e6f1167d-c12a-4381-8dc3-7a5b5109c091.svg";
+const imgVector830 = "https://www.figma.com/api/mcp/asset/15094b75-7f49-4371-8e15-70283497ff1a.svg";
+const imgVector833 = "https://www.figma.com/api/mcp/asset/c819f9b2-7e0b-4259-bd4f-938ae76166a0.svg";
+const imgVector831 = "https://www.figma.com/api/mcp/asset/7a296292-36c2-4357-ba10-c175d2b446ff.svg";
+const imgVector832 = "https://www.figma.com/api/mcp/asset/0fe2d091-4153-4986-91cc-8a2505945c55.svg";
+const imgVector834 = "https://www.figma.com/api/mcp/asset/c81e43fa-b351-4dd3-b3ef-eda22e310f23.svg";
+const imgFrame1948755171 = "https://www.figma.com/api/mcp/asset/9b32997b-68e0-4575-977e-67eb859c218f.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/76523e20-64c5-458f-acd4-850851b5b33b.svg";
+
+function CardFooter({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="9:41" data-name="card-footer">
+      <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="9:42" data-name="footer-container" />
+    </div>
+  );
+}
+
+type CardHeaderProps = {
+  className?: string;
+  content?: "off";
+};
+
+function CardHeader({ className, content = "off" }: CardHeaderProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col h-[32px] items-start overflow-clip relative w-[934px]"} data-node-id="9:39">
+      <div className="bg-[#f6f7f8] h-[120px] relative rounded-tl-[24px] rounded-tr-[24px] shrink-0 w-full" data-node-id="9:40" data-name="card-container" />
+    </div>
+  );
+}
+
+export default function Behaviour() {
+  return (
+    <div className="content-stretch flex flex-col items-center relative size-full" data-node-id="9:8937" data-name="Behaviour">
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="9:8938" data-name="# h1 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[56px] not-italic relative shrink-0 text-[50px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8938;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+          Behaviour
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[24px] relative shrink-0 w-full" data-node-id="I9:8938;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8938;9462:7160">
+            Визуализация поведения контейнеров при взаимодействии (Interactions)
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8939" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8939;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          scale
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8939;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8939;9462:7170">
+            При взаимодействии масштаб изменяется вместе с контентом
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8940" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8941" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8943" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8944" data-name="image">
+              <div className="absolute border border-[#333] border-dashed h-[100px] left-[5.75%] right-[82.76%] top-[159.5px]" data-node-id="9:8945" />
+              <div className="absolute border border-[#333] border-dashed h-[100px] left-[54.71%] right-[33.79%] top-[159.5px]" data-node-id="9:8946" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[8.51%] not-italic right-[85.52%] text-[#333] text-[12px] top-[197.35px] whitespace-nowrap" data-node-id="9:8947">
+                scale=1
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[57.47%] not-italic right-[36.55%] text-[#333] text-[12px] top-[197.35px] whitespace-nowrap" data-node-id="9:8948">
+                scale=1
+              </p>
+              <p className="[word-break:break-word] absolute font-['Tinkoff_Sans:Medium'] leading-[28px] left-[5.75%] not-italic right-[76.21%] text-[24px] text-[rgba(0,0,0,0.8)] top-[30px] whitespace-nowrap" data-node-id="9:8949" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Scale decrease
+              </p>
+              <p className="[word-break:break-word] absolute font-['Tinkoff_Sans:Medium'] leading-[28px] left-[54.71%] not-italic right-[28.05%] text-[24px] text-[rgba(0,0,0,0.8)] top-[30px] whitespace-nowrap" data-node-id="9:8950" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Scale increase
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] left-[49px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[66px] w-[273px] whitespace-pre-wrap" data-node-id="9:8951">
+                {`Подойдет для состояния нажатия `}
+                <br aria-hidden />
+                на десктопе и мобиле
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] left-[475px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[66px] w-[344px] whitespace-pre-wrap" data-node-id="9:8952">
+                {`Для наведения на десктопе или `}
+                <br aria-hidden />
+                драг-н-дропа на десктопе и мобиле
+              </p>
+              <div className="absolute h-0 left-[19.15%] right-[72.39%] top-[210.14px]" data-node-id="9:8953">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector829} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[68.11%] right-[23.42%] top-[210.14px]" data-node-id="9:8954">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector829} />
+                </div>
+              </div>
+              <div className="absolute border border-[#333] border-dashed h-[95px] left-[29.82%] right-[59.26%] top-[162.24px]" data-node-id="9:8955" />
+              <div className="absolute border border-[#333] border-dashed h-[115px] left-[78.39%] right-[8.39%] top-[152px]" data-node-id="9:8956" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[22.8px] left-[31.6%] not-italic right-[61.04%] text-[#333] text-[11.4px] top-[197.85px] whitespace-nowrap" data-node-id="9:8957">
+                scale=.95
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[22.8px] left-[81.26%] not-italic right-[10.57%] text-[#333] text-[11.4px] top-[197.85px] whitespace-nowrap" data-node-id="9:8958">
+                scale=1.05
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[5.75%] not-italic right-[72.87%] text-[#333] text-[12px] top-[305px] whitespace-nowrap" data-node-id="9:8959">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+              <div className="absolute h-0 left-[5.75%] right-[59.26%] top-[157px]" data-node-id="9:8960">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector830} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[54.71%] right-[8.39%] top-[157px]" data-node-id="9:8961">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector833} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[5.75%] right-[59.26%] top-[262px]" data-node-id="9:8962">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector830} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[54.71%] right-[8.39%] top-[262px]" data-node-id="9:8963">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector833} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8965" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8965;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          overlay
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8965;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8965;9462:7170">
+            При взаимодействии поверх фона накладывается оверлей
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8966" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8967" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8969" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8970" data-name="image">
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[23.13%] right-[65.37%] top-[128.6px]" data-node-id="9:8971" />
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[66.31%] right-[22.2%] top-[128.6px]" data-node-id="9:8972" />
+              <div className="absolute bg-[rgba(0,0,0,0.16)] h-[100px] left-[66.31%] right-[22.2%] top-[128.45px]" data-node-id="9:8973" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[25.89%] not-italic right-[68.13%] text-[#336fee] text-[12px] top-[166.45px] whitespace-nowrap" data-node-id="9:8974">
+                Initial
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[68.03%] not-italic right-[24.27%] text-[#336fee] text-[12px] top-[166.45px] whitespace-nowrap" data-node-id="9:8975">
+                overlayed
+              </p>
+              <div className="absolute h-0 left-[39.1%] right-[40.93%] top-[155.68px]" data-node-id="9:8976">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[38.73%] not-italic right-[39.89%] text-[#333] text-[12px] text-center top-[170.08px] whitespace-nowrap" data-node-id="9:8977">
+                duration:fast
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8979" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8979;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          highlight
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8979;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8979;9462:7170">
+            При взаимодействии цвет меняется на вычисленный алгоритмом. Может применяться только когда на фоне сплошной цвет. В остальных случаях нужно использовать overlay. Также есть возможность задать кастомный цвет хайлайта из токенов или в HEX.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8980" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8981" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8983" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8984" data-name="image">
+              <div className="absolute bg-[#ffdd2d] left-[184.05px] size-[106.511px] top-[125.28px]" data-node-id="9:8985" />
+              <div className="absolute h-0 left-[38.54%] right-[41.5%] top-[178.53px]" data-node-id="9:8986">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[37.93%] not-italic right-[40.69%] text-[#333] text-[12px] text-center top-[193.93px] whitespace-nowrap" data-node-id="9:8987">
+                duration:fast
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[17.19%] not-italic right-[61.43%] text-[#333] text-[12px] text-center top-[272.42px] whitespace-nowrap" data-node-id="9:8988">
+                color.background.accent-1
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[63.59%] not-italic right-[22.74%] text-[#333] text-[12px] text-center top-[272.42px] whitespace-nowrap" data-node-id="9:8989">
+                calculated color
+              </p>
+              <div className="absolute bg-[#ffcd33] left-[559.44px] size-[106.511px] top-[125.28px]" data-node-id="9:8990" />
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8992" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8992;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          offset
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8992;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full whitespace-pre-wrap" data-node-id="I9:8992;9462:7170">
+            {`При взаимодействии изменяет позицию по вертикали. Подходит для наведения `}
+            <br aria-hidden />и драг-н-дропа на десктопе и для драг-н-дропа на нативе. Значение по умолчанию 4рх, можно поменять
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8993" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8994" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8996" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8997" data-name="image">
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[23.13%] right-[65.37%] top-[128.6px]" data-node-id="9:8998" />
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[63.85%] right-[24.66%] top-[124.6px]" data-node-id="9:8999" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[25.89%] not-italic right-[68.13%] text-[#336fee] text-[12px] top-[166.45px] whitespace-nowrap" data-node-id="9:9000">
+                Initial
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[67.18%] not-italic right-[28.45%] text-[#336fee] text-[12px] top-[162.45px] whitespace-nowrap" data-node-id="9:9001">
+                + 4px
+              </p>
+              <div className="absolute h-0 left-[39.1%] right-[40.93%] top-[151.25px]" data-node-id="9:9002">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[38.73%] not-italic right-[39.89%] text-[#333] text-[12px] text-center top-[165.65px] whitespace-nowrap" data-node-id="9:9003">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+              <div className="absolute h-0 left-[23.13%] right-[24.66%] top-[129.6px]" data-node-id="9:9004">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector832} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[23.13%] right-[24.66%] top-[227.6px]" data-node-id="9:9005">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector832} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:9007" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:9007;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          background-scale (web-only)
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:9007;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:9007;9462:7170">
+            При взаимодействии увеличивает бэкграунд на заданную величину, якорные точки при этом сохраняются
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:9008" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:9009" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:9011" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:9012" data-name="image">
+              <div className="absolute border-[#428bf9] border-[1.15px] border-dashed h-[115px] left-[62.96%] opacity-20 right-[23.82%] top-[123.44px]" data-node-id="9:9013">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle2262} />
+              </div>
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[23.13%] right-[65.37%] top-[130.94px]" data-node-id="9:9014">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle2262} />
+              </div>
+              <div className="absolute border border-[#428bf9] border-dashed h-[100px] left-[63.82%] right-[24.68%] top-[130.94px]" data-node-id="9:9015">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[115.36%] left-[-25.75%] max-w-none top-[-7.68%] w-[151.51%]" src={imgRectangle2262} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[38.92%] right-[41.11%] top-[184.78px]" data-node-id="9:9016">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[38.55%] not-italic right-[40.07%] text-[#333] text-[12px] text-center top-[198.78px] whitespace-nowrap" data-node-id="9:9017">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+                <br aria-hidden />
+                scale:1.15 (default)
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:9019" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:9019;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          ripple (android only)
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:9019;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:9019;9462:7170">
+            При взаимодействии используется нативный ripple-эффект из андроида. Все тайминги - и внешний вид - системные
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:9020" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:9021" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[386px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:9023" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:9024" data-name="image">
+              <div className="absolute bg-white h-[100px] left-[23.63%] right-[64.87%] top-[136.2px]" data-node-id="9:9025" />
+              <div className="absolute h-0 left-[39.2%] right-[40.46%] top-[186.59px]" data-node-id="9:9026">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector834} />
+                </div>
+              </div>
+              <div className="absolute left-[554px] size-[100.489px] top-[135.95px]" data-node-id="9:9027">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1948755171} />
+              </div>
+              <div className="absolute h-[40px] left-[72.93%] right-[22.47%] top-[210.05px]" data-node-id="9:9030">
+                <div className="absolute inset-[-37.5%_-50%_-62.5%_-50%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[41.27%] not-italic right-[42.52%] text-[#333] text-[12px] text-center top-[210.05px] whitespace-nowrap" data-node-id="9:9031">
+                duration: as system
+                <br aria-hidden />
+                curve: as system
+                <br aria-hidden />
+                <br aria-hidden />
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Text/text-01: #000000, Desktop/Heading 3: Font(family: "Tinkoff Sans", style: Medium, size: 36, weight: 500, lineHeight: 40, letterSpacing: 0), Day/Base/base-02: #F6F7F8, Light/Text/primary: #333333, Desktop/Heading 5: Font(family: "Tinkoff Sans", style: Medium, size: 24, weight: 500, lineHeight: 28, letterSpacing: 0), Light/Text/accent: #428BF9, Day/Text/link: #336FEE, Light/Background/brand-tinkoff: #FFDD2D, Light/Background/highlight: #000000, _Local/Divider: #3C3C43, shadow-1: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

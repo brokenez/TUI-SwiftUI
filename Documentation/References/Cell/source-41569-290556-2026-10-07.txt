@@ -1,0 +1,109 @@
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/fa790e5d-a46a-4eb2-9ea9-fd397efa430d.svg";
+
+type TuiCellProps = {
+  className?: string;
+  caption?: string;
+  description?: string;
+  fixedHeight?: "on";
+  rightSide?: "Text";
+  showAvatar?: boolean;
+  showCaption?: boolean;
+  showDescription?: boolean;
+  skeleton?: "off";
+  system?: "iOS";
+  title?: string;
+  type?: "Default";
+  value?: string;
+  valueDescription?: string;
+};
+
+function TuiCell({ className, caption = "Caption", description = "Description", fixedHeight = "on", rightSide = "Text", showAvatar = true, showCaption = false, showDescription = true, skeleton = "off", system = "iOS", title = "Title", type = "Default", value = "Value", valueDescription = "Description" }: TuiCellProps) {
+  return (
+    <div className={className || "content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative w-[375px]"} data-node-id="41569:290556">
+      {showAvatar && (
+        <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="41569:290557" data-name="Avatar">
+          <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="41569:290558" data-name="tui-avatar">
+            <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I41569:290558;25745:690432" data-name="Container">
+              <div className="absolute inset-[20%]" data-node-id="I41569:290558;25745:690434" data-name="tui-ic-medium / star">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="41569:290559" data-name="TextCont">
+        {showCaption && (
+          <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="41569:290560" data-name="CaptionCont">
+            {showCaption && (
+              <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="41569:290561">
+                {caption}
+              </p>
+            )}
+          </div>
+        )}
+        <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="41569:290562" data-name="TitleCont">
+          <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="41569:290563" data-name="CellTitleCont">
+            <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="41569:290564">
+              {title}
+            </p>
+          </div>
+          <div className="content-stretch flex items-start relative shrink-0" data-node-id="41569:290565" data-name="CellValueCont">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="41569:290566">
+              {value}
+            </p>
+          </div>
+        </div>
+        {showDescription && (
+          <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="41569:290567" data-name="DescriptionCont">
+            {showDescription && (
+              <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="41569:290568" data-name="TitleDescriptionCont">
+                {showDescription && (
+                  <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="41569:290569">
+                    {description}
+                  </p>
+                )}
+              </div>
+            )}
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="41569:290570" data-name="ValueDescriptionCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="41569:290571">
+                {valueDescription}
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-cell
+**Node ID:** 41569:290555
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 25745:690405
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 41881:45334
+
+rating, favorite, bookmark, gold star, rating system
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,399 @@
+export default function Card1X1() {
+  return (
+    <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] size-full" data-node-id="14:40913" data-name="card-1x1">
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="14:40914" data-name="Container">
+        <div className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" data-node-id="14:40915" data-name="card-header">
+          <div className="bg-[rgba(0,16,36,0.03)] h-[120px] relative rounded-tl-[24px] rounded-tr-[24px] shrink-0 w-full" data-node-id="I14:40915;9510:6914" data-name="card-container" />
+        </div>
+        <div className="bg-[rgba(0,16,36,0.03)] content-stretch flex flex-col h-[414px] items-start px-[32px] relative shrink-0 w-full" data-node-id="14:40916" data-name="card-content">
+          <div className="h-[396px] relative shrink-0 w-full" data-node-id="14:40917" data-name="image">
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] pb-[16px] top-0 w-[163px]" data-node-id="14:40918" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40918;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40918;38479:272832">
+                    24px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] pb-[16px] top-0 w-[164px]" data-node-id="14:40919" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40919;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40919;38479:272832">
+                    20px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] pb-[16px] top-0 w-[161px]" data-node-id="14:40920" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40920;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40920;38479:272832">
+                    16px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] pb-[16px] top-0 w-[163px]" data-node-id="14:40921" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40921;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40921;38479:272832">
+                    8px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[156px] w-[163px]" data-node-id="14:40922" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40922;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40922;38479:272832">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[100px] w-[163px]" data-node-id="14:40923" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40923;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40923;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[40px] w-[163px]" data-node-id="14:40924" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40924;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40924;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[212px] w-[163px]" data-node-id="14:40925" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40925;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40925;38479:272832">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[268px] w-[163px]" data-node-id="14:40926" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40926;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40926;38479:272832">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[219px] py-[16px] top-[324px] w-[163px]" data-node-id="14:40927" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40927;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40927;38479:272832">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[324px] w-[164px]" data-node-id="14:40928" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40928;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40928;38479:272832">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[324px] w-[161px]" data-node-id="14:40929" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40929;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40929;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[324px] w-[163px]" data-node-id="14:40930" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40930;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40930;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-[219px] py-[16px] top-[380px] w-[163px]" data-node-id="14:40931" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40931;38479:272834">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40931;38479:272836">
+                    16
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-[382px] py-[16px] top-[380px] w-[164px]" data-node-id="14:40932" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40932;38479:272834">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40932;38479:272836">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-[546px] py-[16px] top-[380px] w-[161px]" data-node-id="14:40933" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40933;38479:272834">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40933;38479:272836">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-[707px] py-[16px] top-[380px] w-[163px]" data-node-id="14:40934" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40934;38479:272834">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40934;38479:272836">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[268px] w-[164px]" data-node-id="14:40935" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40935;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40935;38479:272832">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[268px] w-[161px]" data-node-id="14:40936" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40936;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40936;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[268px] w-[163px]" data-node-id="14:40937" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40937;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40937;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[156px] w-[164px]" data-node-id="14:40938" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40938;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40938;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[100px] w-[164px]" data-node-id="14:40939" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40939;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40939;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[40px] w-[164px]" data-node-id="14:40940" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40940;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40940;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[382px] py-[16px] top-[212px] w-[164px]" data-node-id="14:40941" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40941;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40941;38479:272832">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[156px] w-[161px]" data-node-id="14:40942" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40942;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40942;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[100px] w-[161px]" data-node-id="14:40943" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40943;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40943;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[40px] w-[161px]" data-node-id="14:40944" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40944;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40944;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[546px] py-[16px] top-[212px] w-[161px]" data-node-id="14:40945" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40945;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40945;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[156px] w-[163px]" data-node-id="14:40946" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40946;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40946;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[100px] w-[163px]" data-node-id="14:40947" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40947;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40947;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[40px] w-[163px]" data-node-id="14:40948" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40948;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40948;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-[707px] py-[16px] top-[212px] w-[163px]" data-node-id="14:40949" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40949;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40949;38479:272832">
+                    4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[156px] w-[219px]" data-node-id="14:40950" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40950;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40950;38479:272832">
+                    padding 24px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[100px] w-[219px]" data-node-id="14:40951" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40951;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40951;38479:272832">
+                    padding 32px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[40px] w-[219px]" data-node-id="14:40952" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40952;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40952;38479:272832">
+                    padding 40px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 pb-[16px] top-0 w-[219px]" data-node-id="14:40953" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40953;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I14:40953;38479:272832">
+                    Radius
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[212px] w-[219px]" data-node-id="14:40954" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40954;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40954;38479:272832">
+                    padding 20px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[268px] w-[219px]" data-node-id="14:40955" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40955;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40955;38479:272832">
+                    padding 16px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute border-[rgba(0,16,36,0.12)] border-b border-solid content-stretch flex items-center left-0 py-[16px] top-[324px] w-[219px]" data-node-id="14:40956" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40956;38479:272830">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40956;38479:272832">
+                    padding 12px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute content-stretch flex items-center left-0 py-[16px] top-[380px] w-[219px]" data-node-id="14:40957" data-name="tui-table сell">
+              <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I14:40957;38479:272834">
+                <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start justify-center min-w-px relative" data-name="Text">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.54)] w-full" data-node-id="I14:40957;38479:272836">
+                    padding 8px
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="14:40958" data-name="card-footer">
+          <div className="bg-[rgba(0,16,36,0.03)] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I14:40958;9499:6876" data-name="footer-container" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Day/Background/neutral-1: #001024, Day/Text/secondary: #000000, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day/Border/normal: #001024, Day/Text/primary: #000000.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-table сell
+**Node ID:** 11989:132299
+
+Компонент ячейки таблицы.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

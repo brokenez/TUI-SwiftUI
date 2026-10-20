@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "CB73BB51-1445-447F-B230-7D33936AFF96.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "button-normal-loading-sizes-Night-3x_0_CEC8D901-4726-4B34-9A46-93C72280922C.png",
+        "timestamp" : 1791467509.884
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "16F75365-F28B-48ED-AADE-32EE9C746EAD.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "button-normal-loading-sizes-Day-3x_0_252B0639-C6AA-4589-A948-9C9B5BEC4350.png",
+        "timestamp" : 1791467509.868
+      }
+    ],
+    "testIdentifier" : "ButtonTests/testLoadingVisualEvidenceIncludesAllSizesAndBothThemes()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystem/TUIDesignSystemTests/ButtonTests/testLoadingVisualEvidenceIncludesAllSizesAndBothThemes"
+  }
+]

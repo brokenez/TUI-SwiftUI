@@ -1,0 +1,239 @@
+{
+  "regressionMethod": "Full original 3x RGBA; no resizing, alignment or normalization",
+  "sourcePairMethod": "Native 3x downsampled to Figma 1x with LANCZOS; white composite; no alignment or color adjustment",
+  "acceptedStaticPoses": [
+    {
+      "variantID": "37840:45834",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/047B8AD6-77CA-4851-A627-7F5A9177B886.png",
+      "reference": "Documentation/References/Skeleton/ios-37840-45834-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "b97376ce24375e7c54c6530fe5eaa3a5c41fde4277d50ad25ba65bdf93ccbf15",
+      "referenceSHA256": "b97376ce24375e7c54c6530fe5eaa3a5c41fde4277d50ad25ba65bdf93ccbf15"
+    },
+    {
+      "variantID": "37840:45835",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/BB7EFBFE-C827-4AD2-8D2D-CE36CF955D55.png",
+      "reference": "Documentation/References/Skeleton/ios-37840-45835-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "c3219f2b56524e7ed43ba7d99fa00a4860d43800ca93d72804c8b18445d1512c",
+      "referenceSHA256": "c3219f2b56524e7ed43ba7d99fa00a4860d43800ca93d72804c8b18445d1512c"
+    },
+    {
+      "variantID": "37840:45837",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/F56F0D15-2667-4546-B82D-BEA60B133F21.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45837-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "ca1d2fd520eea9cf7a3bf19eaef6587bece7e24038de7aa6c39746ab17330ecb",
+      "referenceSHA256": "ca1d2fd520eea9cf7a3bf19eaef6587bece7e24038de7aa6c39746ab17330ecb"
+    },
+    {
+      "variantID": "37840:45839",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/2EFC23C1-1D79-44D6-9DF1-E9D9B2E88A06.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45839-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "ca1d2fd520eea9cf7a3bf19eaef6587bece7e24038de7aa6c39746ab17330ecb",
+      "referenceSHA256": "ca1d2fd520eea9cf7a3bf19eaef6587bece7e24038de7aa6c39746ab17330ecb"
+    },
+    {
+      "variantID": "37840:45843",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/CC211F8B-4094-4F72-BE10-F3B3987F783F.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45843-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "a60e11bbefc49738a2284ef41f0c65d7ed42d61ec0ea0a2653458f20cdfdd783",
+      "referenceSHA256": "a60e11bbefc49738a2284ef41f0c65d7ed42d61ec0ea0a2653458f20cdfdd783"
+    },
+    {
+      "variantID": "37840:45849",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/F4C47E0E-D47F-44C7-81D6-459C6A97BEA8.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45849-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "a60e11bbefc49738a2284ef41f0c65d7ed42d61ec0ea0a2653458f20cdfdd783",
+      "referenceSHA256": "a60e11bbefc49738a2284ef41f0c65d7ed42d61ec0ea0a2653458f20cdfdd783"
+    },
+    {
+      "variantID": "37840:45853",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/4D31C534-DA00-4863-A447-F25D12309701.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45853-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129",
+      "referenceSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129"
+    },
+    {
+      "variantID": "37840:45857",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/CDE82ABB-914E-4B5C-9754-1B97EA5EDA5A.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45857-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129",
+      "referenceSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129"
+    },
+    {
+      "variantID": "37840:45861",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/5516E8C2-EF5F-4252-B58D-35A0A87EA881.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45861-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "52127193c8106fd8a6238fa7aed08249f62f465aa6a496f48f18b43d22899ae3",
+      "referenceSHA256": "52127193c8106fd8a6238fa7aed08249f62f465aa6a496f48f18b43d22899ae3"
+    },
+    {
+      "variantID": "37840:45865",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/CE03B0B2-41C1-4276-9AFA-D869CA2010D8.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45865-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "531915a7018d37cb7c22f01daa30eaafc8872236e8142c939ee564fc4545ea50",
+      "referenceSHA256": "531915a7018d37cb7c22f01daa30eaafc8872236e8142c939ee564fc4545ea50"
+    },
+    {
+      "variantID": "37840:45869",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/3530E31C-1E7A-4C9A-BD30-2C1416744CE0.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45869-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129",
+      "referenceSHA256": "e58bfa319f8d50631cbdf567d89bf17ee779b6de484624577ee92cc6f6a8c129"
+    },
+    {
+      "variantID": "37840:45873",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/0E8C35D1-AD47-4073-BAA8-2E8F932FD127.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45873-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "52127193c8106fd8a6238fa7aed08249f62f465aa6a496f48f18b43d22899ae3",
+      "referenceSHA256": "52127193c8106fd8a6238fa7aed08249f62f465aa6a496f48f18b43d22899ae3"
+    },
+    {
+      "variantID": "37840:45877",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/FCFEA11A-84D2-433E-BE66-36527EF9884E.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45877-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "531915a7018d37cb7c22f01daa30eaafc8872236e8142c939ee564fc4545ea50",
+      "referenceSHA256": "531915a7018d37cb7c22f01daa30eaafc8872236e8142c939ee564fc4545ea50"
+    },
+    {
+      "variantID": "37840:45881",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/964B36AE-22D5-4287-9954-33FD06D060E9.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45881-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "9e31fda61a45a92b55e84dc8b186aa7c2053f74135f005643d29b03786875ad4",
+      "referenceSHA256": "9e31fda61a45a92b55e84dc8b186aa7c2053f74135f005643d29b03786875ad4"
+    },
+    {
+      "variantID": "37840:45883",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/5FB47A76-D059-4BD5-AF4C-5D09B847B9B0.png",
+      "reference": "Documentation/References/SkeletonText/ios-37840-45883-day-motion-2026-10-05-3x.png",
+      "RGBAIdentical": true,
+      "nativeSHA256": "c79eb7efd778286945ee9321b7775e7fc8b4eef84086796870fe9af37d023ebc",
+      "referenceSHA256": "c79eb7efd778286945ee9321b7775e7fc8b4eef84086796870fe9af37d023ebc"
+    }
+  ],
+  "buttonBeforeAfter": [
+    {
+      "variantID": "55915:350412",
+      "theme": "Day",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/7BE7834D-57C7-4917-8BFB-509FC84E0EC7.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/56C82ED6-A5D5-4E80-B203-B8E880FBD087.png",
+      "nativeSHA256": "f64a34c9beb159bcdf4629940832484ead8ac734f2f33ae3d616fa6f84447ef5",
+      "previousSHA256": "962326460368a0412d82db7b511d8ca9f5dec14aad10a398d660868d20a32a3b",
+      "changedChannels": 960,
+      "maximumDifference_255": 6,
+      "MAE_255": 0.00379625534424296
+    },
+    {
+      "variantID": "55915:350412",
+      "theme": "Night",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/A752C4DE-76DD-4262-81DC-42D7807AFADF.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/0A96E64D-EE3E-4E9E-A8D0-E26CDD476EB2.png",
+      "nativeSHA256": "aee47a78713641c76a620d6ba293decd1c2515ffed26adf7338b665f82212cb1",
+      "previousSHA256": "15999f248b522d25950aaeaf046aca42bed7af45a24c8b26fa791172c0590e90",
+      "changedChannels": 1272,
+      "maximumDifference_255": 20,
+      "MAE_255": 0.011784977148754238
+    },
+    {
+      "variantID": "55915:350422",
+      "theme": "Day",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/C4849146-7DF3-45B9-8631-C24C90743218.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/AA9CC798-B0D1-4F44-9908-C80D0E68C18E.png",
+      "nativeSHA256": "4afaa729a63050e0953742a03da4887be3bbca9bc38a7625c0994ae5b0fade5f",
+      "previousSHA256": "3ce21e54d4e49eb1e71cbfdde574d71c381a6bd1e218f3ec2202543e62bb8428",
+      "changedChannels": 516,
+      "maximumDifference_255": 6,
+      "MAE_255": 0.018518518518518517
+    },
+    {
+      "variantID": "55915:350422",
+      "theme": "Night",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/416315AA-4A9E-405C-B17D-82B8401C8081.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/3F39A715-63BC-467C-8924-27A981C2B7D0.png",
+      "nativeSHA256": "cf59d9a8b81e8c63671e41d720c6928e9fd113d8f36f1b8520df5b0a4bf5dcd0",
+      "previousSHA256": "eeb2d75ad296d9c5b142fed37d9fc3555f6878baba6baf0bf646544b690a70e6",
+      "changedChannels": 696,
+      "maximumDifference_255": 19,
+      "MAE_255": 0.05419103313840156
+    },
+    {
+      "variantID": "55915:350432",
+      "theme": "Day",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/8299C3A8-C40F-4298-9C29-26D33A988E5B.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/9465FF9A-C1DE-45E5-A488-0AC784736452.png",
+      "nativeSHA256": "feab80acec0bca90e05b5b4d4b48eaf53782d9879736b268e07dafa034110148",
+      "previousSHA256": "2a551dd0cca22b1cdc69e7abd1cba3d41b7628c22af0dd2184d95c99e1b41879",
+      "changedChannels": 762,
+      "maximumDifference_255": 5,
+      "MAE_255": 0.0030373393376489353
+    },
+    {
+      "variantID": "55915:350432",
+      "theme": "Night",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/511CED64-92F0-48FD-A7C1-33A678D8E37D.png",
+      "previous": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/D43686B2-615A-413C-AE94-4A1A4C66A248.png",
+      "nativeSHA256": "c71360ce6354c69106b9b98089a86d9b8b1fb1ab025ac2782ed14993cf6b8fa9",
+      "previousSHA256": "879fc0f7aba4bea12f3df4bc81d3a5a65ae3ea11a074726b445bf1b547e3eecb",
+      "changedChannels": 852,
+      "maximumDifference_255": 16,
+      "MAE_255": 0.008250070363073458
+    }
+  ],
+  "buttonFigmaPairs": [
+    {
+      "variantID": "55915:350412",
+      "theme": "Day",
+      "figma": "Documentation/References/Button/2026-10-13/skeleton-55915-350412.png",
+      "figmaSHA256": "66b6498fd19c07c57bd5a34c14fc850b05124437ffecbcd1a6de068078e0cb4b",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/7BE7834D-57C7-4917-8BFB-509FC84E0EC7.png",
+      "nativeSHA256": "f64a34c9beb159bcdf4629940832484ead8ac734f2f33ae3d616fa6f84447ef5",
+      "sourceSize": [
+        323,
+        56
+      ],
+      "MAE_255": 0.008126934984520124,
+      "maximumDifference_255": 3
+    },
+    {
+      "variantID": "55915:350422",
+      "theme": "Day",
+      "figma": "Documentation/References/Button/2026-10-13/skeleton-55915-350422.png",
+      "figmaSHA256": "3613714954e13f719d39b7401c8d0a03d1cd68253aab725a6b36f3523647f212",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/C4849146-7DF3-45B9-8631-C24C90743218.png",
+      "nativeSHA256": "4afaa729a63050e0953742a03da4887be3bbca9bc38a7625c0994ae5b0fade5f",
+      "sourceSize": [
+        57,
+        30
+      ],
+      "MAE_255": 0.04093567251461988,
+      "maximumDifference_255": 2
+    },
+    {
+      "variantID": "55915:350432",
+      "theme": "Day",
+      "figma": "Documentation/References/Button/2026-10-13/skeleton-55915-350432.png",
+      "figmaSHA256": "2cceb5d469c5753e3725cee6c98ebb6b37193cd63e9d95a14aab748f328cc16d",
+      "native": "Documentation/Validation/2026-10-13/ButtonSkeleton/PackageNative/8299C3A8-C40F-4298-9C29-26D33A988E5B.png",
+      "nativeSHA256": "feab80acec0bca90e05b5b4d4b48eaf53782d9879736b268e07dafa034110148",
+      "sourceSize": [
+        323,
+        44
+      ],
+      "MAE_255": 0.005629045876723895,
+      "maximumDifference_255": 2
+    }
+  ],
+  "limitations": "Three Day source pairs only. Night source pairing and full Button acceptance remain pending; edge rasterization is reported, not waived."
+}

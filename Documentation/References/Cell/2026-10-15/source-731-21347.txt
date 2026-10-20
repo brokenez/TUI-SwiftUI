@@ -1,0 +1,160 @@
+const imgStart = "https://www.figma.com/api/mcp/asset/09e680ed-c620-48b7-9285-54cf2e08d20c.svg";
+const imgTuiCardLarge = "https://www.figma.com/api/mcp/asset/45c3d9ec-827c-4342-875e-717493bd3eca.svg";
+const imgExtensionLine = "https://www.figma.com/api/mcp/asset/9c5fd1ed-d57e-4eae-a6b4-4363521fac2c.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/287fe3f2-f7a9-44a0-ada0-37caeec7ed9a.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/611e7e75-c68c-4895-ab30-aea09f733177.svg";
+
+export default function Image() {
+  return (
+    <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] size-full" data-node-id="731:21347" data-name="image">
+      <div className="bg-[#f6f7f8] content-stretch flex flex-col gap-[460px] items-start relative rounded-[24px] shrink-0 w-full" data-node-id="731:21348" data-name="img-placeholder">
+        <div className="h-0 relative shrink-0 w-[760px]" data-node-id="731:21349" data-name="start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-[760px]" data-node-id="731:21350" data-name="end">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-[calc(50%-10.5px)] top-[calc(50%-17.5px)]" data-node-id="731:21351" data-name="Instance Container">
+          <div className="relative shrink-0 size-[375px]" data-node-id="I731:21351;609:2046" data-name=".Instance">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+          </div>
+        </div>
+        <div className="absolute h-[280px] left-[285px] top-[123px] w-[20px]" data-node-id="731:21352" data-name="Inside - Bottom">
+          <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-px" data-node-id="I731:21352;1415:3084" style={{ containerType: "size" }}>
+            <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
+              <div className="relative size-full" data-name="Extension Line">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExtensionLine} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-0 flex items-center justify-center left-0 top-0 w-px" data-node-id="I731:21352;1415:3085" style={{ containerType: "size" }}>
+            <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
+              <div className="relative size-full" data-name="Extension Line">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExtensionLine} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-[6px] flex h-0 items-center justify-center left-[-9px] w-[9px]" data-node-id="I731:21352;5311:629">
+            <div className="flex-none rotate-90">
+              <div className="h-[9px] relative w-0" data-name="Line">
+                <div className="absolute inset-[0_-2.89px]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-[6px] flex h-0 items-center justify-center right-[-9px] w-[9px]" data-node-id="I731:21352;5311:630">
+            <div className="flex-none rotate-90">
+              <div className="h-[9px] relative w-0" data-name="Line">
+                <div className="absolute inset-[0_-2.89px]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute bottom-[8px] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] left-px not-italic right-px text-[11px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[0.4px] translate-y-1/2" data-node-id="I731:21352;232:1509">
+            <p className="leading-[16px]">20</p>
+          </div>
+        </div>
+        <div className="absolute h-[280px] left-[608px] top-[123px] w-[20px]" data-node-id="731:21353" data-name="Inside - Bottom">
+          <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-px" data-node-id="I731:21353;1415:3084" style={{ containerType: "size" }}>
+            <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
+              <div className="relative size-full" data-name="Extension Line">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExtensionLine} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-0 flex items-center justify-center left-0 top-0 w-px" data-node-id="I731:21353;1415:3085" style={{ containerType: "size" }}>
+            <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
+              <div className="relative size-full" data-name="Extension Line">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExtensionLine} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-[6px] flex h-0 items-center justify-center left-[-9px] w-[9px]" data-node-id="I731:21353;5311:629">
+            <div className="flex-none rotate-90">
+              <div className="h-[9px] relative w-0" data-name="Line">
+                <div className="absolute inset-[0_-2.89px]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-[6px] flex h-0 items-center justify-center right-[-9px] w-[9px]" data-node-id="I731:21353;5311:630">
+            <div className="flex-none rotate-90">
+              <div className="h-[9px] relative w-0" data-name="Line">
+                <div className="absolute inset-[0_-2.89px]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute bottom-[8px] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] left-px not-italic right-px text-[11px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[0.4px] translate-y-1/2" data-node-id="I731:21353;232:1509">
+            <p className="leading-[16px]">20</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Gradient/Text/Primary Fade: , iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Background/neutral-1: #244A7F, Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Desktop / 11 Body XS: Font(family: "Neue Haas Unica W1G", style: Regular, size: 11, weight: 400, lineHeight: 16, letterSpacing: 0.4000000059604645).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-large
+**Node ID:** 25498:41023
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 25498:38882
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button [link]
+**Node ID:** 25498:38761
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-link](https://go.tcsbank.ru/tui-button-link)
+
+## tui-cell
+**Node ID:** 25498:16694
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 25498:8973
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

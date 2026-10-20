@@ -7,6 +7,19 @@ public enum TUIChipSize: String, CaseIterable, Sendable {
     public var height: CGFloat { self == .small ? 30 : 36 }
     var horizontalPadding: CGFloat { self == .small ? 7 : 10 }
     var verticalPadding: CGFloat { self == .small ? 7 : 10 }
+    var labelMinimumWidth: CGFloat { self == .small ? 57 : 63 }
+
+    func minimumWidth(leading: TUIChipLeadingContent, trailing: TUIChipTrailingContent) -> CGFloat {
+        var width = labelMinimumWidth
+        switch leading {
+        case .none: break
+        case .icon: width += 16
+        case .image: width += self == .small ? 20 : 16
+        }
+        if trailing != .none { width += 16 }
+        if self == .medium, leading == .image, trailing != .none { width += 4 }
+        return width
+    }
 }
 
 public enum TUIChipAppearance: String, CaseIterable, Sendable {
@@ -121,8 +134,11 @@ public struct TUIChip: View {
             }
         }
         .padding(.leading, leadingContent == .image ? size.horizontalPadding - 4 : size.horizontalPadding)
-        .padding(.trailing, size.horizontalPadding)
+        .padding(.trailing, size == .medium && leadingContent == .image && trailingContent == .none
+            ? size.horizontalPadding - 4
+            : size.horizontalPadding)
         .frame(height: size.height)
+        .frame(minWidth: size.minimumWidth(leading: leadingContent, trailing: trailingContent))
         .background(background, in: Capsule())
         .overlay {
             if skeleton {

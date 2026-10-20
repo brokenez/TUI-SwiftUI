@@ -1,0 +1,552 @@
+const imgTuiIcMediumShare = "https://www.figma.com/api/mcp/asset/99ff2161-9635-4ba6-b919-43c4a9f18a26.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/8f4ce864-c39f-4bd0-b05b-b4c595158243.svg";
+const imgTuiIcMediumShare1 = "https://www.figma.com/api/mcp/asset/789d3beb-d202-434c-b2d2-71ba9f23ce66.svg";
+const imgTuiIcMediumShare2 = "https://www.figma.com/api/mcp/asset/f228eb28-494e-4416-8761-bbbe752a8dd3.svg";
+const imgTuiIcMediumShare3 = "https://www.figma.com/api/mcp/asset/02f55c4e-4dd2-499f-a81f-b6e52c41f522.svg";
+const imgTuiIcMediumShare4 = "https://www.figma.com/api/mcp/asset/9f57e9a4-8d7b-42ad-ba0f-410576cb5092.svg";
+const imgTuiIcMediumShare5 = "https://www.figma.com/api/mcp/asset/2da60580-8c8f-4785-bf16-ebd19e0cfc14.svg";
+const imgPreview = "https://www.figma.com/api/mcp/asset/b198901c-3307-4085-905c-feed53c88d41.png";
+const imgPreview1 = "https://www.figma.com/api/mcp/asset/108fd3a2-0420-4d87-b262-b0d487258abe.png";
+const imgPreview2 = "https://www.figma.com/api/mcp/asset/565899b4-0e1e-484d-b492-da29e7d48f35.png";
+
+type TuiSpacingProps = {
+  className?: string;
+  size?: "04 - 12px" | "05 - 16px";
+  visible?: "off";
+};
+
+function TuiSpacing({ className, size = "04 - 12px", visible = "off" }: TuiSpacingProps) {
+  const is0516PxAndOff = size === "05 - 16px" && visible === "off";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative ${is0516PxAndOff ? "w-[16px]" : "w-[12px]"}`} id={is0516PxAndOff ? "node-81_45376" : "node-81_45370"}>
+      <div className={`relative shrink-0 w-full ${is0516PxAndOff ? "h-[16px]" : "h-[12px]"}`} id={is0516PxAndOff ? "node-81_45377" : "node-81_45371"} data-name />
+    </div>
+  );
+}
+
+type TuiButtonShareProps = {
+  className?: string;
+  appearance?: "glass-on-light" | "secondary" | "glass-on-dark";
+  state?: "normal" | "pressed";
+  system?: "ios" | "android";
+};
+
+function TuiButtonShare({ className, appearance = "secondary", state = "normal", system = "ios" }: TuiButtonShareProps) {
+  const isAndroidAndGlassOnDarkAndNormal = system === "android" && appearance === "glass-on-dark" && state === "normal";
+  const isAndroidAndGlassOnDarkAndPressed = system === "android" && appearance === "glass-on-dark" && state === "pressed";
+  const isAndroidAndGlassOnLightAndNormal = system === "android" && appearance === "glass-on-light" && state === "normal";
+  const isAndroidAndSecondaryAndNormal = system === "android" && appearance === "secondary" && state === "normal";
+  const isGlassOnDark = appearance === "glass-on-dark";
+  const isGlassOnLight = appearance === "glass-on-light";
+  const isGlassOnLightAndNormal = appearance === "glass-on-light" && state === "normal";
+  const isGlassOnLightOrGlassOnDark = ["glass-on-light", "glass-on-dark"].includes(appearance);
+  const isIosAndGlassOnDarkAndNormal = system === "ios" && appearance === "glass-on-dark" && state === "normal";
+  const isIosAndGlassOnDarkAndPressed = system === "ios" && appearance === "glass-on-dark" && state === "pressed";
+  const isIosAndGlassOnLightAndNormal = system === "ios" && appearance === "glass-on-light" && state === "normal";
+  const isIosAndGlassOnLightAndPressed = system === "ios" && appearance === "glass-on-light" && state === "pressed";
+  const isIosAndSecondaryAndPressed = system === "ios" && appearance === "secondary" && state === "pressed";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] ${isIosAndGlassOnDarkAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-pressed,rgba(255,255,255,0.5))]" : appearance === "glass-on-dark" && (state === "normal" || (system === "android" && state === "pressed")) ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))]" : isIosAndGlassOnLightAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))]" : isGlassOnLightAndNormal ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))]" : isIosAndSecondaryAndPressed ? "bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))]" : "bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))]"}`} id={isAndroidAndGlassOnDarkAndPressed ? "node-32862_10535" : isIosAndGlassOnDarkAndPressed ? "node-32862_10534" : isAndroidAndGlassOnDarkAndNormal ? "node-32862_10533" : isIosAndGlassOnDarkAndNormal ? "node-32862_10532" : isIosAndGlassOnLightAndPressed ? "node-32862_10530" : isAndroidAndGlassOnLightAndNormal ? "node-32862_10529" : isIosAndGlassOnLightAndNormal ? "node-32862_10528" : isIosAndSecondaryAndPressed ? "node-32862_10526" : isAndroidAndSecondaryAndNormal ? "node-32862_10525" : "node-32862_10524"}>
+      {(state === "normal" || (system === "ios" && state === "pressed")) && (
+        <div className="content-stretch flex items-start p-[10px] relative shrink-0" id={isIosAndGlassOnDarkAndPressed ? "node-32862_10558" : isAndroidAndGlassOnDarkAndNormal ? "node-32862_10556" : isIosAndGlassOnDarkAndNormal ? "node-32862_10554" : isIosAndGlassOnLightAndPressed ? "node-32862_10549" : isAndroidAndGlassOnLightAndNormal ? "node-32862_10547" : isIosAndGlassOnLightAndNormal ? "node-32862_10545" : isIosAndSecondaryAndPressed ? "node-32862_10540" : isAndroidAndSecondaryAndNormal ? "node-32862_10538" : "node-32862_10536"} data-name="Left iconCont">
+          {system === "ios" && (
+            <div className="relative shrink-0 size-[24px]" id={appearance === "glass-on-dark" && state === "pressed" ? "node-32862_10559" : appearance === "glass-on-dark" && state === "normal" ? "node-32862_10555" : appearance === "glass-on-light" && state === "pressed" ? "node-32862_10550" : isGlassOnLightAndNormal ? "node-32862_10546" : appearance === "secondary" && state === "pressed" ? "node-32862_10541" : "node-32862_10537"} data-name="tui-ic-medium / share">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={isGlassOnLightOrGlassOnDark ? imgTuiIcMediumShare1 : imgTuiIcMediumShare} />
+            </div>
+          )}
+          {system === "android" && state === "normal" && (
+            <div className="relative shrink-0 size-[24px]" id={isGlassOnDark ? "node-32862_10557" : isGlassOnLight ? "node-32862_10548" : "node-32862_10539"} data-name="tui-ic-medium / share-2">
+              <div className={`absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px] ${isGlassOnLightOrGlassOnDark ? "bg-[var(--tui-text-primary-on-dark,white)]" : "bg-[var(--tui-text-action,#428bf9)]"}`} id={isGlassOnDark ? "node-I32862_10557-1524_724" : isGlassOnLight ? "node-I32862_10548-1524_724" : "node-I32862_10539-1524_724"} style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+            </div>
+          )}
+        </div>
+      )}
+      {isAndroidAndGlassOnDarkAndPressed && (
+        <>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-service-android-ripple-on-dark,rgba(255,255,255,0.13))] left-[calc(50%+10px)] rounded-[1000px] size-[44px] top-[calc(50%+10px)]" data-node-id="32862:10560" data-name="ripple" />
+          <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="32862:10561" data-name="Left iconCont">
+            <div className="relative shrink-0 size-[24px]" data-node-id="32862:10562" data-name="tui-ic-medium / share-2">
+              <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px]" data-node-id="I32862:10562;1524:724" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+type TuiButtonShare1Props = {
+  className?: string;
+  state?: "normal" | "hover" | "pressed";
+  style?: "glass-on-light" | "secondary" | "glass-on-dark";
+};
+
+function TuiButtonShare1({ className, state = "normal", style = "secondary" }: TuiButtonShare1Props) {
+  const isGlassOnDarkAndHover = style === "glass-on-dark" && state === "hover";
+  const isGlassOnDarkAndNormal = style === "glass-on-dark" && state === "normal";
+  const isGlassOnDarkAndPressed = style === "glass-on-dark" && state === "pressed";
+  const isGlassOnLightAndHover = style === "glass-on-light" && state === "hover";
+  const isGlassOnLightAndNormal = style === "glass-on-light" && state === "normal";
+  const isGlassOnLightAndPressed = style === "glass-on-light" && state === "pressed";
+  const isSecondaryAndHover = style === "secondary" && state === "hover";
+  const isSecondaryAndPressed = style === "secondary" && state === "pressed";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] ${isGlassOnDarkAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-pressed,rgba(255,255,255,0.5))]" : isGlassOnDarkAndHover ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-hover,rgba(255,255,255,0.4))]" : isGlassOnDarkAndNormal ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))]" : isGlassOnLightAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))]" : isGlassOnLightAndHover ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-hover,rgba(0,0,0,0.48))]" : isGlassOnLightAndNormal ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))]" : isSecondaryAndPressed ? "bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))]" : isSecondaryAndHover ? "bg-[var(--tui-background-neutral-1-hover,rgba(36,74,127,0.09))]" : "bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))]"}`} id={isGlassOnDarkAndPressed ? "node-32862_27889" : isGlassOnDarkAndHover ? "node-32862_27888" : isGlassOnDarkAndNormal ? "node-32862_27887" : isGlassOnLightAndPressed ? "node-32862_27886" : isGlassOnLightAndHover ? "node-32862_27885" : isGlassOnLightAndNormal ? "node-32862_27884" : isSecondaryAndPressed ? "node-32862_27883" : isSecondaryAndHover ? "node-32862_27882" : "node-32862_27881"}>
+      <div className="content-stretch flex items-start p-[10px] relative shrink-0" id={isGlassOnDarkAndPressed ? "node-32862_27906" : isGlassOnDarkAndHover ? "node-32862_27904" : isGlassOnDarkAndNormal ? "node-32862_27902" : isGlassOnLightAndPressed ? "node-32862_27900" : isGlassOnLightAndHover ? "node-32862_27898" : isGlassOnLightAndNormal ? "node-32862_27896" : isSecondaryAndPressed ? "node-32862_27894" : isSecondaryAndHover ? "node-32862_27892" : "node-32862_27890"} data-name="Left iconCont">
+        <div className="relative shrink-0 size-[24px]" id={isGlassOnDarkAndPressed ? "node-32862_27907" : isGlassOnDarkAndHover ? "node-32862_27905" : isGlassOnDarkAndNormal ? "node-32862_27903" : isGlassOnLightAndPressed ? "node-32862_27901" : isGlassOnLightAndHover ? "node-32862_27899" : isGlassOnLightAndNormal ? "node-32862_27897" : isSecondaryAndPressed ? "node-32862_27895" : isSecondaryAndHover ? "node-32862_27893" : "node-32862_27891"} data-name="tui-ic-medium / share">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={["glass-on-light", "glass-on-dark"].includes(style) ? imgTuiIcMediumShare5 : isSecondaryAndPressed ? imgTuiIcMediumShare4 : isSecondaryAndHover ? imgTuiIcMediumShare3 : imgTuiIcMediumShare2} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="8573:7208" data-name="Стили">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="8573:7209" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I8573:7209;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I8573:7209;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Стили
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="8573:7210" data-name="row">
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex items-center relative shrink-0 w-[231px]" data-node-id="8573:7211" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[224px]" data-node-id="I8573:7211;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="I8573:7211;30429:176791" data-name="Content">
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I8573:7211;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I8573:7211;30429:176794">
+                  Appearance
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="8573:7213" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I8573:7213;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I8573:7213;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center justify-center min-w-px relative" data-node-id="I8573:7213;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center whitespace-nowrap" data-node-id="I8573:7213;30429:176794">
+                  Desktop
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="8665:1129" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I8665:1129;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I8665:1129;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center justify-center min-w-px relative" data-node-id="I8665:1129;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center whitespace-nowrap" data-node-id="I8665:1129;30429:176794">
+                  IOS
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="8573:7214" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I8573:7214;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I8573:7214;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center justify-center min-w-px relative" data-node-id="I8573:7214;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center whitespace-nowrap" data-node-id="I8573:7214;30429:176794">
+                  Android
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+        <div className="border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex items-center justify-center relative shrink-0 w-[108px]" data-node-id="8573:7215" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I8573:7215;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I8573:7215;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center justify-center min-w-px relative" data-node-id="I8573:7215;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic opacity-0 relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center whitespace-nowrap" data-node-id="I8573:7215;30429:176794">
+                  Android
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="8573:7216" data-name="row">
+        <div className="content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[229px]" data-node-id="8573:7217" data-name="tui-table-сell">
+          <div className="[word-break:break-word] content-stretch flex flex-col h-full items-start not-italic relative shrink-0 w-[224px]" data-node-id="I8573:7217;30429:176354" data-name="Text">
+            <p className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[28px] relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I8573:7217;30429:176356">
+              secondary
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I8573:7217;30429:176357">
+              Для использования на фонах base, elevation
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative self-stretch" data-node-id="8573:7218" data-name="preview">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8573:7227" data-name="tui-table сell">
+            <TuiButtonShare1 className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" />
+            <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] border-2 border-[var(--tui-border-focus,rgba(0,16,36,0.44))] border-solid content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="8665:1279" data-name="tui-button [share]">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I8665:1279;14764:44060" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I8665:1279;14764:44061" data-name="tui-ic-medium / share">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare2} />
+                </div>
+              </div>
+            </div>
+            <TuiButtonShare1 className="bg-[var(--tui-background-neutral-1-hover,rgba(36,74,127,0.09))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="hover" />
+            <TuiButtonShare1 className="bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8665:1142" data-name="tui-table сell">
+            <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8665:1144">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8665:1145">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <TuiButtonShare className="bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative" data-node-id="8573:7235" data-name="tui-table сell">
+            <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" system="android" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8573:7237">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8573:7238">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="8573:7239" data-name="tui-button [share]">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-service-android-ripple,rgba(0,0,0,0.04))] left-[calc(50%+10px)] rounded-[1000px] size-[44px] top-[calc(50%+10px)]" data-node-id="I8573:7239;52061:47198" data-name="ripple" />
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I8573:7239;52061:47188" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I8573:7239;52061:47189" data-name="tui-ic-medium / share-2">
+                  <div className="absolute bg-[var(--tui-text-action,#428bf9)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px]" data-node-id="I8573:7239;52061:47189;1524:724" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[40px] items-center pr-[30px] pt-[40px] relative shrink-0 w-[108px]" data-node-id="8573:7243" data-name="tui-table сell">
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8573:7244" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8573:7244;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8573:7244;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8573:7244;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8573:7244;30429:176750">
+                      normal
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8573:7245" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8573:7245;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8573:7245;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8573:7245;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8573:7245;30429:176750">
+                      focus
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8573:7246" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8573:7246;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8573:7246;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8573:7246;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8573:7246;30429:176750">
+                      hover
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8573:7247" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8573:7247;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8573:7247;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8573:7247;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8573:7247;30429:176750">
+                      pressed
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="8577:1135" data-name="row">
+        <div className="content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[229px]" data-node-id="8577:1136" data-name="tui-table-сell">
+          <div className="[word-break:break-word] content-stretch flex flex-col h-full items-start not-italic relative shrink-0 w-[224px]" data-node-id="I8577:1136;30429:176354" data-name="Text">
+            <p className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[28px] relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I8577:1136;30429:176356">
+              glass-on-light
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I8577:1136;30429:176357">
+              Для использования на светлых пестрых фонах. C блюром
+            </p>
+          </div>
+        </div>
+        <div className="bg-size-[2835.5556640625px_1595.0000610351562px,auto_auto,32px_32px] bg-top-left content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative self-stretch" data-node-id="8577:1137" style={{ backgroundImage: `url("${imgPreview}"), linear-gradient(90deg, rgba(226, 226, 226, 0.96) 0%, rgba(226, 226, 226, 0.96) 100%), url("${imgPreview1}")` }} data-name="preview">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8665:1300" data-name="tui-table сell">
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" style="glass-on-light" />
+            <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] border-2 border-[var(--tui-border-focus,rgba(0,16,36,0.44))] border-solid content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="8665:1302" data-name="tui-button [share]">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I8665:1302;14764:44054" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I8665:1302;14764:44055" data-name="tui-ic-medium / share">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare5} />
+                </div>
+              </div>
+            </div>
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-hover,rgba(0,0,0,0.48))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="hover" style="glass-on-light" />
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" style="glass-on-light" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8665:1147" data-name="tui-table сell">
+            <TuiButtonShare appearance="glass-on-light" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8665:1149">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8665:1150">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <TuiButtonShare appearance="glass-on-light" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative" data-node-id="8577:1148" data-name="tui-table сell">
+            <TuiButtonShare appearance="glass-on-light" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" system="android" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8577:1150">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-black tracking-[-0.41px] w-[9px]" data-node-id="8577:1151">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="8577:1152" data-name="tui-button [share]">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I8577:1152;52061:47208" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I8577:1152;52061:47209" data-name="tui-ic-medium / share-2">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px]" data-node-id="I8577:1152;52061:47209;1524:724" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-service-android-ripple-on-dark,rgba(255,255,255,0.13))] left-[calc(50%+10px)] rounded-[1000px] size-[44px] top-[calc(50%+10px)]" data-node-id="I8577:1152;52061:47223" data-name="ripple" />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[40px] items-center pr-[30px] pt-[40px] relative shrink-0 w-[108px]" data-node-id="8577:1153" data-name="tui-table сell">
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1154" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1154;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1154;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1154;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8577:1154;30429:176750">
+                      normal
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1155" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1155;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1155;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1155;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8577:1155;30429:176750">
+                      focus
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1156" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1156;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1156;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1156;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8577:1156;30429:176750">
+                      hover
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1157" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1157;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1157;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1157;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-right whitespace-nowrap" data-node-id="I8577:1157;30429:176750">
+                      pressed
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-[934px]" data-node-id="8577:1495" data-name="row">
+        <div className="content-stretch flex items-start pr-[32px] py-[32px] relative self-stretch shrink-0 w-[229px]" data-node-id="8577:1496" data-name="tui-table-сell">
+          <div className="[word-break:break-word] content-stretch flex flex-col h-full items-start not-italic relative shrink-0 w-[224px]" data-node-id="I8577:1496;30429:176354" data-name="Text">
+            <p className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[28px] relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I8577:1496;30429:176356">
+              glass-on-dark
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I8577:1496;30429:176357">
+              Для использования на темных пестрых фонах. C блюром
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative self-stretch" data-node-id="8577:1497" data-name="preview">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPreview2} />
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8665:1353" data-name="tui-table сell">
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" style="glass-on-dark" />
+            <div className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))] border-2 border-[var(--tui-border-focus-on-dark,rgba(255,255,255,0.3))] border-solid content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="8665:1355" data-name="tui-button [share]">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I8665:1355;14764:44066" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I8665:1355;14764:44067" data-name="tui-ic-medium / share">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare5} />
+                </div>
+              </div>
+            </div>
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-hover,rgba(255,255,255,0.4))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="hover" style="glass-on-dark" />
+            <TuiButtonShare1 className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-pressed,rgba(255,255,255,0.5))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" style="glass-on-dark" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative rounded-[10px]" data-node-id="8665:1152" data-name="tui-table сell">
+            <TuiButtonShare appearance="glass-on-dark" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-white tracking-[-0.41px] w-[9px]" data-node-id="8665:1154">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-white tracking-[-0.41px] w-[9px]" data-node-id="8665:1155">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <TuiButtonShare appearance="glass-on-dark" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-pressed,rgba(255,255,255,0.5))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[40px] items-center justify-center min-w-px px-[100px] py-[40px] relative" data-node-id="8577:1508" data-name="tui-table сell">
+            <TuiButtonShare appearance="glass-on-dark" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" system="android" />
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-white tracking-[-0.41px] w-[9px]" data-node-id="8577:1510">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] h-[44px] justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-white tracking-[-0.41px] w-[9px]" data-node-id="8577:1511">
+              <p className="leading-[normal]">-</p>
+            </div>
+            <TuiButtonShare appearance="glass-on-dark" className="backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" state="pressed" system="android" />
+          </div>
+          <div className="content-stretch flex flex-col gap-[40px] items-center pr-[30px] pt-[40px] relative shrink-0 w-[108px]" data-node-id="8577:1513" data-name="tui-table сell">
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1514" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1514;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1514;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1514;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary-on-dark,rgba(255,255,255,0.7))] text-right whitespace-nowrap" data-node-id="I8577:1514;30429:176750">
+                      normal
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1515" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1515;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1515;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1515;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary-on-dark,rgba(255,255,255,0.7))] text-right whitespace-nowrap" data-node-id="I8577:1515;30429:176750">
+                      focus
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1516" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1516;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1516;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1516;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary-on-dark,rgba(255,255,255,0.7))] text-right whitespace-nowrap" data-node-id="I8577:1516;30429:176750">
+                      hover
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end relative shrink-0 w-full" data-node-id="8577:1517" data-name="tui-table-сell">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I8577:1517;30429:176745" data-name="Container">
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+                <div className="content-stretch flex gap-[12px] items-center justify-end relative shrink-0 w-full" data-node-id="I8577:1517;30429:176747" data-name="Content">
+                  <div className="content-stretch flex gap-[4px] items-center justify-end relative shrink-0" data-node-id="I8577:1517;30429:176749" data-name="Text + Sort icon">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary-on-dark,rgba(255,255,255,0.7))] text-right whitespace-nowrap" data-node-id="I8577:1517;30429:176750">
+                      pressed
+                    </p>
+                  </div>
+                </div>
+                <TuiSpacing className="content-stretch flex flex-col h-[12px] items-start relative shrink-0 w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Desktop/Body M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 24, letterSpacing: 0), Desktop/Body L Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 17, weight: 500, lineHeight: 28, letterSpacing: 0), Desktop/Body S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 20, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Desktop/Body S Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 13, weight: 500, lineHeight: 20, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-table-сell
+**Node ID:** 37636:15255
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-table](https://go.tcsbank.ru/tui-table)
+
+## tui-spacing
+**Node ID:** 81:45349
+
+Компонент отступов. Лучше использовать родные фигмовские отступы автолейауте, эти подойдут если нужны разные отступы внутри блока
+
+## tui-button [share]
+**Node ID:** 32862:27880
+
+Кастомный стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-share](https://go.tcsbank.ru/tui-button-share)
+
+## tui-ic-medium / share
+**Node ID:** 25646:20288
+
+social-share, network-share, distribute, broadcast
+
+## tui-button [share]
+**Node ID:** 32862:10523
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-share](https://go.tcsbank.ru/tui-button-share)
+
+## tui-ic-medium / share-2
+**Node ID:** 25646:20293
+
+social-share, network-share, distribute, broadcast
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

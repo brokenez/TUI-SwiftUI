@@ -1,0 +1,227 @@
+[
+  {
+    "id": "37840:45833",
+    "name": "tui-skeleton",
+    "description": "",
+    "documentationLinks": [],
+    "descriptionMarkdown": "",
+    "properties": {
+      "keyframe": {
+        "type": "VARIANT",
+        "defaultValue": "1",
+        "variantOptions": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "37840:45834",
+        "name": "keyframe=1",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45835",
+        "name": "keyframe=2",
+        "description": "",
+        "documentationLinks": []
+      }
+    ]
+  },
+  {
+    "id": "37840:45836",
+    "name": "tui-skeleton [text]",
+    "description": "",
+    "documentationLinks": [],
+    "descriptionMarkdown": "",
+    "properties": {
+      "text-style": {
+        "type": "VARIANT",
+        "defaultValue": "heading-l",
+        "variantOptions": [
+          "heading-l",
+          "heading-m",
+          "heading-s",
+          "body-m",
+          "body-l",
+          "body-s",
+          "ui-l",
+          "ui-m",
+          "ui-s",
+          "ui-xs",
+          "ui-xxs",
+          "numbers-xl",
+          "numbers-m"
+        ]
+      },
+      "system": {
+        "type": "VARIANT",
+        "defaultValue": "iOS",
+        "variantOptions": [
+          "iOS",
+          "Android"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "37840:45837",
+        "name": "text-style=heading-l, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45839",
+        "name": "text-style=numbers-xl, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45841",
+        "name": "text-style=numbers-xl, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45843",
+        "name": "text-style=numbers-m, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45845",
+        "name": "text-style=numbers-m, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45847",
+        "name": "text-style=heading-l, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45849",
+        "name": "text-style=heading-m, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45851",
+        "name": "text-style=heading-m, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45853",
+        "name": "text-style=heading-s, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45855",
+        "name": "text-style=heading-s, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45857",
+        "name": "text-style=body-l, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45859",
+        "name": "text-style=body-l, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45861",
+        "name": "text-style=body-m, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45863",
+        "name": "text-style=body-m, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45865",
+        "name": "text-style=body-s, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45867",
+        "name": "text-style=body-s, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45869",
+        "name": "text-style=ui-l, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45871",
+        "name": "text-style=ui-l, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45873",
+        "name": "text-style=ui-m, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45875",
+        "name": "text-style=ui-m, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45877",
+        "name": "text-style=ui-s, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45879",
+        "name": "text-style=ui-s, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45881",
+        "name": "text-style=ui-xs, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45883",
+        "name": "text-style=ui-xxs, system=iOS",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45885",
+        "name": "text-style=ui-xs, system=Android",
+        "description": "",
+        "documentationLinks": []
+      },
+      {
+        "id": "37840:45887",
+        "name": "text-style=ui-xxs, system=Android",
+        "description": "",
+        "documentationLinks": []
+      }
+    ]
+  }
+]

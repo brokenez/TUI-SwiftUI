@@ -1,0 +1,14 @@
+<frame id="9702:66333" name="Переход фокуса между полями" x="4792.9375" y="100" width="1190" height="4869">
+  <instance id="9702:66334" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="9702:66335" name="List Bulleted" x="128" y="216" width="934" height="205" />
+  <instance id="9702:66336" name="H2 + P" x="128" y="421" width="934" height="120" />
+  <instance id="9702:66337" name="Image 1x1" x="128" y="541" width="934" height="948" />
+  <instance id="9702:66338" name="H2 + P" x="128" y="1489" width="934" height="144" />
+  <instance id="9702:66339" name="Image 1x1" x="128" y="1633" width="934" height="948" />
+  <instance id="9702:66340" name="H2 + P" x="128" y="2581" width="934" height="144" />
+  <instance id="9702:66341" name="Image 1x1" x="128" y="2725" width="934" height="948" />
+  <instance id="9702:66342" name="H2 + P" x="128" y="3673" width="934" height="120" />
+  <instance id="9702:66343" name="Image 1x1" x="128" y="3793" width="934" height="948" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

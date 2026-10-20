@@ -1,0 +1,27 @@
+<symbol id="65702:51258" name="system=iOS, state=invalid-focus, is-filled=off, show-label=on, skeleton=off" x="46.671875" y="996.25" width="320" height="98">
+  <frame id="65702:51259" name="container" x="16" y="0" width="288" height="56">
+    <frame id="65702:51260" name="start-accessories" x="16" y="0" width="24" height="56" hidden="true">
+      <instance id="65702:51261" name="placeholder-single" x="0" y="20" width="16" height="16" />
+    </frame>
+    <frame id="65702:51262" name="content" x="12" y="0" width="264" height="56">
+      <text id="65702:51263" name="label" x="0" y="9" width="264" height="16" />
+      <frame id="65702:51264" name="value-container" x="0" y="27" width="264" height="20">
+        <rounded-rectangle id="65702:51265" name="cursor" x="0" y="0.5" width="2" height="19" />
+        <text id="65702:51266" name="placeholder" x="1" y="0" width="263" height="20" />
+      </frame>
+    </frame>
+    <frame id="65702:51267" name="end-accessories" x="260" y="0" width="16" height="56" hidden="true">
+      <frame id="65702:51268" name="accessory-slot" x="0" y="0" width="24" height="56" hidden="true">
+        <instance id="65702:51269" name="tui-loader" x="0" y="16" width="24" height="24" />
+      </frame>
+      <frame id="65702:51270" name="accessory-slot" x="0" y="0" width="16" height="56">
+        <instance id="65702:51271" name="placeholder" x="0" y="20" width="16" height="16" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="65702:51272" name="error-container" x="16" y="56" width="320" height="42">
+    <text id="65702:51273" name="error" x="12" y="12" width="296" height="18" />
+  </frame>
+</symbol>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

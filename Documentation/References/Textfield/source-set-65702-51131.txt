@@ -1,0 +1,1661 @@
+const imgColor = "ASSET_URL_REDACTED";
+const imgTuiLoader = "ASSET_URL_REDACTED";
+const imgColor1 = "ASSET_URL_REDACTED";
+const imgColor2 = "ASSET_URL_REDACTED";
+
+type TuiTextfieldProps = {
+  className?: string;
+  accessoryType?: React.ReactNode | null;
+  errorText?: string;
+  hintText?: string;
+  isFilled?: boolean;
+  labelText?: string;
+  placeholderText?: string;
+  showEndAccessory?: boolean;
+  showHint?: boolean;
+  showLabel?: boolean;
+  showLoader?: boolean;
+  showPlaceholder?: boolean;
+  showStartAccessory?: boolean;
+  skeleton?: boolean;
+  state?: "normal" | "focus" | "invalid" | "invalid-focus" | "read-only" | "disabled";
+  system?: "iOS" | "Android";
+  valueText?: string;
+};
+
+export default function TuiTextfield({ className, accessoryType = null, errorText = "Error", hintText = "Hint text", isFilled = false, labelText = "Label", placeholderText = "Placeholder", showEndAccessory = false, showHint = false, showLabel = true, showLoader = false, showPlaceholder = true, showStartAccessory = false, skeleton = false, state = "normal", system = "iOS", valueText = "Value" }: TuiTextfieldProps) {
+  if (system === "Android" && state === "normal" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51141" data-name="system=Android, state=normal, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51142" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51143" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51144" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51145" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51146" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51147" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51148" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51149" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51149;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "normal" && !isFilled && !showLabel && skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col h-[56px] items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51150" data-name="system=iOS, state=normal, is-filled=off, show-label=off, skeleton=on">
+        <div className="absolute bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] h-[56px] left-[16px] min-h-[56px] right-[16px] rounded-[12px] top-0" data-node-id="65702:51151" data-name="tui-skeleton" />
+      </div>
+    );
+  }
+  if (system === "Android" && state === "normal" && !isFilled && !showLabel && skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col h-[56px] items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51152" data-name="system=Android, state=normal, is-filled=off, show-label=off, skeleton=on">
+        <div className="absolute bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] h-[56px] left-[16px] min-h-[56px] right-[16px] rounded-[12px] top-0" data-node-id="65702:51153" data-name="tui-skeleton" />
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "read-only" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51154" data-name="system=iOS, state=read-only, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51155" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51156" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51157" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51158" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] w-full" data-node-id="65702:51159">
+              {labelText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51160" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51161" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-[16px]" data-node-id="65702:51162" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51162;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51162;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "read-only" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51163" data-name="system=Android, state=read-only, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51164" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51165" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51166" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51167" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="65702:51168" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51169" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51170" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51171" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51171;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51171;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "disabled" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51172" data-name="system=iOS, state=disabled, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51173" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51174" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51175" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51176" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] w-full" data-node-id="65702:51177">
+              {labelText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51178" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51179" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51180" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51180;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51180;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "disabled" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51181" data-name="system=Android, state=disabled, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51182" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51183" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51184" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51185" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51186" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51187" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51188" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51189" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51189;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51189;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "focus" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51190" data-name="system=iOS, state=focus, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51191" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51192" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51193" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51194" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] w-full" data-node-id="65702:51195">
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51196" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51197" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51198">
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51199" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51200" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51201" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51202" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51203" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51203;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51204" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] h-[18px] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51205">
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "Android" && state === "focus" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51206" data-name="system=Android, state=focus, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51207" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51208" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51209" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51210" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51211" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51212" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51213" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="65702:51214" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51215" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51216" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51217" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51218" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51219" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51219;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51220" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal h-[16px] leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51221" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51222" data-name="system=iOS, state=invalid, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51223" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51224" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51225" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51226" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.41px] w-full" data-node-id="65702:51227">
+              {labelText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51228" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51229" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51230" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51230;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51231" data-name="system=iOS, state=invalid, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51232" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51233" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51234" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51235" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.41px] w-full" data-node-id="65702:51236">
+              {labelText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51237" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51238" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51239" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51239;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51240" data-name="system=Android, state=invalid, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51241" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51242" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51243" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51244" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-negative,#f52222)] w-full" data-node-id="65702:51245" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51246" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51247" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51248" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51248;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51249" data-name="system=Android, state=invalid, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51250" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51251" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51252" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51253" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-negative,#f52222)] w-full" data-node-id="65702:51254" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51255" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51256" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51257" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51257;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid-focus" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51258" data-name="system=iOS, state=invalid-focus, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51259" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51260" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51261" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51262" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.08px] w-full" data-node-id="65702:51263">
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51264" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51265" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px]" data-node-id="65702:51266">
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51267" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51268" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51269" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51270" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51271" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51271;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-[320px]" data-node-id="65702:51272" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51273">
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid-focus" && !isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51274" data-name="system=Android, state=invalid-focus, is-filled=off, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51275" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51276" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51277" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51278" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] w-full" data-node-id="65702:51279" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51280" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51281" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[16px] text-[color:var(--tui-text-secondary,#9299a2)]" data-node-id="65702:51282" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51283" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51284" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51285" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51286" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51287" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51287;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51288" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51289" style={{ fontVariationSettings: '"wdth" 100' }}>
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "normal" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51290" data-name="system=iOS, state=normal, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51291" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51292" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51293" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px not-italic overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51294" data-name="content">
+            <p className="relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] w-full" data-node-id="65702:51295">
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] w-full" data-node-id="65702:51296">
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51297" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51298" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51299" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51299;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "normal" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51300" data-name="system=Android, state=normal, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51301" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51302" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51303" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Roboto:Regular'] font-normal gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51304" data-name="content">
+            <p className="relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51305" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="65702:51306" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51307" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51308" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51309" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51309;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "read-only" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51310" data-name="system=iOS, state=read-only, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51311" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51312" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51313" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px not-italic overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51314" data-name="content">
+            <p className="relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] w-full" data-node-id="65702:51315">
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] w-full" data-node-id="65702:51316">
+              {valueText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51317" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51318" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51319" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51319;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51319;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "read-only" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51320" data-name="system=Android, state=read-only, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51321" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51322" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51323" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Roboto:Regular'] font-normal gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51324" data-name="content">
+            <p className="relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51325" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="65702:51326" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51327" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51328" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51329" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51329;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51329;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "disabled" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51330" data-name="system=iOS, state=disabled, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51331" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51332" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51333" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px not-italic overflow-clip py-[8px] relative rounded-[4px] text-[color:var(--tui-text-secondary,#9299a2)]" data-node-id="65702:51334" data-name="content">
+            <p className="relative shrink-0 text-[13px] tracking-[-0.08px] w-full" data-node-id="65702:51335">
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[17px] tracking-[-0.41px] w-full" data-node-id="65702:51336">
+              {valueText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51337" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51338" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51339" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51339;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51339;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "disabled" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51340" data-name="system=Android, state=disabled, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51341" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51342" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51343" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Roboto:Regular'] font-normal gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px] text-[color:var(--tui-text-secondary,#9299a2)]" data-node-id="65702:51344" data-name="content">
+            <p className="relative shrink-0 text-[13px] w-full" data-node-id="65702:51345" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[16px] w-full" data-node-id="65702:51346" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51347" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51348" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51349" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51349;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51349;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "focus" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51350" data-name="system=iOS, state=focus, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51351" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51352" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51353" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51354" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] w-full" data-node-id="65702:51355">
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51356" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51357">
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51358" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51359" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51360" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51361" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51362" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51363" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51363;12716:39621" data-name="tui-ic-service / clearfield-ios">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51363;12716:39621;5247:552" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51364" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51365" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51365;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51366" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] h-[18px] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51367">
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "Android" && state === "focus" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51368" data-name="system=Android, state=focus, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51369" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51370" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51371" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51372" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] w-full" data-node-id="65702:51373" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51374" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51375" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51376" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51377" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51378" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51379" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51380" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51381" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51381;12716:39621" data-name="tui-ic-small-pragmatic / cross">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51381;12716:39621;246:3843" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51382" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51383" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51383;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51384" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal h-[16px] leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51385" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51386" data-name="system=iOS, state=invalid, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51387" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51388" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51389" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px not-italic overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51390" data-name="content">
+            <p className="min-w-full relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.08px] w-[min-content]" data-node-id="65702:51391">
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51392">
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51393" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51394" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51395" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51395;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51396" data-name="system=Android, state=invalid, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51397" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51398" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51399" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Roboto:Regular'] font-normal gap-[2px] items-start justify-center leading-[normal] min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51400" data-name="content">
+            <p className="min-w-full relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] w-[min-content]" data-node-id="65702:51401" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <p className="relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51402" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51403" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51404" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51405" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51405;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid-focus" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51406" data-name="system=iOS, state=invalid-focus, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51407" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51408" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51409" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51410" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.08px] w-full" data-node-id="65702:51411">
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51412" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51413">
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51414" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51415" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51416" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51417" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51418" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51419" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51419;12716:39621" data-name="tui-ic-service / clearfield-ios">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51419;12716:39621;5247:552" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51420" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51421" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51421;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51422" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51423">
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid-focus" && isFilled && showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51424" data-name="system=Android, state=invalid-focus, is-filled=on, show-label=on, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51425" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51426" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51427" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51428" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[13px] text-[color:var(--tui-text-negative,#f52222)] w-full" data-node-id="65702:51429" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {labelText}
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51430" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51431" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51432" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51433" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51434" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51435" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51436" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51437" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51437;12716:39621" data-name="tui-ic-small-pragmatic / cross">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51437;12716:39621;246:3843" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51438" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51439" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51439;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51440" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51441" style={{ fontVariationSettings: '"wdth" 100' }}>
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "normal" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51442" data-name="system=iOS, state=normal, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51443" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51444" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51445" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51446" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51447">
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51448" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51449" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51450" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51450;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "normal" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51451" data-name="system=Android, state=normal, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51452" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51453" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51454" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51455" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51456" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51457" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51458" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51459" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51459;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "read-only" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51460" data-name="system=iOS, state=read-only, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51461" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51462" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51463" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51464" data-name="content">
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="65702:51465" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51466">
+                {valueText}
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51467" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51468" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51469" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51469;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51469;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "read-only" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51470" data-name="system=Android, state=read-only, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51471" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51472" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51473" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51474" data-name="content">
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="65702:51475" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51476" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51477" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51478" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51479" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51479;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51479;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "disabled" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51480" data-name="system=iOS, state=disabled, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51481" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51482" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51483" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51484" data-name="content">
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="65702:51485" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51486">
+                {valueText}
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51487" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51488" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51489" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51489;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51489;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "disabled" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51490" data-name="system=Android, state=disabled, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51491" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51492" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51493" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51494" data-name="content">
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="65702:51495" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="65702:51496" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51497" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51498" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51499" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51499;12716:39621" data-name="tui-ic-small / lock">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I65702:51499;12716:39621;34189:245" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "focus" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51500" data-name="system=iOS, state=focus, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51501" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51502" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51503" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51504" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51505" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51506">
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51507" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51508" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51509" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51510" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51511" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51512" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51512;12716:39621" data-name="tui-ic-service / clearfield-ios">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51512;12716:39621;5247:552" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51513" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51514" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51514;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51515" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] h-[18px] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51516">
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "Android" && state === "focus" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51517" data-name="system=Android, state=focus, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51518" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51519" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51520" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51521" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51522" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="65702:51523" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51524" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51525" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51526" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51527" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51528" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51529" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51529;12716:39621" data-name="tui-ic-small-pragmatic / cross">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51529;12716:39621;246:3843" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51530" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51531" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51531;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51532" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal h-[16px] leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51533" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51534" data-name="system=iOS, state=invalid, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51535" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51536" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51537" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51538" data-name="content">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51539">
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51540" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51541" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51542" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51542;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51543" data-name="system=Android, state=invalid, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51544" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51545" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51546" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51547" data-name="content">
+            <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-negative,#f52222)] whitespace-nowrap" data-node-id="65702:51548" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {valueText}
+            </p>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51549" data-name="end-accessories">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51550" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51551" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51551;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid-focus" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51552" data-name="system=iOS, state=invalid-focus, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51553" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51554" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51555" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51556" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51557" data-name="value-container">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-negative,#f52222)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51558">
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51559" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51560" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51561" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51562" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51563" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51564" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51564;12716:39621" data-name="tui-ic-service / clearfield-ios">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51564;12716:39621;5247:552" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51565" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51566" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51566;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51567" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51568">
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid-focus" && isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51569" data-name="system=Android, state=invalid-focus, is-filled=on, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51570" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51571" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51572" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51573" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51574" data-name="value-container">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-negative,#f52222)] whitespace-nowrap" data-node-id="65702:51575" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {valueText}
+              </p>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51576" data-name="cursor" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51577" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51578" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51579" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51580" data-name="accessory-slot">
+              <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="65702:51581" data-name="icon">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I65702:51581;12716:39621" data-name="tui-ic-small-pragmatic / cross">
+                  <div className="absolute bg-[var(--tui-text-tertiary,rgba(0,16,36,0.22))] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I65702:51581;12716:39621;246:3843" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            {showEndAccessory && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51582" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51583" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51583;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51584" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51585" style={{ fontVariationSettings: '"wdth" 100' }}>
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "focus" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51586" data-name="system=iOS, state=focus, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51587" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51588" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51589" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51590" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51591" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51592" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51593">
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51594" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51595" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51596" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51597" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51598" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51598;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51599" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] h-[18px] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51600">
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "Android" && state === "focus" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51601" data-name="system=Android, state=focus, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51602" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51603" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51604" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51605" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51606" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51607" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="65702:51608" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51609" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51610" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51611" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51612" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51613" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51613;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        {showHint && (
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51614" data-name="hint-container">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal h-[16px] leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51615" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {hintText}
+            </p>
+          </div>
+        )}
+      </div>
+    );
+  }
+  if (system === "iOS" && state === "invalid-focus" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51616" data-name="system=iOS, state=invalid-focus, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51617" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51618" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51619" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51620" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51621" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51622" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51623">
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51624" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51625" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51626" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51627" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51628" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51628;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51629" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51630">
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  if (system === "Android" && state === "invalid-focus" && !isFilled && !showLabel && !skeleton) {
+    return (
+      <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51631" data-name="system=Android, state=invalid-focus, is-filled=off, show-label=off, skeleton=off">
+        <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51632" data-name="container">
+          {showStartAccessory && (
+            <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51633" data-name="start-accessories">
+              <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51634" data-name="placeholder-single" />
+            </div>
+          )}
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51635" data-name="content">
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51636" data-name="value-container">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51637" data-name="cursor" />
+              {showPlaceholder && (
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="65702:51638" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {placeholderText}
+                </p>
+              )}
+            </div>
+          </div>
+          {showEndAccessory && (
+            <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51639" data-name="end-accessories">
+              {showLoader && (
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51640" data-name="accessory-slot">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="65702:51641" data-name="tui-loader">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                  </div>
+                </div>
+              )}
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51642" data-name="accessory-slot">
+                {accessoryType || (
+                  <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51643" data-name="placeholder">
+                    <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51643;8820:76609" data-name="placeholder-single" />
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51644" data-name="error-container">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-primary,#333)]" data-node-id="65702:51645" style={{ fontVariationSettings: '"wdth" 100' }}>
+            {errorText}
+          </p>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51132" data-name="system=iOS, state=normal, is-filled=off, show-label=on, skeleton=off">
+      <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51133" data-name="container">
+        {showStartAccessory && (
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51134" data-name="start-accessories">
+            <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51135" data-name="placeholder-single" />
+          </div>
+        )}
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51136" data-name="content">
+          <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] w-full" data-node-id="65702:51137">
+            {labelText}
+          </p>
+        </div>
+        {showEndAccessory && (
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51138" data-name="end-accessories">
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51139" data-name="accessory-slot">
+              {accessoryType || (
+                <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51140" data-name="placeholder">
+                  <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51140;8820:76609" data-name="placeholder-single" />
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Android/UI S: Font(family: "Roboto", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Android/Body M: Font(family: "Roboto", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-textfield 
+**Node ID:** 65702:51131
+
+Поле для ввода текста. Используется в фреймворке SmartFields, PWA, WebView
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-textfield-specs](https://go.tcsbank.ru/tui-textfield-specs)
+
+## icon
+**Node ID:** 12716:39617
+
+\[только для фигмы\] контейнер для иконки, чтобы автолейаут работал нормально
+
+## tui-ic-small / lock
+**Node ID:** 79982:45522
+
+security, secure, privacy
+
+## tui-ic-service / clearfield-ios
+**Node ID:** 36549:63655
+
+cross
+
+## tui-ic-small-pragmatic / cross
+**Node ID:** 12716:39613
+
+delete, remove, cancel, close
+
+Images and SVGs will be stored as constants, e.g. const image = 'ASSET_URL_REDACTED These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

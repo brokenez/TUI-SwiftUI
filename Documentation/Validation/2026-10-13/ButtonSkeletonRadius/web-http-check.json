@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "servedComponentStatus": "in-progress",
+  "baseURL": "http://127.0.0.1:4317/",
+  "renders": [
+    {
+      "variantID": "55915:350412",
+      "theme": "night",
+      "bytes": 5815,
+      "sha256": "15999f248b522d25950aaeaf046aca42bed7af45a24c8b26fa791172c0590e90",
+      "url": "assets/15999f248b522d25950a.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/0A96E64D-EE3E-4E9E-A8D0-E26CDD476EB2.png"
+    },
+    {
+      "variantID": "55915:350412",
+      "theme": "day",
+      "bytes": 5380,
+      "sha256": "962326460368a0412d82db7b511d8ca9f5dec14aad10a398d660868d20a32a3b",
+      "url": "assets/962326460368a0412d82.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/56C82ED6-A5D5-4E80-B203-B8E880FBD087.png"
+    },
+    {
+      "variantID": "55915:350422",
+      "theme": "night",
+      "bytes": 2648,
+      "sha256": "eeb2d75ad296d9c5b142fed37d9fc3555f6878baba6baf0bf646544b690a70e6",
+      "url": "assets/eeb2d75ad296d9c5b142.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/3F39A715-63BC-467C-8924-27A981C2B7D0.png"
+    },
+    {
+      "variantID": "55915:350422",
+      "theme": "day",
+      "bytes": 2317,
+      "sha256": "3ce21e54d4e49eb1e71cbfdde574d71c381a6bd1e218f3ec2202543e62bb8428",
+      "url": "assets/3ce21e54d4e49eb1e71c.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/AA9CC798-B0D1-4F44-9908-C80D0E68C18E.png"
+    },
+    {
+      "variantID": "55915:350432",
+      "theme": "night",
+      "bytes": 4753,
+      "sha256": "879fc0f7aba4bea12f3df4bc81d3a5a65ae3ea11a074726b445bf1b547e3eecb",
+      "url": "assets/879fc0f7aba4bea12f3d.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/D43686B2-615A-413C-AE94-4A1A4C66A248.png"
+    },
+    {
+      "variantID": "55915:350432",
+      "theme": "day",
+      "bytes": 4388,
+      "sha256": "2a551dd0cca22b1cdc69e7abd1cba3d41b7628c22af0dd2184d95c99e1b41879",
+      "url": "assets/2a551dd0cca22b1cdc69.png",
+      "sourcePath": "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/9465FF9A-C1DE-45E5-A488-0AC784736452.png"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "properties": {
+    "title#42565:68": {
+      "type": "TEXT",
+      "defaultValue": "Header"
+    },
+    "subheader#42565:77": {
+      "type": "TEXT",
+      "defaultValue": "Subheader"
+    },
+    "descrption#42565:86": {
+      "type": "TEXT",
+      "defaultValue": "Description"
+    },
+    "show-subheader#42565:95": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "show-icon#42579:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "system": {
+      "type": "VARIANT",
+      "defaultValue": "iOS",
+      "variantOptions": [
+        "iOS",
+        "Android"
+      ]
+    },
+    "show-description": {
+      "type": "VARIANT",
+      "defaultValue": "off",
+      "variantOptions": [
+        "off",
+        "on"
+      ]
+    },
+    "text-align": {
+      "type": "VARIANT",
+      "defaultValue": "start",
+      "variantOptions": [
+        "start",
+        "center"
+      ]
+    },
+    "skeleton": {
+      "type": "VARIANT",
+      "defaultValue": "off",
+      "variantOptions": [
+        "off",
+        "on"
+      ]
+    },
+    "extended": {
+      "type": "VARIANT",
+      "defaultValue": "off",
+      "variantOptions": [
+        "off",
+        "on"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "42565:305013",
+      "properties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "42565:305017",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "title#42565:68"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "42579:291127",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        },
+        {
+          "id": "42565:305019",
+          "name": "DescriptionText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "descrption#42565:86"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        }
+      ]
+    },
+    {
+      "id": "17714:51940",
+      "properties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "on",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "17714:51945",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "547:151714",
+      "properties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "center",
+        "skeleton": "off",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "547:151718",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "title#42565:68"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "CENTER"
+        },
+        {
+          "id": "547:151719",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        },
+        {
+          "id": "547:151723",
+          "name": "DescriptionText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "descrption#42565:86"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "CENTER"
+        }
+      ]
+    },
+    {
+      "id": "17714:51950",
+      "properties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "center",
+        "skeleton": "on",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "17714:51955",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "42565:305051",
+      "properties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "42565:305055",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "title#42565:68"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "42565:305056",
+          "name": "SubheaderTextCont",
+          "type": "FRAME",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95"
+          },
+          "reactions": []
+        },
+        {
+          "id": "42565:305057",
+          "name": "SubheaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95",
+            "characters": "subheader#42565:77"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "42579:291110",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "18083:44942",
+      "properties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "on"
+      },
+      "layers": [
+        {
+          "id": "18083:44946",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "title#42565:68"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "18083:44947",
+          "name": "SubheaderTextCont",
+          "type": "FRAME",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95"
+          },
+          "reactions": []
+        },
+        {
+          "id": "18083:44948",
+          "name": "SubheaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95",
+            "characters": "subheader#42565:77"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "18083:44949",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "17714:51980",
+      "properties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "on",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "17714:51985",
+          "name": "SubheaderTextCont",
+          "type": "FRAME",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95"
+          },
+          "reactions": []
+        },
+        {
+          "id": "17714:51987",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "547:151734",
+      "properties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "center",
+        "skeleton": "off",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "547:151738",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "characters": "title#42565:68"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "CENTER"
+        },
+        {
+          "id": "547:151739",
+          "name": "SubheaderTextCont",
+          "type": "FRAME",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95"
+          },
+          "reactions": []
+        },
+        {
+          "id": "547:151740",
+          "name": "SubheaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95",
+            "characters": "subheader#42565:77"
+          },
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "CENTER"
+        },
+        {
+          "id": "547:151741",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "17714:51990",
+      "properties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "center",
+        "skeleton": "on",
+        "extended": "off"
+      },
+      "layers": [
+        {
+          "id": "17714:51995",
+          "name": "SubheaderTextCont",
+          "type": "FRAME",
+          "visible": true,
+          "references": {
+            "visible": "show-subheader#42565:95"
+          },
+          "reactions": []
+        },
+        {
+          "id": "17714:51997",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {
+            "visible": "show-icon#42579:0"
+          },
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "18083:44906",
+      "properties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "on"
+      },
+      "layers": [
+        {
+          "id": "18083:42728",
+          "name": "HeaderText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {},
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        },
+        {
+          "id": "18083:42729",
+          "name": "Accessory",
+          "type": "FRAME",
+          "visible": false,
+          "references": {},
+          "reactions": []
+        },
+        {
+          "id": "18083:42733",
+          "name": "DescriptionText",
+          "type": "TEXT",
+          "visible": true,
+          "references": {},
+          "reactions": [],
+          "textAutoResize": "HEIGHT",
+          "textTruncation": "DISABLED",
+          "maxLines": null,
+          "textAlign": "LEFT"
+        }
+      ]
+    }
+  ]
+}

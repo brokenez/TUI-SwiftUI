@@ -1,0 +1,49 @@
+Attributes: Application, 0x1146743c0, pid: 56619, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x1146743c0, pid: 56619, label: 'TUIConsumer'
+    Window (Main), 0x114674500, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x114674640, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x114674780, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1146748c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x114674a00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x114674b40, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x114674c80, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x114674dc0, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x114674f00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114675040, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x114676080, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1146761c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x114676300, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x114676440, {{29.7, 176.3}, {343.0, 124.0}}, label: 'Настройки уведомлений, Получать новости и важные сообщения сервиса'
+                          Other, 0x114676580, {{29.5, 176.7}, {200.3, 72.0}}, label: 'Настройки уведомлений'
+                            StaticText, 0x1146766c0, {{29.5, 176.7}, {200.3, 72.0}}, label: 'Настройки уведомлений'
+                              Link, 0x114676800, {{29.5, 212.7}, {200.0, 35.8}}, identifier: 'https://go.tcsbank.ru/tui-header-specs?block=title', label: 'уведомлений'
+                          Other, 0x114676940, {{29.5, 264.0}, {206.0, 36.0}}, label: 'Получать новости и важные сообщения сервиса'
+                            StaticText, 0x114676a80, {{29.5, 264.0}, {206.0, 36.0}}, label: 'Получать новости и важные сообщения сервиса'
+                              Link, 0x114676bc0, {{100.7, 264.0}, {58.3, 18.0}}, identifier: 'https://go.tcsbank.ru/tui-header-specs?block=subheader', label: 'новости'
+                        StaticText, 0x114676d00, {{29.7, 348.3}, {343.0, 36.0}}, label: 'Описание условий'
+                        Other, 0x114676e40, {{29.5, 400.0}, {262.7, 20.3}}, label: 'Подробнее об условиях сервиса'
+                          StaticText, 0x114676f80, {{29.5, 400.0}, {262.7, 20.3}}, label: 'Подробнее об условиях сервиса'
+                            Link, 0x1146770c0, {{29.5, 400.0}, {90.4, 20.3}}, identifier: 'https://go.tcsbank.ru/tui-header-specs?block=description', label: 'Подробнее'
+                        StaticText, 0x114677200, {{160.8, 460.3}, {80.3, 20.3}}, label: 'Ссылок: 3'
+                        StaticText, 0x114677340, {{3.0, 496.7}, {396.0, 20.3}}, identifier: 'headerLinkTargets', label: 'https://go.tcsbank.ru/tui-header-specs?block=title
+https://go.tcsbank.ru/tui-header-specs?block=subheader
+https://go.tcsbank.ru/tui-header-specs?block=description'
+                        Button, 0x114677480, {{164.3, 533.0}, {73.3, 20.3}}, identifier: 'headerAXSnapshot', label: 'Снять AX'
+                        Button, 0x1146775c0, {{113.0, 557.3}, {176.0, 20.3}}, identifier: 'headerAXPerformLink', label: 'Выполнить AX ссылку'
+                        StaticText, 0x114677700, {{2.0, 581.7}, {398.0, 14.3}}, identifier: 'headerAXSnapshotPayload', label: '[{"actions":["Открыть ссылку: уведомлений","Открыть ссылку: новости"],"frame":{"height":124,"width":343,"x":29.666666666666664,"y":176.33333333333331},"isButton":false,"isElement":true,"isHeader":true,"label":"Настройки уведомлений, Получать новости и важные сообщения сервиса"},{"actions":[],"frame":{"height":36,"width":343,"x":29.666666666666664,"y":348.33333333333331},"isButton":false,"isElement":true,"isHeader":true,"label":"Описание условий"},{"actions":["Открыть ссылку: Подробнее"],"frame":{"height":20.333333333333314,"width":262.66666666666663,"x":29.5,"y":400.00000000000006},"isButton":false,"isElement":true,"isHeader":false,"label":"Подробнее об условиях сервиса"},{"actions":[],"frame":{"height":20.333333333333371,"width":107.66666666666666,"x":147.33333333333331,"y":611.33333333333326},"isButton":true,"isElement":true,"isHeader":false,"label":"уведомлений"},{"actions":[],"frame":{"height":20.333333333333371,"width":65,"x":168.66666666666666,"y":635.66666666666663},"isButton":true,"isElement":true,"isHeader":false,"label":"новости"},{"actions":[],"frame":{"height":20.333333333333371,"width":90.333333333333314,"x":156,"y":660},"isButton":true,"isElement":true,"isHeader":false,"label":"Подробнее"}]'
+                        StaticText, 0x114677840, {{128.7, 600.0}, {144.7, 20.3}}, identifier: 'headerAXActionResult', label: 'AX action: success'
+                        Button, 0x114677980, {{147.3, 624.3}, {107.7, 20.3}}, identifier: 'headerAXAction-уведомлений', label: 'уведомлений'
+                        Button, 0x114677ac0, {{168.7, 648.7}, {65.0, 20.3}}, identifier: 'headerAXAction-новости', label: 'новости'
+                        Button, 0x114677c00, {{156.0, 673.0}, {90.3, 20.3}}, identifier: 'headerAXAction-Подробнее', label: 'Подробнее'
+                        Button, 0x114677d40, {{133.3, 709.3}, {135.7, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, linkedBlocks'
+                          StaticText, 0x114677e80, {{145.3, 716.3}, {95.3, 20.3}}, label: 'linkedBlocks'
+                Other, 0x113efd180, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113efe6c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1146743c0, pid: 56619, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x113efdb80, pid: 56619, label: 'TUIConsumer'
+  }

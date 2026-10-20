@@ -1,0 +1,130 @@
+<frame id="731:21319" name="Боковые отступы" x="8846" y="100" width="1190" height="5524">
+  <instance id="731:21320" name="H1 + P" x="128" y="128" width="934" height="156" />
+  <instance id="731:21321" name="H2 + P" x="128" y="284" width="934" height="124" />
+  <instance id="731:21322" name="H3 + P" x="128" y="408" width="934" height="104" />
+  <instance id="731:21323" name="List Bulleted" x="128" y="512" width="934" height="73" />
+  <instance id="731:21324" name="Image 1x1" x="128" y="585" width="934" height="352" />
+  <instance id="731:21325" name="H3 + P" x="128" y="937" width="934" height="72" />
+  <instance id="731:21326" name="List Bulleted" x="128" y="1009" width="934" height="73" />
+  <instance id="731:21327" name="Image 1x1" x="128" y="1082" width="934" height="352" />
+  <instance id="731:21328" name="Paragraph" x="128" y="1434" width="934" height="40" />
+  <instance id="731:21329" name="Image 1x1" x="128" y="1474" width="934" height="352" />
+  <instance id="731:21330" name="Paragraph" x="128" y="1826" width="934" height="40" />
+  <instance id="731:21331" name="List Bulleted" x="128" y="1866" width="934" height="153" />
+  <frame id="731:21332" name="image" x="128" y="2019" width="934" height="475">
+    <frame id="731:21333" name="img-placeholder" x="0" y="0" width="934" height="427">
+      <vector id="731:21334" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="731:21335" name="end" x="23" y="293" width="760" height="0" />
+      <frame id="731:21336" name="container" x="347" y="110" width="261" height="200">
+        <text id="731:21337" name="Заголовок" x="0" y="0" width="261" height="32" />
+        <frame id="731:21338" name="container" x="0" y="32" width="261" height="168">
+          <instance id="731:21339" name="tui-cell" x="-15" y="0" width="292.5" height="56" />
+          <instance id="731:21340" name="tui-cell" x="-15" y="56" width="292.5" height="56" />
+          <instance id="731:21341" name="tui-cell" x="-15" y="112" width="292.5" height="56" />
+        </frame>
+      </frame>
+      <instance id="731:21342" name="Outside - Bottom" x="347" y="78" width="260" height="271" />
+      <instance id="731:21343" name="comment-line" x="180" y="216" width="162" height="19" />
+    </frame>
+  </frame>
+  <instance id="731:21344" name="H2 + P" x="128" y="2494" width="934" height="124" />
+  <instance id="731:21345" name="H3 + P" x="128" y="2618" width="934" height="72" />
+  <instance id="731:21346" name="List Bulleted" x="128" y="2690" width="934" height="125" />
+  <frame id="731:21347" name="image" x="128" y="2815" width="934" height="508">
+    <frame id="731:21348" name="img-placeholder" x="0" y="0" width="934" height="460">
+      <vector id="731:21349" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="731:21350" name="end" x="0" y="460" width="760" height="0" />
+      <instance id="731:21351" name="Instance Container" x="269" y="62.5" width="375" height="300" />
+      <instance id="731:21352" name="Inside - Bottom" x="285" y="123" width="20" height="280" />
+      <instance id="731:21353" name="Inside - Bottom" x="608" y="123" width="20" height="280" />
+    </frame>
+  </frame>
+  <instance id="731:21354" name="H3 + P" x="128" y="3323" width="934" height="128" />
+  <instance id="731:21355" name="List Bulleted" x="128" y="3451" width="934" height="73" />
+  <frame id="731:21356" name="image-2x1" x="128" y="3524" width="934" height="448">
+    <frame id="731:21357" name="image-1" x="0" y="0" width="934" height="400">
+      <frame id="731:21358" name="img-placeholder" x="0" y="0" width="934" height="400">
+        <vector id="731:21359" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="731:21360" name="end" x="0" y="400" width="760" height="0" />
+        <frame id="731:21361" name="tui-card-large" x="143" y="80" width="649" height="244">
+          <frame id="731:21362" name="CardCont" x="16" y="0" width="617" height="244">
+            <frame id="731:21363" name="card-header" x="0" y="0" width="617" height="56">
+              <instance id="731:21364" name="tui-header" x="0" y="0" width="617" height="56" />
+            </frame>
+            <frame id="731:21365" name="card-content" x="0" y="56" width="617" height="176">
+              <frame id="731:21366" name="column-1" x="12" y="0" width="292" height="176">
+                <instance id="731:21367" name="tui-cell" x="0" y="0" width="292" height="56" />
+                <instance id="731:21368" name="tui-cell" x="0" y="60" width="292" height="56" />
+                <instance id="731:21369" name="tui-cell" x="0" y="120" width="292" height="56" />
+                <instance id="731:21370" name="[deprecated] Hand Pointer" x="170" y="100" width="21" height="22" />
+              </frame>
+              <frame id="731:21371" name="column-2" x="312" y="0" width="293" height="176">
+                <instance id="731:21372" name="tui-cell" x="0" y="0" width="293" height="56" />
+                <instance id="731:21373" name="tui-cell" x="0" y="60" width="293" height="56" />
+                <instance id="731:21374" name="tui-cell" x="0" y="120" width="293" height="56" />
+              </frame>
+            </frame>
+          </frame>
+          <instance id="731:21375" name="Inside - Bottom" x="312" y="52" width="8" height="206" />
+          <instance id="731:21376" name="Inside - Bottom" x="328" y="52" width="8" height="206" />
+          <instance id="731:21377" name="Inside - Bottom" x="613" y="53" width="8" height="206" />
+          <instance id="731:21378" name="Inside - Bottom" x="28" y="53" width="8" height="206" />
+        </frame>
+      </frame>
+      <text id="731:21379" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+    </frame>
+    <frame id="731:21380" name="image-2" x="483" y="0" width="451" height="320" hidden="true">
+      <instance id="731:21381" name="Image Placeholder" x="0" y="0" width="451" height="400" />
+      <text id="731:21382" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+    </frame>
+  </frame>
+  <instance id="1071:24581" name="List Bulleted" x="128" y="3972" width="934" height="125" />
+  <frame id="1071:16767" name="image" x="128" y="4097" width="934" height="558">
+    <frame id="1071:16768" name="img-placeholder" x="0" y="0" width="934" height="510">
+      <vector id="1071:16769" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="1071:16770" name="end" x="0" y="510" width="760" height="0" />
+      <instance id="1071:16771" name="tui-card-large" x="283" y="79" width="367" height="340" />
+    </frame>
+  </frame>
+  <instance id="731:21442" name="H2 + P" x="128" y="4655" width="934" height="124" />
+  <instance id="731:21443" name="List Bulleted" x="128" y="4779" width="934" height="153" />
+  <frame id="731:21444" name="image" x="128" y="4932" width="934" height="464">
+    <frame id="731:21445" name="img-placeholder" x="0" y="0" width="934" height="416">
+      <frame id="731:21446" name="dropdown" x="65" y="50" width="220" height="308">
+        <instance id="731:21447" name="[legacy] tui-input" x="0" y="0" width="220" height="56" />
+        <frame id="731:21448" name="tui-dropdown " x="0" y="60" width="220" height="248">
+          <instance id="731:21449" name="tui-cell" x="6" y="6" width="208" height="56" />
+          <instance id="731:21450" name="tui-cell" x="6" y="66" width="208" height="56" />
+          <instance id="731:21451" name="tui-cell" x="6" y="126" width="208" height="56" />
+          <instance id="731:21452" name="tui-cell" x="6" y="186" width="208" height="56" />
+        </frame>
+      </frame>
+      <frame id="731:21453" name="dropdown" x="356" y="48" width="220" height="248">
+        <instance id="731:21454" name="[legacy] tui-input" x="0" y="0" width="220" height="44" />
+        <frame id="731:21455" name="tui-dropdown " x="0" y="48" width="220" height="200">
+          <instance id="731:21456" name="tui-cell" x="6" y="6" width="208" height="44" />
+          <instance id="731:21457" name="tui-cell" x="6" y="54" width="208" height="44" />
+          <instance id="731:21458" name="tui-cell" x="6" y="102" width="208" height="44" />
+          <instance id="731:21459" name="tui-cell" x="6" y="150" width="208" height="44" />
+        </frame>
+      </frame>
+      <frame id="731:21460" name="dropdown" x="647" y="50" width="220" height="188">
+        <instance id="731:21461" name="[legacy] tui-input" x="0" y="0" width="220" height="32" />
+        <frame id="731:21462" name="tui-dropdown " x="0" y="36" width="220" height="152">
+          <instance id="731:21463" name="tui-cell" x="6" y="6" width="208" height="32" />
+          <instance id="731:21464" name="tui-cell" x="6" y="42" width="208" height="32" />
+          <instance id="731:21465" name="tui-cell" x="6" y="78" width="208" height="32" />
+          <instance id="731:21466" name="tui-cell" x="6" y="114" width="208" height="32" />
+        </frame>
+      </frame>
+      <instance id="731:21467" name="Inside - Bottom" x="71" y="110" width="10" height="269" />
+      <instance id="731:21468" name="Inside - Bottom" x="362" y="97" width="8" height="219" />
+      <instance id="731:21469" name="Inside - Bottom" x="562" y="97" width="8" height="219" />
+      <instance id="731:21470" name="Inside - Bottom" x="655" y="88" width="4" height="180" />
+      <instance id="731:21471" name="Inside - Bottom" x="860" y="88" width="4" height="180" />
+      <instance id="731:21472" name="Inside - Bottom" x="269" y="110" width="10" height="269" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

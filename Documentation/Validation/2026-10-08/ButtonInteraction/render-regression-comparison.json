@@ -1,0 +1,62 @@
+{
+  "purpose": "Render regression after Button accessibility fix; not Figma acceptance",
+  "count": 8,
+  "comparisons": [
+    {
+      "name": "button-dynamic-type-accessibility1-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/D273FA93-7B8C-43BB-8155-64786BCBCB08.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/5522450F-294F-4663-AFD1-F5A424DB6D9B.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-dynamic-type-accessibility1-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/E94256C7-981D-4842-96C7-8823BF5D91DD.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/92B4A9F3-B552-4B9A-859C-A2DFCD507C0B.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-dynamic-type-accessibility5-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/C254D4DF-2BA1-41FC-8810-0C7ED7902366.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/4847C0DB-9B82-4816-B6EF-67966AB0B806.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-dynamic-type-accessibility5-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/CBABAE22-5697-4C43-AD37-8356F353A839.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/0F2C2DBA-2576-4259-BBD0-178EEBF91D22.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-dynamic-type-large-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/9150E812-CDCE-491F-B136-0AC720C374B4.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/2B5395FB-3143-4B8B-ABE8-919BC17EB8B5.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-dynamic-type-large-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/599300E4-18FD-4656-9CDD-0666826BE782.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/4616D424-188D-48D8-AFCD-66F186E2AFA9.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-normal-loading-sizes-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/2D0F22CE-CB8B-490D-9C19-A2D4D8C797A0.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/EE2911C3-C9E3-4C53-92D9-4AF4C5124761.png",
+      "sameShape": true,
+      "differentPixels": 0
+    },
+    {
+      "name": "button-normal-loading-sizes-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonTheme/Native/9F1B75A3-9F15-48A7-9CE6-43416438B9A6.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/10C18A31-D5FF-4306-9A56-75641D822A68.png",
+      "sameShape": true,
+      "differentPixels": 0
+    }
+  ]
+}

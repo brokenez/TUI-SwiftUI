@@ -1,0 +1,25 @@
+<canvas id="6241:1360" name="📖 Getting Started" x="0" y="0" width="0" height="0">
+  <frame id="6246:890" name="Getting Started" x="0" y="0" width="480" height="518">
+    <frame id="6246:891" name="thumbnail" x="0" y="0" width="480" height="290">
+      <frame id="6246:892" name="Tags" x="16" y="21" width="147.9051971435547" height="28">
+        <instance id="6246:893" name="[deprecated] tui-tag" x="0" y="0" width="74" height="28" />
+        <instance id="6246:894" name="[deprecated] tui-tag" x="82.90518951416016" y="0" width="65" height="28" />
+        <frame id="6246:895" name="Tag" x="67.0671615600586" y="0.000019073473595199175" width="49.81340408325195" height="33.67277145385742" hidden="true">
+          <text id="6246:896" name="Text" x="8.905158996582031" y="5.5657453536987305" width="35" height="23" />
+        </frame>
+      </frame>
+      <instance id="6246:1285" name="tui-loader" x="203" y="108" width="73" height="73" />
+    </frame>
+    <frame id="6246:909" name="Frame 4" x="0" y="290" width="480" height="228">
+      <frame id="6246:910" name="List of Pages" x="48" y="48" width="384" height="132">
+        <frame id="6246:911" name="Frame 5" x="0" y="0" width="384" height="72">
+          <text id="6246:912" name="Label" x="0" y="0" width="384" height="56" />
+        </frame>
+        <text id="6246:913" name="📖 Getting Started" x="0" y="80" width="155" height="22" />
+        <text id="6246:914" name="🧾 Дизайн" x="0" y="110" width="88" height="22" />
+        <text id="6246:916" name="Local components" x="0" y="140" width="156" height="22" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

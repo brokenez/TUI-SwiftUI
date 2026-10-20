@@ -1,0 +1,15 @@
+{
+  "nodeId": "41569:290556",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"41569:290556\" name=\"system=iOS, fixed-height=on, right-side=Text, type=Default, skeleton=off\" x=\"40\" y=\"196\" width=\"375\" height=\"56\">\n  <frame id=\"41569:290557\" name=\"Avatar\" x=\"16\" y=\"0\" width=\"56\" height=\"56\">\n    <instance id=\"41569:290558\" name=\"tui-avatar\" x=\"0\" y=\"8\" width=\"40\" height=\"40\" />\n  </frame>\n  <frame id=\"41569:290559\" name=\"TextCont\" x=\"72\" y=\"0\" width=\"287\" height=\"56\">\n    <frame id=\"41569:290560\" name=\"CaptionCont\" x=\"0\" y=\"8\" width=\"287\" height=\"16\" hidden=\"true\">\n      <text id=\"41569:290561\" name=\"Caption\" x=\"0\" y=\"0\" width=\"287\" height=\"16\" hidden=\"true\" />\n    </frame>\n    <frame id=\"41569:290562\" name=\"TitleCont\" x=\"0\" y=\"8\" width=\"287\" height=\"20\">\n      <frame id=\"41569:290563\" name=\"CellTitleCont\" x=\"0\" y=\"0\" width=\"236\" height=\"20\">\n        <text id=\"41569:290564\" name=\"CellTitle\" x=\"0\" y=\"0\" width=\"236\" height=\"20\" />\n      </frame>\n      <frame id=\"41569:290565\" name=\"CellValueCont\" x=\"244\" y=\"0\" width=\"43\" height=\"20\">\n        <text id=\"41569:290566\" name=\"CellValue\" x=\"0\" y=\"0\" width=\"43\" height=\"20\" />\n      </frame>\n    </frame>\n    <frame id=\"41569:290567\" name=\"DescriptionCont\" x=\"0\" y=\"32\" width=\"287\" height=\"16\">\n      <frame id=\"41569:290568\" name=\"TitleDescriptionCont\" x=\"0\" y=\"0\" width=\"209\" height=\"16\">\n        <text id=\"41569:290569\" name=\"TitleDescription\" x=\"0\" y=\"0\" width=\"209\" height=\"16\" />\n      </frame>\n      <frame id=\"41569:290570\" name=\"ValueDescriptionCont\" x=\"217\" y=\"0\" width=\"70\" height=\"16\">\n        <text id=\"41569:290571\" name=\"ValueDescription\" x=\"0\" y=\"0\" width=\"70\" height=\"16\" />\n      </frame>\n    </frame>\n  </frame>\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ]
+  }
+}

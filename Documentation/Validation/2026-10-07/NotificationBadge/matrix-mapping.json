@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "method": "Compare exact public size-to-node literals with imported iOS matrix; native package renders independently verify all three sizes.",
+  "sourceSHA256": "2bef7804af902bc68952507773bdb9faf1fdb6adfd0575d2c730406209f6a1e4",
+  "variants": [
+    {
+      "variantID": "25738:689221",
+      "properties": {
+        "system": "iOS",
+        "size": "small"
+      },
+      "size": "small"
+    },
+    {
+      "variantID": "25738:689222",
+      "properties": {
+        "system": "iOS",
+        "size": "large"
+      },
+      "size": "large"
+    },
+    {
+      "variantID": "25738:689224",
+      "properties": {
+        "system": "iOS",
+        "size": "medium"
+      },
+      "size": "medium"
+    }
+  ]
+}

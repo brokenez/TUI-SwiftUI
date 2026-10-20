@@ -1,0 +1,26 @@
+<canvas id="1:10" name="✏️ Редполитика" x="0" y="0" width="0" height="0">
+  <frame id="4:19709" name="Синтаксис" x="-1825" y="-1268" width="1190" height="4146">
+    <instance id="110:170559" name="H1 + P" x="128" y="128" width="934" height="132" />
+    <instance id="3308:2889" name="List Bulleted" x="128" y="260" width="934" height="125" />
+    <instance id="4:19711" name="H3 + P" x="128" y="385" width="934" height="152" />
+    <instance id="4:19712" name="Image 1x1" x="128" y="537" width="934" height="352" />
+    <instance id="4:19713" name="H3 + P" x="128" y="889" width="934" height="72" />
+    <instance id="330:47493" name="Rules 2x1" x="128" y="961" width="934" height="392" />
+    <instance id="4:19715" name="H3 + P" x="128" y="1353" width="934" height="104" />
+    <instance id="4:19716" name="Image 1x1" x="128" y="1457" width="934" height="352" />
+    <instance id="4:19717" name="H3 + P" x="128" y="1809" width="934" height="128" />
+    <instance id="4:19718" name="Image 1x1" x="128" y="1937" width="934" height="352" />
+    <instance id="4:19719" name="H3 + P" x="128" y="2289" width="934" height="176" />
+    <instance id="4:19720" name="Rules 2x1" x="128" y="2465" width="934" height="392" />
+    <instance id="4:19721" name="H3 + P" x="128" y="2857" width="934" height="128" />
+    <instance id="4:19722" name="Rules 2x1" x="128" y="2985" width="934" height="392" />
+    <instance id="330:47441" name="Spacing" x="128" y="3377" width="934" height="32" />
+    <instance id="330:47153" name="Paragraph" x="128" y="3409" width="934" height="40" />
+    <instance id="330:47158" name="Rules 2x1" x="128" y="3449" width="934" height="392" />
+    <instance id="330:47450" name="Spacing" x="128" y="3841" width="934" height="32" />
+    <instance id="330:47446" name="H3 + P" x="128" y="3873" width="934" height="72" />
+    <instance id="330:47454" name="List Bulleted" x="128" y="3945" width="934" height="73" />
+  </frame>
+  <instance id="110:169736" name="page-title" x="-1825" y="-1857" width="2448" height="240" />
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

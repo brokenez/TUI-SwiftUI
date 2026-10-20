@@ -3,3 +3,10 @@
 DerivedData/
 xcuserdata/
 .DS_Store
+build/
+__pycache__/
+*.pyc
+*.xcresult/
+Documentation/Archives/LocalFonts/
+Documentation/Validation/
+WebCatalog/dist/

@@ -1,0 +1,443 @@
+<frame id="4802:3778" name="Состояния" x="74" y="152" width="3293" height="3058">
+  <instance id="4802:3779" name="H1 + P" x="128" y="128" width="3037" height="88" />
+  <frame id="4802:3780" name="row" x="128" y="216" width="3037" height="56">
+    <instance id="4802:3781" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+    <instance id="4802:3782" name="tui-table-сell" x="310" y="0" width="465.3999938964844" height="56" />
+    <instance id="4802:3783" name="tui-table-сell" x="775.4000244140625" y="0" width="465.3999938964844" height="56" />
+    <instance id="4802:4611" name="tui-table-сell" x="1240.800048828125" y="0" width="465.3999938964844" height="56" />
+    <instance id="4802:4624" name="tui-table-сell" x="1706.2000732421875" y="0" width="465.39996337890625" height="56" />
+    <instance id="4802:4637" name="tui-table-сell" x="2171.60009765625" y="0" width="465.39996337890625" height="56" />
+    <instance id="4802:3784" name="tui-table-сell" x="2637" y="0" width="400" height="56" />
+  </frame>
+  <frame id="4802:3785" name="row" x="128" y="272" width="3037" height="376">
+    <instance id="4802:3786" name="tui-table-сell" x="0" y="0" width="310" height="376" />
+    <frame id="4802:3787" name="preview" x="310" y="0" width="2727" height="376">
+      <frame id="4802:3788" name="row" x="0" y="64" width="2727" height="56">
+        <frame id="4802:3789" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205381" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:3791" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205830" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:4587" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:4588" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:4595" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30155" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:4603" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30174" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:3793" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:3794" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:30331" name="row" x="0" y="160" width="2727" height="56">
+        <frame id="4802:30332" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205788" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30334" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205580" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30336" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:30337" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30338" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30339" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:30340" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30341" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:30342" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:30343" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:30457" name="row" x="0" y="256" width="2727" height="56">
+        <frame id="4802:30458" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205746" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30460" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205904" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30462" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:30463" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30464" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30465" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:30466" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30467" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:30468" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:30469" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4802:30637" name="row" x="128" y="648" width="3037" height="376">
+    <instance id="4802:30638" name="tui-table-сell" x="0" y="0" width="310" height="376" />
+    <frame id="4802:30639" name="preview" x="310" y="0" width="2727" height="376">
+      <frame id="4802:30640" name="row" x="0" y="64" width="2727" height="56">
+        <frame id="4802:30641" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205542" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30643" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205706" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30645" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:30646" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30647" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30648" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30649" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30650" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30651" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:30652" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:30653" name="row" x="0" y="160" width="2727" height="56">
+        <frame id="4802:30654" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205664" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30656" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205189" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30658" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:30659" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30660" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30661" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30662" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30663" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30664" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:30665" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:30666" name="row" x="0" y="256" width="2727" height="56">
+        <frame id="4802:30667" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205500" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30669" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205456" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30671" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:30672" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30673" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30674" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30675" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:30676" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:30677" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:30678" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4802:31509" name="row" x="128" y="1024" width="3037" height="376">
+    <instance id="4802:31510" name="tui-table-сell" x="0" y="0" width="310" height="376" />
+    <frame id="4802:31511" name="preview" x="310" y="0" width="2727" height="376">
+      <frame id="4802:31512" name="row" x="0" y="64" width="2727" height="56">
+        <frame id="4802:31513" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205622" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31515" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:204971" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31517" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:31518" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31519" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31520" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:31521" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31522" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:31523" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:31524" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:31525" name="row" x="0" y="160" width="2727" height="56">
+        <frame id="4802:31526" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205861" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31528" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205075" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31530" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:31531" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31532" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31533" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:31534" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31535" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:31536" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:31537" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:31538" name="row" x="0" y="256" width="2727" height="56">
+        <frame id="4802:31539" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205258" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31541" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205413" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31543" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:31544" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:31545" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31546" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:31547" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:31548" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:31549" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:31550" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4802:32297" name="row" x="128" y="1400" width="3037" height="376">
+    <instance id="4802:32298" name="tui-table-сell" x="0" y="0" width="310" height="376" />
+    <frame id="4802:32299" name="preview" x="310" y="0" width="2727" height="376">
+      <frame id="4802:32300" name="row" x="0" y="64" width="2727" height="56">
+        <frame id="4802:32301" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205225" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32303" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205006" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32305" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:32306" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32307" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32308" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:32309" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32310" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:32311" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:32312" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:32313" name="row" x="0" y="160" width="2727" height="56">
+        <frame id="4802:32314" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:204929" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32316" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205147" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32318" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:32319" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32320" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32321" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:32322" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32323" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:32324" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:32325" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4802:32326" name="row" x="0" y="256" width="2727" height="56">
+        <frame id="4802:32327" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205111" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32329" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205338" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32331" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4802:32332" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32333" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32334" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4802:32335" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4802:32336" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4802:32337" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4802:32338" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4802:32725" name="row" x="128" y="1776" width="3037" height="874">
+    <instance id="4802:32726" name="tui-table-сell" x="0" y="0" width="310" height="874" />
+    <frame id="4802:32727" name="preview" x="310" y="0" width="2727" height="874">
+      <frame id="4802:32728" name="row" x="0" y="64" width="2727" height="84">
+        <frame id="4802:32729" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204856" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32731" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204818" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32733" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="84">
+          <instance id="4802:32734" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:32735" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32736" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:32737" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32738" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:32739" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="84">
+          <instance id="4802:32740" name="tui-table-сell" x="24" y="0" width="256" height="84" />
+        </frame>
+      </frame>
+      <frame id="4802:32741" name="row" x="0" y="188" width="2727" height="84">
+        <frame id="4802:32742" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204776" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32744" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204894" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32746" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="84">
+          <instance id="4802:32747" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:32748" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32749" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:32750" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32751" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:32752" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="84">
+          <instance id="4802:32753" name="tui-table-сell" x="24" y="0" width="256" height="84" />
+        </frame>
+      </frame>
+      <frame id="4802:32754" name="row" x="0" y="312" width="2727" height="84">
+        <frame id="4802:32755" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204734" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32757" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="84">
+          <instance id="9327:204691" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4802:32759" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="84">
+          <instance id="4802:32760" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:32761" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32762" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:32763" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="84">
+          <instance id="4802:32764" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:32765" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="84">
+          <instance id="4802:32766" name="tui-table-сell" x="24" y="0" width="256" height="84" />
+        </frame>
+      </frame>
+      <frame id="4802:33340" name="row" x="0" y="436" width="2727" height="98">
+        <frame id="4802:33341" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:204611" name="tui-textfield " x="24" y="0" width="343" height="98" />
+        </frame>
+        <frame id="4802:33343" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:205300" name="tui-textfield " x="24" y="0" width="343" height="96" />
+        </frame>
+        <frame id="4802:33345" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="98">
+          <instance id="4802:33346" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:33347" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="72">
+          <instance id="4802:33348" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:33349" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="98">
+          <instance id="4802:33350" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:33351" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="98">
+          <instance id="4802:33352" name="tui-table-сell" x="24" y="0" width="256" height="98" />
+        </frame>
+      </frame>
+      <frame id="4802:33353" name="row" x="0" y="574" width="2727" height="98">
+        <frame id="4802:33354" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:204567" name="tui-textfield " x="24" y="0" width="343" height="98" />
+        </frame>
+        <frame id="4802:33356" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:204530" name="tui-textfield " x="24" y="0" width="343" height="96" />
+        </frame>
+        <frame id="4802:33358" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="98">
+          <instance id="4802:33359" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:33360" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="98">
+          <instance id="4802:33361" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:33362" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="98">
+          <instance id="4802:33363" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:33364" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="98">
+          <instance id="4802:33365" name="tui-table-сell" x="24" y="0" width="256" height="98" />
+        </frame>
+      </frame>
+      <frame id="4802:33366" name="row" x="0" y="712" width="2727" height="98">
+        <frame id="4802:33367" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:204493" name="tui-textfield " x="24" y="0" width="343" height="98" />
+        </frame>
+        <frame id="4802:33369" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="98">
+          <instance id="9327:204455" name="tui-textfield " x="24" y="0" width="343" height="96" />
+        </frame>
+        <frame id="4802:33371" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="98">
+          <instance id="4802:33372" name="tui-input" x="24" y="0" width="343" height="84" />
+        </frame>
+        <frame id="4802:33373" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="98">
+          <instance id="4802:33374" name="tui-input" x="24" y="0" width="343" height="72" />
+        </frame>
+        <frame id="4802:33375" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="98">
+          <instance id="4802:33376" name="tui-input" x="24" y="0" width="343" height="60" />
+        </frame>
+        <frame id="4802:33377" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="98">
+          <instance id="4802:33378" name="tui-table-сell" x="24" y="0" width="376" height="98" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4803:5714" name="row" x="128" y="2650" width="3037" height="280">
+    <instance id="4803:5715" name="tui-table-сell" x="0" y="0" width="310" height="280" />
+    <frame id="4803:5716" name="preview" x="310" y="0" width="2727" height="280">
+      <frame id="4803:5730" name="row" x="0" y="64" width="2727" height="56">
+        <frame id="4803:5731" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:204355" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5733" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:204648" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5735" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4803:5736" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5737" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4803:5738" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4803:5739" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4803:5740" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4803:5741" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4803:5742" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+      <frame id="4803:5743" name="row" x="0" y="160" width="2727" height="56">
+        <frame id="4803:5744" name="tui-table сell" x="0" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:205039" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5746" name="tui-table сell" x="465.3999938964844" y="0" width="465.3999938964844" height="56">
+          <instance id="9327:204319" name="tui-textfield " x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5748" name="tui-table сell" x="930.7999877929688" y="0" width="465.3999938964844" height="56">
+          <instance id="4803:5749" name="tui-input" x="24" y="0" width="343" height="56" />
+        </frame>
+        <frame id="4803:5750" name="tui-table сell" x="1396.199951171875" y="0" width="465.39996337890625" height="56">
+          <instance id="4803:5751" name="tui-input" x="24" y="0" width="343" height="44" />
+        </frame>
+        <frame id="4803:5752" name="tui-table сell" x="1861.599853515625" y="0" width="465.39996337890625" height="56">
+          <instance id="4803:5753" name="tui-input" x="24" y="0" width="343" height="32" />
+        </frame>
+        <frame id="4803:5754" name="tui-table сell" x="2326.999755859375" y="0" width="400" height="56">
+          <instance id="4803:5755" name="tui-table-сell" x="24" y="0" width="256" height="56" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

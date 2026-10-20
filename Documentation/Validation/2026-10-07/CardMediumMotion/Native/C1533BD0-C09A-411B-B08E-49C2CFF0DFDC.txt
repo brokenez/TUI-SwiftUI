@@ -1,0 +1,101 @@
+Attributes: Application, 0x11385d680, pid: 90656, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x11385d680, pid: 90656, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x11385ea80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11385e1c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11385cc80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x11385e800, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x11385c3c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x11385c500, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x11385c640, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'tui-card-medium'
+                  Button, 0x11385c780, {{16.0, 62.0}, {44.0, 44.0}}, identifier: 'BackButton', label: 'TUI Design System'
+                  StaticText, 0x11385c8c0, {{133.0, 73.7}, {135.7, 20.7}}, label: 'tui-card-medium '
+                Other, 0x11385ca00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11385cb40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x11385d180, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x11385d2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        CollectionView, 0x11385d400, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x11385d540, {{-16.0, -1632.0}, {434.0, 2832.7}}
+                          Other, 0x113ef8640, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x113ef8f00, {{0.0, 0.0}, {402.0, 874.0}}
+                          Cell, 0x113a8aa80, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x113a8b340, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x113a89400, {{16.0, 116.0}, {370.0, 40.3}}
+                              Other, 0x113a89900, {{16.0, 116.0}, {370.0, 40.3}}
+                                Other, 0x113a8a800, {{16.0, 116.0}, {370.0, 40.3}}
+                                  StaticText, 0x113a89e00, {{16.0, 116.0}, {370.0, 40.3}}, label: 'Живой компонент'
+                          Cell, 0x113a8a300, {{16.0, 156.3}, {370.0, 1026.7}}
+                            Other, 0x113a89540, {{16.0, 156.3}, {370.0, 1026.7}}
+                              Other, 0x113800a00, {{16.0, 156.3}, {370.0, 1026.7}}
+                            Other, 0x113800c80, {{16.0, 156.3}, {370.0, 1026.7}}
+                              Other, 0x113800dc0, {{16.0, 156.3}, {370.0, 1026.7}}
+                                Other, 0x113800f00, {{16.0, 156.3}, {370.0, 1026.7}}
+                                  Button, 0x113801040, {{131.0, 171.3}, {140.0, 140.0}}, identifier: '11335:41575', label: 'Title, Subtitle', Disabled
+                                    Other, 0x113801180, {{131.0, 171.3}, {140.0, 140.0}}, Disabled
+                                    StaticText, 0x1138012c0, {{143.0, 263.0}, {30.3, 18.0}}, label: 'Title', Disabled
+                                    StaticText, 0x113801400, {{143.0, 285.0}, {46.0, 15.7}}, label: 'Subtitle', Disabled
+                                  StaticText, 0x113801540, {{156.0, 327.5}, {90.0, 20.3}}, identifier: 'cardMediumTapCount', label: 'Нажатий: 2'
+                                  StaticText, 0x113801680, {{153.2, 363.8}, {95.7, 20.3}}, identifier: 'cardMediumSelection', label: 'Не выбрано'
+                                  StaticText, 0x1138017c0, {{32.0, 400.2}, {117.7, 20.3}}, label: 'Вариант Figma'
+                                  Button, 0x113801900, {{32.0, 393.0}, {338.0, 34.3}}, identifier: 'cardMediumVariantPicker', label: 'Вариант Figma, textBottomImage'
+                                    StaticText, 0x113801a40, {{222.3, 400.0}, {131.3, 20.3}}, label: 'textBottomImage'
+                                  TextField, 0x113801b80, {{32.0, 436.3}, {338.0, 22.0}}, placeholderValue: 'Заголовок', value: Title
+                                  TextField, 0x113801cc0, {{32.0, 474.3}, {338.0, 22.0}}, placeholderValue: 'Подпись', value: Subtitle
+                                  TextField, 0x113801e00, {{32.0, 512.3}, {338.0, 22.0}}, placeholderValue: 'Pro-бейдж', value: 10%
+                                  TextField, 0x113801f40, {{32.0, 550.3}, {338.0, 22.0}}, placeholderValue: 'Уведомлений', value: 1
+                                  Switch, 0x113802080, {{32.0, 584.7}, {338.0, 28.0}}, label: 'Показывать уведомление', value: 1
+                                    StaticText, 0x1138021c0, {{32.0, 588.5}, {206.3, 20.3}}, label: 'Показывать уведомление'
+                                    Switch, 0x113802300, {{309.0, 584.7}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113802440, {{32.0, 621.0}, {338.0, 28.0}}, identifier: 'cardMediumEnabled', label: 'Действие доступно', value: 0
+                                    StaticText, 0x113803480, {{32.0, 624.8}, {156.0, 20.3}}, label: 'Действие доступно'
+                                    Switch, 0x1138035c0, {{309.0, 621.0}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x113803700, {{32.0, 657.3}, {338.0, 28.0}}, label: 'Выбрано', value: 0
+                                    StaticText, 0x113803840, {{32.0, 661.2}, {71.7, 20.3}}, label: 'Выбрано'
+                                    Switch, 0x113803980, {{309.0, 657.3}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x113803ac0, {{32.0, 693.7}, {338.0, 28.0}}, label: 'Анимация skeleton', value: 1
+                                    StaticText, 0x113803c00, {{32.0, 697.5}, {149.3, 20.3}}, label: 'Анимация skeleton'
+                                    Switch, 0x113803d40, {{309.0, 693.7}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113803e80, {{32.0, 730.0}, {338.0, 28.0}}, label: 'Свой фон', value: 0
+                                    StaticText, 0x113803340, {{32.0, 733.8}, {76.7, 20.3}}, label: 'Свой фон'
+                                    Switch, 0x113800280, {{309.0, 730.0}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x113802bc0, {{32.0, 766.3}, {338.0, 28.0}}, label: 'Свой вложенный компонент', value: 0
+                                    StaticText, 0x1138030c0, {{32.0, 770.2}, {227.0, 20.3}}, label: 'Свой вложенный компонент'
+                                    Switch, 0x113800140, {{309.0, 766.3}, {63.0, 28.0}}, value: 0
+                                  StaticText, 0x113802940, {{32.0, 806.5}, {152.0, 20.3}}, label: 'Строк заголовка: 2'
+                                  Stepper, 0x113802a80, {{32.0, 800.7}, {338.0, 32.0}}, label: 'Строк заголовка: 2', value: 2
+                                    Button, 0x113803200, {{276.0, 800.7}, {47.0, 32.0}}, identifier: 'Decrement', label: 'Строк заголовка: 2, Decrement', value: 2
+                                    Button, 0x113802580, {{323.0, 800.7}, {47.0, 32.0}}, identifier: 'Increment', label: 'Строк заголовка: 2, Increment', value: 2
+                                  StaticText, 0x1138003c0, {{32.0, 842.8}, {139.7, 20.3}}, label: 'Строк подписи: 2'
+                                  Stepper, 0x113802800, {{32.0, 837.0}, {338.0, 32.0}}, label: 'Строк подписи: 2', value: 2
+                                    Button, 0x113802e40, {{276.0, 837.0}, {47.0, 32.0}}, identifier: 'Decrement', label: 'Строк подписи: 2, Decrement', value: 2
+                                    Button, 0x1138008c0, {{323.0, 837.0}, {47.0, 32.0}}, identifier: 'Increment', label: 'Строк подписи: 2, Increment', value: 2
+                                  StaticText, 0x113800000, {{32.0, 879.2}, {64.7, 20.3}}, label: 'Ширина'
+                                  StaticText, 0x113800780, {{32.0, 879.2}, {338.0, 20.3}}, label: 'Ширина, 140 pt'
+                                  Slider, 0x113800640, {{32.0, 911.0}, {338.0, 31.0}}, value: 140
+                                  StaticText, 0x1138026c0, {{32.0, 953.5}, {58.7, 20.3}}, label: 'Высота'
+                                  StaticText, 0x113802d00, {{32.0, 953.5}, {338.0, 20.3}}, label: 'Высота, 140 pt'
+                                  Slider, 0x113800500, {{32.0, 985.3}, {338.0, 31.0}}, value: 140
+                                  StaticText, 0x113802f80, {{32.0, 1027.8}, {116.0, 20.3}}, label: 'Размер текста'
+                                  Button, 0x113a5bac0, {{32.0, 1021.0}, {338.0, 34.3}}, label: 'Размер текста, Стандартный'
+                                    StaticText, 0x113a5bc00, {{246.7, 1028.0}, {107.0, 20.3}}, label: 'Стандартный'
+                                  SegmentedControl, 0x113a5bd40, {{32.0, 1064.3}, {338.0, 31.0}}
+                                    Button, 0x113a5be80, {{32.0, 1064.3}, {169.0, 32.0}}, label: 'Day', Selected
+                                    Button, 0x1032630c0, {{201.0, 1064.3}, {169.0, 32.0}}, label: 'Night'
+                                  StaticText, 0x103263200, {{32.0, 1111.2}, {89.3, 20.3}}, label: 'Figma node'
+                                  StaticText, 0x103263340, {{32.0, 1111.2}, {338.0, 20.3}}, label: 'Figma node, 11335:41575'
+                                  Button, 0x103263480, {{32.0, 1147.5}, {335.7, 20.3}}, label: 'Все 21 варианта'
+                                    StaticText, 0x1032635c0, {{32.0, 1147.5}, {129.7, 20.3}}, label: 'Все 21 варианта'
+                                    Image, 0x103263700, {{360.7, 1151.7}, {7.0, 12.0}}, identifier: 'chevron.forward'
+                          Other, 0x103263840, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 5 pages', value: 0 %
+                            Other, 0x103263980, {{396.0, 119.0}, {3.0, 195.0}}
+                          Other, 0x103263ac0, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 5 pages', value: 0 %
+                            Other, 0x103263c00, {{396.0, 119.0}, {3.0, 195.0}}
+                Other, 0x103263d40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103263e80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x11385d680, pid: 90656, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x11386b340, pid: 90656, label: 'TUIDesignSystemCatalog'
+  }

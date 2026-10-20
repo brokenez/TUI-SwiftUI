@@ -1,0 +1,73 @@
+const imgStart = "https://www.figma.com/api/mcp/asset/32e7f58f-717b-4b4c-a07f-316d890adef6.svg";
+const imgTuiCell = "https://www.figma.com/api/mcp/asset/8ce4f730-a498-4f6b-aad9-8dccf24bac0a.svg";
+
+export default function Image1X1() {
+  return (
+    <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="41:40071" data-name="Image 1x1">
+      <div className="content-stretch flex flex-col gap-[310px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I41:40071;9469:7126" data-name="Image Placeholder">
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I41:40071;9469:7126;475:2302" data-name="Start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I41:40071;9469:7126;475:2303" data-name="End">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I41:40071;9469:7126;5375:1772" data-name="Content Appearance" />
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I41:40071;9469:7126;475:2321" data-name="Multiple Instances">
+          <div className="content-stretch flex items-start relative shrink-0" data-node-id="I41:40071;9469:7126;475:2321;475:2285" data-name="Instance Container">
+            <div className="relative shrink-0 size-[360px]" data-node-id="I41:40071;9469:7126;475:2321;475:2285;609:2043" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCell} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I41:40071;9469:7126;8349:7195">
+          ...
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-cell
+**Node ID:** 30370:20402
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 30333:13681
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-loader
+**Node ID:** 25498:15776
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

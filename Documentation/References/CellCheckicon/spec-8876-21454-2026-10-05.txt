@@ -1,0 +1,116 @@
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/2c6e6133-ad64-400e-9f7f-638066516fc9.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/33e12524-4e58-4e4f-8e06-dfde41ae16c0.svg";
+const imgMinHeight = "https://www.figma.com/api/mcp/asset/70470520-9f48-4511-a32a-6a9d108b8ab5.svg";
+
+export default function TableRow() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="8876:21454" data-name="Table Row">
+      <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I8876:21454;12677:6892" data-name="Table Row Content">
+        <div className="content-stretch flex items-start pr-[var(--table\/column-horizontal-gap,40px)] py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I8876:21454;6076:10291" data-name="Heading Row">
+          <div className="content-stretch flex flex-[1_0_0] items-start min-h-[56px] min-w-px px-[var(--padding,16px)] relative" data-node-id="I8876:21454;6076:10291;6076:9606" data-name="system=iOS, fixed-height=on, skeleton=off">
+            <div className="content-stretch flex items-start pr-[16px] py-[var(--padding-left-content,8px)] relative self-stretch shrink-0" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306905" data-name="Avatar">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306906" data-name="tui-avatar">
+                <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306906;25745:690432" data-name="Container">
+                  <div className="absolute inset-[20%]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306906;25745:690434" data-name="tui-ic-medium / star">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[4px] items-start justify-center py-[var(--padding-text,8px)] relative self-stretch shrink-0 w-[255px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306907" data-name="TextCont">
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306910" data-name="TitleCont">
+                <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306911" data-name="CellTitleCont">
+                  <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,rgba(0,0,0,0.8))] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(0,0,0,0))] tracking-[-0.41px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306912">
+                    Title
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306913" data-name="DescriptionCont">
+                <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306914" data-name="TitleDescriptionCont">
+                  <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-1,rgba(0,0,0,0.54))] leading-[normal] min-w-px not-italic relative text-[13px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-2,rgba(0,0,0,0))] tracking-[-0.08px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306915">
+                    Description
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-end pl-[16px] py-[8px] relative self-stretch shrink-0" data-node-id="I8876:21454;6076:10291;6076:9606;41637:306916" data-name="Accessory">
+              <div className="content-stretch flex flex-col h-[40px] items-center justify-center relative shrink-0" data-node-id="I8876:21454;6076:10291;6076:9606;41637:307138" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:307139" data-name="tui-ic-service / check-ios">
+                  <div className="absolute bg-[var(--tui-text-action,#126df7)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I8876:21454;6076:10291;6076:9606;41637:307139;5247:554" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="flex h-[56px] items-center justify-center relative shrink-0 w-0" data-node-id="I8876:21454;6076:10291;6076:9606;55622:299555">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[56px]" data-name="min-height">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinHeight} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I8876:21454;6076:10292" data-name="Columns">
+          <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I8876:21454;6076:10292;6076:9230" data-name="Row 1">
+            <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I8876:21454;6076:10292;6076:9231" data-name="Row 1 / Cell 1">
+              <div className="content-stretch flex items-center relative shrink-0" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576" data-name="appearance=tui-component, state=selected">
+                <div className="bg-[#414347] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[12px] pt-[10px] px-[12px] relative rounded-[4px] shrink-0 w-[375px]" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:7" data-name="accessibility-screen-reader">
+                  <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:8" data-name="component-link">
+                    <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] block cursor-pointer decoration-from-font decoration-solid font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.24px] underline whitespace-nowrap" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:9">
+                      tui-cell [checkicon]
+                    </a>
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Text:Semibold'] gap-[4px] items-start leading-[normal] not-italic relative shrink-0 text-[15px] tracking-[-0.24px] w-full" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:10" data-name="description">
+                    <p className="relative shrink-0 text-[#ffb74c] w-full" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:33">
+                      Выбрано
+                    </p>
+                    <p className="relative shrink-0 text-[#f6f7f8] w-full whitespace-pre-wrap" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:11">
+                      {`Title ✏  `}
+                      <br aria-hidden />
+                      {`Description ✏ `}
+                    </p>
+                    <p className="relative shrink-0 text-[#ffa51f] w-full" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:13">
+                      Кнопка (iOS) / Флажок (Android)
+                    </p>
+                    <p className="relative shrink-0 text-[#c277f8] w-full" data-node-id="I8876:21454;6076:10292;6076:9231;6076:9576;4888:14">{`Default hint `}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Gradient/Text/Secondary Fade: , iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), iOS/UI M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Chart/categorical-05: #FFB74C, iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), Night/Text/primary: #F6F7F8, Chart/categorical-13: #FFA51F, Chart/categorical-02: #C277F8.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-cell [checkicon]
+**Node ID:** 25498:35981
+
+Ячейка с иконкой выбора
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 25498:8973
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,220 @@
+const imgColor = "https://www.figma.com/api/mcp/asset/ad20a059-3882-445f-afc1-a1f48ca7f708.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/e874765a-4729-48cc-9267-a77f102b92ad.svg";
+
+type TuiFloatingContainerProps = {
+  className?: string;
+  background?: "off" | "base" | "elevation-1";
+  content?: "action" | "two-actions" | "action+legal" | "custom-content";
+  showFade?: boolean;
+  showHomeIndicator?: boolean;
+  system?: "iOS" | "Android";
+};
+
+export default function TuiFloatingContainer({ className, background = "base", content = "two-actions", showFade = false, showHomeIndicator = true, system = "iOS" }: TuiFloatingContainerProps) {
+  const isActionLegalAndBase = content === "action+legal" && background === "base";
+  const isActionLegalAndElevation1 = content === "action+legal" && background === "elevation-1";
+  const isActionLegalAndIsBaseOrElevation1 = content === "action+legal" && ["base", "elevation-1"].includes(background);
+  const isAndroid = system === "Android";
+  const isAndroidAndActionAndOff = system === "Android" && content === "action" && background === "off";
+  const isAndroidAndActionLegalAndBase = system === "Android" && content === "action+legal" && background === "base";
+  const isAndroidAndActionLegalAndElevation1 = system === "Android" && content === "action+legal" && background === "elevation-1";
+  const isAndroidAndBase = system === "Android" && background === "base";
+  const isAndroidAndCustomContentAndOff = system === "Android" && content === "custom-content" && background === "off";
+  const isAndroidAndElevation1 = system === "Android" && background === "elevation-1";
+  const isAndroidAndIsBaseOrElevation1 = system === "Android" && ["base", "elevation-1"].includes(background);
+  const isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction = system === "Android" && ((content === "two-actions" && background === "base") || (content === "two-actions" && background === "elevation-1") || (content === "action+legal" && background === "base") || (content === "action+legal" && background === "elevation-1"));
+  const isAndroidAndTwoActionsAndBase = system === "Android" && content === "two-actions" && background === "base";
+  const isAndroidAndTwoActionsAndElevation1 = system === "Android" && content === "two-actions" && background === "elevation-1";
+  const isCustomContentAndOff = content === "custom-content" && background === "off";
+  const isIOsAndActionAndOff = system === "iOS" && content === "action" && background === "off";
+  const isIOsAndActionLegalAndBase = system === "iOS" && content === "action+legal" && background === "base";
+  const isIOsAndActionLegalAndElevation1 = system === "iOS" && content === "action+legal" && background === "elevation-1";
+  const isIOsAndCustomContentAndOff = system === "iOS" && content === "custom-content" && background === "off";
+  const isIOsAndElevation1 = system === "iOS" && background === "elevation-1";
+  const isIOsAndTwoActionsAndElevation1 = system === "iOS" && content === "two-actions" && background === "elevation-1";
+  const isTwoActionsAndBase = content === "two-actions" && background === "base";
+  const isTwoActionsAndElevation1 = content === "two-actions" && background === "elevation-1";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative ${isAndroidAndCustomContentAndOff ? "w-[360px]" : system === "iOS" && ((content === "action+legal" && background === "base") || (content === "action+legal" && background === "elevation-1") || (content === "action" && background === "off")) ? "overflow-clip w-[375px]" : system === "Android" && ((content === "two-actions" && background === "base") || (content === "two-actions" && background === "elevation-1") || (content === "action+legal" && background === "base") || (content === "action+legal" && background === "elevation-1") || (content === "action" && background === "off")) ? "overflow-clip w-[360px]" : "w-[375px]"}`} id={isAndroidAndActionAndOff ? "node-44286_299639" : isAndroidAndCustomContentAndOff ? "node-55061_284241" : isIOsAndCustomContentAndOff ? "node-44286_299621" : isIOsAndActionAndOff ? "node-44286_299616" : isAndroidAndActionLegalAndElevation1 ? "node-55095_283953" : isAndroidAndActionLegalAndBase ? "node-44286_299585" : isIOsAndActionLegalAndElevation1 ? "node-55095_283930" : isIOsAndActionLegalAndBase ? "node-44286_299553" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283915" : isAndroidAndTwoActionsAndBase ? "node-44286_299536" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283896" : "node-44286_299510"}>
+      {(isTwoActionsAndBase || isTwoActionsAndElevation1 || isActionLegalAndBase || isActionLegalAndElevation1) && (
+        <div className="h-[0.001px] relative shrink-0 w-full" id={isAndroidAndActionLegalAndElevation1 ? "node-55095_283955" : isAndroidAndActionLegalAndBase ? "node-44286_299586" : isIOsAndActionLegalAndElevation1 ? "node-55095_283932" : isIOsAndActionLegalAndBase ? "node-44286_299554" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283917" : isAndroidAndTwoActionsAndBase ? "node-44286_299537" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283898" : "node-44286_299511"} data-name="fade">
+          <div className={`absolute left-0 overflow-clip right-0 ${isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction ? "bottom-[-151px] h-[151px]" : "bottom-[-170px] h-[170px]"}`} id={isAndroidAndActionLegalAndElevation1 ? "node-55095_283956" : isAndroidAndActionLegalAndBase ? "node-44286_299587" : isIOsAndActionLegalAndElevation1 ? "node-55095_283933" : isIOsAndActionLegalAndBase ? "node-44286_299555" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283918" : isAndroidAndTwoActionsAndBase ? "node-44286_299538" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283899" : "node-44286_299512"} data-name="container">
+            <div className={`absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat ${system === "Android" && background === "elevation-1" && ["two-actions", "action+legal"].includes(content) ? "bg-[var(--tui-background-elevation-1,white)] mask-size-[360px_151px]" : system === "Android" && background === "base" && ["two-actions", "action+legal"].includes(content) ? "bg-[var(--tui-background-base,white)] mask-size-[360px_151px]" : system === "iOS" && background === "elevation-1" && ["two-actions", "action+legal"].includes(content) ? "bg-[var(--tui-background-elevation-1,white)] mask-size-[375px_170px]" : "bg-[var(--tui-background-base,white)] mask-size-[375px_170px]"}`} id={isAndroidAndActionLegalAndElevation1 ? "node-55095_283958" : isAndroidAndActionLegalAndBase ? "node-44286_299589" : isIOsAndActionLegalAndElevation1 ? "node-55095_283935" : isIOsAndActionLegalAndBase ? "node-44286_299557" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283920" : isAndroidAndTwoActionsAndBase ? "node-44286_299540" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283901" : "node-44286_299514"} style={isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction ? { maskImage: `url("${imgColor1}")` } : { maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+        </div>
+      )}
+      {(isTwoActionsAndBase || isTwoActionsAndElevation1 || isActionLegalAndBase || isActionLegalAndElevation1 || isCustomContentAndOff) && (
+        <div className={`content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative shrink-0 w-full ${isCustomContentAndOff ? "pb-[24px]" : isActionLegalAndIsBaseOrElevation1 ? "pb-[16px]" : "gap-[8px] pb-[16px]"}`} id={isAndroidAndCustomContentAndOff ? "node-55061_284243" : isIOsAndCustomContentAndOff ? "node-44286_299622" : isAndroidAndActionLegalAndElevation1 ? "node-55095_283959" : isAndroidAndActionLegalAndBase ? "node-44286_299590" : isIOsAndActionLegalAndElevation1 ? "node-55095_283936" : isIOsAndActionLegalAndBase ? "node-44286_299558" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283921" : isAndroidAndTwoActionsAndBase ? "node-44286_299541" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283902" : "node-44286_299515"} data-name="Buttons cont">
+          {(isTwoActionsAndBase || isTwoActionsAndElevation1 || isActionLegalAndBase || isActionLegalAndElevation1) && (
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" id={isAndroidAndActionLegalAndElevation1 ? "node-55095_283960" : isAndroidAndActionLegalAndBase ? "node-44286_299591" : isIOsAndActionLegalAndElevation1 ? "node-55095_283937" : isIOsAndActionLegalAndBase ? "node-44286_299559" : isAndroidAndTwoActionsAndElevation1 ? "node-55095_283922" : isAndroidAndTwoActionsAndBase ? "node-44286_299542" : isIOsAndTwoActionsAndElevation1 ? "node-55095_283903" : "node-44286_299516"} data-name="tui-button">
+              <div className={`content-stretch flex flex-col items-center overflow-clip px-[8px] relative shrink-0 ${isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction ? "pb-[2px] pt-[3px]" : "py-[2px]"}`} id={isAndroidAndActionLegalAndElevation1 ? "node-I55095_283960-41658_296917" : isAndroidAndActionLegalAndBase ? "node-I44286_299591-41658_296917" : isIOsAndActionLegalAndElevation1 ? "node-I55095_283937-41658_296910" : isIOsAndActionLegalAndBase ? "node-I44286_299559-41658_296910" : isAndroidAndTwoActionsAndElevation1 ? "node-I55095_283922-41658_296917" : isAndroidAndTwoActionsAndBase ? "node-I44286_299542-41658_296917" : isIOsAndTwoActionsAndElevation1 ? "node-I55095_283903-41658_296910" : "node-I44286_299516-41658_296910"} data-name="LabelCont">
+                <p className={`[word-break:break-word] leading-[normal] relative shrink-0 text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap ${isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction ? 'font-["Roboto:Regular"] font-normal text-[16px]' : 'font-["SF_Pro_Text:Regular"] not-italic text-[17px] tracking-[-0.41px]'}`} id={isAndroidAndActionLegalAndElevation1 ? "node-I55095_283960-41658_296918" : isAndroidAndActionLegalAndBase ? "node-I44286_299591-41658_296918" : isIOsAndActionLegalAndElevation1 ? "node-I55095_283937-41658_296911" : isIOsAndActionLegalAndBase ? "node-I44286_299559-41658_296911" : isAndroidAndTwoActionsAndElevation1 ? "node-I55095_283922-41658_296918" : isAndroidAndTwoActionsAndBase ? "node-I44286_299542-41658_296918" : isIOsAndTwoActionsAndElevation1 ? "node-I55095_283903-41658_296911" : "node-I44286_299516-41658_296911"} style={isAndroidAndIsTwoActionsAndBaseOrTwoActionsAndElevation1OrAction ? { fontVariationSettings: '"wdth" 100' } : undefined}>
+                  Main action
+                </p>
+              </div>
+            </div>
+          )}
+          {content === "two-actions" && ["base", "elevation-1"].includes(background) && (
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" id={isAndroidAndElevation1 ? "node-55095_283923" : isAndroidAndBase ? "node-44286_299543" : isIOsAndElevation1 ? "node-55095_283904" : "node-44286_299517"} data-name="tui-button">
+              <div className={`content-stretch flex flex-col items-center overflow-clip px-[8px] relative shrink-0 ${isAndroidAndIsBaseOrElevation1 ? "pb-[2px] pt-[3px]" : "py-[2px]"}`} id={isAndroidAndElevation1 ? "node-I55095_283923-42596_297198" : isAndroidAndBase ? "node-I44286_299543-42596_297198" : isIOsAndElevation1 ? "node-I55095_283904-42596_297181" : "node-I44286_299517-42596_297181"} data-name="LabelCont">
+                <p className={`[word-break:break-word] leading-[normal] relative shrink-0 text-[color:var(--tui-text-action,#428bf9)] text-center whitespace-nowrap ${isAndroidAndIsBaseOrElevation1 ? 'font-["Roboto:Regular"] font-normal text-[16px]' : 'font-["SF_Pro_Text:Regular"] not-italic text-[17px] tracking-[-0.41px]'}`} id={isAndroidAndElevation1 ? "node-I55095_283923-42596_297199" : isAndroidAndBase ? "node-I44286_299543-42596_297199" : isIOsAndElevation1 ? "node-I55095_283904-42596_297182" : "node-I44286_299517-42596_297182"} style={isAndroidAndIsBaseOrElevation1 ? { fontVariationSettings: '"wdth" 100' } : undefined}>
+                  Secondary action
+                </p>
+              </div>
+            </div>
+          )}
+          {isCustomContentAndOff && (
+            <div className="content-stretch flex flex-col h-[56px] items-start relative shrink-0 w-full" id={isAndroid ? "node-55061_284244" : "node-44286_299623"} data-name="Placeholder">
+              <div className="border-[0.5px] border-[var(--tui-text-secondary,#9299a2)] border-dashed content-stretch flex flex-[1_0_0] items-center justify-center min-h-px py-[16px] relative rounded-[8px] w-full" id={isAndroid ? "node-I55061_284244-13167_125434" : "node-I44286_299623-13167_125434"} data-name="frame">
+                <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] text-center tracking-[-0.24px]" id={isAndroid ? "node-I55061_284244-13167_125435" : "node-I44286_299623-13167_125435"}>
+                  <p className="leading-[normal]">Custom View</p>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+      {isActionLegalAndIsBaseOrElevation1 && (
+        <div className={`content-stretch flex items-start justify-center min-h-[48px] px-[16px] relative shrink-0 w-full ${isAndroidAndIsBaseOrElevation1 ? "gap-[10px]" : ""}`} id={isAndroidAndElevation1 ? "node-55095_283961" : isAndroidAndBase ? "node-44286_299593" : isIOsAndElevation1 ? "node-55095_283938" : "node-44286_299561"} data-name="LegalTextCont">
+          <p className={`[word-break:break-word] flex-[1_0_0] leading-[normal] min-w-px relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] text-center ${isAndroidAndIsBaseOrElevation1 ? 'font-["Roboto:Regular"] font-normal' : 'font-["SF_Pro_Text:Regular"] not-italic tracking-[-0.08px]'}`} id={isAndroidAndElevation1 ? "node-55095_283962" : isAndroidAndBase ? "node-44286_299594" : isIOsAndElevation1 ? "node-55095_283939" : "node-44286_299562"} style={isAndroidAndIsBaseOrElevation1 ? { fontVariationSettings: '"wdth" 100' } : undefined}>
+            Legal text, max 3 lines
+          </p>
+        </div>
+      )}
+      {system === "iOS" && ((content === "two-actions" && background === "base") || (content === "two-actions" && background === "elevation-1") || (content === "action+legal" && background === "base") || (content === "action+legal" && background === "elevation-1") || (content === "custom-content" && background === "off")) && showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="44286:299518" data-name="system-bottom-bar">
+          <div className="h-[34px] relative shrink-0 w-full" data-node-id="I44286:299518;8956:350" data-name="cont">
+            <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I44286:299518;8956:351" data-name="bar" />
+          </div>
+        </div>
+      )}
+      {system === "Android" && ((content === "two-actions" && background === "base") || (content === "two-actions" && background === "elevation-1") || (content === "action+legal" && background === "base") || (content === "action+legal" && background === "elevation-1") || (content === "custom-content" && background === "off")) && showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-[360px]" data-node-id="44286:299544" data-name="system-bottom-bar">
+          <div className="h-[14px] opacity-32 relative shrink-0 w-full" data-node-id="I44286:299544;90258:115030" data-name="Union">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[34px] left-1/2 top-[calc(50%-10px)] w-[360px]" data-node-id="I44286:299544;90258:115030;24701:578204" data-name="Union" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] h-[2px] left-1/2 rounded-[32px] top-[calc(50%+2px)] w-[64px]" data-node-id="I44286:299544;90258:115030;24701:578205" data-name="Union" />
+          </div>
+        </div>
+      )}
+      {isIOsAndActionAndOff && showFade && (
+        <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="55399:60447" data-name="fade">
+          <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="55399:60448" data-name="container">
+            <div className="absolute bg-[var(--tui-background-base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="55399:60450" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+        </div>
+      )}
+      {isIOsAndActionAndOff && (
+        <div className="content-stretch flex flex-col items-start pb-[24px] px-[var(--screen-padding,16px)] relative shrink-0 w-full" data-node-id="44286:299617" data-name="Buttons cont">
+          <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="44286:299618" data-name="tui-button">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I44286:299618;41658:296910" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I44286:299618;41658:296911">
+                Main action
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+      {isIOsAndActionAndOff && showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="44286:299620" data-name="system-bottom-bar">
+          <div className="h-[34px] relative shrink-0 w-full" data-node-id="I44286:299620;8956:350" data-name="cont">
+            <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I44286:299620;8956:351" data-name="bar" />
+          </div>
+        </div>
+      )}
+      {isAndroidAndActionAndOff && showFade && (
+        <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="55399:62254" data-name="fade">
+          <div className="absolute bottom-[-151px] h-[151px] left-0 overflow-clip right-0" data-node-id="55399:62255" data-name="container">
+            <div className="absolute bg-[var(--tui-background-base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[360px_151px]" data-node-id="55399:62257" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+          </div>
+        </div>
+      )}
+      {isAndroidAndActionAndOff && (
+        <div className="content-stretch flex flex-col items-start pb-[24px] px-[var(--screen-padding,16px)] relative shrink-0 w-full" data-node-id="44286:299640" data-name="Buttons cont">
+          <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="44286:299641" data-name="tui-button">
+            <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I44286:299641;41658:296917" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I44286:299641;41658:296918" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Main action
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+      {isAndroidAndActionAndOff && showHomeIndicator && (
+        <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-[360px]" data-node-id="44286:299643" data-name="system-bottom-bar">
+          <div className="h-[14px] opacity-32 relative shrink-0 w-full" data-node-id="I44286:299643;90258:115030" data-name="Union">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[34px] left-1/2 top-[calc(50%-10px)] w-[360px]" data-node-id="I44286:299643;90258:115030;24701:578204" data-name="Union" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] h-[2px] left-1/2 rounded-[32px] top-[calc(50%+2px)] w-[64px]" data-node-id="I44286:299643;90258:115030;24701:578205" data-name="Union" />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Android/UI S: Font(family: "Roboto", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-floating-container
+**Node ID:** 44286:299509
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 41658:296907
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 41658:296906
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 5926:33072
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 24708:577310
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## system=android, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 41658:296914
+
+Ex. primary-tinkoff
+
+## Type=Dragger, Appearance=Opposite, System=Android, Keyboard=off
+**Node ID:** 55061:283700
+
+⚪ Not In TUI (Native)
+
+## Type=Dragger, Appearance=Dark Bg, System=Android, Keyboard=off
+**Node ID:** 24701:578203
+
+⚪ Not In TUI (Native)
+
+## Placeholder
+**Node ID:** 28497:456764
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

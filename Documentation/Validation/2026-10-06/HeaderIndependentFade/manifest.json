@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F3076D40-BC03-4679-99EE-28D3EBC04751.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-fade-ax-tree_0_82096B29-D875-4048-9972-B74873C3B871.txt",
+        "timestamp" : 1791282276.47
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "EB7C5ACE-47C7-43F0-96EA-8BD88A823E0C.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-fade-and-suffix_0_7B947240-41F2-4C6E-B47B-54C524BA3EDC.png",
+        "timestamp" : 1791282276.392
+      }
+    ],
+    "testIdentifier" : "HeaderConsumerUITests/testIndependentSingleLineFadeKeepsSuffixAccessible()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testIndependentSingleLineFadeKeepsSuffixAccessible"
+  }
+]

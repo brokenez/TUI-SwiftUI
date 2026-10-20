@@ -1,0 +1,1543 @@
+{
+  "scope": "Independent readonly audit; narrow delta/no-initial-jump/outgoing-ghost regression evidence, not full component acceptance",
+  "captureID": "10ACD515-EBEE-4415-AC95-59EC337A3C8D",
+  "captureComplete": true,
+  "eventCount": 10,
+  "rawFrameCount": 285,
+  "scale": 3.0,
+  "sourceVersions": {
+    "Sources/TUIDesignSystem/Components/FloatingContainer/TUIFloatingContainer.swift": {
+      "recordedSHA256": "b52829047e6c4a62c75f2ffcffc9a6f3ad39097c682f65911245e3372365e842",
+      "currentSHA256": "b52829047e6c4a62c75f2ffcffc9a6f3ad39097c682f65911245e3372365e842",
+      "matches": true
+    },
+    "CatalogApp/FloatingContainerMotionProbe.swift": {
+      "recordedSHA256": "052fbd15eee13bbac4c664b4c6db29814f6efbe3e96cd8cf660ffa115fa27d5d",
+      "currentSHA256": "052fbd15eee13bbac4c664b4c6db29814f6efbe3e96cd8cf660ffa115fa27d5d",
+      "matches": true
+    }
+  },
+  "inputs": [
+    "stable-slide-measurement.json",
+    "stable-slide-events.json",
+    "StableSlideFrames/frames.json",
+    "stable-slide-source-versions.json",
+    "../FloatingContainerMotion/final-measurement.json",
+    "initial-measurement.json",
+    "../../../References/FloatingContainer/2026-10-12/PrototypeObservation/secondary-to-legal-transition.json",
+    "../../../References/FloatingContainer/2026-10-12/PrototypeObservation/legal-to-secondary-transition.json"
+  ],
+  "t0Policy": "First native recorded stage marker; no t0 shift, fit, drift correction or source absolute-y alignment",
+  "formula": {
+    "x": "Bx(u)=3(1-u)^2*u*p1x+3(1-u)*u^2*p2x+u^3",
+    "y": "By(u)=3(1-u)^2*u*p1y+3(1-u)*u^2*p2y+u^3",
+    "inverse": "Find u in[0,1] with Bx(u)=clamp((movieTime-t0)/duration,0,1),60 bisection steps",
+    "expected": "nativeBaseline+(nativeTarget-nativeBaseline)*By(u)",
+    "residual": "observedPrimaryTopPoints-expectedPrimaryTopPoints",
+    "rootMeanSquare": "sqrt(sum(residual^2)/sampleCount)"
+  },
+  "pixelCrossCheck": {
+    "rawFiles": [
+      "frame-00134.png",
+      "frame-00164.png",
+      "frame-00165.png",
+      "frame-00194.png",
+      "frame-00195.png",
+      "frame-00225.png",
+      "frame-00235.png",
+      "frame-00255.png",
+      "frame-00281.png"
+    ],
+    "method": "Independent PIL/NumPy RGB threshold R>210,G>160,B<100 below pixel y1900; bounding boxes agree with measurement. No images written or changed.",
+    "limitations": "Compressed native movie pixels and rounded corners; threshold does not prove alpha or per-pixel fidelity"
+  },
+  "curveComparisons": [
+    {
+      "stage": 1,
+      "name": "show-primary",
+      "t0MovieSeconds": 27.266666666666666,
+      "nominalDurationSeconds": 0.5,
+      "curve": [
+        0.35,
+        1.3,
+        0.25,
+        1.0
+      ],
+      "nativeBaselinePoints": 874.0,
+      "nativeTargetPoints": 760.0,
+      "sourceInterpretation": "Guide/Primitive; native window bound, not exported primary keyframes",
+      "sampleCount": 29,
+      "maximumActiveFrameIntervalSeconds": 0.03500000000000014,
+      "maximumAbsoluteResidualPoints": 3.988708382064715,
+      "rootMeanSquareResidualPoints": 1.3527032513677206,
+      "samples": [
+        {
+          "frame": "frame-00093.png",
+          "movieTimeSeconds": 27.28,
+          "elapsedFromFirstRenderedStageSeconds": 0.013333333333335418,
+          "observedPrimaryTopPoints": 860.0,
+          "expectedPrimaryTopPoints": 862.6977708193915,
+          "residualPoints": -2.6977708193915078
+        },
+        {
+          "frame": "frame-00094.png",
+          "movieTimeSeconds": 27.295,
+          "elapsedFromFirstRenderedStageSeconds": 0.028333333333335986,
+          "observedPrimaryTopPoints": 846.0,
+          "expectedPrimaryTopPoints": 849.9887083820647,
+          "residualPoints": -3.988708382064715
+        },
+        {
+          "frame": "frame-00095.png",
+          "movieTimeSeconds": 27.311666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.045000000000001705,
+          "observedPrimaryTopPoints": 832.0,
+          "expectedPrimaryTopPoints": 835.964396477535,
+          "residualPoints": -3.964396477535047
+        },
+        {
+          "frame": "frame-00096.png",
+          "movieTimeSeconds": 27.33,
+          "elapsedFromFirstRenderedStageSeconds": 0.06333333333333258,
+          "observedPrimaryTopPoints": 818.3333333333334,
+          "expectedPrimaryTopPoints": 820.8482980275913,
+          "residualPoints": -2.5149646942579693
+        },
+        {
+          "frame": "frame-00097.png",
+          "movieTimeSeconds": 27.346666666666668,
+          "elapsedFromFirstRenderedStageSeconds": 0.08000000000000185,
+          "observedPrimaryTopPoints": 805.3333333333334,
+          "expectedPrimaryTopPoints": 807.672145615366,
+          "residualPoints": -2.338812282032677
+        },
+        {
+          "frame": "frame-00098.png",
+          "movieTimeSeconds": 27.381666666666668,
+          "elapsedFromFirstRenderedStageSeconds": 0.11500000000000199,
+          "observedPrimaryTopPoints": 782.6666666666666,
+          "expectedPrimaryTopPoints": 783.607494834325,
+          "residualPoints": -0.9408281676584238
+        },
+        {
+          "frame": "frame-00099.png",
+          "movieTimeSeconds": 27.398333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.1316666666666677,
+          "observedPrimaryTopPoints": 774.0,
+          "expectedPrimaryTopPoints": 774.8386250064966,
+          "residualPoints": -0.8386250064966134
+        },
+        {
+          "frame": "frame-00100.png",
+          "movieTimeSeconds": 27.415,
+          "elapsedFromFirstRenderedStageSeconds": 0.14833333333333343,
+          "observedPrimaryTopPoints": 767.6666666666666,
+          "expectedPrimaryTopPoints": 768.1656460228314,
+          "residualPoints": -0.4989793561647957
+        },
+        {
+          "frame": "frame-00101.png",
+          "movieTimeSeconds": 27.43166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.1650000000000027,
+          "observedPrimaryTopPoints": 763.3333333333334,
+          "expectedPrimaryTopPoints": 763.4557325641849,
+          "residualPoints": -0.12239923085155624
+        },
+        {
+          "frame": "frame-00102.png",
+          "movieTimeSeconds": 27.448333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.18166666666666842,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 760.3457708126397,
+          "residualPoints": -0.345770812639671
+        },
+        {
+          "frame": "frame-00103.png",
+          "movieTimeSeconds": 27.466666666666665,
+          "elapsedFromFirstRenderedStageSeconds": 0.1999999999999993,
+          "observedPrimaryTopPoints": 758.3333333333334,
+          "expectedPrimaryTopPoints": 758.276698224151,
+          "residualPoints": 0.05663510918236625
+        },
+        {
+          "frame": "frame-00104.png",
+          "movieTimeSeconds": 27.483333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.21666666666666856,
+          "observedPrimaryTopPoints": 757.3333333333334,
+          "expectedPrimaryTopPoints": 757.240989155358,
+          "residualPoints": 0.09234417797540573
+        },
+        {
+          "frame": "frame-00105.png",
+          "movieTimeSeconds": 27.498333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.23166666666666913,
+          "observedPrimaryTopPoints": 756.6666666666666,
+          "expectedPrimaryTopPoints": 756.7713581073762,
+          "residualPoints": -0.10469144070953007
+        },
+        {
+          "frame": "frame-00106.png",
+          "movieTimeSeconds": 27.516666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.25,
+          "observedPrimaryTopPoints": 756.6666666666666,
+          "expectedPrimaryTopPoints": 756.5902598323503,
+          "residualPoints": 0.07640683431634443
+        },
+        {
+          "frame": "frame-00107.png",
+          "movieTimeSeconds": 27.531666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.26500000000000057,
+          "observedPrimaryTopPoints": 756.6666666666666,
+          "expectedPrimaryTopPoints": 756.6528990752406,
+          "residualPoints": 0.013767591426017134
+        },
+        {
+          "frame": "frame-00108.png",
+          "movieTimeSeconds": 27.548333333333332,
+          "elapsedFromFirstRenderedStageSeconds": 0.2816666666666663,
+          "observedPrimaryTopPoints": 757.0,
+          "expectedPrimaryTopPoints": 756.8617503899659,
+          "residualPoints": 0.13824961003410863
+        },
+        {
+          "frame": "frame-00109.png",
+          "movieTimeSeconds": 27.565,
+          "elapsedFromFirstRenderedStageSeconds": 0.29833333333333556,
+          "observedPrimaryTopPoints": 757.3333333333334,
+          "expectedPrimaryTopPoints": 757.159225778248,
+          "residualPoints": 0.17410755508535658
+        },
+        {
+          "frame": "frame-00110.png",
+          "movieTimeSeconds": 27.581666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.3150000000000013,
+          "observedPrimaryTopPoints": 757.6666666666666,
+          "expectedPrimaryTopPoints": 757.5035796828964,
+          "residualPoints": 0.16308698377019937
+        },
+        {
+          "frame": "frame-00111.png",
+          "movieTimeSeconds": 27.598333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.331666666666667,
+          "observedPrimaryTopPoints": 758.0,
+          "expectedPrimaryTopPoints": 757.8658482943436,
+          "residualPoints": 0.13415170565644985
+        },
+        {
+          "frame": "frame-00112.png",
+          "movieTimeSeconds": 27.615,
+          "elapsedFromFirstRenderedStageSeconds": 0.3483333333333327,
+          "observedPrimaryTopPoints": 758.3333333333334,
+          "expectedPrimaryTopPoints": 758.2258217980719,
+          "residualPoints": 0.10751153526143753
+        },
+        {
+          "frame": "frame-00113.png",
+          "movieTimeSeconds": 27.635,
+          "elapsedFromFirstRenderedStageSeconds": 0.36833333333333584,
+          "observedPrimaryTopPoints": 758.6666666666666,
+          "expectedPrimaryTopPoints": 758.6351577839928,
+          "residualPoints": 0.03150888267384744
+        },
+        {
+          "frame": "frame-00114.png",
+          "movieTimeSeconds": 27.648333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.3816666666666677,
+          "observedPrimaryTopPoints": 759.0,
+          "expectedPrimaryTopPoints": 758.8865496989151,
+          "residualPoints": 0.11345030108486753
+        },
+        {
+          "frame": "frame-00115.png",
+          "movieTimeSeconds": 27.666666666666668,
+          "elapsedFromFirstRenderedStageSeconds": 0.40000000000000213,
+          "observedPrimaryTopPoints": 759.3333333333334,
+          "expectedPrimaryTopPoints": 759.1968945059648,
+          "residualPoints": 0.13643882736857904
+        },
+        {
+          "frame": "frame-00116.png",
+          "movieTimeSeconds": 27.683333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.41666666666666785,
+          "observedPrimaryTopPoints": 759.3333333333334,
+          "expectedPrimaryTopPoints": 759.4389197313328,
+          "residualPoints": -0.10558639799944558
+        },
+        {
+          "frame": "frame-00117.png",
+          "movieTimeSeconds": 27.696666666666665,
+          "elapsedFromFirstRenderedStageSeconds": 0.4299999999999997,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 759.6028512293703,
+          "residualPoints": 0.3971487706296557
+        },
+        {
+          "frame": "frame-00118.png",
+          "movieTimeSeconds": 27.715,
+          "elapsedFromFirstRenderedStageSeconds": 0.44833333333333414,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 759.7831257569476,
+          "residualPoints": 0.2168742430524162
+        },
+        {
+          "frame": "frame-00119.png",
+          "movieTimeSeconds": 27.731666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.46499999999999986,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 759.9004237852264,
+          "residualPoints": 0.0995762147736059
+        },
+        {
+          "frame": "frame-00120.png",
+          "movieTimeSeconds": 27.75,
+          "elapsedFromFirstRenderedStageSeconds": 0.4833333333333343,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 759.9774396649843,
+          "residualPoints": 0.022560335015668898
+        },
+        {
+          "frame": "frame-00121.png",
+          "movieTimeSeconds": 27.765,
+          "elapsedFromFirstRenderedStageSeconds": 0.49833333333333485,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 759.9997747638708,
+          "residualPoints": 0.00022523612915392732
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "name": "show-secondary",
+      "t0MovieSeconds": 32.91,
+      "nominalDurationSeconds": 0.5,
+      "curve": [
+        0.35,
+        1.3,
+        0.25,
+        1.0
+      ],
+      "nativeBaselinePoints": 760.0,
+      "nativeTargetPoints": 704.0,
+      "sourceInterpretation": "Guide/Primitive; native preset delta",
+      "sampleCount": 30,
+      "maximumActiveFrameIntervalSeconds": 0.03499999999999659,
+      "maximumAbsoluteResidualPoints": 3.7428026272395982,
+      "rootMeanSquareResidualPoints": 1.1965852190834367,
+      "samples": [
+        {
+          "frame": "frame-00195.png",
+          "movieTimeSeconds": 32.91,
+          "elapsedFromFirstRenderedStageSeconds": 0.0,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 760.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00196.png",
+          "movieTimeSeconds": 32.935,
+          "elapsedFromFirstRenderedStageSeconds": 0.025000000000005684,
+          "observedPrimaryTopPoints": 753.3333333333334,
+          "expectedPrimaryTopPoints": 749.5905307060938,
+          "residualPoints": 3.7428026272395982
+        },
+        {
+          "frame": "frame-00197.png",
+          "movieTimeSeconds": 32.965,
+          "elapsedFromFirstRenderedStageSeconds": 0.05500000000000682,
+          "observedPrimaryTopPoints": 739.3333333333334,
+          "expectedPrimaryTopPoints": 737.2371302169179,
+          "residualPoints": 2.096203116415495
+        },
+        {
+          "frame": "frame-00198.png",
+          "movieTimeSeconds": 32.98166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.07166666666667254,
+          "observedPrimaryTopPoints": 732.6666666666666,
+          "expectedPrimaryTopPoints": 730.6100707914802,
+          "residualPoints": 2.0565958751864173
+        },
+        {
+          "frame": "frame-00199.png",
+          "movieTimeSeconds": 33,
+          "elapsedFromFirstRenderedStageSeconds": 0.09000000000000341,
+          "observedPrimaryTopPoints": 726.3333333333334,
+          "expectedPrimaryTopPoints": 723.7398407550356,
+          "residualPoints": 2.5934925782977416
+        },
+        {
+          "frame": "frame-00200.png",
+          "movieTimeSeconds": 33.015,
+          "elapsedFromFirstRenderedStageSeconds": 0.10500000000000398,
+          "observedPrimaryTopPoints": 720.3333333333334,
+          "expectedPrimaryTopPoints": 718.6407106476746,
+          "residualPoints": 1.6926226856587618
+        },
+        {
+          "frame": "frame-00201.png",
+          "movieTimeSeconds": 33.03333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.12333333333333485,
+          "observedPrimaryTopPoints": 715.3333333333334,
+          "expectedPrimaryTopPoints": 713.3165603046966,
+          "residualPoints": 2.0167730286367487
+        },
+        {
+          "frame": "frame-00202.png",
+          "movieTimeSeconds": 33.05166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.14166666666667282,
+          "observedPrimaryTopPoints": 711.0,
+          "expectedPrimaryTopPoints": 709.1995491850621,
+          "residualPoints": 1.8004508149379035
+        },
+        {
+          "frame": "frame-00203.png",
+          "movieTimeSeconds": 33.068333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.15833333333333854,
+          "observedPrimaryTopPoints": 708.0,
+          "expectedPrimaryTopPoints": 706.517235268171,
+          "residualPoints": 1.4827647318289792
+        },
+        {
+          "frame": "frame-00204.png",
+          "movieTimeSeconds": 33.08166666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.17166666666666686,
+          "observedPrimaryTopPoints": 705.6666666666666,
+          "expectedPrimaryTopPoints": 705.0038526134713,
+          "residualPoints": 0.6628140531953477
+        },
+        {
+          "frame": "frame-00205.png",
+          "movieTimeSeconds": 33.1,
+          "elapsedFromFirstRenderedStageSeconds": 0.19000000000000483,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 703.6359377482079,
+          "residualPoints": 0.36406225179212015
+        },
+        {
+          "frame": "frame-00206.png",
+          "movieTimeSeconds": 33.11666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.20666666666667055,
+          "observedPrimaryTopPoints": 703.3333333333334,
+          "expectedPrimaryTopPoints": 702.9112635906922,
+          "residualPoints": 0.42206974264115615
+        },
+        {
+          "frame": "frame-00207.png",
+          "movieTimeSeconds": 33.135,
+          "elapsedFromFirstRenderedStageSeconds": 0.22500000000000142,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.4950976236363,
+          "residualPoints": 0.17156904303033116
+        },
+        {
+          "frame": "frame-00208.png",
+          "movieTimeSeconds": 33.15,
+          "elapsedFromFirstRenderedStageSeconds": 0.240000000000002,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.3522444333706,
+          "residualPoints": 0.31442223329599983
+        },
+        {
+          "frame": "frame-00209.png",
+          "movieTimeSeconds": 33.16833333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.25833333333333997,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.3332276213057,
+          "residualPoints": 0.33343904536093305
+        },
+        {
+          "frame": "frame-00210.png",
+          "movieTimeSeconds": 33.185,
+          "elapsedFromFirstRenderedStageSeconds": 0.2750000000000057,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.4107224784822,
+          "residualPoints": 0.25594418818445774
+        },
+        {
+          "frame": "frame-00211.png",
+          "movieTimeSeconds": 33.20166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.2916666666666714,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.5423359843669,
+          "residualPoints": 0.12433068229972832
+        },
+        {
+          "frame": "frame-00212.png",
+          "movieTimeSeconds": 33.21666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.30666666666667197,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.6872409182448,
+          "residualPoints": -0.020574251578182157
+        },
+        {
+          "frame": "frame-00213.png",
+          "movieTimeSeconds": 33.23166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.32166666666667254,
+          "observedPrimaryTopPoints": 702.6666666666666,
+          "expectedPrimaryTopPoints": 702.8444504599212,
+          "residualPoints": -0.17778379325454807
+        },
+        {
+          "frame": "frame-00214.png",
+          "movieTimeSeconds": 33.248333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.33833333333333826,
+          "observedPrimaryTopPoints": 703.0,
+          "expectedPrimaryTopPoints": 703.0229563724339,
+          "residualPoints": -0.022956372433895922
+        },
+        {
+          "frame": "frame-00215.png",
+          "movieTimeSeconds": 33.266666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.35666666666666913,
+          "observedPrimaryTopPoints": 703.3333333333334,
+          "expectedPrimaryTopPoints": 703.2142043458416,
+          "residualPoints": 0.11912898749176293
+        },
+        {
+          "frame": "frame-00216.png",
+          "movieTimeSeconds": 33.281666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.3716666666666697,
+          "observedPrimaryTopPoints": 703.3333333333334,
+          "expectedPrimaryTopPoints": 703.3613226438192,
+          "residualPoints": -0.027989310485850183
+        },
+        {
+          "frame": "frame-00217.png",
+          "movieTimeSeconds": 33.29833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.3883333333333354,
+          "observedPrimaryTopPoints": 703.6666666666666,
+          "expectedPrimaryTopPoints": 703.5109486342113,
+          "residualPoints": 0.15571803245529736
+        },
+        {
+          "frame": "frame-00218.png",
+          "movieTimeSeconds": 33.315,
+          "elapsedFromFirstRenderedStageSeconds": 0.40500000000000114,
+          "observedPrimaryTopPoints": 703.6666666666666,
+          "expectedPrimaryTopPoints": 703.6432165295687,
+          "residualPoints": 0.02345013709793875
+        },
+        {
+          "frame": "frame-00219.png",
+          "movieTimeSeconds": 33.33166666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.42166666666666686,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 703.7561370544838,
+          "residualPoints": 0.24386294551618448
+        },
+        {
+          "frame": "frame-00220.png",
+          "movieTimeSeconds": 33.35,
+          "elapsedFromFirstRenderedStageSeconds": 0.44000000000000483,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 703.8564459192507,
+          "residualPoints": 0.14355408074925435
+        },
+        {
+          "frame": "frame-00221.png",
+          "movieTimeSeconds": 33.385,
+          "elapsedFromFirstRenderedStageSeconds": 0.4750000000000014,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 703.9750509856785,
+          "residualPoints": 0.024949014321464347
+        },
+        {
+          "frame": "frame-00222.png",
+          "movieTimeSeconds": 33.4,
+          "elapsedFromFirstRenderedStageSeconds": 0.490000000000002,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 703.9960128965032,
+          "residualPoints": 0.003987103496797317
+        },
+        {
+          "frame": "frame-00223.png",
+          "movieTimeSeconds": 33.416666666666664,
+          "elapsedFromFirstRenderedStageSeconds": 0.5066666666666677,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 704.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00224.png",
+          "movieTimeSeconds": 33.43333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.5233333333333334,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 704.0,
+          "residualPoints": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "name": "secondary-to-legal",
+      "t0MovieSeconds": 34.02,
+      "nominalDurationSeconds": 0.2,
+      "curve": [
+        0.20000000298023224,
+        0,
+        0.4000000059604645,
+        0.8999999761581421
+      ],
+      "nativeBaselinePoints": 704.0,
+      "nativeTargetPoints": 720.0,
+      "sourceInterpretation": "Source root delta +16; primary follows footer by construction, not system-bottom-bar local y",
+      "sampleCount": 12,
+      "maximumActiveFrameIntervalSeconds": 0.03166666666666629,
+      "maximumAbsoluteResidualPoints": 1.8724750668401384,
+      "rootMeanSquareResidualPoints": 1.034279869105535,
+      "samples": [
+        {
+          "frame": "frame-00225.png",
+          "movieTimeSeconds": 34.02,
+          "elapsedFromFirstRenderedStageSeconds": 0.0,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 704.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00226.png",
+          "movieTimeSeconds": 34.05166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.03166666666666629,
+          "observedPrimaryTopPoints": 704.6666666666666,
+          "expectedPrimaryTopPoints": 706.3260716671795,
+          "residualPoints": -1.6594050005128338
+        },
+        {
+          "frame": "frame-00227.png",
+          "movieTimeSeconds": 34.083333333333336,
+          "elapsedFromFirstRenderedStageSeconds": 0.06333333333333258,
+          "observedPrimaryTopPoints": 708.6666666666666,
+          "expectedPrimaryTopPoints": 710.5391417335068,
+          "residualPoints": -1.8724750668401384
+        },
+        {
+          "frame": "frame-00228.png",
+          "movieTimeSeconds": 34.1,
+          "elapsedFromFirstRenderedStageSeconds": 0.0799999999999983,
+          "observedPrimaryTopPoints": 711.3333333333334,
+          "expectedPrimaryTopPoints": 712.6241879548639,
+          "residualPoints": -1.2908546215305705
+        },
+        {
+          "frame": "frame-00229.png",
+          "movieTimeSeconds": 34.11666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.09666666666666401,
+          "observedPrimaryTopPoints": 713.3333333333334,
+          "expectedPrimaryTopPoints": 714.4530786370883,
+          "residualPoints": -1.1197453037549394
+        },
+        {
+          "frame": "frame-00230.png",
+          "movieTimeSeconds": 34.135,
+          "elapsedFromFirstRenderedStageSeconds": 0.11499999999999488,
+          "observedPrimaryTopPoints": 714.6666666666666,
+          "expectedPrimaryTopPoints": 716.1391377753721,
+          "residualPoints": -1.472471108705463
+        },
+        {
+          "frame": "frame-00231.png",
+          "movieTimeSeconds": 34.14833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.1283333333333303,
+          "observedPrimaryTopPoints": 716.3333333333334,
+          "expectedPrimaryTopPoints": 717.1546463148507,
+          "residualPoints": -0.8213129815172806
+        },
+        {
+          "frame": "frame-00232.png",
+          "movieTimeSeconds": 34.16833333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.14833333333333343,
+          "observedPrimaryTopPoints": 717.6666666666666,
+          "expectedPrimaryTopPoints": 718.3664309428888,
+          "residualPoints": -0.6997642762221403
+        },
+        {
+          "frame": "frame-00233.png",
+          "movieTimeSeconds": 34.185,
+          "elapsedFromFirstRenderedStageSeconds": 0.16499999999999915,
+          "observedPrimaryTopPoints": 718.6666666666666,
+          "expectedPrimaryTopPoints": 719.1135529397769,
+          "residualPoints": -0.4468862731102945
+        },
+        {
+          "frame": "frame-00234.png",
+          "movieTimeSeconds": 34.20333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.18333333333333002,
+          "observedPrimaryTopPoints": 719.3333333333334,
+          "expectedPrimaryTopPoints": 719.6858346838867,
+          "residualPoints": -0.3525013505533252
+        },
+        {
+          "frame": "frame-00235.png",
+          "movieTimeSeconds": 34.218333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.19833333333333059,
+          "observedPrimaryTopPoints": 720.0,
+          "expectedPrimaryTopPoints": 719.9768834328592,
+          "residualPoints": 0.0231165671408462
+        },
+        {
+          "frame": "frame-00236.png",
+          "movieTimeSeconds": 34.233333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.21333333333333115,
+          "observedPrimaryTopPoints": 720.0,
+          "expectedPrimaryTopPoints": 720.0,
+          "residualPoints": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "name": "legal-to-secondary",
+      "t0MovieSeconds": 35.16833333333334,
+      "nominalDurationSeconds": 0.3,
+      "curve": [
+        0.20000000298023224,
+        0,
+        0.4000000059604645,
+        0.8999999761581421
+      ],
+      "nativeBaselinePoints": 720.0,
+      "nativeTargetPoints": 704.0,
+      "sourceInterpretation": "Source root delta -16; primary follows footer by construction, not system-bottom-bar local y",
+      "sampleCount": 19,
+      "maximumActiveFrameIntervalSeconds": 0.02999999999999403,
+      "maximumAbsoluteResidualPoints": 1.4518041819073915,
+      "rootMeanSquareResidualPoints": 0.8756085946058185,
+      "samples": [
+        {
+          "frame": "frame-00237.png",
+          "movieTimeSeconds": 35.16833333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.0,
+          "observedPrimaryTopPoints": 720.0,
+          "expectedPrimaryTopPoints": 720.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00238.png",
+          "movieTimeSeconds": 35.19833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.02999999999999403,
+          "observedPrimaryTopPoints": 720.0,
+          "expectedPrimaryTopPoints": 718.9611819713296,
+          "residualPoints": 1.0388180286704483
+        },
+        {
+          "frame": "frame-00239.png",
+          "movieTimeSeconds": 35.215,
+          "elapsedFromFirstRenderedStageSeconds": 0.046666666666666856,
+          "observedPrimaryTopPoints": 718.6666666666666,
+          "expectedPrimaryTopPoints": 717.7419589869854,
+          "residualPoints": 0.9247076796812053
+        },
+        {
+          "frame": "frame-00240.png",
+          "movieTimeSeconds": 35.233333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.06499999999999773,
+          "observedPrimaryTopPoints": 717.3333333333334,
+          "expectedPrimaryTopPoints": 716.1575432240411,
+          "residualPoints": 1.1757901092922793
+        },
+        {
+          "frame": "frame-00241.png",
+          "movieTimeSeconds": 35.248333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.0799999999999983,
+          "observedPrimaryTopPoints": 716.0,
+          "expectedPrimaryTopPoints": 714.7998431465546,
+          "residualPoints": 1.2001568534453781
+        },
+        {
+          "frame": "frame-00242.png",
+          "movieTimeSeconds": 35.263333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.09499999999999886,
+          "observedPrimaryTopPoints": 714.6666666666666,
+          "expectedPrimaryTopPoints": 713.4608582664932,
+          "residualPoints": 1.205808400173396
+        },
+        {
+          "frame": "frame-00243.png",
+          "movieTimeSeconds": 35.281666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.11333333333332973,
+          "observedPrimaryTopPoints": 713.3333333333334,
+          "expectedPrimaryTopPoints": 711.9090358834441,
+          "residualPoints": 1.424297449889309
+        },
+        {
+          "frame": "frame-00244.png",
+          "movieTimeSeconds": 35.29833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.12999999999999545,
+          "observedPrimaryTopPoints": 711.6666666666666,
+          "expectedPrimaryTopPoints": 710.611050849432,
+          "residualPoints": 1.0556158172346386
+        },
+        {
+          "frame": "frame-00245.png",
+          "movieTimeSeconds": 35.318333333333335,
+          "elapsedFromFirstRenderedStageSeconds": 0.14999999999999858,
+          "observedPrimaryTopPoints": 710.6666666666666,
+          "expectedPrimaryTopPoints": 709.2148624847592,
+          "residualPoints": 1.4518041819073915
+        },
+        {
+          "frame": "frame-00246.png",
+          "movieTimeSeconds": 35.33,
+          "elapsedFromFirstRenderedStageSeconds": 0.16166666666666174,
+          "observedPrimaryTopPoints": 709.3333333333334,
+          "expectedPrimaryTopPoints": 708.4842841267931,
+          "residualPoints": 0.8490492065402577
+        },
+        {
+          "frame": "frame-00247.png",
+          "movieTimeSeconds": 35.346666666666664,
+          "elapsedFromFirstRenderedStageSeconds": 0.17833333333332746,
+          "observedPrimaryTopPoints": 708.3333333333334,
+          "expectedPrimaryTopPoints": 707.5467592086524,
+          "residualPoints": 0.7865741246810103
+        },
+        {
+          "frame": "frame-00248.png",
+          "movieTimeSeconds": 35.36333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.19500000000000028,
+          "observedPrimaryTopPoints": 707.3333333333334,
+          "expectedPrimaryTopPoints": 706.7304249681488,
+          "residualPoints": 0.6029083651845895
+        },
+        {
+          "frame": "frame-00249.png",
+          "movieTimeSeconds": 35.38,
+          "elapsedFromFirstRenderedStageSeconds": 0.211666666666666,
+          "observedPrimaryTopPoints": 706.6666666666666,
+          "expectedPrimaryTopPoints": 706.0298086702044,
+          "residualPoints": 0.636857996462254
+        },
+        {
+          "frame": "frame-00250.png",
+          "movieTimeSeconds": 35.39666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.22833333333333172,
+          "observedPrimaryTopPoints": 706.0,
+          "expectedPrimaryTopPoints": 705.4387825362707,
+          "residualPoints": 0.5612174637293492
+        },
+        {
+          "frame": "frame-00251.png",
+          "movieTimeSeconds": 35.415,
+          "elapsedFromFirstRenderedStageSeconds": 0.2466666666666626,
+          "observedPrimaryTopPoints": 705.3333333333334,
+          "expectedPrimaryTopPoints": 704.9077478894123,
+          "residualPoints": 0.4255854439210225
+        },
+        {
+          "frame": "frame-00252.png",
+          "movieTimeSeconds": 35.431666666666665,
+          "elapsedFromFirstRenderedStageSeconds": 0.2633333333333283,
+          "observedPrimaryTopPoints": 705.0,
+          "expectedPrimaryTopPoints": 704.5266159593608,
+          "residualPoints": 0.47338404063918915
+        },
+        {
+          "frame": "frame-00253.png",
+          "movieTimeSeconds": 35.44833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.27999999999999403,
+          "observedPrimaryTopPoints": 704.6666666666666,
+          "expectedPrimaryTopPoints": 704.2362572347089,
+          "residualPoints": 0.4304094319577416
+        },
+        {
+          "frame": "frame-00254.png",
+          "movieTimeSeconds": 35.465,
+          "elapsedFromFirstRenderedStageSeconds": 0.29666666666666686,
+          "observedPrimaryTopPoints": 704.3333333333334,
+          "expectedPrimaryTopPoints": 704.0312211842123,
+          "residualPoints": 0.3021121491210579
+        },
+        {
+          "frame": "frame-00255.png",
+          "movieTimeSeconds": 35.483333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.3149999999999977,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 704.0,
+          "residualPoints": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "name": "hide-secondary",
+      "t0MovieSeconds": 36.345,
+      "nominalDurationSeconds": 0.2,
+      "curve": [
+        0.2,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "nativeBaselinePoints": 704.0,
+      "nativeTargetPoints": 760.0,
+      "sourceInterpretation": "Guide/Primitive; native preset delta",
+      "sampleCount": 13,
+      "maximumActiveFrameIntervalSeconds": 0.021666666666668277,
+      "maximumAbsoluteResidualPoints": 1.477924085978998,
+      "rootMeanSquareResidualPoints": 0.9407742478050117,
+      "samples": [
+        {
+          "frame": "frame-00256.png",
+          "movieTimeSeconds": 36.345,
+          "elapsedFromFirstRenderedStageSeconds": 0.0,
+          "observedPrimaryTopPoints": 704.0,
+          "expectedPrimaryTopPoints": 704.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00257.png",
+          "movieTimeSeconds": 36.36666666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.021666666666668277,
+          "observedPrimaryTopPoints": 706.0,
+          "expectedPrimaryTopPoints": 706.707748505295,
+          "residualPoints": -0.7077485052949442
+        },
+        {
+          "frame": "frame-00258.png",
+          "movieTimeSeconds": 36.38333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.038333333333333997,
+          "observedPrimaryTopPoints": 709.3333333333334,
+          "expectedPrimaryTopPoints": 710.3359798573811,
+          "residualPoints": -1.002646524047691
+        },
+        {
+          "frame": "frame-00259.png",
+          "movieTimeSeconds": 36.39833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.053333333333334565,
+          "observedPrimaryTopPoints": 713.3333333333334,
+          "expectedPrimaryTopPoints": 714.0951989134218,
+          "residualPoints": -0.7618655800883971
+        },
+        {
+          "frame": "frame-00260.png",
+          "movieTimeSeconds": 36.415,
+          "elapsedFromFirstRenderedStageSeconds": 0.07000000000000028,
+          "observedPrimaryTopPoints": 718.0,
+          "expectedPrimaryTopPoints": 718.6222868934342,
+          "residualPoints": -0.6222868934341932
+        },
+        {
+          "frame": "frame-00261.png",
+          "movieTimeSeconds": 36.431666666666665,
+          "elapsedFromFirstRenderedStageSeconds": 0.086666666666666,
+          "observedPrimaryTopPoints": 722.6666666666666,
+          "expectedPrimaryTopPoints": 723.4136989517835,
+          "residualPoints": -0.7470322851169158
+        },
+        {
+          "frame": "frame-00262.png",
+          "movieTimeSeconds": 36.44833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.10333333333333172,
+          "observedPrimaryTopPoints": 727.3333333333334,
+          "expectedPrimaryTopPoints": 728.4066602024038,
+          "residualPoints": -1.0733268690704563
+        },
+        {
+          "frame": "frame-00263.png",
+          "movieTimeSeconds": 36.465,
+          "elapsedFromFirstRenderedStageSeconds": 0.12000000000000455,
+          "observedPrimaryTopPoints": 732.6666666666666,
+          "expectedPrimaryTopPoints": 733.5618547173548,
+          "residualPoints": -0.895188050688148
+        },
+        {
+          "frame": "frame-00264.png",
+          "movieTimeSeconds": 36.483333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.13833333333333542,
+          "observedPrimaryTopPoints": 738.0,
+          "expectedPrimaryTopPoints": 739.3893125553686,
+          "residualPoints": -1.3893125553686332
+        },
+        {
+          "frame": "frame-00265.png",
+          "movieTimeSeconds": 36.5,
+          "elapsedFromFirstRenderedStageSeconds": 0.15500000000000114,
+          "observedPrimaryTopPoints": 743.3333333333334,
+          "expectedPrimaryTopPoints": 744.8112574193124,
+          "residualPoints": -1.477924085978998
+        },
+        {
+          "frame": "frame-00266.png",
+          "movieTimeSeconds": 36.515,
+          "elapsedFromFirstRenderedStageSeconds": 0.1700000000000017,
+          "observedPrimaryTopPoints": 748.6666666666666,
+          "expectedPrimaryTopPoints": 749.7836438608233,
+          "residualPoints": -1.116977194156675
+        },
+        {
+          "frame": "frame-00267.png",
+          "movieTimeSeconds": 36.531666666666666,
+          "elapsedFromFirstRenderedStageSeconds": 0.18666666666666742,
+          "observedPrimaryTopPoints": 754.3333333333334,
+          "expectedPrimaryTopPoints": 755.4095794895989,
+          "residualPoints": -1.0762461562654835
+        },
+        {
+          "frame": "frame-00268.png",
+          "movieTimeSeconds": 36.55166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.20666666666667055,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 760.0,
+          "residualPoints": 0.0
+        }
+      ]
+    },
+    {
+      "stage": 10,
+      "name": "hide-primary",
+      "t0MovieSeconds": 37.47833333333333,
+      "nominalDurationSeconds": 0.2,
+      "curve": [
+        0.2,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "nativeBaselinePoints": 760.0,
+      "nativeTargetPoints": 874.0,
+      "sourceInterpretation": "Guide/Primitive; native window bound, not exported primary keyframes",
+      "sampleCount": 12,
+      "maximumActiveFrameIntervalSeconds": 0.03499999999999659,
+      "maximumAbsoluteResidualPoints": 7.228078865656698,
+      "rootMeanSquareResidualPoints": 3.351531901923242,
+      "samples": [
+        {
+          "frame": "frame-00269.png",
+          "movieTimeSeconds": 37.47833333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.0,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 760.0,
+          "residualPoints": 0.0
+        },
+        {
+          "frame": "frame-00270.png",
+          "movieTimeSeconds": 37.48166666666667,
+          "elapsedFromFirstRenderedStageSeconds": 0.003333333333337407,
+          "observedPrimaryTopPoints": 760.0,
+          "expectedPrimaryTopPoints": 760.2240462567207,
+          "residualPoints": -0.22404625672072598
+        },
+        {
+          "frame": "frame-00271.png",
+          "movieTimeSeconds": 37.5,
+          "elapsedFromFirstRenderedStageSeconds": 0.021666666666668277,
+          "observedPrimaryTopPoints": 764.0,
+          "expectedPrimaryTopPoints": 765.5122023143505,
+          "residualPoints": -1.5122023143504748
+        },
+        {
+          "frame": "frame-00272.png",
+          "movieTimeSeconds": 37.535,
+          "elapsedFromFirstRenderedStageSeconds": 0.05666666666666487,
+          "observedPrimaryTopPoints": 778.6666666666666,
+          "expectedPrimaryTopPoints": 782.3423599062206,
+          "residualPoints": -3.6756932395539934
+        },
+        {
+          "frame": "frame-00273.png",
+          "movieTimeSeconds": 37.55,
+          "elapsedFromFirstRenderedStageSeconds": 0.07166666666666544,
+          "observedPrimaryTopPoints": 788.0,
+          "expectedPrimaryTopPoints": 790.7206099926689,
+          "residualPoints": -2.7206099926688694
+        },
+        {
+          "frame": "frame-00274.png",
+          "movieTimeSeconds": 37.57,
+          "elapsedFromFirstRenderedStageSeconds": 0.09166666666666856,
+          "observedPrimaryTopPoints": 797.6666666666666,
+          "expectedPrimaryTopPoints": 802.5312558925881,
+          "residualPoints": -4.864589225921463
+        },
+        {
+          "frame": "frame-00275.png",
+          "movieTimeSeconds": 37.59,
+          "elapsedFromFirstRenderedStageSeconds": 0.11166666666667169,
+          "observedPrimaryTopPoints": 807.6666666666666,
+          "expectedPrimaryTopPoints": 814.8947455323233,
+          "residualPoints": -7.228078865656698
+        },
+        {
+          "frame": "frame-00276.png",
+          "movieTimeSeconds": 37.60333333333333,
+          "elapsedFromFirstRenderedStageSeconds": 0.125,
+          "observedPrimaryTopPoints": 818.0,
+          "expectedPrimaryTopPoints": 823.3838413612248,
+          "residualPoints": -5.383841361224768
+        },
+        {
+          "frame": "frame-00277.png",
+          "movieTimeSeconds": 37.615,
+          "elapsedFromFirstRenderedStageSeconds": 0.13666666666667027,
+          "observedPrimaryTopPoints": 828.6666666666666,
+          "expectedPrimaryTopPoints": 830.9515308835405,
+          "residualPoints": -2.2848642168738706
+        },
+        {
+          "frame": "frame-00278.png",
+          "movieTimeSeconds": 37.63,
+          "elapsedFromFirstRenderedStageSeconds": 0.15166666666667084,
+          "observedPrimaryTopPoints": 840.0,
+          "expectedPrimaryTopPoints": 840.8544998436444,
+          "residualPoints": -0.854499843644362
+        },
+        {
+          "frame": "frame-00279.png",
+          "movieTimeSeconds": 37.645,
+          "elapsedFromFirstRenderedStageSeconds": 0.1666666666666714,
+          "observedPrimaryTopPoints": 851.0,
+          "expectedPrimaryTopPoints": 850.9379817870583,
+          "residualPoints": 0.062018212941666206
+        },
+        {
+          "frame": "frame-00280.png",
+          "movieTimeSeconds": 37.663333333333334,
+          "elapsedFromFirstRenderedStageSeconds": 0.18500000000000227,
+          "observedPrimaryTopPoints": 862.6666666666666,
+          "expectedPrimaryTopPoints": 863.499781321505,
+          "residualPoints": -0.8331146548383686
+        }
+      ]
+    }
+  ],
+  "noInitialJumpComparison": [
+    {
+      "stage": 4,
+      "name": "different-shape-compact",
+      "oldFirstFramePrimaryTopPoints": [
+        786.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        760.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00134.png"
+        },
+        {
+          "elapsedSeconds": 0.019999999999999574,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                767.0,
+                385.6666666666667,
+                823.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                149.33333333333334,
+                863.3333333333334,
+                253.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "frame": "frame-00135.png"
+        },
+        {
+          "elapsedSeconds": 0.054999999999999716,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                788.6666666666666,
+                385.6666666666667,
+                871.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00136.png"
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "name": "different-shape-large",
+      "oldFirstFramePrimaryTopPoints": [
+        760.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        786.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "frame": "frame-00165.png"
+        },
+        {
+          "elapsedSeconds": 0.021666666666664725,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                785.6666666666666,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.666666666666668,
+                860.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00166.png"
+        },
+        {
+          "elapsedSeconds": 0.054999999999999716,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                791.0,
+                253.66666666666666,
+                821.0
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                832.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00167.png"
+        }
+      ]
+    },
+    {
+      "stage": 6,
+      "name": "show-secondary",
+      "oldFirstFramePrimaryTopPoints": [
+        704.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        760.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00195.png"
+        },
+        {
+          "elapsedSeconds": 0.025000000000005684,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                753.3333333333334,
+                385.6666666666667,
+                809.0
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00196.png"
+        },
+        {
+          "elapsedSeconds": 0.05500000000000682,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                739.3333333333334,
+                385.6666666666667,
+                795.0
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00197.png"
+        }
+      ]
+    },
+    {
+      "stage": 7,
+      "name": "secondary-to-legal",
+      "oldFirstFramePrimaryTopPoints": [
+        720.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        704.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00225.png"
+        },
+        {
+          "elapsedSeconds": 0.03166666666666629,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.6666666666666,
+                385.6666666666667,
+                760.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00226.png"
+        },
+        {
+          "elapsedSeconds": 0.06333333333333258,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                708.6666666666666,
+                385.6666666666667,
+                764.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00227.png"
+        }
+      ]
+    },
+    {
+      "stage": 8,
+      "name": "legal-to-secondary",
+      "oldFirstFramePrimaryTopPoints": [
+        704.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        720.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00237.png"
+        },
+        {
+          "elapsedSeconds": 0.02999999999999403,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00238.png"
+        },
+        {
+          "elapsedSeconds": 0.046666666666666856,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                718.6666666666666,
+                385.6666666666667,
+                774.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00239.png"
+        }
+      ]
+    },
+    {
+      "stage": 9,
+      "name": "hide-secondary",
+      "oldFirstFramePrimaryTopPoints": [
+        760.0
+      ],
+      "currentFirstFramePrimaryTopPoints": [
+        704.0
+      ],
+      "currentFirstThreeFrames": [
+        {
+          "elapsedSeconds": 0.0,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00256.png"
+        },
+        {
+          "elapsedSeconds": 0.021666666666668277,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                706.0,
+                385.6666666666667,
+                761.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00257.png"
+        },
+        {
+          "elapsedSeconds": 0.038333333333333997,
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                709.3333333333334,
+                385.6666666666667,
+                765.0
+              ],
+              "wide": true
+            }
+          ],
+          "frame": "frame-00258.png"
+        }
+      ]
+    }
+  ],
+  "differentShapeOutgoingGhosts": [
+    {
+      "stage": 4,
+      "outgoingWide": true,
+      "initialHeightLastOutgoingAfter550ms": {
+        "elapsedSeconds": 0.5966666666666711,
+        "frame": "frame-00180.png"
+      },
+      "stableLastVisibleOutgoing": {
+        "elapsedSeconds": 0.15333333333333243,
+        "frame": "frame-00142.png"
+      },
+      "stableFirstFollowingNoOutgoing": {
+        "elapsedSeconds": 0.17166666666666686,
+        "frame": "frame-00143.png"
+      },
+      "freshSamplesAfter550ms": [
+        {
+          "elapsedSeconds": 0.634999999999998,
+          "frame": "frame-00164.png",
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage": 5,
+      "outgoingWide": false,
+      "initialHeightLastOutgoingAfter550ms": {
+        "elapsedSeconds": 0.7466666666666626,
+        "frame": "frame-00247.png"
+      },
+      "stableLastVisibleOutgoing": {
+        "elapsedSeconds": 0.206666666666667,
+        "frame": "frame-00176.png"
+      },
+      "stableFirstFollowingNoOutgoing": {
+        "elapsedSeconds": 0.22166666666666757,
+        "frame": "frame-00177.png"
+      },
+      "freshSamplesAfter550ms": [],
+      "heldFrameAfter550ms": {
+        "frame": "frame-00194.png",
+        "frameElapsedSeconds": 0.5266666666666637,
+        "nextMovieFrame": "frame-00195.png",
+        "heldUntilElapsedSeconds": 1.1683333333333294,
+        "freshFrameAt550ms": false,
+        "limitation": "No new stage5 frame at/after550ms; recorded final frame is held until stage6. This does not add an independently sampled550ms observation."
+      }
+    }
+  ],
+  "maximumActiveFrameIntervalSeconds": 0.036666666666668846,
+  "limitations": [
+    "First recorded stage is not exact animation start; active frame intervals reach36.6667ms, swap31.6667/30ms.",
+    "No opacity-curve acceptance from color thresholds.",
+    "Overlapping yellow buttons can merge into one component; different-shape trajectories are not fully accepted.",
+    "Source JSON root motion is usable for direction/delta; exported system-bottom-bar local motion is not primary motion.",
+    "Only a Day capture; previous Day/Night preview checks do not replace missing Night Figma references.",
+    "Other source flow graphs, rapid interruption, arbitrary/custom slot replacement and additional state/width combinations remain unresolved.",
+    "Native/package tests are outside this independent recording audit and must be recorded separately."
+  ]
+}

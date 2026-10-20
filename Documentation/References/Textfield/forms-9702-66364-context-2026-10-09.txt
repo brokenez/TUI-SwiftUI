@@ -1,0 +1,14 @@
+<frame id="9702:66364" name="Отступы внутри формы" x="1690.9375" y="131" width="1190" height="3953">
+  <instance id="9702:66365" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="9702:66366" name="Note" x="128" y="216" width="934" height="140" />
+  <instance id="9702:66367" name="H2 + P" x="128" y="356" width="934" height="144" />
+  <instance id="9723:66061" name="Image 1x1" x="128" y="500" width="934" height="948" />
+  <instance id="9702:66369" name="H2 + P" x="128" y="1448" width="934" height="168" />
+  <instance id="9723:66749" name="Image 1x1" x="128" y="1616" width="934" height="948" />
+  <instance id="9702:66371" name="H2 + P" x="128" y="2564" width="934" height="88" />
+  <instance id="9707:118368" name="List Bulleted" x="128" y="2652" width="934" height="201" />
+  <instance id="9707:118457" name="Spacing" x="128" y="2853" width="934" height="24" />
+  <instance id="9702:66372" name="Image 1x1" x="128" y="2877" width="934" height="948" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

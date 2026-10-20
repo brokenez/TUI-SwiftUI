@@ -1,0 +1,511 @@
+import { imgTuiIcFixedColorCheckCirclePositive, imgCont, imgTooltipIcon, imgNotch, imgUnion, imgUnion1, img941, imgCard, imgUnion2, imgUnion3, img942, imgStart, img0 } from "./svg-xyzc5";
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="4310:5875" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+type SystemBottomBarProps = {
+  className?: string;
+  appearance?: "Dark Bg" | "Opposite";
+  keyboard?: boolean;
+  system?: "Android" | "iOS";
+  type?: "Dragger" | "Buttons";
+};
+
+function SystemBottomBar({ className, appearance = "Dark Bg", keyboard = false, system = "Android", type = "Buttons" }: SystemBottomBarProps) {
+  const isDraggerAndOppositeAndIOsAndFalse = type === "Dragger" && appearance === "Opposite" && system === "iOS" && !keyboard;
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative ${isDraggerAndOppositeAndIOsAndFalse ? "w-[375px]" : String.raw`bg-[var(--background\/base,white)]`}`} id={isDraggerAndOppositeAndIOsAndFalse ? "node-4310_21788" : "node-4310_21762"}>
+      <div className={`relative shrink-0 ${isDraggerAndOppositeAndIOsAndFalse ? "h-[34px] w-full" : "h-[42px] w-[360px]"}`} id={isDraggerAndOppositeAndIOsAndFalse ? "node-4310_21927" : "node-4310_21792"} data-name="cont">
+        {type === "Buttons" && appearance === "Dark Bg" && system === "Android" && !keyboard && <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCont} />}
+        {isDraggerAndOppositeAndIOsAndFalse && <div className="-translate-x-1/2 absolute bg-[var(--background\/accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="4310:21928" data-name="bar" />}
+      </div>
+    </div>
+  );
+}
+type TuiButtonTooltipProps = {
+  className?: string;
+  icon?: "hint";
+  isPressed?: boolean;
+  isSelected?: boolean;
+  system?: "ios";
+};
+
+function TuiButtonTooltip({ className, icon = "hint", isPressed = false, isSelected = false, system = "ios" }: TuiButtonTooltipProps) {
+  return (
+    <div className={className || "content-stretch flex items-center justify-center relative"} data-node-id="4310:13231">
+      <div className="bg-[var(--background\/neutral-1,rgba(0,16,36,0.03))] relative rounded-[100px] shrink-0 size-[22px]" data-node-id="4310:13247" data-name="Container">
+        <div className="absolute inset-[22.73%]" data-node-id="4310:13248" data-name="TooltipIcon">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTooltipIcon} />
+        </div>
+      </div>
+    </div>
+  );
+}
+type SystemStatusBarProps = {
+  className?: string;
+  appearance?: "Light Bg" | "Modal Stack";
+  showNotch?: boolean;
+  system?: "iOS (iPhone X)";
+};
+
+function SystemStatusBar({ className, appearance = "Light Bg", showNotch = false, system = "iOS (iPhone X)" }: SystemStatusBarProps) {
+  const isModalStackAndIOsIPhoneX = appearance === "Modal Stack" && system === "iOS (iPhone X)";
+  return (
+    <div className={className || `relative w-[375px] ${isModalStackAndIOsIPhoneX ? "h-[60px]" : "content-stretch flex flex-col items-start overflow-clip"}`} id={isModalStackAndIOsIPhoneX ? "node-4348_4388" : "node-4348_4303"}>
+      {appearance === "Light Bg" && system === "iOS (iPhone X)" && (
+        <div className="h-[44px] relative shrink-0 w-full" data-node-id="4348:4304" data-name="Container">
+          {showNotch && (
+            <div className="-translate-x-1/2 absolute h-[30px] left-1/2 top-0 w-[221px]" data-node-id="4348:4305" data-name="Notch">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNotch} />
+            </div>
+          )}
+          <div className="-translate-y-1/2 absolute h-[12px] right-[14px] top-[calc(50%+1px)] w-[25px]" data-node-id="4348:4306" data-name="Union">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+          </div>
+          <div className="-translate-y-1/2 absolute h-[10px] right-[18px] top-[calc(50%+1px)] w-[63px]" data-node-id="4348:4307" data-name="Union">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+          </div>
+          <div className="-translate-y-1/2 absolute h-[11.089px] left-[34px] top-[calc(50%+0.54px)] w-[28.426px]" data-node-id="4348:4308" data-name="9:41">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={img941} />
+          </div>
+        </div>
+      )}
+      {isModalStackAndIOsIPhoneX && (
+        <>
+          <div className="absolute h-[24px] left-0 right-0 top-[44px]" data-node-id="4348:4389" data-name="Modal Stack">
+            <div className="absolute bg-black content-stretch flex flex-col h-[10px] items-start left-0 overflow-clip px-[16px] right-0 top-0" data-node-id="4348:4390" data-name="Card">
+              <div className="bg-[var(--background\/elevation-1,white)] h-[10px] opacity-80 relative rounded-tl-[10px] rounded-tr-[10px] shrink-0 w-full" data-node-id="4348:4391" data-name="Content" />
+            </div>
+            <div className="absolute h-[14px] left-0 right-0 top-[10px]" data-node-id="4348:4392" data-name="Card">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCard} />
+            </div>
+          </div>
+          <div className="absolute bg-black h-[44px] left-0 right-0 top-0" data-node-id="4348:4395" data-name="Master">
+            <div className="-translate-y-1/2 absolute h-[12px] right-[14px] top-[calc(50%+1px)] w-[25px]" data-node-id="4348:4397" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion2} />
+            </div>
+            <div className="-translate-y-1/2 absolute h-[10px] right-[18px] top-[calc(50%+1px)] w-[63px]" data-node-id="4348:4398" data-name="Union">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion3} />
+            </div>
+            <div className="-translate-y-1/2 absolute h-[11.089px] left-[34px] top-[calc(50%+0.54px)] w-[28.426px]" data-node-id="4348:4399" data-name="9:41">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img942} />
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+export default function Rules2X() {
+  return (
+    <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="4351:40832" data-name="Rules 2x1">
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40832;9462:7294" data-name="Rules 1">
+        <div className="content-stretch flex flex-col gap-[890px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I4351:40832;9469:7138" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40832;9469:7138;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40832;9469:7138;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I4351:40832;9469:7138;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I4351:40832;9469:7138;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I4351:40832;9469:7138;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img0} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I4351:40832;9469:7138;8349:7026">
+            ...
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I4351:40832;9462:7295" data-name="Status">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I4351:40832;9462:7295;9460:7251">
+            Кнопка видна всегда, подложка есть
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I4351:40832;9462:7301" data-name="Rules 2">
+        <div className="content-stretch flex flex-col gap-[890px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I4351:40832;9469:7179" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40832;9469:7179;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4351:40832;9469:7179;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I4351:40832;9469:7179;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I4351:40832;9469:7179;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I4351:40832;9469:7179;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={img0} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I4351:40832;9469:7179;8349:7026">
+            ...
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I4351:40832;9462:7305" data-name="Status">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I4351:40832;9462:7305;9460:7251">
+            Кнопка появилась при скролле, подложки нет
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Background/elevation-1: #FFFFFF, iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 600, lineHeight: 100, letterSpacing: 0.36000001430511475), Gradient/Text/Primary Fade: , iOS/Heading S: Font(family: "SF Pro Text", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Text/action: #428BF9, Лого партнеров/Старбакс: , Day/Component/badge-notification: #F52222, Лого партнеров/Dodo: , Лого партнеров/goods: , iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Text/primary-on-dark: #FFFFFF, Лого партнеров/Пятерочка: .
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## template-navigation-bar
+**Node ID:** 4348:6028
+
+🎈Облегченный компонент
+
+  
+
+  
+
+Дизайн-шаблон верхней части экрана со статусбаром и навбаром/аппбаром.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547)
+
+## system-status-bar
+**Node ID:** 4348:4302
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-app-bar
+**Node ID:** 4348:3175
+
+Навигационный блок для верхней части экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-appbar-specs](https://go.tcsbank.ru/tui-appbar-specs)
+
+## tui-header [large]
+**Node ID:** 4348:5795
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-cell [checkbox]
+**Node ID:** 4348:6982
+
+Ячейка с чекбоксом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 4310:13774
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / shopping-bag
+**Node ID:** 4348:6929
+
+retail, shopping, store bag
+
+## tui-button tooltip
+**Node ID:** 4310:13230
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-tooltip](https://go.tcsbank.ru/tui-button-tooltip)
+
+## tui-ic-small / question
+**Node ID:** 2232:10656
+
+16px
+
+## system=iOS, state=normal
+**Node ID:** 4348:6963
+
+⚪ Not In TUI (Native)
+
+## system-checkbox
+**Node ID:** 4348:6950
+
+Стилизованный системный чекбокс
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-checkbox](https://go.tcsbank.ru/tui-checkbox)
+
+## tui-ic-medium / pill
+**Node ID:** 4348:8096
+
+medication, pharmaceutical, medicine, capsule
+
+## tui-badged-content
+**Node ID:** 4310:13725
+
+Обертка с бейджами, которую можно применить к любому компоненту, где требуется бейдж
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badged-content-specs](https://go.tcsbank.ru/tui-badged-content-specs)
+
+## tui-badge [subsctiption]
+**Node ID:** 4348:7283
+
+Презеты бейджей с иконками подписок
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-subscription](https://go.tcsbank.ru/tui-badge-subscription)
+
+## tui-logo / subscription-dot-pro
+**Node ID:** 4310:17799
+
+Компактная версия лого Pro.
+
+  
+
+Черный цвет отличается от других подписок: у Pro #000, у остальных — #333.
+
+  
+
+В бейджах черный круг должен занимать 54% от фона
+
+## tui-ic-medium / animals
+**Node ID:** 4348:8102
+
+wildlife, fauna, animal kingdom
+
+## tui-ic-medium / roller
+**Node ID:** 4348:8105
+
+paint, tool, decoration, renovation
+
+## tui-ic-medium / t-shirt
+**Node ID:** 4348:8118
+
+clothing, apparel, fashion, wardrobe
+
+## tui-ic-medium / taxi
+**Node ID:** 4348:8123
+
+cab, transportation, car service, ride
+
+## tui-header [card]
+**Node ID:** 4348:20168
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button [link]
+**Node ID:** 4310:16392
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-link](https://go.tcsbank.ru/tui-button-link)
+
+## tui-ic-medium / basket
+**Node ID:** 4348:9992
+
+shopping-basket, grocery-basket, market-basket
+
+## tui-ic-medium / gas-station
+**Node ID:** 4348:9981
+
+fuel-station, petrol-station, gas-pump
+
+## tui-floating-container
+**Node ID:** 4310:21932
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## tui-button
+**Node ID:** 4310:14986
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS, Keyboard=off
+**Node ID:** 4310:21788
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 4310:21761
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 4310:5875
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## template-navigation-bar
+**Node ID:** 7524:23902
+
+Дизайн-шаблон верхней части экрана со статусбаром и навбаром/аппбаром.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547)
+
+## system-status-bar
+**Node ID:** 7524:20861
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## progress
+**Node ID:** 7524:20270
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-card-large
+**Node ID:** 7524:19201
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 7524:17012
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## Placeholder
+**Node ID:** 7524:16472
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## system=ios, size=medium, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6224
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 7524:6043
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-ic-medium / arrows-left-right
+**Node ID:** 7524:944
+
+left and right arrows, horizontal arrows, bidirectional arrows, double arrows, arrows pointing left and right
+
+## tui-row [card-medium]
+**Node ID:** 7524:18824
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-row-specs](https://go.tcsbank.ru/tui-row-specs)
+
+## tui-card-medium 
+**Node ID:** 7524:18645
+
+Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-medium-specs](https://go.tcsbank.ru/tui-card-medium-specs)
+
+## tui-avatar-stack
+**Node ID:** 7524:15233
+
+Стопка аватаров для использования в карточках или отдельно. Чтобы убрать лишние аватары, просто удалите их
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-stack-specs](https://go.tcsbank.ru/tui-avatar-stack-specs)
+
+## tui-avatar
+**Node ID:** 7524:14026
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## Mask
+**Node ID:** 7524:15196
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-header [card-medium]
+**Node ID:** 7524:17782
+
+⚪ Not In TUI
+
+## tui-ic-medium / camera-video
+**Node ID:** 7524:137
+
+multimedia, film, movie, clip
+
+## tui-ic-medium / music
+**Node ID:** 7524:939
+
+audio, sound, melody, tune
+
+## tui-ic-medium / fork-knife
+**Node ID:** 7524:142
+
+cutlery, utensils, dining, silverware
+
+## tui-ic-medium / star
+**Node ID:** 3263:2750
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-floating-container
+**Node ID:** 7524:16482
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6044
+
+Ex. primary-tinkoff
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 7524:16324
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 7524:16295
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40832/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

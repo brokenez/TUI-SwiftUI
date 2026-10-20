@@ -1,0 +1,28 @@
+test_known_cross_file_keys_resolve_to_verified_mobile_variants (test_component_keys.ComponentKeyResolutionTests) ... ok
+test_malformed_key_is_rejected (test_component_keys.ComponentKeyResolutionTests) ... ok
+test_source_binding_exception_is_exposed_for_the_affected_header_variant (test_component_keys.ComponentKeyResolutionTests) ... ok
+test_unaffected_header_variant_does_not_inherit_the_binding_exception (test_component_keys.ComponentKeyResolutionTests) ... ok
+test_unknown_key_is_reported_instead_of_name_based_guess (test_component_keys.ComponentKeyResolutionTests) ... ok
+test_custom_tui_sets_keep_their_implementation_scope (test_component_scope.ComponentScopeResolutionTests) ... ok
+test_excluded_system_set_and_variant_recommend_native_api (test_component_scope.ComponentScopeResolutionTests) ... ok
+test_all_verified_inputs_produce_complete (test_coverage_model.CoverageGateTests) ... ok
+test_changed_evidence_is_rejected (test_coverage_model.CoverageGateTests) ... ok
+test_changed_exclusion_decision_is_rejected (test_coverage_model.CoverageGateTests) ... ok
+test_changed_source_invalidates_approval (test_coverage_model.CoverageGateTests) ... ok
+test_evidence_cannot_escape_the_project (test_coverage_model.CoverageGateTests) ... ok
+test_excluded_set_cannot_become_complete_even_with_passed_checks (test_coverage_model.CoverageGateTests) ... ok
+test_exclusion_without_decision_evidence_is_rejected (test_coverage_model.CoverageGateTests) ... ok
+test_legacy_complete_alone_cannot_grant_readiness (test_coverage_model.CoverageGateTests) ... ok
+test_missing_input_snapshot_prevents_complete (test_coverage_model.CoverageGateTests) ... ok
+test_missing_variant_mapping_is_rejected (test_coverage_model.CoverageGateTests) ... ok
+test_missing_visual_variant_is_rejected (test_coverage_model.CoverageGateTests) ... ok
+test_open_issue_prevents_complete (test_coverage_model.CoverageGateTests) ... ok
+test_required_check_cannot_be_waived (test_coverage_model.CoverageGateTests) ... ok
+test_scope_keeps_history_without_claiming_ios18_execution (test_coverage_model.CoverageGateTests) ... ok
+test_text_notes_cannot_replace_runtime_images (test_coverage_model.CoverageGateTests) ... ok
+test_waiver_needs_evidence_and_rationale (test_coverage_model.CoverageGateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 16.251s
+
+OK

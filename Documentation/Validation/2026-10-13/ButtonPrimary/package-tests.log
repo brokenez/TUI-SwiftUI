@@ -1,0 +1,83 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -workspace PackageTests.xcworkspace -scheme TUIDesignSystemTests -destination "platform=iOS Simulator,id=6D3F35A1-AC30-4F0E-BDD6-0F912B714E59" -derivedDataPath /private/tmp/tui-foundations-audit-derived "-only-testing:TUIDesignSystemTests/ButtonCustomizationTests/testEveryNonGlassVariantProducesNativeRenderAtSourceFrameSize" -resultBundlePath /private/tmp/tui-button-primary-source-pairs-20261013.xcresult
+
+2026-10-13 18:27:49.044 xcodebuild[29922:10134475] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-13 18:27:49.147 xcodebuild[29922:10134475] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+Resolve Package Graph
+
+
+Resolved source packages:
+  TUIDesignSystem: /Users/v.shtukert/Documents/TUI-Design-System
+
+Writing result bundle at path:
+	/private/tmp/tui-button-primary-source-pairs-20261013.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'TUIDesignSystemTests' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk /tmp/tui-foundations-audit-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -o /tmp/tui-foundations-audit-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+
+CpResource /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/component-coverage.json /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Resources/Metadata/component-coverage.json (in target 'TUIDesignSystem_TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Resources/Metadata/component-coverage.json /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle
+
+CodeSign /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle (in target 'TUIDesignSystem_TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle
+/tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle: replacing existing signature
+
+Copy /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemTests.xctest/TUIDesignSystem_TUIDesignSystem.bundle /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle (in target 'TUIDesignSystemTests' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemTests.xctest
+
+ProcessInfoPlistFile /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemTests.xctest/Info.plist /tmp/tui-foundations-audit-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystemTests.build/empty-TUIDesignSystemTests.plist (in target 'TUIDesignSystemTests' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-foundations-audit-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystemTests.build/empty-TUIDesignSystemTests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -scanforprivacyfile /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemTests.xctest/TUIDesignSystem_TUIDesignSystem.bundle -o /tmp/tui-foundations-audit-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemTests.xctest/Info.plist
+
+Test Suite 'Selected tests' started at 2026-10-13 18:27:55.249.
+Test Suite 'TUIDesignSystemTests.xctest' started at 2026-10-13 18:27:55.252.
+Test Suite 'ButtonCustomizationTests' started at 2026-10-13 18:27:55.252.
+Test Case '-[TUIDesignSystemTests.ButtonCustomizationTests testEveryNonGlassVariantProducesNativeRenderAtSourceFrameSize]' started.
+IOSurfaceClientSetSurfaceNotify failed e00002c7
+Test Case '-[TUIDesignSystemTests.ButtonCustomizationTests testEveryNonGlassVariantProducesNativeRenderAtSourceFrameSize]' passed (2.490 seconds).
+Test Suite 'ButtonCustomizationTests' passed at 2026-10-13 18:27:57.743.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.490 (2.491) seconds
+Test Suite 'TUIDesignSystemTests.xctest' passed at 2026-10-13 18:27:57.743.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.490 (2.492) seconds
+Test Suite 'Selected tests' passed at 2026-10-13 18:27:57.744.
+	 Executed 1 test, with 0 failures (0 unexpected) in 2.490 (2.495) seconds
+2026-10-13 18:27:58.579 xcodebuild[29922:10134475] [MT] IDETestOperationsObserverDebug: 6.552 elapsed -- Testing started completed.
+2026-10-13 18:27:58.579 xcodebuild[29922:10134475] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-13 18:27:58.579 xcodebuild[29922:10134475] [MT] IDETestOperationsObserverDebug: 6.552 sec, +6.552 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/tui-button-primary-source-pairs-20261013.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started

@@ -1,0 +1,112 @@
+<canvas id="26:71496" name="📖 Правила" x="0" y="0" width="0" height="0">
+  <section id="65:9107" name="Desktop" x="-3053" y="-1505" width="4434" height="5052">
+    <frame id="31:74445" name="Обычная кнопка" x="95" y="100" width="1190" height="4951.771484375">
+      <frame id="31:75072" name="Frame 12343686" x="128" y="128" width="934" height="4695.771484375">
+        <instance id="110:169759" name="H1 + P" x="0" y="0" width="934" height="88" />
+        <instance id="31:75088" name="H2 + P" x="0" y="88" width="934" height="192" />
+        <instance id="31:75089" name="Paragraph" x="0" y="280" width="934" height="40" />
+        <instance id="31:75090" name="Rules 1x1" x="0" y="320" width="934" height="392" />
+        <instance id="31:75091" name="Rules 1x1" x="0" y="712" width="934" height="392" />
+        <instance id="31:75092" name="Rules 1x1" x="0" y="1104" width="934" height="392" />
+        <instance id="31:75093" name="Rules 1x1" x="0" y="1496" width="934" height="392" />
+        <instance id="31:75094" name="Rules 1x1" x="0" y="1888" width="934" height="392" />
+        <instance id="330:47080" name="H2 + P" x="0" y="2280" width="934" height="88" />
+        <instance id="330:47121" name="List Bulleted" x="0" y="2368" width="934" height="101" />
+        <instance id="31:75097" name="H2 + P" x="0" y="2469" width="934" height="144" />
+        <instance id="110:170431" name="1 - Ограничение доступа" x="0" y="2613" width="934" height="562.771484375" />
+        <instance id="31:75099" name="Status" x="0" y="3175.771484375" width="110" height="44" />
+        <instance id="31:75102" name="Spacing" x="0" y="3219.771484375" width="650" height="132" />
+        <instance id="110:170526" name="H2 + P" x="0" y="3351.771484375" width="934" height="144" />
+        <instance id="31:75103" name="Paragraph" x="0" y="3495.771484375" width="934" height="64" />
+        <instance id="31:75104" name="Image 1x1" x="0" y="3559.771484375" width="934" height="352" />
+        <instance id="31:75105" name="Rules 1x1" x="0" y="3911.771484375" width="934" height="392" />
+        <instance id="31:75106" name="Rules 1x1" x="0" y="4303.771484375" width="934" height="392" />
+      </frame>
+    </frame>
+    <frame id="116:173078" name="Кнопка-иконка" x="1617" y="100" width="1190" height="2580">
+      <instance id="31:75109" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="31:75110" name="Note" x="128" y="216" width="934" height="188" />
+      <instance id="31:75111" name="H2 + P" x="128" y="404" width="934" height="192" />
+      <instance id="31:75112" name="Rules 3x1" x="128" y="596" width="934" height="392" />
+      <instance id="31:75115" name="H2 + P" x="128" y="988" width="934" height="144" />
+      <instance id="31:75119" name="Image 2x1" x="128" y="1132" width="934" height="352" />
+      <instance id="31:75118" name="H2 + P" x="128" y="1484" width="934" height="144" />
+      <instance id="31:75120" name="Rules 2x1" x="128" y="1628" width="934" height="392" />
+      <instance id="31:75121" name="Paragraph" x="128" y="2020" width="934" height="40" />
+      <instance id="31:75122" name="Rules 2x1" x="128" y="2060" width="934" height="392" />
+    </frame>
+  </section>
+  <frame id="330:21720" name="Общее для всех кнопок" x="-2924" y="-4908" width="1190" height="2829">
+    <instance id="330:21721" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="330:22053" name="H2 + P" x="128" y="216" width="934" height="168" />
+    <instance id="330:22054" name="Image 1x1" x="128" y="384" width="934" height="352" />
+    <instance id="330:22079" name="H2 + P" x="128" y="736" width="934" height="192" />
+    <instance id="330:22083" name="H2 + P" x="128" y="928" width="934" height="144" />
+    <instance id="330:22087" name="Rules 2x1" x="128" y="1072" width="934" height="392" />
+    <instance id="330:22186" name="H2 + P" x="128" y="1464" width="934" height="144" />
+    <instance id="330:22191" name="List Bulleted" x="128" y="1608" width="934" height="121" />
+    <instance id="1818:21212" name="Rules 2x1" x="128" y="1729" width="934" height="972" />
+  </frame>
+  <section id="65:10945" name="Mobile" x="-3053" y="4284" width="4570" height="3181">
+    <frame id="26:72691" name="Size" x="100" y="100" width="1190" height="2993">
+      <instance id="110:169857" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="26:72692" name="Note" x="128" y="216" width="934" height="105" />
+      <instance id="26:72693" name="H2 + P" x="128" y="321" width="934" height="88" />
+      <instance id="125:282660" name="H3 + P" x="128" y="409" width="934" height="104" />
+      <frame id="9975:2985" name="rules-2x1" x="128" y="513" width="934" height="392">
+        <frame id="9975:2986" name="rules-1" x="0" y="0" width="451" height="360">
+          <frame id="9975:3650" name="img-placeholder" x="0" y="0" width="451" height="320">
+            <instance id="9975:3653" name="Instance Container" x="38.5" y="-532" width="375" height="812" />
+            <frame id="9975:3840" name="Fade" x="451" y="64.0000228881836" width="451.0000055950577" height="64.00003942767216">
+              <rounded-rectangle id="9975:3841" name="Mask" x="0" y="0" width="451.0000055950577" height="64.00003942767216" />
+              <rounded-rectangle id="9975:3842" name="Color" x="0" y="0" width="451.0000055950577" height="64.00003942767216" />
+            </frame>
+          </frame>
+          <instance id="9975:2988" name="status" x="0" y="336" width="110" height="24" />
+        </frame>
+        <frame id="9975:2989" name="rules-2" x="483" y="0" width="451" height="360">
+          <frame id="9975:3417" name="img-placeholder" x="0" y="0" width="451" height="320">
+            <instance id="9975:3420" name="Instance Container" x="38.5" y="-532" width="375" height="812" />
+            <frame id="9975:3843" name="Fade" x="451" y="64" width="451.0000055950577" height="64.00003942767216">
+              <rounded-rectangle id="9975:3844" name="Mask" x="0" y="0" width="451.0000055950577" height="64.00003942767216" />
+              <rounded-rectangle id="9975:3845" name="Color" x="0" y="0" width="451.0000055950577" height="64.00003942767216" />
+            </frame>
+          </frame>
+          <instance id="9975:2991" name="status" x="0" y="336" width="301" height="24" />
+        </frame>
+      </frame>
+      <instance id="125:282666" name="H3 + P" x="128" y="905" width="934" height="128" />
+      <instance id="9975:3846" name="Image 1x1" x="128" y="1033" width="934" height="352" />
+      <instance id="125:282682" name="H3 + P" x="128" y="1385" width="934" height="104" />
+      <instance id="10049:2979" name="Image 1x1" x="128" y="1489" width="934" height="352" />
+      <instance id="26:72717" name="H2 + P" x="128" y="1841" width="934" height="88" />
+      <instance id="26:72718" name="H3 + P" x="128" y="1929" width="934" height="104" />
+      <instance id="26:72719" name="Image 1x1" x="128" y="2033" width="934" height="352" />
+      <instance id="26:72722" name="H3 + P" x="128" y="2385" width="934" height="128" />
+      <instance id="26:72723" name="Image 1x1" x="128" y="2513" width="934" height="352" />
+    </frame>
+    <frame id="47:25428" name="Button Link" x="1690" y="100" width="1190" height="1399">
+      <instance id="110:169859" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="116:173207" name="Paragraph" x="128" y="216" width="934" height="40" />
+      <frame id="47:25430" name="image" x="128" y="256" width="934" height="1015">
+        <frame id="47:25431" name="img-placeholder" x="0" y="0" width="934" height="967">
+          <instance id="47:25432" name="Instance Container" x="279.5" y="77.5" width="375" height="812" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="47:57357" name="Button Link" x="3280" y="100" width="1190" height="1063">
+      <instance id="110:169861" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="116:173199" name="H3 + P" x="128" y="216" width="934" height="128" />
+      <frame id="116:218845" name="image" x="128" y="344" width="934" height="591">
+        <frame id="116:218846" name="img-placeholder" x="0" y="0" width="934" height="591">
+          <frame id="122:282388" name="tui-card-large" x="279.5" y="89.5" width="375" height="412">
+            <instance id="122:282389" name="[deprecated] tui-card-large" x="0" y="0" width="375" height="212" />
+            <instance id="122:282390" name="tui-card-large" x="0" y="252" width="375" height="160" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+  <instance id="110:169713" name="page-title" x="-2924" y="-5757" width="2448" height="488" />
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

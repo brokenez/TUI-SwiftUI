@@ -1,0 +1,83 @@
+<canvas id="0:1" name="🧾 Дизайн" x="0" y="0" width="0" height="0">
+  <frame id="1:8621" name="Построение" x="-2658" y="-2388" width="1190" height="2632">
+    <instance id="3:295" name="H1 + P" x="128" y="128" width="934" height="156" />
+    <instance id="4072:953" name="Note" x="128" y="284" width="934" height="140" />
+    <instance id="3:299" name="H2 + P" x="128" y="424" width="934" height="88" />
+    <instance id="3:337" name="List Bulleted" x="128" y="512" width="934" height="181" />
+    <frame id="3:305" name="card-1x1" x="128" y="693" width="934" height="493">
+      <frame id="3:306" name="Container" x="0" y="0" width="934" height="461">
+        <instance id="3:307" name="Card Header" x="0" y="0" width="934" height="32" />
+        <frame id="3:308" name="card-content" x="0" y="32" width="934" height="397">
+          <frame id="3:309" name="image" x="32" y="0" width="870" height="357">
+            <instance id="3:2056" name="tui-cell [operation]" x="262" y="45" width="346" height="108" />
+            <vector id="3:5818" name="Vector 34" x="439.25" y="178" width="0.000005081448762211949" height="31.750000000000227" />
+            <frame id="1943:338" name="Group 21" x="268" y="235" width="346" height="108">
+              <instance id="1943:339" name="tui-cell [operation]" x="268" y="235" width="346" height="108" />
+              <frame id="1943:340" name="Frame" x="340" y="255" width="103" height="20" />
+              <frame id="1943:363" name="Frame" x="529" y="255" width="69" height="20" />
+              <frame id="1943:378" name="Frame" x="340" y="279" width="82" height="16" />
+              <frame id="1943:401" name="Frame" x="516" y="279" width="82" height="16" />
+              <frame id="1943:424" name="Frame" x="340" y="303" width="98" height="20.000999450683594" />
+            </frame>
+          </frame>
+        </frame>
+        <instance id="3:323" name="Card Footer" x="0" y="429" width="934" height="32" />
+      </frame>
+    </frame>
+    <instance id="3:412" name="H2 + P" x="128" y="1186" width="934" height="88" />
+    <instance id="3:425" name="List Bulleted" x="128" y="1274" width="934" height="153" />
+    <frame id="3:5819" name="card-1x1" x="128" y="1427" width="934" height="386">
+      <frame id="3:5820" name="Container" x="0" y="0" width="934" height="354">
+        <instance id="3:5821" name="Card Header" x="0" y="0" width="934" height="32" />
+        <frame id="3:5822" name="card-content" x="0" y="32" width="934" height="290">
+          <frame id="3:5823" name="image" x="32" y="0" width="870" height="357">
+            <text id="3:5867" name="CellTitle" x="186" y="77" width="82" height="16" />
+            <text id="3:5869" name="CellTitle" x="186" y="125" width="129" height="24" />
+            <text id="4:492" name="CellTitle" x="186" y="181" width="190" height="36" />
+            <vector id="3:6083" name="Vector 34" x="456.25" y="137" width="35.25" height="0.0000030816529488220112" />
+            <frame id="3:6036" name="Frame" x="506" y="77" width="82" height="16" />
+            <frame id="3:6059" name="Frame" x="506" y="121" width="129" height="24" />
+            <frame id="3:6084" name="Frame" x="506" y="174" width="190" height="36" />
+          </frame>
+        </frame>
+        <instance id="3:5826" name="Card Footer" x="0" y="322" width="934" height="32" />
+      </frame>
+    </frame>
+    <instance id="2428:393" name="H2 + P" x="128" y="1813" width="934" height="88" />
+    <instance id="2428:551" name="List Bulleted" x="128" y="1901" width="934" height="73" />
+    <frame id="2428:426" name="card-1x1" x="128" y="1974" width="934" height="386">
+      <frame id="2428:427" name="Container" x="0" y="0" width="934" height="354">
+        <instance id="2428:428" name="Card Header" x="0" y="0" width="934" height="32" />
+        <frame id="2428:429" name="card-content" x="0" y="32" width="934" height="290">
+          <frame id="2428:430" name="image" x="32" y="0" width="870" height="357">
+            <text id="2428:582" name="В этом месяце потратили 123 098 ₽ при пополнениях на 128 890 ₽" x="291" y="71" width="289" height="40" />
+            <text id="2428:597" name="В этом месяце потратили при пополнениях на" x="291" y="162" width="206" height="40" />
+            <frame id="2428:634" name="Frame" x="455" y="183" width="79" height="20" />
+            <text id="2428:598" name="128 890 ₽" x="457" y="182" width="79" height="20" />
+            <frame id="2428:617" name="Frame" x="501" y="162" width="79" height="20" />
+          </frame>
+        </frame>
+        <instance id="2428:548" name="Card Footer" x="0" y="322" width="934" height="32" />
+      </frame>
+    </frame>
+    <instance id="3:418" name="H2 + P" x="128" y="2360" width="934" height="144" />
+  </frame>
+  <instance id="15:6585" name="page-title" x="-2686" y="-3783" width="1465" height="488" />
+  <frame id="655:392" name="Изменения" x="522" y="-2388" width="940" height="732">
+    <instance id="655:393" name="H1 + P" x="128" y="128" width="684" height="88" />
+    <frame id="655:394" name="Items" x="128" y="216" width="684" height="388">
+      <instance id="3415:6486" name="[deprecated] changelog-v1" x="0" y="0" width="684" height="88" />
+      <instance id="655:395" name="[deprecated] changelog-v1" x="0" y="100" width="684" height="88" />
+      <instance id="2428:406" name="[deprecated] changelog-v1" x="0" y="200" width="684" height="88" />
+      <instance id="804:384" name="[deprecated] changelog-v1" x="0" y="300" width="684" height="88" />
+    </frame>
+  </frame>
+  <frame id="3415:5855" name="Доступность" x="-1068" y="-2388" width="1190" height="1768">
+    <instance id="3415:5856" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="3415:5857" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="3415:5858" name="Image 1x1" x="128" y="336" width="934" height="516" />
+    <instance id="3415:5859" name="H2 + P" x="128" y="852" width="934" height="120" />
+    <instance id="3415:5860" name="Image 1x1" x="128" y="972" width="934" height="668" />
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

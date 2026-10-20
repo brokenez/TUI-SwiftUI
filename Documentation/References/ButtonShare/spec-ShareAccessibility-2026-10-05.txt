@@ -1,0 +1,456 @@
+const imgColor = "https://www.figma.com/api/mcp/asset/1c874635-47f6-42cd-a68c-d87f99a3eeee.svg";
+const imgTuiIcMediumShare = "https://www.figma.com/api/mcp/asset/56ee1dfa-e7c5-4a01-9045-ece95efe750c.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/7dcd7c18-0705-4451-b66b-29693ae74561.svg";
+const imgStart = "https://www.figma.com/api/mcp/asset/ca68bf48-498b-4066-b9f8-277a6c8f77a6.svg";
+const imgTuiIcMediumShare1 = "https://www.figma.com/api/mcp/asset/f9fd0f2a-1dc4-4136-8487-8386a49eaa32.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/81853f5c-6172-4ceb-91de-dc6e81f56b8b.svg";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/73665875-18eb-4887-bd7a-14a70878598e.svg";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/a757bfe5-46a1-43b7-a0b1-c5a5d4365508.svg";
+const imgColor2 = "https://www.figma.com/api/mcp/asset/bad2d4d1-6e46-4f94-a24e-12d84b05f6c5.svg";
+const imgTuiIcMediumShare2 = "https://www.figma.com/api/mcp/asset/b53e6604-cbf1-4cc8-8f6a-8ec1b1ea4b4f.svg";
+
+type H2PProps = {
+  className?: string;
+  showBadge?: boolean;
+  showParagraph?: boolean;
+  titleText?: string;
+};
+
+function H2P({ className, showBadge = false, showParagraph = true, titleText = "## H2" }: H2PProps) {
+  const isNotShowParagraph = !showParagraph;
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--indents\\/bottom-indent-l,32px)] pt-[var(--indents\\/top-indent-s,16px)] relative w-[934px]"} id={isNotShowParagraph ? "node-37636_10766" : "node-37636_10765"}>
+      <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" id={isNotShowParagraph ? "node-37636_10773" : "node-37636_10767"} data-name="## H2">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="37636:10768" style={{ fontFeatureSettings: '"liga" 0' }}>
+          {titleText}
+        </p>
+        {showBadge && (
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="37636:10769" data-name="badge">
+            {showBadge && (
+              <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="37636:10770" data-name="tui-badge">
+                <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I37636:10770;6917:52779" data-name="IconCont">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I37636:10770;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                    <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I37636:10770;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I37636:10770;6917:52781" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I37636:10770;6917:52782">
+                    story-name
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+      {showParagraph && (
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="37636:10771" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="37636:10772">
+            Paragraph
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+type TuiButtonShareProps = {
+  className?: string;
+  style?: "secondary";
+  system?: "ios" | "android";
+};
+
+function TuiButtonShare({ className, style = "secondary", system = "ios" }: TuiButtonShareProps) {
+  const isAndroid = system === "android";
+  return (
+    <div className={className || "bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px]"} id={isAndroid ? "node-11771_4679" : "node-11771_4676"}>
+      <div className="content-stretch flex items-start p-[10px] relative shrink-0" id={isAndroid ? "node-11771_4680" : "node-11771_4677"} data-name="Left iconCont">
+        {system === "ios" && (
+          <div className="relative shrink-0 size-[24px]" data-node-id="11771:4678" data-name="tui-ic-medium / share">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare} />
+          </div>
+        )}
+        {isAndroid && (
+          <div className="relative shrink-0 size-[24px]" data-node-id="11771:4681" data-name="tui-ic-medium / share-2">
+            <div className="absolute bg-[var(--tui-text-action,#428bf9)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px]" data-node-id="I11771:4681;1524:724" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="25646:20339" data-name="Доступность">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="25646:20340" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I25646:20340;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20340;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Доступность
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="25646:20341" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I25646:20341;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20341;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Увеличенные шрифты
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I25646:20341;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I25646:20341;9462:7170">
+            Правила масштабирования на нативных платформах применимы и для мобильного веба.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="25646:20342" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I25646:20342;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20342;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            iOS
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I25646:20342;9462:7241" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I25646:20342;9462:7242">
+            На айосе иконку увеличиваем только в AX1 режиме
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="25646:20343" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I25646:20343;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I25646:20343;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I25646:20343;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I25646:20343;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center justify-center left-1/2 top-1/2" data-node-id="I25646:20343;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I25646:20343;9469:7126;9470:7246;530:5466">
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[472px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20343;9469:7126;9470:7246;530:4583">
+                xxxLarge
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[190px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20343;9469:7126;9470:7246;530:4584">
+                xLarge
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-0 mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20343;9469:7126;9470:7246;530:4585">
+                Default (Large)
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[326px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20343;9469:7126;9470:7246;530:4586">
+                xxLarge
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[653px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20343;9469:7126;9470:7246;530:4587">
+                AX1
+              </p>
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[28px] mt-[52px] overflow-clip relative rounded-[22px] row-1" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[191px] mt-[52px] overflow-clip relative rounded-[22px] row-1" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[331px] mt-[52px] overflow-clip relative rounded-[22px] row-1" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[481px] mt-[52px] overflow-clip relative rounded-[22px] row-1" />
+              <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[642px] mt-[52px] overflow-clip relative rounded-[100px] row-1" data-node-id="I25646:20343;9469:7126;9470:7246;530:5111" data-name="tui-button [share]">
+                <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I25646:20343;9469:7126;9470:7246;530:5112" data-name="Left iconCont">
+                  <div className="relative shrink-0 size-[30px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:5118" data-name="tui-ic-medium / share">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare1} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-1 content-stretch flex items-center ml-[517px] mt-[63px] relative row-1 w-[80px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4597" data-name="comment-line">
+                <div className="relative shrink-0 size-[6px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4597;66:7080">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+                </div>
+                <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I25646:20343;9469:7126;9470:7246;530:4597;66:7079">
+                  <div className="absolute inset-[-0.5px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                  </div>
+                </div>
+                <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I25646:20343;9469:7126;9470:7246;530:4597;66:7078" data-name="Center">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4597;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    scale 1x
+                  </p>
+                </div>
+              </div>
+              <div className="col-1 content-stretch flex items-center ml-[682px] mt-[65px] relative row-1 w-[100px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4598" data-name="comment-line">
+                <div className="relative shrink-0 size-[6px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4598;66:7080">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+                </div>
+                <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I25646:20343;9469:7126;9470:7246;530:4598;66:7079">
+                  <div className="absolute inset-[-0.5px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector4} />
+                  </div>
+                </div>
+                <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I25646:20343;9469:7126;9470:7246;530:4598;66:7078" data-name="Center">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I25646:20343;9469:7126;9470:7246;530:4598;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    scale 1.25x
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I25646:20343;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="25646:20344" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I25646:20344;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20344;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Android
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I25646:20344;9462:7241" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I25646:20344;9462:7242">
+            На андроиде иконку скейлим только при 150%
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="25646:20345" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I25646:20345;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I25646:20345;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I25646:20345;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I25646:20345;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center justify-center left-1/2 top-1/2" data-node-id="I25646:20345;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I25646:20345;9469:7126;9470:7246;530:5470">
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[435px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20345;9469:7126;9470:7246;530:5293">
+                140%
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[147px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20345;9469:7126;9470:7246;530:5294">
+                120%
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[291px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20345;9469:7126;9470:7246;530:5295">
+                130%
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[3px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20345;9469:7126;9470:7246;530:5296">
+                100%
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[583px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I25646:20345;9469:7126;9470:7246;530:5297">
+                150%
+              </p>
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-0 mt-[52px] overflow-clip relative rounded-[22px] row-1" system="android" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[144px] mt-[52px] overflow-clip relative rounded-[22px] row-1" system="android" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[288px] mt-[52px] overflow-clip relative rounded-[22px] row-1" system="android" />
+              <TuiButtonShare className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[433px] mt-[52px] overflow-clip relative rounded-[22px] row-1" system="android" />
+              <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] col-1 content-stretch flex flex-col items-start ml-[577px] mt-[52px] overflow-clip relative rounded-[100px] row-1" data-node-id="I25646:20345;9469:7126;9470:7246;530:5444" data-name="tui-button [share]">
+                <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I25646:20345;9469:7126;9470:7246;530:5445" data-name="Left iconCont">
+                  <div className="relative shrink-0 size-[30px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5451" data-name="tui-ic-medium / share-2">
+                    <div className="absolute bg-[var(--tui-text-action,#428bf9)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.875px_2.5px] mask-size-[23.75px_25px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5455" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-1 content-stretch flex items-center ml-[467px] mt-[64px] relative row-1 w-[80px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5303" data-name="comment-line">
+                <div className="relative shrink-0 size-[6px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5303;66:7080">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+                </div>
+                <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I25646:20345;9469:7126;9470:7246;530:5303;66:7079">
+                  <div className="absolute inset-[-0.5px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                  </div>
+                </div>
+                <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I25646:20345;9469:7126;9470:7246;530:5303;66:7078" data-name="Center">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5303;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    scale 1x
+                  </p>
+                </div>
+              </div>
+              <div className="col-1 content-stretch flex items-center ml-[617px] mt-[67px] relative row-1 w-[100px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5318" data-name="comment-line">
+                <div className="relative shrink-0 size-[6px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5318;66:7080">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+                </div>
+                <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I25646:20345;9469:7126;9470:7246;530:5318;66:7079">
+                  <div className="absolute inset-[-0.5px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector4} />
+                  </div>
+                </div>
+                <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I25646:20345;9469:7126;9470:7246;530:5318;66:7078" data-name="Center">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I25646:20345;9469:7126;9470:7246;530:5318;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    scale 1.25x
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I25646:20345;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <H2P className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" showParagraph={false} titleText="Озвучка" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="25646:20347" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I25646:20347;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20347;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            iOS
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I25646:20347;9462:7241" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I25646:20347;9462:7242">
+            Текст лейбла можно переопределить в зависимости от кейса
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="25646:20348" data-name="Table Header">
+        <div className="content-stretch flex flex-[1_0_0] items-start min-w-px py-[16px] relative" data-node-id="I25646:20348;6076:10258" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I25646:20348;6076:10259">{`tui-button [share] `}</p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] items-start min-w-px py-[16px] relative" data-node-id="I25646:20348;6076:10260" data-name="Column 2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I25646:20348;6076:10261">
+            ScreenReader
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I25646:20348;6076:10262" data-name="Divider" />
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="25646:20349" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I25646:20349;12677:6892" data-name="Table Row Content">
+          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px pr-[var(--table\/column-horizontal-gap,40px)] py-[var(--vertical-spacing,32px)] relative" data-node-id="I25646:20349;6076:10291" data-name="Heading Row">
+            <div className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="I25646:20349;6076:10291;6076:9601" data-name="system=ios, appearance=secondary, state=normal">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I25646:20349;6076:10291;6076:9601;44290:299896" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I25646:20349;6076:10291;6076:9601;44290:299897" data-name="tui-ic-medium / share">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumShare2} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I25646:20349;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I25646:20349;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I25646:20349;6076:10292;6076:9231" data-name="Row 1 / Cell 1">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576" data-name="appearance=tui-component, state=none">
+                  <div className="bg-[#414347] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[12px] pt-[10px] px-[12px] relative rounded-[4px] shrink-0 w-[375px]" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1384" data-name="accessibility-screen-reader">
+                    <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1385" data-name="component-link">
+                      <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] block cursor-pointer decoration-from-font decoration-solid font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.24px] underline whitespace-nowrap" href="https://www.figma.com/design/FHut5qoY0tAWECVoCKnL3b?node-id=11771-4737" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1386" target="_blank">{`tui-button [share] `}</a>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Text:Semibold'] gap-[4px] items-start leading-[normal] not-italic relative shrink-0 text-[15px] tracking-[-0.24px] w-full" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1387" data-name="description">
+                      <p className="relative shrink-0 text-[#f6f7f8] w-full whitespace-pre-wrap" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1388">{`Поделиться ✏   `}</p>
+                      <p className="relative shrink-0 text-[#ffa51f] w-full" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1390">
+                        Кнопка
+                      </p>
+                      <p className="relative shrink-0 text-[#c277f8] w-full whitespace-pre-wrap" data-node-id="I25646:20349;6076:10292;6076:9231;6076:9576;4885:1391">{`Default hint ✏   `}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[32px] relative shrink-0 w-[934px]" data-node-id="I25646:20349;12677:6893" data-name="Table Row Bottom Indent" />
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="25646:20350" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I25646:20350;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I25646:20350;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Android
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I25646:20350;9462:7241" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I25646:20350;9462:7242">
+            Текст лейбла можно переопределить в зависимости от кейса
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="25646:20351" data-name="Table Header">
+        <div className="content-stretch flex flex-[1_0_0] items-start min-w-px py-[16px] relative" data-node-id="I25646:20351;6076:10258" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I25646:20351;6076:10259">{`tui-button [share] `}</p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] items-start min-w-px py-[16px] relative" data-node-id="I25646:20351;6076:10260" data-name="Column 2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I25646:20351;6076:10261">
+            ScreenReader
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I25646:20351;6076:10262" data-name="Divider" />
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="25646:20352" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I25646:20352;12677:6892" data-name="Table Row Content">
+          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px pr-[var(--table\/column-horizontal-gap,40px)] py-[var(--vertical-spacing,32px)] relative" data-node-id="I25646:20352;6076:10291" data-name="Heading Row">
+            <div className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] shrink-0" data-node-id="I25646:20352;6076:10291;6076:9601" data-name="system=android, appearance=secondary, state=normal">
+              <div className="content-stretch flex items-start p-[10px] relative shrink-0" data-node-id="I25646:20352;6076:10291;6076:9601;44290:299976" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I25646:20352;6076:10291;6076:9601;44290:299977" data-name="tui-ic-medium / share-2">
+                  <div className="absolute bg-[var(--tui-text-action,#126df7)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px]" data-node-id="I25646:20352;6076:10291;6076:9601;44290:299977;1524:724" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I25646:20352;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I25646:20352;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I25646:20352;6076:10292;6076:9231" data-name="Row 1 / Cell 1">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576" data-name="appearance=tui-component, state=none">
+                  <div className="bg-[#414347] content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[12px] pt-[10px] px-[12px] relative rounded-[4px] shrink-0 w-[375px]" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1384" data-name="accessibility-screen-reader">
+                    <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1385" data-name="component-link">
+                      <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] block cursor-pointer decoration-from-font decoration-solid font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.24px] underline whitespace-nowrap" href="https://www.figma.com/design/FHut5qoY0tAWECVoCKnL3b?node-id=11771-4737" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1386" target="_blank">{`tui-button [share] `}</a>
+                    </div>
+                    <div className="[word-break:break-word] content-stretch flex flex-col font-['SF_Pro_Text:Semibold'] gap-[4px] items-start leading-[normal] not-italic relative shrink-0 text-[15px] tracking-[-0.24px] w-full" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1387" data-name="description">
+                      <p className="relative shrink-0 text-[#f6f7f8] w-full whitespace-pre-wrap" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1388">{`Поделиться ✏   `}</p>
+                      <p className="relative shrink-0 text-[#ffa51f] w-full" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1390">
+                        Кнопка
+                      </p>
+                      <p className="relative shrink-0 text-[#c277f8] w-full whitespace-pre-wrap" data-node-id="I25646:20352;6076:10292;6076:9231;6076:9576;4885:1391">{`Default hint ✏   `}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[32px] relative shrink-0 w-[934px]" data-node-id="I25646:20352;12677:6893" data-name="Table Row Bottom Indent" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day / Text / text-01 (inverse): #FFFFFF, Android/Body M: Font(family: "Roboto", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0), Helper Red: #FF5500, Desktop/Body M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 24, letterSpacing: 0), iOS/UI M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Night/Text/primary: #F6F7F8, iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), Chart/categorical-13: #FFA51F, Chart/categorical-02: #C277F8.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## system=ios, style=secondary
+**Node ID:** 11771:4676
+
+🟢 Released TinkoffUIFoundation.Button
+
+## tui-button [share]
+**Node ID:** 11771:4669
+
+Кастомный стиль компонента Button
+
+**Documentation:**
+- [https://www.figma.com/file/HErJrp1BcNRUFCyg3QccuG/tui-button?type=design&node-id=1-3&mode=design&t=z3u82F6TGlnB8b34-11](https://www.figma.com/file/HErJrp1BcNRUFCyg3QccuG/tui-button?type=design&node-id=1-3&mode=design&t=z3u82F6TGlnB8b34-11)
+
+## tui-ic-medium / share
+**Node ID:** 4:7852
+
+social-share, network-share, distribute, broadcast
+
+## system=android, style=secondary
+**Node ID:** 11771:4679
+
+🟢 Released UiKitButton TuiButton
+
+## tui-ic-medium / share-2
+**Node ID:** 8577:1027
+
+social-share, network-share, distribute, broadcast
+
+## tui-button [share]
+**Node ID:** 32862:10523
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-share](https://go.tcsbank.ru/tui-button-share)
+
+## tui-ic-medium / share
+**Node ID:** 25646:20288
+
+social-share, network-share, distribute, broadcast
+
+## tui-ic-medium / share-2
+**Node ID:** 25646:20293
+
+social-share, network-share, distribute, broadcast
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

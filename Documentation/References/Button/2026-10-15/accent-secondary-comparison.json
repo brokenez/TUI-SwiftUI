@@ -1,0 +1,775 @@
+{
+  "scope": "Twenty-four exact Accent/Secondary Day exports read 2026-10-15 and 270 historical native source-frame renders from 2026-10-13. Native 3x reduced with LANCZOS on white. No alignment or color correction. Native renders precede shared Skeleton integration; these selected non-skeleton paths were not changed by that integration. Static loading pose only, not animation timing. Night source comparison is UNVERIFIED. No acceptance assigned.",
+  "sourcePairs": 24,
+  "nativeMatrix": 270,
+  "measurements": [
+    {
+      "variantID": "41658:297472",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297472.png",
+      "sourceSHA256": "f193b6e0cfb399f9c305aa6cddf881a2ceff04fa4fbdac318b4ce52df9f7e22a",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/FED10AF3-20E2-44C1-9E54-811D6E96BE8A.png",
+      "nativeSHA256": "1bf7c9d1238f7a414618aa9dd79fef37bd1588ab4e878ea4d44617755bc8f6b2",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.73365,
+      "contentColumnMAE_255": 1.10978,
+      "maxDifference_255": 15
+    },
+    {
+      "variantID": "41658:297477",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297477.png",
+      "sourceSHA256": "eca3c8dacc075130c57c633f70962b6de69bddd23837eb0ad57fe41107dcaff8",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/BDDEFB16-C032-4D30-B7EE-56D7A8CB3E06.png",
+      "nativeSHA256": "e44ed883e75a4d979be919b12c27c00e881d6ded4017163ea1ad49d1329b61c5",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "MAE_255": 0.18452,
+      "contentColumnMAE_255": 1.37103,
+      "maxDifference_255": 43
+    },
+    {
+      "variantID": "41658:297467",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297467.png",
+      "sourceSHA256": "9af595753caf3da3d3259754ad92c1e07ff35b61299d71607cd53f6e1381b41b",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/CB385121-C226-4F32-84DD-937BC6A8D5EC.png",
+      "nativeSHA256": "d625f719290c586837042bc869f7124f0d9a548894b9eb61a4bb870ea6cacecc",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "MAE_255": 0.24103,
+      "contentColumnMAE_255": 1.06261,
+      "maxDifference_255": 46
+    },
+    {
+      "variantID": "41658:297479",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297479.png",
+      "sourceSHA256": "0e2c9d3b2374dd0b83099388fee1062c8102530d70052956c78ca34ccdcf1774",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/59991A3A-BF43-42D9-9CF7-EAA168B7FCBF.png",
+      "nativeSHA256": "8e56ae7ef0ac4df58b9b325b0693f3bfb9e56910f76209f038419034ec43e37e",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "nativeSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "MAE_255": 0.29869,
+      "contentColumnMAE_255": 1.31364,
+      "maxDifference_255": 58
+    },
+    {
+      "variantID": "41658:297540",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297540.png",
+      "sourceSHA256": "0258a51438716facd15a6345509c0cec47f37f5720151db8ca9370fef15c42a2",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/9AE802D4-6D26-4840-A250-E785792EB1E5.png",
+      "nativeSHA256": "4c5ea97d655f2603e83c60e88cef79fff9352c572b040a0af0ec69dd20001758",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.91613,
+      "contentColumnMAE_255": 2.22742,
+      "maxDifference_255": 38
+    },
+    {
+      "variantID": "41658:297545",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297545.png",
+      "sourceSHA256": "eb4a36b00e69bf3ecd8ab3a27b31e0280ddba29ce646b0efd5f864c07b46b81b",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/D6D037F6-0C95-4807-92FD-1380D70D3F58.png",
+      "nativeSHA256": "8bafcc698ef88fc405cb93e0958bdbd9e0123b32888ecc040246008d3733a075",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        67,
+        139,
+        249
+      ],
+      "MAE_255": 0.21278,
+      "contentColumnMAE_255": 1.74495,
+      "maxDifference_255": 43
+    },
+    {
+      "variantID": "41658:297535",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297535.png",
+      "sourceSHA256": "e666e9bde1d7cb96e615f75d60f5fad63b71a7a42107d7868bb11837b9af248d",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/7C0006E3-B704-41A2-9237-B13C602B924C.png",
+      "nativeSHA256": "94e8fe7c80893b83a38e61847bdcb6d2718f2596f6d19495baa18360289037e8",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "MAE_255": 0.61959,
+      "contentColumnMAE_255": 3.43269,
+      "maxDifference_255": 130
+    },
+    {
+      "variantID": "41658:297547",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297547.png",
+      "sourceSHA256": "db06eaea7e1b0a34d51d051bd37b50133861fe32f974e174c90b5719bdee5b69",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/36DE30B3-E626-4AEA-BE8A-0A91AC68D6F1.png",
+      "nativeSHA256": "81d8c6f824d9985179001ef9aa99dc056d69b11de0c96a7b4a2cf034c8d75c90",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "nativeSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "MAE_255": 0.77301,
+      "contentColumnMAE_255": 4.27957,
+      "maxDifference_255": 163
+    },
+    {
+      "variantID": "41658:297506",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297506.png",
+      "sourceSHA256": "b1f36ec59739ae81bcb625a4482e60587115f18d31198db39d93266ad63221cf",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/2BB58ABC-353C-4D73-9582-6CD9E9F7181F.png",
+      "nativeSHA256": "1bdd2dbd56b5d6fceb6d246ca22285c600d761ae0fe9a2a399b9568bcd988c24",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 1.9308,
+      "contentColumnMAE_255": 2.07607,
+      "maxDifference_255": 30
+    },
+    {
+      "variantID": "41658:297511",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297511.png",
+      "sourceSHA256": "fda630efd29a1c16f1f276cea9f259001c7c51786cf05ac07905358fce017f70",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/A52CB346-7B27-4E9F-8269-93EFC6760862.png",
+      "nativeSHA256": "4d346995b4aa9c29a94a8457526e5ef11ad141ade43511f0392bbd325ec5364b",
+      "surfaceSamplePoint": [
+        15,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        63,
+        137,
+        249
+      ],
+      "MAE_255": 1.78444,
+      "contentColumnMAE_255": 1.98403,
+      "maxDifference_255": 28
+    },
+    {
+      "variantID": "41658:297501",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297501.png",
+      "sourceSHA256": "01b6b2317672e32011d6270ca7e8d97011bd4ec61e0d2b74c9be9212e05e89e0",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/6FA69CBF-5FC1-473A-9693-E13D218DE4D1.png",
+      "nativeSHA256": "b0507ef6832fc71d7ec3249192f81e4a0bcdaa18fdb266ee5485da25e24056f1",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "nativeSurfaceRGB": [
+        66,
+        139,
+        249
+      ],
+      "MAE_255": 3.56199,
+      "contentColumnMAE_255": 3.73996,
+      "maxDifference_255": 100
+    },
+    {
+      "variantID": "41658:297513",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "accent",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/accent-41658-297513.png",
+      "sourceSHA256": "10543eb201433e166e3ae28a42e4484de61840a7be22117388cbb80c771be4d9",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/C84854B7-0CF3-4079-80A6-E6F0EEB1B553.png",
+      "nativeSHA256": "9f503ae1bfa06e8a1eae1714af23608e3645facb0db4c48ec6b374a7632aeb6e",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "nativeSurfaceRGB": [
+        18,
+        109,
+        247
+      ],
+      "MAE_255": 4.42865,
+      "contentColumnMAE_255": 4.65,
+      "maxDifference_255": 125
+    },
+    {
+      "variantID": "42596:296643",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296643.png",
+      "sourceSHA256": "f193b6e0cfb399f9c305aa6cddf881a2ceff04fa4fbdac318b4ce52df9f7e22a",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/9FDECA8E-26A2-4F0E-8C4C-A81B9247B99B.png",
+      "nativeSHA256": "1bf7c9d1238f7a414618aa9dd79fef37bd1588ab4e878ea4d44617755bc8f6b2",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.73365,
+      "contentColumnMAE_255": 1.10978,
+      "maxDifference_255": 15
+    },
+    {
+      "variantID": "42596:296648",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296648.png",
+      "sourceSHA256": "2f0887976d36ea00999b6d3629748df95c306840f86d839bb1272ccf9df51d51",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/4E55007A-EF1E-4CFF-A519-DDC88409BD34.png",
+      "nativeSHA256": "0633d13bdfc4722827d22500dfccb6a0cac637f7a462c2f6f78be7b97dae30da",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.78133,
+      "contentColumnMAE_255": 2.13244,
+      "maxDifference_255": 43
+    },
+    {
+      "variantID": "42596:296638",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296638.png",
+      "sourceSHA256": "d1a3e301cad647c94ee597746d4d0bc0a5e1dd28b9b2af06c2b59022b3933a4e",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/6BDF0F15-27FC-4809-B757-A0C2F8402F63.png",
+      "nativeSHA256": "976a6f964cbc2d7e9175802f8ba1fe91b42a3b675018a653db33219ef32d091e",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.80787,
+      "contentColumnMAE_255": 1.57074,
+      "maxDifference_255": 45
+    },
+    {
+      "variantID": "42596:296650",
+      "properties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296650.png",
+      "sourceSHA256": "dcc6e9f544fc185f2323760b797dc2459b66376fff0c75ea15aca61706a59ccb",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/4CBB6BEA-66A1-4AE7-A39C-A8D45EF941FF.png",
+      "nativeSHA256": "ef182a4fa726a5e43f5c9ad74da573e2adf9abdd702ade1e69199dca994e1180",
+      "surfaceSamplePoint": [
+        161,
+        9
+      ],
+      "sourceSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "nativeSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "MAE_255": 0.17135,
+      "contentColumnMAE_255": 1.00332,
+      "maxDifference_255": 45
+    },
+    {
+      "variantID": "42596:296711",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296711.png",
+      "sourceSHA256": "0258a51438716facd15a6345509c0cec47f37f5720151db8ca9370fef15c42a2",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/ED6F948A-01B1-4519-AA00-F3F4DCCA069E.png",
+      "nativeSHA256": "4c5ea97d655f2603e83c60e88cef79fff9352c572b040a0af0ec69dd20001758",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 0.91613,
+      "contentColumnMAE_255": 2.22742,
+      "maxDifference_255": 38
+    },
+    {
+      "variantID": "42596:296716",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296716.png",
+      "sourceSHA256": "89f5c45e7971bf542898a209d4c133e5442f1beef4ed75035af86ac63c0eae72",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/91BB8F5B-E001-446B-A95D-EFE7AAA5B081.png",
+      "nativeSHA256": "74c00c3c0e6a4a6daef97f64c23a0cee51e71ff3e4fac7d0dad3cc12368e8b4f",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        246,
+        248,
+        249
+      ],
+      "MAE_255": 0.81633,
+      "contentColumnMAE_255": 2.5322,
+      "maxDifference_255": 43
+    },
+    {
+      "variantID": "42596:296706",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296706.png",
+      "sourceSHA256": "a2c8bdf36d9365664005fb25f0b8b6d783ba67118b573cff13e48675f803dedf",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/9FF61EED-F809-45B0-AB7E-EDEF5601C5CA.png",
+      "nativeSHA256": "c9a03334487511d58d91b1e318064319f4b3a855f6191ae34311a2480f2a9d2d",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 1.15269,
+      "contentColumnMAE_255": 3.69682,
+      "maxDifference_255": 126
+    },
+    {
+      "variantID": "42596:296718",
+      "properties": {
+        "system": "ios",
+        "size": "medium",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296718.png",
+      "sourceSHA256": "b7e55c11c4f5a17bd4baba8813756dfe22f8a8cc6a0f8cbe01294cd97ea98d29",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/0B4ADF77-0D68-4B8A-8A0A-E544DD1E0089.png",
+      "nativeSHA256": "2d103cc3dc9a259d71d512be3a1554d69579815f7c612b511fd1a320f7a545ca",
+      "surfaceSamplePoint": [
+        161,
+        7
+      ],
+      "sourceSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "nativeSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "MAE_255": 0.511,
+      "contentColumnMAE_255": 3.12121,
+      "maxDifference_255": 121
+    },
+    {
+      "variantID": "42596:296677",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "disabled",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296677.png",
+      "sourceSHA256": "b1f36ec59739ae81bcb625a4482e60587115f18d31198db39d93266ad63221cf",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/DD06F8CE-27C0-48C2-A199-631C6FBE80D4.png",
+      "nativeSHA256": "1bdd2dbd56b5d6fceb6d246ca22285c600d761ae0fe9a2a399b9568bcd988c24",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 1.9308,
+      "contentColumnMAE_255": 2.07607,
+      "maxDifference_255": 30
+    },
+    {
+      "variantID": "42596:296682",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "loading",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296682.png",
+      "sourceSHA256": "ebb219857322b71e9109649027281169c75bb63d04d60f33696ba59df1cad77f",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/E085390A-B465-4499-9F25-2EE1077C42AA.png",
+      "nativeSHA256": "dadcf734e5c243f8ea5e70826dd192d3c166132f504750250f0004feef93ebf5",
+      "surfaceSamplePoint": [
+        15,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        250,
+        250,
+        249
+      ],
+      "MAE_255": 1.33481,
+      "contentColumnMAE_255": 1.94306,
+      "maxDifference_255": 21
+    },
+    {
+      "variantID": "42596:296672",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "normal",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296672.png",
+      "sourceSHA256": "0cb8ab74b37df50d5cabd7ff4dbb878d9d3474be74c86355c5de560a0866b91c",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/47E3096B-23C3-4DBB-8369-8808D022C450.png",
+      "nativeSHA256": "7c95a0686ee650744edc4927a802a719bcc3f288cbb280071e375b1c185e86d2",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        247,
+        247,
+        248
+      ],
+      "nativeSurfaceRGB": [
+        247,
+        248,
+        249
+      ],
+      "MAE_255": 3.1347,
+      "contentColumnMAE_255": 3.39573,
+      "maxDifference_255": 96
+    },
+    {
+      "variantID": "42596:296684",
+      "properties": {
+        "system": "ios",
+        "size": "small",
+        "appearance": "secondary",
+        "state": "pressed",
+        "skeleton": "off"
+      },
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-15/secondary-42596-296684.png",
+      "sourceSHA256": "d1d2d4b5da5a72a11bce369e39ff215a6406920d8b1278e881e2a05113a756c3",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/443F039A-E06B-45C1-BF79-3305F1B6A355.png",
+      "nativeSHA256": "f08576c2866f56423506e992886d42fe13e7f80d94a867071c8930eac48dc893",
+      "surfaceSamplePoint": [
+        28,
+        5
+      ],
+      "sourceSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "nativeSurfaceRGB": [
+        240,
+        241,
+        242
+      ],
+      "MAE_255": 2.71365,
+      "contentColumnMAE_255": 2.95256,
+      "maxDifference_255": 92
+    }
+  ]
+}

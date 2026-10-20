@@ -1,0 +1,167 @@
+import { imgNotch, imgUnion, imgUnion1, img941, imgStart, imgFocusDisabled } from "./svg-fl3dp";
+type SystemStatusBarProps = {
+  className?: string;
+  appearance?: "Light Bg";
+  device?: "iPhone 11 Pro";
+  showNotch?: boolean;
+  system?: "iOS 18";
+};
+
+function SystemStatusBar({ className, appearance = "Light Bg", device = "iPhone 11 Pro", showNotch = false, system = "iOS 18" }: SystemStatusBarProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start min-h-[44px] overflow-clip relative w-[375px]"} data-node-id="20640:18843">
+      <div className="h-[44px] relative shrink-0 w-full" data-node-id="20640:19021" data-name="Container">
+        {showNotch && (
+          <div className="-translate-x-1/2 absolute h-[30px] left-1/2 top-0 w-[221px]" data-node-id="20640:19022" data-name="Notch">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNotch} />
+          </div>
+        )}
+        <div className="-translate-y-1/2 absolute h-[12px] right-[14px] top-[calc(50%+1px)] w-[25px]" data-node-id="20640:19023" data-name="Union">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+        </div>
+        <div className="-translate-y-1/2 absolute h-[10px] right-[18px] top-[calc(50%+1px)] w-[63px]" data-node-id="20640:19024" data-name="Union">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+        </div>
+        <div className="-translate-y-1/2 absolute h-[11.089px] left-[34px] top-[calc(50%+0.54px)] w-[28.426px]" data-node-id="20640:19025" data-name="9:41">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img941} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Image1X() {
+  return (
+    <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="9702:66343" data-name="Image 1x1">
+      <div className="content-stretch flex flex-col gap-[916px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66343;9469:7126" data-name="Image Placeholder">
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66343;9469:7126;9469:7234" data-name="Start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66343;9469:7126;9469:7235" data-name="End">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66343;9469:7126;5375:1824" data-name="Content Appearance" />
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66343;9469:7126;9470:7246" data-name="Instance Container">
+          <div className="relative shrink-0 size-[20px]" data-node-id="I9702:66343;9469:7126;9470:7246;2933:583" data-name=".Instance">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFocusDisabled} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66343;9469:7126;8349:7026">
+          ...
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Small: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0), Day/Service/navbar: #FFFFFF, blur-navbar: Effect(type: BACKGROUND_BLUR, radius: 40), Day/Background/base-ios: #FFFFFF.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-header [large]
+**Node ID:** 22232:42332
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-textfield 
+**Node ID:** 22232:43437
+
+Поле для ввода текста. Используется в фреймворке SmartFields, PWA, WebView
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-textfield-specs](https://go.tcsbank.ru/tui-textfield-specs)
+
+## icon
+**Node ID:** 20378:10156
+
+\[только для фигмы\] контейнер для иконки, чтобы автолейаут работал нормально
+
+## tui-ic-service / clearfield-ios
+**Node ID:** 5494:12015
+
+cross
+
+## tui-ic-small / lock
+**Node ID:** 14555:54364
+
+security, secure, privacy
+
+## system-keyboard
+**Node ID:** 22232:51960
+
+Системные клавиатуры
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-keyboard](https://go.tcsbank.ru/system-keyboard)
+
+## system=ios, size=medium, appearance=accent, state=pressed, skeleton=off
+**Node ID:** 22128:19366
+
+Ex. primary-accent
+
+## tui-button
+**Node ID:** 22128:19143
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 20640:37767
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 20640:37738
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## Appearance=Light Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 20640:18843
+
+⚪ Not In TUI (Native)
+
+## system-status-bar
+**Node ID:** 20640:18829
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-app-bar
+**Node ID:** 20640:21560
+
+Навигационный блок для верхней части экрана  
+  
+tui-appbar, navbar
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-appbar-specs](https://go.tcsbank.ru/tui-appbar-specs)
+
+## tui-ic-service / back-ios-alt
+**Node ID:** 6583:28281
+
+arrow, iOS, system
+
+## system=ios, size=medium, appearance=accent, state=normal, skeleton=off
+**Node ID:** 22128:19333
+
+Ex. primary-accent
+
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/Textfield/FormsAssets/9702-66343/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

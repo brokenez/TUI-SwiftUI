@@ -1,0 +1,51 @@
+<frame id="26:64464" name="Дополнительные возможности" x="16796" y="100" width="1190" height="8925">
+  <instance id="26:64465" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="388:11920" name="Note" x="128" y="216" width="934" height="105" />
+  <instance id="26:64466" name="H2 + P" x="128" y="321" width="934" height="152" />
+  <frame id="45:45160" name="image" x="128" y="473" width="934" height="368">
+    <frame id="45:45184" name="img-placeholder" x="0" y="0" width="934" height="320">
+      <instance id="46:45203" name="tui-cell" x="287" y="132" width="360" height="56" />
+      <instance id="46:45675" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+    </frame>
+  </frame>
+  <instance id="26:64468" name="H2 + P" x="128" y="841" width="934" height="124" />
+  <instance id="45:45064" name="List Bulleted" x="128" y="965" width="934" height="101" />
+  <instance id="26:64469" name="Image 2x1" x="128" y="1066" width="934" height="352" />
+  <instance id="41:13489" name="H2 + P" x="128" y="1418" width="934" height="180" />
+  <instance id="41:13490" name="Image 1x1" x="128" y="1598" width="934" height="352" />
+  <instance id="46:48224" name="Paragraph" x="128" y="1950" width="934" height="72" />
+  <instance id="46:48233" name="Image 1x1" x="128" y="2022" width="934" height="352" />
+  <instance id="46:48216" name="H2 + P" x="128" y="2374" width="934" height="180" />
+  <instance id="46:48247" name="Image 1x1" x="128" y="2554" width="934" height="412" />
+  <instance id="5703:12213" name="H2 + P" x="128" y="2966" width="934" height="120" />
+  <instance id="5703:12214" name="Image 1x1" x="128" y="3086" width="934" height="352" />
+  <instance id="47:54252" name="H2 + P" x="128" y="3438" width="934" height="120" />
+  <instance id="47:54253" name="Image 1x1" x="128" y="3558" width="934" height="452" />
+  <instance id="46:48220" name="H2 + P" x="128" y="4010" width="934" height="124" />
+  <instance id="46:48261" name="Image 1x1" x="128" y="4134" width="934" height="352" />
+  <instance id="47:53972" name="H2 + P" x="128" y="4486" width="934" height="180" />
+  <instance id="47:54324" name="Image 1x1" x="128" y="4666" width="934" height="352" />
+  <instance id="11261:28595" name="Paragraph" x="128" y="5018" width="934" height="40" />
+  <instance id="11261:28596" name="Image 1x1" x="128" y="5058" width="934" height="352" />
+  <instance id="10770:20444" name="H2 + P" x="128" y="5410" width="934" height="144" />
+  <instance id="10770:27689" name="Paragraph" x="128" y="5554" width="934" height="40" />
+  <instance id="10770:20445" name="Image 1x1" x="128" y="5594" width="934" height="352" />
+  <instance id="10770:20446" name="H3 + P" x="128" y="5946" width="934" height="104" />
+  <instance id="10770:20447" name="Image 1x1" x="128" y="6050" width="934" height="352" />
+  <instance id="10770:20448" name="Paragraph" x="128" y="6402" width="934" height="40" />
+  <instance id="10770:20449" name="List Bulleted" x="128" y="6442" width="934" height="157" />
+  <instance id="10770:20450" name="Paragraph" x="128" y="6599" width="934" height="40" />
+  <instance id="10770:20451" name="Image 1x1" x="128" y="6639" width="934" height="352" />
+  <instance id="10770:20452" name="Paragraph" x="128" y="6991" width="934" height="40" />
+  <instance id="10770:20453" name="List Numbered" x="128" y="7031" width="934" height="129" />
+  <instance id="10770:20454" name="Image 1x1" x="128" y="7160" width="934" height="352" />
+  <instance id="12170:32065" name="H2 + P" x="128" y="7512" width="934" height="88" />
+  <instance id="17580:17910" name="Paragraph" x="128" y="7600" width="934" height="104" />
+  <instance id="17580:17924" name="Paragraph" x="128" y="7704" width="934" height="64" />
+  <instance id="12170:32066" name="Image 1x1" x="128" y="7768" width="934" height="400" />
+  <instance id="12170:32067" name="H3 + P" x="128" y="8168" width="934" height="128" />
+  <instance id="12170:32069" name="List Numbered" x="128" y="8296" width="934" height="149" />
+  <instance id="12170:32070" name="Image 1x1" x="128" y="8445" width="934" height="352" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

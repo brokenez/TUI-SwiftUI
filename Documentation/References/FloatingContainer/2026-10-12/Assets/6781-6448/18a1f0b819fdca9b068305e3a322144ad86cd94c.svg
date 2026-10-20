@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tui-ic-medium / arrows-left-right">
+<mask id="mask0_9348_10239" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="24" height="22">
+<g id="Mask">
+<path id="Mask_2" fill-rule="evenodd" clip-rule="evenodd" d="M15 12V16L21 11V12.9999C21 16.3137 18.3137 19 14.9999 18.9999L9 18.9999V23L0 15.5L9 8V12H15Z" fill="black"/>
+<path id="Mask_3" d="M3 11V13L9 8V12H15V16L24 8.5L15 1V5H9C5.68629 5 3 7.68629 3 11Z" fill="url(#paint0_linear_9348_10239)"/>
+</g>
+</mask>
+<g mask="url(#mask0_9348_10239)">
+<path id="Color" d="M0 0H24V24H0V0Z" fill="black"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_9348_10239" x1="24" y1="8" x2="3" y2="8" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.5"/>
+<stop offset="1" stop-opacity="0.3"/>
+</linearGradient>
+</defs>
+</svg>

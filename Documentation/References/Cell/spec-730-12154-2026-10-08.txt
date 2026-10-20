@@ -1,0 +1,160 @@
+<frame id="730:12154" name="Типы ячеек" x="100" y="2257" width="3576" height="2172">
+  <instance id="730:12155" name="H1 + P" x="128" y="128" width="3320" height="156" />
+  <frame id="730:12156" name="row" x="128" y="284" width="3320" height="56">
+    <instance id="730:12157" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+    <instance id="730:12158" name="tui-table-сell" x="310" y="0" width="602" height="56" />
+    <instance id="730:12159" name="tui-table-сell" x="912" y="0" width="602" height="56" />
+    <instance id="730:12160" name="tui-table-сell" x="1514" y="0" width="602" height="56" />
+    <instance id="730:12161" name="tui-table-сell" x="2116" y="0" width="602" height="56" />
+    <instance id="730:12162" name="tui-table-сell" x="2718" y="0" width="602" height="56" />
+  </frame>
+  <frame id="730:12163" name="row" x="128" y="340" width="3320" height="480">
+    <instance id="730:12164" name="tui-table-сell" x="0" y="0" width="310" height="480" />
+    <frame id="730:12165" name="preview" x="310" y="0" width="3010" height="480">
+      <frame id="730:12166" name="row" x="0" y="64" width="3010" height="80">
+        <frame id="730:12167" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12168" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12169" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12170" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12171" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12172" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12173" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+      <frame id="730:12174" name="row" x="0" y="200" width="3010" height="80">
+        <frame id="730:12175" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12176" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12177" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12178" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12179" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12180" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12181" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+      <frame id="730:12182" name="row" x="0" y="336" width="3010" height="80">
+        <frame id="730:12183" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12184" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12185" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12186" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12187" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12188" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12189" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="730:12190" name="row" x="128" y="820" width="3320" height="480">
+    <instance id="730:12191" name="tui-table-сell" x="0" y="0" width="310" height="480" />
+    <frame id="730:12192" name="preview" x="310" y="0" width="3010" height="480">
+      <frame id="730:12193" name="row" x="0" y="64" width="3010" height="80">
+        <frame id="730:12194" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12195" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12196" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12197" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12198" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12199" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12200" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+      <frame id="730:12201" name="row" x="0" y="200" width="3010" height="80">
+        <frame id="730:12202" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12203" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12204" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12205" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12206" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12207" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12208" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+      <frame id="730:12209" name="row" x="0" y="336" width="3010" height="80">
+        <frame id="730:12210" name="tui-table сell" x="0" y="0" width="602" height="80">
+          <instance id="730:12211" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="730:12212" name="tui-table сell" x="602" y="0" width="602" height="80">
+          <instance id="730:12213" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+        </frame>
+        <frame id="730:12214" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+        <frame id="730:12215" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+        <frame id="730:12216" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="730:12217" name="row" x="128" y="1300" width="3320" height="744">
+    <instance id="730:12218" name="tui-table-сell" x="0" y="0" width="310" height="744" />
+    <frame id="730:12219" name="preview" x="310" y="0" width="3010" height="744">
+      <frame id="730:12220" name="row" x="0" y="64" width="3010" height="56">
+        <frame id="730:12221" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12222" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12223" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12224" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12225" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12226" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12227" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12228" name="row" x="0" y="176" width="3010" height="56">
+        <frame id="730:12229" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12230" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12231" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12232" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12233" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12234" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12235" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12236" name="row" x="0" y="288" width="3010" height="56">
+        <frame id="730:12237" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12238" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12239" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12240" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12241" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12242" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12243" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12244" name="row" x="0" y="400" width="3010" height="56">
+        <frame id="730:12245" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12246" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12247" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12248" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12249" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12250" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12251" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12252" name="row" x="0" y="512" width="3010" height="56">
+        <frame id="730:12253" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12254" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12255" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12256" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12257" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12258" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12259" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12260" name="row" x="0" y="624" width="3010" height="56">
+        <frame id="730:12261" name="tui-table сell" x="0" y="0" width="602" height="56">
+          <instance id="730:12262" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+        </frame>
+        <frame id="730:12263" name="tui-table сell" x="602" y="0" width="602" height="56">
+          <instance id="730:12264" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+        </frame>
+        <frame id="730:12265" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+        <frame id="730:12266" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+        <frame id="730:12267" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+      </frame>
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

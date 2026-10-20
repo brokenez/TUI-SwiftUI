@@ -1,0 +1,203 @@
+[
+  {
+    "url": "https://go.tcsbank.ru/tui-textfield-specs",
+    "observedIn": "Documentation/References/Textfield/context-4904-12998.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-button-specs",
+    "observedIn": "Documentation/References/Textfield/context-4923-2332.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-badge-specs",
+    "observedIn": "Documentation/References/Textfield/spec-31-6467.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-table",
+    "observedIn": "Documentation/References/Textfield/spec-4802-30638.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://figma.com/design/:fileKey/:fileName?node-id=1-2",
+    "observedIn": "Documentation/References/Textfield/spec-4802-33259.txt",
+    "linkedContentStatus": "TOOL-EXAMPLE-NOT-SOURCE",
+    "excludedFromSpecificationSources": true,
+    "reason": "Generic URL example returned by tool guidance; not an observed component documentation target."
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-loader-specs",
+    "observedIn": "Documentation/References/Textfield/spec-4803-6152.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-text-expandable-specs",
+    "observedIn": "Documentation/References/Textfield/spec-4857-7477.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/proto/R4dFzxFzgDIGTcdlrqaRpe/tui-textfield?page-id=4885%3A31175&node-id=4904-9190&t=VGypTsfTekNC1ran-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4900%3A42206&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-4859-6710.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/proto/R4dFzxFzgDIGTcdlrqaRpe/tui-textfield?page-id=4885%3A31175&node-id=4904-13195&t=VGypTsfTekNC1ran-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4904%3A13195&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-4859-6710.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/proto/R4dFzxFzgDIGTcdlrqaRpe/tui-textfield?page-id=4885%3A31175&node-id=4904-9190&t=VGypTsfTekNC1ran-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4904%3A9190&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-4859-6710.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/proto/R4dFzxFzgDIGTcdlrqaRpe/tui-textfield?page-id=4885%3A31175&node-id=4904-12998&t=VGypTsfTekNC1ran-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4904%3A12998&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-4859-6710.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/proto/R4dFzxFzgDIGTcdlrqaRpe/tui-textfield?page-id=4885%3A31175&node-id=4923-2332&t=VGypTsfTekNC1ran-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4904%3A13293&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-4859-6710.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-input-specs",
+    "observedIn": "Documentation/References/Textfield/spec-4880-8888.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/design/2A6TJKC6Ijfq4eXJKjgeVP/tui-amount?node-id=33-940&t=piH5qNhy5p9GONun-11",
+    "observedIn": "Documentation/References/Textfield/spec-4897-27195.txt",
+    "linkedContentStatus": "READ",
+    "readingEvidence": [
+      "Documentation/References/Textfield/related-quantity-context-2026-10-09.txt",
+      "Documentation/References/Textfield/specification-reading-2026-10-09.md"
+    ]
+  },
+  {
+    "url": "https://www.figma.com/proto/jmEgQqdY10CU7Yq3gPsF50/SmartFields-%2F-tui-textfield-%5BWIP%5D?page-id=4446%3A16431&node-id=4446-17673&viewport=-927%2C-1164%2C0.52&t=hYnnvG2GBUB2qi8p-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4446%3A17673&show-proto-sidebar=1",
+    "observedIn": "Documentation/References/Textfield/spec-7084-56801.txt",
+    "linkedContentStatus": "READ-STATIC-PARTIAL",
+    "readingEvidence": [
+      "Documentation/References/Textfield/related-smartfields-context-2026-10-09.txt"
+    ],
+    "limitation": "Static context and PNG read; playback timings are not verified."
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-textfield-number-specs",
+    "observedIn": "Documentation/References/Textfield/spec-7084-56801.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/system-bottom-bar",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66337-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/system-keyboard",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66337-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/system-status-bar",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66337-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-appbar-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66337-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-header-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66337-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-cell-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66339-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-bottomsheet-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66341-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-checkbox",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66341-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://design.tbank.ru/docs/Текст/Элементы%20интерфейса/Labels%20and%20placeholders/",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66346-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-floating-container-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66352-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "http:// https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=18451%3A647671",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "MALFORMED-SOURCE-URL"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-chip-group-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-chips-specs",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/design/bM33PpijzSiXs0L14odXNu/TUI-Templates?node-id=814-22435&p=f&t=mfR1BQDG9MuxtpPU-11",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67357",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67384",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=148-0&t=3JZPRZHMI77YUITJ-11",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/TDS-Mobile.-Components?node-id=8706%3A32",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66356-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://go.tcsbank.ru/tui-input",
+    "observedIn": "Documentation/References/Textfield/forms-9702-66374-context-2026-10-09.txt",
+    "linkedContentStatus": "UNVERIFIED"
+  },
+  {
+    "url": "https://www.figma.com/design/R4dFzxFzgDIGTcdlrqaRpe?node-id=9702-48708",
+    "observedIn": "Documentation/References/Textfield/forms-page-metadata-2026-10-09.txt",
+    "linkedContentStatus": "READ-MOBILE-CONTENT-IMPLEMENTATION-PENDING",
+    "readingReport": "Documentation/References/Textfield/forms-reading-2026-10-09.md"
+  }
+]

@@ -1,0 +1,1171 @@
+<canvas id="17:2105" name="↳ tui-cell" x="0" y="0" width="0" height="0">
+  <instance id="26:63297" name="page-title" x="-20907" y="1876" width="1250" height="592" />
+  <section id="62:75631" name="Дизайн" x="-21033" y="3400" width="21266" height="9598">
+    <frame id="730:20379" name="Высота ячеек" x="7256" y="100" width="1190" height="6263">
+      <instance id="730:20380" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="730:20381" name="H2 + P" x="128" y="216" width="934" height="152" />
+      <instance id="730:20382" name="H3 + P" x="128" y="368" width="934" height="108" />
+      <frame id="730:20383" name="image" x="128" y="476" width="934" height="434">
+        <frame id="730:20384" name="img-placeholder" x="0" y="0" width="934" height="386">
+          <instance id="730:20385" name="tui-cell" x="316" y="100" width="292.5" height="56" />
+          <instance id="730:20386" name="tui-cell" x="316" y="178" width="292" height="44" />
+          <instance id="730:20387" name="tui-cell" x="316" y="244" width="292" height="36" />
+          <instance id="730:20388" name="Height - Right" x="616" y="100" width="36" height="56" />
+          <instance id="730:20389" name="Height - Right" x="618" y="178" width="36" height="44" />
+          <instance id="730:20390" name="Height - Right" x="620" y="244" width="36" height="36" />
+        </frame>
+      </frame>
+      <instance id="730:20391" name="Paragraph" x="128" y="910" width="934" height="40" />
+      <instance id="730:20392" name="List Bulleted" x="128" y="950" width="934" height="101" />
+      <frame id="730:20393" name="image" x="128" y="1051" width="934" height="645">
+        <frame id="730:20394" name="img-placeholder" x="0" y="0" width="934" height="597">
+          <vector id="730:20395" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="730:20396" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="730:20397" name="tui-cell" x="152" y="138" width="259" height="56" />
+          <instance id="730:20398" name="tui-cell" x="448" y="138" width="259" height="96" />
+          <instance id="730:20399" name="tui-cell" x="152" y="299" width="258" height="44" />
+          <instance id="730:20400" name="tui-cell" x="446" y="299" width="258" height="60" />
+          <instance id="730:20401" name="tui-cell" x="151" y="424" width="259" height="36" />
+          <instance id="730:20402" name="tui-cell" x="446" y="424" width="259" height="54" />
+          <instance id="730:20403" name="Height - Right" x="519" y="424" width="36" height="4" />
+          <instance id="730:20404" name="Height - Right" x="557" y="299" width="36" height="6" />
+          <instance id="730:20405" name="Height - Right" x="582" y="138" width="36" height="8" />
+          <rounded-rectangle id="730:20406" name="Rectangle 1711" x="213" y="299" width="181" height="6" />
+          <rounded-rectangle id="730:20407" name="Rectangle 1713" x="506" y="299" width="182" height="6" />
+          <rounded-rectangle id="730:20408" name="Rectangle 1715" x="520" y="138" width="171" height="8" />
+          <rounded-rectangle id="730:20409" name="Rectangle 1717" x="224" y="138" width="171" height="8" />
+          <rounded-rectangle id="730:20410" name="Rectangle 1718" x="224" y="186" width="171" height="8" />
+          <rounded-rectangle id="730:20411" name="Rectangle 1716" x="520" y="226" width="171" height="8" />
+          <rounded-rectangle id="730:20412" name="Rectangle 1714" x="506" y="353" width="182" height="6" />
+          <rounded-rectangle id="730:20413" name="Rectangle 1712" x="213" y="337" width="181" height="6" />
+          <rounded-rectangle id="730:20414" name="Rectangle 1719" x="199" y="424" width="181" height="2" />
+          <rounded-rectangle id="730:20415" name="Rectangle 1721" x="494" y="424" width="197" height="3" />
+          <rounded-rectangle id="730:20416" name="Rectangle 1722" x="494" y="475" width="197" height="3" />
+          <rounded-rectangle id="730:20417" name="Rectangle 1720" x="199" y="458" width="181" height="2" />
+        </frame>
+      </frame>
+      <instance id="730:20418" name="H3 + P" x="128" y="1696" width="934" height="108" />
+      <frame id="730:20419" name="image" x="128" y="1804" width="934" height="434">
+        <frame id="730:20420" name="img-placeholder" x="0" y="0" width="934" height="386">
+          <instance id="730:20421" name="tui-cell" x="256" y="165" width="374" height="56" />
+          <instance id="730:20422" name="Height - Right" x="643" y="165" width="36" height="56" />
+        </frame>
+      </frame>
+      <instance id="1471:12902" name="H2 + P" x="128" y="2238" width="934" height="208" />
+      <instance id="730:20424" name="Paragraph" x="128" y="2446" width="934" height="40" />
+      <frame id="730:20425" name="image" x="128" y="2486" width="934" height="368">
+        <frame id="730:20426" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="730:20427" name="tui-cell" x="309" y="130" width="280" height="48" />
+          <instance id="730:20428" name="Height - Right" x="602.5" y="130.5" width="36" height="48" />
+        </frame>
+      </frame>
+      <instance id="730:20429" name="Paragraph" x="128" y="2854" width="934" height="40" />
+      <instance id="730:20430" name="Image 2x1" x="128" y="2894" width="934" height="482" />
+      <instance id="730:20431" name="Paragraph" x="128" y="3376" width="934" height="40" />
+      <frame id="730:20432" name="image" x="128" y="3416" width="934" height="368">
+        <frame id="730:20433" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="730:20434" name="tui-cell" x="297" y="83" width="294" height="40" />
+          <instance id="730:20435" name="tui-cell" x="297" y="144" width="294" height="36" />
+          <instance id="730:20436" name="tui-cell" x="297" y="205" width="294" height="28" />
+          <instance id="730:20437" name="Height - Right" x="602" y="83" width="36" height="40" />
+          <instance id="730:20438" name="Height - Right" x="602" y="144" width="36" height="36" />
+          <instance id="730:20439" name="Height - Right" x="602" y="205" width="36" height="28" />
+        </frame>
+      </frame>
+      <instance id="730:20440" name="H2 + P" x="128" y="3784" width="934" height="152" />
+      <instance id="730:20441" name="Paragraph" x="128" y="3936" width="934" height="40" />
+      <frame id="730:20442" name="image" x="128" y="3976" width="934" height="368">
+        <frame id="730:20443" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="730:20444" name="tui-cell" x="303" y="119" width="280" height="80" />
+          <instance id="730:20445" name="Height - Right" x="596" y="120" width="36" height="80" />
+        </frame>
+      </frame>
+      <instance id="730:20446" name="Paragraph" x="128" y="4344" width="934" height="40" />
+      <frame id="730:20447" name="image" x="128" y="4384" width="934" height="431">
+        <frame id="730:20448" name="img-placeholder" x="0" y="0" width="934" height="383">
+          <instance id="730:20449" name="tui-cell" x="294" y="63" width="292.5" height="80" />
+          <instance id="730:20450" name="tui-cell" x="294" y="166" width="292" height="64" />
+          <instance id="730:20451" name="tui-cell" x="294" y="253" width="292" height="44" />
+          <instance id="730:20452" name="Height - Right" x="612" y="63" width="36" height="80" />
+          <instance id="730:20453" name="Height - Right" x="612" y="163" width="36" height="67" />
+          <instance id="730:20454" name="Height - Right" x="612" y="253" width="36" height="44" />
+        </frame>
+      </frame>
+      <instance id="730:20455" name="H2 + P" x="128" y="4815" width="934" height="124" />
+      <instance id="30486:13513" name="H3 + P" x="128" y="4939" width="934" height="72" />
+      <instance id="30486:13576" name="Image Placeholder" x="128" y="5011" width="934" height="804">
+        <instance id="I30486:13576;33807:8254" name="Content Appearance" x="0" y="0" width="934" height="804" />
+        <slot id="I30486:13576;33807:8349" name="Slot" x="0" y="0" width="934" height="804">
+          <rounded-rectangle id="I30486:13576;33807:8349;30486:13575" name="image 2" x="-3" y="-3.355133056640625" width="940" height="810.7102661132812" />
+        </slot>
+        <text id="I30486:13576;33807:8256" name="Alt text" x="0" y="814" width="934" height="17" />
+      </instance>
+      <instance id="30486:13589" name="Spacing" x="128" y="5815" width="934" height="32" />
+      <instance id="30486:13557" name="H3 + P" x="128" y="5847" width="934" height="72" />
+      <instance id="30486:13599" name="Image Placeholder" x="128" y="5919" width="934" height="216">
+        <instance id="I30486:13599;33807:8254" name="Content Appearance" x="0" y="0" width="934" height="216" />
+        <slot id="I30486:13599;33807:8349" name="Slot" x="0" y="0" width="934" height="216">
+          <rounded-rectangle id="I30486:13599;33807:8349;30486:13598" name="image 1" x="-3" y="-2" width="940" height="220" />
+        </slot>
+        <text id="I30486:13599;33807:8256" name="Alt text" x="0" y="226" width="934" height="17" />
+      </instance>
+    </frame>
+    <frame id="731:21319" name="Боковые отступы" x="8846" y="100" width="1190" height="5524">
+      <instance id="731:21320" name="H1 + P" x="128" y="128" width="934" height="156" />
+      <instance id="731:21321" name="H2 + P" x="128" y="284" width="934" height="124" />
+      <instance id="731:21322" name="H3 + P" x="128" y="408" width="934" height="104" />
+      <instance id="731:21323" name="List Bulleted" x="128" y="512" width="934" height="73" />
+      <instance id="731:21324" name="Image 1x1" x="128" y="585" width="934" height="352" />
+      <instance id="731:21325" name="H3 + P" x="128" y="937" width="934" height="72" />
+      <instance id="731:21326" name="List Bulleted" x="128" y="1009" width="934" height="73" />
+      <instance id="731:21327" name="Image 1x1" x="128" y="1082" width="934" height="352" />
+      <instance id="731:21328" name="Paragraph" x="128" y="1434" width="934" height="40" />
+      <instance id="731:21329" name="Image 1x1" x="128" y="1474" width="934" height="352" />
+      <instance id="731:21330" name="Paragraph" x="128" y="1826" width="934" height="40" />
+      <instance id="731:21331" name="List Bulleted" x="128" y="1866" width="934" height="153" />
+      <frame id="731:21332" name="image" x="128" y="2019" width="934" height="475">
+        <frame id="731:21333" name="img-placeholder" x="0" y="0" width="934" height="427">
+          <vector id="731:21334" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="731:21335" name="end" x="23" y="293" width="760" height="0" />
+          <frame id="731:21336" name="container" x="347" y="110" width="261" height="200">
+            <text id="731:21337" name="Заголовок" x="0" y="0" width="261" height="32" />
+            <frame id="731:21338" name="container" x="0" y="32" width="261" height="168">
+              <instance id="731:21339" name="tui-cell" x="-15" y="0" width="292.5" height="56" />
+              <instance id="731:21340" name="tui-cell" x="-15" y="56" width="292.5" height="56" />
+              <instance id="731:21341" name="tui-cell" x="-15" y="112" width="292.5" height="56" />
+            </frame>
+          </frame>
+          <instance id="731:21342" name="Outside - Bottom" x="347" y="78" width="260" height="271" />
+          <instance id="731:21343" name="comment-line" x="180" y="216" width="162" height="19" />
+        </frame>
+      </frame>
+      <instance id="731:21344" name="H2 + P" x="128" y="2494" width="934" height="124" />
+      <instance id="731:21345" name="H3 + P" x="128" y="2618" width="934" height="72" />
+      <instance id="731:21346" name="List Bulleted" x="128" y="2690" width="934" height="125" />
+      <frame id="731:21347" name="image" x="128" y="2815" width="934" height="508">
+        <frame id="731:21348" name="img-placeholder" x="0" y="0" width="934" height="460">
+          <vector id="731:21349" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="731:21350" name="end" x="0" y="460" width="760" height="0" />
+          <instance id="731:21351" name="Instance Container" x="269" y="62.5" width="375" height="300" />
+          <instance id="731:21352" name="Inside - Bottom" x="285" y="123" width="20" height="280" />
+          <instance id="731:21353" name="Inside - Bottom" x="608" y="123" width="20" height="280" />
+        </frame>
+      </frame>
+      <instance id="731:21354" name="H3 + P" x="128" y="3323" width="934" height="128" />
+      <instance id="731:21355" name="List Bulleted" x="128" y="3451" width="934" height="73" />
+      <frame id="731:21356" name="image-2x1" x="128" y="3524" width="934" height="448">
+        <frame id="731:21357" name="image-1" x="0" y="0" width="934" height="400">
+          <frame id="731:21358" name="img-placeholder" x="0" y="0" width="934" height="400">
+            <vector id="731:21359" name="start" x="0" y="0" width="760" height="0" />
+            <vector id="731:21360" name="end" x="0" y="400" width="760" height="0" />
+            <frame id="731:21361" name="tui-card-large" x="143" y="80" width="649" height="244">
+              <frame id="731:21362" name="CardCont" x="16" y="0" width="617" height="244">
+                <frame id="731:21363" name="card-header" x="0" y="0" width="617" height="56">
+                  <instance id="731:21364" name="tui-header" x="0" y="0" width="617" height="56" />
+                </frame>
+                <frame id="731:21365" name="card-content" x="0" y="56" width="617" height="176">
+                  <frame id="731:21366" name="column-1" x="12" y="0" width="292" height="176">
+                    <instance id="731:21367" name="tui-cell" x="0" y="0" width="292" height="56" />
+                    <instance id="731:21368" name="tui-cell" x="0" y="60" width="292" height="56" />
+                    <instance id="731:21369" name="tui-cell" x="0" y="120" width="292" height="56" />
+                    <instance id="731:21370" name="[deprecated] Hand Pointer" x="170" y="100" width="21" height="22" />
+                  </frame>
+                  <frame id="731:21371" name="column-2" x="312" y="0" width="293" height="176">
+                    <instance id="731:21372" name="tui-cell" x="0" y="0" width="293" height="56" />
+                    <instance id="731:21373" name="tui-cell" x="0" y="60" width="293" height="56" />
+                    <instance id="731:21374" name="tui-cell" x="0" y="120" width="293" height="56" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="731:21375" name="Inside - Bottom" x="312" y="52" width="8" height="206" />
+              <instance id="731:21376" name="Inside - Bottom" x="328" y="52" width="8" height="206" />
+              <instance id="731:21377" name="Inside - Bottom" x="613" y="53" width="8" height="206" />
+              <instance id="731:21378" name="Inside - Bottom" x="28" y="53" width="8" height="206" />
+            </frame>
+          </frame>
+          <text id="731:21379" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+        </frame>
+        <frame id="731:21380" name="image-2" x="483" y="0" width="451" height="320" hidden="true">
+          <instance id="731:21381" name="Image Placeholder" x="0" y="0" width="451" height="400" />
+          <text id="731:21382" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+        </frame>
+      </frame>
+      <instance id="1071:24581" name="List Bulleted" x="128" y="3972" width="934" height="125" />
+      <frame id="1071:16767" name="image" x="128" y="4097" width="934" height="558">
+        <frame id="1071:16768" name="img-placeholder" x="0" y="0" width="934" height="510">
+          <vector id="1071:16769" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="1071:16770" name="end" x="0" y="510" width="760" height="0" />
+          <instance id="1071:16771" name="tui-card-large" x="283" y="79" width="367" height="340" />
+        </frame>
+      </frame>
+      <instance id="731:21442" name="H2 + P" x="128" y="4655" width="934" height="124" />
+      <instance id="731:21443" name="List Bulleted" x="128" y="4779" width="934" height="153" />
+      <frame id="731:21444" name="image" x="128" y="4932" width="934" height="464">
+        <frame id="731:21445" name="img-placeholder" x="0" y="0" width="934" height="416">
+          <frame id="731:21446" name="dropdown" x="65" y="50" width="220" height="308">
+            <instance id="731:21447" name="[legacy] tui-input" x="0" y="0" width="220" height="56" />
+            <frame id="731:21448" name="tui-dropdown " x="0" y="60" width="220" height="248">
+              <instance id="731:21449" name="tui-cell" x="6" y="6" width="208" height="56" />
+              <instance id="731:21450" name="tui-cell" x="6" y="66" width="208" height="56" />
+              <instance id="731:21451" name="tui-cell" x="6" y="126" width="208" height="56" />
+              <instance id="731:21452" name="tui-cell" x="6" y="186" width="208" height="56" />
+            </frame>
+          </frame>
+          <frame id="731:21453" name="dropdown" x="356" y="48" width="220" height="248">
+            <instance id="731:21454" name="[legacy] tui-input" x="0" y="0" width="220" height="44" />
+            <frame id="731:21455" name="tui-dropdown " x="0" y="48" width="220" height="200">
+              <instance id="731:21456" name="tui-cell" x="6" y="6" width="208" height="44" />
+              <instance id="731:21457" name="tui-cell" x="6" y="54" width="208" height="44" />
+              <instance id="731:21458" name="tui-cell" x="6" y="102" width="208" height="44" />
+              <instance id="731:21459" name="tui-cell" x="6" y="150" width="208" height="44" />
+            </frame>
+          </frame>
+          <frame id="731:21460" name="dropdown" x="647" y="50" width="220" height="188">
+            <instance id="731:21461" name="[legacy] tui-input" x="0" y="0" width="220" height="32" />
+            <frame id="731:21462" name="tui-dropdown " x="0" y="36" width="220" height="152">
+              <instance id="731:21463" name="tui-cell" x="6" y="6" width="208" height="32" />
+              <instance id="731:21464" name="tui-cell" x="6" y="42" width="208" height="32" />
+              <instance id="731:21465" name="tui-cell" x="6" y="78" width="208" height="32" />
+              <instance id="731:21466" name="tui-cell" x="6" y="114" width="208" height="32" />
+            </frame>
+          </frame>
+          <instance id="731:21467" name="Inside - Bottom" x="71" y="110" width="10" height="269" />
+          <instance id="731:21468" name="Inside - Bottom" x="362" y="97" width="8" height="219" />
+          <instance id="731:21469" name="Inside - Bottom" x="562" y="97" width="8" height="219" />
+          <instance id="731:21470" name="Inside - Bottom" x="655" y="88" width="4" height="180" />
+          <instance id="731:21471" name="Inside - Bottom" x="860" y="88" width="4" height="180" />
+          <instance id="731:21472" name="Inside - Bottom" x="269" y="110" width="10" height="269" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="26:64448" name="Кастомизация" x="15206" y="100" width="1190" height="3797">
+      <instance id="26:64449" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="26:64453" name="H2 + P" x="128" y="216" width="934" height="120" />
+      <instance id="26:64454" name="Image 1x1" x="128" y="336" width="934" height="452" />
+      <instance id="26:64455" name="H2 + P" x="128" y="788" width="934" height="192" />
+      <instance id="26:64456" name="Image 1x1" x="128" y="980" width="934" height="512" />
+      <instance id="62:75183" name="Paragraph" x="128" y="1492" width="934" height="40" />
+      <instance id="62:75188" name="Image 1x1" x="128" y="1532" width="934" height="362" />
+      <instance id="26:64457" name="H2 + P" x="128" y="1894" width="934" height="144" />
+      <instance id="26:64458" name="Image 1x1" x="128" y="2038" width="934" height="342" />
+      <instance id="41:40067" name="Paragraph" x="128" y="2380" width="934" height="40" />
+      <instance id="41:40071" name="Image 1x1" x="128" y="2420" width="934" height="342" />
+      <instance id="26:64459" name="H2 + P" x="128" y="2762" width="934" height="144" />
+      <instance id="41:13453" name="Image 1x1" x="128" y="2906" width="934" height="542" />
+      <instance id="26:64462" name="H2 + P" x="128" y="3448" width="934" height="120" />
+      <instance id="26:64463" name="List Bulleted" x="128" y="3568" width="934" height="101" />
+    </frame>
+    <frame id="41:13497" name="Как пользоваться в фигме" x="18386" y="100" width="1190" height="2554">
+      <instance id="41:13498" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="41:13499" name="H2 + P" x="128" y="216" width="934" height="168" />
+      <instance id="41:13500" name="Note" x="128" y="384" width="934" height="140" />
+      <instance id="41:41117" name="Image 1x1" x="128" y="524" width="934" height="342" />
+      <instance id="44:44775" name="H2 + P" x="128" y="866" width="934" height="144" />
+      <frame id="67:78821" name="image" x="128" y="1010" width="934" height="368">
+        <frame id="67:78822" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <rounded-rectangle id="68:79502" name="Screenshot 2023-09-08 at 13.26 1" x="422" y="-132" width="236" height="420" />
+          <instance id="67:78824" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+          <rounded-rectangle id="68:79494" name="Screenshot 2023-09-08 at 13.07" x="623" y="57" width="28" height="30" />
+          <rounded-rectangle id="68:79495" name="Screenshot 2023-09-08 at 13.07" x="251" y="121" width="200" height="129" />
+          <rounded-rectangle id="68:79496" name="Screenshot 2023-09-08 at 13.07" x="451" y="93" width="200" height="87" />
+        </frame>
+      </frame>
+      <instance id="44:44779" name="H2 + P" x="128" y="1378" width="934" height="144" />
+      <frame id="67:78897" name="image" x="128" y="1522" width="934" height="368">
+        <frame id="67:78898" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <rounded-rectangle id="68:79503" name="Screenshot 2023-09-08 at 13.26 1" x="426" y="-148" width="236" height="420" />
+          <instance id="67:78899" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+          <rounded-rectangle id="68:79498" name="Screenshot 2023-09-08 at 13.07" x="457" y="77" width="198" height="87" />
+          <rounded-rectangle id="68:79499" name="Screenshot 2023-09-08 at 13.07" x="259" y="129" width="198" height="153" />
+          <rounded-rectangle id="68:79500" name="Screenshot 2023-09-08 at 13.07" x="627" y="43" width="28" height="30" />
+        </frame>
+      </frame>
+      <instance id="48:58778" name="H2 + P" x="128" y="1890" width="934" height="168" />
+      <frame id="67:78950" name="image" x="128" y="2058" width="934" height="368">
+        <frame id="67:78951" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="67:78952" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+          <instance id="67:79461" name="Multiple Instances" x="279" y="120.5" width="375" height="80" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="26:64464" name="Дополнительные возможности" x="16796" y="100" width="1190" height="8925">
+      <instance id="26:64465" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="388:11920" name="Note" x="128" y="216" width="934" height="105" />
+      <instance id="26:64466" name="H2 + P" x="128" y="321" width="934" height="152" />
+      <frame id="45:45160" name="image" x="128" y="473" width="934" height="368">
+        <frame id="45:45184" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="46:45203" name="tui-cell" x="287" y="132" width="360" height="56" />
+          <instance id="46:45675" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+        </frame>
+      </frame>
+      <instance id="26:64468" name="H2 + P" x="128" y="841" width="934" height="124" />
+      <instance id="45:45064" name="List Bulleted" x="128" y="965" width="934" height="101" />
+      <instance id="26:64469" name="Image 2x1" x="128" y="1066" width="934" height="352" />
+      <instance id="41:13489" name="H2 + P" x="128" y="1418" width="934" height="180" />
+      <instance id="41:13490" name="Image 1x1" x="128" y="1598" width="934" height="352" />
+      <instance id="46:48224" name="Paragraph" x="128" y="1950" width="934" height="72" />
+      <instance id="46:48233" name="Image 1x1" x="128" y="2022" width="934" height="352" />
+      <instance id="46:48216" name="H2 + P" x="128" y="2374" width="934" height="180" />
+      <instance id="46:48247" name="Image 1x1" x="128" y="2554" width="934" height="412" />
+      <instance id="5703:12213" name="H2 + P" x="128" y="2966" width="934" height="120" />
+      <instance id="5703:12214" name="Image 1x1" x="128" y="3086" width="934" height="352" />
+      <instance id="47:54252" name="H2 + P" x="128" y="3438" width="934" height="120" />
+      <instance id="47:54253" name="Image 1x1" x="128" y="3558" width="934" height="452" />
+      <instance id="46:48220" name="H2 + P" x="128" y="4010" width="934" height="124" />
+      <instance id="46:48261" name="Image 1x1" x="128" y="4134" width="934" height="352" />
+      <instance id="47:53972" name="H2 + P" x="128" y="4486" width="934" height="180" />
+      <instance id="47:54324" name="Image 1x1" x="128" y="4666" width="934" height="352" />
+      <instance id="11261:28595" name="Paragraph" x="128" y="5018" width="934" height="40" />
+      <instance id="11261:28596" name="Image 1x1" x="128" y="5058" width="934" height="352" />
+      <instance id="10770:20444" name="H2 + P" x="128" y="5410" width="934" height="144" />
+      <instance id="10770:27689" name="Paragraph" x="128" y="5554" width="934" height="40" />
+      <instance id="10770:20445" name="Image 1x1" x="128" y="5594" width="934" height="352" />
+      <instance id="10770:20446" name="H3 + P" x="128" y="5946" width="934" height="104" />
+      <instance id="10770:20447" name="Image 1x1" x="128" y="6050" width="934" height="352" />
+      <instance id="10770:20448" name="Paragraph" x="128" y="6402" width="934" height="40" />
+      <instance id="10770:20449" name="List Bulleted" x="128" y="6442" width="934" height="157" />
+      <instance id="10770:20450" name="Paragraph" x="128" y="6599" width="934" height="40" />
+      <instance id="10770:20451" name="Image 1x1" x="128" y="6639" width="934" height="352" />
+      <instance id="10770:20452" name="Paragraph" x="128" y="6991" width="934" height="40" />
+      <instance id="10770:20453" name="List Numbered" x="128" y="7031" width="934" height="129" />
+      <instance id="10770:20454" name="Image 1x1" x="128" y="7160" width="934" height="352" />
+      <instance id="12170:32065" name="H2 + P" x="128" y="7512" width="934" height="88" />
+      <instance id="17580:17910" name="Paragraph" x="128" y="7600" width="934" height="104" />
+      <instance id="17580:17924" name="Paragraph" x="128" y="7704" width="934" height="64" />
+      <instance id="12170:32066" name="Image 1x1" x="128" y="7768" width="934" height="400" />
+      <instance id="12170:32067" name="H3 + P" x="128" y="8168" width="934" height="128" />
+      <instance id="12170:32069" name="List Numbered" x="128" y="8296" width="934" height="149" />
+      <instance id="12170:32070" name="Image 1x1" x="128" y="8445" width="934" height="352" />
+    </frame>
+    <frame id="731:23518" name="Блок Accessory" x="10436" y="100" width="1190" height="2636">
+      <instance id="731:23519" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="731:23520" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <instance id="731:23521" name="List Bulleted" x="128" y="304" width="934" height="101" />
+      <frame id="731:23522" name="image" x="128" y="405" width="934" height="517">
+        <frame id="731:23523" name="img-placeholder" x="0" y="0" width="934" height="469">
+          <instance id="731:23524" name="tui-cell" x="273" y="95" width="375" height="56" />
+          <instance id="731:23525" name="tui-cell" x="273" y="191" width="375" height="184" />
+          <instance id="731:23526" name="Height - Right" x="637" y="191" width="36" height="55" />
+          <instance id="5255:14695" name="Height - Right" x="637" y="95" width="36" height="56" />
+        </frame>
+      </frame>
+      <instance id="731:23527" name="Paragraph" x="128" y="922" width="934" height="40" />
+      <frame id="731:23528" name="image" x="128" y="962" width="934" height="501">
+        <frame id="731:23529" name="img-placeholder" x="0" y="0" width="934" height="469">
+          <instance id="731:23530" name="tui-cell" x="273" y="95" width="375" height="44" />
+          <instance id="731:23531" name="tui-cell" x="273" y="191" width="375" height="152" />
+          <instance id="731:23532" name="Height - Right" x="638" y="191" width="36" height="55" />
+          <instance id="731:23533" name="Height - Right" x="637" y="95" width="36" height="44" />
+        </frame>
+      </frame>
+      <instance id="731:23534" name="Paragraph" x="128" y="1463" width="934" height="40" />
+      <frame id="731:23535" name="image" x="128" y="1503" width="934" height="517">
+        <frame id="731:23536" name="img-placeholder" x="0" y="0" width="934" height="469">
+          <instance id="731:24126" name="tui-cell" x="273" y="95" width="375" height="80" />
+          <instance id="731:24082" name="tui-cell" x="273" y="191" width="375" height="176" />
+          <instance id="731:23539" name="Height - Right" x="638" y="191" width="36" height="80" />
+          <instance id="30333:17885" name="Height - Right" x="638" y="95" width="36" height="80" />
+        </frame>
+      </frame>
+      <instance id="731:23540" name="H2 + P" x="128" y="2020" width="934" height="120" />
+      <frame id="731:23541" name="image" x="128" y="2140" width="934" height="368">
+        <frame id="731:23542" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <vector id="731:23543" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="731:23544" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="731:23545" name="tui-cell [switch]" x="280" y="132" width="374" height="56" />
+          <instance id="731:23546" name="Width - Top" x="533" y="125" width="16" height="38" />
+          <instance id="731:23547" name="Width - Top" x="493" y="125" width="16" height="38" />
+          <instance id="731:23548" name="Width - Top" x="571" y="125" width="16" height="38" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="731:24168" name="Ресайз и выравнивание" x="12026" y="100" width="1190" height="1776">
+      <instance id="731:24169" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="731:24170" name="H2 + P" x="128" y="216" width="934" height="152" />
+      <instance id="731:24171" name="Image 2x1" x="128" y="368" width="934" height="352" />
+      <instance id="731:24172" name="H2 + P" x="128" y="720" width="934" height="180" />
+      <instance id="731:24173" name="Image 2x1" x="128" y="900" width="934" height="352" />
+      <instance id="731:24174" name="Paragraph" x="128" y="1252" width="934" height="44" />
+      <instance id="731:24175" name="Image 1x1" x="128" y="1296" width="934" height="352" />
+      <vector id="731:24176" name="Vector 11" x="474.75" y="1418" width="272.5" height="0" />
+    </frame>
+    <frame id="95:26686" name="Корнер-кейсы" x="13616" y="100" width="1190" height="1432">
+      <instance id="95:26687" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="95:26688" name="H2 + P" x="128" y="216" width="934" height="180" />
+      <instance id="95:26689" name="Image 1x1" x="128" y="396" width="934" height="432" />
+      <instance id="95:26690" name="Paragraph" x="128" y="828" width="934" height="44" />
+      <instance id="95:26691" name="Image 1x1" x="128" y="872" width="934" height="432" />
+    </frame>
+    <frame id="138:66966" name="Размеры" x="5666" y="100" width="1190" height="1544">
+      <instance id="1471:12889" name="H1 + P" x="128" y="128" width="934" height="180" />
+      <instance id="138:66968" name="H2 + P" x="128" y="308" width="934" height="120" />
+      <instance id="138:66969" name="List Bulleted" x="128" y="428" width="934" height="149" />
+      <frame id="138:66970" name="image" x="128" y="577" width="934" height="399">
+        <frame id="138:66971" name="img-placeholder" x="0" y="0" width="934" height="351">
+          <vector id="138:66972" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="138:66973" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="138:66974" name="tui-cell [switch]" x="287" y="75" width="375" height="56" />
+          <instance id="138:66975" name="tui-cell [switch]" x="287" y="157" width="375" height="44" />
+          <instance id="138:66976" name="tui-cell [switch]" x="287" y="233" width="375" height="36" />
+        </frame>
+      </frame>
+      <instance id="138:66977" name="H2 + P" x="128" y="976" width="934" height="120" />
+      <frame id="138:66978" name="image" x="128" y="1096" width="934" height="320">
+        <frame id="138:66979" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <vector id="138:66980" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="138:66981" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="138:66982" name="tui-cell [switch]" x="280" y="132" width="374" height="56" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="730:17716" name="Построение" x="4076" y="100" width="1190" height="4430">
+      <instance id="730:17717" name="H1 + P" x="128" y="128" width="934" height="136" />
+      <frame id="730:17718" name="image" x="128" y="264" width="934" height="472">
+        <frame id="730:17719" name="img-placeholder" x="0" y="0" width="934" height="424">
+          <vector id="730:17720" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="730:17721" name="end" x="0" y="320" width="760" height="0" />
+          <frame id="730:17722" name="left-content" x="154" y="88" width="634" height="222">
+            <text id="730:17723" name="tui-cell" x="10" y="10" width="37" height="16" />
+            <frame id="730:17724" name="Frame 9" x="10" y="36" width="614" height="176">
+              <frame id="730:17725" name="left-content" x="0" y="0" width="83" height="36">
+                <text id="730:17726" name="LeftContent" x="10" y="10" width="63" height="16" />
+              </frame>
+              <frame id="730:17727" name="left-content" x="92" y="0" width="349" height="176">
+                <text id="730:17728" name="Content" x="10" y="10" width="42" height="16" />
+                <frame id="730:17729" name="Frame 7" x="10" y="30" width="329" height="26">
+                  <frame id="730:17730" name="left-content" x="0" y="0" width="329" height="26">
+                    <text id="730:17731" name="Caption" x="5" y="5" width="41" height="16" />
+                  </frame>
+                </frame>
+                <frame id="730:17732" name="left-content" x="10" y="60" width="329" height="36">
+                  <frame id="730:17733" name="Frame 5" x="5" y="5" width="319" height="26">
+                    <frame id="730:17734" name="left-content" x="0" y="0" width="157.5" height="26">
+                      <text id="730:17735" name="Title (required)" x="5" y="5" width="79" height="16" />
+                    </frame>
+                    <frame id="730:17736" name="left-content" x="161.5" y="0" width="157.5" height="26">
+                      <text id="730:17737" name="Value" x="5" y="5" width="29" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="730:17738" name="left-content" x="10" y="100" width="329" height="36">
+                  <frame id="730:17739" name="Frame 6" x="5" y="5" width="319" height="26">
+                    <frame id="730:17740" name="left-content" x="0" y="0" width="157.5" height="26">
+                      <text id="730:17741" name="Description" x="5" y="5" width="62" height="16" />
+                    </frame>
+                    <frame id="730:17742" name="left-content" x="161.5" y="0" width="157.5" height="26">
+                      <text id="730:17743" name="Value Description" x="5" y="5" width="94" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="730:17744" name="Frame 8" x="10" y="140" width="329" height="26">
+                  <frame id="730:17745" name="left-content" x="0" y="0" width="329" height="26">
+                    <text id="730:17746" name="Additional Content" x="5" y="5" width="99" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="730:17747" name="left-content" x="450" y="0" width="164" height="82">
+                <text id="730:17748" name="Accessories" x="10" y="10" width="65" height="16" />
+                <frame id="730:17749" name="Frame 7" x="10" y="36" width="144" height="36">
+                  <frame id="730:17750" name="left-content" x="0" y="0" width="45.33333206176758" height="36">
+                    <text id="730:17751" name="item" x="10" y="10" width="23" height="16" />
+                  </frame>
+                  <frame id="730:17752" name="left-content" x="49.33333206176758" y="0" width="45.333335876464844" height="36">
+                    <text id="730:17753" name="item" x="10" y="10" width="23" height="16" />
+                  </frame>
+                  <frame id="730:17754" name="left-content" x="98.66667175292969" y="0" width="45.333335876464844" height="36">
+                    <text id="730:17755" name="item" x="10" y="10" width="23" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <instance id="730:17756" name="H2 + P" x="128" y="736" width="934" height="144" />
+      <frame id="730:17757" name="image" x="128" y="880" width="934" height="548">
+        <frame id="730:17758" name="img-placeholder" x="0" y="0" width="934" height="500">
+          <vector id="730:17759" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="730:17760" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="730:17761" name="tui-cell [switch]" x="299" y="133" width="375" height="56" />
+          <instance id="730:17762" name="tui-cell [switch]" x="299" y="247" width="375" height="56" />
+          <instance id="730:17763" name="tui-cell [switch]" x="299" y="340" width="375" height="56" />
+          <instance id="730:17764" name="Width - Centered" x="316" y="102" width="40" height="20" />
+          <instance id="730:17765" name="Width - Centered" x="316" y="220" width="40" height="20" />
+        </frame>
+      </frame>
+      <instance id="730:17766" name="H2 + P" x="128" y="1428" width="934" height="168" />
+      <frame id="730:17767" name="image" x="128" y="1596" width="934" height="485">
+        <frame id="730:17768" name="img-placeholder" x="0" y="0" width="934" height="437">
+          <vector id="730:17769" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="730:17770" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="730:17771" name="tui-cell [switch]" x="280" y="79" width="375" height="56" />
+          <instance id="730:17772" name="tui-cell" x="280" y="185" width="375" height="56" />
+          <instance id="730:17773" name="tui-cell" x="280" y="292" width="375" height="56" />
+        </frame>
+      </frame>
+      <instance id="730:17774" name="[Deprecated] rules-table" x="128" y="2081" width="934" height="104" />
+      <instance id="730:17775" name="[Deprecated] rules-table" x="128" y="2185" width="934" height="104" />
+      <instance id="730:17776" name="[Deprecated] rules-table" x="128" y="2289" width="934" height="104" />
+      <instance id="730:17777" name="[Deprecated] rules-table" x="128" y="2393" width="934" height="128" />
+      <instance id="730:17778" name="[Deprecated] rules-table" x="128" y="2521" width="934" height="128" />
+      <instance id="730:17779" name="tui-spacing" x="128" y="2649" width="934" height="48" />
+      <instance id="730:17780" name="H2 + P" x="128" y="2697" width="934" height="120" />
+      <frame id="730:17781" name="image" x="128" y="2817" width="934" height="509">
+        <frame id="730:17782" name="img-placeholder" x="0" y="0" width="934" height="461">
+          <vector id="730:17783" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="730:17784" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="730:17785" name="tui-cell [switch]" x="280" y="78" width="375" height="56" />
+          <instance id="730:17786" name="tui-cell" x="280" y="327" width="375" height="56" />
+          <instance id="730:17787" name="tui-cell [disclosure]" x="280" y="161" width="375" height="56" />
+          <instance id="730:17788" name="tui-cell [checkbox]" x="280" y="244" width="375" height="56" />
+        </frame>
+      </frame>
+      <instance id="730:17789" name="[Deprecated] rules-table" x="128" y="3326" width="934" height="128" />
+      <instance id="730:17790" name="[Deprecated] rules-table" x="128" y="3454" width="934" height="104" />
+      <instance id="730:17791" name="tui-spacing" x="128" y="3558" width="934" height="48" />
+      <instance id="730:17792" name="H2 + P" x="128" y="3606" width="934" height="144" />
+      <instance id="730:17793" name="Image 1x1" x="128" y="3750" width="934" height="552" />
+    </frame>
+    <frame id="26:64565" name="Примеры использования" x="19976" y="100" width="1190" height="3024">
+      <instance id="26:64566" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="26:64567" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <frame id="46:47607" name="image" x="128" y="304" width="934" height="868">
+        <frame id="46:47663" name="img-placeholder" x="0" y="0" width="934" height="820">
+          <instance id="46:47722" name="tui-bottom-sheet" x="279.5" y="4" width="375" height="812" />
+        </frame>
+      </frame>
+      <instance id="26:64569" name="H2 + P" x="128" y="1172" width="934" height="88" />
+      <instance id="39:10807" name="Image 1x1" x="128" y="1260" width="934" height="542" />
+      <instance id="26:64570" name="H2 + P" x="128" y="1802" width="934" height="88" />
+      <frame id="49:59715" name="image" x="128" y="1890" width="934" height="1006">
+        <frame id="49:59934" name="img-placeholder" x="0" y="0" width="934" height="958">
+          <vector id="49:59935" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="49:59936" name="end" x="0" y="600" width="760" height="0" />
+          <instance id="49:60153" name="template-small-title-cells" x="279" y="73" width="375" height="812" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="730:12025" name="Типы ячеек" x="100" y="100" width="3576" height="1912">
+      <instance id="730:12026" name="H1 + P" x="128" y="128" width="3320" height="88" />
+      <frame id="730:12027" name="row" x="128" y="216" width="3320" height="56">
+        <instance id="730:12028" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+        <instance id="730:12029" name="tui-table-сell" x="310" y="0" width="602" height="56" />
+        <instance id="730:12030" name="tui-table-сell" x="912" y="0" width="602" height="56" />
+        <instance id="730:12031" name="tui-table-сell" x="1514" y="0" width="602" height="56" />
+        <instance id="730:12032" name="tui-table-сell" x="2116" y="0" width="602" height="56" />
+        <instance id="730:12033" name="tui-table-сell" x="2718" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12034" name="row" x="128" y="272" width="3320" height="408">
+        <instance id="730:12035" name="tui-table-сell" x="0" y="0" width="310" height="408" />
+        <frame id="730:12036" name="preview" x="310" y="0" width="3010" height="408">
+          <frame id="730:12037" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12038" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12039" name="tui-cell" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12040" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12041" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12042" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12043" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12044" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12045" name="tui-cell" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12046" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12047" name="tui-cell" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+          <frame id="730:12048" name="row" x="0" y="176" width="3010" height="56">
+            <frame id="730:12049" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12050" name="tui-cell" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12051" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12052" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12053" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12054" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12055" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12056" name="tui-cell" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12057" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12058" name="tui-cell" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+          <frame id="730:12059" name="row" x="0" y="288" width="3010" height="56">
+            <frame id="730:12060" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12061" name="tui-cell" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12062" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12063" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12064" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12065" name="tui-cell" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12066" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12067" name="tui-cell" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12068" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12069" name="tui-cell" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12070" name="row" x="128" y="680" width="3320" height="184">
+        <instance id="730:12071" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12072" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12073" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12074" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12075" name="tui-cell [switch]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12076" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12077" name="tui-cell [switch]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12078" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12079" name="tui-cell [switch]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12080" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12081" name="tui-cell [switch]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12082" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12083" name="tui-cell [switch]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12084" name="row" x="128" y="864" width="3320" height="184">
+        <instance id="730:12085" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12086" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12087" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12088" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12089" name="tui-cell [disclosure]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12090" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12091" name="tui-cell [disclosure]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12092" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12093" name="tui-cell [disclosure]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12094" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12095" name="tui-cell [disclosure]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12096" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12097" name="tui-cell [disclosure]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12098" name="row" x="128" y="1048" width="3320" height="184">
+        <instance id="730:12099" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12100" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12101" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12102" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12103" name="tui-cell [action]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12104" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12105" name="tui-cell [action]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12106" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12107" name="tui-cell [action]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12108" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12109" name="tui-cell [action]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12110" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12111" name="tui-cell [action]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12112" name="row" x="128" y="1232" width="3320" height="184">
+        <instance id="730:12113" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12114" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12115" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12116" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12117" name="tui-cell [checkbox]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12118" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12119" name="tui-cell [checkbox]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12120" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12121" name="tui-cell [checkbox]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12122" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12123" name="tui-cell [checkbox]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12124" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12125" name="tui-cell [checkbox]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12126" name="row" x="128" y="1416" width="3320" height="184">
+        <instance id="730:12127" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12128" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12129" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12130" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12131" name="tui-cell [button]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12132" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12133" name="tui-cell [button]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12134" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12135" name="tui-cell [button]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12136" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12137" name="tui-cell [button]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12138" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12139" name="tui-cell [button]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12140" name="row" x="128" y="1600" width="3320" height="184">
+        <instance id="730:12141" name="tui-table-сell" x="0" y="0" width="310" height="184" />
+        <frame id="730:12142" name="preview" x="310" y="0" width="3010" height="184">
+          <frame id="730:12143" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12144" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12145" name="tui-cell [checkicon]" x="24" y="0" width="374" height="56" />
+            </frame>
+            <frame id="730:12146" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12147" name="tui-cell [checkicon]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12148" name="tui-table сell" x="1204" y="0" width="602" height="56">
+              <instance id="730:12149" name="tui-cell [checkicon]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12150" name="tui-table сell" x="1806" y="0" width="602" height="56">
+              <instance id="730:12151" name="tui-cell [checkicon]" x="24" y="0" width="360" height="44" />
+            </frame>
+            <frame id="730:12152" name="tui-table сell" x="2408" y="0" width="602" height="56">
+              <instance id="730:12153" name="tui-cell [checkicon]" x="24" y="0" width="360" height="36" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="730:12154" name="Типы ячеек" x="100" y="2257" width="3576" height="2172">
+      <instance id="730:12155" name="H1 + P" x="128" y="128" width="3320" height="156" />
+      <frame id="730:12156" name="row" x="128" y="284" width="3320" height="56">
+        <instance id="730:12157" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+        <instance id="730:12158" name="tui-table-сell" x="310" y="0" width="602" height="56" />
+        <instance id="730:12159" name="tui-table-сell" x="912" y="0" width="602" height="56" />
+        <instance id="730:12160" name="tui-table-сell" x="1514" y="0" width="602" height="56" />
+        <instance id="730:12161" name="tui-table-сell" x="2116" y="0" width="602" height="56" />
+        <instance id="730:12162" name="tui-table-сell" x="2718" y="0" width="602" height="56" />
+      </frame>
+      <frame id="730:12163" name="row" x="128" y="340" width="3320" height="480">
+        <instance id="730:12164" name="tui-table-сell" x="0" y="0" width="310" height="480" />
+        <frame id="730:12165" name="preview" x="310" y="0" width="3010" height="480">
+          <frame id="730:12166" name="row" x="0" y="64" width="3010" height="80">
+            <frame id="730:12167" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12168" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12169" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12170" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12171" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12172" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12173" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+          <frame id="730:12174" name="row" x="0" y="200" width="3010" height="80">
+            <frame id="730:12175" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12176" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12177" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12178" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12179" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12180" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12181" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+          <frame id="730:12182" name="row" x="0" y="336" width="3010" height="80">
+            <frame id="730:12183" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12184" name="tui-cell [mobile]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12185" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12186" name="tui-cell [mobile]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12187" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12188" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12189" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12190" name="row" x="128" y="820" width="3320" height="480">
+        <instance id="730:12191" name="tui-table-сell" x="0" y="0" width="310" height="480" />
+        <frame id="730:12192" name="preview" x="310" y="0" width="3010" height="480">
+          <frame id="730:12193" name="row" x="0" y="64" width="3010" height="80">
+            <frame id="730:12194" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12195" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12196" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12197" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12198" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12199" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12200" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+          <frame id="730:12201" name="row" x="0" y="200" width="3010" height="80">
+            <frame id="730:12202" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12203" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12204" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12205" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12206" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12207" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12208" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+          <frame id="730:12209" name="row" x="0" y="336" width="3010" height="80">
+            <frame id="730:12210" name="tui-table сell" x="0" y="0" width="602" height="80">
+              <instance id="730:12211" name="tui-cell [invest]" x="24" y="0" width="375" height="80" />
+            </frame>
+            <frame id="730:12212" name="tui-table сell" x="602" y="0" width="602" height="80">
+              <instance id="730:12213" name="tui-cell [invest]" x="24" y="0" width="360" height="80" />
+            </frame>
+            <frame id="730:12214" name="tui-table сell" x="1204" y="0" width="602" height="80" />
+            <frame id="730:12215" name="tui-table сell" x="1806" y="0" width="602" height="80" />
+            <frame id="730:12216" name="tui-table сell" x="2408" y="0" width="602" height="80" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="730:12217" name="row" x="128" y="1300" width="3320" height="744">
+        <instance id="730:12218" name="tui-table-сell" x="0" y="0" width="310" height="744" />
+        <frame id="730:12219" name="preview" x="310" y="0" width="3010" height="744">
+          <frame id="730:12220" name="row" x="0" y="64" width="3010" height="56">
+            <frame id="730:12221" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12222" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12223" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12224" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12225" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12226" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12227" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+          <frame id="730:12228" name="row" x="0" y="176" width="3010" height="56">
+            <frame id="730:12229" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12230" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12231" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12232" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12233" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12234" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12235" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+          <frame id="730:12236" name="row" x="0" y="288" width="3010" height="56">
+            <frame id="730:12237" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12238" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12239" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12240" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12241" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12242" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12243" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+          <frame id="730:12244" name="row" x="0" y="400" width="3010" height="56">
+            <frame id="730:12245" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12246" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12247" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12248" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12249" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12250" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12251" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+          <frame id="730:12252" name="row" x="0" y="512" width="3010" height="56">
+            <frame id="730:12253" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12254" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12255" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12256" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12257" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12258" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12259" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+          <frame id="730:12260" name="row" x="0" y="624" width="3010" height="56">
+            <frame id="730:12261" name="tui-table сell" x="0" y="0" width="602" height="56">
+              <instance id="730:12262" name="tui-cell [account]" x="24" y="0" width="375" height="56" />
+            </frame>
+            <frame id="730:12263" name="tui-table сell" x="602" y="0" width="602" height="56">
+              <instance id="730:12264" name="tui-cell [account]" x="24" y="0" width="360" height="56" />
+            </frame>
+            <frame id="730:12265" name="tui-table сell" x="1204" y="0" width="602" height="56" />
+            <frame id="730:12266" name="tui-table сell" x="1806" y="0" width="602" height="56" />
+            <frame id="730:12267" name="tui-table сell" x="2408" y="0" width="602" height="56" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </section>
+  <section id="8363:19069" name="Доступность" x="5990" y="3400" width="2980" height="9473">
+    <frame id="8876:21436" name="Озвучка" x="1690" y="100" width="1190" height="8283">
+      <instance id="8876:21437" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="8876:21438" name="List Bulleted" x="128" y="216" width="934" height="97" />
+      <instance id="8876:21439" name="H2 + P" x="128" y="313" width="934" height="120" />
+      <instance id="8876:21440" name="Table Row" x="128" y="433" width="934" height="254" />
+      <instance id="8876:21441" name="Table Row" x="128" y="687" width="934" height="240" />
+      <instance id="8876:21442" name="Table Row" x="128" y="927" width="934" height="218" />
+      <instance id="8876:21443" name="Paragraph" x="128" y="1145" width="934" height="40" />
+      <instance id="8876:21444" name="Table Row" x="128" y="1185" width="934" height="210" />
+      <instance id="12254:18052" name="Paragraph" x="128" y="1395" width="934" height="40" />
+      <instance id="12254:18190" name="Table Row" x="128" y="1435" width="934" height="196" />
+      <instance id="12254:18103" name="Paragraph" x="128" y="1631" width="934" height="64" />
+      <instance id="12254:18144" name="Table Row" x="128" y="1695" width="934" height="218" />
+      <instance id="8876:21445" name="H2 + P" x="128" y="1913" width="934" height="88" />
+      <instance id="8876:21446" name="Table Row" x="128" y="2001" width="934" height="218" />
+      <instance id="8876:21447" name="Table Row" x="128" y="2219" width="934" height="258" />
+      <instance id="8876:21448" name="H2 + P" x="128" y="2477" width="934" height="88" />
+      <instance id="8876:21449" name="Table Row" x="128" y="2565" width="934" height="322" />
+      <instance id="8876:21450" name="Table Row" x="128" y="2887" width="934" height="366" />
+      <instance id="8876:21451" name="H2 + P" x="128" y="3253" width="934" height="88" />
+      <instance id="8876:21452" name="Table Row" x="128" y="3341" width="934" height="218" />
+      <instance id="8876:21453" name="H2 + P" x="128" y="3559" width="934" height="88" />
+      <instance id="8876:21454" name="Table Row" x="128" y="3647" width="934" height="218" />
+      <instance id="8876:21455" name="H2 + P" x="128" y="3865" width="934" height="88" />
+      <instance id="8876:21456" name="Note" x="128" y="3953" width="934" height="104" />
+      <instance id="8876:21457" name="Table Row" x="128" y="4057" width="934" height="214" />
+      <instance id="8876:21458" name="Table Row" x="128" y="4271" width="934" height="254" />
+      <instance id="8876:21459" name="H2 + P" x="128" y="4525" width="934" height="88" />
+      <instance id="8876:21460" name="Table Row" x="128" y="4613" width="934" height="218" />
+      <instance id="8876:21461" name="Table Row" x="128" y="4831" width="934" height="262" />
+      <instance id="8876:21462" name="H2 + P" x="128" y="5093" width="934" height="88" />
+      <instance id="8876:21463" name="Table Row" x="128" y="5181" width="934" height="258" />
+      <instance id="8876:21464" name="Table Row" x="128" y="5439" width="934" height="236" />
+      <instance id="8876:21465" name="Table Row" x="128" y="5675" width="934" height="254" />
+      <instance id="8876:21466" name="Table Row" x="128" y="5929" width="934" height="254" />
+      <instance id="8876:21467" name="Table Row" x="128" y="6183" width="934" height="254" />
+      <instance id="8876:21468" name="Table Row" x="128" y="6437" width="934" height="236" />
+      <instance id="8876:21469" name="H2 + P" x="128" y="6673" width="934" height="88" />
+      <instance id="8876:21470" name="Table Row" x="128" y="6761" width="934" height="236" />
+      <instance id="8876:21471" name="Table Row" x="128" y="6997" width="934" height="196" />
+      <instance id="8876:21472" name="Table Row" x="128" y="7193" width="934" height="254" />
+      <instance id="8876:21473" name="Table Row" x="128" y="7447" width="934" height="196" />
+      <instance id="8876:21474" name="Table Row" x="128" y="7643" width="934" height="276" />
+      <instance id="8876:21475" name="Table Row" x="128" y="7919" width="934" height="236" />
+    </frame>
+    <frame id="26705:16023" name="Увеличение шрифтов" x="96" y="100" width="1190" height="5721">
+      <instance id="26705:16024" name="H1 + P" x="128" y="128" width="934" height="156" />
+      <instance id="26705:16025" name="Note" x="128" y="284" width="934" height="164" />
+      <instance id="26705:16026" name="H2 + P" x="128" y="448" width="934" height="88" />
+      <instance id="26705:16027" name="H3 + P" x="128" y="536" width="934" height="152" />
+      <instance id="26705:16032" name="Image 2x1" x="128" y="688" width="934" height="392">
+        <frame id="I26705:16032;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+          <instance id="I26705:16032;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16032;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16032;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16032;615:2076;33807:8349;26705:16031" name="tui-cell [switch]" x="38" y="132" width="375" height="56" />
+            </slot>
+            <text id="I26705:16032;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16032;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+        <frame id="I26705:16032;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+          <instance id="I26705:16032;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16032;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16032;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16032;615:2079;33807:8349;26705:16029" name="tui-cell [switch]" x="38" y="95" width="375" height="130" />
+            </slot>
+            <text id="I26705:16032;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16032;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+      </instance>
+      <instance id="26705:16033" name="H3 + P" x="128" y="1080" width="934" height="104" />
+      <instance id="26705:16034" name="List Bulleted" x="128" y="1184" width="934" height="73" />
+      <instance id="26705:16039" name="Image 2x1" x="128" y="1257" width="934" height="392">
+        <frame id="I26705:16039;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+          <instance id="I26705:16039;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16039;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16039;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16039;615:2076;33807:8349;26705:16038" name="tui-cell [switch]" x="38" y="132" width="375" height="56" />
+            </slot>
+            <text id="I26705:16039;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16039;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+        <frame id="I26705:16039;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+          <instance id="I26705:16039;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16039;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16039;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16039;615:2079;33807:8349;26705:16036" name="tui-cell [switch]" x="38" y="122.5" width="375" height="75" />
+            </slot>
+            <text id="I26705:16039;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16039;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+      </instance>
+      <instance id="26705:16044" name="Image 2x1" x="128" y="1649" width="934" height="392">
+        <frame id="I26705:16044;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+          <instance id="I26705:16044;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16044;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16044;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16044;615:2076;33807:8349;26705:16043" name="tui-cell [switch]" x="38" y="114" width="375" height="92" />
+            </slot>
+            <text id="I26705:16044;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16044;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+        <frame id="I26705:16044;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+          <instance id="I26705:16044;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+            <instance id="I26705:16044;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+            <slot id="I26705:16044;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+              <instance id="I26705:16044;615:2079;33807:8349;26705:16041" name="tui-cell [switch]" x="38" y="67.5" width="375" height="185" />
+            </slot>
+            <text id="I26705:16044;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+          </instance>
+          <text id="I26705:16044;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+        </frame>
+      </instance>
+      <instance id="26705:16045" name="H2 + P" x="128" y="2041" width="934" height="88" />
+      <instance id="26705:16046" name="H3 + P" x="128" y="2129" width="934" height="152" />
+      <instance id="26705:16047" name="List Bulleted" x="128" y="2281" width="934" height="100" />
+      <instance id="26705:16048" name="Note" x="128" y="2381" width="934" height="140" />
+      <instance id="26705:16049" name="Image 1x1" x="128" y="2521" width="934" height="900" />
+      <instance id="26705:16050" name="Image 1x1" x="128" y="3421" width="934" height="500" />
+      <instance id="26705:16051" name="H3 + P" x="128" y="3921" width="934" height="152" />
+      <instance id="26705:16052" name="List Bulleted" x="128" y="4073" width="934" height="100" />
+      <instance id="26705:16053" name="Image 1x1" x="128" y="4173" width="934" height="900" />
+      <instance id="26705:16054" name="Image 1x1" x="128" y="5073" width="934" height="520" />
+    </frame>
+  </section>
+  <section id="26:64358" name="Поведение" x="818" y="3400" width="4570" height="3762">
+    <frame id="734:25300" name="Взаимодействие на мобиле" x="1690" y="100" width="1190" height="2934">
+      <instance id="734:25301" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="734:25302" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <instance id="734:25303" name="List Bulleted" x="128" y="304" width="934" height="101" />
+      <instance id="734:25304" name="H3 + P" x="128" y="405" width="934" height="136" />
+      <instance id="734:25305" name="Image 2x1" x="128" y="541" width="934" height="432" />
+      <instance id="734:25306" name="H3 + P" x="128" y="973" width="934" height="136" />
+      <frame id="734:25307" name="image-2x1" x="128" y="1109" width="934" height="448">
+        <frame id="734:25308" name="image-1" x="0" y="0" width="451" height="400">
+          <frame id="734:25309" name="img-placeholder" x="0" y="0" width="451" height="400">
+            <vector id="734:25310" name="start" x="0" y="0" width="760" height="0" />
+            <vector id="734:25311" name="end" x="0" y="400" width="760" height="0" />
+            <instance id="734:25312" name="Multiple Instances" x="65.5" y="80.5" width="320" height="240" />
+            <frame id="734:25313" name="ripple" x="81" y="193" width="288" height="56">
+              <ellipse id="734:25314" name="ripple" x="114" y="-78" width="212" height="212" />
+            </frame>
+          </frame>
+          <text id="734:25315" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+        </frame>
+        <frame id="734:25316" name="image-2" x="483" y="0" width="451" height="400">
+          <frame id="734:25317" name="img-placeholder" x="0" y="0" width="451" height="400">
+            <vector id="734:25318" name="start" x="0" y="0" width="760" height="0" />
+            <vector id="734:25319" name="end" x="0" y="400" width="760" height="0" />
+            <instance id="734:25320" name="Multiple Instances" x="65.5" y="80.5" width="320" height="240" />
+            <frame id="734:25321" name="ripple" x="81" y="193" width="288" height="56">
+              <ellipse id="734:25322" name="ripple" x="114" y="-78" width="212" height="212" />
+            </frame>
+          </frame>
+          <text id="734:25323" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+        </frame>
+      </frame>
+      <instance id="734:25324" name="H2 + P" x="128" y="1557" width="934" height="124" />
+      <instance id="734:25325" name="List Bulleted" x="128" y="1681" width="934" height="101" />
+      <frame id="734:25326" name="image" x="128" y="1782" width="934" height="368">
+        <frame id="734:25327" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <vector id="734:25328" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="734:25329" name="end" x="0" y="320" width="760" height="0" />
+          <instance id="734:25330" name="Multiple Instances" x="279" y="64.5" width="375" height="192" />
+          <instance id="734:25331" name="tui-tooltip" x="352" y="92" width="294" height="58" />
+        </frame>
+      </frame>
+      <instance id="734:25332" name="H2 + P" x="128" y="2150" width="934" height="180" />
+      <instance id="734:25333" name="Image 1x1" x="128" y="2330" width="934" height="352" />
+      <instance id="734:25334" name="H2 + P" x="128" y="2682" width="934" height="124" />
+    </frame>
+    <frame id="734:24352" name="Взаимодействие на десктопе" x="100" y="100" width="1190" height="3534">
+      <instance id="734:24353" name="H1 + P" x="128" y="128" width="934" height="132" />
+      <instance id="734:24354" name="List Bulleted" x="128" y="260" width="934" height="121" />
+      <instance id="734:24355" name="H2 + P" x="128" y="381" width="934" height="124" />
+      <instance id="734:24356" name="List Bulleted" x="128" y="505" width="934" height="157" />
+      <frame id="734:24357" name="image" x="128" y="662" width="934" height="402">
+        <frame id="734:24358" name="img-placeholder" x="0" y="0" width="934" height="354">
+          <instance id="734:24359" name="tui-cell" x="280" y="119" width="375" height="80" />
+          <instance id="734:24360" name="[deprecated] Hand Pointer" x="487" y="174" width="21" height="22" />
+        </frame>
+      </frame>
+      <instance id="734:24361" name="H2 + P" x="128" y="1064" width="934" height="124" />
+      <instance id="734:24362" name="List Bulleted" x="128" y="1188" width="934" height="157" />
+      <frame id="734:24363" name="image" x="128" y="1345" width="934" height="472">
+        <frame id="734:24364" name="img-placeholder" x="0" y="0" width="934" height="424">
+          <frame id="734:24365" name="Frame 9" x="280" y="86" width="375" height="240">
+            <instance id="734:24366" name="tui-cell" x="0" y="0" width="375" height="80" />
+            <instance id="734:24367" name="tui-cell" x="0" y="80" width="375" height="80" />
+            <instance id="734:24368" name="tui-cell" x="0" y="160" width="375" height="80" />
+          </frame>
+          <instance id="734:24369" name="tui-tooltip" x="546" y="132" width="55" height="47.99590301513672" />
+          <instance id="734:24370" name="[deprecated] Hand Pointer" x="577" y="214" width="21" height="22" />
+        </frame>
+      </frame>
+      <instance id="734:24371" name="Paragraph" x="128" y="1817" width="934" height="40" />
+      <frame id="734:24372" name="image" x="128" y="1857" width="934" height="472">
+        <frame id="734:24373" name="img-placeholder" x="0" y="0" width="934" height="424">
+          <frame id="734:24374" name="Frame 7" x="99" y="105.71337890625" width="308" height="132">
+            <instance id="734:24375" name="tui-cell" x="0" y="0" width="308" height="44" />
+            <instance id="734:24376" name="tui-cell" x="0" y="44" width="308" height="44" />
+            <instance id="734:24377" name="tui-cell" x="0" y="88" width="308" height="44" />
+          </frame>
+          <frame id="734:24378" name="Frame 8" x="498" y="118" width="308" height="114">
+            <instance id="734:24379" name="tui-cell" x="0" y="0" width="308" height="36" />
+            <instance id="734:24380" name="tui-cell" x="0" y="39" width="308" height="36" />
+            <instance id="734:24381" name="tui-cell" x="0" y="78" width="308" height="36" />
+          </frame>
+          <instance id="734:24382" name="tui-tooltip" x="319" y="102" width="55" height="47.99590301513672" />
+          <instance id="734:24383" name="tui-tooltip" x="726" y="117" width="55" height="47.99590301513672" />
+          <instance id="734:24384" name="[deprecated] Hand Pointer" x="338" y="214" width="21" height="22" />
+          <instance id="734:24385" name="[deprecated] Hand Pointer" x="747" y="189" width="21" height="22" />
+        </frame>
+      </frame>
+      <instance id="734:24386" name="H2 + P" x="128" y="2329" width="934" height="88" />
+      <instance id="734:24387" name="List Bulleted" x="128" y="2417" width="934" height="73" />
+      <frame id="734:24388" name="image" x="128" y="2490" width="934" height="438">
+        <frame id="734:24389" name="img-placeholder" x="0" y="0" width="934" height="390">
+          <instance id="734:24390" name="tui-cell" x="285" y="200" width="334" height="64" />
+          <instance id="734:24391" name="tui-cell" x="285" y="114" width="334" height="64" />
+          <instance id="734:24392" name="[deprecated] Hand Pointer" x="588" y="233" width="21" height="22" />
+          <instance id="734:24393" name="tui-tooltip" x="567" y="172" width="55" height="47.99590301513672" />
+        </frame>
+      </frame>
+      <instance id="734:24394" name="Paragraph" x="128" y="2928" width="934" height="40" />
+      <frame id="734:24395" name="image" x="128" y="2968" width="934" height="438">
+        <frame id="734:24396" name="img-placeholder" x="0" y="0" width="934" height="390">
+          <instance id="734:24397" name="tui-cell" x="287" y="158" width="334" height="64" />
+          <rounded-rectangle id="734:24398" name="Rectangle 1723" x="589" y="158" width="16" height="64" />
+          <rounded-rectangle id="734:24399" name="Rectangle 1724" x="589" y="158" width="8" height="64" />
+          <rounded-rectangle id="734:24400" name="Rectangle 1725" x="613" y="158" width="8" height="64" />
+          <instance id="734:24401" name="[deprecated] Hand Pointer" x="594" y="200" width="21" height="22" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="70:90403" name="Анимация" x="3280" y="100" width="1190" height="698">
+      <instance id="70:90404" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="70:90405" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <instance id="78:98420" name="List Bulleted" x="128" y="304" width="934" height="73" />
+      <instance id="70:90645" name="H2 + P" x="128" y="377" width="934" height="120" />
+      <instance id="78:98386" name="List Bulleted" x="128" y="497" width="934" height="73" />
+    </frame>
+  </section>
+  <frame id="6310:11997" name="Изменения" x="9572" y="3519" width="976" height="1778">
+    <instance id="6310:11998" name="H1 + P" x="128" y="128" width="720" height="88" />
+    <frame id="6310:11999" name="Items" x="128" y="216" width="720" height="1434">
+      <instance id="30514:13519" name="changelog-item" x="0" y="0" width="720" height="142" />
+      <instance id="30843:13560" name="changelog-item" x="0" y="154" width="720" height="142" />
+      <instance id="12254:18258" name="changelog-item" x="0" y="308" width="720" height="142" />
+      <instance id="26705:15673" name="changelog-item" x="0" y="462" width="720" height="142" />
+      <instance id="14288:18813" name="changelog-item" x="0" y="616" width="720" height="142" />
+      <instance id="12552:32154" name="changelog-item" x="0" y="770" width="720" height="122" />
+      <instance id="12254:18274" name="changelog-item" x="0" y="904" width="720" height="142" />
+      <instance id="12170:32698" name="changelog-item" x="0" y="1058" width="720" height="142" />
+      <instance id="11046:17503" name="changelog-item" x="0" y="1212" width="720" height="122" />
+      <instance id="6310:12000" name="[deprecated] changelog-v1" x="0" y="1346" width="720" height="88" />
+    </frame>
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

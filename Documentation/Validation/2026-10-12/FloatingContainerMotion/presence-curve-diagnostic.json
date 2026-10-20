@@ -1,0 +1,340 @@
+{
+  "scope": "Source cubic curves versus unshifted native yellow bounds; diagnostic, not full acceptance",
+  "results": [
+    {
+      "event": "show-primary",
+      "curve": [
+        0.35,
+        1.3,
+        0.25,
+        1
+      ],
+      "durationSeconds": 0.5,
+      "restTopPoints": 760,
+      "screenBottomPoints": 874,
+      "temporalAlignment": "No fitting or shifting; first rendered source stage is time zero, uncertainty is native frame interval",
+      "maxAbsoluteErrorPoints": 8.641617535119394,
+      "rmsErrorPoints": 3.570588042373464,
+      "samples": [
+        {
+          "elapsed": 0.026666666666667282,
+          "actualTop": 860.0,
+          "expectedTop": 851.3985970356671,
+          "error": 8.60140296433292,
+          "frame": "frame-00096.png"
+        },
+        {
+          "elapsed": 0.043333333333333,
+          "actualTop": 846.0,
+          "expectedTop": 837.3583824648806,
+          "error": 8.641617535119394,
+          "frame": "frame-00097.png"
+        },
+        {
+          "elapsed": 0.05833333333333357,
+          "actualTop": 832.0,
+          "expectedTop": 824.9223804526334,
+          "error": 7.077619547366567,
+          "frame": "frame-00098.png"
+        },
+        {
+          "elapsed": 0.07499999999999929,
+          "actualTop": 818.3333333333334,
+          "expectedTop": 811.5468835966733,
+          "error": 6.7864497366600744,
+          "frame": "frame-00099.png"
+        },
+        {
+          "elapsed": 0.09333333333333371,
+          "actualTop": 805.3333333333334,
+          "expectedTop": 797.780350205332,
+          "error": 7.552983128001415,
+          "frame": "frame-00100.png"
+        },
+        {
+          "elapsed": 0.1083333333333325,
+          "actualTop": 793.3333333333334,
+          "expectedTop": 787.6674312473543,
+          "error": 5.665902085979042,
+          "frame": "frame-00101.png"
+        },
+        {
+          "elapsed": 0.125,
+          "actualTop": 782.6666666666666,
+          "expectedTop": 778.0984441232812,
+          "error": 4.5682225433854455,
+          "frame": "frame-00102.png"
+        },
+        {
+          "elapsed": 0.1416666666666675,
+          "actualTop": 774.0,
+          "expectedTop": 770.5847965553071,
+          "error": 3.4152034446929065,
+          "frame": "frame-00103.png"
+        },
+        {
+          "elapsed": 0.16000000000000014,
+          "actualTop": 767.6666666666666,
+          "expectedTop": 764.6816791437831,
+          "error": 2.984987522883557,
+          "frame": "frame-00104.png"
+        },
+        {
+          "elapsed": 0.17666666666666586,
+          "actualTop": 763.3333333333334,
+          "expectedTop": 761.1360919315676,
+          "error": 2.197241401765723,
+          "frame": "frame-00105.png"
+        },
+        {
+          "elapsed": 0.19333333333333336,
+          "actualTop": 760.0,
+          "expectedTop": 758.8957408790111,
+          "error": 1.1042591209888997,
+          "frame": "frame-00106.png"
+        },
+        {
+          "elapsed": 0.20999999999999908,
+          "actualTop": 758.3333333333334,
+          "expectedTop": 757.5785651749926,
+          "error": 0.7547681583407666,
+          "frame": "frame-00107.png"
+        },
+        {
+          "elapsed": 0.22666666666666657,
+          "actualTop": 757.3333333333334,
+          "expectedTop": 756.8891698577985,
+          "error": 0.44416347553487867,
+          "frame": "frame-00108.png"
+        },
+        {
+          "elapsed": 0.24333333333333407,
+          "actualTop": 756.6666666666666,
+          "expectedTop": 756.6167651495119,
+          "error": 0.049901517154694375,
+          "frame": "frame-00109.png"
+        },
+        {
+          "elapsed": 0.2599999999999998,
+          "actualTop": 756.6666666666666,
+          "expectedTop": 756.6159520273536,
+          "error": 0.05071463931301423,
+          "frame": "frame-00110.png"
+        },
+        {
+          "elapsed": 0.27833333333333243,
+          "actualTop": 756.6666666666666,
+          "expectedTop": 756.8112697602302,
+          "error": -0.14460309356354628,
+          "frame": "frame-00111.png"
+        },
+        {
+          "elapsed": 0.293333333333333,
+          "actualTop": 757.0,
+          "expectedTop": 757.063452846484,
+          "error": -0.0634528464839832,
+          "frame": "frame-00112.png"
+        },
+        {
+          "elapsed": 0.3116666666666674,
+          "actualTop": 757.3333333333334,
+          "expectedTop": 757.4324957367248,
+          "error": -0.09916240339146043,
+          "frame": "frame-00113.png"
+        },
+        {
+          "elapsed": 0.3266666666666662,
+          "actualTop": 757.6666666666666,
+          "expectedTop": 757.7566261349256,
+          "error": -0.08995946825893952,
+          "frame": "frame-00114.png"
+        },
+        {
+          "elapsed": 0.34500000000000064,
+          "actualTop": 758.0,
+          "expectedTop": 758.1547603682276,
+          "error": -0.15476036822758488,
+          "frame": "frame-00115.png"
+        },
+        {
+          "elapsed": 0.35999999999999943,
+          "actualTop": 758.3333333333334,
+          "expectedTop": 758.4686771585261,
+          "error": -0.13534382519276278,
+          "frame": "frame-00116.png"
+        },
+        {
+          "elapsed": 0.3766666666666669,
+          "actualTop": 758.6666666666666,
+          "expectedTop": 758.7946142842939,
+          "error": -0.12794761762722828,
+          "frame": "frame-00117.png"
+        },
+        {
+          "elapsed": 0.39333333333333265,
+          "actualTop": 759.0,
+          "expectedTop": 759.0891347457041,
+          "error": -0.08913474570408653,
+          "frame": "frame-00118.png"
+        },
+        {
+          "elapsed": 0.41000000000000014,
+          "actualTop": 759.3333333333334,
+          "expectedTop": 759.3469331662052,
+          "error": -0.013599832871818762,
+          "frame": "frame-00119.png"
+        },
+        {
+          "elapsed": 0.4299999999999997,
+          "actualTop": 759.3333333333334,
+          "expectedTop": 759.6028512293703,
+          "error": -0.26951789603697307,
+          "frame": "frame-00120.png"
+        },
+        {
+          "elapsed": 0.4466666666666672,
+          "actualTop": 760.0,
+          "expectedTop": 759.7689388615329,
+          "error": 0.23106113846711196,
+          "frame": "frame-00121.png"
+        },
+        {
+          "elapsed": 0.461666666666666,
+          "actualTop": 760.0,
+          "expectedTop": 759.8805535241039,
+          "error": 0.11944647589609758,
+          "frame": "frame-00122.png"
+        },
+        {
+          "elapsed": 0.4800000000000004,
+          "actualTop": 760.0,
+          "expectedTop": 759.9675048358478,
+          "error": 0.03249516415223752,
+          "frame": "frame-00123.png"
+        },
+        {
+          "elapsed": 0.49666666666666615,
+          "actualTop": 760.0,
+          "expectedTop": 759.9990988594102,
+          "error": 0.0009011405898036173,
+          "frame": "frame-00124.png"
+        },
+        {
+          "elapsed": 0.5133333333333336,
+          "actualTop": 760.0,
+          "expectedTop": 760.0,
+          "error": 0.0,
+          "frame": "frame-00125.png"
+        }
+      ]
+    },
+    {
+      "event": "hide-primary",
+      "curve": [
+        0.2,
+        0,
+        1,
+        1
+      ],
+      "durationSeconds": 0.2,
+      "restTopPoints": 760,
+      "screenBottomPoints": 874,
+      "temporalAlignment": "No fitting or shifting; first rendered source stage is time zero, uncertainty is native frame interval",
+      "maxAbsoluteErrorPoints": 9.047413391463579,
+      "rmsErrorPoints": 6.231768797116357,
+      "samples": [
+        {
+          "elapsed": 0.0,
+          "actualTop": 760.0,
+          "expectedTop": 760.0,
+          "error": 0.0,
+          "frame": "frame-00282.png"
+        },
+        {
+          "elapsed": 0.00833333333333286,
+          "actualTop": 760.0,
+          "expectedTop": 761.1574332573238,
+          "error": -1.1574332573237598,
+          "frame": "frame-00283.png"
+        },
+        {
+          "elapsed": 0.026666666666667282,
+          "actualTop": 764.0,
+          "expectedTop": 767.5632293292184,
+          "error": -3.563229329218416,
+          "frame": "frame-00284.png"
+        },
+        {
+          "elapsed": 0.043333333333333,
+          "actualTop": 770.6666666666666,
+          "expectedTop": 775.3660075756334,
+          "error": -4.699340908966747,
+          "frame": "frame-00285.png"
+        },
+        {
+          "elapsed": 0.06333333333333258,
+          "actualTop": 778.6666666666666,
+          "expectedTop": 786.0063168279098,
+          "error": -7.339650161243185,
+          "frame": "frame-00286.png"
+        },
+        {
+          "elapsed": 0.07666666666666444,
+          "actualTop": 788.0,
+          "expectedTop": 793.6123952613028,
+          "error": -5.612395261302822,
+          "frame": "frame-00287.png"
+        },
+        {
+          "elapsed": 0.09166666666666501,
+          "actualTop": 797.6666666666666,
+          "expectedTop": 802.5312558925859,
+          "error": -4.864589225919303,
+          "frame": "frame-00288.png"
+        },
+        {
+          "elapsed": 0.10999999999999943,
+          "actualTop": 807.6666666666666,
+          "expectedTop": 813.8465859510131,
+          "error": -6.179919284346511,
+          "frame": "frame-00289.png"
+        },
+        {
+          "elapsed": 0.12666666666666515,
+          "actualTop": 818.0,
+          "expectedTop": 824.4572934881472,
+          "error": -6.457293488147229,
+          "frame": "frame-00290.png"
+        },
+        {
+          "elapsed": 0.14499999999999957,
+          "actualTop": 828.6666666666666,
+          "expectedTop": 836.4301541169996,
+          "error": -7.763487450332946,
+          "frame": "frame-00291.png"
+        },
+        {
+          "elapsed": 0.1616666666666653,
+          "actualTop": 840.0,
+          "expectedTop": 847.557375676143,
+          "error": -7.55737567614301,
+          "frame": "frame-00292.png"
+        },
+        {
+          "elapsed": 0.17999999999999972,
+          "actualTop": 851.0,
+          "expectedTop": 860.0474133914636,
+          "error": -9.047413391463579,
+          "frame": "frame-00293.png"
+        },
+        {
+          "elapsed": 0.19666666666666544,
+          "actualTop": 862.6666666666666,
+          "expectedTop": 871.6428084840836,
+          "error": -8.976141817416988,
+          "frame": "frame-00294.png"
+        }
+      ]
+    }
+  ]
+}

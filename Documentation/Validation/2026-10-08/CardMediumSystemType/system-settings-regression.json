@@ -1,0 +1,25 @@
+{
+  "device": "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+  "originalCategory": "large",
+  "runs": [
+    {
+      "category": "large",
+      "observedCategory": "large",
+      "exitCode": 0,
+      "resultBundle": "/private/tmp/tui-card-medium-system-large-regression-2026-10-08.xcresult"
+    },
+    {
+      "category": "accessibility-medium",
+      "observedCategory": "accessibility-medium",
+      "exitCode": 0,
+      "resultBundle": "/private/tmp/tui-card-medium-system-accessibility-medium-regression-2026-10-08.xcresult"
+    },
+    {
+      "category": "accessibility-extra-extra-extra-large",
+      "observedCategory": "accessibility-extra-extra-extra-large",
+      "exitCode": 0,
+      "resultBundle": "/private/tmp/tui-card-medium-system-accessibility-extra-extra-extra-large-regression-2026-10-08.xcresult"
+    }
+  ],
+  "restoredCategory": "large"
+}

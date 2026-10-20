@@ -1,0 +1,828 @@
+{
+  "capture" : "Active UIWindow.drawHierarchy; native editor model\/presentation bounds from CADisplayLink",
+  "events" : [
+    {
+      "elapsed" : 0.30827658333146246,
+      "name" : "first"
+    },
+    {
+      "elapsed" : 1.1748803333321121,
+      "name" : "repeated"
+    },
+    {
+      "elapsed" : 1.9078870833327528,
+      "name" : "focus-only"
+    },
+    {
+      "elapsed" : 2.6295273750001797,
+      "name" : "reset"
+    }
+  ],
+  "frames" : [
+    {
+      "elapsed" : 0.032075208335299976,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.14886779166408814,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.1652761666700826,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.18195229166303761,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.19862512499821605,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.21527054166654125,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.23196308332990156,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.24861450000025798,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.26531899999827147,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.28197220833681058,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.29862437499832595,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.35000845833565108,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.36528008332970785,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.38253912499931175,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.40019824999762932,
+      "isFirstResponder" : false,
+      "modelX" : 52.666666666666664,
+      "renderedX" : 52.666666666666664,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.41686362500331597,
+      "isFirstResponder" : false,
+      "modelX" : 52.333333333333329,
+      "renderedX" : 52.333333333333329,
+      "renderedY" : 419.6514949798584
+    },
+    {
+      "elapsed" : 0.43281333333288785,
+      "isFirstResponder" : false,
+      "modelX" : 51.666666666666664,
+      "renderedX" : 51.666666666666664,
+      "renderedY" : 417.55138683319092
+    },
+    {
+      "elapsed" : 0.45025312499637948,
+      "isFirstResponder" : false,
+      "modelX" : 50.666666666666664,
+      "renderedX" : 50.666666666666664,
+      "renderedY" : 415.62593555450439
+    },
+    {
+      "elapsed" : 0.46650362500076881,
+      "isFirstResponder" : false,
+      "modelX" : 50,
+      "renderedX" : 50,
+      "renderedY" : 413.84970664978027
+    },
+    {
+      "elapsed" : 0.48351708333211718,
+      "isFirstResponder" : false,
+      "modelX" : 51.666666666666664,
+      "renderedX" : 51.666666666666664,
+      "renderedY" : 412.20850086212158
+    },
+    {
+      "elapsed" : 0.49899983333307318,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 410.69310569763184
+    },
+    {
+      "elapsed" : 0.51587941666366532,
+      "isFirstResponder" : false,
+      "modelX" : 55,
+      "renderedX" : 55,
+      "renderedY" : 409.29705238342285
+    },
+    {
+      "elapsed" : 0.53193233333149692,
+      "isFirstResponder" : false,
+      "modelX" : 55.333333333333329,
+      "renderedX" : 55.333333333333329,
+      "renderedY" : 408.01561450958252
+    },
+    {
+      "elapsed" : 0.54982408333307831,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 406.84518718719482
+    },
+    {
+      "elapsed" : 0.56607287500082748,
+      "isFirstResponder" : false,
+      "modelX" : 52.333333333333329,
+      "renderedX" : 52.333333333333329,
+      "renderedY" : 405.78298664093018
+    },
+    {
+      "elapsed" : 0.58319758333527716,
+      "isFirstResponder" : false,
+      "modelX" : 50.666666666666664,
+      "renderedX" : 50.666666666666664,
+      "renderedY" : 404.82682991027832
+    },
+    {
+      "elapsed" : 0.59984037499816623,
+      "isFirstResponder" : false,
+      "modelX" : 50.666666666666664,
+      "renderedX" : 50.666666666666664,
+      "renderedY" : 403.97501468658447
+    },
+    {
+      "elapsed" : 0.61637304166652029,
+      "isFirstResponder" : false,
+      "modelX" : 52,
+      "renderedX" : 52,
+      "renderedY" : 403.22623920440674
+    },
+    {
+      "elapsed" : 0.63353212500078371,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 402.57944202423096
+    },
+    {
+      "elapsed" : 0.64928162500291364,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 402.03390216827393
+    },
+    {
+      "elapsed" : 0.66525670833652839,
+      "isFirstResponder" : false,
+      "modelX" : 55.333333333333329,
+      "renderedX" : 55.333333333333329,
+      "renderedY" : 401.58901882171631
+    },
+    {
+      "elapsed" : 0.68332129166810773,
+      "isFirstResponder" : false,
+      "modelX" : 56,
+      "renderedX" : 56,
+      "renderedY" : 401.24445152282715
+    },
+    {
+      "elapsed" : 0.69959670833486598,
+      "isFirstResponder" : false,
+      "modelX" : 55.333333333333329,
+      "renderedX" : 55.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.71559295833139913,
+      "isFirstResponder" : false,
+      "modelX" : 55,
+      "renderedX" : 55,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.73224133333133068,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.74958912500005681,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.76609704166912707,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.78259212499688147,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.79863699999987148,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.81681979166751262,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.83287112499965588,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.94866249999904539,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.9661956249983632,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.98357870833569905,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.99973112499719718,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0161292499979027,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0327908749968628,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0492062083358178,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0652889999983017,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.083461249996617,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0993609583310899,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.115511541669548,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1319274166671676,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1502056250028545,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.166872958332533,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1986465833324473,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2153093333326979,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2319502083337284,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2486476249978296,
+      "isFirstResponder" : false,
+      "modelX" : 52.666666666666664,
+      "renderedX" : 52.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.265326583335991,
+      "isFirstResponder" : false,
+      "modelX" : 52,
+      "renderedX" : 52,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2819938749962603,
+      "isFirstResponder" : false,
+      "modelX" : 51.333333333333329,
+      "renderedX" : 51.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2986627916689031,
+      "isFirstResponder" : false,
+      "modelX" : 50.333333333333329,
+      "renderedX" : 50.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3152860833361046,
+      "isFirstResponder" : false,
+      "modelX" : 51,
+      "renderedX" : 51,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3319630833357223,
+      "isFirstResponder" : false,
+      "modelX" : 52.666666666666664,
+      "renderedX" : 52.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3486327499995241,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3653872499999125,
+      "isFirstResponder" : false,
+      "modelX" : 55.333333333333329,
+      "renderedX" : 55.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3826049166673329,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3986442500026897,
+      "isFirstResponder" : false,
+      "modelX" : 55,
+      "renderedX" : 55,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4207649166637566,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4320011666641221,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4492123750023893,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4652786250007921,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4819496249983786,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4986525416679797,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5153324166676612,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5320049166693934,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5486498750033206,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5653091249987483,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5819852916683885,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5986662083305418,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6153222499997355,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6319580416675308,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.648662041669013,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7820014166645706,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8002239583365736,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8164627916630707,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8335382500008564,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8492213333302061,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8664273333342862,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8833800416687154,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8995949583331821,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.3979726249963278,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.4370139166640001,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.4501652083345107,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.5652753333342844,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.5819446250025067,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.5986053750020801,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.6293716666696128,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.6500260833345237,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.6986230416659964,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.7213719166684314,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.7319320000024163,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401.78111934661865
+    },
+    {
+      "elapsed" : 2.7486743749977904,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 403.5739107131958
+    },
+    {
+      "elapsed" : 2.7653279166697757,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 405.73143672943115
+    },
+    {
+      "elapsed" : 2.7819792916634469,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 408.09434127807617
+    },
+    {
+      "elapsed" : 2.7986507916648407,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 410.59603404998779
+    },
+    {
+      "elapsed" : 2.8153156249973108,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 413.20172786712646
+    },
+    {
+      "elapsed" : 2.8319880416675005,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 415.89155578613281
+    },
+    {
+      "elapsed" : 2.8486886666651117,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 418.65474319458008
+    },
+    {
+      "elapsed" : 2.8653708749989164,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 421.49088954925537
+    },
+    {
+      "elapsed" : 2.8820255000027828,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 2.8986362083305721,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 2.9153264166670851,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 2.9319767916676938,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    }
+  ],
+  "scale" : 3,
+  "screenshotNames" : [
+    "frame-1.png",
+    "frame-41.png",
+    "frame-83.png",
+    "frame-94.png"
+  ]
+}

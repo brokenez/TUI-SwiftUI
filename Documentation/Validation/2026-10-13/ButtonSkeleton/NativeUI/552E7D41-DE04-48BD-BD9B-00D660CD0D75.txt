@@ -1,0 +1,33 @@
+Attributes: Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x113c5a940, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113c5a800, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113c59040, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113c59180, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113c588c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113c5ae40, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x113c5ad00, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Skeleton motion QA'
+                  StaticText, 0x113c5a440, {{122.3, 73.7}, {157.0, 20.7}}, label: 'Skeleton motion QA'
+                Other, 0x113c5a300, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113c59f40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113c59a40, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113c58280, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x113c583c0, {{150.0, 335.3}, {102.0, 20.3}}, label: 'Scene: active'
+                        StaticText, 0x113c58dc0, {{128.7, 387.7}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x113c5af80, {{98.2, 440.0}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x113c58640, {{119.5, 492.3}, {31.0, 20.3}}, label: 'Live'
+                        Other, 0x113c5a6c0, {{115.0, 528.7}, {40.0, 40.0}}
+                        Other, 0x113c5a580, {{89.0, 590.7}, {92.0, 24.0}}
+                        StaticText, 0x113c59400, {{245.0, 492.3}, {44.0, 20.3}}, label: 'Static'
+                        Other, 0x113c5a1c0, {{247.0, 528.7}, {40.0, 40.0}}
+                        Other, 0x113c59680, {{221.0, 590.7}, {92.0, 24.0}}
+                Other, 0x113c5abc0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113c5aa80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x113c58780, pid: 37900, label: 'TUIDesignSystemCatalog'
+  }

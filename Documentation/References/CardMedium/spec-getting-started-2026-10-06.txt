@@ -1,0 +1,87 @@
+export default function GettingStarted() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative rounded-[24px] size-full" data-node-id="1:14905" data-name="Getting Started">
+      <div className="bg-black h-[290px] relative shrink-0 w-[480px]" data-node-id="1:14906" data-name="thumbnail">
+        <div className="absolute content-stretch flex gap-[8.905px] items-start left-[16px] top-[21px]" data-node-id="1:14909" data-name="Tags">
+          <div className="bg-[rgba(255,255,255,0.1)] content-stretch flex items-start px-[8px] py-[4px] relative rounded-[4px] shrink-0" data-node-id="1:14910" data-name="[deprecated] tui-tag">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1:14910;34:15043" data-name="LabelCont">
+              <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Medium'] justify-center leading-[0] not-italic relative shrink-0 text-[15px] text-white whitespace-nowrap" data-node-id="I1:14910;34:15044">
+                <p className="leading-[20px]">Desktop</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.1)] content-stretch flex items-start px-[8px] py-[4px] relative rounded-[4px] shrink-0" data-node-id="1:14911" data-name="[deprecated] tui-tag">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1:14911;34:15043" data-name="LabelCont">
+              <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Medium'] justify-center leading-[0] not-italic relative shrink-0 text-[15px] text-white whitespace-nowrap" data-node-id="I1:14911;34:15044">
+                <p className="leading-[20px]">Mobile</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-[#2c2c2e] content-stretch flex flex-col items-start justify-between left-[170px] overflow-clip pb-[12px] pt-[10px] px-[12px] rounded-[12px] size-[140px] top-[75px]" data-node-id="1:17122" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip py-[8px] relative shrink-0 w-full" data-node-id="1:17108" data-name="Content">
+            <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex h-[12px] items-start relative rounded-[16px] shrink-0 w-[69px]" data-node-id="1:17109" data-name="LabelCont" />
+            <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex h-[12px] items-start relative rounded-[16px] shrink-0 w-full" data-node-id="1:17111" data-name="InputCont" />
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="1:17124" data-name="container">
+            <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="1:17125" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I1:17125;25745:690407" data-name="Container" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start p-[48px] relative shrink-0 w-full" data-node-id="1:14915" data-name="list">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1:14916" data-name="List of Pages">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[0] not-italic pb-[16px] relative shrink-0 text-black w-[384px]" data-node-id="3:17140">
+            <div className="flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center min-w-full relative shrink-0 text-[19px] w-[min-content]" data-node-id="3:17141">
+              <p className="leading-[28px]">Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large</p>
+            </div>
+            <div className="content-stretch flex flex-col font-['Inter:Regular'] font-normal gap-[8px] items-start pt-[32px] relative shrink-0 text-[18px] whitespace-nowrap" data-node-id="84:42357" data-name="List of Pages">
+              <a className="block relative shrink-0" href="📖 Getting Started" data-node-id="84:42358" target="_self">
+                <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">📖 Getting Started</p>
+              </a>
+              <a className="block relative shrink-0" href="🧾 Дизайн" data-node-id="84:42359" target="_self">
+                <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">🧾 Дизайн</p>
+              </a>
+              <a className="block relative shrink-0" href="📖 Правила" data-node-id="84:42360" target="_self">
+                <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">📖 Правила</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Day/Text/primary-on-dark: #FFFFFF, Desktop/UI M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 20, letterSpacing: 0), Day/Background/neutral-1-on-dark: #FFFFFF, Night/Background/elevation-2: #2C2C2E, Night/Background/base-ios: #000000, Desktop/Body XL: Font(family: "Neue Haas Unica W1G", style: Regular, size: 19, weight: 400, lineHeight: 28, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## [deprecated] tui-tag
+**Node ID:** 7834:8670
+
+🔴 Устарел. Используйте вместо этого компонента tui-chip
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-chip-specs](https://go.tcsbank.ru/tui-chip-specs)
+
+## tui-avatar
+**Node ID:** 7834:14754
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

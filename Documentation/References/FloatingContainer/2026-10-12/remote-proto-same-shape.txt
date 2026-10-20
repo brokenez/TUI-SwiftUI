@@ -1,0 +1,128 @@
+type SystemBottomBarProps = {
+  className?: string;
+  appearance?: "Opposite";
+  keyboard?: "off";
+  system?: "iOS 18";
+  type?: "Dragger";
+};
+
+function SystemBottomBar({ className, appearance = "Opposite", keyboard = "off", system = "iOS 18", type = "Dragger" }: SystemBottomBarProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[375px]"} data-node-id="12601:9241">
+      <div className="h-[34px] relative shrink-0 w-full" data-node-id="12601:9382" data-name="cont">
+        <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="12601:9383" data-name="bar" />
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <a className="bg-white block cursor-pointer relative size-full" data-node-id="3351:4506" data-name="Замена элемента на элемент другой формы">
+      <div className="absolute content-stretch flex flex-col items-start left-0 pb-[24px] px-[16px] top-[698px] w-[375px]" data-node-id="3351:4507" data-name="Buttons cont">
+        <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--radius-large,16px)] shrink-0 w-full" data-node-id="3351:4508" data-name="tui-button">
+          <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I3351:4508;41658:296910" data-name="LabelCont">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I3351:4508;41658:296911">
+              Main action
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%-0.5px)] top-[828px] w-[343px]" data-node-id="5802:15854" data-name="tui-card-large">
+        <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--radius,24px)] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="I5802:15854;42587:292100" data-name="CardCont">
+          <div className="content-stretch flex flex-col items-start pb-[4px] relative shrink-0 w-full" data-node-id="I5802:15854;44231:306554" data-name="card-header">
+            <div className="content-stretch flex flex-col items-start pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[var(--padding-compensated,16px)] pt-[var(--padding-compensated,16px)] relative shrink-0 w-full" data-node-id="I5802:15854;44217:298997" data-name="tui-header [card]">
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="I5802:15854;44217:298997;44217:298679" data-name="HeaderCont">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="I5802:15854;44217:298997;44217:298680" data-name="Header+Subheader">
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I5802:15854;44217:298997;44217:298681" data-name="HeaderTextCont">
+                    <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] text-left tracking-[0.38px]" data-node-id="I5802:15854;44217:298997;44217:298682">
+                      1000 ₽
+                    </p>
+                  </div>
+                  <div className="content-stretch flex items-start pb-[2px] relative shrink-0 w-full" data-node-id="I5802:15854;44217:298997;44217:298683" data-name="SubheaderTextCont">
+                    <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] text-left tracking-[-0.24px]" data-node-id="I5802:15854;44217:298997;44217:298684">
+                      С учетом скидки
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="I5802:15854;44217:298997;44217:298685" data-name="Accessory">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I5802:15854;44217:298997;44217:298690" data-name="ActionCont">
+                    <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[30px] overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="I5802:15854;44217:298997;44217:299213" data-name="tui-button">
+                      <div className="content-stretch flex flex-col items-center overflow-clip p-[4px] relative shrink-0" data-node-id="I5802:15854;44217:298997;44217:299213;41658:296924" data-name="LabelCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I5802:15854;44217:298997;44217:299213;41658:296925">
+                          Продолжить
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <SystemBottomBar className="absolute content-stretch flex flex-col items-start left-0 top-[778px] w-[375px]" />
+    </a>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Light - Background / elevation1: #FFFFFF.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 12601:2227
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 12601:2226
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-card-large
+**Node ID:** 12601:8787
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 12601:5559
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## system=ios, size=small, appearance=primary, state=normal, skeleton=off
+**Node ID:** 12601:2317
+
+Ex. primary-tinkoff
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 12601:9241
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 12601:9212
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

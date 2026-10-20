@@ -1,0 +1,13 @@
+import { spawnSync } from 'node:child_process';
+import { cpSync, mkdirSync, rmSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const generated = spawnSync(process.env.TUI_CATALOG_PYTHON || 'python3', ['../Scripts/generate_web_catalog.py'], { cwd: root, stdio: 'inherit' });
+if (generated.status !== 0) process.exit(generated.status || 1);
+rmSync(path.join(root, 'dist'), { recursive: true, force: true });
+mkdirSync(path.join(root, 'dist'));
+cpSync(path.join(root, 'public'), path.join(root, 'dist'), { recursive: true });
+cpSync(path.join(root, 'src'), path.join(root, 'dist/src'), { recursive: true });
+cpSync(path.join(root, 'index.html'), path.join(root, 'dist/index.html'));
+console.log('Web catalog built in WebCatalog/dist');

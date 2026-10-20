@@ -1,0 +1,346 @@
+const imgTuiIcFixedColorAlertWarning = "https://www.figma.com/api/mcp/asset/28e5200e-3881-4017-b11d-29136c4eee6d.svg";
+const imgScreenshot20230908At13261 = "https://www.figma.com/api/mcp/asset/92e6ed30-b28c-4a9a-a375-d515e7539c2a.png";
+const imgScreenshot20230908At1307 = "https://www.figma.com/api/mcp/asset/94e29e2e-97dd-4e57-8439-d064370860dc.png";
+const imgScreenshot20230908At1308 = "https://www.figma.com/api/mcp/asset/6720a0a2-d2a8-45af-b109-18f34dc5f9f5.png";
+const imgStart = "https://www.figma.com/api/mcp/asset/0686afb8-9d96-4db6-818e-1ac9e26e4653.svg";
+const imgTuiCellOperation = "https://www.figma.com/api/mcp/asset/ea3ff72e-e482-41ac-aa63-ba50c1017685.svg";
+const imgTuiCellOperation1 = "https://www.figma.com/api/mcp/asset/1cf57836-a76a-45ba-803c-1ed612d6995f.svg";
+
+type TuiBadgeNotificationProps = {
+  className?: string;
+  size?: "small";
+  system?: "iOS" | "Android";
+};
+
+function TuiBadgeNotification({ className, size = "small", system = "Android" }: TuiBadgeNotificationProps) {
+  return <div className={className || "bg-[var(--tui-component-badge-notification,#f52222)] max-h-[6px] max-w-[6px] relative rounded-[3px] size-[6px]"} id={system === "iOS" ? "node-25498_8457" : "node-25498_8454"} />;
+}
+
+type TuiSensitiveModeProps = {
+  className?: string;
+  fontSize?: "Body M";
+};
+
+function TuiSensitiveMode({ className, fontSize = "Body M" }: TuiSensitiveModeProps) {
+  return (
+    <div className={className || "h-[18px] overflow-clip relative rounded-[4px] w-[135px]"} data-node-id="25498:42424">
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-0" data-node-id="25498:42527" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-0" data-node-id="25498:42528" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-0" data-node-id="25498:42529" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-0" data-node-id="25498:42530" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-0" data-node-id="25498:42531" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-0" data-node-id="25498:42532" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-0" data-node-id="25498:42533" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-0" data-node-id="25498:42534" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-0" data-node-id="25498:42535" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-0" data-node-id="25498:42536" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-0" data-node-id="25498:42537" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-0" data-node-id="25498:42538" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-0" data-node-id="25498:42539" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-0" data-node-id="25498:42540" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-0" data-node-id="25498:42541" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-0" data-node-id="25498:42542" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-0" data-node-id="25498:42543" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-0" data-node-id="25498:42544" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-0" data-node-id="25498:42545" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-0" data-node-id="25498:42546" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-0" data-node-id="25498:42547" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-0" data-node-id="25498:42548" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-0" data-node-id="25498:42549" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-0" data-node-id="25498:42550" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-0" data-node-id="25498:42551" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-[9px]" data-node-id="25498:42552" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-[9px]" data-node-id="25498:42553" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-[9px]" data-node-id="25498:42554" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-[9px]" data-node-id="25498:42555" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-[9px]" data-node-id="25498:42556" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-[9px]" data-node-id="25498:42557" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-[9px]" data-node-id="25498:42558" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-[9px]" data-node-id="25498:42559" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-[9px]" data-node-id="25498:42560" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-[9px]" data-node-id="25498:42561" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-[9px]" data-node-id="25498:42562" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-[9px]" data-node-id="25498:42563" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-[9px]" data-node-id="25498:42564" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-[9px]" data-node-id="25498:42565" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-[9px]" data-node-id="25498:42566" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-[9px]" data-node-id="25498:42567" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-[9px]" data-node-id="25498:42568" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-[9px]" data-node-id="25498:42569" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-[9px]" data-node-id="25498:42570" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-[9px]" data-node-id="25498:42571" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-[9px]" data-node-id="25498:42572" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-[9px]" data-node-id="25498:42573" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-[9px]" data-node-id="25498:42574" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-[9px]" data-node-id="25498:42575" />
+      <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-[9px]" data-node-id="25498:42576" />
+    </div>
+  );
+}
+
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="25498:10196" data-name="placeholder-single" />;
+}
+
+function TuiIcFixedColorAlertWarning({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="25498:18964" data-name="tui-ic-fixed-color / alert-warning">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorAlertWarning} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="41:13497" data-name="Как пользоваться в фигме">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="41:13498" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I41:13498;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I41:13498;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как пользоваться в фигме
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="41:13499" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I41:13499;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I41:13499;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Extended-режим
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I41:13499;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I41:13499;9462:7170">
+            Чаще всего в макетах используются максимально простые ячейки, поэтому, чтобы не ухудшать производительность расширенные настройки вынесены в отдельный вариант. По умолчанию весь дополнительный обвес показан, скрывать ненужное нужно руками
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="41:13500" data-name="Note">
+        <div className="bg-[var(--tui-status-warning-pale,rgba(255,221,45,0.3))] content-stretch flex flex-[1_0_0] gap-[16px] items-start min-w-px p-[24px] relative rounded-[var(--roundings\/note-rounding,24px)]" data-node-id="I41:13500;9462:8076" data-name="container">
+          <div className="content-stretch flex items-start pt-px relative shrink-0" data-node-id="I41:13500;9462:8032" data-name="Icon">
+            <TuiIcFixedColorAlertWarning className="relative shrink-0 size-[24px]" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I41:13500;9462:8034" data-name="Text">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I41:13500;9462:8035" style={{ fontFeatureSettings: '"liga" 0' }}>
+              Это только для фигмы
+            </p>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I41:13500;9462:8079" data-name="Paragraph">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I41:13500;9462:8078">
+                В коде все возможности кастомизации доступны изначально на любом варианте
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="41:41117" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[310px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I41:41117;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I41:41117;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I41:41117;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I41:41117;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I41:41117;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I41:41117;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[360px]" data-node-id="I41:41117;9469:7126;475:2321;475:2285;609:2043" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCellOperation} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I41:41117;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="44:44775" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I44:44775;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I44:44775;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Переключение высоты
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I44:44775;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I44:44775;9462:7170">
+            Управление режимами сделано через figma variables. Выделяем нужную ячейку или родительский контейнер, и выбираем соответствующие пункты
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="67:78821" data-name="image">
+        <div className="bg-[#f6f7f8] h-[320px] relative rounded-[24px] shrink-0 w-full" data-node-id="67:78822" data-name="img-placeholder">
+          <div className="absolute h-[420px] left-[422px] opacity-30 top-[-132px] w-[236px]" data-node-id="68:79502" data-name="Screenshot 2023-09-08 at 13.26 1">
+            <div className="absolute inset-0 mix-blend-multiply overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[102.14%] left-0 max-w-none top-0 w-full" src={imgScreenshot20230908At13261} />
+            </div>
+          </div>
+          <TuiSensitiveMode className="absolute h-[18px] left-[552px] overflow-clip rounded-[4px] top-[140px] w-[79px]" />
+          <div className="absolute h-[30px] left-[623px] rounded-[4px] top-[57px] w-[28px]" data-node-id="68:79494" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[4px]">
+              <img alt="" className="absolute h-[883.33%] left-[-1564.29%] max-w-none top-[-113.33%] w-[1675%]" src={imgScreenshot20230908At1307} />
+            </div>
+          </div>
+          <div className="absolute h-[129px] left-[251px] rounded-[4px] top-[121px] w-[200px]" data-node-id="68:79495" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[4px]">
+              <img alt="" className="absolute h-[205.43%] left-[-34%] max-w-none top-[-72.87%] w-[234.5%]" src={imgScreenshot20230908At1307} />
+            </div>
+          </div>
+          <div className="absolute h-[87px] left-[451px] rounded-[4px] top-[93px] w-[200px]" data-node-id="68:79496" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[4px]">
+              <img alt="" className="absolute h-[304.6%] left-[-134.02%] max-w-none top-[-80.89%] w-[234.5%]" src={imgScreenshot20230908At1307} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="44:44779" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I44:44779;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I44:44779;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Переключение контекста
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I44:44779;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I44:44779;9462:7170">
+            Управление режимами сделано через figma variables. Выделяем нужную ячейку или родительский контейнер, и выбираем соответствующие пункты
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="67:78897" data-name="image">
+        <div className="bg-[#f6f7f8] h-[320px] relative rounded-[24px] shrink-0 w-full" data-node-id="67:78898" data-name="img-placeholder">
+          <div className="absolute h-[420px] left-[426px] opacity-30 top-[-148px] w-[236px]" data-node-id="68:79503" data-name="Screenshot 2023-09-08 at 13.26 1">
+            <div className="absolute inset-0 mix-blend-multiply overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[102.14%] left-0 max-w-none top-0 w-full" src={imgScreenshot20230908At13261} />
+            </div>
+          </div>
+          <TuiSensitiveMode className="absolute h-[18px] left-[552px] overflow-clip rounded-[4px] top-[140px] w-[79px]" />
+          <div className="absolute h-[87px] left-[457px] rounded-[5px] top-[77px] w-[198px]" data-node-id="68:79498" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
+              <img alt="" className="absolute h-[362.07%] left-[-133.33%] max-w-none top-[-64.37%] w-[234.34%]" src={imgScreenshot20230908At1308} />
+            </div>
+          </div>
+          <div className="absolute h-[153px] left-[259px] rounded-[5px] top-[129px] w-[198px]" data-node-id="68:79499" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
+              <img alt="" className="absolute h-[205.88%] left-[-32.32%] max-w-none top-[-67.97%] w-[234.34%]" src={imgScreenshot20230908At1308} />
+            </div>
+          </div>
+          <div className="absolute h-[30px] left-[627px] rounded-[4px] top-[43px] w-[28px]" data-node-id="68:79500" data-name="Screenshot 2023-09-08 at 13.07">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[4px]">
+              <img alt="" className="absolute h-[883.33%] left-[-1564.29%] max-w-none top-[-113.33%] w-[1675%]" src={imgScreenshot20230908At1307} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="48:58778" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I48:58778;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I48:58778;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как показать наведение или нажатие
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I48:58778;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[0px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I48:58778;9462:7170">
+            <span className="leading-[24px] text-[15px]">Чтобы не плодить лишние варианты и слои, мы не стали включать это в компонент. В фигме можно просто покрасить фон ячейки в нужный цвет. Подробнее о наведении в разделе «</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] text-[15px] underline">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline">Поведение</span>
+            </a>
+            <span className="leading-[24px] text-[15px]">»</span>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="67:78950" data-name="image">
+        <div className="bg-[#f6f7f8] h-[320px] relative rounded-[24px] shrink-0 w-full" data-node-id="67:78951" data-name="img-placeholder">
+          <TuiSensitiveMode className="absolute h-[18px] left-[552px] overflow-clip rounded-[4px] top-[140px] w-[79px]" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[rgba(0,16,36,0.03)] content-stretch flex flex-col gap-[12px] items-center justify-center left-[calc(50%-0.5px)] top-[calc(50%+0.5px)]" data-node-id="67:79461" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I67:79461;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[375px]" data-node-id="I67:79461;475:2285;609:2046" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCellOperation1} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Light/Text/primary-on-brand: #333333, iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Background/neutral-1: #001024.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Note
+**Node ID:** 30370:19156
+
+v 1.1.0
+
+## tui-ic-fixed-color / alert-warning
+**Node ID:** 25498:18964
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-cell [operation]
+**Node ID:** 25498:46169
+
+Ячейка операции.
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-operation-specs](https://go.tcsbank.ru/tui-cell-operation-specs)
+
+## tui-badge notification
+**Node ID:** 25498:8453
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-notification](https://go.tcsbank.ru/tui-badge-notification)
+
+## tui-avatar
+**Node ID:** 25498:8973
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+
+## placeholder-multiple
+**Node ID:** 25498:10445
+
+Это плейсхолдер, чтобы вставлять свои инстансы
+
+## placeholder-single
+**Node ID:** 25498:10196
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-badge
+**Node ID:** 25498:8485
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-message-bubble
+**Node ID:** 25498:46096
+
+Баббл инлайнового комментария или сообщения
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-message-bubble-specs](https://go.tcsbank.ru/tui-message-bubble-specs)
+
+## tui-sensitive-mode
+**Node ID:** 25498:42421
+
+Маска, чтобы показать на дизайне sensitive mode
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-sensitive](https://go.tcsbank.ru/tui-sensitive)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

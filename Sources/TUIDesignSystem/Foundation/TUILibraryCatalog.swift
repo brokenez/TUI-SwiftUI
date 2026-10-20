@@ -33,6 +33,38 @@ public struct TUIComponentVariantReference: Sendable, Identifiable, Hashable {
         })?.value else { return true }
         return platform.lowercased().hasPrefix("ios") || platform == "–"
     }
+
+    public var isHistoricalIOS18: Bool {
+        properties.contains { key, value in
+            let normalized = key.lowercased().replacingOccurrences(of: "е", with: "e")
+            return (normalized == "system" || normalized == "platform") && value.lowercased() == "ios 18"
+        }
+    }
+}
+
+public enum TUIComponentCoverageStatus: String, Sendable {
+    case catalogued, complete, blocked, excluded
+    case inProgress = "in-progress"
+
+    public var label: String {
+        switch self {
+        case .catalogued: "Нет реализации"
+        case .complete: "Проверен"
+        case .inProgress: "На проверке"
+        case .blocked: "Проверка заблокирована"
+        case .excluded: "Вне объёма переноса"
+        }
+    }
+}
+
+public struct TUIComponentCoverageReference: Sendable, Identifiable, Hashable {
+    public let id: String
+    public let status: TUIComponentCoverageStatus
+    public let previousStatus: String
+    public let applicableVariantCount: Int
+    public let historicalVariantCount: Int
+    public let pendingChecks: [String]
+    public let evidenceArchive: String?
 }
 
 public final class TUILibraryCatalog: @unchecked Sendable {
@@ -41,17 +73,29 @@ public final class TUILibraryCatalog: @unchecked Sendable {
     public let components: [TUIComponentReference]
     public let assets: [TUIAssetReference]
     public let variants: [TUIComponentVariantReference]
+    public let coverageEntries: [TUIComponentCoverageReference]
 
     public init(bundle requestedBundle: Bundle? = nil) {
         let bundle = requestedBundle ?? .module
         components = Self.loadComponents(bundle: bundle)
         assets = Self.loadAssets(bundle: bundle)
         variants = Self.loadVariants(bundle: bundle)
+        coverageEntries = Self.loadCoverage(bundle: bundle)
+    }
+
+    public func coverage(for componentSetID: String) -> TUIComponentCoverageReference? {
+        coverageEntries.first { $0.id == componentSetID }
     }
 
     public func components(matching query: String) -> [TUIComponentReference] {
-        guard !query.isEmpty else { return components }
-        return components.filter { $0.name.localizedCaseInsensitiveContains(query) }
+        activeComponents.filter { query.isEmpty || $0.name.localizedCaseInsensitiveContains(query) }
+    }
+
+    /// Imported sources stay available in `components`; excluded system sets
+    /// are omitted from the current implementation catalog and search.
+    public var activeComponents: [TUIComponentReference] {
+        let excludedIDs = Set(coverageEntries.filter { $0.status == .excluded }.map(\.id))
+        return components.filter { !excludedIDs.contains($0.id) }
     }
 
     public func assets(matching query: String, category: String? = nil) -> [TUIAssetReference] {
@@ -130,6 +174,26 @@ public final class TUILibraryCatalog: @unchecked Sendable {
                 properties: item["variantProperties"] as? [String: String] ?? [:],
                 width: (item["width"] as? NSNumber)?.doubleValue ?? 0,
                 height: (item["height"] as? NSNumber)?.doubleValue ?? 0
+            )
+        }
+    }
+
+    private static func loadCoverage(bundle: Bundle) -> [TUIComponentCoverageReference] {
+        guard let root = json(named: "component-coverage", bundle: bundle),
+              let items = root["components"] as? [[String: Any]] else { return [] }
+        let checks = ["variantMapping", "specification", "visual", "interaction", "accessibility", "motion", "integration"]
+        return items.compactMap { item in
+            guard let id = item["id"] as? String,
+                  let rawStatus = item["status"] as? String,
+                  let status = TUIComponentCoverageStatus(rawValue: rawStatus),
+                  let verification = item["verification"] as? [String: Any] else { return nil }
+            return TUIComponentCoverageReference(
+                id: id, status: status,
+                previousStatus: item["previousStatus"] as? String ?? "",
+                applicableVariantCount: item["iOS26Variants"] as? Int ?? 0,
+                historicalVariantCount: (item["historicalVariants"] as? [[String: Any]] ?? []).count,
+                pendingChecks: checks.filter { verification[$0] as? Bool != true },
+                evidenceArchive: verification["evidenceArchive"] as? String
             )
         }
     }

@@ -1,0 +1,106 @@
+const imgMap = "https://www.figma.com/api/mcp/asset/80a2b3ff-edee-4756-8f42-ad374b0024e9.png";
+
+type TuiCardLargeProps = {
+  className?: string;
+  flat?: "False";
+  footer?: "False";
+  preset?: "Map";
+  skeleton?: "False";
+  systm?: "iOS";
+};
+
+function TuiCardLarge({ className, flat = "False", footer = "False", preset = "Map", skeleton = "False", systm = "iOS" }: TuiCardLargeProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[375px]"} data-node-id="50523:298748">
+      <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--radius,24px)] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="50523:298679" data-name="CardCont">
+        <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="50523:298680" data-name="card-header">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[20px] pt-[var(--padding-compensated,16px)] relative self-stretch" data-node-id="50523:298681" data-name="tui-header">
+            <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="I50523:298681;44217:299617" data-name="HeaderCont">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="I50523:298681;44217:299618" data-name="Header+Subheader">
+                <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I50523:298681;44217:299619" data-name="HeaderTextCont">
+                  <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="I50523:298681;44217:299620">
+                    Header
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] h-[24px] items-center relative shrink-0" data-node-id="I50523:298681;44217:299623" data-name="Accessory">
+                <div className="content-stretch flex items-center justify-center pt-[2px] relative shrink-0" data-node-id="I50523:298681;44217:299628" data-name="ActionCont">
+                  <div className="content-stretch flex gap-[4px] items-start relative rounded-[100px] shrink-0" data-node-id="I50523:298681;44217:299629" data-name="tui-button [link]">
+                    <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0" data-node-id="I50523:298681;44217:299629;42010:287146" data-name="LabelCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-action,#428bf9)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I50523:298681;44217:299629;42010:287147">
+                        Label
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[var(--padding,20px)] pt-[4px] px-[var(--padding,20px)] relative shrink-0 w-full" data-node-id="50523:298682" data-name="card-content">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="50523:298683" data-name="[mobile] template-card-map">
+            <div className="content-stretch flex flex-col h-[120px] items-center justify-center overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="I50523:298683;830:33132" data-name="CardCont">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[400px] left-[calc(50%-0.5px)] top-1/2 w-[800px]" data-node-id="I50523:298683;830:33133" data-name="Map">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMap} />
+              </div>
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] border-2 border-[var(--tui-background-elevation-1,white)] border-solid relative rounded-[100000px] shrink-0 size-[16px]" data-node-id="I50523:298683;830:33134" data-name="tui-pin" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Service/Map Light: , Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-large
+**Node ID:** 42587:291989
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 44217:298609
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button [link]
+**Node ID:** 42565:304987
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-link](https://go.tcsbank.ru/tui-button-link)
+
+## [mobile] template-card-map
+**Node ID:** 106794:36560
+
+Дизайн-шаблон карточки с картой
+
+## tui-pin
+**Node ID:** 106794:36391
+
+Компонент для отображения точек на карте
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-pin-specs](https://go.tcsbank.ru/tui-pin-specs)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,380 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project TUIDesignSystemCatalog.xcodeproj -scheme TUIDesignSystemCatalogUITests -destination "platform=iOS Simulator,id=6D3F35A1-AC30-4F0E-BDD6-0F912B714E59" -derivedDataPath /private/tmp/tui-typography-catalog-derived -skipPackageUpdates "-only-testing:TUIDesignSystemCatalogUITests/TextfieldConsumerUITests" "-only-testing:TUIDesignSystemCatalogUITests/TextfieldUITests/testCharacterLimitInLiveNativeEditor" -resultBundlePath /private/tmp/tui-textfield-input-quality-native-20261009.xcresult CODE_SIGNING_ALLOWED=NO test
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  TUIDesignSystem: /Users/v.shtukert/Documents/TUI-Design-System @ local
+
+Writing result bundle at path:
+	/private/tmp/tui-textfield-input-quality-native-20261009.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (5 targets)
+    Target 'TUIDesignSystemCatalogUITests' in project 'TUIDesignSystemCatalog'
+        ➜ Explicit dependency on target 'TUIDesignSystemCatalog' in project 'TUIDesignSystemCatalog'
+    Target 'TUIDesignSystemCatalog' in project 'TUIDesignSystemCatalog'
+        ➜ Explicit dependency on target 'TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/v.shtukert/Documents/TUI-Design-System/CatalogApp/QAAssets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 051515499059790dccb4c6389d66a375
+Build description path: /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/XCBuildData/051515499059790dccb4c6389d66a375.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -o /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+
+SwiftDriver TUIDesignSystem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystem -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -package-name tui_design_system -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_const_extract_protocols.json -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/empty-TUIDesignSystem_TUIDesignSystem.plist (in target 'TUIDesignSystem_TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/empty-TUIDesignSystem_TUIDesignSystem.plist -producttype com.apple.product-type.bundle -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/assetcatalog_generated_info.plist -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/Info.plist
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ TUIDesignSystem (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+
+EmitSwiftModule normal arm64 (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    
+
+SwiftCompile normal arm64 Compiling\ TUITextfield.swift /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+SwiftCompile normal arm64 /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for TUIDesignSystem (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+
+SwiftDriver\ Compilation\ Requirements TUIDesignSystem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystem -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -package-name tui_design_system -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_const_extract_protocols.json -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftsourceinfo (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftsourceinfo /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.abi.json (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.abi.json /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+SwiftDriver TUIDesignSystemCatalog normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystemCatalog -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-generated-files.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-own-target-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog-e3e712a3f65412d884c1489b9771d8a9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-project-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling TUITextfield.swift (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+
+SwiftDriver\ Compilation TUIDesignSystem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystem -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -package-name tui_design_system -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_const_extract_protocols.json -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.o normal (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -r -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -O0 -w -F/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -filelist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.LinkFileList -nostdlib -Xlinker -object_path_lto -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_lto.o -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-linker-args.resp -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.o
+
+ExtractAppIntentsMetadata (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --module-name TUIDesignSystem --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk --xcode-version 17E202 --platform-family iOS --deployment-target 26.0 --bundle-identifier tui-design-system.TUIDesignSystem --output /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.appintents --target-triple arm64-apple-ios26.0-simulator --binary-file /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.o --dependency-file /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_dependency_info.dat --stringsdata-file /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList --metadata-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/TUIDesignSystem.DependencyMetadataFileList --static-metadata-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/TUIDesignSystem.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftConstValuesFileList --force --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-09 16:37:17.685 appintentsmetadataprocessor[10207:4311787] Starting appintentsmetadataprocessor export
+2026-10-09 16:37:17.727 appintentsmetadataprocessor[10207:4311787] Extracted no relevant App Intents symbols, skipping writing output
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ TUIDesignSystemCatalog (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+EmitSwiftModule normal arm64 (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    
+
+SwiftDriver\ Compilation TUIDesignSystemCatalog normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystemCatalog -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-generated-files.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-own-target-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog-e3e712a3f65412d884c1489b9771d8a9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-project-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System -experimental-emit-module-separately -disable-cmo
+
+RegisterExecutionPolicyException /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.o (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-RegisterExecutionPolicyException /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.o
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for TUIDesignSystemCatalog (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+
+SwiftDriver\ Compilation\ Requirements TUIDesignSystemCatalog normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystemCatalog -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-generated-files.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-own-target-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog-e3e712a3f65412d884c1489b9771d8a9-VFS-iphonesimulator/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-project-headers.hmap -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.abi.json (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.abi.json /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Ld /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib normal (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -O0 -L/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -filelist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.LinkFileList -install_name @rpath/TUIDesignSystemCatalog.debug.dylib -Xlinker -rpath -Xlinker /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.swiftmodule @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog-linker-args.resp -Wl,-no_warn_duplicate_libraries -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib -Xlinker -add_ast_path -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-linker-args.resp
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/empty-TUIDesignSystemCatalog.plist (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/empty-TUIDesignSystemCatalog.plist -producttype com.apple.product-type.application -genpkginfo /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/assetcatalog_generated_info.plist -scanforprivacyfile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystem_TUIDesignSystem.bundle -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Info.plist
+
+ConstructStubExecutorLinkFileList /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-ExecutorLinkFileList-normal-arm64.txt (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    construct-stub-executor-link-file-list /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+
+Ld /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog normal (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -O0 -L/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -F/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/PackageFrameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog-ExecutorLinkFileList-normal-arm64.txt /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog
+
+CopySwiftLibs /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Frameworks --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/PlugIns --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/SystemExtensions --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --module-name TUIDesignSystemCatalog --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk --xcode-version 17E202 --platform-family iOS --deployment-target 26.0 --bundle-identifier local.TUIDesignSystemCatalog --output /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app --target-triple arm64-apple-ios26.0-simulator --binary-file /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog --dependency-file /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog_dependency_info.dat --stringsdata-file /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.SwiftFileList --metadata-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog.DependencyMetadataFileList --static-metadata-file-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/TUIDesignSystemCatalog.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/Objects-normal/arm64/TUIDesignSystemCatalog.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-09 16:37:18.195 appintentsmetadataprocessor[10214:4311878] Starting appintentsmetadataprocessor export
+2026-10-09 16:37:18.197 appintentsmetadataprocessor[10214:4311878] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/empty-TUIDesignSystemCatalogUITests.plist (in target 'TUIDesignSystemCatalogUITests' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/empty-TUIDesignSystemCatalogUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/ProductTypeInfoPlistAdditions.plist -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Info.plist
+
+CopySwiftLibs /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest (in target 'TUIDesignSystemCatalogUITests' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/TUIDesignSystemCatalogUITests --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Frameworks --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/PlugIns --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/SystemExtensions --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+2026-10-09 16:37:21.375286+0300 TUIDesignSystemCatalogUITests-Runner[10216:4312132] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-09 16:37:22.445.
+Test Suite 'TUIDesignSystemCatalogUITests.xctest' started at 2026-10-09 16:37:22.446.
+Test Suite 'TextfieldConsumerUITests' started at 2026-10-09 16:37:22.446.
+Test Case '-[TUIDesignSystemCatalogUITests.TextfieldConsumerUITests testPublicPackageFormInIndependentConsumerInBothThemes]' started.
+    t =     0.00s Start Test at 2026-10-09 16:37:22.446
+    t =     0.06s Set Up
+    t =     0.07s Open local.TUIConsumer
+    t =     0.07s     Launch local.TUIConsumer
+    t =     0.23s         Setting up automation session
+objc[10216]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x1095e8310) and /Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x108f10398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.08s         Wait for local.TUIConsumer to idle
+    t =     2.78s Waiting 5.0s for "consumerTextfieldSubmit" Button to exist
+    t =     3.88s     Checking `Expect predicate `existsNoRetry == 1` for object "consumerTextfieldSubmit" Button`
+    t =     3.88s         Checking existence of `"consumerTextfieldSubmit" Button`
+    t =     4.00s Tap "consumerTextfieldSubmit" Button
+    t =     4.00s     Wait for local.TUIConsumer to idle
+    t =     4.01s     Find the "consumerTextfieldSubmit" Button
+    t =     4.02s     Check for interrupting elements affecting "consumerTextfieldSubmit" Button
+    t =     4.05s     Synthesize event
+    t =     4.35s     Wait for local.TUIConsumer to idle
+    t =     4.36s Waiting 3.0s for "Введите имя" StaticText to exist
+    t =     5.44s     Checking `Expect predicate `existsNoRetry == 1` for object "Введите имя" StaticText`
+    t =     5.44s         Checking existence of `"Введите имя" StaticText`
+    t =     5.48s Tap "tuiTextfieldInput" TextField
+    t =     5.48s     Wait for local.TUIConsumer to idle
+    t =     5.48s     Find the "tuiTextfieldInput" TextField
+    t =     5.50s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =     5.52s     Synthesize event
+    t =     5.82s     Wait for local.TUIConsumer to idle
+    t =     6.39s Type 'Alice' into "tuiTextfieldInput" TextField
+    t =     6.39s     Wait for local.TUIConsumer to idle
+    t =     6.39s     Find the "tuiTextfieldInput" TextField
+    t =     6.43s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =     6.45s     Synthesize event
+    t =     6.74s     Wait for local.TUIConsumer to idle
+    t =     6.96s Find the "tuiTextfieldInput" TextField
+    t =     7.01s Checking existence of `"Введите имя" StaticText`
+    t =     7.05s Checking existence of `"Done" Button`
+    t =     7.08s Checking existence of `"Done" Button`
+    t =     7.11s Tap "Done" Button
+    t =     7.11s     Wait for local.TUIConsumer to idle
+    t =     7.12s     Find the "Done" Button
+    t =     7.15s     Check for interrupting elements affecting "Done" Button
+    t =     7.18s     Synthesize event
+    t =     7.48s     Wait for local.TUIConsumer to idle
+    t =     7.77s Find the "consumerTextfieldSubmittedValue" StaticText
+    t =     7.79s Checking existence of `Keyboard (First Match)`
+    t =     7.82s Find the Application 'local.TUIConsumer'
+    t =     7.91s Added attachment named 'textfield-independent-consumer-day'
+    t =     7.91s Terminate local.TUIConsumer:10223
+    t =     9.02s Open local.TUIConsumer
+    t =     9.02s     Launch local.TUIConsumer
+    t =     9.20s         Setting up automation session
+    t =     9.85s         Wait for local.TUIConsumer to idle
+    t =    11.35s Waiting 5.0s for "consumerTextfieldSubmit" Button to exist
+    t =    12.43s     Checking `Expect predicate `existsNoRetry == 1` for object "consumerTextfieldSubmit" Button`
+    t =    12.43s         Checking existence of `"consumerTextfieldSubmit" Button`
+    t =    12.56s Tap "consumerTextfieldSubmit" Button
+    t =    12.56s     Wait for local.TUIConsumer to idle
+    t =    12.56s     Find the "consumerTextfieldSubmit" Button
+    t =    12.58s     Check for interrupting elements affecting "consumerTextfieldSubmit" Button
+    t =    12.61s     Synthesize event
+    t =    12.92s     Wait for local.TUIConsumer to idle
+    t =    12.92s Waiting 3.0s for "Введите имя" StaticText to exist
+    t =    14.00s     Checking `Expect predicate `existsNoRetry == 1` for object "Введите имя" StaticText`
+    t =    14.01s         Checking existence of `"Введите имя" StaticText`
+    t =    14.04s Tap "tuiTextfieldInput" TextField
+    t =    14.04s     Wait for local.TUIConsumer to idle
+    t =    14.04s     Find the "tuiTextfieldInput" TextField
+    t =    14.06s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =    14.09s     Synthesize event
+    t =    14.39s     Wait for local.TUIConsumer to idle
+    t =    14.64s Type 'Alice' into "tuiTextfieldInput" TextField
+    t =    14.64s     Wait for local.TUIConsumer to idle
+    t =    14.64s     Find the "tuiTextfieldInput" TextField
+    t =    14.67s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =    14.69s     Synthesize event
+    t =    14.98s     Wait for local.TUIConsumer to idle
+    t =    15.24s Find the "tuiTextfieldInput" TextField
+    t =    15.30s Checking existence of `"Введите имя" StaticText`
+    t =    15.33s Checking existence of `"Done" Button`
+    t =    15.36s Checking existence of `"Done" Button`
+    t =    15.39s Tap "Done" Button
+    t =    15.39s     Wait for local.TUIConsumer to idle
+    t =    15.39s     Find the "Done" Button
+    t =    15.43s     Check for interrupting elements affecting "Done" Button
+    t =    15.46s     Synthesize event
+    t =    15.76s     Wait for local.TUIConsumer to idle
+    t =    16.06s Find the "consumerTextfieldSubmittedValue" StaticText
+    t =    16.08s Checking existence of `Keyboard (First Match)`
+    t =    16.12s Find the Application 'local.TUIConsumer'
+    t =    16.22s Added attachment named 'textfield-independent-consumer-night'
+    t =    16.22s Terminate local.TUIConsumer:10259
+    t =    17.22s Tear Down
+Test Case '-[TUIDesignSystemCatalogUITests.TextfieldConsumerUITests testPublicPackageFormInIndependentConsumerInBothThemes]' passed (17.256 seconds).
+Test Suite 'TextfieldConsumerUITests' passed at 2026-10-09 16:37:39.704.
+	 Executed 1 test, with 0 failures (0 unexpected) in 17.256 (17.258) seconds
+Test Suite 'TextfieldUITests' started at 2026-10-09 16:37:39.706.
+Test Case '-[TUIDesignSystemCatalogUITests.TextfieldUITests testCharacterLimitInLiveNativeEditor]' started.
+    t =     0.00s Start Test at 2026-10-09 16:37:39.708
+    t =     0.03s Set Up
+    t =     0.04s Open local.TUIDesignSystemCatalog
+    t =     0.04s     Launch local.TUIDesignSystemCatalog
+2026-10-09 16:37:39.978 xcodebuild[10121:4310466] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-09 16:37:39.978 xcodebuild[10121:4310466] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.11s         Setting up automation session
+    t =     2.06s         Wait for local.TUIDesignSystemCatalog to idle
+    t =     3.87s Waiting 5.0s for SearchField (First Match) to exist
+    t =     4.96s     Checking `Expect predicate `existsNoRetry == 1` for object SearchField (First Match)`
+    t =     4.97s         Checking existence of `SearchField (First Match)`
+    t =     5.38s Tap SearchField (First Match)
+    t =     5.38s     Wait for local.TUIDesignSystemCatalog to idle
+    t =     5.39s     Find the SearchField (First Match)
+    t =     5.52s     Check for interrupting elements affecting "Найти компонент" SearchField
+    t =     5.67s     Synthesize event
+    t =     5.99s     Wait for local.TUIDesignSystemCatalog to idle
+    t =     7.48s Type 'tui-textfield' into "Найти компонент" SearchField
+    t =     7.48s     Wait for local.TUIDesignSystemCatalog to idle
+    t =     7.48s     Find the "Найти компонент" SearchField
+    t =     7.69s     Check for interrupting elements affecting "Найти компонент" SearchField
+    t =     7.73s     Synthesize event
+    t =     8.16s     Wait for local.TUIDesignSystemCatalog to idle
+    t =     8.33s Waiting 5.0s for "tui-textfield " StaticText to exist
+    t =     9.41s     Checking `Expect predicate `existsNoRetry == 1` for object "tui-textfield " StaticText`
+    t =     9.41s         Checking existence of `"tui-textfield " StaticText`
+    t =     9.63s Tap "tui-textfield " StaticText
+    t =     9.63s     Wait for local.TUIDesignSystemCatalog to idle
+    t =     9.63s     Find the "tui-textfield " StaticText
+    t =     9.75s     Check for interrupting elements affecting "tui-textfield " StaticText
+    t =     9.79s     Synthesize event
+    t =    10.08s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    10.39s Find the "textfieldLimitToggle" Switch
+    t =    11.59s     Find the "textfieldLimitToggle" Switch (retry 1)
+    t =    12.66s     Find the "textfieldLimitToggle" Switch (retry 2)
+    t =    12.71s Swipe up Target Application 'local.TUIDesignSystemCatalog'
+    t =    12.71s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    12.71s     Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    12.74s     Check for interrupting elements affecting "TUIDesignSystemCatalog" Application
+    t =    12.78s     Synthesize event
+    t =    13.20s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    15.30s Find the "textfieldLimitToggle" Switch
+    t =    15.37s Find the "textfieldLimitToggle" Switch
+    t =    15.42s Find the "textfieldLimitToggle" Switch
+    t =    15.47s Find the "textfieldLimitToggle" Switch
+    t =    15.52s Find the "textfieldLimitToggle" Switch
+    t =    15.57s Tap Switch (First Match)
+    t =    15.57s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    15.57s     Find the Switch (First Match)
+    t =    15.67s     Check for interrupting elements affecting "0" Switch
+    t =    15.70s     Synthesize event
+    t =    16.00s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    17.29s Swipe down Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.29s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    17.29s     Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.33s     Check for interrupting elements affecting "TUIDesignSystemCatalog" Application
+    t =    17.37s     Synthesize event
+    t =    17.79s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    19.91s Swipe down Target Application 'local.TUIDesignSystemCatalog'
+    t =    19.91s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    20.22s     Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    20.27s     Check for interrupting elements affecting "TUIDesignSystemCatalog" Application
+    t =    20.32s     Synthesize event
+    t =    20.74s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    21.22s Tap "tuiTextfieldInput" TextField
+    t =    21.22s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    21.23s     Find the "tuiTextfieldInput" TextField
+    t =    21.27s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =    21.31s     Synthesize event
+    t =    21.61s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    21.61s Tap "tuiTextfieldClear" Button
+    t =    21.61s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    21.61s     Find the "tuiTextfieldClear" Button
+    t =    21.67s     Check for interrupting elements affecting "tuiTextfieldClear" Button
+    t =    21.72s     Synthesize event
+    t =    22.02s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    22.02s Type '123456789' into "tuiTextfieldInput" TextField
+    t =    22.02s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    22.02s     Find the "tuiTextfieldInput" TextField
+    t =    22.09s     Check for interrupting elements affecting "tuiTextfieldInput" TextField
+    t =    22.13s     Synthesize event
+    t =    22.49s     Wait for local.TUIDesignSystemCatalog to idle
+    t =    22.61s Find the "tuiTextfieldInput" TextField
+    t =    22.67s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    22.79s Added attachment named 'textfield-native-character-limit'
+    t =    22.79s Tear Down
+Test Case '-[TUIDesignSystemCatalogUITests.TextfieldUITests testCharacterLimitInLiveNativeEditor]' passed (23.118 seconds).
+Test Suite 'TextfieldUITests' passed at 2026-10-09 16:38:02.826.
+	 Executed 1 test, with 0 failures (0 unexpected) in 23.118 (23.120) seconds
+Test Suite 'TUIDesignSystemCatalogUITests.xctest' passed at 2026-10-09 16:38:02.827.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 40.374 (40.381) seconds
+Test Suite 'Selected tests' passed at 2026-10-09 16:38:02.828.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 40.374 (40.383) seconds
+2026-10-09 16:38:03.219 xcodebuild[10121:4310466] [MT] IDETestOperationsObserverDebug: 44.987 elapsed -- Testing started completed.
+2026-10-09 16:38:03.219 xcodebuild[10121:4310466] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-09 16:38:03.219 xcodebuild[10121:4310466] [MT] IDETestOperationsObserverDebug: 44.987 sec, +44.987 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/tui-textfield-input-quality-native-20261009.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started

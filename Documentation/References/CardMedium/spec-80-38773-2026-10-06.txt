@@ -1,0 +1,524 @@
+const imgTuiIcFixedColorCheckCirclePositive = "https://www.figma.com/api/mcp/asset/78a5b9d6-8f10-4d6e-9465-b8e5abd08ad5.svg";
+const imgAvatar1 = "https://www.figma.com/api/mcp/asset/1dd63ff4-a2b5-494f-b3d3-42d0bea0872a.png";
+const imgAvatar2 = "https://www.figma.com/api/mcp/asset/b112959c-e48d-43ad-b8f2-25bf2d47523a.png";
+const imgAvatar3 = "https://www.figma.com/api/mcp/asset/509e7513-abc7-42d1-83d9-866594dd6573.png";
+const imgAvatar4 = "https://www.figma.com/api/mcp/asset/37e1b6d9-1405-4134-93cb-24b293467114.png";
+const imgCont = "https://www.figma.com/api/mcp/asset/fd770668-af81-492f-bfcc-dd9dc18d8763.svg";
+const imgTuiIcMediumCrossCircle = "https://www.figma.com/api/mcp/asset/e722f052-5d54-4b14-bd8f-168eb65d7902.svg";
+const imgDimensionHor = "https://www.figma.com/api/mcp/asset/992b8d29-6dab-47b6-b259-d154fe2a6012.svg";
+const imgDimensionVer = "https://www.figma.com/api/mcp/asset/a24e49e9-59a8-4e27-ae3c-3231f96dfc36.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/0914b72c-548b-4c46-9f18-896e95cb625d.svg";
+const imgDimensionHor1 = "https://www.figma.com/api/mcp/asset/d1071b7b-ad5c-4934-952a-f6047cb2320d.svg";
+const imgDimensionVer1 = "https://www.figma.com/api/mcp/asset/b74d6e47-d6d8-404d-a56f-2b3efcdaed99.svg";
+const imgCont1 = "https://www.figma.com/api/mcp/asset/bd347984-1557-4b7b-9fc4-76df1556edc3.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/cca58032-19e9-45e4-a306-427b7df93be6.svg";
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="9190:3928" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+
+export default function Image() {
+  return (
+    <div className="relative size-full" data-node-id="80:38773" data-name="image">
+      <div className="absolute contents left-[51px] top-[40px]" data-node-id="80:38774">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-310px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[148px] top-[40px]" data-node-id="80:38775" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38775;11335:41668" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38775;11335:41668;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38775;11335:41668;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38775;11335:41668;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38775;11335:41668;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38775;11335:41668;12022:50624">
+                  И подпись к нему
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start justify-end relative shrink-0 w-full" data-node-id="I80:38775;11335:41669" data-name="container">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I80:38775;11335:41670" data-name="tui-avatar-stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-[56px]" data-node-id="I80:38775;11335:41670;25526:614362" data-name="AvatarCont1">
+                <div className="overflow-clip relative shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614363" data-name="Container">
+                  <div className="absolute content-stretch flex items-start left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38775;11335:41670;25526:614364" data-name="Avatar 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar1} />
+                    <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614364;25745:692822" data-name="Container" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38775;11335:41670;25526:614365" data-name="AvatarCont2">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38775;11335:41670;25526:614366" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38775;11335:41670;94792:29533" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="-translate-y-1/2 absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-1/2 w-[56px]" data-node-id="I80:38775;11335:41670;25526:614369" data-name="Avatar 2">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar2} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614369;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38775;11335:41670;25526:614370" data-name="AvatarCont3">
+                <div className="relative shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614371" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38775;11335:41670;94792:29537" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38775;11335:41670;25526:614374" data-name="Avatar 3">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar3} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614374;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38775;11335:41670;25526:614375" data-name="AvatarCont4">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38775;11335:41670;25526:614376" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38775;11335:41670;94792:29541" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38775;11335:41670;25526:614379" data-name="Avatar 4">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar4} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38775;11335:41670;25526:614379;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[51px] top-[228px]" data-node-id="80:38776" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38777" data-name="tui-ic-medium / cross-circle">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumCrossCircle} />
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="80:38778">
+            Проблема: не вмещается 4-й аватар
+          </p>
+        </div>
+        <div className="absolute h-[148px] left-[176px] top-[40px] w-[48px]" data-node-id="80:38779" data-name="Inside - Right" />
+        <div className="absolute h-[48px] left-[51px] top-[160px] w-[148px]" data-node-id="80:38780" data-name="Inside - Bottom" />
+        <div className="absolute h-[24px] left-[51px] top-[188px] w-[148px]" data-node-id="80:38781" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38781;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38781;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38781;5686:297;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[148px] left-[199px] top-[40px] w-[32px]" data-node-id="80:38782" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38782;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38782;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38782;5686:266;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[51px] top-[316px]" data-node-id="80:38783">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-310px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[148px] top-[316px]" data-node-id="80:38784" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38784;11335:41668" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38784;11335:41668;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38784;11335:41668;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38784;11335:41668;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38784;11335:41668;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38784;11335:41668;12022:50624">
+                  И подпись к нему
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start justify-end relative shrink-0 w-full" data-node-id="I80:38784;11335:41669" data-name="container">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I80:38784;11335:41670" data-name="tui-avatar-stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-[56px]" data-node-id="I80:38784;11335:41670;25526:614362" data-name="AvatarCont1">
+                <div className="overflow-clip relative shrink-0 size-[56px]" data-node-id="I80:38784;11335:41670;25526:614363" data-name="Container">
+                  <div className="absolute content-stretch flex items-start left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38784;11335:41670;25526:614364" data-name="Avatar 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar1} />
+                    <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38784;11335:41670;25526:614364;25745:692822" data-name="Container" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38784;11335:41670;25526:614365" data-name="AvatarCont2">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38784;11335:41670;25526:614366" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38784;11335:41670;94792:29533" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="-translate-y-1/2 absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-1/2 w-[56px]" data-node-id="I80:38784;11335:41670;25526:614369" data-name="Avatar 2">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar2} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38784;11335:41670;25526:614369;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38784;11335:41670;25526:614370" data-name="AvatarCont3">
+                <div className="relative shrink-0 size-[56px]" data-node-id="I80:38784;11335:41670;25526:614371" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38784;11335:41670;94792:29537" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38784;11335:41670;25526:614374" data-name="Avatar 3">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar3} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38784;11335:41670;25526:614374;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[51px] top-[504px]" data-node-id="80:38785" data-name="rules">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-pre" data-node-id="80:38787">
+            {`Решение 1: сократили количество до 3-х, `}
+            <br aria-hidden />
+            сохранив размер карточки
+          </p>
+        </div>
+        <div className="absolute h-[24px] left-[51px] top-[464px] w-[148px]" data-node-id="80:38788" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38788;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38788;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38788;5686:297;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[148px] left-[199px] top-[316px] w-[32px]" data-node-id="80:38789" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38789;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38789;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38789;5686:266;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[51px] top-[616px]" data-node-id="80:38790">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-296px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[176px] top-[616px]" data-node-id="80:38791" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38791;11335:41668" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38791;11335:41668;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38791;11335:41668;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38791;11335:41668;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38791;11335:41668;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38791;11335:41668;12022:50624">
+                  И подпись к нему
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start justify-end relative shrink-0 w-full" data-node-id="I80:38791;11335:41669" data-name="container">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I80:38791;11335:41670" data-name="tui-avatar-stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-[56px]" data-node-id="I80:38791;11335:41670;25526:614362" data-name="AvatarCont1">
+                <div className="overflow-clip relative shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614363" data-name="Container">
+                  <div className="absolute content-stretch flex items-start left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38791;11335:41670;25526:614364" data-name="Avatar 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar1} />
+                    <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614364;25745:692822" data-name="Container" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38791;11335:41670;25526:614365" data-name="AvatarCont2">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38791;11335:41670;25526:614366" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38791;11335:41670;94792:29533" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="-translate-y-1/2 absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-1/2 w-[56px]" data-node-id="I80:38791;11335:41670;25526:614369" data-name="Avatar 2">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar2} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614369;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38791;11335:41670;25526:614370" data-name="AvatarCont3">
+                <div className="relative shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614371" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38791;11335:41670;94792:29537" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38791;11335:41670;25526:614374" data-name="Avatar 3">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar3} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614374;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38791;11335:41670;25526:614375" data-name="AvatarCont4">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38791;11335:41670;25526:614376" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38791;11335:41670;94792:29541" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38791;11335:41670;25526:614379" data-name="Avatar 4">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar4} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38791;11335:41670;25526:614379;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[51px] top-[832px]" data-node-id="80:38792" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38793" data-name="tui-ic-small / check-circle">
+            <div className="absolute bg-[#ffcd33] inset-[3.13%_0_-3.13%_0] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_14px]" data-node-id="I80:38793;216732:1091" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-[325px]" data-node-id="80:38794">
+            Решение 3: равномерно увеличили высоту и ширину карточки, сохранив контент и пропорции карточки
+          </p>
+        </div>
+        <div className="absolute h-[24px] left-[51px] top-[792px] w-[176px]" data-node-id="80:38795" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38795;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38795;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38795;5686:297;5685:1099">
+              <p className="leading-[normal]">176</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[176px] left-[227px] top-[616px] w-[32px]" data-node-id="80:38796" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38796;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38796;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38796;5686:266;5685:1099">
+              <p className="leading-[normal]">176</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[462px] top-[316px]" data-node-id="80:38797">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%+101px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[148px] top-[316px]" data-node-id="80:38798" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38798;11335:41668" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38798;11335:41668;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38798;11335:41668;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38798;11335:41668;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38798;11335:41668;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38798;11335:41668;12022:50624">
+                  И подпись к нему
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start justify-end relative shrink-0 w-full" data-node-id="I80:38798;11335:41669" data-name="container">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I80:38798;11335:41670" data-name="tui-avatar-stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-[40px]" data-node-id="I80:38798;11335:41670;25526:614202" data-name="AvatarCont1">
+                <div className="overflow-clip relative shrink-0 size-[40px]" data-node-id="I80:38798;11335:41670;25526:614203" data-name="Container">
+                  <div className="absolute content-stretch flex items-start left-0 rounded-[100px] top-0" data-node-id="I80:38798;11335:41670;25526:614204" data-name="Avatar 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar1} />
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I80:38798;11335:41670;25526:614204;25745:692832" data-name="Container" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614205" data-name="AvatarCont2">
+                <div className="h-[40px] relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614206" data-name="Container">
+                  <div className="absolute left-[-12px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7.5px_0px] mask-size-[32.501px_40px] size-[40px] top-0" data-node-id="I80:38798;11335:41670;94792:29545" style={{ maskImage: `url("${imgCont1}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[40px]" data-node-id="I80:38798;11335:41670;25526:614209" data-name="Avatar 2">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar2} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I80:38798;11335:41670;25526:614209;25745:692832" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614210" data-name="AvatarCont3">
+                <div className="h-[40px] relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614211" data-name="Container">
+                  <div className="absolute left-[-12px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[7.5px_0px] mask-size-[32.501px_40px] size-[40px] top-0" data-node-id="I80:38798;11335:41670;94792:29558" style={{ maskImage: `url("${imgCont1}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[40px]" data-node-id="I80:38798;11335:41670;25526:614214" data-name="Avatar 3">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar3} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I80:38798;11335:41670;25526:614214;25745:692832" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614215" data-name="AvatarCont4">
+                <div className="h-[40px] relative shrink-0 w-[28px]" data-node-id="I80:38798;11335:41670;25526:614216" data-name="Container">
+                  <div className="absolute left-[-11px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[6.5px_0px] mask-size-[32.501px_40px] size-[40px] top-0" data-node-id="I80:38798;11335:41670;94792:29571" style={{ maskImage: `url("${imgCont1}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[40px]" data-node-id="I80:38798;11335:41670;25526:614219" data-name="Avatar 4">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar4} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I80:38798;11335:41670;25526:614219;25745:692832" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[462px] top-[504px]" data-node-id="80:38799" data-name="rules">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-pre" data-node-id="80:38801">
+            {`Решение 2: изменили размер аватар-стека, `}
+            <br aria-hidden />
+            сохранив размер карточки
+          </p>
+        </div>
+        <div className="absolute h-[24px] left-[462px] top-[464px] w-[148px]" data-node-id="80:38802" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38802;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38802;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38802;5686:297;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[148px] left-[610px] top-[316px] w-[32px]" data-node-id="80:38803" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38803;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38803;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38803;5686:266;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[462px] top-[616px]" data-node-id="80:38804">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] h-[148px] items-start left-[calc(50%+115px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] top-[616px] w-[176px]" data-node-id="80:38805" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38805;11335:41668" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38805;11335:41668;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38805;11335:41668;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38805;11335:41668;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38805;11335:41668;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38805;11335:41668;12022:50624">
+                  И подпись к нему
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start justify-end relative shrink-0 w-full" data-node-id="I80:38805;11335:41669" data-name="container">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I80:38805;11335:41670" data-name="tui-avatar-stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-[56px]" data-node-id="I80:38805;11335:41670;25526:614362" data-name="AvatarCont1">
+                <div className="overflow-clip relative shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614363" data-name="Container">
+                  <div className="absolute content-stretch flex items-start left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38805;11335:41670;25526:614364" data-name="Avatar 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar1} />
+                    <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614364;25745:692822" data-name="Container" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38805;11335:41670;25526:614365" data-name="AvatarCont2">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38805;11335:41670;25526:614366" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38805;11335:41670;94792:29533" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="-translate-y-1/2 absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-1/2 w-[56px]" data-node-id="I80:38805;11335:41670;25526:614369" data-name="Avatar 2">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar2} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614369;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38805;11335:41670;25526:614370" data-name="AvatarCont3">
+                <div className="relative shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614371" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38805;11335:41670;94792:29537" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end left-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38805;11335:41670;25526:614374" data-name="Avatar 3">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar3} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614374;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-[32px]" data-node-id="I80:38805;11335:41670;25526:614375" data-name="AvatarCont4">
+                <div className="h-[56px] relative shrink-0 w-[32px]" data-node-id="I80:38805;11335:41670;25526:614376" data-name="Container">
+                  <div className="absolute left-[-24px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[13.811px_0px] mask-size-[42.19px_56px] size-[56px] top-0" data-node-id="I80:38805;11335:41670;94792:29541" style={{ maskImage: `url("${imgCont}")` }} data-name="Cont">
+                    <div className="absolute content-stretch flex items-start justify-end right-0 rounded-[100px] top-0 w-[56px]" data-node-id="I80:38805;11335:41670;25526:614379" data-name="Avatar 4">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgAvatar4} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38805;11335:41670;25526:614379;25745:692822" data-name="Container" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[462px] top-[832px]" data-node-id="80:38806" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38807" data-name="tui-ic-medium / check-circle">
+            <div className="absolute bg-[#ffcd33] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.5px_2.5px] mask-size-[19px_19px]" data-node-id="I80:38807;216731:3844" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-[325px]" data-node-id="80:38808">{`Решение 4: увеличили ширину карточки, сохранив контент `}</p>
+        </div>
+        <div className="absolute h-[24px] left-[462px] top-[764px] w-[176px]" data-node-id="80:38809" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38809;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38809;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38809;5686:297;5685:1099">
+              <p className="leading-[normal]">176</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[148px] left-[638px] top-[616px] w-[32px]" data-node-id="80:38810" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38810;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38810;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38810;5686:266;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Лого партнеров/Старбакс: , Day/Component/badge-notification: #F52222, Лого партнеров/Dodo: , Лого партнеров/goods: , Лого партнеров/Пятерочка: , Day/Background/base-ios: #FFFFFF, Day/Status/negative: #F52222, Day/Text/primary: #000000, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day/Text/secondary: #9299A2, Day/Status/warning: #FFCD33.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-medium 
+**Node ID:** 7834:17853
+
+Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-medium-specs](https://go.tcsbank.ru/tui-card-medium-specs)
+
+## tui-header [card-medium]
+**Node ID:** 7834:14232
+
+⚪ Not In TUI
+
+## tui-avatar-stack
+**Node ID:** 7834:15960
+
+Стопка аватаров для использования в карточках или отдельно. Чтобы убрать лишние аватары, просто удалите их
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-stack-specs](https://go.tcsbank.ru/tui-avatar-stack-specs)
+
+## tui-avatar
+**Node ID:** 7834:14754
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## Mask
+**Node ID:** 7834:15923
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-ic-medium / cross-circle
+**Node ID:** 9190:3988
+
+cancel, delete, remove, X, удалить, убрать, закрыть, круг, крест
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 9190:3928
+
+галочка, успех, Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-ic-small / check-circle
+**Node ID:** 9190:3996
+
+success, approval, tick, круг, галочка, успех
+
+## tui-ic-medium / check-circle
+**Node ID:** 9190:3438
+
+tick, mark, correct, галочка, готово, успех
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

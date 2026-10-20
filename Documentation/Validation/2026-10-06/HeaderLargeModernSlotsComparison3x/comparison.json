@@ -1,0 +1,97 @@
+{
+  "method": "Figma RGBA composited on white; actual native 3x PNG compared directly at 3x.",
+  "sourceScale": 3,
+  "automaticAcceptance": false,
+  "variants": [
+    {
+      "variantId": "17714:51940",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51940-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/3E184133-B092-4656-8CDC-F79FA79E9A36.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.00023931623931623932,
+      "maximumRGBDifference": 1,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51950",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51950-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/211D4268-8451-4653-A454-2B5A819ACA0A.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.001754985754985755,
+      "maximumRGBDifference": 5,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51980",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51980-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/355ACFB8-1676-4CE3-BFDD-01E3745294E4.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.00023238925199709515,
+      "maximumRGBDifference": 1,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "17714:51990",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/17714-51990-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C1032C3D-4799-4C71-9037-710A5A476AA6.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.0017893972403776326,
+      "maximumRGBDifference": 5,
+      "pixelsOver16Fraction": 0.0
+    },
+    {
+      "variantId": "18083:44906",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/18083-44906-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/3A047E79-D9CF-4658-9E1C-3F5A53DF91A2.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.5404814814814815,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0069544159544159545
+    },
+    {
+      "variantId": "18083:44942",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/18083-44942-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C9C4F906-6749-49B6-90C1-490E364E80EA.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.38800290486565,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0059114015976761075
+    },
+    {
+      "variantId": "42565:305013",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/42565-305013-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/C8DE7363-06BD-4ABE-9055-B5D2CE0960D1.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.5394216524216524,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0069544159544159545
+    },
+    {
+      "variantId": "42565:305051",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/42565-305051-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/6828F03D-2103-4AA9-A31D-21E3065ACFC0.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.38693391430646334,
+      "maximumRGBDifference": 203,
+      "pixelsOver16Fraction": 0.0059114015976761075
+    },
+    {
+      "variantId": "547:151714",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/547-151714-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/D0D566AB-96AD-4DB6-A22C-F9B23BC30E4A.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.45765242165242165,
+      "maximumRGBDifference": 202,
+      "pixelsOver16Fraction": 0.007074074074074074
+    },
+    {
+      "variantId": "547:151734",
+      "source": "Documentation/References/HeaderLarge/FigmaPNG/547-151734-day-3x.png",
+      "runtime": "Documentation/Validation/2026-10-06/HeaderLargeModernSlotsNative/937CD03A-B8F0-495B-BA49-834164AD5648.png",
+      "dimensionsMatch": true,
+      "meanAbsoluteRGBDifference": 0.3918324860808521,
+      "maximumRGBDifference": 202,
+      "pixelsOver16Fraction": 0.006605664488017429
+    }
+  ]
+}

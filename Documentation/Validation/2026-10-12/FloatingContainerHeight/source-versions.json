@@ -1,0 +1,24 @@
+{
+  "scope": "Current tested source/dependencies: four package and four native tests; exact native recording; full motion/visual/specification acceptance pending",
+  "files": {
+    "Sources/TUIDesignSystem/Components/FloatingContainer/TUIFloatingContainer.swift": "b52829047e6c4a62c75f2ffcffc9a6f3ad39097c682f65911245e3372365e842",
+    "Sources/TUIDesignSystem/Components/Button/TUIButton.swift": "1a01a801756bb71f8eb43ab5162e5012a6ff4e3aef3d9bbc6431e74a38ca0e67",
+    "Sources/TUIDesignSystem/Foundation/TUIMotion.swift": "cc1f4bfc079a8a5f07d7058eb40cd6a46925b031775ef9069b4a0cf3b9813071",
+    "Sources/TUIDesignSystem/Foundation/TUITypography.swift": "32a865a6e6f61aa41f1008dfdb8180fc97c37fe2befc63b5446bdeca16e0a7d7",
+    "Sources/TUIDesignSystem/Catalog/TUIFloatingContainerPlayground.swift": "6c6568a5bb97f57886b9d0cebcff6f2b14f67ae6036224daf02aaf0ccfcc0a10",
+    "CatalogApp/FloatingContainerMotionProbe.swift": "052fbd15eee13bbac4c664b4c6db29814f6efbe3e96cd8cf660ffa115fa27d5d",
+    "CatalogApp/TUIDesignSystemCatalogApp.swift": "1c06baf4e23997ff25f4867b0ef1934936ecb5c460901f5ad73408037cd6047b",
+    "CatalogUITests/FloatingContainerUITests.swift": "ad23d018187347fa1cf2180328f956032df41b12359876d27dd35c838a518828",
+    "CatalogUITests/FloatingContainerConsumerUITests.swift": "6cad66ab586a3d623422bf1b0787cdd9073e885b980e4a908be137cee6c64977",
+    "CatalogUITests/TextfieldFormConsumerUITests.swift": "608018e60d16c4a3e6099488e8edd5ed8f19f375be919acdf6db0a519aeecf30",
+    "Tests/TUIDesignSystemTests/FloatingContainerTests.swift": "177a45bbfc2b63dcdfd0ead83976b8ffca42ffcbe3936215f4448b28dce3c2c5",
+    "Tests/TUIDesignSystemTests/WebCatalogExamplesTests.swift": "a73f64421ea13842e874f25c220772591fabb780ea29dde0daec2c8ea5f81ffa",
+    "Examples/ConsumerApp/App/FloatingContainerConsumerScreen.swift": "9ec073cc330e3b19ce75b64c31723a27073493285a9e88ae3c55f782ea215110",
+    "Documentation/assembling-screens-from-figma.md": "81b9ea3e98b1715078a1f10a3fde52c2d48da5f4a42a2a1c179190469b15a875",
+    "Scripts/measure_floating_container_motion.py": "102fa9953d185631d1a17cd60615d8660317d37f33c3137ccfdab864a3e69ce7",
+    "Scripts/generate_web_catalog.py": "e40a664370fec4e2efa2d71dde460f68974fc56ffa9953857baf982148023394",
+    "Documentation/References/FloatingContainer/2026-10-12/PrototypeObservation/reading-review.md": "a4f6cf83a5abbd3b7bd28b556563d1ffba23777790d953f4c055ff39b6cc0e8c",
+    "Documentation/References/FloatingContainer/2026-10-12/PrototypeObservation/secondary-to-legal-transition.json": "bd7824f33d57ece890486655258fc0a0c6b6a485436c3e4f6b6a92a0fbae343c",
+    "Documentation/References/FloatingContainer/2026-10-12/PrototypeObservation/legal-to-secondary-transition.json": "ed86624b56a7c865379c10ef5f3c2e3ee27b367988b21b4ae307ed60e44e7df8"
+  }
+}

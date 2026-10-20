@@ -1,0 +1,11 @@
+{
+  "measurementSource" : "stable-slide-native.mp4 + StableSlideFrames\/frames.json; clip is only for catalogue playback",
+  "operation" : "AVFoundation passthrough; no re-encoding, retiming, overlays or reconstructed frames",
+  "output" : "floating-transitions.mp4",
+  "outputDurationSeconds" : 12.1,
+  "requestedSourceRangeSeconds" : [
+    26.899999999999999,
+    39
+  ],
+  "source" : "stable-slide-native.mp4"
+}

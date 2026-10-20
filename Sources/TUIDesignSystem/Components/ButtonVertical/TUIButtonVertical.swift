@@ -8,11 +8,21 @@ public enum TUIButtonVerticalState: String, CaseIterable, Sendable {
 
 /// A 90-point vertical action from TUI Mobile, with its iOS visual states.
 public struct TUIButtonVertical: View {
+    public static let figmaComponentSetID = "41691:305320"
     public let title: String
     public let state: TUIButtonVerticalState
     public let skeleton: Bool
     public let icon: Image?
     private let action: () -> Void
+
+    public var figmaNodeID: String {
+        if skeleton { return "55915:350484" }
+        return switch state {
+        case .normal: "41691:305319"
+        case .pressed: "42511:286131"
+        case .disabled: "42511:286095"
+        }
+    }
 
     public init(
         _ title: String,

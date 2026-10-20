@@ -1,0 +1,98 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "C245DFF5-300E-4510-ADD0-3AFFC86EFE71.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-fade-ax-tree_0_E1E5301C-6529-4165-9FE3-64C0841581E6.txt",
+        "timestamp" : 1791292071.214
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D7C53B70-5195-4A79-B47D-A4D4C7936964.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-fade-and-suffix_0_2C90FD15-1082-4F52-B672-34E5E1081A4F.png",
+        "timestamp" : 1791292071.137
+      }
+    ],
+    "testIdentifier" : "HeaderConsumerUITests/testBoundedFadeFocusRetainsCompleteLabelAndVisibleSuffix()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testBoundedFadeFocusRetainsCompleteLabelAndVisibleSuffix"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "CE480F04-9D49-4C2F-864C-9257D792EE65.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-baseline-link-ax-tree_0_F785DFA9-79EB-40A4-8F66-61200DFE7EAB.txt",
+        "timestamp" : 1791292077.897
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "1122891E-B334-4367-8D60-35ED2A8869DC.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-baseline-link_0_F4765B94-5367-4DB3-A17C-82BF6F50B4C9.png",
+        "timestamp" : 1791292077.812
+      }
+    ],
+    "testIdentifier" : "HeaderConsumerUITests/testIndependentBaselineLinkAccessoryExecutesConsumerAction()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testIndependentBaselineLinkAccessoryExecutesConsumerAction"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "1753FF2D-8C1B-401F-B9F4-8157D3FBAF07.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-multiline-fade-ax-tree_0_1F17229D-2443-4C93-8947-C4ED4F20E056.txt",
+        "timestamp" : 1791292083.795
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "83D9D2E7-D3F3-4D23-98A7-BD1DBEAFFC98.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-independent-multiline-fade_0_44B94978-1164-445A-BB06-02315F357BBD.png",
+        "timestamp" : 1791292083.727
+      }
+    ],
+    "testIdentifier" : "HeaderConsumerUITests/testIndependentMultilineFadeRetainsFullLabelWithinVisibleBounds()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testIndependentMultilineFadeRetainsFullLabelWithinVisibleBounds"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F9541E5E-5E44-4919-9290-9D4F18A63EED.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-native-linked-title-and-interactive-accessory_0_416C4EE4-7E92-4CD0-BE16-58108F6C0CF6.png",
+        "timestamp" : 1791292112.486
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "0D582AC8-D6F1-48A3-9CD3-3E9380D27F47.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-native-accessibility-tree-with-link-and-toggle_0_49251DBD-C594-493F-B4DE-91876075182A.txt",
+        "timestamp" : 1791292097.813
+      }
+    ],
+    "testIdentifier" : "HeaderLargeUITests/testRealCatalogAccessoryReceivesTapsAndTitleLinkReceivesOpenURL()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderLargeUITests/testRealCatalogAccessoryReceivesTapsAndTitleLinkReceivesOpenURL"
+  }
+]

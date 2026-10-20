@@ -1,0 +1,35 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "3ADC47A2-18FA-4D14-91CA-B90740E66D21",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "4E6B0B32-F3D5-4F9E-B5F1-044E44D40065.json",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-native-layout-attachment_0_25905BF1-637F-4510-B045-B8D13F8ADBE6.json",
+        "timestamp" : 1791291724.996
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "3ADC47A2-18FA-4D14-91CA-B90740E66D21",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "6D2F942A-00E3-4BCA-B8F2-633638B2FCB2.json",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-native-layout-paragraph_0_6C4C8945-69EB-4831-8589-5256BF4E3AC2.json",
+        "timestamp" : 1791291724.911
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "3ADC47A2-18FA-4D14-91CA-B90740E66D21",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "9FD5C170-2D15-4C6B-AA18-9ADFF5B2395C.json",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "header-native-layout-natural_0_361B2826-34CB-4084-A2DA-25347FDFFE99.json",
+        "timestamp" : 1791291724.909
+      }
+    ],
+    "testIdentifier" : "HeaderTextLayoutProbeTests/testNativeLineCharacterRanges()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystem/TUIDesignSystemTests/HeaderTextLayoutProbeTests/testNativeLineCharacterRanges"
+  }
+]

@@ -47,6 +47,8 @@ public struct TUILink: View {
     public let title: String
     public let mode: TUILinkMode
     public let size: TUILinkSize
+    /// Optional replacement for the default leading icon instance from Figma.
+    public let leadingIcon: Image?
     public let showsLeadingIcon: Bool
     public let showsTrailingIcon: Bool
     private let action: () -> Void
@@ -55,6 +57,7 @@ public struct TUILink: View {
         _ title: String,
         mode: TUILinkMode = .default,
         size: TUILinkSize = .large,
+        leadingIcon: Image? = nil,
         showsLeadingIcon: Bool = true,
         showsTrailingIcon: Bool = true,
         action: @escaping () -> Void
@@ -62,6 +65,7 @@ public struct TUILink: View {
         self.title = title
         self.mode = mode
         self.size = size
+        self.leadingIcon = leadingIcon
         self.showsLeadingIcon = showsLeadingIcon
         self.showsTrailingIcon = showsTrailingIcon
         self.action = action
@@ -71,7 +75,7 @@ public struct TUILink: View {
         Button(action: action) {
             HStack(spacing: size.spacing) {
                 if showsLeadingIcon {
-                    Image("tui-link-arrow-right-circle", bundle: .module)
+                    (leadingIcon ?? Image("tui-link-arrow-right-circle", bundle: .module))
                         .renderingMode(.template)
                         .resizable()
                         .frame(width: 16, height: 16)

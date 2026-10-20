@@ -1,0 +1,20 @@
+Currently selected nodes:
+- 41637:306915: TitleDescription
+
+
+<frame id="41637:306907" name="TextCont" x="72" y="0" width="255" height="56">
+  <frame id="41637:306908" name="CaptionCont" x="0" y="8" width="255" height="16" hidden="true">
+    <text id="41637:306909" name="Caption" x="0" y="0" width="255" height="16" hidden="true" />
+  </frame>
+  <frame id="41637:306910" name="TitleCont" x="0" y="8" width="255" height="20">
+    <frame id="41637:306911" name="CellTitleCont" x="0" y="0" width="255" height="20">
+      <text id="41637:306912" name="CellTitle" x="0" y="0" width="255" height="20" />
+    </frame>
+  </frame>
+  <frame id="41637:306913" name="DescriptionCont" x="0" y="32" width="255" height="16">
+    <frame id="41637:306914" name="TitleDescriptionCont" x="0" y="0" width="255" height="16">
+      <text id="41637:306915" name="TitleDescription" x="0" y="0" width="255" height="16" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

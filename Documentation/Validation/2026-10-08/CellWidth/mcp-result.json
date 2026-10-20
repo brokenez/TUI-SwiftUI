@@ -1,0 +1,109 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "\n🧪 Test\n\nDiscovered 8 test(s):\n   TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested\n   TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes\n   TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell\n   TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained\n   TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent\n   TUIDesignSystemTests/CellTests/testLongValuesPreserveFullCellWidthFractionAndBothPriorities\n   (...and 2 more)\n\n✅ 8 tests passed, 0 failed, 0 skipped (⏱️ 35.5s)\n  └ Files:\n     ├── /private/tmp/tui-cell-width-2026-10-08.xcresult — Result Bundle\n     └── ~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/\n         ├── logs/test_sim_2026-10-08T07-22-03-260Z_pid90401_ae6157e0.log — Build Logs\n         └── test-products/test_sim_2026-10-08T07-22-03-260Z_pid90401_a6f7c492.xctestproducts — Test Products\n"
+    }
+  ],
+  "structuredContent": {
+    "schema": "xcodebuildmcp.output.test-result",
+    "schemaVersion": "3",
+    "didError": false,
+    "error": null,
+    "data": {
+      "summary": {
+        "status": "SUCCEEDED",
+        "durationMs": 35463,
+        "counts": {
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0
+        },
+        "target": "simulator"
+      },
+      "artifacts": {
+        "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-08T07-22-03-260Z_pid90401_ae6157e0.log",
+        "xcresultPath": "/private/tmp/tui-cell-width-2026-10-08.xcresult",
+        "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-08T07-22-03-260Z_pid90401_a6f7c492.xctestproducts"
+      },
+      "tests": {
+        "selected": [
+          "TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+          "TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+          "TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell",
+          "TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+          "TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+          "TUIDesignSystemTests/CellTests/testLongValuesPreserveFullCellWidthFractionAndBothPriorities",
+          "TUIDesignSystemTests/CellTests/testNonExtendedInlineSuffixSurvivesTextFade",
+          "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+        ],
+        "discovered": {
+          "total": 8,
+          "items": [
+            "TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+            "TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+            "TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell",
+            "TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+            "TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+            "TUIDesignSystemTests/CellTests/testLongValuesPreserveFullCellWidthFractionAndBothPriorities"
+          ]
+        }
+      },
+      "diagnostics": {
+        "warnings": [],
+        "errors": [],
+        "testFailures": []
+      },
+      "testCases": [
+        {
+          "suite": "CellTests",
+          "test": "testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+          "status": "passed",
+          "durationMs": 1308
+        },
+        {
+          "suite": "CellTests",
+          "test": "testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+          "status": "passed",
+          "durationMs": 95
+        },
+        {
+          "suite": "CellTests",
+          "test": "testCardCellCompositionsUseThePublicCell",
+          "status": "passed",
+          "durationMs": 51
+        },
+        {
+          "suite": "CellTests",
+          "test": "testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+          "status": "passed",
+          "durationMs": 54
+        },
+        {
+          "suite": "CellTests",
+          "test": "testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+          "status": "passed",
+          "durationMs": 42
+        },
+        {
+          "suite": "CellTests",
+          "test": "testLongValuesPreserveFullCellWidthFractionAndBothPriorities",
+          "status": "passed",
+          "durationMs": 372
+        },
+        {
+          "suite": "CellTests",
+          "test": "testNonExtendedInlineSuffixSurvivesTextFade",
+          "status": "passed",
+          "durationMs": 19
+        },
+        {
+          "suite": "WebCatalogExamplesTests",
+          "test": "testCopyableExamplesCompileAndRenderThroughPublicPackageAPI",
+          "status": "passed",
+          "durationMs": 1200
+        }
+      ]
+    }
+  }
+}

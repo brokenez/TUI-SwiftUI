@@ -1,0 +1,87 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 33481,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T13-53-17-072Z_pid90401_9f0f166a.log",
+      "xcresultPath": "/private/tmp/tui-header-card-centered-column-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T13-53-17-072Z_pid90401_49d296b5.xctestproducts"
+    },
+    "tests": {
+      "selected": [
+        "TUIDesignSystemTests/HeaderCardTests/testBooleanContentPropertiesRemoveTheirSourceContainers",
+        "TUIDesignSystemTests/HeaderCardTests/testCustomSlotsAndAccessoryReflowRetainContent",
+        "TUIDesignSystemTests/HeaderCardTests/testEightSwiftUIVariantsRenderInBothThemes",
+        "TUIDesignSystemTests/HeaderCardTests/testImportedMatrixMatchesEveryImplementedVariant",
+        "TUIDesignSystemTests/HeaderCardTests/testLineMetricsCapAndLongContent",
+        "TUIDesignSystemTests/HeaderCardTests/testTitleCentersInsideTallerAvatarWhenSubheaderIsHidden"
+      ],
+      "discovered": {
+        "total": 6,
+        "items": [
+          "TUIDesignSystemTests/HeaderCardTests/testBooleanContentPropertiesRemoveTheirSourceContainers",
+          "TUIDesignSystemTests/HeaderCardTests/testCustomSlotsAndAccessoryReflowRetainContent",
+          "TUIDesignSystemTests/HeaderCardTests/testEightSwiftUIVariantsRenderInBothThemes",
+          "TUIDesignSystemTests/HeaderCardTests/testImportedMatrixMatchesEveryImplementedVariant",
+          "TUIDesignSystemTests/HeaderCardTests/testLineMetricsCapAndLongContent",
+          "TUIDesignSystemTests/HeaderCardTests/testTitleCentersInsideTallerAvatarWhenSubheaderIsHidden"
+        ]
+      }
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "HeaderCardTests",
+        "test": "testBooleanContentPropertiesRemoveTheirSourceContainers",
+        "status": "passed",
+        "durationMs": 767
+      },
+      {
+        "suite": "HeaderCardTests",
+        "test": "testCustomSlotsAndAccessoryReflowRetainContent",
+        "status": "passed",
+        "durationMs": 144
+      },
+      {
+        "suite": "HeaderCardTests",
+        "test": "testEightSwiftUIVariantsRenderInBothThemes",
+        "status": "passed",
+        "durationMs": 211
+      },
+      {
+        "suite": "HeaderCardTests",
+        "test": "testImportedMatrixMatchesEveryImplementedVariant",
+        "status": "passed",
+        "durationMs": 17
+      },
+      {
+        "suite": "HeaderCardTests",
+        "test": "testLineMetricsCapAndLongContent",
+        "status": "passed",
+        "durationMs": 26
+      },
+      {
+        "suite": "HeaderCardTests",
+        "test": "testTitleCentersInsideTallerAvatarWhenSubheaderIsHidden",
+        "status": "passed",
+        "durationMs": 12
+      }
+    ]
+  }
+}

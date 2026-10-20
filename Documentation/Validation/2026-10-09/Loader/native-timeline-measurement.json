@@ -1,0 +1,373 @@
+{
+  "method": "Actual active-scene screenshots, yellow centerline angular occupancy and longest circular gap. Period search 3..5s with free phase, amplitude and cap offset; container rotation measured from endpoints after removing fitted trim movement. Screenshot time is bounded by before/after timestamps. Not a frame-rate or smoothness measurement.",
+  "sourceVariantID": "43680:292637",
+  "samples": 35,
+  "captureDurationSeconds": 8.611307917,
+  "frameInPoints": [
+    181,
+    195.33333333333334,
+    40,
+    40.333333333333314
+  ],
+  "fittedTrimPeriodSeconds": 3.9999999999999787,
+  "fittedPhaseOffsetSeconds": 1.475,
+  "fittedMaximumTrimFraction": 0.9371185728719321,
+  "fittedRoundCapFraction": 0.03922530215906711,
+  "arcFractionRMSE": 0.0182452006144632,
+  "containerDegreesPerSecond": 179.99573212150568,
+  "rotationAngleRMSEDegrees": 8.213396073484349,
+  "maximumScreenshotTimeUncertaintySeconds": 0.29535360399999977,
+  "automaticAcceptance": false,
+  "frames": [
+    {
+      "afterScreenshot": 0.434438917,
+      "beforeScreenshot": 0.000752875,
+      "index": 0,
+      "file": "F14B3A83-33F1-4C69-8B61-BE3CDA85B7F8.png",
+      "midpointSeconds": 0.21759589599999998,
+      "captureUncertaintySeconds": 0.216843021,
+      "visibleArcFraction": 0.8701171875,
+      "roundCapStartAngleDegrees": 313.76953125
+    },
+    {
+      "afterScreenshot": 0.775608292,
+      "beforeScreenshot": 0.624871625,
+      "index": 1,
+      "file": "DB71C59B-D101-4242-9271-03173F34447A.png",
+      "midpointSeconds": 0.7002399585000001,
+      "captureUncertaintySeconds": 0.0753683335,
+      "visibleArcFraction": 0.890625,
+      "roundCapStartAngleDegrees": 60.8203125
+    },
+    {
+      "afterScreenshot": 1.078211917,
+      "beforeScreenshot": 0.929228709,
+      "index": 2,
+      "file": "F9A22A6C-E714-4C34-B8EB-5DB99FDA8A9C.png",
+      "midpointSeconds": 1.003720313,
+      "captureUncertaintySeconds": 0.07449160399999999,
+      "visibleArcFraction": 0.7626953125,
+      "roundCapStartAngleDegrees": 154.16015625
+    },
+    {
+      "afterScreenshot": 1.4662988750000001,
+      "beforeScreenshot": 1.347429834,
+      "index": 3,
+      "file": "8770B8EA-A9C2-4C87-BE26-8D4402DE4FC9.png",
+      "midpointSeconds": 1.4068643545000001,
+      "captureUncertaintySeconds": 0.05943452050000009,
+      "visibleArcFraction": 0.55908203125,
+      "roundCapStartAngleDegrees": 301.9921875
+    },
+    {
+      "afterScreenshot": 1.685382292,
+      "beforeScreenshot": 1.5708635,
+      "index": 4,
+      "file": "BFB1F590-2804-4FC9-B4B8-60A43DB63665.png",
+      "midpointSeconds": 1.6281228959999998,
+      "captureUncertaintySeconds": 0.05725939599999996,
+      "visibleArcFraction": 0.45556640625,
+      "roundCapStartAngleDegrees": 18.10546875
+    },
+    {
+      "afterScreenshot": 1.897977709,
+      "beforeScreenshot": 1.784773125,
+      "index": 5,
+      "file": "AA346FCA-1620-4D1F-8A5D-F4FD7961CD3C.png",
+      "midpointSeconds": 1.841375417,
+      "captureUncertaintySeconds": 0.056602292,
+      "visibleArcFraction": 0.35498046875,
+      "roundCapStartAngleDegrees": 93.1640625
+    },
+    {
+      "afterScreenshot": 2.113990959,
+      "beforeScreenshot": 1.9931782500000002,
+      "index": 6,
+      "file": "45F91460-F871-43C3-9196-6F9EC3A72969.png",
+      "midpointSeconds": 2.0535846045,
+      "captureUncertaintySeconds": 0.06040635449999998,
+      "visibleArcFraction": 0.26806640625,
+      "roundCapStartAngleDegrees": 157.67578125
+    },
+    {
+      "afterScreenshot": 2.348174834,
+      "beforeScreenshot": 2.211157417,
+      "index": 7,
+      "file": "914CD2B7-345D-425D-9093-2EC3CFF012EC.png",
+      "midpointSeconds": 2.2796661255,
+      "captureUncertaintySeconds": 0.06850870850000002,
+      "visibleArcFraction": 0.14501953125,
+      "roundCapStartAngleDegrees": 251.015625
+    },
+    {
+      "afterScreenshot": 2.593284542,
+      "beforeScreenshot": 2.458674709,
+      "index": 8,
+      "file": "11E428E4-D00F-41ED-A303-766A72E3AED2.png",
+      "midpointSeconds": 2.5259796254999998,
+      "captureUncertaintySeconds": 0.06730491650000014,
+      "visibleArcFraction": 0.02880859375,
+      "roundCapStartAngleDegrees": 355.95703125
+    },
+    {
+      "afterScreenshot": 2.821521875,
+      "beforeScreenshot": 2.697544334,
+      "index": 9,
+      "file": "E1118F09-7B49-4638-A4C6-5D6ED1F5D563.png",
+      "midpointSeconds": 2.7595331045,
+      "captureUncertaintySeconds": 0.06198877050000018,
+      "visibleArcFraction": 0.13232421875,
+      "roundCapStartAngleDegrees": 35.15625
+    },
+    {
+      "afterScreenshot": 3.057264959,
+      "beforeScreenshot": 2.92732775,
+      "index": 10,
+      "file": "F0B9E0F3-B586-4E64-BBB7-598B82B95D00.png",
+      "midpointSeconds": 2.9922963544999996,
+      "captureUncertaintySeconds": 0.06496860449999997,
+      "visibleArcFraction": 0.23779296875,
+      "roundCapStartAngleDegrees": 75.41015625
+    },
+    {
+      "afterScreenshot": 3.2858291250000002,
+      "beforeScreenshot": 3.172820959,
+      "index": 11,
+      "file": "18118CBF-564F-42CE-8DDA-14405B8D7395.png",
+      "midpointSeconds": 3.229325042,
+      "captureUncertaintySeconds": 0.056504083000000094,
+      "visibleArcFraction": 0.35595703125,
+      "roundCapStartAngleDegrees": 118.30078125
+    },
+    {
+      "afterScreenshot": 3.482222417,
+      "beforeScreenshot": 3.383884625,
+      "index": 12,
+      "file": "0FAD6B34-35F4-4A35-94F3-7708787D4E18.png",
+      "midpointSeconds": 3.4330535209999997,
+      "captureUncertaintySeconds": 0.04916889600000007,
+      "visibleArcFraction": 0.458984375,
+      "roundCapStartAngleDegrees": 155.390625
+    },
+    {
+      "afterScreenshot": 3.675616792,
+      "beforeScreenshot": 3.574018417,
+      "index": 13,
+      "file": "D95E5ACA-C585-4838-92C4-CBDA8A7ECDE4.png",
+      "midpointSeconds": 3.6248176045,
+      "captureUncertaintySeconds": 0.05079918750000001,
+      "visibleArcFraction": 0.54931640625,
+      "roundCapStartAngleDegrees": 190.546875
+    },
+    {
+      "afterScreenshot": 3.88408675,
+      "beforeScreenshot": 3.7708496670000002,
+      "index": 14,
+      "file": "6D8D0D5F-9967-43AD-8C47-CDB39A6A8BBF.png",
+      "midpointSeconds": 3.8274682085,
+      "captureUncertaintySeconds": 0.056618541499999786,
+      "visibleArcFraction": 0.6416015625,
+      "roundCapStartAngleDegrees": 226.40625
+    },
+    {
+      "afterScreenshot": 4.087476709,
+      "beforeScreenshot": 3.981488959,
+      "index": 15,
+      "file": "93F108EB-3E8D-42B3-8E07-833EEE2F8B89.png",
+      "midpointSeconds": 4.034482834,
+      "captureUncertaintySeconds": 0.05299387499999986,
+      "visibleArcFraction": 0.7412109375,
+      "roundCapStartAngleDegrees": 265.95703125
+    },
+    {
+      "afterScreenshot": 4.289518209,
+      "beforeScreenshot": 4.184452709,
+      "index": 16,
+      "file": "CB7F2F64-08A2-49CF-B92C-767B52CAE5C5.png",
+      "midpointSeconds": 4.236985459,
+      "captureUncertaintySeconds": 0.052532749999999684,
+      "visibleArcFraction": 0.83642578125,
+      "roundCapStartAngleDegrees": 301.9921875
+    },
+    {
+      "afterScreenshot": 4.486188,
+      "beforeScreenshot": 4.384523667,
+      "index": 17,
+      "file": "DBF9B19A-652A-46AB-A57F-1699D69FD1E8.png",
+      "midpointSeconds": 4.4353558335,
+      "captureUncertaintySeconds": 0.05083216650000022,
+      "visibleArcFraction": 0.9326171875,
+      "roundCapStartAngleDegrees": 338.02734375
+    },
+    {
+      "afterScreenshot": 4.67734575,
+      "beforeScreenshot": 4.5769417919999995,
+      "index": 18,
+      "file": "139F5F36-7DF2-447E-95DD-9CC9E92F797B.png",
+      "midpointSeconds": 4.627143771,
+      "captureUncertaintySeconds": 0.05020197900000012,
+      "visibleArcFraction": 0.9365234375,
+      "roundCapStartAngleDegrees": 26.015625
+    },
+    {
+      "afterScreenshot": 4.870520584,
+      "beforeScreenshot": 4.769570917,
+      "index": 19,
+      "file": "1CFCCE8A-0DA7-444C-88C9-D9F612545D1D.png",
+      "midpointSeconds": 4.8200457505,
+      "captureUncertaintySeconds": 0.05047483350000004,
+      "visibleArcFraction": 0.84375,
+      "roundCapStartAngleDegrees": 93.1640625
+    },
+    {
+      "afterScreenshot": 5.073766334,
+      "beforeScreenshot": 4.964650417,
+      "index": 20,
+      "file": "F2E9C39C-4714-4BF7-9D2B-D1B0DD28E49C.png",
+      "midpointSeconds": 5.0192083755,
+      "captureUncertaintySeconds": 0.054557958500000225,
+      "visibleArcFraction": 0.74365234375,
+      "roundCapStartAngleDegrees": 166.46484375
+    },
+    {
+      "afterScreenshot": 5.2722117090000005,
+      "beforeScreenshot": 5.167518542,
+      "index": 21,
+      "file": "07355FD7-8AC9-4520-9889-40A941AA0283.png",
+      "midpointSeconds": 5.2198651255,
+      "captureUncertaintySeconds": 0.05234658350000032,
+      "visibleArcFraction": 0.6552734375,
+      "roundCapStartAngleDegrees": 233.26171875
+    },
+    {
+      "afterScreenshot": 5.461372459,
+      "beforeScreenshot": 5.361431209,
+      "index": 22,
+      "file": "62E5AB80-E90B-4108-908F-5B34B1C620F9.png",
+      "midpointSeconds": 5.411401833999999,
+      "captureUncertaintySeconds": 0.049970624999999824,
+      "visibleArcFraction": 0.55908203125,
+      "roundCapStartAngleDegrees": 301.9921875
+    },
+    {
+      "afterScreenshot": 5.658375834,
+      "beforeScreenshot": 5.554421292,
+      "index": 23,
+      "file": "FCF96442-3554-4524-9573-935BA9AFAF82.png",
+      "midpointSeconds": 5.606398563,
+      "captureUncertaintySeconds": 0.05197727100000016,
+      "visibleArcFraction": 0.46240234375,
+      "roundCapStartAngleDegrees": 12.65625
+    },
+    {
+      "afterScreenshot": 5.864152167,
+      "beforeScreenshot": 5.757921792,
+      "index": 24,
+      "file": "AA29E3EE-6978-4698-B6E6-CACEAFEF02C8.png",
+      "midpointSeconds": 5.811036979500001,
+      "captureUncertaintySeconds": 0.053115187499999994,
+      "visibleArcFraction": 0.38427734375,
+      "roundCapStartAngleDegrees": 71.015625
+    },
+    {
+      "afterScreenshot": 6.059040292,
+      "beforeScreenshot": 5.958816584,
+      "index": 25,
+      "file": "D2BC27F4-5115-4DE1-A213-07573A0C81BC.png",
+      "midpointSeconds": 6.008928438,
+      "captureUncertaintySeconds": 0.050111853999999845,
+      "visibleArcFraction": 0.2841796875,
+      "roundCapStartAngleDegrees": 145.72265625
+    },
+    {
+      "afterScreenshot": 6.257208834,
+      "beforeScreenshot": 6.15703375,
+      "index": 26,
+      "file": "3B1A54AD-E971-4CC6-AA81-49DDE55E046A.png",
+      "midpointSeconds": 6.207121292,
+      "captureUncertaintySeconds": 0.050087541999999985,
+      "visibleArcFraction": 0.18408203125,
+      "roundCapStartAngleDegrees": 221.8359375
+    },
+    {
+      "afterScreenshot": 6.4595607919999996,
+      "beforeScreenshot": 6.3510355,
+      "index": 27,
+      "file": "DB7BDBC4-0CA8-4D90-B10D-525DD677E968.png",
+      "midpointSeconds": 6.405298146,
+      "captureUncertaintySeconds": 0.05426264599999975,
+      "visibleArcFraction": 0.08642578125,
+      "roundCapStartAngleDegrees": 292.1484375
+    },
+    {
+      "afterScreenshot": 7.153682792,
+      "beforeScreenshot": 6.562975584,
+      "index": 28,
+      "file": "3897E20F-72A4-429B-8E9C-76AC8C81ACD5.png",
+      "midpointSeconds": 6.858329188,
+      "captureUncertaintySeconds": 0.29535360399999977,
+      "visibleArcFraction": 0.28515625,
+      "roundCapStartAngleDegrees": 91.0546875
+    },
+    {
+      "afterScreenshot": 7.480855792,
+      "beforeScreenshot": 7.36737275,
+      "index": 29,
+      "file": "869136F7-2B10-40D4-B78B-78A538928103.png",
+      "midpointSeconds": 7.4241142710000005,
+      "captureUncertaintySeconds": 0.05674152099999974,
+      "visibleArcFraction": 0.45458984375,
+      "roundCapStartAngleDegrees": 154.16015625
+    },
+    {
+      "afterScreenshot": 7.706786667,
+      "beforeScreenshot": 7.591867375,
+      "index": 30,
+      "file": "9FAE6071-161C-487A-B715-A2FBD2B48A52.png",
+      "midpointSeconds": 7.6493270209999995,
+      "captureUncertaintySeconds": 0.05745964600000031,
+      "visibleArcFraction": 0.5654296875,
+      "roundCapStartAngleDegrees": 195.99609375
+    },
+    {
+      "afterScreenshot": 7.90977275,
+      "beforeScreenshot": 7.809609959,
+      "index": 31,
+      "file": "8FB255BB-E194-4E06-8111-BE2BDCB20D36.png",
+      "midpointSeconds": 7.859691354500001,
+      "captureUncertaintySeconds": 0.0500813954999999,
+      "visibleArcFraction": 0.6591796875,
+      "roundCapStartAngleDegrees": 231.85546875
+    },
+    {
+      "afterScreenshot": 8.103007292,
+      "beforeScreenshot": 8.0021035,
+      "index": 32,
+      "file": "9BA1D0B7-60C0-44EA-B926-952AD754CE46.png",
+      "midpointSeconds": 8.052555395999999,
+      "captureUncertaintySeconds": 0.05045189599999933,
+      "visibleArcFraction": 0.7470703125,
+      "roundCapStartAngleDegrees": 267.01171875
+    },
+    {
+      "afterScreenshot": 8.2940355,
+      "beforeScreenshot": 8.196030334,
+      "index": 33,
+      "file": "F44F48E4-4343-40D5-AFE1-6ED0BBA83EF4.png",
+      "midpointSeconds": 8.245032917,
+      "captureUncertaintySeconds": 0.049002583000000044,
+      "visibleArcFraction": 0.83642578125,
+      "roundCapStartAngleDegrees": 301.9921875
+    },
+    {
+      "afterScreenshot": 8.516702667,
+      "beforeScreenshot": 8.38372825,
+      "index": 34,
+      "file": "CA2233BA-5067-439D-8B07-4DF7DE07938F.png",
+      "midpointSeconds": 8.4502154585,
+      "captureUncertaintySeconds": 0.0664872084999999,
+      "visibleArcFraction": 0.9326171875,
+      "roundCapStartAngleDegrees": 338.02734375
+    }
+  ]
+}

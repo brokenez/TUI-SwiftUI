@@ -1,0 +1,1233 @@
+[
+  {
+    "id": "18083:44942",
+    "key": "7f17c03ba30140379f995dec58b6db1395792c65",
+    "properties": {
+      "system": "iOS",
+      "show-description": "off",
+      "text-align": "start",
+      "skeleton": "off",
+      "extended": "on"
+    },
+    "width": 375,
+    "height": 102,
+    "padding": [
+      8,
+      16,
+      24,
+      16
+    ],
+    "gap": 16,
+    "layers": [
+      {
+        "id": "18083:44943",
+        "name": "HeaderCont",
+        "type": "FRAME",
+        "x": 16,
+        "y": 8,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44944",
+        "name": "Header+Subheader",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44945",
+        "name": "HeaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44980",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44981",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 10,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44946",
+        "name": "HeaderText",
+        "type": "TEXT",
+        "x": 26,
+        "y": 0,
+        "w": 291,
+        "h": 36,
+        "visible": true,
+        "text": "Header",
+        "font": {
+          "family": "SF Pro Display",
+          "style": "Bold"
+        },
+        "size": 30,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": 0.36000001430511475
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224
+            }
+          }
+        ]
+      },
+      {
+        "id": "18083:44978",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 327,
+        "y": 0,
+        "w": 16,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44979",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 10,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44947",
+        "name": "SubheaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 52,
+        "w": 343,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44976",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44977",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 1,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44948",
+        "name": "SubheaderText",
+        "type": "TEXT",
+        "x": 26,
+        "y": 0,
+        "w": 291,
+        "h": 18,
+        "visible": true,
+        "text": "Subheader",
+        "size": 15,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": -0.23999999463558197
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.572549045085907,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            }
+          }
+        ]
+      },
+      {
+        "id": "18083:44974",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 327,
+        "y": 0,
+        "w": 16,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44975",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 1,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44949",
+        "name": "Accessory",
+        "type": "FRAME",
+        "x": 307,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": false,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44950",
+        "name": "IconCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44951",
+        "name": "tui-avatar",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17714:51980",
+    "key": "0b0d18f3e78ff0445d23312869d17cab5a35c546",
+    "properties": {
+      "system": "iOS",
+      "show-description": "off",
+      "text-align": "start",
+      "skeleton": "on",
+      "extended": "off"
+    },
+    "width": 375,
+    "height": 102,
+    "padding": [
+      8,
+      16,
+      24,
+      16
+    ],
+    "gap": 16,
+    "layers": [
+      {
+        "id": "17714:51981",
+        "name": "HeaderCont",
+        "type": "FRAME",
+        "x": 16,
+        "y": 8,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51982",
+        "name": "Header+Subheader",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51983",
+        "name": "HeaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "38196:70192",
+        "name": "tui-skeleton [text]",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          6,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "id": "17714:51985",
+        "name": "SubheaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 52,
+        "w": 343,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "38196:70213",
+        "name": "tui-skeleton [text]",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          3,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "id": "17714:51987",
+        "name": "Accessory",
+        "type": "FRAME",
+        "x": 307,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": false,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51988",
+        "name": "IconCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51989",
+        "name": "tui-avatar",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "547:151734",
+    "key": "2139d468a6c23622dc37f09de79f483a5a60395e",
+    "properties": {
+      "system": "iOS",
+      "show-description": "off",
+      "text-align": "center",
+      "skeleton": "off",
+      "extended": "off"
+    },
+    "width": 375,
+    "height": 102,
+    "padding": [
+      8,
+      16,
+      24,
+      16
+    ],
+    "gap": 16,
+    "layers": [
+      {
+        "id": "547:151735",
+        "name": "HeaderCont",
+        "type": "FRAME",
+        "x": 16,
+        "y": 8,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151736",
+        "name": "Header+Subheader",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151737",
+        "name": "HeaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151738",
+        "name": "HeaderText",
+        "type": "TEXT",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "text": "Header",
+        "font": {
+          "family": "SF Pro Display",
+          "style": "Bold"
+        },
+        "size": 30,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": 0.36000001430511475
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224
+            }
+          }
+        ]
+      },
+      {
+        "id": "547:151739",
+        "name": "SubheaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 52,
+        "w": 343,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151740",
+        "name": "SubheaderText",
+        "type": "TEXT",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 18,
+        "visible": true,
+        "text": "Subheader",
+        "size": 15,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": -0.23999999463558197
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.572549045085907,
+              "g": 0.6000000238418579,
+              "b": 0.6352941393852234
+            }
+          }
+        ]
+      },
+      {
+        "id": "547:151741",
+        "name": "Accessory",
+        "type": "FRAME",
+        "x": 307,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": false,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151742",
+        "name": "IconCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "547:151743",
+        "name": "tui-avatar",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17714:51990",
+    "key": "3f2acde9769edff6b0b4a711cd20f93835523d12",
+    "properties": {
+      "system": "iOS",
+      "show-description": "off",
+      "text-align": "center",
+      "skeleton": "on",
+      "extended": "off"
+    },
+    "width": 375,
+    "height": 102,
+    "padding": [
+      8,
+      16,
+      24,
+      16
+    ],
+    "gap": 16,
+    "layers": [
+      {
+        "id": "17714:51991",
+        "name": "HeaderCont",
+        "type": "FRAME",
+        "x": 16,
+        "y": 8,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51992",
+        "name": "Header+Subheader",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 70,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51993",
+        "name": "HeaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "38196:70197",
+        "name": "tui-skeleton [text]",
+        "type": "INSTANCE",
+        "x": 106.5,
+        "y": 0,
+        "w": 130,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          6,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "id": "17714:51995",
+        "name": "SubheaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 52,
+        "w": 343,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "38196:70220",
+        "name": "tui-skeleton [text]",
+        "type": "INSTANCE",
+        "x": 79,
+        "y": 0,
+        "w": 185,
+        "h": 18,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          3,
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "id": "17714:51997",
+        "name": "Accessory",
+        "type": "FRAME",
+        "x": 307,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": false,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51998",
+        "name": "IconCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "17714:51999",
+        "name": "tui-avatar",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18083:44906",
+    "key": "9de5b3ee74f67ff15f7ad60052b2b204b04873f3",
+    "properties": {
+      "system": "iOS",
+      "show-description": "on",
+      "text-align": "start",
+      "skeleton": "off",
+      "extended": "on"
+    },
+    "width": 375,
+    "height": 104,
+    "padding": [
+      8,
+      16,
+      24,
+      16
+    ],
+    "gap": 16,
+    "layers": [
+      {
+        "id": "18083:42725",
+        "name": "HeaderCont",
+        "type": "FRAME",
+        "x": 16,
+        "y": 8,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42726",
+        "name": "Header+Subheader",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42727",
+        "name": "HeaderTextCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44927",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44902",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 10,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42728",
+        "name": "HeaderText",
+        "type": "TEXT",
+        "x": 26,
+        "y": 0,
+        "w": 291,
+        "h": 36,
+        "visible": true,
+        "text": "Header",
+        "font": {
+          "family": "SF Pro Display",
+          "style": "Bold"
+        },
+        "size": 30,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": 0.36000001430511475
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224
+            }
+          }
+        ]
+      },
+      {
+        "id": "18083:44928",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 327,
+        "y": 0,
+        "w": 16,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44929",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 10,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42729",
+        "name": "Accessory",
+        "type": "FRAME",
+        "x": 307,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": false,
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42730",
+        "name": "IconCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42731",
+        "name": "tui-avatar",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36,
+        "visible": true,
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42732",
+        "name": "Description",
+        "type": "FRAME",
+        "x": 16,
+        "y": 60,
+        "w": 343,
+        "h": 20,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44932",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 20,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44933",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 2,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:42733",
+        "name": "DescriptionText",
+        "type": "TEXT",
+        "x": 26,
+        "y": 0,
+        "w": 291,
+        "h": 20,
+        "visible": true,
+        "text": "Description",
+        "size": 17,
+        "tracking": {
+          "unit": "PIXELS",
+          "value": -0.4099999964237213
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "fill": [
+          {
+            "opacity": 1,
+            "color": {
+              "r": 0.20000000298023224,
+              "g": 0.20000000298023224,
+              "b": 0.20000000298023224
+            }
+          }
+        ]
+      },
+      {
+        "id": "18083:44930",
+        "name": "PlaceholderCont",
+        "type": "FRAME",
+        "x": 327,
+        "y": 0,
+        "w": 16,
+        "h": 20,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "18083:44931",
+        "name": "placeholder-single",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 2,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1546 @@
+{
+  "fileKey": "OBPLqL8JDThLuOP8M4JzBL",
+  "reviewDate": "2026-10-08",
+  "scope": "Variable/style definitions per imported component set; not bindings or complete mode/alias graph",
+  "components": [
+    {
+      "id": "41658:296906",
+      "name": "tui-button",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Accent 1\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"tui-button/radius-large\":\"16\",\"Background/Accent 1\":\"#ffdd2d\",\"Service/Skeleton\":\"#00000008\",\"Text/Action\":\"#428bf9\",\"Background/Neutral 1\":\"#00102408\",\"Text/Negative\":\"#f52222\",\"Text/Primary\":\"#333333\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Overlay Glass\":\"#00000066\",\"Background/Accent 2\":\"#428bf9\",\"Status/Negative\":\"#f52222\",\"Text/Primary On Opposite\":\"#ffffff\",\"Background/Accent Opposite\":\"#000000\",\"Text/Tertiary\":\"#00102438\",\"Text/Tertiary On Dark\":\"#ffffff4d\",\"State/Background/Accent 1 Pressed\":\"#ffcd33\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"State/Background/Overlay Glass Pressed\":\"#00000099\",\"State/Background/Accent 2 Pressed\":\"#126df7\",\"State/Status/Negative Pressed\":\"#9c0707\",\"State/Background/Accent Opposite Pressed\":\"#2c2c2e\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Android/Ripple On T-Bank\":\"#fab61966\",\"Service/Android/Ripple\":\"#0000000a\",\"Service/Android/Ripple On Dark\":\"#ffffff21\",\"Service/Android/Ripple On Opposite\":\"#ffffff21\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Small/Color\":\"#0000001a\",\"Hide from publishing/Shadow/Small/Y-axis\":\"5\",\"Hide from publishing/Shadow/Small/Blur\":\"20\",\"Shadow/Small\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0)\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\"}"
+          }
+        ]
+      },
+      "reusedSnapshot": true
+    },
+    {
+      "id": "41569:290555",
+      "name": "tui-cell",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"min-height\":\"56\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Background/Neutral 1 On Light\":\"#00000008\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"accessory-min-height\":\"40\",\"Background/Neutral 1\":\"#00102408\"}"
+          }
+        ]
+      },
+      "reusedSnapshot": true
+    },
+    {
+      "id": "65702:51131",
+      "name": "tui-textfield ",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"Text/Primary\":\"#333333\",\"Text/Tertiary\":\"#00102438\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Negative\":\"#f52222\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      },
+      "reusedSnapshot": true
+    },
+    {
+      "id": "20582:43392",
+      "name": " tui-avatar [subscription]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent On Light\":\"#000000\",\"Day/Background/accent-on-light\":\"#000000\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Background/Base\":\"#ffffff\",\"Brand/Pro\":\"#85e808\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53309:296335",
+      "name": ".bullet",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent 1\":\"#ffdd2d\",\"Status/Info\":\"#428bf9\",\"Background/Accent Opposite\":\"#000000\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27940:58934",
+      "name": "[pwa-webview] tui-dialog",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"height\":\"44\",\"Text/Primary\":\"#333333\",\"iOS/Heading L\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475)\",\"Screen Padding\":\"16\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Base\":\"#ffffff\",\"Text/Primary On Accent 1\":\"#333333\",\"tui-button/radius-large\":\"16\",\"Background/Accent 1\":\"#ffdd2d\",\"Screen Width\":\"375\",\"Screen Height\":\"812\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"100% Black\":\"#000000\",\"Light / On Surface\":\"#000000\",\"Android/Heading L\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android System/Appbar\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 20, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Background/Accent On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Background/Elevation 1\":\"#ffffff\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Service/Backdrop\":\"#00000080\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Size/Screen Width\":\"360\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "39867:46664",
+      "name": "[pwa] tui-input-search",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 2\":\"#0010240f\",\"State/Background/Neutral 2 Pressed\":\"#0010241f\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "45931:47324",
+      "name": "payment-logo",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9151:1662",
+      "name": "system-action-sheet",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 3\":\"#0010241f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24689:584469",
+      "name": "system-alert",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"Android/Heading S Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 16, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Border/Normal\":\"#0010241f\",\"Background/Elevation 1\":\"#ffffff\",\"Text/Primary On Dark\":\"#ffffff\",\"Border/On Dark\":\"#ffffff1a\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"iOS Blur\":\"Effect(type: BACKGROUND_BLUR, radius: 20)\",\"iOS/UI L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24708:577310",
+      "name": "system-bottom-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Base\":\"#000000\",\"Background/Accent Opposite\":\"#000000\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Background/Accent On Light\":\"#000000\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "544:151464",
+      "name": "system-browser-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"Background/Accent 2\":\"#428bf9\",\"Text/Secondary\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"App-bar button padding\":\"12\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42221:48343",
+      "name": "system-browser-chrome",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 2\":\"#0010240f\",\"Background/Elevation 1\":\"#ffffff\",\"Border/Normal\":\"#0010241f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10312:84",
+      "name": "system-checkbox",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent 2\":\"#428bf9\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 3\":\"#0010241f\",\"Background/Neutral 4\":\"#00102438\",\"Background/Neutral 2\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53362:296599",
+      "name": "system-context-menu",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Body/Regular\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 22, letterSpacing: -0.40799999237060547)\",\"Text/Primary\":\"#333333\",\"material-theme/body/large\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 24, letterSpacing: 0.15000000596046448)\",\"Background/Elevation 1\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25165:592774",
+      "name": "system-keyboard",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"iOS Blur\":\"Effect(type: BACKGROUND_BLUR, radius: 20)\",\"/Android Elevation 1\":\"Effect(type: DROP_SHADOW, color: #00000033, offset: (0, 1), radius: 2, spread: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Background/Accent 2\":\"#428bf9\",\"[Deprecated]/shadow-small\":\"Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0)\",\"G-Board / Medium\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 18, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"G-Board / Float Key Box Shadow\":\"Effect(type: DROP_SHADOW, color: #00000045, offset: (0, 1), radius: 2, spread: 0)\",\"G-Board/Small\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"G-Board/Default\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 15, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"iOS/Default - Body\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 20, letterSpacing: 0)\",\"iOS/Medium - Body\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 16, weight: 400, lineHeight: 21, letterSpacing: 0)\",\"iOS/Blur - 20\":\"Effect(type: BACKGROUND_BLUR, radius: 20)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Body/Regular\":\"Font(family: \\\"SF Pro\\\", style: Regular, size: 17, weight: 400, lineHeight: 22, letterSpacing: -0.4300000071525574)\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 2\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53444:299205",
+      "name": "system-lockscreen",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"t-shield-on-yellow\":\"\",\"Label Color/Light/Primary\":\"#000000\",\"Default/Regular/Footnote\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 18, letterSpacing: -0.07800000160932541)\",\"Background/Accent On Dark\":\"#ffffff\",\"Body/Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 22, letterSpacing: -0.40799999237060547)\",\"Label Color/Dark/Secondary\":\"#EBEBF5\",\"material-theme/white\":\"#FFFFFF\",\"blur/large-widgets\":\"Effect(type: BACKGROUND_BLUR, radius: 1000)\",\"material-theme/android/light/text-color-primary\":\"#191C1D\",\"material-theme/android/light/color-surface\":\"#F8F9FB\",\"material-theme/sys/light/on-surface\":\"#1A1C1D\",\"light-and-dark/transparent\":\"#FFFFFF\",\"blur/system-bars\":\"Effect(type: BACKGROUND_BLUR, radius: 150)\",\"light-and-dark/auto-tint\":\"#FF0000,#FFFFFF,#FFFFFF,#FFFFFF,#000000,#FFFFFF,#000000\",\"material-theme/android/dark/text-color-primary\":\"#EFF1F2\",\"material-theme/android/dark/color-surface\":\"#2E3132\",\"material-theme/sys/dark/on-surface\":\"#E3E2E3\",\"Vibrant Labels/Dark/Vibrant Primary\":\"#FFFFFF\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53362:297214",
+      "name": "system-push",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"t-shield-on-yellow\":\"\",\"Footnote / Regular\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 18, letterSpacing: -0.07800000160932541)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28036:523553",
+      "name": "system-radiobutton",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent 2\":\"#428bf9\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 3\":\"#0010241f\",\"Background/Neutral 4\":\"#00102438\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91657:37703",
+      "name": "system-searchfield",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 2\":\"#0010240f\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24684:593518",
+      "name": "system-segmented-control (tabs)",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent 2\":\"#428bf9\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary\":\"#333333\",\"Text/Action\":\"#66a3ff\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Elevation 3\":\"#ffffff\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44720:304564",
+      "name": "system-share-sheet",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Brand/T-Bank\":\"#ffdd2d\",\"Background/Elevation 2\":\"#ffffff\",\"Text/Primary\":\"#333333\",\"Default/Bold/Callout\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 16, weight: 600, lineHeight: 21, letterSpacing: -0.3199999928474426)\",\"Text/Secondary\":\"#9299a2\",\"Default/Regular/Footnote\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 18, letterSpacing: -0.07800000160932541)\",\"Background/Neutral 1\":\"#00102408\",\"Border/Normal\":\"#0010241f\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Default/Regular/Caption2\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 11, weight: 400, lineHeight: 13, letterSpacing: 0.06599999964237213)\",\"[Deprecated]/shadow-small\":\"Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0)\",\"Лого партнеров/Старбакс\":\"\",\"Default/Regular/Body\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 22, letterSpacing: -0.40799999237060547)\",\"Text/Action\":\"#428bf9\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8930:26243",
+      "name": "system-status-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"Body/Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 22, letterSpacing: -0.40799999237060547)\",\"Background/Accent On Dark\":\"#ffffff\",\"Background/Elevation 1\":\"#ffffff\",\"Background/Base\":\"#ffffff\",\"Text/Primary\":\"#333333\",\"100% Black\":\"#000000\",\"Light / On Surface\":\"#000000\",\"Text/Secondary\":\"#9299a2\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9940:39560",
+      "name": "system-switch",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent 2\":\"#428bf9\",\"Background/Neutral 3\":\"#0010241f\",\"Background/Neutral 1\":\"#00102408\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44037:288637",
+      "name": "tui-amount",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Service/Skeleton\":\"#00000008\",\"iOS/Numbers M\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Android/Numbers M\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"iOS/Numbers XL\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Android/Numbers XL\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI XS\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25752:487144",
+      "name": "tui-app-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Primary\":\"#333333\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"height\":\"44\",\"Background/Neutral 2\":\"#0010240f\",\"Android System/Appbar\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 20, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Screen Padding\":\"16\",\"Background/Accent 2\":\"#428bf9\",\"Component/Progress Bar\":\"#0010240f\",\"App-bar button padding\":\"12\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25745:690405",
+      "name": "tui-avatar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Service/Skeleton\":\"#00000008\",\"Background/Base\":\"#ffffff\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Component/Badge Notification\":\"#f52222\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Лого партнеров/Старбакс\":\"\",\"Brand/T-Bank\":\"#ffdd2d\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"iOS/Heading L\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475)\",\"Background/Neutral 1\":\"#00102408\",\"Android/Heading L\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI M Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68613:55962",
+      "name": "tui-avatar [badged-subscription-icon]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Gradient/Brand/TS-Premium\":\"\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53606:309279",
+      "name": "tui-avatar-labelled",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/UI XS\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25526:614200",
+      "name": "tui-avatar-stack",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Лого партнеров/Старбакс\":\"\",\"Component/Badge Notification\":\"#f52222\",\"Лого партнеров/Dodo\":\"\",\"Лого партнеров/goods\":\"\",\"Лого партнеров/Пятерочка\":\"\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25738:686585",
+      "name": "tui-badge",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Service/Skeleton\":\"#00000008\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary On Light\":\"#333333\",\"Text/Primary On Accent 1\":\"#333333\",\"Background/Accent 1\":\"#ffdd2d\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Лого партнеров/Старбакс\":\"\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "26895:46826",
+      "name": "tui-badge [cashback]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Gradient/Brand/All Airlines\":\"\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Gradient/Brand/Black\":\"\",\"Gradient/Brand/All Games Debit\":\"\",\"Gradient/Brand/All Games\":\"\",\"Gradient/Brand/Platinum\":\"\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68613:55102",
+      "name": "tui-badge [subscription-icon-shield]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Gradient/Brand/TS-Premium\":\"\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "87688:44061",
+      "name": "tui-badge [subscription-icon]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68613:55199",
+      "name": "tui-badge [subscription]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Light\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Brand/Pro\":\"#85e808\",\"Gradient/Brand/TS-Premium\":\"\",\"Gradient/Brand/Private\":\"\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6392:51900",
+      "name": "tui-badge [t-client]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Brand/T-Bank\":\"#ffdd2d\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25738:689227",
+      "name": "tui-badge notification",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Component/Badge Notification\":\"#f52222\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25745:690323",
+      "name": "tui-badged-content",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Background/Base\":\"#ffffff\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Brand/T-Bank\":\"#ffdd2d\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47912:303878",
+      "name": "tui-block-details",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"t-shield-on-yellow\":\"\",\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"iOS/Numbers XL\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Text/Primary On Accent 1\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 1\":\"#ffdd2d\",\"Text/Tertiary\":\"#00102438\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Numbers XL\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "43816:296648",
+      "name": "tui-block-status",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Text/Action\":\"#428bf9\",\"tui-button/radius-medium\":\"12\",\"Background/Neutral 1\":\"#00102408\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44431:321226",
+      "name": "tui-bottom-sheet",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent On Dark\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Background/Elevation 1\":\"#ffffff\",\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Screen Padding\":\"16\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Background/Accent Opposite\":\"#000000\",\"Screen Width\":\"375\",\"Screen Height\":\"812\",\"Service/Backdrop\":\"#00000080\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Size/Screen Width\":\"360\",\"Size/Screen Height\":\"800\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7319:38983",
+      "name": "tui-button [add-card]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Neutral 1 On Dark\":\"#ffffff1a\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53169:295889",
+      "name": "tui-button [cell]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Text/Negative\":\"#f52222\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 1\":\"#00102408\",\"Service/Android/Ripple\":\"#0000000a\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "30258:432933",
+      "name": "tui-button [close]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Overlay Glass On Dark\":\"#ffffff4d\",\"Text/Action\":\"#428bf9\",\"Background/Overlay Glass On Light\":\"#00000066\",\"Text/Primary On Light\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44290:299166",
+      "name": "tui-button [like]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"Background/Neutral 1\":\"#00102408\",\"Text/Negative\":\"#f52222\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Service/Android/Ripple\":\"#0000000a\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Overlay Glass On Light\":\"#00000066\",\"State/Background/Overlay Glass On Light Pressed\":\"#00000099\",\"Service/Android/Ripple On Dark\":\"#ffffff21\",\"Background/Overlay Glass On Dark\":\"#ffffff4d\",\"State/Background/Overlay Glass On Dark Pressed\":\"#ffffff80\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42565:304987",
+      "name": "tui-button [link]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"State/Text/Action Pressed\":\"#156ed4\",\"Service/Android/Ripple\":\"#0000000a\",\"Text/Tertiary\":\"#00102438\",\"Status/Info\":\"#428bf9\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "59194:53406",
+      "name": "tui-button [on-light-on-dark]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"tui-button/radius-large\":\"16\",\"Background/Overlay Glass On Dark\":\"#ffffff4d\",\"Background/Overlay Glass On Light\":\"#00000066\",\"Text/Tertiary On Dark\":\"#ffffff4d\",\"State/Background/Overlay Glass On Dark Pressed\":\"#ffffff80\",\"State/Background/Overlay Glass On Light Pressed\":\"#00000099\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Android/Ripple On Dark\":\"#ffffff21\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 1 On Dark\":\"#ffffff1a\",\"Text/Primary On Light\":\"#333333\",\"Background/Neutral 1 On Light\":\"#00000008\",\"Text/Tertiary On Light\":\"#00102438\",\"State/Background/Neutral 1 On Dark Pressed\":\"#ffffff26\",\"State/Background/Neutral 1 On Light Pressed\":\"#0000000f\",\"Service/Android/Ripple On Light\":\"#0000000a\",\"Background/Accent On Light\":\"#000000\",\"Background/Accent On Dark\":\"#ffffff\",\"State/Background/Accent On Light Pressed\":\"#292929\",\"State/Background/Accent On Dark Pressed\":\"#f6f7f8\",\"Text/Primary On Accent 1\":\"#333333\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44290:299199",
+      "name": "tui-button [share]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"Background/Neutral 1\":\"#00102408\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Service/Android/Ripple\":\"#0000000a\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Overlay Glass On Light\":\"#00000066\",\"State/Background/Overlay Glass On Light Pressed\":\"#00000099\",\"Service/Android/Ripple On Dark\":\"#ffffff21\",\"Background/Overlay Glass On Dark\":\"#ffffff4d\",\"State/Background/Overlay Glass On Dark Pressed\":\"#ffffff80\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44236:302826",
+      "name": "tui-button [subscription]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Opposite\":\"#ffffff\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"tui-button/radius-large\":\"16\",\"Background/Accent Opposite\":\"#000000\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Text/Primary On Dark\":\"#ffffff\",\"State/Background/Accent Opposite Pressed\":\"#2c2c2e\",\"Service/Android/Ripple On Opposite\":\"#ffffff21\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary\":\"#333333\",\"Background/Neutral 1\":\"#00102408\",\"Text/Primary On Light\":\"#333333\",\"Gradient/Brand/TS-Premium\":\"\",\"Service/Skeleton\":\"#00000008\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Tertiary On Light\":\"#00102438\",\"Service/Android/Ripple On Light\":\"#0000000a\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "51388:47169",
+      "name": "tui-button [two labels]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Tertiary\":\"#00102438\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Service/Skeleton\":\"#00000008\",\"tui-button/radius-large\":\"16\",\"Text/Primary On Accent 1\":\"#333333\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Background/Accent 1\":\"#ffdd2d\",\"Background/Neutral 1\":\"#00102408\",\"State/Background/Accent 1 Pressed\":\"#ffcd33\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Android/Ripple On T-Bank\":\"#fab61966\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41691:305320",
+      "name": "tui-button [vertical]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/UI XS\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Component/Button Vertical\":\"#428bf914\",\"Service/Skeleton\":\"#00000008\",\"State/Component/Button Vertical Pressed\":\"#428bf929\",\"Text/Tertiary\":\"#00102438\",\"Background/Neutral 1\":\"#00102408\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Android/Ripple\":\"#0000000a\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54757:286088",
+      "name": "tui-button [wallet]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"tui-button/radius-large\":\"16\",\"Text/Primary On Accent 1\":\"#333333\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Accent 1\":\"#ffdd2d\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent On Light\":\"#000000\",\"Border/Darkmode Only\":\"#00000000\",\"Brand/Mir Pay\":\"#006848\",\"Service/Android/Ripple On T-Bank\":\"#fab61966\",\"Service/Android/Ripple On Dark\":\"#ffffff21\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"tui-button/radius-medium\":\"12\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25748:771367",
+      "name": "tui-button tooltip",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1\":\"#00102408\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"State/Background/Accent 2 Pressed\":\"#126df7\",\"Service/Android/Ripple\":\"#0000000a\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36326:422777",
+      "name": "tui-button-group-card",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Background/Neutral 1\":\"#00102408\",\"Text/Primary On Dark\":\"#ffffff\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2793:75470",
+      "name": "tui-card [account]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Heading S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"padding\":\"16\",\"min-height\":\"56\",\"Brand/Black\":\"#333333\",\"Border/On Dark\":\"#ffffff1a\",\"Text/Primary\":\"#333333\",\"Text/Tertiary\":\"#00102438\",\"Status/Warning Pale\":\"#ffdd2d4d\",\"Screen Padding\":\"16\",\"radius\":\"24\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Text/Positive\":\"#00b92d\",\"Status/Positive Pale\":\"#00b92d29\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 1\":\"#00102408\",\"Android/Heading S Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 16, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42587:291989",
+      "name": "tui-card-large",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"padding\":\"20\",\"padding-compensated\":\"16\",\"padding-reduced\":\"12\",\"Text/Secondary\":\"#9299a2\",\"temp-padding-additional\":\"4\",\"radius\":\"24\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Screen Padding\":\"16\",\"Background/Neutral 1 On Base\":\"#f6f7f8\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"tui-button/radius-medium\":\"12\",\"Background/Neutral 1\":\"#00102408\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"min-height\":\"56\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"iOS/UI M Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"gap\":\"12\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"cell-list-gap\":\"4\",\"Service/Skeleton\":\"#00000008\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Map Light\":\"\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11335:41574",
+      "name": "tui-card-medium ",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI M Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"gap\":\"12\",\"padding\":\"12\",\"padding-compensated\":\"10\",\"radius\":\"12\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\",\"Service/Skeleton\":\"#00000008\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Component/Badge Notification\":\"#f52222\",\"Лого партнеров/Старбакс\":\"\",\"Лого партнеров/Dodo\":\"\",\"Лого партнеров/goods\":\"\",\"Text/Primary On Light\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Brand/Pro\":\"#85e808\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Status/Info\":\"#428bf9\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2793:73350",
+      "name": "tui-cell [account]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Heading S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"padding\":\"16\",\"min-height\":\"56\",\"Text/Positive\":\"#00b92d\",\"Status/Positive Pale\":\"#00b92d29\",\"Status/Info\":\"#428bf9\",\"Background/Neutral 2\":\"#0010240f\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"8\",\"Android/Heading S Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 16, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41637:306482",
+      "name": "tui-cell [action]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Text/Action\":\"#428bf9\",\"accessory-min-height\":\"40\",\"padding\":\"16\",\"min-height\":\"56\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"8\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41637:306089",
+      "name": "tui-cell [button]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"min-height\":\"56\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"Text/Primary On Accent 1\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 1\":\"#ffdd2d\",\"accessory-min-height\":\"40\",\"padding\":\"16\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41637:307793",
+      "name": "tui-cell [checkbox]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"Background/Neutral 4\":\"#00102438\",\"accessory-min-height\":\"40\",\"min-height\":\"56\",\"padding\":\"16\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Opposite\":\"#ffffff\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41637:306903",
+      "name": "tui-cell [checkicon]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"Text/Action\":\"#428bf9\",\"accessory-min-height\":\"40\",\"padding\":\"16\",\"min-height\":\"56\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53219:295268",
+      "name": "tui-cell [connected]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Background/Neutral 3\":\"#0010241f\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"padding\":\"16\",\"min-height\":\"56\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"8\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41637:305628",
+      "name": "tui-cell [disclosure]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"min-height\":\"56\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Text/Secondary\":\"#9299a2\",\"Text/Tertiary\":\"#00102438\",\"accessory-min-height\":\"40\",\"padding\":\"16\",\"Text/Primary\":\"#333333\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"8\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44305:304744",
+      "name": "tui-cell [invest]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Status/Negative\":\"#f52222\",\"Status/Positive\":\"#00b92d\",\"min-height\":\"80\",\"Text/Positive\":\"#00b92d\",\"Text/Negative\":\"#f52222\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"20\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63132:295599",
+      "name": "tui-cell [mobile]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Feed/Category Neutral\":\"#90adbf\",\"Feed/Category Neutral Pale\":\"#e5ecf4\",\"Background/Elevation 1\":\"#ffffff\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"min-height\":\"80\",\"Text/Negative\":\"#f52222\",\"Background/Base\":\"#ffffff\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"20\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44290:314128",
+      "name": "tui-cell [operation]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 1\":\"#ffdd2d\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"min-height\":\"80\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"20\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41569:291397",
+      "name": "tui-cell [switch]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 3\":\"#0010241f\",\"accessory-min-height\":\"40\",\"padding\":\"16\",\"min-height\":\"56\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"text-padding\":\"8\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42638:295990",
+      "name": "tui-chip",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 1\":\"#00102408\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Small/Color\":\"#0000001a\",\"Hide from publishing/Shadow/Small/Y-axis\":\"5\",\"Hide from publishing/Shadow/Small/Blur\":\"20\",\"Shadow/Small\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Service/Skeleton\":\"#00000008\",\"Text/Tertiary\":\"#00102438\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "115603:32334",
+      "name": "tui-chip-group",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44286:300575",
+      "name": "tui-chip-group [choice]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44286:300668",
+      "name": "tui-chip-group [filter]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Screen Padding\":\"16\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44286:300482",
+      "name": "tui-chip-group [list]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16661:51922",
+      "name": "tui-counter",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On T-Bank\":\"#333333\",\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Background/Accent 1\":\"#ffdd2d\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 1\":\"#00102408\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Text/Action\":\"#428bf9\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44286:299509",
+      "name": "tui-floating-container",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Base\":\"#ffffff\",\"Text/Primary On Accent 1\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"tui-button/radius-large\":\"16\",\"Background/Accent 1\":\"#ffdd2d\",\"Text/Action\":\"#428bf9\",\"Screen Padding\":\"16\",\"Background/Accent Opposite\":\"#000000\",\"Background/Elevation 1\":\"#ffffff\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42565:304670",
+      "name": "tui-header",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41997:290341",
+      "name": "tui-header [action]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42565:304195",
+      "name": "tui-header [button]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Text/Primary On Accent 1\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 1\":\"#ffdd2d\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44217:298609",
+      "name": "tui-header [card]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"padding\":\"20\",\"padding-compensated\":\"16\",\"padding-reduced\":\"12\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 2\":\"#9299a200\",\"Hide from publishing/Gradient/Text/Secondary Fade Point 1\":\"#9299a2\",\"Gradient/Text/Secondary Fade\":\"\",\"iOS/UI CAPS\":\"Font(family: \\\"SF Pro Text\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 1 On Light\":\"#00000008\",\"Service/Skeleton\":\"#00000008\",\"Text/Primary On Accent 1\":\"#333333\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 1\":\"#ffdd2d\",\"Text/Action\":\"#428bf9\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 3\":\"#0010241f\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI CAPS\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42565:305012",
+      "name": "tui-header [large]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading L\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Heading L\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Background/Neutral 1 On Light\":\"#00000008\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42565:303804",
+      "name": "tui-header [switch]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Background/Neutral 3\":\"#0010241f\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Service/Skeleton\":\"#00000008\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Component/Badge Notification\":\"#f52222\",\"Text/Secondary\":\"#9299a2\",\"Background/Neutral 1\":\"#00102408\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "43816:296032",
+      "name": "tui-illustration-screen",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"100% Black\":\"#000000\",\"Light / On Surface\":\"#000000\",\"Text/Secondary\":\"#9299a2\",\"Text/Primary\":\"#333333\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Action\":\"#428bf9\",\"Background/Base\":\"#ffffff\",\"Text/Primary On Accent 1\":\"#333333\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"tui-button/radius-large\":\"16\",\"Background/Accent 1\":\"#ffdd2d\",\"Screen Padding\":\"16\",\"Background/Accent Opposite\":\"#000000\",\"Background/Elevation 1\":\"#ffffff\",\"Component/Navigation Bar/Background\":\"#ffffffcc\",\"blur-navbar\":\"Effect(type: BACKGROUND_BLUR, radius: 40)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"height\":\"56\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Accent On Light\":\"#000000\",\"Screen Width\":\"375\",\"Screen Height\":\"812\",\"Background/Accent On Dark\":\"#ffffff\",\"Service/Backdrop\":\"#00000080\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55278:70443",
+      "name": "tui-link",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/UI L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/UI L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/UI M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary\":\"#333333\",\"Service/Underline Grayscale\":\"#9299a2\",\"Text/Secondary\":\"#9299a2\",\"Text/Primary On Light\":\"#333333\",\"Service/Underline Grayscale On Light\":\"#00000052\",\"Text/Primary On Dark\":\"#ffffff\",\"Service/Underline Grayscale On Dark\":\"#ffffff80\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "79180:42610",
+      "name": "tui-list [bulleted]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Status/Info\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"left-padding\":\"16\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "79180:42880",
+      "name": "tui-list [numbered]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"large\":\"14\",\"left-padding\":\"16\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/Body S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53190:295267",
+      "name": "tui-list-item [bulleted]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Status/Info\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"left-padding\":\"16\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "79180:42849",
+      "name": "tui-list-item [numbered]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"large\":\"14\",\"left-padding\":\"16\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"medium\":\"12\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"small\":\"12\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9999:26",
+      "name": "tui-loader",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Brand/T-Bank\":\"#ffdd2d\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44231:314707",
+      "name": "tui-message-bubble",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Accent 2\":\"#428bf9\",\"Screen Padding\":\"16\",\"Hide from publishing/Gradient/Text/Primary On Dark Fade Point 1\":\"#ffffff\",\"Hide from publishing/Gradient/Text/Primary On Dark Fade Point 2\":\"#ffffff00\",\"Gradient/Text/Primary On Dark Fade\":\"\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Primary\":\"#333333\",\"Background/Neutral 1\":\"#00102408\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22466:378682",
+      "name": "tui-notification-banner",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Status/Info Pale\":\"#428bf929\",\"Screen Padding\":\"16\",\"Background/Neutral 1\":\"#00102408\",\"Text/Tertiary\":\"#00102438\",\"State/Status/Info Pale Pressed\":\"#428bf93d\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Status/Negative Pale\":\"#f5222224\",\"State/Status/Negative Pale Pressed\":\"#f522223d\",\"Status/Warning Pale\":\"#ffdd2d4d\",\"State/Status/Warning Pale Pressed\":\"#ffdd2d66\",\"Status/Positive Pale\":\"#00b92d29\",\"State/Status/Positive Pale Pressed\":\"#00b92d52\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Android/Ripple\":\"#0000000a\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "39739:293413",
+      "name": "tui-notification-middle",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Brand/T-Bank\":\"#ffdd2d\",\"Background/Elevation 3\":\"#ffffff\",\"Hide from publishing/Shadow/Popup/Color\":\"#00000024\",\"Hide from publishing/Shadow/Popup/Blur\":\"40\",\"Hide from publishing/Shadow/Popup/Y-axis\":\"10\",\"Shadow/Popup\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Popup/Color, offset: (0, Hide from publishing/Shadow/Popup/Y-axis), radius: Hide from publishing/Shadow/Popup/Blur, spread: 0)\",\"Text/Primary\":\"#333333\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "32204:470960",
+      "name": "tui-notification-toast",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Elevation 3\":\"#ffffff\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"top-indent\":\"48\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Лого партнеров/Старбакс\":\"\",\"Text/Tertiary\":\"#00102438\",\"Text/Action\":\"#428bf9\",\"iOS/UI S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Neutral 1\":\"#00102408\",\"Android/UI S Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44290:300333",
+      "name": "tui-onboarding-flow",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Elevation 1\":\"#ffffff\",\"Background/Neutral 4\":\"#00102438\",\"Background/Base\":\"#ffffff\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\",\"Text/Primary\":\"#333333\",\"iOS/Heading L\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Screen Padding\":\"16\",\"Text/Action\":\"#428bf9\",\"Background/Neutral 2\":\"#0010240f\",\"height\":\"56\",\"blur-navbar\":\"Effect(type: BACKGROUND_BLUR, radius: 40)\",\"Sheet Radius\":\"10\",\"Text/Primary On Accent 1\":\"#333333\",\"tui-button/radius-large\":\"16\",\"Background/Accent 1\":\"#ffdd2d\",\"Background/Accent Opposite\":\"#000000\",\"Screen Width\":\"375\",\"Screen Height\":\"812\",\"Background/Accent On Dark\":\"#ffffff\",\"Service/Backdrop\":\"#00000080\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Heading L\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Size/Screen Width\":\"360\",\"Size/Screen Height\":\"800\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "34357:426019",
+      "name": "tui-pager",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"Background/Neutral 3\":\"#0010241f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44302:52347",
+      "name": "tui-panel",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"Gradient/Mask/Fade Top\":\"\",\"Brand/Black\":\"#333333\",\"Background/Accent On Dark\":\"#ffffff\",\"Text/Primary On Dark\":\"#ffffff\",\"height\":\"44\",\"iOS/Heading M\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284)\",\"Background/Neutral 1 On Dark\":\"#ffffff1a\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"iOS/Numbers XL\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Text/Secondary On Dark\":\"#ffffffb2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Border/On Dark\":\"#ffffff1a\",\"Service/Skeleton\":\"#ffffff1a\",\"Android/Heading M\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Numbers XL\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"iOS/Heading L\":\"Font(family: \\\"SF Pro Display\\\", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475)\",\"Android/Heading L\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "45576:359285",
+      "name": "tui-pin",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/UI XS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 12, weight: 600, lineHeight: 100, letterSpacing: 0)\",\"Background/Elevation 1\":\"#ffffff\",\"Android/UI XS Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 12, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary On Dark\":\"#ffffff\",\"t-shield-on-yellow\":\"\",\"iOS/Heading S\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Heading S\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 16, weight: 500, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25951:712646",
+      "name": "tui-progress-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Component/Progress Bar\":\"#0010240f\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25942:708453",
+      "name": "tui-progress-circle",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Status/Info\":\"#428bf9\",\"Background/Neutral 2\":\"#0010240f\",\"Text/Primary\":\"#333333\",\"Service/Skeleton\":\"#00000008\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10467:91596",
+      "name": "tui-rating",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Neutral 4\":\"#00102438\",\"Brand/T-Bank\":\"#ffdd2d\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53606:308726",
+      "name": "tui-row [avatar-labelled]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/UI XS\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"avatar-compensated\":\"-8\",\"padding\":\"16\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48700:323897",
+      "name": "tui-row [button-vertical]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Action\":\"#428bf9\",\"iOS/UI XS\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Component/Button Vertical\":\"#428bf914\",\"Screen Padding\":\"16\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16273:42831",
+      "name": "tui-row [card-medium]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"iOS/UI M Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"gap\":\"12\",\"padding\":\"12\",\"padding-compensated\":\"10\",\"radius\":\"12\",\"Background/Neutral 1 Opaque\":\"#f6f7f8\",\"Status/Info\":\"#428bf9\",\"iOS/UI XS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Semibold, size: 12, weight: 600, lineHeight: 100, letterSpacing: 0)\",\"Android/UI M Bold\":\"Font(family: \\\"Roboto\\\", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16753:52842",
+      "name": "tui-row [custom]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"padding\":\"16\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25762:537956",
+      "name": "tui-search-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 2\":\"#0010240f\",\"Screen Padding\":\"16\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"State/Background/Neutral 2 Pressed\":\"#0010241f\",\"Service/Android/Ripple\":\"#0000000a\",\"Background/Accent 2\":\"#428bf9\",\"Status/Info\":\"#428bf9\",\"Text/Primary\":\"#333333\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16874:41486",
+      "name": "tui-segmented",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Elevation 3\":\"#ffffff\",\"Hide from publishing/Shadow/Small/Color\":\"#0000001a\",\"Hide from publishing/Shadow/Small/Y-axis\":\"5\",\"Hide from publishing/Shadow/Small/Blur\":\"20\",\"Shadow/Small\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0)\",\"Background/Neutral 1\":\"#00102408\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Android/Body S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46866:304541",
+      "name": "tui-sensitive-mode",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37840:45833",
+      "name": "tui-skeleton",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37840:45836",
+      "name": "tui-skeleton [text]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28406:482266",
+      "name": "tui-spacing",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Negative\":\"#f52222\",\"Status/Negative Pale\":\"#f5222224\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21811:56398",
+      "name": "tui-splash-screen",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Background/Accent Opposite\":\"#000000\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Accent On Dark\":\"#ffffff\",\"Brand/T-Bank\":\"#ffdd2d\",\"Text/Primary On Dark\":\"#ffffff\",\"Text/Primary\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53204:296101",
+      "name": "tui-swipe-actions",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Background/Accent 2\":\"#428bf9\",\"accessory-padding\":\"8\",\"min-height\":\"56\",\"Hide from publishing/Gradient/Text/Primary Fade Point 2\":\"#33333300\",\"Hide from publishing/Gradient/Text/Primary Fade Point 1\":\"#333333\",\"Gradient/Text/Primary Fade\":\"\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Text/Primary\":\"#333333\",\"Text/Secondary\":\"#9299a2\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"text-padding\":\"8\",\"padding\":\"16\",\"Screen Padding\":\"16\",\"iOS/Heading S Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 4\":\"#00102438\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"iOS/UI XXS Bold\":\"Font(family: \\\"SF Pro Text\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: -0.10000000149011612)\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"radius\":\"24\",\"Background/Elevation 1\":\"#ffffff\",\"Hide from publishing/Shadow/Medium/Y-axis\":\"6\",\"Hide from publishing/Shadow/Medium/Color\":\"#0000001f\",\"Hide from publishing/Shadow/Medium/Blur\":\"34\",\"Shadow/Medium\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Heading S Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 16, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/UI XXS Bold\":\"Font(family: \\\"Roboto\\\", style: Bold, size: 11, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23068:2266",
+      "name": "tui-tab-bar",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Gradient/Mask/Fade Bottom\":\"\",\"Background/Base\":\"#ffffff\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Text/Primary\":\"#333333\",\"Background/Accent 2\":\"#428bf9\",\"Text/Secondary\":\"#9299a2\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23142:458939",
+      "name": "tui-tab-bar / Bookkeeping",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Action\":\"#428bf9\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23142:453257",
+      "name": "tui-tab-bar / Invest",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Primary\":\"#333333\",\"Tab Bar Content Color\":\"#9299a2\",\"Caption 2, 10 Medium\":\"Font(family: \\\"SF Pro Text\\\", style: Medium, size: 10, weight: 500, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "112725:32337",
+      "name": "tui-tab-bar / Junior",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Action\":\"#428bf9\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23142:450541",
+      "name": "tui-tab-bar / MB",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Action\":\"#428bf9\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Text/Primary\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23142:455406",
+      "name": "tui-tab-bar / Mobile",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Tab Bar Content Color\":\"#9299a2\",\"Caption 2, 10 Medium\":\"Font(family: \\\"SF Pro Text\\\", style: Medium, size: 10, weight: 500, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23068:2615",
+      "name": "tui-tab-bar / SME",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Action\":\"#428bf9\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\",\"bg blur\":\"Effect(type: BACKGROUND_BLUR, radius: 10)\",\"Text/Primary\":\"#333333\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "58367:296400",
+      "name": "tui-tab-bar / Signature",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Border/Normal\":\"#0010241f\",\"Text/Action\":\"#428bf9\",\"Tab Bar Content Color\":\"#9299a2\",\"Background/Accent Opposite\":\"#000000\",\"Component/Tab Bar/Background\":\"#f6f7f8cc\",\"blur-tabbar\":\"Effect(type: BACKGROUND_BLUR, radius: 50)\",\"Android/UI XS\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Background/Base\":\"#ffffff\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44305:306527",
+      "name": "tui-text-expandable",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Base\":\"#ffffff\",\"Text/Action\":\"#428bf9\",\"Screen Padding\":\"16\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Text/Secondary\":\"#9299a2\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "26960:617080",
+      "name": "tui-textfield [convert]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Numbers M\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Background/Neutral 1\":\"#00102408\",\"Android/Numbers M\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Text/Negative\":\"#f52222\",\"Background/Neutral 1 Pressed\":\"#0010240f\",\"Service/Android/Ripple\":\"#0000000a\",\"Background/Accent 2\":\"#428bf9\",\"Text/Secondary\":\"#9299a2\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54443:283316",
+      "name": "tui-textfield [counter]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary\":\"#333333\",\"iOS/Numbers M\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Background/Accent 2\":\"#428bf9\",\"tui-button/radius-medium\":\"12\",\"Background/Elevation 1\":\"#ffffff\",\"[Deprecated]/shadow-small\":\"Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0)\",\"Background/Neutral 1\":\"#00102408\",\"Android/Numbers M\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Text/Secondary\":\"#9299a2\",\"Text/Tertiary\":\"#00102438\",\"Text/Negative\":\"#f52222\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Hide from publishing/Shadow/Small/Color\":\"#0000001a\",\"Hide from publishing/Shadow/Small/Y-axis\":\"5\",\"Hide from publishing/Shadow/Small/Blur\":\"20\",\"Shadow/Small\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0)\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"State/Background/Neutral 1 Pressed\":\"#0010240f\",\"Service/Android/Ripple\":\"#0000000a\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "69850:48152",
+      "name": "tui-textfield [multiline]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"Text/Primary\":\"#333333\",\"Text/Tertiary\":\"#00102438\",\"iOS/UI S\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066)\",\"Background/Accent 2\":\"#428bf9\",\"Android/UI S\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Text/Negative\":\"#f52222\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "69850:47618",
+      "name": "tui-textfield [number]",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Secondary\":\"#9299a2\",\"iOS/Body L\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213)\",\"Background/Neutral 1\":\"#00102408\",\"Screen Padding\":\"16\",\"Android/Body L\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0)\",\"Service/Skeleton\":\"#00000008\",\"Text/Tertiary\":\"#00102438\",\"Text/Primary\":\"#333333\",\"Text/Negative\":\"#f52222\",\"iOS/Numbers M\":\"Font(family: \\\"SF Pro Rounded\\\", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3569999933242798)\",\"Android/Numbers M\":\"Font(family: \\\"Open Runde\\\", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0)\",\"Background/Accent 2\":\"#428bf9\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "39763:297614",
+      "name": "tui-thumbnail-card",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Text/Primary On Dark\":\"#ffffff\",\"Brand/Black\":\"#333333\",\"Border/On Dark\":\"#ffffff1a\",\"Brand/Platinum\":\"#747b8f\",\"Brand/All Airlines\":\"#27beff\",\"Brand/T-Business Alt 1\":\"#e4d7c1\",\"Text/Primary On Light\":\"#333333\",\"Service/Skeleton\":\"#00000008\",\"Border/Darkmode Only\":\"#00000000\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42583:296173",
+      "name": "tui-tooltip",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Component/Tooltip\":\"#428bf9\",\"Text/Primary On Dark\":\"#ffffff\",\"iOS/Body M\":\"Font(family: \\\"SF Pro Text\\\", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197)\",\"Background/Elevation 3\":\"#ffffff\",\"Text/Primary\":\"#333333\",\"Hide from publishing/Shadow/Small/Color\":\"#0000001a\",\"Hide from publishing/Shadow/Small/Y-axis\":\"5\",\"Hide from publishing/Shadow/Small/Blur\":\"20\",\"Shadow/Small\":\"Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Small/Color, offset: (0, Hide from publishing/Shadow/Small/Y-axis), radius: Hide from publishing/Shadow/Small/Blur, spread: 0)\",\"Android/Body M\":\"Font(family: \\\"Roboto\\\", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0)\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55278:70654",
+      "name": "underline",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Service/Underline Grayscale\":\"#9299a2\"}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55278:70659",
+      "name": "underline",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"Service/Underline\":\"#97bffc\"}"
+          }
+        ]
+      }
+    }
+  ]
+}

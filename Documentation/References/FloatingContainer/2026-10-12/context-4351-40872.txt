@@ -1,0 +1,374 @@
+const imgAvatar = "/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/86da77f834fc9a7e4d9fc25b5f369dbde59fda52.png";
+const imgAvatar1 = "/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/73708eddc6a298a5a585e42abe8eae4e7b0131f7.png";
+const imgImage = "/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/b176e7a55fd2f18613266ccd35fde1be6c347f81.png";
+const imgAvatar2 = "/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/307110a369656120868a78cb451b9952f6152f60.png";
+const imgAvatar3 = "/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/d0be0026c2b92c5b6e741c1fb9385cc4ce81b61e.png";
+type DsTeamAvatarProps = {
+  className?: string;
+  name?: "Артём" | "Софа";
+};
+
+function DsTeamAvatar({ className, name = "Артём" }: DsTeamAvatarProps) {
+  const is = name === "Софа";
+  return (
+    <div className={className || "content-stretch flex items-center relative rounded-[100px] size-[32px]"} id={is ? "node-7524_673" : "node-7524_671"}>
+      <div className="flex-[1_0_0] h-full min-w-px relative" id={is ? "node-7524_684" : "node-7524_682"} data-name="Avatar">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={is ? imgAvatar1 : imgAvatar} width="32" />
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--figma-library\/guide-artboard,white)] content-stretch flex flex-col items-start overflow-clip p-[var(--paddings\/artboard-padding,128px)] relative rounded-[var(--roundings\/artboard-rounding,80px)] size-full" data-node-id="4351:40872" data-name="Изменения">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="4351:40873" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I4351:40873;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I4351:40873;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Изменения
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0" data-node-id="4351:40874" data-name="Items">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[720px]" data-node-id="6676:17274" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I6676:17274;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I6676:17274;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I6676:17274;4874:5826">
+                v 1.2.3
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I6676:17274;4874:6187" data-name="Added">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I6676:17274;4874:6187;4874:7054">
+                Added
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I6676:17274;4874:6187;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I6676:17274;4874:6187;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I6676:17274;4874:6187;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I6676:17274;4874:6187;4874:7058">
+                    Добавлено описание отступа в конце скролла
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I6676:17274;4874:5859">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I6676:17274;4874:5860" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I6676:17274;4874:5860;26195:10973" data-name="image">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgImage} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[720px]" data-node-id="6781:6796" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I6781:6796;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I6781:6796;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I6781:6796;4874:5826">
+                v 1.2.2
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I6781:6796;4874:6187" data-name="Added">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I6781:6796;4874:6187;4874:7054">
+                Added
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I6781:6796;4874:6187;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I6781:6796;4874:6187;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I6781:6796;4874:6187;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I6781:6796;4874:6187;4874:7058">
+                    Добавлена рекомендация о порядке размещения информации для корректной озвучки
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I6781:6796;4874:5859">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I6781:6796;4874:5860" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I6781:6796;4874:5860;26195:10973" data-name="image">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgImage} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[720px]" data-node-id="4816:13318" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4816:13318;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4816:13318;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4816:13318;1:1927">
+                v 1.2.1
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4816:13318;1:1930" data-name="Bulleted List">
+              <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4816:13318;1:1931" data-name="Bulleted Line">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Semibold'] leading-[20px] min-w-px not-italic relative text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase" data-node-id="I4816:13318;1:1933">
+                  CHANGED
+                </p>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4816:13318;1:1934" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4816:13318;1:1935">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4816:13318;1:1936">
+                  Доступность: в блоке доступность скорректировали высоту tui-button при увеличенных шрифтах
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4816:13318;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <DsTeamAvatar className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" name="Софа" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[720px]" data-node-id="4351:40875" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I4351:40875;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40875;4874:5826">
+                v 1.2.0
+              </p>
+              <div className="bg-[var(--UIColor.tui.background.neutral2,rgba(0,16,36,0.06))] content-stretch flex flex-col items-start overflow-clip px-[4px] relative rounded-[4px] shrink-0" data-node-id="I4351:40875;4874:5827" data-name="Link">
+                <a className="[word-break:break-word] block font-['SF_Pro_Display:Medium'] leading-[0] not-italic relative shrink-0 text-[12px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.12px] whitespace-nowrap" href="https://jira.tcsbank.ru/browse/TUIPRJ-435" data-node-id="I4351:40875;4874:5828" target="_blank">
+                  <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[20px] underline">TUIPRJ-435</p>
+                </a>
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-[636px]" data-node-id="I4351:40875;4874:6187" data-name="Bulleted Items/4">
+              <p className="font-['SF_Pro_Display:Semibold'] h-[20px] relative shrink-0 uppercase w-[636px]" data-node-id="I4351:40875;4874:6187;4874:7188">
+                Added
+              </p>
+              <div className="content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40875;4874:6187;4874:7189" data-name="Bulleted List">
+                <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:6187;4874:7190" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40875;4874:6187;4874:7191">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40875;4874:6187;4874:7192">
+                    Добавлена отключаемая подложка в вариантах с одной кнопкой
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:6187;4874:7193" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40875;4874:6187;4874:7194">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40875;4874:6187;4874:7195">
+                    Добавлены правила использования стилей кнопок
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:6187;4874:7196" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40875;4874:6187;4874:7197">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40875;4874:6187;4874:7198">
+                    Добавлено описание кастомизации цвета подложки
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-[636px]" data-node-id="I4351:40875;4874:7388" data-name="Bulleted Items/4">
+              <p className="font-['SF_Pro_Display:Semibold'] h-[20px] relative shrink-0 uppercase w-[636px]" data-node-id="I4351:40875;4874:7388;4874:7188">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col font-['SF_Pro_Display:Regular'] gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40875;4874:7388;4874:7189" data-name="Bulleted List">
+                <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:7388;4874:7190" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40875;4874:7388;4874:7191">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40875;4874:7388;4874:7192">
+                    Переписан текст в правилах кастомизации
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40875;4874:7388;4874:7193" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40875;4874:7388;4874:7194">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40875;4874:7388;4874:7195">
+                    Изменена структура документа
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40875;4874:5859">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I4351:40875;4874:5860" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I4351:40875;4874:5860;3941:1221" data-name="Avatar">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgAvatar2} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0" data-node-id="4351:40876" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4351:40876;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40876;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40876;1:1927">
+                v 1.1.0
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40876;1:1930" data-name="Bulleted List">
+              <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40876;1:1931" data-name="Bulleted Line">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Semibold'] leading-[20px] min-w-px not-italic relative text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase" data-node-id="I4351:40876;1:1933">
+                  CHANGED
+                </p>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4351:40876;1:1934" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40876;1:1935">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40876;1:1936">
+                  В блоке доступность изменили правила увеличения текста в лигале
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40876;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <DsTeamAvatar className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" name="Софа" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0" data-node-id="4351:40877" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4351:40877;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40877;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40877;1:1927">
+                v 1.0.3
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40877;1:1930" data-name="Bulleted List">
+              <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40877;1:1931" data-name="Bulleted Line">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Semibold'] leading-[20px] min-w-px not-italic relative text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase" data-node-id="I4351:40877;1:1933">
+                  CHANGED
+                </p>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4351:40877;1:1934" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40877;1:1935">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40877;1:1936">{` Обновили блок про доступность к актуальному формату текста со ссылками`}</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40877;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I4351:40877;1:1959" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I4351:40877;1:1959;4990:923" data-name="Avatar">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgAvatar3} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0" data-node-id="4351:40878" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4351:40878;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40878;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40878;1:1927">
+                v 1.0.2
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40878;1:1930" data-name="Bulleted List">
+              <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I4351:40878;1:1931" data-name="Bulleted Line">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Semibold'] leading-[20px] min-w-px not-italic relative text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] uppercase" data-node-id="I4351:40878;1:1933">
+                  CHANGED
+                </p>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4351:40878;1:1934" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40878;1:1935">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40878;1:1936">{` Привели блок про доступность к актуальному формату`}</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40878;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I4351:40878;1:1959" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I4351:40878;1:1959;4990:923" data-name="Avatar">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgAvatar3} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0" data-node-id="4351:40879" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4351:40879;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40879;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40879;1:1927">
+                v 1.0.1
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40879;1:1930" data-name="Bulleted List">
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4351:40879;1:1931" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40879;1:1932">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative whitespace-pre-wrap" data-node-id="I4351:40879;1:1933">
+                  {`В разделе о кастомизации добавлен блок про иконку в лигале. `}
+                  <br aria-hidden />В самом компоненте добавлены плейсхолдеры для иконок
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40879;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I4351:40879;1:1959" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I4351:40879;1:1959;3941:1221" data-name="Avatar">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgAvatar2} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0" data-node-id="4351:40880" data-name="[deprecated] changelog-v1">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[600px]" data-node-id="I4351:40880;1:1925" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I4351:40880;1:1926" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I4351:40880;1:1927">
+                v 1.0.0
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I4351:40880;1:1930" data-name="Bulleted List">
+              <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.16px] w-full" data-node-id="I4351:40880;1:1931" data-name="Bulleted Line">
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="I4351:40880;1:1932">
+                  —
+                </p>
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="I4351:40880;1:1933">
+                  Публикация гайда
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40880;1:1958">
+            <div className="content-stretch flex h-full items-start justify-end relative shrink-0" data-name="Right Part">
+              <div className="content-stretch flex items-center relative rounded-[100px] shrink-0 size-[32px]" data-node-id="I4351:40880;1:1959" data-name="DS Team Avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I4351:40880;1:1959;3941:1221" data-name="Avatar">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgAvatar2} width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## changelog
+**Node ID:** 7524:45
+
+Компонент для создания чейнджлога (истории изменений) Можно применять к компонентам, гайдам, спекам, макетам
+
+**Documentation:**
+- [https://www.figma.com/design/OycBnZPdO0BV9GDuiwEkTN/TUI-%D0%9Delpers?node-id=6688-0&t=y5BvNWUgbNtuWzIB-11](https://www.figma.com/design/OycBnZPdO0BV9GDuiwEkTN/TUI-%D0%9Delpers?node-id=6688-0&t=y5BvNWUgbNtuWzIB-11)
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40872/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

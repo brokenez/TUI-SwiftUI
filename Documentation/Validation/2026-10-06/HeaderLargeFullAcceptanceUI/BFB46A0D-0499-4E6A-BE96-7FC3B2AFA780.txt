@@ -1,0 +1,35 @@
+Attributes: Application, 0x114555cc0, pid: 56052, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x114555cc0, pid: 56052, label: 'TUIConsumer'
+    Window (Main), 0x114555e00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x114554140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1145543c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x114554500, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x114554640, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x114554780, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x1145548c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x114554a00, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x114554b40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114554c80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x114554dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x114555b80, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x114555040, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        Other, 0x114555180, {{29.7, 176.3}, {343.0, 70.0}}
+                          Other, 0x114554280, {{29.7, 182.3}, {130.0, 24.0}}
+                          Other, 0x114554000, {{29.7, 231.3}, {130.0, 12.0}}
+                        StaticText, 0x1145552c0, {{147.3, 286.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x114555400, {{160.7, 322.7}, {80.7, 20.3}}, label: 'Ссылок: 0'
+                        StaticText, 0x114555540, {{129.7, 359.0}, {142.7, 20.3}}, label: 'Reduce Motion: on'
+                        StaticText, 0x114555680, {{99.2, 395.3}, {203.7, 20.3}}, label: 'System Reduce Motion: on'
+                        StaticText, 0x1145557c0, {{150.0, 431.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x114555900, {{149.0, 468.0}, {104.3, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, skeleton'
+                          StaticText, 0x114555a40, {{160.7, 475.0}, {64.0, 20.3}}, label: 'skeleton'
+                Other, 0x114555f40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114556080, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x114555cc0, pid: 56052, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x114554f00, pid: 56052, label: 'TUIConsumer'
+  }

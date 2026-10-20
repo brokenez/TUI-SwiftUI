@@ -1,0 +1,27 @@
+{
+  "scope": "Native 3x downsampled on white; diagnostic only. Day sources only.",
+  "results": [
+    {
+      "variantID": "42587:292058",
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292058-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CardLargeCell/3830D0B1-04EB-494E-97AB-C4870EE7E817.png",
+      "size": [
+        411,
+        148
+      ],
+      "mae255": 1.09504,
+      "fullEffectBounds": true
+    },
+    {
+      "variantID": "44231:312868",
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-312868-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CardLargeCell/B17035A1-A0B2-45DC-99AD-0F6D71A6568F.png",
+      "size": [
+        375,
+        80
+      ],
+      "mae255": 0.50163,
+      "fullEffectBounds": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "fileKey": "HErJrp1BcNRUFCyg3QccuG",
+  "nodeId": "25085:11903",
+  "url": "https://www.figma.com/design/HErJrp1BcNRUFCyg3QccuG/tui-button?node-id=25085-11903",
+  "retrievedAt": "2026-10-08",
+  "method": "Figma Desktop MCP get_design_context",
+  "isError": false,
+  "content": [
+    "<frame id=\"25085:11903\" name=\"Доступность\" x=\"9946\" y=\"100\" width=\"1190\" height=\"4925\">\n  <instance id=\"25085:11904\" name=\"H1 + P\" x=\"128\" y=\"128\" width=\"934\" height=\"88\" />\n  <instance id=\"25085:11905\" name=\"H2 + P\" x=\"128\" y=\"216\" width=\"934\" height=\"120\" />\n  <instance id=\"25085:11906\" name=\"Note\" x=\"128\" y=\"336\" width=\"934\" height=\"164\" />\n  <instance id=\"25085:11907\" name=\"H3 + P\" x=\"128\" y=\"500\" width=\"934\" height=\"72\" />\n  <instance id=\"25085:11908\" name=\"List Bulleted\" x=\"128\" y=\"572\" width=\"934\" height=\"181\" />\n  <instance id=\"25085:11909\" name=\"Image 1x1\" x=\"128\" y=\"753\" width=\"934\" height=\"1323\" />\n  <instance id=\"25085:11910\" name=\"H3 + P\" x=\"128\" y=\"2076\" width=\"934\" height=\"72\" />\n  <instance id=\"25085:11911\" name=\"List Bulleted\" x=\"128\" y=\"2148\" width=\"934\" height=\"181\" />\n  <instance id=\"25085:11912\" name=\"Image 1x1\" x=\"128\" y=\"2329\" width=\"934\" height=\"1354\" />\n  <instance id=\"25085:11913\" name=\"H2 + P\" x=\"128\" y=\"3683\" width=\"934\" height=\"168\" />\n  <instance id=\"25085:11914\" name=\"Table Header\" x=\"128\" y=\"3851\" width=\"934\" height=\"56\" />\n  <instance id=\"25085:11915\" name=\"Table Row\" x=\"128\" y=\"3907\" width=\"934\" height=\"178\" />\n  <instance id=\"25085:11916\" name=\"Table Row\" x=\"128\" y=\"4085\" width=\"934\" height=\"178\" />\n  <instance id=\"25085:11917\" name=\"Table Row\" x=\"128\" y=\"4263\" width=\"934\" height=\"156\" />\n  <instance id=\"25085:11918\" name=\"Table Row\" x=\"128\" y=\"4419\" width=\"934\" height=\"200\" />\n  <instance id=\"25085:11919\" name=\"Table Row\" x=\"128\" y=\"4619\" width=\"934\" height=\"178\" />\n</frame>",
+    "IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit."
+  ]
+}

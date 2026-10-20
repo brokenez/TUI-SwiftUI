@@ -1,0 +1,7 @@
+# Skeleton: проверка общего входа после Floating Container QA
+
+Добавлен отдельный DEBUG-маршрут --tui-floating-motion-probe. У двух ранее принятых компонентов TUISkeleton/TUISkeletonText генератор обнаружил ровно один изменённый проверенный вход: CatalogApp/TUIDesignSystemCatalogApp.swift. Все прочие их входные хеши — production-компоненты, Foundations, матрица, ресурсы, исходные спецификации и старые tests — совпадают с предыдущей приёмкой.
+
+В настоящем iPhone 17 Pro Simulator, iOS 26.4.1, выполнен только существующий testExistingSkeletonRouteRetainsLiveCoreAndTextAfterNewProbeRoute. Он открывает исходный Skeleton QA-маршрут, захватывает восемь actual screenshots core/text и подтверждает изменение яркости живого компонента. Результат: **1 test, 0 failures**, [summary](../../Validation/2026-10-12/FloatingSkeletonRouteRegression/summary.json), [build/test log](../../Validation/2026-10-12/FloatingSkeletonRouteRegression/test.log), [native captures и tree](../../Validation/2026-10-12/FloatingSkeletonRouteRegression/Native/manifest.json). Имена attachment сохраняют исторический префикс textfield-host; они не обозначают новую проверку Textfield.
+
+Accessibility/VoiceOver-аудит и изменение системных настроек не выполнялись, согласно текущему объёму пользователя. Остальная прежняя приёмка остаётся прежней: production-входы не менялись. Обновляется только хеш общей точки входа, с новым доказательством integration; статус complete вычисляет генератор, вручную он не назначается.

@@ -1,0 +1,109 @@
+{
+  "comparison": "Decoded RGBA equality against previous accepted runtime regression boards; this is not comparison with Figma.",
+  "results": [
+    {
+      "attachmentName": "button-dynamic-type-accessibility5-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/0F2C2DBA-2576-4259-BBD0-178EEBF91D22.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/39CDD73C-4E1F-4F36-BBC0-15A116A7F106.png",
+      "dimensions": [
+        1125,
+        2017
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "20d1a578fde71d8572962cd838e3b9cffb1a43bc5ecfcd2fd8e769c46c836d4a",
+      "afterSHA256": "20d1a578fde71d8572962cd838e3b9cffb1a43bc5ecfcd2fd8e769c46c836d4a"
+    },
+    {
+      "attachmentName": "button-dynamic-type-accessibility1-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/92B4A9F3-B552-4B9A-859C-A2DFCD507C0B.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/ED31D70A-B016-49F1-9911-8B46CFF88005.png",
+      "dimensions": [
+        1125,
+        1674
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "469f363104c98926f744cd2c71b76cb6ac99ab9d661bae4deccfda371171612a",
+      "afterSHA256": "469f363104c98926f744cd2c71b76cb6ac99ab9d661bae4deccfda371171612a"
+    },
+    {
+      "attachmentName": "button-dynamic-type-large-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/4616D424-188D-48D8-AFCD-66F186E2AFA9.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/E6E32974-CD6B-4A93-944A-9C96BDEE6861.png",
+      "dimensions": [
+        1125,
+        1674
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "9ab73e7752f8e54cbedb42c135e4cee58ead8e7089d2621fb5dac678d7ef6638",
+      "afterSHA256": "9ab73e7752f8e54cbedb42c135e4cee58ead8e7089d2621fb5dac678d7ef6638"
+    },
+    {
+      "attachmentName": "button-dynamic-type-accessibility5-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/4847C0DB-9B82-4816-B6EF-67966AB0B806.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/E055A5DE-DAAC-4F46-A637-15B9C696900A.png",
+      "dimensions": [
+        1125,
+        2017
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "9f267ddffb5953315fb64e16f109b5c71fde509aa54c9be175d68554599b3d0c",
+      "afterSHA256": "9f267ddffb5953315fb64e16f109b5c71fde509aa54c9be175d68554599b3d0c"
+    },
+    {
+      "attachmentName": "button-dynamic-type-accessibility1-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/5522450F-294F-4663-AFD1-F5A424DB6D9B.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/9E34820E-318B-48A6-A776-3A0CA4B799E1.png",
+      "dimensions": [
+        1125,
+        1674
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "da1e43158e44606dd063c487cf8e195de401dcf8a9d266d78804071abbf6fdaa",
+      "afterSHA256": "da1e43158e44606dd063c487cf8e195de401dcf8a9d266d78804071abbf6fdaa"
+    },
+    {
+      "attachmentName": "button-dynamic-type-large-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/2B5395FB-3143-4B8B-ABE8-919BC17EB8B5.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/F714980D-CA4A-410B-8AE3-51406B8779A8.png",
+      "dimensions": [
+        1125,
+        1674
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "aafbb0b54ea7540461245313d476254391c0029f07caeabb4a4590fc9ff163f4",
+      "afterSHA256": "aafbb0b54ea7540461245313d476254391c0029f07caeabb4a4590fc9ff163f4"
+    },
+    {
+      "attachmentName": "button-normal-loading-sizes-Night-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/10C18A31-D5FF-4306-9A56-75641D822A68.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/3B24DD01-1BCA-43B6-88AF-956DD94A8973.png",
+      "dimensions": [
+        1125,
+        1140
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "56e1253c6ef6b6f5dc4fbbfdd470e222a738813e2dc3d7f2f257f323fd90734e",
+      "afterSHA256": "56e1253c6ef6b6f5dc4fbbfdd470e222a738813e2dc3d7f2f257f323fd90734e"
+    },
+    {
+      "attachmentName": "button-normal-loading-sizes-Day-3x",
+      "before": "Documentation/Validation/2026-10-08/ButtonInteraction/PackageNative/EE2911C3-C9E3-4C53-92D9-4AF4C5124761.png",
+      "after": "Documentation/Validation/2026-10-08/ButtonCustomization/PackageNative/4017C780-748B-4F77-8F88-5EAD71F1A5DC.png",
+      "dimensions": [
+        1125,
+        1140
+      ],
+      "changedPixels": 0,
+      "maximumChannelDifference": 0,
+      "beforeSHA256": "5201fb4ef2c1aa0c1c0aa425ced8f8d9f21b7f5137b35402e93e56d2e2e5168d",
+      "afterSHA256": "5201fb4ef2c1aa0c1c0aa425ced8f8d9f21b7f5137b35402e93e56d2e2e5168d"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+const imgColor = "https://www.figma.com/api/mcp/asset/a0cd4cb1-d602-4319-8ac7-71e6f5d0eb10.svg";
+const imgTuiIcMediumHeartFilled = "https://www.figma.com/api/mcp/asset/154fc64f-6b7b-4797-a925-5bc7f477beee.svg";
+const imgStart = "https://www.figma.com/api/mcp/asset/08c2118e-e5d3-41d3-8aeb-7c6d747d8684.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/b7a98a1e-fce9-44de-b563-b094df63774e.svg";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/781a82e9-617e-40ff-9f86-5c179dc63ea0.svg";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/e62ad209-f76f-4a23-8e1b-1ae06e5bf900.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/9bf8ff81-dcf4-4954-9004-4d659781b9c7.svg";
+const imgTuiIcMediumHeartFilled1 = "https://www.figma.com/api/mcp/asset/942f512c-829b-40ce-98fd-c2601d6d0efd.svg";
+
+type TuiButtonLikeProps = {
+  className?: string;
+  appearance?: "secondary";
+  selected?: boolean;
+  size?: "medium";
+  state?: "normal";
+};
+
+function TuiButtonLike({ className, appearance = "secondary", selected = false, size = "medium", state = "normal" }: TuiButtonLikeProps) {
+  const isSelected = selected;
+  return (
+    <div className={className || "bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] content-stretch flex flex-col items-start overflow-clip p-[10px] relative rounded-[22px]"} id={isSelected ? "node-8573_1200" : "node-8573_1196"}>
+      {!selected && (
+        <div className="relative shrink-0 size-[24px]" data-node-id="8573:1232" data-name="tui-ic-medium-pragmatic / heart">
+          <div className="absolute bg-[var(--tui-text-action,#126df7)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[24px_24px]" data-node-id="I8573:1232;246:4895" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+        </div>
+      )}
+      {isSelected && (
+        <div className="relative shrink-0 size-[24px]" data-node-id="8573:1236" data-name="tui-ic-medium / heart-filled">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumHeartFilled} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function Image1X1() {
+  return (
+    <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="12056:10943" data-name="Image 1x1">
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[320px] items-start min-h-px overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] w-full" data-node-id="I12056:10943;9469:7126" data-name="Image Placeholder">
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I12056:10943;9469:7126;9469:7234" data-name="Start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I12056:10943;9469:7126;9469:7235" data-name="End">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I12056:10943;9469:7126;5375:1824" data-name="Content Appearance" />
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center justify-center left-1/2 top-1/2" data-node-id="I12056:10943;9469:7126;9470:7246" data-name="Instance Container">
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I12056:10943;9469:7126;9470:7246;714:11142">
+            <div className="col-1 content-stretch flex items-center ml-[460px] mt-[64px] relative row-1 w-[80px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11053" data-name="comment-line">
+              <div className="relative shrink-0 size-[6px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11053;66:7080">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I12056:10943;9469:7126;9470:7246;714:11053;66:7079">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                </div>
+              </div>
+              <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I12056:10943;9469:7126;9470:7246;714:11053;66:7078" data-name="Center">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11053;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  scale 1x
+                </p>
+              </div>
+            </div>
+            <div className="col-1 content-stretch flex items-center ml-[460px] mt-[129px] relative row-1 w-[80px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11054" data-name="comment-line">
+              <div className="relative shrink-0 size-[6px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11054;66:7080">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I12056:10943;9469:7126;9470:7246;714:11054;66:7079">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                </div>
+              </div>
+              <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I12056:10943;9469:7126;9470:7246;714:11054;66:7078" data-name="Center">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11054;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  scale 1x
+                </p>
+              </div>
+            </div>
+            <div className="col-1 content-stretch flex items-center ml-[612px] mt-[67px] relative row-1 w-[100px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11055" data-name="comment-line">
+              <div className="relative shrink-0 size-[6px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11055;66:7080">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I12056:10943;9469:7126;9470:7246;714:11055;66:7079">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector4} />
+                </div>
+              </div>
+              <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I12056:10943;9469:7126;9470:7246;714:11055;66:7078" data-name="Center">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11055;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  scale 1.25x
+                </p>
+              </div>
+            </div>
+            <div className="col-1 content-stretch flex items-center ml-[612px] mt-[137px] relative row-1 w-[100px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11056" data-name="comment-line">
+              <div className="relative shrink-0 size-[6px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11056;66:7080">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="I12056:10943;9469:7126;9470:7246;714:11056;66:7079">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector4} />
+                </div>
+              </div>
+              <div className="bg-[#f50] content-stretch flex items-start px-[4px] py-[2px] relative rounded-[4px] shrink-0" data-node-id="I12056:10943;9469:7126;9470:7246;714:11056;66:7078" data-name="Center">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative self-stretch shrink-0 text-[14px] text-center text-white w-[13px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11056;66:7078;5685:1099" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  scale 1.25x
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[413px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I12056:10943;9469:7126;9470:7246;714:11057">
+              xxxLarge
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[174px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I12056:10943;9469:7126;9470:7246;714:11058">
+              xLarge
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[290px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I12056:10943;9469:7126;9470:7246;714:11059">
+              xxLarge
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-0 mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I12056:10943;9469:7126;9470:7246;714:11060">
+              Default (Large)
+            </p>
+            <p className="[word-break:break-word] col-1 font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] ml-[582px] mt-0 not-italic relative row-1 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] whitespace-nowrap" data-node-id="I12056:10943;9469:7126;9470:7246;714:11061">
+              AX1
+            </p>
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[28px] mt-[52px] overflow-clip p-[10px] relative rounded-[22px] row-1" />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[175px] mt-[52px] overflow-clip p-[10px] relative rounded-[22px] row-1" />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[295px] mt-[52px] overflow-clip p-[10px] relative rounded-[22px] row-1" />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[422px] mt-[52px] overflow-clip p-[10px] relative rounded-[22px] row-1" />
+            <div className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[571px] mt-[52px] overflow-clip p-[10px] relative rounded-[100px] row-1" data-node-id="I12056:10943;9469:7126;9470:7246;714:11066" data-name="tui-button [like]">
+              <div className="relative shrink-0 size-[30px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11067" data-name="tui-ic-medium-pragmatic / heart">
+                <div className="absolute bg-[var(--tui-text-action,#126df7)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[24px_24px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11067;246:4895" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+              </div>
+            </div>
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[28px] mt-[116px] overflow-clip p-[10px] relative rounded-[22px] row-1" selected />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[175px] mt-[116px] overflow-clip p-[10px] relative rounded-[22px] row-1" selected />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[295px] mt-[116px] overflow-clip p-[10px] relative rounded-[22px] row-1" selected />
+            <TuiButtonLike className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[422px] mt-[116px] overflow-clip p-[10px] relative rounded-[22px] row-1" selected />
+            <div className="bg-[var(--tui-background-neutral-1,rgba(36,74,127,0.06))] col-1 content-stretch flex flex-col items-start ml-[571px] mt-[122px] overflow-clip p-[10px] relative rounded-[100px] row-1" data-node-id="I12056:10943;9469:7126;9470:7246;714:11072" data-name="tui-button [like]">
+              <div className="relative shrink-0 size-[30px]" data-node-id="I12056:10943;9469:7126;9470:7246;714:11073" data-name="tui-ic-medium / heart-filled">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumHeartFilled1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I12056:10943;9469:7126;8349:7026">
+          ...
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Day / Text / text-01 (inverse): #FFFFFF, Android/Body M: Font(family: "Roboto", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0), Helper Red: #FF5500, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day/Background/accent-on-light: #000000.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button [like]
+**Node ID:** 8573:1183
+
+Кастомный стиль компонента Button
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340)
+
+## tui-ic-medium-pragmatic / heart
+**Node ID:** 1318:24442
+
+like, favorites
+
+## tui-ic-medium / heart-filled
+**Node ID:** 6:40367
+
+love, affection, passion
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

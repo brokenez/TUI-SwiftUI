@@ -1,0 +1,234 @@
+const imgStart = "[TEMPORARY_ASSET_URL]";
+const imgTuiButton = "[TEMPORARY_ASSET_URL]";
+const imgTuiButton1 = "[TEMPORARY_ASSET_URL]";
+
+export default function Frame2() {
+  return (
+    <div className="content-stretch flex flex-col gap-[10px] items-start relative size-full" data-node-id="81:48232">
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="81:48233" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I81:48233;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I81:48233;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I81:48233;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I81:48233;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[12px] items-start justify-center left-1/2 top-1/2" data-node-id="I81:48233;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I81:48233;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[320px]" data-node-id="I81:48233;9469:7126;475:2321;475:2285;525:2135" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I81:48233;9469:7126;475:2321;475:2287" data-name="Instance Container">
+              <div className="relative shrink-0 size-[320px]" data-node-id="I81:48233;9469:7126;475:2321;475:2287;525:2135" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I81:48233;9469:7126;475:2321;475:2291" data-name="Instance Container">
+              <div className="relative shrink-0 size-[220px]" data-node-id="I81:48233;9469:7126;475:2321;475:2291;525:2120" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton1} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I81:48233;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[18px] left-[481px] overflow-clip rounded-[4px] top-[103px] w-[52px]" data-node-id="81:48234" data-name="tui-sensitive-mode">
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-0" data-node-id="I81:48234;46866:304596" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-0" data-node-id="I81:48234;46866:304597" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-0" data-node-id="I81:48234;46866:304598" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-0" data-node-id="I81:48234;46866:304599" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-0" data-node-id="I81:48234;46866:304600" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-0" data-node-id="I81:48234;46866:304601" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-0" data-node-id="I81:48234;46866:304602" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-0" data-node-id="I81:48234;46866:304603" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-0" data-node-id="I81:48234;46866:304604" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-0" data-node-id="I81:48234;46866:304605" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-0" data-node-id="I81:48234;46866:304606" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-0" data-node-id="I81:48234;46866:304607" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-0" data-node-id="I81:48234;46866:304608" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-0" data-node-id="I81:48234;46866:304609" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-0" data-node-id="I81:48234;46866:304610" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-0" data-node-id="I81:48234;46866:304611" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-0" data-node-id="I81:48234;46866:304612" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-0" data-node-id="I81:48234;46866:304613" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-0" data-node-id="I81:48234;46866:304614" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-0" data-node-id="I81:48234;46866:304615" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-0" data-node-id="I81:48234;46866:304616" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-0" data-node-id="I81:48234;46866:304617" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-0" data-node-id="I81:48234;46866:304618" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-0" data-node-id="I81:48234;46866:304619" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-0" data-node-id="I81:48234;46866:304620" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-[9px]" data-node-id="I81:48234;46866:304621" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304622" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304623" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304624" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304625" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304626" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304627" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304628" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304629" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304630" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304631" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304632" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304633" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304634" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304635" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304636" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304637" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304638" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304639" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304640" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304641" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304642" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304643" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304644" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-[9px]" data-node-id="I81:48234;46866:304645" />
+      </div>
+      <div className="absolute h-[18px] left-[482px] overflow-clip rounded-[4px] top-[165px] w-[52px]" data-node-id="81:48235" data-name="tui-sensitive-mode">
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-0" data-node-id="I81:48235;46866:304596" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-0" data-node-id="I81:48235;46866:304597" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-0" data-node-id="I81:48235;46866:304598" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-0" data-node-id="I81:48235;46866:304599" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-0" data-node-id="I81:48235;46866:304600" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-0" data-node-id="I81:48235;46866:304601" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-0" data-node-id="I81:48235;46866:304602" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-0" data-node-id="I81:48235;46866:304603" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-0" data-node-id="I81:48235;46866:304604" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-0" data-node-id="I81:48235;46866:304605" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-0" data-node-id="I81:48235;46866:304606" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-0" data-node-id="I81:48235;46866:304607" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-0" data-node-id="I81:48235;46866:304608" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-0" data-node-id="I81:48235;46866:304609" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-0" data-node-id="I81:48235;46866:304610" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-0" data-node-id="I81:48235;46866:304611" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-0" data-node-id="I81:48235;46866:304612" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-0" data-node-id="I81:48235;46866:304613" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-0" data-node-id="I81:48235;46866:304614" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-0" data-node-id="I81:48235;46866:304615" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-0" data-node-id="I81:48235;46866:304616" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-0" data-node-id="I81:48235;46866:304617" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-0" data-node-id="I81:48235;46866:304618" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-0" data-node-id="I81:48235;46866:304619" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-0" data-node-id="I81:48235;46866:304620" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-[9px]" data-node-id="I81:48235;46866:304621" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304622" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304623" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304624" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304625" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304626" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304627" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304628" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304629" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304630" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304631" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304632" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304633" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304634" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304635" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304636" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304637" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304638" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304639" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304640" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304641" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304642" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304643" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304644" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-[9px]" data-node-id="I81:48235;46866:304645" />
+      </div>
+      <div className="absolute h-[18px] left-[392px] overflow-clip rounded-[4px] top-[214px] w-[45px]" data-node-id="81:48236" data-name="tui-sensitive-mode">
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-0" data-node-id="I81:48236;46866:304596" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-0" data-node-id="I81:48236;46866:304597" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-0" data-node-id="I81:48236;46866:304598" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-0" data-node-id="I81:48236;46866:304599" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-0" data-node-id="I81:48236;46866:304600" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-0" data-node-id="I81:48236;46866:304601" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-0" data-node-id="I81:48236;46866:304602" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-0" data-node-id="I81:48236;46866:304603" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-0" data-node-id="I81:48236;46866:304604" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-0" data-node-id="I81:48236;46866:304605" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-0" data-node-id="I81:48236;46866:304606" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-0" data-node-id="I81:48236;46866:304607" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-0" data-node-id="I81:48236;46866:304608" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-0" data-node-id="I81:48236;46866:304609" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-0" data-node-id="I81:48236;46866:304610" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-0" data-node-id="I81:48236;46866:304611" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-0" data-node-id="I81:48236;46866:304612" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-0" data-node-id="I81:48236;46866:304613" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-0" data-node-id="I81:48236;46866:304614" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-0" data-node-id="I81:48236;46866:304615" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-0" data-node-id="I81:48236;46866:304616" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-0" data-node-id="I81:48236;46866:304617" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-0" data-node-id="I81:48236;46866:304618" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-0" data-node-id="I81:48236;46866:304619" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-0" data-node-id="I81:48236;46866:304620" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-0 size-[9px] top-[9px]" data-node-id="I81:48236;46866:304621" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[9px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304622" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[18px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304623" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[27px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304624" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[36px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304625" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[45px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304626" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[54px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304627" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[63px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304628" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[72px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304629" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[81px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304630" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[90px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304631" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[99px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304632" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[108px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304633" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[117px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304634" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[126px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304635" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[135px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304636" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[144px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304637" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[153px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304638" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[162px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304639" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[171px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304640" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[180px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304641" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[189px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304642" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[198px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304643" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[207px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304644" />
+        <div className="absolute backdrop-blur-[20px] bg-[rgba(255,255,255,0.24)] left-[216px] size-[9px] top-[9px]" data-node-id="I81:48236;46866:304645" />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15277
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 32862:15276
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## system=ios, size=medium, appearance=primary-grayscale, state=normal, skeleton=off
+**Node ID:** 32862:15468
+
+Ex. primary-opposite
+
+## tui-sensitive-mode
+**Node ID:** 24755:49105
+
+Маска, чтобы показать на дизайне sensitive mode
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-sensitive](https://go.tcsbank.ru/tui-sensitive)
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

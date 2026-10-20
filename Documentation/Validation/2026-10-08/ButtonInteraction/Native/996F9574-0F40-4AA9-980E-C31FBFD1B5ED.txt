@@ -1,0 +1,30 @@
+Attributes: Application, 0x115b6e800, pid: 39782, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x115b6e800, pid: 39782, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x115b6e940, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x115b6ea80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x115b6ebc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x115b6ed00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x115b6ee40, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x115b6ef80, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x115b6f0c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Button QA'
+                  StaticText, 0x115b6fac0, {{160.0, 73.7}, {81.7, 20.7}}, label: 'Button QA'
+                Other, 0x115b6fc00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x115b6fd40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x115b6f840, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x115b6f200, {{0.0, 0.0}, {402.0, 874.0}}
+                        Button, 0x115b6f340, {{16.0, 395.7}, {370.0, 56.0}}, identifier: 'buttonProbeComponent', label: 'Отправить документ'
+                          Other, 0x115b6e580, {{0.0, 0.0}, {0.0, 0.0}}
+                          StaticText, 0x115b6e6c0, {{16.0, 395.7}, {370.0, 56.0}}, label: 'Отправить документ'
+                        StaticText, 0x108b88280, {{196.0, 731.0}, {10.0, 20.3}}, identifier: 'buttonProbeTapCount', label: '2'
+                        StaticText, 0x108b88500, {{174.7, 767.3}, {52.7, 20.3}}, identifier: 'buttonProbeState', label: 'normal'
+                        Button, 0x108b88640, {{120.3, 803.7}, {161.3, 20.3}}, identifier: 'buttonProbeFinishLoading', label: 'Завершить загрузку'
+                Other, 0x1158ac280, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x116854000, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x115b6e800, pid: 39782, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x116854140, pid: 39782, label: 'TUIDesignSystemCatalog'
+  }

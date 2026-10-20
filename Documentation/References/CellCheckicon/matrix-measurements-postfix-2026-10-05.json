@@ -1,0 +1,41 @@
+[
+  {
+    "nodeID": "41637:306904",
+    "cropPixels": [
+      41,
+      463,
+      1125,
+      168
+    ],
+    "runtimeScale": 3,
+    "sourceAlphaComposite": "white",
+    "meanAbsoluteError1x": 0.91457,
+    "p99AbsoluteChannelError": 29.0
+  },
+  {
+    "nodeID": "41637:306919",
+    "cropPixels": [
+      41,
+      770,
+      1125,
+      168
+    ],
+    "runtimeScale": 3,
+    "sourceAlphaComposite": "white",
+    "meanAbsoluteError1x": 0.91289,
+    "p99AbsoluteChannelError": 29.0
+  },
+  {
+    "nodeID": "55902:297311",
+    "cropPixels": [
+      41,
+      1078,
+      1125,
+      168
+    ],
+    "runtimeScale": 3,
+    "sourceAlphaComposite": "white",
+    "meanAbsoluteError1x": 0.00719,
+    "p99AbsoluteChannelError": 0.0
+  }
+]

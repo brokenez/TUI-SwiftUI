@@ -1,0 +1,41 @@
+{
+  "method": "Original Day reference @1x; actual native @3x downsampled LANCZOS and composited on white. Diagnostic, no acceptance threshold.",
+  "results": [
+    {
+      "variantID": "55902:294308",
+      "MAE_255": 0.01356,
+      "source": "Documentation/References/Cell/FigmaPNG/55902-294308-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/498E8A1D-B3DB-40CC-81A3-CE739AAAD1EE.png"
+    },
+    {
+      "variantID": "55900:294996",
+      "MAE_255": 0.00729,
+      "source": "Documentation/References/Cell/FigmaPNG/55900-294996-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/ADD6C798-7E98-4C6A-A93E-AFF9D1AC5BA3.png"
+    },
+    {
+      "variantID": "53164:295412",
+      "MAE_255": 0.28506,
+      "source": "Documentation/References/Cell/FigmaPNG/53164-295412-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/5AF5B80A-FAFF-42FF-911D-CBD779572CDF.png"
+    },
+    {
+      "variantID": "41569:291331",
+      "MAE_255": 0.70757,
+      "source": "Documentation/References/Cell/FigmaPNG/41569-291331-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/F92A3973-4119-4497-BADF-6EBCDCA9B9B3.png"
+    },
+    {
+      "variantID": "41569:290638",
+      "MAE_255": 0.57689,
+      "source": "Documentation/References/Cell/FigmaPNG/41569-290638-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/FC99663E-1E65-4A16-8A88-5A61AECD9802.png"
+    },
+    {
+      "variantID": "41569:290556",
+      "MAE_255": 2.11265,
+      "source": "Documentation/References/Cell/FigmaPNG/41569-290556-day-1x.png",
+      "native": "Documentation/Validation/2026-10-08/CellSpecCurrent/9FACFC60-3682-4A53-90F3-9CAC56D1D58D.png"
+    }
+  ]
+}

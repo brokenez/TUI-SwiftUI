@@ -1,0 +1,11 @@
+{
+  "measurementSource" : "final-native.mp4 + FinalFrames\/frames.json; clip is only for catalogue playback",
+  "operation" : "AVFoundation passthrough; no re-encoding, retiming, overlays or reconstructed frames",
+  "output" : "floating-transitions.mp4",
+  "outputDurationSeconds" : 12.050000000000001,
+  "requestedSourceRangeSeconds" : [
+    9.3000000000000007,
+    21.350000000000001
+  ],
+  "source" : "final-native.mp4"
+}

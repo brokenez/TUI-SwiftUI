@@ -1,0 +1,542 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project TUIDesignSystemCatalog.xcodeproj -scheme TUIDesignSystemCatalogUITests -destination "platform=iOS Simulator,id=6D3F35A1-AC30-4F0E-BDD6-0F912B714E59" -derivedDataPath /private/tmp/tui-typography-catalog-derived -clonedSourcePackagesDirPath /private/tmp/tui-package-cache -skipPackageUpdates CODE_SIGNING_ALLOWED=NO "-only-testing:TUIDesignSystemCatalogUITests/SystemMotionUITests" -resultBundlePath /private/tmp/tui-button-skeleton-route-2026-10-08.xcresult test
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  TUIDesignSystem: /Users/v.shtukert/Documents/TUI-Design-System @ local
+
+Writing result bundle at path:
+	/private/tmp/tui-button-skeleton-route-2026-10-08.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (5 targets)
+    Target 'TUIDesignSystemCatalogUITests' in project 'TUIDesignSystemCatalog'
+        ➜ Explicit dependency on target 'TUIDesignSystemCatalog' in project 'TUIDesignSystemCatalog'
+    Target 'TUIDesignSystemCatalog' in project 'TUIDesignSystemCatalog'
+        ➜ Explicit dependency on target 'TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem' in project 'TUIDesignSystem'
+        ➜ Explicit dependency on target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem'
+    Target 'TUIDesignSystem_TUIDesignSystem' in project 'TUIDesignSystem' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/v.shtukert/Documents/TUI-Design-System/CatalogApp/QAAssets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: e103f54a7277d32658eb98741eb86fb9
+Build description path: /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/XCBuildData/e103f54a7277d32658eb98741eb86fb9.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -o /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+
+SwiftDriver TUIDesignSystem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystem -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -package-name tui_design_system -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_const_extract_protocols.json -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ TUIDesignSystem (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+
+EmitSwiftModule normal arm64 (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for TUIDesignSystem (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+
+SwiftDriver\ Compilation\ Requirements TUIDesignSystem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TUIDesignSystem -Onone @/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -suppress-warnings -index-store-path /tmp/tui-typography-catalog-derived/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk/Developer/Library/Frameworks -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/tui-typography-catalog-derived/SDKStatCaches.noindex/iphonesimulator26.4-23E252-688ef53f1462e2c8f657fdc38a81448f686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -sdk-module-cache-path /tmp/tui-typography-catalog-derived/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.swiftmodule -validate-clang-modules-once -clang-build-session-file /tmp/tui-typography-catalog-derived/ModuleCache.noindex/Session.modulevalidation -package-name tui_design_system -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem_const_extract_protocols.json -Xcc -I/tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/include -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources-normal/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources/arm64 -Xcc -I/tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem-Swift.h -working-directory /Users/v.shtukert/Documents/TUI-Design-System/TUIDesignSystemCatalog.xcodeproj -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.abi.json (in target 'TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem.build/Objects-normal/arm64/TUIDesignSystem.abi.json /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+CpResource /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/component-coverage.json /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Resources/Metadata/component-coverage.json (in target 'TUIDesignSystem_TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/v.shtukert/Documents/TUI-Design-System/Sources/TUIDesignSystem/Resources/Metadata/component-coverage.json /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/empty-TUIDesignSystem_TUIDesignSystem.plist (in target 'TUIDesignSystem_TUIDesignSystem' from project 'TUIDesignSystem')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/empty-TUIDesignSystem_TUIDesignSystem.plist -producttype com.apple.product-type.bundle -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystem.build/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.build/assetcatalog_generated_info.plist -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle/Info.plist
+
+Copy /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystem_TUIDesignSystem.bundle /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystem_TUIDesignSystem.bundle /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app
+
+CopySwiftLibs /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystemCatalog.debug.dylib --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Frameworks --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/PlugIns --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/SystemExtensions --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/empty-TUIDesignSystemCatalog.plist (in target 'TUIDesignSystemCatalog' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/empty-TUIDesignSystemCatalog.plist -producttype com.apple.product-type.application -genpkginfo /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalog.build/assetcatalog_generated_info.plist -scanforprivacyfile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/TUIDesignSystem_TUIDesignSystem.bundle -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalog.app/Info.plist
+
+ProcessInfoPlistFile /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Info.plist /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/empty-TUIDesignSystemCatalogUITests.plist (in target 'TUIDesignSystemCatalogUITests' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-infoPlistUtility /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/empty-TUIDesignSystemCatalogUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/ProductTypeInfoPlistAdditions.plist -o /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Info.plist
+
+CopySwiftLibs /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest (in target 'TUIDesignSystemCatalogUITests' from project 'TUIDesignSystemCatalog')
+    cd /Users/v.shtukert/Documents/TUI-Design-System
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/TUIDesignSystemCatalogUITests --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Frameworks --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/PlugIns --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/SystemExtensions --scan-folder /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.3EB60V/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/tui-typography-catalog-derived/Build/Products/Debug-iphonesimulator/TUIDesignSystemCatalogUITests-Runner.app/PlugIns/TUIDesignSystemCatalogUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/tui-typography-catalog-derived/Build/Intermediates.noindex/TUIDesignSystemCatalog.build/Debug-iphonesimulator/TUIDesignSystemCatalogUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+2026-10-08 18:39:50.966724+0300 TUIDesignSystemCatalogUITests-Runner[41025:1850003] [Default] Running tests...
+objc[41025]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x106bc0310) and /Library/Developer/CoreSimulator/Volumes/iOS_23E254a/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x1060ec398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-08 18:39:54.974.
+Test Suite 'TUIDesignSystemCatalogUITests.xctest' started at 2026-10-08 18:39:54.975.
+Test Suite 'SystemMotionUITests' started at 2026-10-08 18:39:54.975.
+Test Case '-[TUIDesignSystemCatalogUITests.SystemMotionUITests testSkeletonAccessibilitySemanticsInNativeApplication]' started.
+    t =     0.00s Start Test at 2026-10-08 18:39:54.976
+    t =     0.40s Set Up
+    t =     0.40s Open local.TUIDesignSystemCatalog
+    t =     0.40s     Launch local.TUIDesignSystemCatalog
+2026-10-08 18:39:55.734 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-08 18:39:55.734 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     2.86s         Setting up automation session
+    t =     3.88s         Wait for local.TUIDesignSystemCatalog to idle
+    t =     5.49s Waiting 10.0s for "Live" StaticText to exist
+    t =     6.57s     Checking `Expect predicate `existsNoRetry == 1` for object "Live" StaticText`
+    t =     6.57s         Checking existence of `"Live" StaticText`
+    t =     7.13s Requesting snapshot of accessibility hierarchy for app with pid 41069
+    t =     7.18s Requesting snapshot of accessibility hierarchy for app with pid 41069
+    t =     7.20s Added attachment named 'skeleton-native-accessibility-audit-tree'
+    t =     7.20s Added attachment named 'skeleton-native-accessibility-audit-scope'
+    t =     7.20s Tear Down
+Test Case '-[TUIDesignSystemCatalogUITests.SystemMotionUITests testSkeletonAccessibilitySemanticsInNativeApplication]' passed (7.445 seconds).
+Test Case '-[TUIDesignSystemCatalogUITests.SystemMotionUITests testSkeletonRespectsSystemReduceMotionAndResumesAfterBackground]' started.
+    t =     0.00s Start Test at 2026-10-08 18:40:02.421
+    t =     0.03s Set Up
+    t =     0.03s Open com.apple.Preferences
+    t =     0.03s     Launch com.apple.Preferences
+    t =     0.20s         Setting up automation session
+    t =     1.29s         Wait for com.apple.Preferences to idle
+    t =     4.48s Waiting 10.0s for "com.apple.settings.accessibility" Button to exist
+    t =     5.55s     Checking `Expect predicate `existsNoRetry == 1` for object "com.apple.settings.accessibility" Button`
+    t =     5.56s         Checking existence of `"com.apple.settings.accessibility" Button`
+    t =     5.73s Tap "com.apple.settings.accessibility" Button
+    t =     5.73s     Wait for com.apple.Preferences to idle
+    t =     5.74s     Find the "com.apple.settings.accessibility" Button
+    t =     5.77s     Check for interrupting elements affecting "com.apple.settings.accessibility" Button
+    t =     5.80s     Synthesize event
+    t =     6.21s     Wait for com.apple.Preferences to idle
+    t =     7.40s Waiting 10.0s for "MOTION_TITLE" Button to exist
+    t =     8.47s     Checking `Expect predicate `existsNoRetry == 1` for object "MOTION_TITLE" Button`
+    t =     8.47s         Checking existence of `"MOTION_TITLE" Button`
+    t =     8.56s Tap "MOTION_TITLE" Button
+    t =     8.56s     Wait for com.apple.Preferences to idle
+    t =     8.56s     Find the "MOTION_TITLE" Button
+    t =     8.61s     Check for interrupting elements affecting "MOTION_TITLE" Button
+    t =     8.64s     Synthesize event
+    t =     8.94s     Wait for com.apple.Preferences to idle
+    t =     9.33s Waiting 10.0s for "REDUCE_MOTION" Switch to exist
+    t =    10.41s     Checking `Expect predicate `existsNoRetry == 1` for object "REDUCE_MOTION" Switch`
+    t =    10.41s         Checking existence of `"REDUCE_MOTION" Switch`
+    t =    10.48s Find the "REDUCE_MOTION" Switch
+    t =    10.51s Find the "REDUCE_MOTION" Switch
+    t =    10.54s Open local.TUIDesignSystemCatalog
+    t =    10.54s     Launch local.TUIDesignSystemCatalog
+    t =    10.54s         Terminate local.TUIDesignSystemCatalog:41069
+2026-10-08 18:40:13.997 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-08 18:40:13.997 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    11.79s         Setting up automation session
+    t =    12.73s         Wait for local.TUIDesignSystemCatalog to idle
+    t =    14.13s Waiting 10.0s for "Reduce Motion: off" StaticText to exist
+    t =    15.20s     Checking `Expect predicate `existsNoRetry == 1` for object "Reduce Motion: off" StaticText`
+    t =    15.20s         Checking existence of `"Reduce Motion: off" StaticText`
+    t =    15.29s Waiting 5.0s for "Live" StaticText to exist
+    t =    16.36s     Checking `Expect predicate `existsNoRetry == 1` for object "Live" StaticText`
+    t =    16.36s         Checking existence of `"Live" StaticText`
+    t =    16.38s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.51s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.52s Find the "Live" StaticText
+    t =    16.55s Find the "Live" StaticText
+    t =    16.59s Added attachment named 'skeleton-active-0'
+    t =    16.60s Find the "Live" StaticText
+    t =    16.62s Find the "Live" StaticText
+    t =    16.64s Added attachment named 'skeleton-text-active-0'
+    t =    16.64s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.73s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.75s Find the "Live" StaticText
+    t =    16.77s Find the "Live" StaticText
+    t =    16.79s Added attachment named 'skeleton-active-1'
+    t =    16.79s Find the "Live" StaticText
+    t =    16.81s Find the "Live" StaticText
+    t =    16.83s Added attachment named 'skeleton-text-active-1'
+    t =    16.83s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.92s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    16.93s Find the "Live" StaticText
+    t =    16.95s Find the "Live" StaticText
+    t =    16.98s Added attachment named 'skeleton-active-2'
+    t =    16.98s Find the "Live" StaticText
+    t =    17.00s Find the "Live" StaticText
+    t =    17.02s Added attachment named 'skeleton-text-active-2'
+    t =    17.02s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.11s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.12s Find the "Live" StaticText
+    t =    17.14s Find the "Live" StaticText
+    t =    17.17s Added attachment named 'skeleton-active-3'
+    t =    17.17s Find the "Live" StaticText
+    t =    17.19s Find the "Live" StaticText
+    t =    17.20s Added attachment named 'skeleton-text-active-3'
+    t =    17.20s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.29s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.30s Find the "Live" StaticText
+    t =    17.32s Find the "Live" StaticText
+    t =    17.35s Added attachment named 'skeleton-active-4'
+    t =    17.35s Find the "Live" StaticText
+    t =    17.37s Find the "Live" StaticText
+    t =    17.38s Added attachment named 'skeleton-text-active-4'
+    t =    17.38s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.49s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.50s Find the "Live" StaticText
+    t =    17.52s Find the "Live" StaticText
+    t =    17.55s Added attachment named 'skeleton-active-5'
+    t =    17.55s Find the "Live" StaticText
+    t =    17.56s Find the "Live" StaticText
+    t =    17.58s Added attachment named 'skeleton-text-active-5'
+    t =    17.58s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.68s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.69s Find the "Live" StaticText
+    t =    17.70s Find the "Live" StaticText
+    t =    17.73s Added attachment named 'skeleton-active-6'
+    t =    17.73s Find the "Live" StaticText
+    t =    17.75s Find the "Live" StaticText
+    t =    17.77s Added attachment named 'skeleton-text-active-6'
+    t =    17.77s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.86s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    17.88s Find the "Live" StaticText
+    t =    17.89s Find the "Live" StaticText
+    t =    17.92s Added attachment named 'skeleton-active-7'
+    t =    17.93s Find the "Live" StaticText
+    t =    17.95s Find the "Live" StaticText
+    t =    17.96s Added attachment named 'skeleton-text-active-7'
+    t =    17.97s Added attachment named 'skeleton-text-active-measurements'
+    t =    17.97s Open com.apple.Preferences
+    t =    17.97s     Activate com.apple.Preferences
+    t =    18.01s         Wait for com.apple.Preferences to idle
+    t =    18.02s Wait for com.apple.Preferences to become Running Foreground
+    t =    18.02s Wait for local.TUIDesignSystemCatalog to become Running Background
+    t =    18.92s Find the "REDUCE_MOTION" Switch
+    t =    18.96s Tap "REDUCE_MOTION" Switch[0.91, 0.50]
+    t =    18.96s     Wait for com.apple.Preferences to idle
+    t =    18.96s     Find the "REDUCE_MOTION" Switch
+    t =    18.98s     Check for interrupting elements affecting "REDUCE_MOTION" Switch
+    t =    19.01s     Synthesize event
+    t =    19.01s         Find the "REDUCE_MOTION" Switch
+    t =    19.04s         Find the "REDUCE_MOTION" Switch
+    t =    19.07s         Find the "REDUCE_MOTION" Switch
+    t =    19.39s     Wait for com.apple.Preferences to idle
+    t =    20.28s Waiting 5.0s for "REDUCE_MOTION" Switch to exist
+    t =    21.34s     Checking `Expect predicate `existsNoRetry == 1` for object "REDUCE_MOTION" Switch`
+    t =    21.35s         Checking existence of `"REDUCE_MOTION" Switch`
+    t =    22.45s Checking `Expect predicate `value == "1"` for object "REDUCE_MOTION" Switch`
+    t =    22.45s     Find the "REDUCE_MOTION" Switch
+    t =    22.48s Requesting snapshot of accessibility hierarchy for app with pid 41157
+    t =    22.60s Requesting snapshot of accessibility hierarchy for app with pid 41157
+    t =    22.64s Added attachment named 'system-reduce-motion-enabled-settings'
+    t =    22.64s Open local.TUIDesignSystemCatalog
+    t =    22.64s     Activate local.TUIDesignSystemCatalog
+    t =    22.69s         Wait for local.TUIDesignSystemCatalog to idle
+    t =    22.70s Waiting 10.0s for "Reduce Motion: on" StaticText to exist
+    t =    23.74s     Checking `Expect predicate `existsNoRetry == 1` for object "Reduce Motion: on" StaticText`
+    t =    23.74s         Checking existence of `"Reduce Motion: on" StaticText`
+    t =    23.75s Requesting snapshot of accessibility hierarchy for app with pid 41188
+    t =    23.78s Requesting snapshot of accessibility hierarchy for app with pid 41188
+    t =    23.80s Added attachment named 'system-reduce-motion-enabled-application'
+    t =    23.80s Waiting 5.0s for "Live" StaticText to exist
+    t =    24.86s     Checking `Expect predicate `existsNoRetry == 1` for object "Live" StaticText`
+    t =    24.86s         Checking existence of `"Live" StaticText`
+    t =    24.88s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    24.97s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    24.98s Find the "Live" StaticText
+    t =    24.99s Find the "Live" StaticText
+    t =    25.02s Added attachment named 'skeleton-system-reduce-motion-0'
+    t =    25.02s Find the "Live" StaticText
+    t =    25.04s Find the "Live" StaticText
+    t =    25.05s Added attachment named 'skeleton-text-system-reduce-motion-0'
+    t =    25.05s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.14s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.15s Find the "Live" StaticText
+    t =    25.17s Find the "Live" StaticText
+    t =    25.19s Added attachment named 'skeleton-system-reduce-motion-1'
+    t =    25.20s Find the "Live" StaticText
+    t =    25.21s Find the "Live" StaticText
+    t =    25.22s Added attachment named 'skeleton-text-system-reduce-motion-1'
+    t =    25.22s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.31s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.32s Find the "Live" StaticText
+    t =    25.34s Find the "Live" StaticText
+    t =    25.36s Added attachment named 'skeleton-system-reduce-motion-2'
+    t =    25.36s Find the "Live" StaticText
+    t =    25.38s Find the "Live" StaticText
+    t =    25.39s Added attachment named 'skeleton-text-system-reduce-motion-2'
+    t =    25.39s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.48s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.49s Find the "Live" StaticText
+    t =    25.51s Find the "Live" StaticText
+    t =    25.53s Added attachment named 'skeleton-system-reduce-motion-3'
+    t =    25.53s Find the "Live" StaticText
+    t =    25.55s Find the "Live" StaticText
+    t =    25.56s Added attachment named 'skeleton-text-system-reduce-motion-3'
+    t =    25.56s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.65s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.66s Find the "Live" StaticText
+    t =    25.68s Find the "Live" StaticText
+    t =    25.70s Added attachment named 'skeleton-system-reduce-motion-4'
+    t =    25.70s Find the "Live" StaticText
+    t =    25.72s Find the "Live" StaticText
+    t =    25.73s Added attachment named 'skeleton-text-system-reduce-motion-4'
+    t =    25.73s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.82s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.83s Find the "Live" StaticText
+    t =    25.85s Find the "Live" StaticText
+    t =    25.87s Added attachment named 'skeleton-system-reduce-motion-5'
+    t =    25.88s Find the "Live" StaticText
+    t =    25.89s Find the "Live" StaticText
+    t =    25.90s Added attachment named 'skeleton-text-system-reduce-motion-5'
+    t =    25.90s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    25.99s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    26.00s Find the "Live" StaticText
+    t =    26.02s Find the "Live" StaticText
+    t =    26.04s Added attachment named 'skeleton-system-reduce-motion-6'
+    t =    26.05s Find the "Live" StaticText
+    t =    26.06s Find the "Live" StaticText
+    t =    26.07s Added attachment named 'skeleton-text-system-reduce-motion-6'
+    t =    26.07s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    26.16s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    26.18s Find the "Live" StaticText
+    t =    26.19s Find the "Live" StaticText
+    t =    26.21s Added attachment named 'skeleton-system-reduce-motion-7'
+    t =    26.22s Find the "Live" StaticText
+    t =    26.23s Find the "Live" StaticText
+    t =    26.24s Added attachment named 'skeleton-text-system-reduce-motion-7'
+    t =    26.25s Added attachment named 'skeleton-text-system-reduce-motion-measurements'
+    t =    26.25s Open com.apple.Preferences
+    t =    26.25s     Activate com.apple.Preferences
+    t =    26.28s         Wait for com.apple.Preferences to idle
+    t =    26.29s Wait for com.apple.Preferences to become Running Foreground
+    t =    26.29s Wait for local.TUIDesignSystemCatalog to become Running Background
+    t =    26.85s Find the "REDUCE_MOTION" Switch
+    t =    26.89s Tap "REDUCE_MOTION" Switch[0.91, 0.50]
+    t =    26.89s     Wait for com.apple.Preferences to idle
+    t =    26.90s     Find the "REDUCE_MOTION" Switch
+    t =    26.92s     Check for interrupting elements affecting "REDUCE_MOTION" Switch
+    t =    26.95s     Synthesize event
+    t =    26.96s         Find the "REDUCE_MOTION" Switch
+    t =    26.98s         Find the "REDUCE_MOTION" Switch
+    t =    27.02s         Find the "REDUCE_MOTION" Switch
+    t =    27.34s     Wait for com.apple.Preferences to idle
+    t =    28.55s Checking `Expect predicate `value == "0"` for object "REDUCE_MOTION" Switch`
+    t =    28.55s     Find the "REDUCE_MOTION" Switch
+    t =    28.58s Requesting snapshot of accessibility hierarchy for app with pid 41157
+    t =    28.68s Requesting snapshot of accessibility hierarchy for app with pid 41157
+    t =    28.72s Added attachment named 'system-reduce-motion-disabled-settings'
+    t =    28.72s Open local.TUIDesignSystemCatalog
+    t =    28.72s     Activate local.TUIDesignSystemCatalog
+    t =    28.75s         Wait for local.TUIDesignSystemCatalog to idle
+    t =    28.75s Waiting 10.0s for "Reduce Motion: off" StaticText to exist
+    t =    29.83s     Checking `Expect predicate `existsNoRetry == 1` for object "Reduce Motion: off" StaticText`
+    t =    29.83s         Checking existence of `"Reduce Motion: off" StaticText`
+    t =    29.84s Waiting 5.0s for "Live" StaticText to exist
+    t =    30.88s     Checking `Expect predicate `existsNoRetry == 1` for object "Live" StaticText`
+    t =    30.88s         Checking existence of `"Live" StaticText`
+    t =    30.89s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    30.99s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.00s Find the "Live" StaticText
+    t =    31.03s Find the "Live" StaticText
+    t =    31.05s Added attachment named 'skeleton-resumed-after-background-0'
+    t =    31.05s Find the "Live" StaticText
+    t =    31.07s Find the "Live" StaticText
+    t =    31.09s Added attachment named 'skeleton-text-resumed-after-background-0'
+    t =    31.09s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.18s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.20s Find the "Live" StaticText
+    t =    31.22s Find the "Live" StaticText
+    t =    31.25s Added attachment named 'skeleton-resumed-after-background-1'
+    t =    31.25s Find the "Live" StaticText
+    t =    31.27s Find the "Live" StaticText
+    t =    31.28s Added attachment named 'skeleton-text-resumed-after-background-1'
+    t =    31.28s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.38s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.39s Find the "Live" StaticText
+    t =    31.41s Find the "Live" StaticText
+    t =    31.44s Added attachment named 'skeleton-resumed-after-background-2'
+    t =    31.44s Find the "Live" StaticText
+    t =    31.46s Find the "Live" StaticText
+    t =    31.47s Added attachment named 'skeleton-text-resumed-after-background-2'
+    t =    31.48s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.57s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.58s Find the "Live" StaticText
+    t =    31.60s Find the "Live" StaticText
+    t =    31.62s Added attachment named 'skeleton-resumed-after-background-3'
+    t =    31.62s Find the "Live" StaticText
+    t =    31.64s Find the "Live" StaticText
+    t =    31.65s Added attachment named 'skeleton-text-resumed-after-background-3'
+    t =    31.65s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.75s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.76s Find the "Live" StaticText
+    t =    31.77s Find the "Live" StaticText
+    t =    31.80s Added attachment named 'skeleton-resumed-after-background-4'
+    t =    31.80s Find the "Live" StaticText
+    t =    31.82s Find the "Live" StaticText
+    t =    31.83s Added attachment named 'skeleton-text-resumed-after-background-4'
+    t =    31.83s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.93s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    31.95s Find the "Live" StaticText
+    t =    31.96s Find the "Live" StaticText
+    t =    31.99s Added attachment named 'skeleton-resumed-after-background-5'
+    t =    31.99s Find the "Live" StaticText
+    t =    32.01s Find the "Live" StaticText
+    t =    32.03s Added attachment named 'skeleton-text-resumed-after-background-5'
+    t =    32.03s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    32.12s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    32.13s Find the "Live" StaticText
+    t =    32.15s Find the "Live" StaticText
+    t =    32.18s Added attachment named 'skeleton-resumed-after-background-6'
+    t =    32.18s Find the "Live" StaticText
+    t =    32.20s Find the "Live" StaticText
+    t =    32.22s Added attachment named 'skeleton-text-resumed-after-background-6'
+    t =    32.22s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    32.31s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    32.32s Find the "Live" StaticText
+    t =    32.34s Find the "Live" StaticText
+    t =    32.37s Added attachment named 'skeleton-resumed-after-background-7'
+    t =    32.37s Find the "Live" StaticText
+    t =    32.39s Find the "Live" StaticText
+    t =    32.41s Added attachment named 'skeleton-text-resumed-after-background-7'
+    t =    32.41s Added attachment named 'skeleton-text-resumed-after-background-measurements'
+    t =    32.41s Terminate local.TUIDesignSystemCatalog:41188
+    t =    33.50s Open local.TUIDesignSystemCatalog
+    t =    33.50s     Launch local.TUIDesignSystemCatalog
+2026-10-08 18:40:35.934 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-08 18:40:35.934 xcodebuild[40686:1844748] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    33.93s         Setting up automation session
+    t =    34.80s         Wait for local.TUIDesignSystemCatalog to idle
+    t =    36.12s Waiting 10.0s for "Reduce Motion: off" StaticText to exist
+    t =    37.19s     Checking `Expect predicate `existsNoRetry == 1` for object "Reduce Motion: off" StaticText`
+    t =    37.19s         Checking existence of `"Reduce Motion: off" StaticText`
+    t =    37.28s Waiting 5.0s for "Live" StaticText to exist
+    t =    38.35s     Checking `Expect predicate `existsNoRetry == 1` for object "Live" StaticText`
+    t =    38.35s         Checking existence of `"Live" StaticText`
+    t =    38.37s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.46s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.47s Find the "Live" StaticText
+    t =    38.49s Find the "Live" StaticText
+    t =    38.51s Added attachment named 'skeleton-reappearance-0'
+    t =    38.51s Find the "Live" StaticText
+    t =    38.53s Find the "Live" StaticText
+    t =    38.55s Added attachment named 'skeleton-text-reappearance-0'
+    t =    38.55s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.64s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.65s Find the "Live" StaticText
+    t =    38.67s Find the "Live" StaticText
+    t =    38.70s Added attachment named 'skeleton-reappearance-1'
+    t =    38.70s Find the "Live" StaticText
+    t =    38.72s Find the "Live" StaticText
+    t =    38.73s Added attachment named 'skeleton-text-reappearance-1'
+    t =    38.73s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.83s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    38.84s Find the "Live" StaticText
+    t =    38.86s Find the "Live" StaticText
+    t =    38.88s Added attachment named 'skeleton-reappearance-2'
+    t =    38.88s Find the "Live" StaticText
+    t =    38.90s Find the "Live" StaticText
+    t =    38.92s Added attachment named 'skeleton-text-reappearance-2'
+    t =    38.92s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.01s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.03s Find the "Live" StaticText
+    t =    39.04s Find the "Live" StaticText
+    t =    39.07s Added attachment named 'skeleton-reappearance-3'
+    t =    39.08s Find the "Live" StaticText
+    t =    39.10s Find the "Live" StaticText
+    t =    39.11s Added attachment named 'skeleton-text-reappearance-3'
+    t =    39.11s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.20s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.21s Find the "Live" StaticText
+    t =    39.23s Find the "Live" StaticText
+    t =    39.26s Added attachment named 'skeleton-reappearance-4'
+    t =    39.26s Find the "Live" StaticText
+    t =    39.28s Find the "Live" StaticText
+    t =    39.29s Added attachment named 'skeleton-text-reappearance-4'
+    t =    39.29s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.38s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.39s Find the "Live" StaticText
+    t =    39.41s Find the "Live" StaticText
+    t =    39.44s Added attachment named 'skeleton-reappearance-5'
+    t =    39.44s Find the "Live" StaticText
+    t =    39.46s Find the "Live" StaticText
+    t =    39.48s Added attachment named 'skeleton-text-reappearance-5'
+    t =    39.48s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.57s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.58s Find the "Live" StaticText
+    t =    39.60s Find the "Live" StaticText
+    t =    39.63s Added attachment named 'skeleton-reappearance-6'
+    t =    39.63s Find the "Live" StaticText
+    t =    39.65s Find the "Live" StaticText
+    t =    39.66s Added attachment named 'skeleton-text-reappearance-6'
+    t =    39.66s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.75s Find the Target Application 'local.TUIDesignSystemCatalog'
+    t =    39.77s Find the "Live" StaticText
+    t =    39.78s Find the "Live" StaticText
+    t =    39.81s Added attachment named 'skeleton-reappearance-7'
+    t =    39.81s Find the "Live" StaticText
+    t =    39.82s Find the "Live" StaticText
+    t =    39.84s Added attachment named 'skeleton-text-reappearance-7'
+    t =    39.84s Added attachment named 'skeleton-text-reappearance-measurements'
+    t =    39.84s Added attachment named 'skeleton-real-system-motion-measurements'
+    t =    39.84s Requesting snapshot of accessibility hierarchy for app with pid 41331
+    t =    39.87s Requesting snapshot of accessibility hierarchy for app with pid 41331
+    t =    39.89s Added attachment named 'skeleton-native-accessibility-tree'
+    t =    39.89s Open com.apple.Preferences
+    t =    39.89s     Activate com.apple.Preferences
+    t =    39.91s         Wait for com.apple.Preferences to idle
+    t =    39.92s Wait for com.apple.Preferences to become Running Foreground
+    t =    39.98s Find the "REDUCE_MOTION" Switch
+    t =    41.03s Checking `Expect predicate `value == "0"` for object "REDUCE_MOTION" Switch`
+    t =    41.03s     Find the "REDUCE_MOTION" Switch
+    t =    41.07s Tear Down
+Test Case '-[TUIDesignSystemCatalogUITests.SystemMotionUITests testSkeletonRespectsSystemReduceMotionAndResumesAfterBackground]' passed (41.345 seconds).
+Test Suite 'SystemMotionUITests' passed at 2026-10-08 18:40:43.768.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 48.790 (48.792) seconds
+Test Suite 'TUIDesignSystemCatalogUITests.xctest' passed at 2026-10-08 18:40:43.768.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 48.790 (48.793) seconds
+Test Suite 'Selected tests' passed at 2026-10-08 18:40:43.768.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 48.790 (48.794) seconds
+2026-10-08 18:40:44.341 xcodebuild[40686:1844748] [MT] IDETestOperationsObserverDebug: 82.250 elapsed -- Testing started completed.
+2026-10-08 18:40:44.341 xcodebuild[40686:1844748] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-08 18:40:44.341 xcodebuild[40686:1844748] [MT] IDETestOperationsObserverDebug: 82.250 sec, +82.250 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/tui-button-skeleton-route-2026-10-08.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started

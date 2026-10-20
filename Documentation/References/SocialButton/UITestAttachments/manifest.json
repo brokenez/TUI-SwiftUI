@@ -1,0 +1,68 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "AF331344-F195-47AD-87C8-3E926707FA6A.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "like-deselected-native-trait-accessibility-tree_0_8AE3DEC9-F858-4CCA-ADAF-3FE7F7BD0F14.txt",
+        "timestamp" : 1791206772.326
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D645BA81-A701-4B5A-8171-A6B97B93293F.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "like-deselected-native-trait_0_2F2802E7-DF04-48B3-9ED6-DC666BCB829A.png",
+        "timestamp" : 1791206772.282
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "BB558510-1D37-4022-ABD8-5357B3C58FC8.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "like-selected-native-trait-accessibility-tree_0_4D14AED8-066E-4F11-835D-F5BA8C998097.txt",
+        "timestamp" : 1791206770.772
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "04BA6ED5-E989-4160-84C2-F3BE8EE474F0.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "like-selected-native-trait_0_D4F554F5-7C97-4C87-B7BD-115C4544EAB0.png",
+        "timestamp" : 1791206770.717
+      }
+    ],
+    "testIdentifier" : "SocialButtonUITests/testLikeNativeSelectionAndSelectedTrait()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/SocialButtonUITests/testLikeNativeSelectionAndSelectedTrait"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "20BF5068-4BB4-462F-BC53-4A7213056014.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "share-native-action-custom-label-accessibility-tree_0_2C9E9CD1-3BCC-4612-8857-69FFFA503B04.txt",
+        "timestamp" : 1791206778.52
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "7E939929-A6F2-4971-969A-81A873F54FBF.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "share-native-action-custom-label_0_249D80E5-E77C-47CA-ACAD-1D54E3819C67.png",
+        "timestamp" : 1791206778.449
+      }
+    ],
+    "testIdentifier" : "SocialButtonUITests/testShareNativeActionAndCustomAccessibilityLabel()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/SocialButtonUITests/testShareNativeActionAndCustomAccessibilityLabel"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "componentSetID": "44217:298609",
+  "componentsFileKey": "OBPLqL8JDThLuOP8M4JzBL",
+  "reviewedAt": "2026-10-07",
+  "counts": {
+    "iosVariants": 9,
+    "fullContexts": 9,
+    "implementedVariants": 9,
+    "acceptedVariants": 0
+  },
+  "variants": [
+    {
+      "variantID": "17714:53773",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "None",
+        "Extended": "Off",
+        "skeleton": "on"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-17714-53773-2026-10-07.txt",
+        "sha256": "84ed23006505f34ef0590f0f216662dddc7ee6753bdd65ee3dead68786847621"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "17714:53869",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "None",
+        "Extended": "On",
+        "skeleton": "on"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 100
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-17714-53869-2026-10-07.txt",
+        "sha256": "5cdbb511afb8fa72cc35bbb911607ad772b62d19f40e9678876ea7aed67113a1"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44217:298678",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "Avatar",
+        "Extended": "Off",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-44217-298678-2026-10-07.txt",
+        "sha256": "f1e6cc47d572dddba10be70047d4d7086abd34b01e913b6d65dd61036dab7a7c"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44217:299480",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "Button",
+        "Extended": "Off",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-44217-299480-2026-10-07.txt",
+        "sha256": "1f93becbcfdb56d535a1645d57dd7b7141d82ba9ee6e714b6a258efadbef6aaf"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44217:299616",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "Button Link",
+        "Extended": "Off",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-44217-299616-2026-10-07.txt",
+        "sha256": "14ff313e97a4ff7955d8dda379df86a41cd2d1069ae816b16fe6fa82d2c53b72"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44217:299699",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "Switch",
+        "Extended": "Off",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-44217-299699-2026-10-07.txt",
+        "sha256": "79bdd239fef0e9152dc0e44e4b4695b1f6ef001b33d9faa2fb3a1ae448ef9dfc"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44217:299799",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "None",
+        "Extended": "Off",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-44217-299799-2026-10-07.txt",
+        "sha256": "8ca05cb79c6a644e303dab8b113ef2fb216bef964a472d103daec7b4f8159376"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "59830:293851",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "Avatar",
+        "Extended": "On",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 100
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-59830-293851-2026-10-07.txt",
+        "sha256": "d605d874f82a741ec91f270538b2fbe63e6f13850a3f45ef89d17d16039794b8"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "59830:293951",
+      "properties": {
+        "System": "iOS",
+        "Accessory": "None",
+        "Extended": "On",
+        "skeleton": "off"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 100
+      },
+      "sourceContext": {
+        "path": "Documentation/References/HeaderCard/source-59830-293951-2026-10-07.txt",
+        "sha256": "73f3e7dbdae69e8729ad7365f068c05cc72b71e5d952aa44c1b3255e3c09a58c"
+      },
+      "implementation": "public-api-implemented; full acceptance pending",
+      "verification": "pending"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+export default function H1P() {
+  return (
+    <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="80:38163" data-name="H1 + P">
+      <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I80:38163;4925:367" data-name="# H1">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I80:38163;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+          Как поменять фон в фигме
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I80:38163;9462:7159" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I80:38163;9462:7160">
+          Элементы иллюстрации не должны перекрывать текстовый блок
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

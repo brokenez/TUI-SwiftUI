@@ -1,0 +1,149 @@
+const imgTooltipIcon = "https://www.figma.com/api/mcp/asset/a52557bb-2422-460a-81dc-d13f409e1784.svg";
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/7b12ff63-0f27-404d-8bac-29cf74e7656c.svg";
+
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="4790:1158" data-name="placeholder-single" />;
+}
+
+type PlaceholderMultipleProps = {
+  className?: string;
+  quantity?: "1";
+};
+
+function PlaceholderMultiple({ className, quantity = "1" }: PlaceholderMultipleProps) {
+  return (
+    <div className={className || "content-stretch flex items-start relative"} data-node-id="23657:461706">
+      <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+    </div>
+  );
+}
+
+type TuiHeaderCardProps = {
+  className?: string;
+  accessory?: "Avatar";
+  badge?: boolean;
+  caption?: boolean;
+  captionText?: string;
+  extended?: "On";
+  headerText?: string;
+  hint?: boolean;
+  skeleton?: "off";
+  subheader?: boolean;
+  subheaderText?: string;
+  system?: "iOS";
+};
+
+function TuiHeaderCard({ className, accessory = "Avatar", badge = false, caption = true, captionText = "Caption", extended = "On", headerText = "Header", hint = false, skeleton = "off", subheader = true, subheaderText = "Subheader", system = "iOS" }: TuiHeaderCardProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[var(--padding-compensated,16px)] pt-[var(--padding-compensated,16px)] relative w-[375px]"} data-node-id="59830:293851">
+      <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="59830:293852" data-name="HeaderCont">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="59830:293853" data-name="Header+Subheader">
+          {caption && (
+            <div className="content-stretch flex gap-[10px] h-[12px] items-start relative shrink-0 w-full" data-node-id="59830:293911" data-name="CaptionCont">
+              <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Medium'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-1,#9299a2)] h-[16px] leading-[normal] min-w-px not-italic relative text-[13px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-2,rgba(146,153,162,0))] uppercase" data-node-id="59830:293912">
+                {captionText}
+              </p>
+            </div>
+          )}
+          <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="59830:293854" data-name="HeaderTextCont">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="59830:293855">
+              {headerText}
+            </p>
+          </div>
+          {subheader && (
+            <div className="content-stretch flex gap-[8px] items-center pb-[2px] relative shrink-0 w-full" data-node-id="59830:293856" data-name="SubheaderTextCont">
+              <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+              {subheader && (
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.24px] whitespace-nowrap" data-node-id="59830:293857">
+                  {subheaderText}
+                </p>
+              )}
+              <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+            </div>
+          )}
+        </div>
+        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="59830:293858" data-name="Accessory">
+          {badge && (
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="59830:293859" data-name="BadgeCont">
+              <div className="bg-[var(--tui-component-badge-notification,#f52222)] content-stretch flex items-start relative rounded-[20px] shrink-0" data-node-id="59830:293860" data-name="tui-badge notification">
+                <div className="content-stretch flex flex-col items-center justify-center px-[5.5px] py-[3px] relative shrink-0" data-node-id="I59830:293860;25738:689178" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I59830:293860;25738:689179">
+                    1
+                  </p>
+                  <div className="h-[0.001px] opacity-0 relative shrink-0 w-[13px]" data-node-id="I59830:293860;25738:689180" data-name="min-width" />
+                </div>
+              </div>
+            </div>
+          )}
+          {hint && (
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="59830:293861" data-name="HintCont">
+              <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="59830:293862" data-name="tui-button tooltip">
+                <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] relative rounded-[100px] shrink-0 size-[22px]" data-node-id="I59830:293862;25748:771347" data-name="Container">
+                  <div className="absolute inset-[22.73%]" data-node-id="I59830:293862;25748:771348" data-name="TooltipIcon">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTooltipIcon} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="59830:293863" data-name="ActionCont">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="59830:293864" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I59830:293864;25745:690432" data-name="Container">
+                <div className="absolute inset-[20%]" data-node-id="I59830:293864;25745:690434" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gradient/Text/Secondary Fade: , iOS/UI CAPS: Font(family: "SF Pro Text", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-header [card]
+**Node ID:** 44217:298609
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## placeholder-multiple
+**Node ID:** 23657:461568
+
+Это плейсхолдер, чтобы вставлять свои инстансы
+
+## placeholder-single
+**Node ID:** 4790:1158
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-avatar
+**Node ID:** 25745:690405
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 41881:45334
+
+rating, favorite, bookmark, gold star, rating system
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

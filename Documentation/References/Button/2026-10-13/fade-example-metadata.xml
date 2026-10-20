@@ -1,0 +1,8 @@
+<instance id="1052:3325" name="tui-button" x="292" y="77" width="310" height="56">
+  <frame id="I1052:3325;41658:296908" name="Left iconCont" x="120.5" y="16" width="24" height="24" hidden="true" />
+  <frame id="I1052:3325;41658:296910" name="LabelCont" x="16" y="16" width="278" height="24">
+    <text id="I1052:3325;41658:296911" name="Button Label" x="8" y="2" width="262" height="20" />
+  </frame>
+</instance>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

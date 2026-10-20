@@ -1,0 +1,647 @@
+const imgContainer = "https://www.figma.com/api/mcp/asset/e5d14ca6-815b-4dae-a0d5-564629da309f.svg";
+const imgTuiBottomSheet = "https://www.figma.com/api/mcp/asset/1b06694c-3c8a-4166-a9f5-48e7642f8cd2.png";
+const imgProviders = "https://www.figma.com/api/mcp/asset/7b65fb8b-70d5-4a68-81cf-eaad9927302d.png";
+const imgStart = "https://www.figma.com/api/mcp/asset/2a5003dd-9ba0-487f-b6a6-842e0cc39746.svg";
+const imgTuiCardLarge = "https://www.figma.com/api/mcp/asset/21bafd6f-b937-4030-9b34-d4952c82208e.svg";
+const imgStart1 = "https://www.figma.com/api/mcp/asset/3ccb9d67-b21d-4595-bedb-9baf9fa3f41f.svg";
+const imgUnion = "https://www.figma.com/api/mcp/asset/aa53cac0-ab79-418d-b10c-68865bded9df.svg";
+const imgUnion1 = "https://www.figma.com/api/mcp/asset/773cb934-5052-47a8-a7a3-f95daa45d900.svg";
+const img941 = "https://www.figma.com/api/mcp/asset/0811ce64-5b2c-4406-b007-19a6f911ad7e.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/c0d05bcd-2c1b-4816-a405-2c4b41817f99.svg";
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/2f1fcb70-08a9-4c9e-a78b-f2f217e27b52.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/add84f11-c6cd-4fde-8d4a-af1256ad936b.svg";
+const imgColor2 = "https://www.figma.com/api/mcp/asset/42c092e3-1910-4f27-b70b-01fd247f043d.svg";
+const imgColor3 = "https://www.figma.com/api/mcp/asset/674c8d56-b28f-4d65-aec9-969c469071c1.svg";
+const imgTuiIcMediumChat = "https://www.figma.com/api/mcp/asset/cd056fa1-5e2e-4411-a53f-25143f11cb18.svg";
+const imgColor4 = "https://www.figma.com/api/mcp/asset/94ed0648-fe02-49d4-9d50-e5113084615c.svg";
+
+function Providers({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex items-center justify-center overflow-clip relative size-[40px]"} data-node-id="9713:33865" data-name="Providers / Газпром">
+      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="9713:33866" data-name="Container">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgContainer} />
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="26:64565" data-name="Примеры использования">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="26:64566" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I26:64566;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I26:64566;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Примеры использования
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="26:64567" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I26:64567;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I26:64567;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            В шторках
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="46:47607" data-name="image">
+        <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[820px] items-center justify-center relative rounded-[24px] shrink-0 w-full" data-node-id="46:47663" data-name="img-placeholder">
+          <div className="content-stretch flex flex-col h-[812px] items-start overflow-clip relative rounded-[20px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.1)] shrink-0 w-[375px]" data-node-id="46:47722" data-name="tui-bottom-sheet">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgTuiBottomSheet} />
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="I46:47722;44431:321242" data-name="NegativeSpace" />
+            <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start overflow-clip pb-[24px] relative rounded-tl-[12px] rounded-tr-[12px] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="I46:47722;44431:321243" data-name="SheetContainer">
+              <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col h-[24px] items-center justify-center relative rounded-tl-[12px] rounded-tr-[12px] shrink-0 w-full" data-node-id="I46:47722;44431:321244" data-name="bottomsheet-bar">
+                <div className="bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] h-[4px] relative rounded-[100px] shrink-0 w-[32px]" data-node-id="I46:47722;44431:321244;29576:430866" data-name="bar" />
+              </div>
+              <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I46:47722;44431:321245" data-name="Content">
+                <div className="content-stretch flex h-[56px] items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I46:47722;44431:321247" data-name="tui-cell">
+                  <div className="content-stretch flex h-full items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative shrink-0" data-node-id="I46:47722;44431:321247;41569:290557" data-name="Avatar">
+                    <div className="relative rounded-[2000px] shrink-0 size-[40px]" data-node-id="I46:47722;44431:321247;41569:290558" data-name="tui-avatar">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[2000px] size-full" src={imgProviders} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] h-full items-start justify-center min-w-px py-[var(--text-padding,8px)] relative" data-node-id="I46:47722;44431:321247;41569:290559" data-name="TextCont">
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321247;41569:290562" data-name="TitleCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I46:47722;44431:321247;41569:290563" data-name="CellTitleCont">
+                        <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I46:47722;44431:321247;41569:290564">
+                          Лукойл
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321247;41569:290565" data-name="CellValueCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I46:47722;44431:321247;41569:290566">
+                          51,54 ₽
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321247;41569:290567" data-name="DescriptionCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I46:47722;44431:321247;41569:290568" data-name="TitleDescriptionCont">
+                        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I46:47722;44431:321247;41569:290569">
+                          798 м
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321247;41569:290570" data-name="ValueDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I46:47722;44431:321247;41569:290571">
+                          АИ-92
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[56px] items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I46:47722;44431:321248" data-name="tui-cell">
+                  <div className="content-stretch flex h-full items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative shrink-0" data-node-id="I46:47722;44431:321248;41569:290557" data-name="Avatar">
+                    <div className="content-stretch flex items-start relative rounded-[2000px] shrink-0" data-node-id="I46:47722;44431:321248;41569:290558" data-name="tui-avatar">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[2000px] size-full" src={imgProviders} />
+                      <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I46:47722;44431:321248;41569:290558;25745:692832" data-name="Container" />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] h-full items-start justify-center min-w-px py-[var(--text-padding,8px)] relative" data-node-id="I46:47722;44431:321248;41569:290559" data-name="TextCont">
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321248;41569:290562" data-name="TitleCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I46:47722;44431:321248;41569:290563" data-name="CellTitleCont">
+                        <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I46:47722;44431:321248;41569:290564">
+                          Лукойл
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321248;41569:290565" data-name="CellValueCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I46:47722;44431:321248;41569:290566">
+                          51,44 ₽
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321248;41569:290567" data-name="DescriptionCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I46:47722;44431:321248;41569:290568" data-name="TitleDescriptionCont">
+                        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I46:47722;44431:321248;41569:290569">
+                          765 м
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321248;41569:290570" data-name="ValueDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I46:47722;44431:321248;41569:290571">
+                          АИ-92
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[56px] items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I46:47722;44431:321250" data-name="tui-cell">
+                  <div className="content-stretch flex h-full items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative shrink-0" data-node-id="I46:47722;44431:321250;41569:290557" data-name="Avatar">
+                    <div className="content-stretch flex items-start overflow-clip relative rounded-[100px] shrink-0" data-node-id="I46:47722;44431:321250;41569:290558" data-name="tui-avatar">
+                      <div className="overflow-clip relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I46:47722;44431:321250;41569:290558;46852:304986" data-name="Container">
+                        <Providers className="absolute content-stretch flex inset-0 items-center justify-center overflow-clip rounded-[50px]" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] h-full items-start justify-center min-w-px py-[var(--text-padding,8px)] relative" data-node-id="I46:47722;44431:321250;41569:290559" data-name="TextCont">
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321250;41569:290562" data-name="TitleCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I46:47722;44431:321250;41569:290563" data-name="CellTitleCont">
+                        <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I46:47722;44431:321250;41569:290564">
+                          Газпром
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321250;41569:290565" data-name="CellValueCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I46:47722;44431:321250;41569:290566">
+                          51,37 ₽
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321250;41569:290567" data-name="DescriptionCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I46:47722;44431:321250;41569:290568" data-name="TitleDescriptionCont">
+                        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I46:47722;44431:321250;41569:290569">
+                          689 м
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321250;41569:290570" data-name="ValueDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I46:47722;44431:321250;41569:290571">
+                          АИ-92
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[56px] items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I46:47722;44431:321251" data-name="tui-cell">
+                  <div className="content-stretch flex h-full items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative shrink-0" data-node-id="I46:47722;44431:321251;41569:290557" data-name="Avatar">
+                    <div className="content-stretch flex items-start overflow-clip relative rounded-[100px] shrink-0" data-node-id="I46:47722;44431:321251;41569:290558" data-name="tui-avatar">
+                      <div className="overflow-clip relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I46:47722;44431:321251;41569:290558;46852:304986" data-name="Container">
+                        <Providers className="absolute content-stretch flex inset-0 items-center justify-center overflow-clip rounded-[50px]" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] h-full items-start justify-center min-w-px py-[var(--text-padding,8px)] relative" data-node-id="I46:47722;44431:321251;41569:290559" data-name="TextCont">
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321251;41569:290562" data-name="TitleCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I46:47722;44431:321251;41569:290563" data-name="CellTitleCont">
+                        <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I46:47722;44431:321251;41569:290564">
+                          Газпром
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321251;41569:290565" data-name="CellValueCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I46:47722;44431:321251;41569:290566">
+                          50,54 ₽
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I46:47722;44431:321251;41569:290567" data-name="DescriptionCont">
+                      <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I46:47722;44431:321251;41569:290568" data-name="TitleDescriptionCont">
+                        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I46:47722;44431:321251;41569:290569">
+                          664 м
+                        </p>
+                      </div>
+                      <div className="content-stretch flex items-start relative shrink-0" data-node-id="I46:47722;44431:321251;41569:290570" data-name="ValueDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I46:47722;44431:321251;41569:290571">
+                          АИ-92
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I46:47722;44431:321253" data-name="system-bottom-bar">
+              <div className="h-[34px] relative shrink-0 w-full" data-node-id="I46:47722;44431:321253;8956:350" data-name="cont">
+                <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I46:47722;44431:321253;8956:351" data-name="bar" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="26:64569" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I26:64569;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I26:64569;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            В карточках
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="39:10807" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[510px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I39:10807;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I39:10807;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I39:10807;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I39:10807;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I39:10807;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[375px]" data-node-id="I39:10807;9469:7126;9470:7246;609:2046" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I39:10807;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="26:64570" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I26:64570;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I26:64570;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            В списках
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="49:59715" data-name="image">
+        <div className="bg-[#f6f7f8] content-stretch flex flex-col gap-[600px] h-[958px] items-start relative rounded-[24px] shrink-0 w-full" data-node-id="49:59934" data-name="img-placeholder">
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="49:59935" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="49:59936" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--tui-background-base,white)] content-stretch flex flex-col h-[var(--screen-height,812px)] items-start left-[calc(50%-0.5px)] overflow-clip rounded-[20px] top-1/2 w-[var(--screen-width,375px)]" data-node-id="49:60153" data-name="template-small-title-cells">
+            <div className="backdrop-blur-[20px] bg-[var(--tui-component-navigation-bar-background,rgba(255,255,255,0.8))] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I49:60153;44290:300218" data-name="Navbar">
+              <div className="content-stretch flex flex-col items-start min-h-[44px] overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300219" data-name="system-status-bar">
+                <div className="h-[44px] relative shrink-0 w-full" data-node-id="I49:60153;44290:300219;25749:654942" data-name="Container">
+                  <div className="-translate-y-1/2 absolute h-[12px] right-[14px] top-[calc(50%+1px)] w-[25px]" data-node-id="I49:60153;44290:300219;25751:636692" data-name="Union">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                  </div>
+                  <div className="-translate-y-1/2 absolute h-[10px] right-[18px] top-[calc(50%+1px)] w-[63px]" data-node-id="I49:60153;44290:300219;25751:641321" data-name="Union">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+                  </div>
+                  <div className="-translate-y-1/2 absolute h-[11.089px] left-[34px] top-[calc(50%+0.54px)] w-[28.426px]" data-node-id="I49:60153;44290:300219;25750:604383" data-name="9:41">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={img941} />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex h-[44px] items-center relative shrink-0 w-full" data-node-id="I49:60153;44290:300220" data-name="tui-app-bar">
+                <div className="content-stretch flex flex-[1_0_0] h-full items-center min-w-px relative" data-node-id="I49:60153;44290:300220;28645:463017" data-name="Container">
+                  <button className="content-stretch cursor-pointer flex flex-[1_0_0] h-full items-center min-w-px relative" data-node-id="I49:60153;44290:300220;28645:463018" data-name="Left">
+                    <div className="h-full relative shrink-0 w-[32px]" data-node-id="I49:60153;44290:300220;28645:463019" data-name="Icon left">
+                      <div className="-translate-y-1/2 absolute h-[24px] left-[8px] top-1/2 w-[12px]" data-node-id="I49:60153;44290:300220;29263:436499" data-name="tui-ic-service / back-ios-alt">
+                        <div className="absolute bg-[var(--tui-text-action,#428bf9)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_2.544px] mask-size-[11.042px_18.911px]" data-node-id="I49:60153;44290:300220;29263:436499;67262:163" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </button>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-center justify-center min-w-px relative" data-node-id="I49:60153;44290:300220;28645:463023" data-name="Middle">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I49:60153;44290:300220;28645:463026" data-name="Title">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I49:60153;44290:300220;28645:463027">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] gap-[10px] h-full items-center justify-end min-w-px relative" data-node-id="I49:60153;44290:300220;28645:463031" data-name="Right" />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px pt-[12px] relative w-full" data-node-id="I49:60153;44290:300211" data-name="Content">
+              <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I49:60153;44290:300212" data-name="tui-cell">
+                <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I49:60153;44290:300212;41569:290639" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I49:60153;44290:300212;41569:290640" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I49:60153;44290:300212;41569:290640;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I49:60153;44290:300212;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I49:60153;44290:300212;41569:290641" data-name="TextCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300212;41569:290644" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I49:60153;44290:300212;41569:290645" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I49:60153;44290:300212;41569:290646">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I49:60153;44290:300213" data-name="tui-cell">
+                <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I49:60153;44290:300213;41569:290639" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I49:60153;44290:300213;41569:290640" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I49:60153;44290:300213;41569:290640;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I49:60153;44290:300213;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I49:60153;44290:300213;41569:290641" data-name="TextCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300213;41569:290644" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I49:60153;44290:300213;41569:290645" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I49:60153;44290:300213;41569:290646">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I49:60153;44290:300214" data-name="tui-cell">
+                <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I49:60153;44290:300214;41569:290639" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I49:60153;44290:300214;41569:290640" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I49:60153;44290:300214;41569:290640;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I49:60153;44290:300214;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I49:60153;44290:300214;41569:290641" data-name="TextCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300214;41569:290644" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I49:60153;44290:300214;41569:290645" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I49:60153;44290:300214;41569:290646">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I49:60153;44290:300215" data-name="tui-cell">
+                <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I49:60153;44290:300215;41569:290639" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I49:60153;44290:300215;41569:290640" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I49:60153;44290:300215;41569:290640;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I49:60153;44290:300215;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I49:60153;44290:300215;41569:290641" data-name="TextCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300215;41569:290644" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I49:60153;44290:300215;41569:290645" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I49:60153;44290:300215;41569:290646">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-full" data-node-id="I49:60153;44290:300216" data-name="tui-cell">
+                <div className="content-stretch flex items-start min-h-[56px] overflow-clip pr-[16px] py-[var(--accessory-padding,8px)] relative self-stretch shrink-0" data-node-id="I49:60153;44290:300216;41569:290639" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I49:60153;44290:300216;41569:290640" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I49:60153;44290:300216;41569:290640;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I49:60153;44290:300216;41569:290640;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--text-padding,8px)] relative self-stretch" data-node-id="I49:60153;44290:300216;41569:290641" data-name="TextCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I49:60153;44290:300216;41569:290644" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I49:60153;44290:300216;41569:290645" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I49:60153;44290:300216;41569:290646">
+                        Title
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bottom-0 content-stretch flex flex-col items-start left-0 right-0" data-node-id="I49:60153;44290:300217" data-name="tui-tab-bar / MB">
+              <div className="backdrop-blur-[25px] bg-[var(--tui-component-tab-bar-background,rgba(246,247,248,0.8))] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543" data-name="tui-tab-bar">
+                <div className="content-stretch flex flex-col h-[0.001px] items-start relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543;33204:447147" data-name="Separator">
+                  <div className="bg-[var(--tui-border-normal,rgba(0,16,36,0.12))] h-[0.5px] relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543;23113:467240" data-name="divider" />
+                </div>
+                <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543;23068:2260" data-name="Tabs">
+                  <div className="flex-[1_0_0] h-[50px] min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23085:453485" data-name="1">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Medium'] leading-[normal] left-0 not-italic right-0 text-[10px] text-[color:var(--tui-text-action,#428bf9)] text-center top-[34px] tracking-[-0.24px]" data-node-id="I49:60153;44290:300217;23142:450543;23085:453485;90500:310266">
+                      Главная
+                    </p>
+                    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center justify-center left-[calc(50%+0.5px)] max-h-[32px] max-w-[32px] p-[2px] size-[32px] top-[2px]" data-node-id="I49:60153;44290:300217;23142:450543;23085:453485;90500:310267" data-name="Icon">
+                      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23085:453485;90500:310268" data-name="tui-ic-medium / card-frontside">
+                        <div className="absolute bg-[var(--tui-text-action,#428bf9)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_4.5px] mask-size-[21px_15px]" data-node-id="I49:60153;44290:300217;23142:450543;23085:453485;90500:310268;1524:955" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-[1_0_0] h-[50px] min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:237" data-name="2">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Medium'] leading-[normal] left-0 not-italic right-0 text-[10px] text-[color:var(--tab-bar-content-color,#9299a2)] text-center top-[34px] tracking-[-0.24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:237;23065:445395">
+                      Платежи
+                    </p>
+                    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center justify-center left-[calc(50%+0.5px)] max-h-[32px] max-w-[32px] p-[2px] size-[32px] top-[2px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:237;29836:432379" data-name="Icon">
+                      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:237;23065:445396" data-name="tui-ic-medium / coin-compact">
+                        <div className="absolute bg-[var(--tab-bar-content-color,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[24px_24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:237;23065:445396;16337:1659" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-[1_0_0] h-[50px] min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:243" data-name="3">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Medium'] leading-[normal] left-0 not-italic right-0 text-[10px] text-[color:var(--tab-bar-content-color,#9299a2)] text-center top-[34px] tracking-[-0.24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:243;23065:445395">
+                      Город
+                    </p>
+                    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center justify-center left-[calc(50%+0.5px)] max-h-[32px] max-w-[32px] p-[2px] size-[32px] top-[2px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:243;29836:432379" data-name="Icon">
+                      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:243;23065:445396" data-name="tui-ic-medium / logo-city">
+                        <div className="absolute bg-[var(--tab-bar-content-color,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0.502px_2.5px] mask-size-[23px_19px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:243;23065:445396;31513:277" style={{ maskImage: `url("${imgColor3}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-[1_0_0] h-[50px] min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:869" data-name="4">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Medium'] leading-[normal] left-0 not-italic right-0 text-[10px] text-[color:var(--tab-bar-content-color,#9299a2)] text-center top-[34px] tracking-[-0.24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:869;23065:445395">
+                      Чат
+                    </p>
+                    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center justify-center left-[calc(50%+0.5px)] max-h-[32px] max-w-[32px] p-[2px] size-[32px] top-[2px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:869;29836:432379" data-name="Icon">
+                      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:869;23065:445396" data-name="tui-ic-medium / coin-compact">
+                        <div className="absolute bg-[var(--tab-bar-content-color,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[24px_24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:869;23065:445396;16337:1659" style={{ maskImage: `url("${imgTuiIcMediumChat}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex-[1_0_0] h-[50px] min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:875" data-name="5">
+                    <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Medium'] leading-[normal] left-0 not-italic right-0 text-[10px] text-[color:var(--tab-bar-content-color,#9299a2)] text-center top-[34px] tracking-[-0.24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:875;23065:445395">
+                      Витрина
+                    </p>
+                    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center justify-center left-[calc(50%+0.5px)] max-h-[32px] max-w-[32px] p-[2px] size-[32px] top-[2px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:875;29836:432379" data-name="Icon">
+                      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I49:60153;44290:300217;23142:450543;23068:875;23065:445396" data-name="tui-ic-medium / grid">
+                        <div className="absolute bg-[var(--tab-bar-content-color,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[24px_24px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:875;23065:445396;6003:439" style={{ maskImage: `url("${imgColor4}")` }} data-name="Color" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543;23068:2263" data-name="system-bottom-bar">
+                  <div className="h-[34px] relative shrink-0 w-full" data-node-id="I49:60153;44290:300217;23142:450543;23068:2263;8956:350" data-name="cont">
+                    <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="I49:60153;44290:300217;23142:450543;23068:2263;8956:351" data-name="bar" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Service/map-light: , [Deprecated]/shadow-small: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Heading S: Font(family: "SF Pro Text", style: Semibold, size: 17, weight: 600, lineHeight: 100, letterSpacing: -0.4099999964237213), Day/Service/navbar: #FFFFFF, blur-navbar: Effect(type: BACKGROUND_BLUR, radius: 40), blur-tabbar: Effect(type: BACKGROUND_BLUR, radius: 50), Day/Background/base-ios: #FFFFFF.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-bottom-sheet
+**Node ID:** 30370:38469
+
+Модальная или немодальная шторка с кастомным контентом внутри  
+  
+keywords: bottomsheet, sheet, tui-sheet
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-bottomsheet-specs](https://go.tcsbank.ru/tui-bottomsheet-specs)
+
+## bottomsheet-bar
+**Node ID:** 25498:21116
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-cell
+**Node ID:** 30370:20402
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-avatar
+**Node ID:** 25498:8973
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 30370:38213
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 30370:38184
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## tui-card-large
+**Node ID:** 25498:41023
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 25498:38882
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button [link]
+**Node ID:** 25498:38761
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-link](https://go.tcsbank.ru/tui-button-link)
+
+## tui-cell
+**Node ID:** 25498:16694
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## tui-ic-medium / star
+**Node ID:** 9713:33869
+
+rating, favorite, bookmark, gold star, rating system
+
+## template-small-title-cells
+**Node ID:** 30370:21290
+
+Дизайн-шаблон экрана с маленьким заголовком и ячейками
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=21117%3A387044](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=21117%3A387044)
+
+## Appearance=Light Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 25498:8182
+
+⚪ Not In TUI (Native)
+
+## system-status-bar
+**Node ID:** 25498:8168
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-app-bar
+**Node ID:** 30370:19266
+
+Навигационный блок для верхней части экрана  
+  
+tui-appbar, navbar
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-appbar-specs](https://go.tcsbank.ru/tui-appbar-specs)
+
+## tui-ic-service / back-ios-alt
+**Node ID:** 30370:19226
+
+arrow, iOS, system
+
+## tui-avatar
+**Node ID:** 30333:13681
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## System=iOS, Active Tab=Главная, User=Authorized
+**Node ID:** 30370:21258
+
+⚪ Not In TUI (Native)
+
+## tui-tab-bar / MB
+**Node ID:** 30370:21257
+
+Нативная навигационная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-tabbar](https://go.tcsbank.ru/tui-tabbar)
+
+## tui-tab-bar
+**Node ID:** 30370:21207
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-tab-bar [item]
+**Node ID:** 30370:20927
+
+Отдельный таб для таб-бара
+
+## tui-ic-medium / card-frontside
+**Node ID:** 8319:66840
+
+credit card, payment, debit card, plastic
+
+## tui-ic-medium / coin-compact
+**Node ID:** 25498:37146
+
+compact coin, small coin, mini coin, tiny currency, small change
+
+## tui-ic-medium / logo-city
+**Node ID:** 47:54498
+
+urban, cityscape, downtown, skyline
+
+## tui-ic-medium / chat
+**Node ID:** 25498:37198
+
+conversation, talk, discussion, messaging, dialogue
+
+## tui-ic-medium / grid
+**Node ID:** 25498:37303
+
+table, layout, structure, arrangement
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 30370:21005
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 30370:20976
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

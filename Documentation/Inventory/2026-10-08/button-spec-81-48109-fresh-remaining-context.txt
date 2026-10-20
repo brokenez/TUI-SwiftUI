@@ -1,0 +1,903 @@
+const imgDeprecatedHandPointer = "[TEMPORARY_ASSET_URL]";
+const imgBullet = "[TEMPORARY_ASSET_URL]";
+const imgStart = "[TEMPORARY_ASSET_URL]";
+const imgTuiButton = "[TEMPORARY_ASSET_URL]";
+const imgStart1 = "[TEMPORARY_ASSET_URL]";
+const imgBullet1 = "[TEMPORARY_ASSET_URL]";
+const imgEllipse1 = "[TEMPORARY_ASSET_URL]";
+const imgFrame12343645 = "[TEMPORARY_ASSET_URL]";
+const imgTuiIcMediumPragmaticArrowRight = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoader = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoader1 = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoaderSBlack = "[TEMPORARY_ASSET_URL]";
+const imgTuiLoaderXsBlack = "[TEMPORARY_ASSET_URL]";
+
+type TuiSpacingProps = {
+  className?: string;
+  size?: "09 - 40px";
+  visible?: "off";
+};
+
+function TuiSpacing({ className, size = "09 - 40px", visible = "off" }: TuiSpacingProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[40px]"} data-node-id="81:47841">
+      <div className="h-[40px] relative shrink-0 w-full" data-node-id="81:47842" data-name />
+    </div>
+  );
+}
+
+function DeprecatedHandPointer({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[22px] relative w-[21px]"} data-node-id="37636:1796" data-name="[deprecated] Hand Pointer">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDeprecatedHandPointer} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="81:48109" data-name="Состояния">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="81:48110" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I81:48110;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48110;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Состояния
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I81:48110;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48110;9462:7160">
+            Описываем общие принципы, по которым формируются состояния кнопок
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48112" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48112;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48112;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Normal
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48112;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48112;9462:7170">
+            Кнопка «в покое». Ничего не происходит
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48114" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48114;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48114;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Hover
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48114;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48114;9462:7170">
+            Состояние при наведении курсора
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="81:48115" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I81:48115;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48115;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48115;9460:7064;9460:7062">
+            Работает только на десктопе
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48115;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48115;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48115;9460:7070;9460:7062">
+            По умолчанию меняем токен подложки на соответствующий с суффиксом -hover
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48115;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48115;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48115;9460:7077;9460:7062">
+            В отдельных случаях (например, flat) назначены кастомные цвета
+          </p>
+        </div>
+      </div>
+      <div className="h-[368px] relative shrink-0 w-[934px]" data-node-id="110:171207">
+        <div className="absolute content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start left-0 overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] top-0 w-[934px]" data-node-id="110:171158" data-name="Image 1x1">
+          <div className="content-stretch flex flex-col gap-[320px] items-center overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171158;9469:7126" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171158;9469:7126;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171158;9469:7126;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171158;9469:7126;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[36px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171158;9469:7126;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171158;9469:7126;475:2321;475:2295" data-name="Instance Container">
+                <div className="relative shrink-0 size-[320px]" data-node-id="I110:171158;9469:7126;475:2321;475:2295;525:2135" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171158;9469:7126;475:2321;475:2297" data-name="Instance Container">
+                <div className="relative shrink-0 size-[320px]" data-node-id="I110:171158;9469:7126;475:2321;475:2297;525:2135" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171158;9469:7126;8349:7195">
+              ...
+            </p>
+          </div>
+        </div>
+        <DeprecatedHandPointer className="absolute h-[22px] left-[557px] top-[178px] w-[21px]" />
+      </div>
+      <TuiSpacing className="content-stretch flex flex-col items-start relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="110:171215" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I110:171215;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171215;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Pressed
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I110:171215;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I110:171215;9462:7170">
+            Состояние при нажатии. Отличаются на разных платформах
+          </p>
+        </div>
+      </div>
+      <div className="h-[368px] relative shrink-0 w-[934px]" data-node-id="110:171942" data-name="Desktop">
+        <div className="absolute content-stretch flex gap-[var(--paddings\/horizontal-card-padding,32px)] items-start left-0 overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] top-0 w-[934px]" data-node-id="110:171943" data-name="Illustrated Text">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171943;18886:9745" data-name="div">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I110:171943;11803:7517" data-name="image">
+              <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171943;9469:7229" data-name="Image Placeholder">
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171943;9469:7229;475:2302" data-name="Start">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171943;9469:7229;475:2303" data-name="End">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171943;9469:7229;5375:1772" data-name="Content Appearance" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171943;9469:7229;475:2321" data-name="Multiple Instances">
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171943;9469:7229;475:2321;475:2295" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171943;9469:7229;475:2321;475:2295;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171943;9469:7229;475:2321;475:2296" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171943;9469:7229;475:2321;475:2296;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171943;9469:7229;8349:7195">
+                  ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171943;9460:7522" data-name="div">
+            <div className="content-stretch flex items-start pb-[24px] relative shrink-0 w-full" data-node-id="I110:171943;9460:7593" data-name="Heading">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Tinkoff_Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171943;9460:7523" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Desktop
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="I110:171943;9460:7558" data-name="List Bulleted">
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I110:171943;9460:7558;9460:7064" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171943;9460:7558;9460:7064;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171943;9460:7558;9460:7064;9460:7062">
+                  Меняется цвет подложки
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171943;9460:7558;9460:7070" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171943;9460:7558;9460:7070;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171943;9460:7558;9460:7070;9460:7062">
+                  Цвет задается токенами с суффиксом -hover
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171943;9460:7558;9460:7077" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171943;9460:7558;9460:7077;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171943;9460:7558;9460:7077;9460:7062">
+                  В отдельных случаях цвета назначены кастомно
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <DeprecatedHandPointer className="absolute h-[22px] left-[159px] top-[176px] w-[21px]" />
+        <DeprecatedHandPointer className="absolute h-[22px] left-[296px] top-[176px] w-[21px]" />
+      </div>
+      <div className="h-[368px] relative shrink-0 w-[934px]" data-node-id="110:171334" data-name="iOS">
+        <div className="absolute content-stretch flex gap-[var(--paddings\/horizontal-card-padding,32px)] items-start left-0 overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] top-0 w-[934px]" data-node-id="110:171219" data-name="Illustrated Text">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171219;18886:9745" data-name="div">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I110:171219;11803:7517" data-name="image">
+              <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171219;9469:7229" data-name="Image Placeholder">
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171219;9469:7229;475:2302" data-name="Start">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171219;9469:7229;475:2303" data-name="End">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171219;9469:7229;5375:1772" data-name="Content Appearance" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171219;9469:7229;475:2321" data-name="Multiple Instances">
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171219;9469:7229;475:2321;475:2285" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171219;9469:7229;475:2321;475:2285;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171219;9469:7229;475:2321;475:2287" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171219;9469:7229;475:2321;475:2287;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171219;9469:7229;8349:7195">
+                  ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171219;9460:7522" data-name="div">
+            <div className="content-stretch flex items-start pb-[24px] relative shrink-0 w-full" data-node-id="I110:171219;9460:7593" data-name="Heading">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Tinkoff_Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171219;9460:7523" style={{ fontFeatureSettings: '"liga" 0' }}>
+                IOS
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="I110:171219;9460:7558" data-name="List Bulleted">
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I110:171219;9460:7558;9460:7064" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171219;9460:7558;9460:7064;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171219;9460:7558;9460:7064;9460:7062">
+                  Меняется цвет подложки
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171219;9460:7558;9460:7070" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171219;9460:7558;9460:7070;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171219;9460:7558;9460:7070;9460:7062">
+                  Цвет задается токенами с суффиксом -pressed
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171219;9460:7558;9460:7082" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171219;9460:7558;9460:7082;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171219;9460:7558;9460:7082;9460:7062">
+                  Цвет меняется без анимации, мгновенно
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute left-[308px] size-[40px] top-[197px]" data-node-id="110:171335">
+          <div className="absolute inset-[-37.5%_-50%_-62.5%_-50%]">
+            <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+          </div>
+        </div>
+      </div>
+      <div className="h-[368px] relative shrink-0 w-[934px]" data-node-id="110:171336" data-name="Android">
+        <div className="absolute content-stretch flex gap-[var(--paddings\/horizontal-card-padding,32px)] items-start left-0 overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] top-0 w-[934px]" data-node-id="110:171337" data-name="Illustrated Text">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171337;18886:9745" data-name="div">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I110:171337;11803:7517" data-name="image">
+              <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171337;9469:7229" data-name="Image Placeholder">
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171337;9469:7229;475:2302" data-name="Start">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171337;9469:7229;475:2303" data-name="End">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+                </div>
+                <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171337;9469:7229;5375:1772" data-name="Content Appearance" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171337;9469:7229;475:2321" data-name="Multiple Instances">
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171337;9469:7229;475:2321;475:2285" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171337;9469:7229;475:2321;475:2285;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171337;9469:7229;475:2321;475:2287" data-name="Instance Container">
+                    <div className="relative shrink-0 size-[320px]" data-node-id="I110:171337;9469:7229;475:2321;475:2287;525:2135" data-name=".Instance">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171337;9469:7229;8349:7195">
+                  ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171337;9460:7522" data-name="div">
+            <div className="content-stretch flex items-start pb-[24px] relative shrink-0 w-full" data-node-id="I110:171337;9460:7593" data-name="Heading">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Tinkoff_Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171337;9460:7523" style={{ fontFeatureSettings: '"liga" 0' }}>
+                Android
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="I110:171337;9460:7558" data-name="List Bulleted">
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I110:171337;9460:7558;9460:7064" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171337;9460:7558;9460:7064;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171337;9460:7558;9460:7064;9460:7062">
+                  Накладывается системный ripple
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171337;9460:7558;9460:7070" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171337;9460:7558;9460:7070;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171337;9460:7558;9460:7070;9460:7062">
+                  Цвет риппла выбираем из токенов service.ripple-*
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171337;9460:7558;9460:7077" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171337;9460:7558;9460:7077;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171337;9460:7558;9460:7077;9460:7062">
+                  В фигме цвета pressed-состояний примерные
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171337;9460:7558;9460:7082" data-name="Item">
+                <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171337;9460:7558;9460:7082;9460:7060" data-name="Bullet">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171337;9460:7558;9460:7082;9460:7062">
+                  Риппл накладывается под текстом и над бэкграундом
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[56px] left-[226px] top-[177px] w-[160px]" data-node-id="110:171416">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame12343645} />
+        </div>
+        <div className="absolute left-[308px] size-[40px] top-[197px]" data-node-id="110:171338">
+          <div className="absolute inset-[-37.5%_-50%_-62.5%_-50%]">
+            <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+          </div>
+        </div>
+      </div>
+      <TuiSpacing className="content-stretch flex flex-col items-start relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48161" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48161;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48161;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Focus
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48161;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48161;9462:7170">
+            Состояние при фокусировке с клавиатуры
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="81:48162" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I81:48162;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48162;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48162;9460:7064;9460:7062">
+            Работает только на десктопе
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48162;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48162;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I81:48162;9460:7070;9460:7062">
+            {`Почти везде используем токен border.focus с 2рх толщиной как обводку. `}
+            <br aria-hidden />В фигме нет отдельного варианта для фокуса. Если вам нужно показать его в макетах, поставьте бордер вручную
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48162;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48162;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48162;9460:7077;9460:7062">
+            Для корнер кейсов, где такой бордер не видно, допустимо использовать border.focus-on-dark
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="110:171489" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[320px] items-center overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171489;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171489;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171489;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171489;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[56px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171489;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171489;9469:7126;475:2321;475:2295" data-name="Instance Container">
+              <div className="relative shrink-0 size-[320px]" data-node-id="I110:171489;9469:7126;475:2321;475:2295;525:2135" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171489;9469:7126;475:2321;475:2297" data-name="Instance Container">
+              <div className="relative shrink-0 size-[320px]" data-node-id="I110:171489;9469:7126;475:2321;475:2297;525:2135" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171489;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <TuiSpacing className="content-stretch flex flex-col items-start relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48172" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48172;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48172;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Loading
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48172;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48172;9462:7170">
+            Состояние при загрузке
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="81:48173" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I81:48173;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48173;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48173;9460:7064;9460:7062">
+            Появляется только после нажатия
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48173;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48173;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48173;9460:7070;9460:7062">
+            Контейнер кнопки должен оставаться того же размера
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I81:48173;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I81:48173;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48173;9460:7077;9460:7062">
+            В фигме размер контейнера не сохраняется, нужно подгонять его руками
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="704:2724" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I704:2724;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I704:2724;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Desktop
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="704:2465" data-name="image">
+        <div className="bg-[#f6f7f8] h-[518px] relative rounded-[24px] shrink-0 w-full" data-node-id="704:2499" data-name="img-placeholder">
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[287px] top-[117px]" data-node-id="704:2568" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="704:2618" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I704:2618;200:101982" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2618;200:101983">
+                  Продолжить
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2628" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2628;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2628;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[56px] overflow-clip px-[56px] py-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="704:2620" data-name="tui-button">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I704:2620;222:99363" data-name="tui-loader">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[299px] top-[208px]" data-node-id="704:2649" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center min-h-[44px] overflow-clip p-[10px] relative rounded-[var(--tui-button\/radius\/medium,8px)] shrink-0" data-node-id="704:2650" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I704:2650;200:102682" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2650;200:102683">
+                  Продолжить
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2651" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2651;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2651;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[44px] overflow-clip p-[10px] relative rounded-[var(--tui-button\/radius\/medium,8px)] shrink-0 w-[124px]" data-node-id="704:2652" data-name="tui-button">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I704:2652;222:99395" data-name="tui-loader">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[325px] top-[287px]" data-node-id="704:2672" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center min-h-[32px] overflow-clip px-[8px] py-[4px] relative rounded-[var(--tui-button\/radius\/small,8px)] shrink-0" data-node-id="704:2673" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I704:2673;200:102332" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2673;200:102333">
+                  Продолжить
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex h-[32px] items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2674" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2674;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2674;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[32px] overflow-clip p-[8px] relative rounded-[var(--tui-button\/radius\/small,8px)] shrink-0 w-[98px]" data-node-id="704:2675" data-name="tui-button">
+              <div className="relative shrink-0 size-[16px]" data-node-id="I704:2675;222:99421" data-name="tui-loader">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader1} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[331px] top-[354px]" data-node-id="704:2695" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center min-h-[24px] overflow-clip px-[4px] relative rounded-[var(--tui-button\/radius\/xsmall,4px)] shrink-0" data-node-id="704:2696" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I704:2696;201:99387" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2696;201:99388">
+                  Продолжить
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex h-[24px] items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2697" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2697;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2697;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[24px] overflow-clip p-[4px] relative rounded-[var(--tui-button\/radius\/xsmall,4px)] shrink-0 w-[92px]" data-node-id="704:2698" data-name="tui-button">
+              <div className="relative shrink-0 size-[16px]" data-node-id="I704:2698;222:99431" data-name="tui-loader">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader1} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="704:2746" data-name="H3 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I704:2746;3591:1928" data-name="### H3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I704:2746;9459:8646" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Mobile
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="704:2749" data-name="image">
+        <div className="bg-[#f6f7f8] h-[446px] relative rounded-[24px] shrink-0 w-full" data-node-id="704:2750" data-name="img-placeholder">
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[103px] top-[117px]" data-node-id="704:2751" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[320px]" data-node-id="704:2819" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I704:2819;41658:296917" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2819;41658:296918" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Normal
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2753" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2753;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2753;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-[320px]" data-node-id="704:2823" data-name="tui-button">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I704:2823;41658:297273" data-name="tui-loader/S/Black">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoaderSBlack} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[103px] top-[203px]" data-node-id="704:2829" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[var(--tui-button\/radius-medium,12px)] shrink-0 w-[320px]" data-node-id="704:2830" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[4px] relative shrink-0" data-node-id="I704:2830;41658:296945" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[14px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2830;41658:296946" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Normal
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2831" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2831;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2831;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[var(--tui-button\/radius-medium,12px)] shrink-0 w-[320px]" data-node-id="704:2832" data-name="tui-button">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I704:2832;41658:297275" data-name="tui-loader/S/Black">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoaderSBlack} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[16px] items-center justify-center left-[354px] top-[289px]" data-node-id="704:2856" data-name="placeholder-instance-mlutiple">
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center min-h-[30px] overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="704:2857" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip pb-[3.5px] pt-[4.5px] px-[4px] relative shrink-0" data-node-id="I704:2857;41658:296931" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['Roboto:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I704:2857;41658:296932" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Normal
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0" data-node-id="704:2858" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I704:2858;42596:297179" data-name="Left iconCont">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I704:2858;42596:297180" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPragmaticArrowRight} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center min-h-[30px] overflow-clip p-[7px] relative rounded-[100px] shrink-0 w-[69px]" data-node-id="704:2859" data-name="tui-button">
+              <div className="relative shrink-0 size-[16px]" data-node-id="I704:2859;41658:297270" data-name="tui-loader/XS/Black">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoaderXsBlack} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <TuiSpacing className="content-stretch flex flex-col items-start relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48186" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48186;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48186;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Disabled
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48186;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48186;9462:7170">
+            Недоступное для взаимодействия состояние
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--paddings\/horizontal-card-padding,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="110:171719" data-name="Illustrated Text">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171719;18886:9745" data-name="div">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I110:171719;11803:7517" data-name="image">
+            <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171719;9469:7229" data-name="Image Placeholder">
+              <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171719;9469:7229;475:2302" data-name="Start">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+              </div>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171719;9469:7229;475:2303" data-name="End">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+              </div>
+              <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171719;9469:7229;5375:1772" data-name="Content Appearance" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171719;9469:7229;475:2321" data-name="Multiple Instances">
+                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171719;9469:7229;475:2321;475:2295" data-name="Instance Container">
+                  <div className="relative shrink-0 size-[320px]" data-node-id="I110:171719;9469:7229;475:2321;475:2295;525:2135" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                  </div>
+                </div>
+                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171719;9469:7229;475:2321;475:2296" data-name="Instance Container">
+                  <div className="relative shrink-0 size-[320px]" data-node-id="I110:171719;9469:7229;475:2321;475:2296;525:2135" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171719;9469:7229;8349:7195">
+                ...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171719;9460:7522" data-name="div">
+          <div className="content-stretch flex items-start pb-[24px] relative shrink-0 w-full" data-node-id="I110:171719;9460:7593" data-name="Heading">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Tinkoff_Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171719;9460:7523" style={{ fontFeatureSettings: '"liga" 0' }}>
+              Desktop
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="I110:171719;9460:7558" data-name="List Bulleted">
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I110:171719;9460:7558;9460:7064" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171719;9460:7558;9460:7064;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171719;9460:7558;9460:7064;9460:7062">
+                Недоступно для фокуса с клавиатуры
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171719;9460:7558;9460:7070" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171719;9460:7558;9460:7070;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171719;9460:7558;9460:7070;9460:7062">
+                Нельзя выделить и скопировать текст
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171719;9460:7558;9460:7077" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171719;9460:7558;9460:7077;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171719;9460:7558;9460:7077;9460:7062">
+                Нельзя повесить интерактивность, например тултип.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171719;9460:7558;9460:7082" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171719;9460:7558;9460:7082;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171719;9460:7558;9460:7082;9460:7062">
+                Во всех стилях состояние достигается наложением прозрачности 50% на всю кнопку
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--paddings\/horizontal-card-padding,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="110:171874" data-name="Illustrated Text">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171874;18886:9745" data-name="div">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I110:171874;11803:7517" data-name="image">
+            <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I110:171874;9469:7229" data-name="Image Placeholder">
+              <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171874;9469:7229;475:2302" data-name="Start">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+              </div>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="I110:171874;9469:7229;475:2303" data-name="End">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart1} />
+              </div>
+              <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I110:171874;9469:7229;5375:1772" data-name="Content Appearance" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I110:171874;9469:7229;475:2321" data-name="Multiple Instances">
+                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171874;9469:7229;475:2321;475:2285" data-name="Instance Container">
+                  <div className="relative shrink-0 size-[320px]" data-node-id="I110:171874;9469:7229;475:2321;475:2285;525:2135" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                  </div>
+                </div>
+                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I110:171874;9469:7229;475:2321;475:2287" data-name="Instance Container">
+                  <div className="relative shrink-0 size-[320px]" data-node-id="I110:171874;9469:7229;475:2321;475:2287;525:2135" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I110:171874;9469:7229;8349:7195">
+                ...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I110:171874;9460:7522" data-name="div">
+          <div className="content-stretch flex items-start pb-[24px] relative shrink-0 w-full" data-node-id="I110:171874;9460:7593" data-name="Heading">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Tinkoff_Sans:Medium'] leading-[32px] min-w-px not-italic relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171874;9460:7523" style={{ fontFeatureSettings: '"liga" 0' }}>
+              IOS и Android
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="I110:171874;9460:7558" data-name="List Bulleted">
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I110:171874;9460:7558;9460:7064" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171874;9460:7558;9460:7064;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171874;9460:7558;9460:7064;9460:7062">
+                Недоступно для нажатия
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171874;9460:7558;9460:7070" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171874;9460:7558;9460:7070;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171874;9460:7558;9460:7070;9460:7062">
+                Нельзя повесить интерактивность, например тултип.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171874;9460:7558;9460:7077" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171874;9460:7558;9460:7077;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171874;9460:7558;9460:7077;9460:7062">
+                Доступно для экранных читалок
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I110:171874;9460:7558;9460:7082" data-name="Item">
+              <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I110:171874;9460:7558;9460:7082;9460:7060" data-name="Bullet">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet1} />
+              </div>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I110:171874;9460:7558;9460:7082;9460:7062">
+                Цвета состояний заданы индивидуально
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), _Local/Divider: #3C3C43, shadow-1: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0), Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), Day/Service/ripple-on-tinkoff: #FAB619, Day/Service/focus: #333333, Day/Text/primary: #333333, Desktop/UI S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), Android/Body M: Font(family: "Roboto", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0), Android/UI S Bold: Font(family: "Roboto", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 32862:25087
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## [deprecated] Hand Pointer
+**Node ID:** 37636:1796
+
+Компонент устарел, добавили актуальные курсоры из MacOS 27 и синхронизировали их названия с CSS. Менять на соответствующий курсор из раздела Cursors в TUI Helpers
+
+## tui-spacing
+**Node ID:** 81:47790
+
+Компонент отступов. Лучше использовать родные фигмовские отступы автолейауте, эти подойдут если нужны разные отступы внутри блока
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15277
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 32862:15276
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## system=ios, size=large, appearance=primary, state=pressed, skeleton=off
+**Node ID:** 32862:15311
+
+Ex. primary-tinkoff
+
+## system=android, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15322
+
+Ex. primary-tinkoff
+
+## size=large, appearance=primary-grayscale, state=normal, skeleton=off
+**Node ID:** 32862:25119
+
+Ex. primary-opposite
+
+## tui-ic-medium-pragmatic / arrow-right
+**Node ID:** 3565:3211
+
+arrow, forward
+
+## tui-loader
+**Node ID:** 29373:30708
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+## system=android, size=large, appearance=primary, state=loading, skeleton=off
+**Node ID:** 32862:15345
+
+Ex. primary-tinkoff
+
+## tui-loader/S/Black
+**Node ID:** 30347:2479
+
+Progress Indicator
+
+## system=android, size=medium, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15502
+
+Ex. primary-tinkoff
+
+## system=android, size=medium, appearance=primary, state=loading, skeleton=off
+**Node ID:** 32862:15525
+
+Ex. primary-tinkoff
+
+## system=android, size=small, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15412
+
+Ex. primary-tinkoff
+
+## system=android, size=small, appearance=primary, state=loading, skeleton=off
+**Node ID:** 32862:15435
+
+Ex. primary-tinkoff
+
+## tui-loader/XS/Black
+**Node ID:** 30347:2488
+
+Progress Indicator
+
+## system=ios, size=large, appearance=primary, state=disabled, skeleton=off
+**Node ID:** 32862:15289
+
+Ex. primary-tinkoff
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

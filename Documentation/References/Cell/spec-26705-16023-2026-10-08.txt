@@ -1,0 +1,86 @@
+<frame id="26705:16023" name="Увеличение шрифтов" x="96" y="100" width="1190" height="5721">
+  <instance id="26705:16024" name="H1 + P" x="128" y="128" width="934" height="156" />
+  <instance id="26705:16025" name="Note" x="128" y="284" width="934" height="164" />
+  <instance id="26705:16026" name="H2 + P" x="128" y="448" width="934" height="88" />
+  <instance id="26705:16027" name="H3 + P" x="128" y="536" width="934" height="152" />
+  <instance id="26705:16032" name="Image 2x1" x="128" y="688" width="934" height="392">
+    <frame id="I26705:16032;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+      <instance id="I26705:16032;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16032;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16032;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16032;615:2076;33807:8349;26705:16031" name="tui-cell [switch]" x="38" y="132" width="375" height="56" />
+        </slot>
+        <text id="I26705:16032;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16032;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+    <frame id="I26705:16032;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+      <instance id="I26705:16032;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16032;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16032;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16032;615:2079;33807:8349;26705:16029" name="tui-cell [switch]" x="38" y="95" width="375" height="130" />
+        </slot>
+        <text id="I26705:16032;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16032;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+  </instance>
+  <instance id="26705:16033" name="H3 + P" x="128" y="1080" width="934" height="104" />
+  <instance id="26705:16034" name="List Bulleted" x="128" y="1184" width="934" height="73" />
+  <instance id="26705:16039" name="Image 2x1" x="128" y="1257" width="934" height="392">
+    <frame id="I26705:16039;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+      <instance id="I26705:16039;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16039;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16039;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16039;615:2076;33807:8349;26705:16038" name="tui-cell [switch]" x="38" y="132" width="375" height="56" />
+        </slot>
+        <text id="I26705:16039;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16039;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+    <frame id="I26705:16039;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+      <instance id="I26705:16039;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16039;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16039;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16039;615:2079;33807:8349;26705:16036" name="tui-cell [switch]" x="38" y="122.5" width="375" height="75" />
+        </slot>
+        <text id="I26705:16039;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16039;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+  </instance>
+  <instance id="26705:16044" name="Image 2x1" x="128" y="1649" width="934" height="392">
+    <frame id="I26705:16044;615:2066" name="image-1" x="0" y="0" width="451" height="360">
+      <instance id="I26705:16044;615:2076" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16044;615:2076;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16044;615:2076;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16044;615:2076;33807:8349;26705:16043" name="tui-cell [switch]" x="38" y="114" width="375" height="92" />
+        </slot>
+        <text id="I26705:16044;615:2076;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16044;615:2070" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+    <frame id="I26705:16044;615:2071" name="image-2" x="483" y="0" width="451" height="360">
+      <instance id="I26705:16044;615:2079" name="Image Placeholder" x="0" y="0" width="451" height="320">
+        <instance id="I26705:16044;615:2079;33807:8254" name="Content Appearance" x="0" y="0" width="451" height="320" />
+        <slot id="I26705:16044;615:2079;33807:8349" name="Slot" x="0" y="0" width="451" height="320">
+          <instance id="I26705:16044;615:2079;33807:8349;26705:16041" name="tui-cell [switch]" x="38" y="67.5" width="375" height="185" />
+        </slot>
+        <text id="I26705:16044;615:2079;33807:8256" name="Alt text" x="0" y="330" width="451" height="17" />
+      </instance>
+      <text id="I26705:16044;615:2075" name="Annotation" x="0" y="336" width="451" height="24" />
+    </frame>
+  </instance>
+  <instance id="26705:16045" name="H2 + P" x="128" y="2041" width="934" height="88" />
+  <instance id="26705:16046" name="H3 + P" x="128" y="2129" width="934" height="152" />
+  <instance id="26705:16047" name="List Bulleted" x="128" y="2281" width="934" height="100" />
+  <instance id="26705:16048" name="Note" x="128" y="2381" width="934" height="140" />
+  <instance id="26705:16049" name="Image 1x1" x="128" y="2521" width="934" height="900" />
+  <instance id="26705:16050" name="Image 1x1" x="128" y="3421" width="934" height="500" />
+  <instance id="26705:16051" name="H3 + P" x="128" y="3921" width="934" height="152" />
+  <instance id="26705:16052" name="List Bulleted" x="128" y="4073" width="934" height="100" />
+  <instance id="26705:16053" name="Image 1x1" x="128" y="4173" width="934" height="900" />
+  <instance id="26705:16054" name="Image 1x1" x="128" y="5073" width="934" height="520" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

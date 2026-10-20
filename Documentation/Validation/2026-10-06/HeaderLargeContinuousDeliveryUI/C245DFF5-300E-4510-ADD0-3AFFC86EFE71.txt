@@ -1,0 +1,35 @@
+Attributes: Application, 0x1067e9f40, pid: 94762, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x1067e9f40, pid: 94762, label: 'TUIConsumer'
+    Window (Main), 0x1067e8000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1067e8140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1067e92c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1067e9400, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1067e9540, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1067e9680, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x1067e97c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x1067e9900, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x1067e9a40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1067e9b80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1067e9cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1067eaf80, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x1067eb0c0, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x1067eb200, {{29.7, 176.3}, {343.0, 36.0}}, identifier: 'headerSuffix', label: 'Очень длинный заголовок, который не помещается в одну строку, 42'
+                          StaticText, 0x1067eb340, {{29.7, 176.3}, {315.0, 36.0}}, label: 'Очень длинный заголовок, который не помещается в одну строку'
+                          StaticText, 0x1067eb480, {{354.5, 185.3}, {18.0, 18.0}}, identifier: 'headerSuffix', label: '42'
+                        StaticText, 0x1067eb5c0, {{147.3, 252.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x1067eb700, {{160.7, 288.7}, {80.7, 20.3}}, label: 'Ссылок: 0'
+                        StaticText, 0x1067eb840, {{128.7, 325.0}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x1067eb980, {{98.2, 361.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x1067ebac0, {{150.0, 397.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x1067ebc00, {{164.0, 434.0}, {74.3, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, fade'
+                          StaticText, 0x1067ebd40, {{175.7, 441.0}, {34.0, 20.3}}, label: 'fade'
+                Other, 0x1067ebe80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103617200, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1067e9f40, pid: 94762, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x103617340, pid: 94762, label: 'TUIConsumer'
+  }

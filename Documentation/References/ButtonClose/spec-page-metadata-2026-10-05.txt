@@ -1,0 +1,106 @@
+<canvas id="1:5" name="     ↳ tui-button [close] " x="0" y="0" width="0" height="0">
+  <instance id="102:159994" name="page-title" x="-467" y="-1946" width="1935" height="592" />
+  <section id="110:169610" name="Дизайн" x="-567" y="-658" width="6981" height="2430">
+    <frame id="107:164468" name="Стили" x="100" y="100" width="1081" height="1150">
+      <instance id="107:164469" name="H1 + P" x="128" y="128" width="825" height="88" />
+      <frame id="107:164470" name="row" x="128" y="216" width="825" height="56">
+        <instance id="107:164471" name="tui-table-сell" x="0" y="0" width="231" height="56" />
+        <instance id="525:4441" name="tui-table-сell" x="231" y="0" width="162" height="56" />
+        <instance id="107:164472" name="tui-table-сell" x="393" y="0" width="162" height="56" />
+        <instance id="107:164473" name="tui-table-сell" x="555" y="0" width="162" height="56" />
+        <instance id="1295:20110" name="tui-table-сell" x="717" y="0" width="108" height="56" />
+      </frame>
+      <frame id="107:164475" name="row" x="128" y="272" width="825" height="250">
+        <instance id="107:164476" name="tui-table-сell" x="0" y="0" width="229" height="250" />
+        <frame id="107:164704" name="preview" x="229" y="0" width="488" height="250">
+          <frame id="525:4454" name="tui-table сell" x="0" y="0" width="162.6666717529297" height="250">
+            <instance id="525:4485" name="tui-button [close]" x="65.33333587646484" y="34" width="32" height="32" />
+            <instance id="525:4509" name="tui-button [close]" x="65.33333587646484" y="109" width="32" height="32" />
+            <instance id="1046:3278" name="tui-button [close]" x="65.33333587646484" y="184" width="32" height="32" />
+          </frame>
+          <frame id="107:164705" name="tui-table сell" x="162.6666717529297" y="0" width="162.66665649414062" height="250">
+            <instance id="107:164706" name="tui-button [close]" x="66.33332824707031" y="40" width="30" height="30" />
+            <text id="1046:3297" name="-" x="76.83332824707031" y="110" width="9" height="30" />
+            <instance id="107:165322" name="tui-button [close]" x="66.33332824707031" y="180" width="30" height="30" />
+          </frame>
+          <frame id="107:165050" name="tui-table сell" x="325.33331298828125" y="0" width="162.66665649414062" height="250">
+            <instance id="107:165051" name="tui-button [close]" x="66.33332824707031" y="40" width="30" height="30" />
+            <text id="1046:3298" name="-" x="76.83332824707031" y="110" width="9" height="30" />
+            <instance id="107:165366" name="tui-button [close]" x="66.33332824707031" y="180" width="30" height="30" />
+          </frame>
+        </frame>
+        <frame id="1295:19981" name="tui-table сell" x="717" y="0" width="108" height="250">
+          <instance id="1295:19982" name="tui-table-сell" x="0" y="39" width="78" height="44" />
+          <instance id="1295:19983" name="tui-table-сell" x="0" y="103" width="78" height="44" />
+          <instance id="1295:19984" name="tui-table-сell" x="0" y="167" width="78" height="44" />
+        </frame>
+      </frame>
+      <frame id="110:169611" name="row" x="128" y="522" width="825" height="250">
+        <instance id="110:169612" name="tui-table-сell" x="0" y="0" width="229" height="250" />
+        <frame id="110:169613" name="preview" x="229" y="0" width="596" height="250" />
+      </frame>
+      <frame id="110:169662" name="row" x="128" y="772" width="825" height="250">
+        <instance id="110:169663" name="tui-table-сell" x="0" y="0" width="229" height="250" />
+        <frame id="110:169664" name="preview" x="229" y="0" width="596" height="250" />
+      </frame>
+    </frame>
+    <frame id="11777:5049" name="Доступность" x="3171" y="68" width="1190" height="1758">
+      <instance id="11777:5050" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="11777:5051" name="H2 + P" x="128" y="216" width="934" height="120" />
+      <instance id="11777:5052" name="H3 + P" x="128" y="336" width="934" height="104" />
+      <instance id="12060:11504" name="Image 1x1" x="128" y="440" width="934" height="332" />
+      <instance id="11777:5054" name="H3 + P" x="128" y="772" width="934" height="104" />
+      <instance id="14492:3045" name="Image 1x1" x="128" y="876" width="934" height="400" />
+      <instance id="11777:5056" name="H2 + P" x="128" y="1276" width="934" height="120" />
+      <frame id="11777:5057" name="row" x="128" y="1396" width="934" height="56">
+        <instance id="11777:5058" name="tui-table-сell" x="0" y="0" width="400" height="56" />
+        <instance id="11777:5059" name="tui-table-сell" x="400" y="0" width="534" height="56" />
+      </frame>
+      <frame id="11777:5060" name="row" x="128" y="1452" width="934" height="178">
+        <frame id="11777:5061" name="preview" x="0" y="0" width="934" height="178">
+          <frame id="11777:5062" name="row" x="0" y="64" width="934" height="114">
+            <frame id="11777:5063" name="tui-table сell" x="0" y="0" width="400" height="30">
+              <instance id="11777:5064" name="tui-button [close]" x="0" y="0" width="30" height="30" />
+            </frame>
+            <frame id="11777:5065" name="tui-table сell" x="400" y="0" width="423" height="114">
+              <instance id="11777:5066" name="accessibility-annotation" x="24" y="0" width="375" height="114" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="107:165371" name="Размеры" x="1581" y="100" width="1190" height="1344">
+      <instance id="107:165372" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="1295:20197" name="H2 + P" x="128" y="216" width="934" height="144" />
+      <frame id="107:165446" name="image" x="128" y="360" width="934" height="368">
+        <frame id="107:165478" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="107:165508" name="tui-button [close]" x="361.5" y="196.55613708496094" width="24" height="24" />
+          <instance id="107:165518" name="tui-button [close]" x="361.5" y="141.31300354003906" width="30" height="30" />
+          <text id="143:2758" name="-list" x="515.5" y="141.31300354003906" width="36" height="24" />
+          <text id="143:2771" name="-list" x="441.5" y="83" width="54" height="24" />
+          <text id="143:2772" name="-list" x="364.5" y="83" width="24" height="24" />
+          <text id="143:2760" name="-list" x="515.5" y="197.05613708496094" width="48" height="24" />
+          <instance id="143:2761" name="tui-button [close]" x="443.5" y="196.55613708496094" width="24" height="24" />
+          <instance id="143:2762" name="tui-button [close]" x="441.5" y="140.31300354003906" width="30" height="30" />
+        </frame>
+      </frame>
+      <instance id="1297:20207" name="H2 + P" x="128" y="728" width="934" height="120" />
+      <frame id="1303:20245" name="image" x="128" y="848" width="934" height="368">
+        <frame id="1303:20246" name="img-placeholder" x="0" y="0" width="934" height="320">
+          <instance id="1304:16357" name="tui-button [close]" x="379" y="138" width="32" height="32" />
+          <instance id="1304:16362" name="tui-button [close]" x="474" y="141" width="24" height="24" />
+          <text id="1304:16371" name="-list" x="375" y="179" width="36" height="24" />
+          <text id="1304:16372" name="-list" x="462" y="179" width="48" height="24" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="10160:7133" name="Изменения" x="4761" y="100" width="976" height="566">
+      <instance id="10160:7134" name="H1 + P" x="128" y="128" width="720" height="88" />
+      <frame id="10160:7135" name="Items" x="128" y="216" width="720" height="222">
+        <instance id="20484:53334" name="changelog-item" x="0" y="0" width="720" height="122" />
+        <instance id="10160:7136" name="[deprecated] changelog-v1" x="0" y="134" width="720" height="88" />
+      </frame>
+    </frame>
+  </section>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

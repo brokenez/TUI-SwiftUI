@@ -1,0 +1,112 @@
+[
+  {
+    "id": "41658:296906",
+    "name": "tui-button",
+    "key": "c2388a97a9bf28406c09a0b56be673bb0d83b305",
+    "variantCount": 294,
+    "matches": [
+      {
+        "id": "41658:296907",
+        "key": "9468a94cee29f0e04cae03a174c45b8f971c7846",
+        "properties": {
+          "system": "ios",
+          "size": "large",
+          "appearance": "primary",
+          "state": "normal",
+          "skeleton": "off"
+        }
+      }
+    ],
+    "firstVariant": "9468a94cee29f0e04cae03a174c45b8f971c7846"
+  },
+  {
+    "id": "11335:41574",
+    "name": "tui-card-medium ",
+    "key": "0c525c336ddc69530b8616cb7cbafdd14f045bf1",
+    "variantCount": 41,
+    "matches": [
+      {
+        "id": "11335:41604",
+        "key": "ca7e639e312240650b3c70b1283aa808c6c40243",
+        "properties": {
+          "system": "iOS",
+          "content": "text+avatar",
+          "skeleton": "off",
+          "text-position": "bottom",
+          "background": "fill"
+        }
+      }
+    ],
+    "firstVariant": "9a515906bf6fca008d3fc2ea8bed5a502c910976"
+  },
+  {
+    "id": "42587:291989",
+    "name": "tui-card-large",
+    "key": "58028ab66ddbc377b71ddde44de0cff65b646274",
+    "variantCount": 48,
+    "matches": [
+      {
+        "id": "42587:291990",
+        "key": "3f8886ef2955549c5d8b5246dd37cc04eebe9646",
+        "properties": {
+          "Systеm": "iOS",
+          "Preset": "Custom",
+          "Flat": "False",
+          "Footer": "False",
+          "Skeleton": "False"
+        }
+      },
+      {
+        "id": "42587:291998",
+        "key": "73281da5f7819a11fc38d22fefc2d9b601a75770",
+        "properties": {
+          "Systеm": "iOS",
+          "Preset": "Custom",
+          "Flat": "False",
+          "Footer": "True",
+          "Skeleton": "False"
+        }
+      }
+    ],
+    "firstVariant": "3f8886ef2955549c5d8b5246dd37cc04eebe9646"
+  },
+  {
+    "id": "42565:305012",
+    "name": "tui-header [large]",
+    "key": "293518cda61b9ca1847e6006a341a7bda98d793e",
+    "variantCount": 20,
+    "matches": [
+      {
+        "id": "547:151714",
+        "key": "c44cf8612afd4932675d8acafbd16d9d7e2cb198",
+        "properties": {
+          "system": "iOS",
+          "show-description": "on",
+          "text-align": "center",
+          "skeleton": "off",
+          "extended": "off"
+        }
+      },
+      {
+        "id": "547:151734",
+        "key": "2139d468a6c23622dc37f09de79f483a5a60395e",
+        "properties": {
+          "system": "iOS",
+          "show-description": "off",
+          "text-align": "center",
+          "skeleton": "off",
+          "extended": "off"
+        }
+      }
+    ],
+    "firstVariant": "1734eec9977ca6449bd600ddfd5b5600ba19706b"
+  },
+  {
+    "id": "25748:771367",
+    "name": "tui-button tooltip",
+    "key": "8594355c299b76df7c11ee71f6796ec38499ddb9",
+    "variantCount": 16,
+    "matches": [],
+    "firstVariant": "f604c90141a7916b9aefdbfff417808b70b63145"
+  }
+]

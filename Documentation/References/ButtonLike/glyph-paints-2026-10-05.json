@@ -1,0 +1,331 @@
+[
+  {
+    "id": "44290:299897",
+    "name": "tui-ic-medium / share",
+    "paints": [
+      {
+        "id": "I44290:299897;1524:933",
+        "name": "Mask",
+        "type": "FRAME",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "I44290:299897;4491:5776",
+        "name": "Mask",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 1,
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.75
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I44290:299897;4491:5777",
+        "name": "Mask",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "opacity": 1,
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "I44290:299897;1524:936",
+        "name": "Color",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.25882354378700256,
+              "g": 0.545098066329956,
+              "b": 0.9764705896377563
+            },
+            "opacity": 1,
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:bad78d2a883ae80303cb815e9d7eb7c3ac48f3ba/13139:256"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44290:300011",
+    "name": "tui-ic-medium / heart-outline",
+    "paints": [
+      {
+        "id": "I44290:300011;1524:500",
+        "name": "Mask",
+        "type": "FRAME",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "I44290:300011;4491:5925",
+        "name": "Mask",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 1,
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.800000011920929
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I44290:300011;1524:502",
+        "name": "Color",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.25882354378700256,
+              "g": 0.545098066329956,
+              "b": 0.9764705896377563
+            },
+            "opacity": 1,
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:bad78d2a883ae80303cb815e9d7eb7c3ac48f3ba/13139:256"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44290:300022",
+    "name": "tui-ic-medium / heart-filled",
+    "paints": [
+      {
+        "id": "I44290:300022;1524:504",
+        "name": "Mask",
+        "type": "FRAME",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "I44290:300022;4491:5926",
+        "name": "Mask",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 1,
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.949999988079071
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.6499999761581421
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I44290:300022;1524:506",
+        "name": "Color",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843160629272,
+              "g": 0.13333334028720856,
+              "b": 0.13333334028720856
+            },
+            "opacity": 1,
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:70e49e0ddcbb84b3700edcdbc1b7e46b9764c073/13139:260"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "44290:300055",
+    "name": "tui-ic-medium / heart-outline",
+    "paints": [
+      {
+        "id": "I44290:300055;1524:500",
+        "name": "Mask",
+        "type": "FRAME",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "I44290:300055;4491:5925",
+        "name": "Mask",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "GRADIENT_LINEAR",
+            "opacity": 1,
+            "gradientStops": [
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "position": 0,
+                "boundVariables": {}
+              },
+              {
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.800000011920929
+                },
+                "position": 1,
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I44290:300055;1524:502",
+        "name": "Color",
+        "type": "VECTOR",
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:7b0b6cc10f74a823d78af60e69d27c002ed6bc07/13139:268"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

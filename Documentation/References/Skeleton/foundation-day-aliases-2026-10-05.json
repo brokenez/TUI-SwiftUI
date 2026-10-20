@@ -1,0 +1,82 @@
+[
+  {
+    "id": "VariableID:565:511",
+    "name": "Color/Service/Skeleton — Day Value",
+    "valuesByMode": {
+      "1:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:82"
+      },
+      "1:4": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:82"
+      },
+      "1:5": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1:88"
+      }
+    },
+    "collection": {
+      "name": "Platform",
+      "modes": [
+        {
+          "name": "iOS",
+          "modeId": "1:3"
+        },
+        {
+          "name": "Android",
+          "modeId": "1:4"
+        },
+        {
+          "name": "Desktop",
+          "modeId": "1:5"
+        }
+      ],
+      "defaultModeId": "1:3"
+    }
+  },
+  {
+    "id": "VariableID:1:82",
+    "name": "Color/Black/Black Alpha 3",
+    "valuesByMode": {
+      "1:0": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.029999999329447746
+      }
+    },
+    "collection": {
+      "name": "Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1:0"
+        }
+      ],
+      "defaultModeId": "1:0"
+    }
+  },
+  {
+    "id": "VariableID:1:88",
+    "name": "Color/Black/Black Alpha 6",
+    "valuesByMode": {
+      "1:0": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.05999999865889549
+      }
+    },
+    "collection": {
+      "name": "Primitive",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "1:0"
+        }
+      ],
+      "defaultModeId": "1:0"
+    }
+  }
+]

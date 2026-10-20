@@ -1,0 +1,94 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 23399,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-08T06-48-30-852Z_pid90401_7a882915.log",
+      "xcresultPath": "/private/tmp/tui-cell-spec-current-2026-10-08.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-08T06-48-30-852Z_pid90401_8ef84535.xctestproducts"
+    },
+    "tests": {
+      "selected": [
+        "TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+        "TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+        "TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell",
+        "TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+        "TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+        "TUIDesignSystemTests/CellTests/testNonExtendedInlineSuffixSurvivesTextFade",
+        "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+      ],
+      "discovered": {
+        "total": 7,
+        "items": [
+          "TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+          "TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+          "TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell",
+          "TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+          "TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+          "TUIDesignSystemTests/CellTests/testNonExtendedInlineSuffixSurvivesTextFade"
+        ]
+      }
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "CellTests",
+        "test": "testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+        "status": "passed",
+        "durationMs": 1353
+      },
+      {
+        "suite": "CellTests",
+        "test": "testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+        "status": "passed",
+        "durationMs": 95
+      },
+      {
+        "suite": "CellTests",
+        "test": "testCardCellCompositionsUseThePublicCell",
+        "status": "passed",
+        "durationMs": 59
+      },
+      {
+        "suite": "CellTests",
+        "test": "testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+        "status": "passed",
+        "durationMs": 52
+      },
+      {
+        "suite": "CellTests",
+        "test": "testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+        "status": "passed",
+        "durationMs": 40
+      },
+      {
+        "suite": "CellTests",
+        "test": "testNonExtendedInlineSuffixSurvivesTextFade",
+        "status": "passed",
+        "durationMs": 22
+      },
+      {
+        "suite": "WebCatalogExamplesTests",
+        "test": "testCopyableExamplesCompileAndRenderThroughPublicPackageAPI",
+        "status": "passed",
+        "durationMs": 996
+      }
+    ]
+  }
+}

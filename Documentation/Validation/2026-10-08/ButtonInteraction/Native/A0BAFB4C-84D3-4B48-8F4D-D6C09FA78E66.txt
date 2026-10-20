@@ -1,0 +1,31 @@
+Attributes: Application, 0x1158ac780, pid: 39774, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x1158ac780, pid: 39774, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x1158adcc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1158aca00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1158ac000, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1158ac140, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1158ac500, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1158ac640, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x1158ac3c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Button QA'
+                  StaticText, 0x1158ac8c0, {{160.0, 73.7}, {81.7, 20.7}}, label: 'Button QA'
+                Other, 0x1158ada40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1159d9680, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1159d97c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1159d9900, {{0.0, 0.0}, {402.0, 874.0}}
+                        Button, 0x108b883c0, {{122.0, 408.7}, {158.0, 30.0}}, identifier: 'buttonProbeComponent', label: 'Идет загрузка'
+                          Other, 0x115b6c000, {{0.0, 0.0}, {0.0, 0.0}}
+                          StaticText, 0x115b6c140, {{122.0, 408.7}, {158.0, 30.0}}, label: 'Отправить документ'
+                          Image, 0x115b6c280, {{192.2, 414.9}, {17.6, 17.6}}, label: 'Загрузка'
+                        StaticText, 0x115b6c3c0, {{197.2, 731.0}, {7.7, 20.3}}, identifier: 'buttonProbeTapCount', label: '1'
+                        StaticText, 0x115b6c500, {{173.2, 767.3}, {55.7, 20.3}}, identifier: 'buttonProbeState', label: 'loading'
+                        Button, 0x115b6c640, {{120.3, 803.7}, {161.3, 20.3}}, identifier: 'buttonProbeFinishLoading', label: 'Завершить загрузку'
+                Other, 0x115b6c780, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x115b6c8c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1158ac780, pid: 39774, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x115b6ca00, pid: 39774, label: 'TUIDesignSystemCatalog'
+  }

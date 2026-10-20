@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "OBPLqL8JDThLuOP8M4JzBL",
+    "reviewedAt": "2026-10-06",
+    "scope": "partial: all ten iOS Header Large variants and four other Salary screen dependencies; not a full library-key index"
+  },
+  "components": [
+    {
+      "key": "9468a94cee29f0e04cae03a174c45b8f971c7846",
+      "id": "41658:296907",
+      "setId": "41658:296906",
+      "variantProperties": {
+        "system": "ios",
+        "size": "large",
+        "appearance": "primary",
+        "state": "normal",
+        "skeleton": "off"
+      }
+    },
+    {
+      "key": "ca7e639e312240650b3c70b1283aa808c6c40243",
+      "id": "11335:41604",
+      "setId": "11335:41574",
+      "variantProperties": {
+        "system": "iOS",
+        "content": "text+avatar",
+        "skeleton": "off",
+        "text-position": "bottom",
+        "background": "fill"
+      }
+    },
+    {
+      "key": "3f8886ef2955549c5d8b5246dd37cc04eebe9646",
+      "id": "42587:291990",
+      "setId": "42587:291989",
+      "variantProperties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      }
+    },
+    {
+      "key": "73281da5f7819a11fc38d22fefc2d9b601a75770",
+      "id": "42587:291998",
+      "setId": "42587:291989",
+      "variantProperties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      }
+    },
+    {
+      "key": "c44cf8612afd4932675d8acafbd16d9d7e2cb198",
+      "id": "547:151714",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "center",
+        "skeleton": "off",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "2139d468a6c23622dc37f09de79f483a5a60395e",
+      "id": "547:151734",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "center",
+        "skeleton": "off",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "1734eec9977ca6449bd600ddfd5b5600ba19706b",
+      "id": "42565:305013",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "7436ce4103b5b725f0a5eefa2205aa4bb691966c",
+      "id": "17714:51940",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "on",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "f4a3207617f67884d131ddc85a9bfba3144294f1",
+      "id": "17714:51950",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "center",
+        "skeleton": "on",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "a9793e5aff946dc1e480368c799ab3bc4468c011",
+      "id": "42565:305051",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "7f17c03ba30140379f995dec58b6db1395792c65",
+      "id": "18083:44942",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "on"
+      }
+    },
+    {
+      "key": "0b0d18f3e78ff0445d23312869d17cab5a35c546",
+      "id": "17714:51980",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "start",
+        "skeleton": "on",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "3f2acde9769edff6b0b4a711cd20f93835523d12",
+      "id": "17714:51990",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "off",
+        "text-align": "center",
+        "skeleton": "on",
+        "extended": "off"
+      }
+    },
+    {
+      "key": "9de5b3ee74f67ff15f7ad60052b2b204b04873f3",
+      "id": "18083:44906",
+      "setId": "42565:305012",
+      "variantProperties": {
+        "system": "iOS",
+        "show-description": "on",
+        "text-align": "start",
+        "skeleton": "off",
+        "extended": "on"
+      }
+    }
+  ]
+}

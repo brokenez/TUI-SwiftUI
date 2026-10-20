@@ -1,0 +1,49 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "modelName" : "iPhone 17 Pro",
+        "osBuildNumber" : "23E254a",
+        "osVersion" : "26.4.1",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 7,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "TUIDesignSystemCatalogUITests · Built with macOS 26.6.2",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1791476356.936,
+  "passedTests" : 7,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791476165.58,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertTrue failed",
+      "targetName" : "TUIDesignSystemCatalogUITests",
+      "testIdentifier" : 8,
+      "testIdentifierString" : "ConsumerIntegrationUITests/testIndependentConsumerUsesButtonCustomizationAndPackageResources()",
+      "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/ConsumerIntegrationUITests/testIndependentConsumerUsesButtonCustomizationAndPackageResources",
+      "testName" : "testIndependentConsumerUsesButtonCustomizationAndPackageResources()"
+    }
+  ],
+  "title" : "Test - TUIDesignSystemCatalogUITests",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 8
+}

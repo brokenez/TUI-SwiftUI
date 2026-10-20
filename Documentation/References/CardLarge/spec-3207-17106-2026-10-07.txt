@@ -1,0 +1,236 @@
+const imgTuiIcFixedColorCrossCircleNegative = "https://www.figma.com/api/mcp/asset/f922273d-62b2-41ee-b087-aa4b7d9d97e8.svg";
+const imgTuiIcFixedColorCheckCirclePositive = "https://www.figma.com/api/mcp/asset/a00bbf48-35ac-4da4-bab6-331ccfca869b.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/7c128d0d-38dc-4140-b1b9-c66624efee27.svg";
+const imgBullet = "https://www.figma.com/api/mcp/asset/06d5de64-c45d-4b9e-8bd4-d706b818790e.svg";
+const imgStart = "https://www.figma.com/api/mcp/asset/1e43dd66-98ae-40c3-acd7-4cd99a11c8fc.svg";
+const imgTuiCardLarge = "https://www.figma.com/api/mcp/asset/768ff3e0-f139-49aa-a6e9-64887ca44954.svg";
+
+function TuiIcFixedColorCrossCircleNegative({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="11750:22949" data-name="tui-ic-fixed-color / cross-circle-negative">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCrossCircleNegative} />
+    </div>
+  );
+}
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="23516:21950" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+
+type H1PProps = {
+  className?: string;
+  showBadge?: boolean;
+  showParagraph?: "off";
+  titleText?: string;
+};
+
+function H1P({ className, showBadge = false, showParagraph = "off", titleText = "# H1" }: H1PProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--indents\\/bottom-indent-l,32px)] relative w-[934px]"} data-node-id="34001:20130">
+      <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="34001:20137" data-name="# H1">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="34001:20138" style={{ fontFeatureSettings: '"liga" 0' }}>
+          {titleText}
+        </p>
+        {showBadge && (
+          <div className="flex flex-row items-center self-stretch" data-node-id="34001:20139">
+            <div className="content-stretch flex flex-col h-full items-start justify-center relative shrink-0" data-name="badge">
+              <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="34001:20140" data-name="tui-badge">
+                <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I34001:20140;6917:52779" data-name="IconCont">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I34001:20140;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                    <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I34001:20140;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I34001:20140;6917:52781" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I34001:20140;6917:52782">
+                    story-name
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="3207:17106" data-name="Правила использования">
+      <H1P className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" titleText="Правила использования" />
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="3207:17108" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3207:17108;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3207:17108;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Выбор стиля текста
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I3207:17108;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3207:17108;9462:7170">
+            Нужно смотреть на информационную иерархию всей страницы и выбрать либо черный дескрипшин, либо серый сабхедер
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="3207:17109" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I3207:17109;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3207:17109;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3207:17109;9460:7064;9460:7062">
+            Черный дескрипшин функциональный и несет ценность для клиента
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3207:17109;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3207:17109;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3207:17109;9460:7070;9460:7062">
+            Серый сабхедер подходит для дополнительных пояснений или второстепенной информации
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="3207:17110" data-name="Rules 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I3207:17110;9462:7294" data-name="Rules 1">
+          <div className="content-stretch flex flex-col gap-[440px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I3207:17110;9469:7138" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I3207:17110;9469:7138;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I3207:17110;9469:7138;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I3207:17110;9469:7138;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[20px] items-center justify-center left-1/2 top-1/2" data-node-id="I3207:17110;9469:7138;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I3207:17110;9469:7138;475:2321;475:2285" data-name="Instance Container">
+                <div className="relative shrink-0 size-[375px]" data-node-id="I3207:17110;9469:7138;475:2321;475:2285;609:2046" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I3207:17110;9469:7138;475:2321;475:2287" data-name="Instance Container">
+                <div className="relative shrink-0 size-[375px]" data-node-id="I3207:17110;9469:7138;475:2321;475:2287;609:2046" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I3207:17110;9469:7138;8349:7195">
+              ...
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I3207:17110;9462:7295" data-name="Status">
+            <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3207:17110;9462:7295;9460:7251">
+              Одинаковый цвет текста под заголовком
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I3207:17110;9462:7301" data-name="Rules 2">
+          <div className="content-stretch flex flex-col gap-[440px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I3207:17110;9469:7179" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I3207:17110;9469:7179;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I3207:17110;9469:7179;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I3207:17110;9469:7179;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[20px] items-center justify-center left-1/2 top-1/2" data-node-id="I3207:17110;9469:7179;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I3207:17110;9469:7179;475:2321;475:2285" data-name="Instance Container">
+                <div className="relative shrink-0 size-[375px]" data-node-id="I3207:17110;9469:7179;475:2321;475:2285;609:2046" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I3207:17110;9469:7179;475:2321;475:2287" data-name="Instance Container">
+                <div className="relative shrink-0 size-[375px]" data-node-id="I3207:17110;9469:7179;475:2321;475:2287;609:2046" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiCardLarge} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I3207:17110;9469:7179;8349:7195">
+              ...
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I3207:17110;9462:7305" data-name="Status">
+            <TuiIcFixedColorCrossCircleNegative className="relative shrink-0 size-[24px]" />
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3207:17110;9462:7305;9460:7248">
+              Нельзя сочетать черный и серый текст на одном экране
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), Day/Text/primary: #333333, iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Text/primary-on-dark: #FFFFFF, Day/Status/negative: #F52222.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-large
+**Node ID:** 34001:34084
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 34001:31705
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button
+**Node ID:** 34001:30408
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-avatar
+**Node ID:** 34001:8062
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-small / info
+**Node ID:** 1:782
+
+about
+
+## system=ios, size=medium, appearance=primary, state=normal, skeleton=off
+**Node ID:** 34001:30589
+
+Ex. primary-tinkoff
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 23516:21950
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-ic-medium / info
+**Node ID:** 50:9772
+
+information, details, explanation
+
+## tui-ic-fixed-color / cross-circle-negative
+**Node ID:** 11750:22949
+
+cancel, delete, remove, X
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

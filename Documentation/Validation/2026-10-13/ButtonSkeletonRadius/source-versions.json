@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-13",
+  "platform": "iOS Simulator 26.4.1",
+  "verifiedScope": "Button skeleton radii and six Day/Night source-frame-size renders only",
+  "inputHashes": {
+    "Sources/TUIDesignSystem/Components/Button/TUIButton.swift": "5e3ca5f9fa5649aaf7ebd4bb449a9d2f1df6b0e33ef6f22dae3d22f416d7d3b5",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-button-styles.json": "57cdda0088f7ab6c1df28edbefe38e868cda07ec6fdce285c66ea2957fa2bb63",
+    "Tests/TUIDesignSystemTests/ButtonCustomizationTests.swift": "03d8a89cc42654bca475200d36730789fbfb19521c3318d17ead9f2eeca5de02",
+    "Scripts/generate_web_catalog.py": "bacc8d11c676c75aed9ab2d2782b96deacc5dfed2427edc26be70c1b50748d4f",
+    "Documentation/References/Button/source-matrix-41658-296906-2026-10-08.txt": "192cf703909b1c0a6f1be7c7b919f26380078944429d39a98d2be9ce50f3dcf8",
+    "Documentation/References/Button/source-review-followup-2026-10-08.md": "9463c135c900d0f5de9c2298dc15a070773dd5b3973f27b78130939ff3ec4518",
+    "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/Native/manifest.json": "8f5488022c1dcdbc8157533b9734009216219672d439d2065bf815c37de9fd08",
+    "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/package-summary.json": "2b5d0fac3af6a4af0bb9b6a3da689c61728952af29281367ec46d4694522c2b7",
+    "Documentation/Validation/2026-10-13/ButtonSkeletonRadius/catalog-build.log": "601bd7034512be774430c4b6c7936f0bda60533903f51cbb686c9a59a1f3f3cc"
+  }
+}

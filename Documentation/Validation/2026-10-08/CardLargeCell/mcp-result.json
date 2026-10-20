@@ -1,0 +1,151 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "\n🧪 Test\n\nDiscovered 14 test(s):\n   TUIDesignSystemTests/CardLargeTests/testElevatedShadowWithFullFigmaEffectBounds\n   TUIDesignSystemTests/CardLargeTests/testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey\n   TUIDesignSystemTests/CardLargeTests/testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom\n   TUIDesignSystemTests/CardLargeTests/testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes\n   TUIDesignSystemTests/CardLargeTests/testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints\n   TUIDesignSystemTests/CardLargeTests/testSourceContainerGeometryWithMeasuredSlotFixtures\n   (...and 8 more)\n\n✅ 14 tests passed, 0 failed, 0 skipped (⏱️ 26.5s)\n  └ Files:\n     ├── /private/tmp/tui-cell-card-compositions-2026-10-08.xcresult — Result Bundle\n     └── ~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/\n         ├── logs/test_sim_2026-10-08T07-38-01-284Z_pid90401_085c2ab3.log — Build Logs\n         └── test-products/test_sim_2026-10-08T07-38-01-284Z_pid90401_439831bf.xctestproducts — Test Products\n"
+    }
+  ],
+  "structuredContent": {
+    "schema": "xcodebuildmcp.output.test-result",
+    "schemaVersion": "3",
+    "didError": false,
+    "error": null,
+    "data": {
+      "summary": {
+        "status": "SUCCEEDED",
+        "durationMs": 26503,
+        "counts": {
+          "passed": 14,
+          "failed": 0,
+          "skipped": 0
+        },
+        "target": "simulator"
+      },
+      "artifacts": {
+        "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-08T07-38-01-284Z_pid90401_085c2ab3.log",
+        "xcresultPath": "/private/tmp/tui-cell-card-compositions-2026-10-08.xcresult",
+        "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-08T07-38-01-284Z_pid90401_439831bf.xctestproducts"
+      },
+      "tests": {
+        "selected": [
+          "TUIDesignSystemTests/CardLargeTests/testElevatedShadowWithFullFigmaEffectBounds",
+          "TUIDesignSystemTests/CardLargeTests/testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+          "TUIDesignSystemTests/CardLargeTests/testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+          "TUIDesignSystemTests/CardLargeTests/testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+          "TUIDesignSystemTests/CardLargeTests/testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+          "TUIDesignSystemTests/CardLargeTests/testSourceContainerGeometryWithMeasuredSlotFixtures",
+          "TUIDesignSystemTests/CellTests/testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+          "TUIDesignSystemTests/CellTests/testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+          "TUIDesignSystemTests/CellTests/testCardCellCompositionsUseThePublicCell",
+          "TUIDesignSystemTests/CellTests/testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+          "TUIDesignSystemTests/CellTests/testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+          "TUIDesignSystemTests/CellTests/testLongValuesPreserveFullCellWidthFractionAndBothPriorities",
+          "TUIDesignSystemTests/CellTests/testNonExtendedInlineSuffixSurvivesTextFade",
+          "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+        ],
+        "discovered": {
+          "total": 14,
+          "items": [
+            "TUIDesignSystemTests/CardLargeTests/testElevatedShadowWithFullFigmaEffectBounds",
+            "TUIDesignSystemTests/CardLargeTests/testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+            "TUIDesignSystemTests/CardLargeTests/testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+            "TUIDesignSystemTests/CardLargeTests/testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+            "TUIDesignSystemTests/CardLargeTests/testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+            "TUIDesignSystemTests/CardLargeTests/testSourceContainerGeometryWithMeasuredSlotFixtures"
+          ]
+        }
+      },
+      "diagnostics": {
+        "warnings": [],
+        "errors": [],
+        "testFailures": []
+      },
+      "testCases": [
+        {
+          "suite": "CardLargeTests",
+          "test": "testElevatedShadowWithFullFigmaEffectBounds",
+          "status": "passed",
+          "durationMs": 881
+        },
+        {
+          "suite": "CardLargeTests",
+          "test": "testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+          "status": "passed",
+          "durationMs": 18
+        },
+        {
+          "suite": "CardLargeTests",
+          "test": "testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+          "status": "passed",
+          "durationMs": 15
+        },
+        {
+          "suite": "CardLargeTests",
+          "test": "testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+          "status": "passed",
+          "durationMs": 142
+        },
+        {
+          "suite": "CardLargeTests",
+          "test": "testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+          "status": "passed",
+          "durationMs": 8
+        },
+        {
+          "suite": "CardLargeTests",
+          "test": "testSourceContainerGeometryWithMeasuredSlotFixtures",
+          "status": "passed",
+          "durationMs": 144
+        },
+        {
+          "suite": "CellTests",
+          "test": "testAllIOSVariantsPreserveSourcePropertiesAndRenderBothThemes",
+          "status": "passed",
+          "durationMs": 696
+        },
+        {
+          "suite": "CellTests",
+          "test": "testAX1StacksTextByDefaultAndAccessoryOnlyWhenRequested",
+          "status": "passed",
+          "durationMs": 92
+        },
+        {
+          "suite": "CellTests",
+          "test": "testCardCellCompositionsUseThePublicCell",
+          "status": "passed",
+          "durationMs": 99
+        },
+        {
+          "suite": "CellTests",
+          "test": "testExplicitLineLimitsReleaseAtAX1AndCanBeRetained",
+          "status": "passed",
+          "durationMs": 55
+        },
+        {
+          "suite": "CellTests",
+          "test": "testFlexibleTextGrowsAndAccessibilitySizeDoesNotClipContent",
+          "status": "passed",
+          "durationMs": 42
+        },
+        {
+          "suite": "CellTests",
+          "test": "testLongValuesPreserveFullCellWidthFractionAndBothPriorities",
+          "status": "passed",
+          "durationMs": 391
+        },
+        {
+          "suite": "CellTests",
+          "test": "testNonExtendedInlineSuffixSurvivesTextFade",
+          "status": "passed",
+          "durationMs": 32
+        },
+        {
+          "suite": "WebCatalogExamplesTests",
+          "test": "testCopyableExamplesCompileAndRenderThroughPublicPackageAPI",
+          "status": "passed",
+          "durationMs": 1436
+        }
+      ]
+    }
+  }
+}

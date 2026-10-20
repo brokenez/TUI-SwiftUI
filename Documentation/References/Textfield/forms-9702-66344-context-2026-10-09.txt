@@ -1,0 +1,16 @@
+<frame id="9702:66344" name="Поведение" x="3241.9375" y="100" width="1190" height="4317">
+  <instance id="9702:66345" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="9702:66346" name="H2 + P" x="128" y="216" width="934" height="168" />
+  <instance id="9702:66347" name="H2 + P" x="128" y="384" width="934" height="88" />
+  <instance id="9702:66348" name="List Bulleted" x="128" y="472" width="934" height="197" />
+  <instance id="9702:66349" name="H2 + P" x="128" y="669" width="934" height="144" />
+  <instance id="9725:64298" name="Image 1x1" x="128" y="813" width="934" height="948" />
+  <instance id="9727:260869" name="Note" x="128" y="1761" width="934" height="140" />
+  <instance id="9702:66351" name="H2 + P" x="128" y="1901" width="934" height="144" />
+  <instance id="9702:66352" name="Image 1x1" x="128" y="2045" width="934" height="948" />
+  <instance id="9702:66353" name="H2 + P" x="128" y="2993" width="934" height="144" />
+  <instance id="9702:66354" name="Note" x="128" y="3137" width="934" height="104" />
+  <instance id="9702:66355" name="Image 1x1" x="128" y="3241" width="934" height="948" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

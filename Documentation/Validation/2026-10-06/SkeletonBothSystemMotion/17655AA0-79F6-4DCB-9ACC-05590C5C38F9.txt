@@ -1,0 +1,84 @@
+Attributes: Application, 0x11cde8f00, pid: 82097, label: 'Настройки'
+Element subtree:
+ →Application, 0x11cde8f00, pid: 82097, label: 'Настройки'
+    Window (Main), 0x11cde8000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11cde8140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11cde9b80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x11cde9cc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x11cde9e00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x11cde9040, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x11cde9180, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11cde92c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x11cde9400, {{0.0, 0.0}, {402.0, 874.0}}
+                      NavigationBar, 0x11cde9540, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Движение'
+                        Button, 0x11cde9680, {{16.0, 62.0}, {44.0, 44.0}}, identifier: 'BackButton', label: 'Универсальный доступ'
+                        StaticText, 0x11cde97c0, {{158.0, 73.7}, {86.0, 20.7}}, label: 'Движение'
+                      Other, 0x11cde9900, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x11cde9a40, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x11cde8780, {{0.0, 0.0}, {402.0, 874.0}}
+                            Other, 0x11cde8640, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x11cde8500, {{0.0, 116.0}, {402.0, 724.0}}
+                                Table, 0x11cde83c0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x11cde9f40, {{0.0, 116.0}, {402.0, 17.7}}
+                                  Cell, 0x11cdeb0c0, {{20.0, 133.7}, {362.0, 53.0}}, identifier: 'REDUCE_MOTION'
+                                    Other, 0x11cdeb480, {{20.0, 133.7}, {362.0, 53.0}}
+                                      Other, 0x11cdeb5c0, {{20.0, 133.7}, {362.0, 53.0}}
+                                        Switch, 0x11cdeb700, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 0
+                                          Button, 0x11cdeb840, {{36.0, 150.0}, {185.3, 20.3}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения'
+                                          Switch, 0x11cdeb980, {{305.0, 146.3}, {63.0, 28.0}}, value: 0
+                                  Other, 0x11cdebac0, {{0.0, 186.7}, {402.0, 46.0}}, identifier: 'Уменьшает движение пользовательского интерфейса, включая эффект параллакса значков.'
+                                    Other, 0x11cdebc00, {{20.0, 186.7}, {362.0, 46.0}}, label: 'Уменьшает движение пользовательского интерфейса, включая эффект параллакса значков.'
+                                  Other, 0x11cdebd40, {{0.0, 232.7}, {402.0, 17.7}}
+                                  Cell, 0x11cdebe80, {{20.0, 250.3}, {362.0, 73.3}}, identifier: 'REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES'
+                                    Other, 0x115c330c0, {{20.0, 250.3}, {362.0, 73.3}}
+                                      Other, 0x115c32e40, {{20.0, 250.3}, {362.0, 73.3}}
+                                        Switch, 0x115c32f80, {{36.0, 265.8}, {330.0, 42.3}}, identifier: 'REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES', label: 'Автовоспроизведение анимированных изображений', value: 1
+                                          Button, 0x115c30b40, {{36.0, 265.8}, {242.0, 42.3}}, identifier: 'REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES', label: 'Автовоспроизведение анимированных изображений'
+                                          Switch, 0x115c30c80, {{305.0, 273.0}, {63.0, 28.0}}, value: 1
+                                  Cell, 0x115c30dc0, {{20.0, 323.7}, {362.0, 53.0}}, identifier: 'REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS'
+                                    Other, 0x115c30000, {{20.0, 323.7}, {362.0, 53.0}}
+                                      Other, 0x115c30140, {{20.0, 323.7}, {362.0, 53.0}}
+                                        Switch, 0x115c30280, {{36.0, 336.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS', label: 'Автопредпросмотр видео', value: 1
+                                          Button, 0x115c303c0, {{36.0, 340.0}, {207.0, 20.3}}, identifier: 'REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS', label: 'Автопредпросмотр видео'
+                                          Switch, 0x115c30500, {{305.0, 336.3}, {63.0, 28.0}}, value: 1
+                                  Cell, 0x115c30640, {{20.0, 376.7}, {362.0, 53.0}}, identifier: 'ReduceMotionAutoplayMessagesEffects'
+                                    Other, 0x115c30780, {{20.0, 376.7}, {362.0, 53.0}}
+                                      Other, 0x115c308c0, {{20.0, 376.7}, {362.0, 53.0}}
+                                        Switch, 0x115c30a00, {{36.0, 389.3}, {330.0, 28.0}}, identifier: 'ReduceMotionAutoplayMessagesEffects', label: 'Эффекты сообщений', value: 1
+                                          Button, 0x115c335c0, {{36.0, 393.0}, {170.3, 20.3}}, identifier: 'ReduceMotionAutoplayMessagesEffects', label: 'Эффекты сообщений'
+                                          Switch, 0x115c33700, {{305.0, 389.3}, {63.0, 28.0}}, value: 1
+                                  Other, 0x115c33980, {{0.0, 429.7}, {402.0, 62.0}}, identifier: 'Выберите, будут ли видео, анимированные изображения и полноэкранные эффекты в сообщениях воспроизводиться автоматически.'
+                                    Other, 0x115c30f00, {{20.0, 429.7}, {362.0, 62.0}}, label: 'Выберите, будут ли видео, анимированные изображения и полноэкранные эффекты в сообщениях воспроизводиться автоматически.'
+                                  Other, 0x115c31180, {{0.0, 491.7}, {402.0, 17.7}}
+                                  Cell, 0x115c31040, {{20.0, 509.3}, {362.0, 73.3}}, identifier: 'PREFER_NONBLINKING_CURSOR'
+                                    Other, 0x11cdc9540, {{20.0, 509.3}, {362.0, 73.3}}
+                                      Other, 0x11cdc9680, {{20.0, 509.3}, {362.0, 73.3}}
+                                        Switch, 0x11cdc97c0, {{36.0, 524.8}, {330.0, 42.3}}, identifier: 'PREFER_NONBLINKING_CURSOR', label: 'Предпочтение курсора без мигания', value: 0
+                                          Button, 0x11cdc9900, {{36.0, 524.8}, {191.0, 42.3}}, identifier: 'PREFER_NONBLINKING_CURSOR', label: 'Предпочтение курсора без мигания'
+                                          Switch, 0x11cdc9a40, {{305.0, 532.0}, {63.0, 28.0}}, value: 0
+                                  Other, 0x11cdc9b80, {{0.0, 582.7}, {402.0, 30.0}}, identifier: 'Предпочитать немигающий курсор для текста.'
+                                    Other, 0x11cdc9cc0, {{20.0, 582.7}, {362.0, 30.0}}, label: 'Предпочитать немигающий курсор для текста.'
+                                  Other, 0x11cdcb0c0, {{0.0, 612.7}, {402.0, 17.7}}
+                                  Cell, 0x11cdcb200, {{20.0, 630.3}, {362.0, 53.0}}, identifier: 'REFRESH_RATE'
+                                    Other, 0x11cdca080, {{20.0, 630.3}, {362.0, 53.0}}
+                                      Other, 0x11cdca1c0, {{20.0, 630.3}, {362.0, 53.0}}
+                                        Switch, 0x11cdca300, {{36.0, 643.0}, {330.0, 28.0}}, identifier: 'REFRESH_RATE', label: 'Ограничение частоты кадров', value: 0
+                                          Button, 0x11cdca440, {{36.0, 646.7}, {236.3, 20.3}}, identifier: 'REFRESH_RATE', label: 'Ограничение частоты кадров'
+                                          Switch, 0x11cdcaf80, {{305.0, 643.0}, {63.0, 28.0}}, value: 0
+                                  Other, 0x11cdcae40, {{0.0, 683.3}, {402.0, 46.0}}, identifier: 'Максимальная частота кадров экрана устанавливается на 60 кадров в секунду.'
+                                    Other, 0x11cdcad00, {{20.0, 683.3}, {362.0, 46.0}}, label: 'Максимальная частота кадров экрана устанавливается на 60 кадров в секунду.'
+                                  Other, 0x11cdcabc0, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Вертикальная полоса прокрутки, 1 страница', value: 0 %
+                                    Other, 0x11cdcaa80, {{396.0, 119.0}, {3.0, 636.0}}
+                                  Other, 0x11cdca940, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Горизонтальная полоса прокрутки, 1 страница', value: 0 %
+                                    Other, 0x11cdca800, {{65.0, 868.0}, {272.0, 3.0}}
+                      Other, 0x11cdca6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x11cdca580, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x11cdc9e00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11cdc9f40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x11cde8f00, pid: 82097, label: 'Настройки'
+Query chain:
+ →Find: Application 'com.apple.Preferences'
+  Output: {
+    Application, 0x11cdc92c0, pid: 82097, label: 'Настройки'
+  }

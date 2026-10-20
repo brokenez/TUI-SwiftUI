@@ -1,0 +1,33 @@
+<frame id="28207:45962" name="Дополнительные примеры озвучки" x="12888" y="-3625" width="1190" height="12307">
+  <instance id="28207:45963" name="H1 + P" x="128" y="128" width="934" height="132" />
+  <instance id="28207:45964" name="H2 + P" x="128" y="260" width="934" height="88" />
+  <instance id="28207:45965" name="Image 1x1" x="128" y="348" width="934" height="480" />
+  <instance id="28207:45966" name="Image 1x1" x="128" y="828" width="934" height="690" />
+  <instance id="28207:45967" name="Image 1x1" x="128" y="1518" width="934" height="939" />
+  <instance id="28207:45968" name="Image 1x1" x="128" y="2457" width="934" height="512" />
+  <instance id="28207:45969" name="H2 + P" x="128" y="2969" width="934" height="88" />
+  <instance id="28207:45970" name="Image 1x1" x="128" y="3057" width="934" height="512" />
+  <instance id="28207:45971" name="Image 1x1" x="128" y="3569" width="934" height="734" />
+  <instance id="28207:45972" name="Image 1x1" x="128" y="4303" width="934" height="393" />
+  <instance id="28207:45973" name="Image 1x1" x="128" y="4696" width="934" height="634" />
+  <instance id="28207:45974" name="H3 + P" x="128" y="5330" width="934" height="72" />
+  <instance id="28207:45975" name="Image 1x1" x="128" y="5402" width="934" height="494" />
+  <instance id="28207:45976" name="H2 + P" x="128" y="5896" width="934" height="88" />
+  <instance id="28207:45977" name="Image 1x1" x="128" y="5984" width="934" height="640" />
+  <instance id="28207:45978" name="Image 1x1" x="128" y="6624" width="934" height="768" />
+  <instance id="28207:45979" name="Image 1x1" x="128" y="7392" width="934" height="446" />
+  <instance id="28207:45980" name="Image 1x1" x="128" y="7838" width="934" height="496" />
+  <instance id="28207:45981" name="H2 + P" x="128" y="8334" width="934" height="88" />
+  <instance id="28207:45982" name="Image 1x1" x="128" y="8422" width="934" height="464" />
+  <instance id="28207:45983" name="Image 1x1" x="128" y="8886" width="934" height="385" />
+  <instance id="28207:45984" name="Image 1x1" x="128" y="9271" width="934" height="451" />
+  <instance id="28207:45985" name="H3 + P" x="128" y="9722" width="934" height="72" />
+  <instance id="28207:45986" name="Image 1x1" x="128" y="9794" width="934" height="451" />
+  <instance id="28207:45987" name="H2 + P" x="128" y="10245" width="934" height="88" />
+  <instance id="28207:45988" name="Image 1x1" x="128" y="10333" width="934" height="434" />
+  <instance id="28207:45989" name="H3 + P" x="128" y="10767" width="934" height="72" />
+  <instance id="28207:45990" name="Image 1x1" x="128" y="10839" width="934" height="862" />
+  <instance id="28207:45991" name="Image 1x1" x="128" y="11701" width="934" height="478" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

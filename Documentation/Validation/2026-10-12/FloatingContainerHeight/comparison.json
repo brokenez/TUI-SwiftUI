@@ -1,0 +1,70 @@
+{
+  "pairs": [
+    {
+      "variantID": "55095:283930",
+      "theme": "Day",
+      "contentSize": [
+        375,
+        120
+      ],
+      "rgbMAE255": 1.2549037037037036,
+      "rasterLimitation": "MCP screenshot bakes a checkerboard into transparent pixels; alpha comparison is invalid.",
+      "source": "Documentation/References/FloatingContainer/2026-10-12/Variants/55095-283930.png",
+      "native": "Documentation/Validation/2026-10-12/FloatingContainerHeight/Package/5FB0765B-35E9-43F9-8842-99F385A83921.png",
+      "acceptance": "pending"
+    },
+    {
+      "variantID": "44286:299553",
+      "theme": "Day",
+      "contentSize": [
+        375,
+        120
+      ],
+      "rgbMAE255": 1.2498666666666667,
+      "rasterLimitation": "MCP screenshot bakes a checkerboard into transparent pixels; alpha comparison is invalid.",
+      "source": "Documentation/References/FloatingContainer/2026-10-12/Variants/44286-299553.png",
+      "native": "Documentation/Validation/2026-10-12/FloatingContainerHeight/Package/BF77EA47-A0A8-4552-A85D-6BF1AADAADBE.png",
+      "acceptance": "pending"
+    },
+    {
+      "variantID": "55095:283896",
+      "theme": "Day",
+      "contentSize": [
+        375,
+        136
+      ],
+      "rgbMAE255": 0.870797385620915,
+      "rasterLimitation": "MCP screenshot bakes a checkerboard into transparent pixels; alpha comparison is invalid.",
+      "source": "Documentation/References/FloatingContainer/2026-10-12/Variants/55095-283896.png",
+      "native": "Documentation/Validation/2026-10-12/FloatingContainerHeight/Package/3BB684F5-F6CA-43C7-B3F5-7649C2F507CA.png",
+      "acceptance": "pending"
+    },
+    {
+      "variantID": "44286:299510",
+      "theme": "Day",
+      "contentSize": [
+        375,
+        136
+      ],
+      "rgbMAE255": 0.8692222222222222,
+      "rasterLimitation": "MCP screenshot bakes a checkerboard into transparent pixels; alpha comparison is invalid.",
+      "source": "Documentation/References/FloatingContainer/2026-10-12/Variants/44286-299510.png",
+      "native": "Documentation/Validation/2026-10-12/FloatingContainerHeight/Package/7F9F2FAA-6D73-4D6E-A06F-5C8F748DFBF9.png",
+      "acceptance": "pending"
+    },
+    {
+      "variantID": "44286:299616",
+      "theme": "Day",
+      "contentSize": [
+        375,
+        80
+      ],
+      "rgbMAE255": 4.961766666666667,
+      "rasterLimitation": "MCP screenshot bakes a checkerboard into transparent pixels; alpha comparison is invalid.",
+      "source": "Documentation/References/FloatingContainer/2026-10-12/Variants/44286-299616.png",
+      "native": "Documentation/Validation/2026-10-12/FloatingContainerHeight/Package/2BB3240A-DCF5-4796-B8AE-7C51BA6F0C31.png",
+      "acceptance": "pending"
+    }
+  ],
+  "scope": "Five Day presets; custom-content editor Placeholder excluded. Night source refs unavailable. Source checkerboard retained; RGB MAE is diagnostic only."
+}

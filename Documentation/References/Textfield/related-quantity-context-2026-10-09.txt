@@ -1,0 +1,456 @@
+const imgTuiIcFixedColorCrossCircleNegative = "ASSET_URL_REDACTED";
+const imgTuiIcFixedColorCheckCirclePositive = "ASSET_URL_REDACTED";
+const imgBullet = "ASSET_URL_REDACTED";
+const imgStart = "ASSET_URL_REDACTED";
+const imgTuiAmount = "ASSET_URL_REDACTED";
+const imgColor = "ASSET_URL_REDACTED";
+
+function TuiIcFixedColorCrossCircleNegative({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="516:2105" data-name="tui-ic-fixed-color / cross-circle-negative">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCrossCircleNegative} />
+    </div>
+  );
+}
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="1701:2189" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+
+type StatusProps = {
+  className?: string;
+  rule?: "Right" | "Wrong";
+};
+
+function Status({ className, rule = "Right" }: StatusProps) {
+  const isRight = rule === "Right";
+  const isWrong = rule === "Wrong";
+  return (
+    <div className={className || "content-stretch flex gap-[8px] items-start relative"} id={isWrong ? "node-1701_2198" : "node-1701_2196"}>
+      {isRight && (
+        <>
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="1701:2200">
+            Правильно
+          </p>
+        </>
+      )}
+      {isWrong && (
+        <>
+          <TuiIcFixedColorCrossCircleNegative className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="1701:2204">
+            Неправильно
+          </p>
+        </>
+      )}
+    </div>
+  );
+}
+
+export default function Component({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px]"} data-node-id="33:940" data-name="Форматирование">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="7:8902" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I7:8902;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:8902;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Форматирование
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I7:8902;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I7:8902;9462:7160">
+            Текст форматирутеся автоматически по редполитике и гайдам по тексту в интерфейсах
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="7:18306" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I7:18306;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7064;9460:7062">
+            Если показываем дробную часть, то всегда 2 цифры, даже если ноль в конце (например, 299,90)
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18306;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7070;9460:7062">
+            Допустимо скрывать дробную часть, если значения нулевые
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18306;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7077;9460:7062">
+            Обязательно показываем знаки после запятой, если их значение ненулевое
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18306;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7082;9460:7062">
+            Цвет знаков после запятой не отличается от остальных
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18306;9460:7087" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7087;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7087;9460:7062">
+            Все пробелы неразрывные
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18306;9460:7092" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18306;9460:7092;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18306;9460:7092;9460:7062">
+            Отбивку дробной части точкой или запятой берем в зависимости от локали приложения
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10:5676" data-name="Rules 2x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I10:5676;9462:7294" data-name="Rules 1">
+          <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I10:5676;9469:7138" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I10:5676;9469:7138;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I10:5676;9469:7138;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I10:5676;9469:7138;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[12px] items-center justify-center left-1/2 top-1/2" data-node-id="I10:5676;9469:7138;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:5676;9469:7138;475:2321;475:2285" data-name="Instance Container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I10:5676;9469:7138;475:2321;475:2285;525:2057" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:5676;9469:7138;475:2321;475:2287" data-name="Instance Container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I10:5676;9469:7138;475:2321;475:2287;525:2057" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I10:5676;9469:7138;8349:7195">
+              ...
+            </p>
+          </div>
+          <Status className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" />
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing\/description-spacing,16px)] items-start min-w-px relative" data-node-id="I10:5676;9462:7301" data-name="Rules 2">
+          <div className="content-stretch flex flex-col gap-[320px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I10:5676;9469:7179" data-name="Image Placeholder">
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I10:5676;9469:7179;475:2302" data-name="Start">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="I10:5676;9469:7179;475:2303" data-name="End">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+            </div>
+            <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I10:5676;9469:7179;5375:1772" data-name="Content Appearance" />
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[12px] items-center justify-center left-1/2 top-1/2" data-node-id="I10:5676;9469:7179;475:2321" data-name="Multiple Instances">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:5676;9469:7179;475:2321;475:2285" data-name="Instance Container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I10:5676;9469:7179;475:2321;475:2285;525:2057" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+                </div>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:5676;9469:7179;475:2321;475:2287" data-name="Instance Container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I10:5676;9469:7179;475:2321;475:2287;525:2057" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I10:5676;9469:7179;8349:7195">
+              ...
+            </p>
+          </div>
+          <Status className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" rule="Wrong" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="7:18340" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I7:18340;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18340;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Знаки плюса и минуса
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="7:18374" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I7:18374;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18374;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18374;9460:7064;9460:7062">
+            Для позитивных значений используем знак + (U+002B)
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18374;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18374;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18374;9460:7070;9460:7062">
+            Для негативных значений используем знак − (U+2212). Дефисы, тире, короткие тире — нельзя
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18374;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18374;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18374;9460:7077;9460:7062">
+            Знаки ставятся без пробелов и отступов
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="7:18448" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I7:18448;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I7:18448;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Разрядность
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I7:18448;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I7:18448;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I7:18448;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I7:18448;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I7:18448;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I7:18448;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I7:18448;2128:283;6917:52782">
+                  digit-grouping
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I7:18448;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I7:18448;9462:7170">
+            Отбиваем неразрывным пробелом разряды от 4 цифр, по 3 символа начиная справа
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10:6237" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[340px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I10:6237;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6237;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6237;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I10:6237;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I10:6237;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6237;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6237;9469:7126;475:2321;475:2285;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6237;9469:7126;475:2321;475:2287" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6237;9469:7126;475:2321;475:2287;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6237;9469:7126;475:2321;475:2291" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6237;9469:7126;475:2321;475:2291;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6237;9469:7126;475:2321;936:1837" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6237;9469:7126;475:2321;936:1837;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I10:6237;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="7:18406" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I7:18406;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I7:18406;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Знак валюты
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I7:18406;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I7:18406;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I7:18406;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I7:18406;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I7:18406;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I7:18406;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I7:18406;2128:283;6917:52782">
+                  currency-symbols
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I7:18406;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I7:18406;9462:7170">
+            По редполитике написание знаков валют может отличаться в различных локализациях интерфейса
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="7:18450" data-name="H3 + P">
+        <div className="content-stretch flex flex-[1_0_0] gap-[10px] items-start min-w-px relative" data-node-id="I7:18450;3591:1938" data-name="### H3">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[32px] not-italic relative shrink-0 text-[28px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I7:18450;9504:7004" style={{ fontFeatureSettings: '"liga" 0' }}>
+            В русскоязычных интерфейсах
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="7:18412" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I7:18412;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18412;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18412;9460:7064;9460:7062">
+            Знак валюты ставим справа, отделяем неразрывным пробелом (U+00A0)
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18412;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18412;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18412;9460:7070;9460:7062">
+            Если у валюты нет знака, код валюты пишется латинницей, заглавными буквами и отделяется неразрывным пробелом
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10:6055" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[410px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I10:6055;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6055;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6055;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I10:6055;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I10:6055;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6055;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6055;9469:7126;475:2321;475:2285;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6055;9469:7126;475:2321;475:2287" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6055;9469:7126;475:2321;475:2287;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6055;9469:7126;475:2321;475:2291" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6055;9469:7126;475:2321;475:2291;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I10:6055;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start pb-[var(--indents\/bottom-indent-m,24px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="7:18431" data-name="H3 + P">
+        <div className="content-stretch flex flex-[1_0_0] gap-[10px] items-start min-w-px relative" data-node-id="I7:18431;3591:1938" data-name="### H3">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[32px] not-italic relative shrink-0 text-[28px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I7:18431;9504:7004" style={{ fontFeatureSettings: '"liga" 0' }}>
+            В иноязычных интерфейсах
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="7:18433" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I7:18433;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18433;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18433;9460:7064;9460:7062">
+            В иноязычных знак валюты ставим слева без пробела
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I7:18433;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I7:18433;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I7:18433;9460:7070;9460:7062">
+            Если у валюты нет знака, код валюты пишется латинницей, заглавными буквами и отделяется неразрывным пробелом
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10:6188" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[410px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I10:6188;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6188;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I10:6188;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I10:6188;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I10:6188;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6188;9469:7126;475:2321;475:2285" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6188;9469:7126;475:2321;475:2285;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I10:6188;9469:7126;475:2321;475:2287" data-name="Instance Container">
+              <div className="relative shrink-0 size-[24px]" data-node-id="I10:6188;9469:7126;475:2321;475:2287;525:2057" data-name=".Instance">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAmount} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I10:6188;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Numbers XL: Font(family: "SF Pro Rounded", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.3569999933242798), iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10), iOS/Numbers M: Font(family: "SF Pro Rounded", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3569999933242798).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-amount
+**Node ID:** 1701:9042
+
+Форматтер для отображения денежных сумм и других числовых значений
+
+  
+
+Keywords: money, quantity, number
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-amount-specs](https://go.tcsbank.ru/tui-amount-specs)
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 1701:2189
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-ic-fixed-color / cross-circle-negative
+**Node ID:** 516:2105
+
+cancel, delete, remove, X
+
+## tui-badge
+**Node ID:** 1701:8522
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 170:2031
+
+save, mark, favorite, remember
+
+Images and SVGs will be stored as constants, e.g. const image = 'ASSET_URL_REDACTED'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

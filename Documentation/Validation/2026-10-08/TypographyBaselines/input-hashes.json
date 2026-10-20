@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-08",
+  "scope": "Typography runtime and baseline measurements, not full Foundation visual acceptance",
+  "inputHashes": {
+    "Sources/TUIDesignSystem/Foundation/TUITypography.swift": "ca5254803378bd32af7789c920c59ba60d49d01d4f495d62726cda1b86c9f22c",
+    "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift": "b2c4138d1325afbc6c658d59457aed3450d00db0a781f7eedb129ae3ca3a2e3b",
+    "Sources/TUIDesignSystem/Catalog/TUIComponentCatalogView.swift": "ddfc8cd5a49e5dd3b19f36f5283a3e338d87c8ce51eac44d12b3fb1e7563910f",
+    "Tests/TUIDesignSystemTests/TypographySpecificationTests.swift": "cec5cf13fef980c40569226739ee6ca33023f33285195955718aed4d61bd9d10",
+    "Tests/TUIDesignSystemTests/FoundationTokenTests.swift": "aa6d8108c444b00cb957a3dc943ffd01001cd8e37d4bef53296dc2fb2af02d69",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json": "bc3140e4761494f35fdbc7f00174c8b55e05e55a4d2547878c73052b6c52b11a",
+    "Package.swift": "706a0cc949cc375f4539d9e8d36b4e12c0f954f46dac3c8ba9410d152e80ae10"
+  },
+  "baselineCases": 32,
+  "maximumBaselineErrorPoints": 2.984279490192421e-13
+}

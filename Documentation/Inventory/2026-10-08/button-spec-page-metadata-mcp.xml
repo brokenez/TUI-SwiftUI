@@ -1,0 +1,933 @@
+<canvas id="1:3" name="     ↳ tui-button " x="0" y="0" width="0" height="0">
+  <section id="81:47927" name="Дизайн" x="-808" y="2342" width="12612" height="16000">
+    <frame id="81:57042" name="Стили" x="100" y="100" width="1496" height="15800">
+      <instance id="81:57043" name="H1 + P" x="128" y="128" width="1240" height="88" />
+      <frame id="81:57044" name="row" x="128" y="216" width="1240" height="56">
+        <instance id="81:57045" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+        <instance id="81:57046" name="tui-table-сell" x="310" y="0" width="190" height="56" />
+        <instance id="81:57047" name="tui-table-сell" x="500" y="0" width="370" height="56" />
+        <instance id="81:57048" name="tui-table-сell" x="870" y="0" width="370" height="56" />
+      </frame>
+      <frame id="81:57049" name="row" x="128" y="272" width="1240" height="616">
+        <instance id="81:57050" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57051" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57052" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57053" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="81:57054" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="81:57055" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="81:57056" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="81:57057" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="81:57058" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57059" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="81:57060" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57061" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57062" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57063" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57064" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57065" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57066" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="81:57067" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57068" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57069" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57070" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57071" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57072" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="81:57073" name="row" x="128" y="888" width="1240" height="616">
+        <instance id="81:57074" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57075" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57076" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57077" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="81:57078" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="81:57079" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="81:57080" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="81:57081" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="81:57082" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57083" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="81:57084" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57085" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57086" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57087" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57088" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57089" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57090" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="81:57091" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57092" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57093" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57094" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57095" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57096" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:32421" name="row" x="128" y="1504" width="1240" height="616">
+        <instance id="21430:32422" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:32423" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:32424" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:32425" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="21430:32426" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="21430:32536" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="21430:32428" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="21430:32429" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="21430:32430" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:32431" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21430:32432" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21430:32433" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32434" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32435" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32436" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32437" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:32438" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21430:32439" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21430:32440" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32441" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32442" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32443" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32444" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="94:86374" name="row" x="128" y="2120" width="1240" height="616">
+        <instance id="94:86375" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="94:86376" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="94:86377" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="94:86378" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="94:86379" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="94:86380" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="94:86381" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="94:86382" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="94:86383" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="94:86384" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="94:86385" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="94:86386" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="94:86387" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="94:86388" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="94:86389" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="94:86390" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="94:86391" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="94:86392" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="94:86393" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="94:86394" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="94:86395" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="94:86396" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="94:86397" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="98:2528" name="row" x="128" y="2736" width="1240" height="616">
+        <frame id="130:284298" name="Bakground Light" x="310" y="0" width="930" height="1232" hidden="true" />
+        <instance id="98:2529" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="98:2530" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+      <frame id="94:86483" name="row" x="128" y="3352" width="1240" height="616">
+        <instance id="94:86484" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="94:86485" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+      <frame id="98:14253" name="row" x="128" y="3968" width="1240" height="616">
+        <instance id="98:14254" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="98:14255" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="98:14256" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="98:14257" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="98:14258" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="98:14259" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="98:14260" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="98:14261" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="98:14262" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="98:14263" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="98:14264" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="98:14265" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="98:14266" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="98:14267" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="98:14268" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="98:14269" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="98:14270" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="98:14271" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="98:14272" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="98:14273" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="98:14274" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="98:14275" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="98:14276" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="81:57097" name="row" x="128" y="4584" width="1240" height="616">
+        <instance id="81:57098" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57099" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57100" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57101" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="81:57102" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="522:2466" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="81:57103" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="81:57104" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="81:57105" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57106" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="81:57107" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57108" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="522:2470" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57109" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57110" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57111" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57112" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="81:57113" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57114" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="522:2471" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57115" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57116" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57117" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:32569" name="row" x="128" y="5200" width="1240" height="616">
+        <instance id="21430:32570" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:32571" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:32572" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:32573" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="21430:32574" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="21430:32575" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="21430:32576" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="21430:32577" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="21430:32578" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:32579" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21430:32580" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21430:32581" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32582" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32583" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32584" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32585" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:32586" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21430:32587" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21430:32588" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32589" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32590" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32591" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32592" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:32690" name="row" x="128" y="5816" width="1240" height="616">
+        <instance id="21430:32691" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:32692" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:32693" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:32694" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="21430:32695" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="21430:32696" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="21430:32697" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="21430:32698" name="tui-button [on-light-on-dark]" x="40" y="424" width="56" height="56" />
+            <instance id="21430:32699" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:32700" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21430:32701" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21430:32702" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32703" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32704" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32705" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32706" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:32707" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21430:32708" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21430:32709" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32710" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21430:32711" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21430:32712" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21430:32713" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="6480:62219" name="row" x="128" y="6432" width="1240" height="616">
+        <instance id="6480:62220" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="6480:62221" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="6480:62222" name="Bakground Light" x="0" y="0" width="930" height="1232" />
+          <frame id="6925:3363" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="6925:3364" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="6925:3365" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="6925:3366" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="6925:3367" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="6925:3368" name="tui-button [on-light-on-dark]" x="40" y="424" width="103" height="56" />
+            <instance id="6925:3369" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="6480:62230" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="6480:62231" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="6480:62232" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="6480:62233" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="6480:62234" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="6480:62235" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="6480:62236" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="6480:62237" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="6480:62238" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="6480:62239" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="6480:62240" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="6480:62241" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="6480:62242" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="6480:62243" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="81:57118" name="row" x="128" y="7048" width="1240" height="616">
+        <instance id="81:57119" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57120" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57121" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57122" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="81:57123" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="830:2976" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="81:57124" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="81:57125" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="81:57126" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57127" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="81:57128" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57129" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="830:2977" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57130" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57131" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57132" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57133" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="81:57134" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="81:57135" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="830:2978" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="81:57136" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="81:57137" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="81:57138" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="5888:33222" name="row" x="128" y="7664" width="1240" height="616">
+        <instance id="5888:33223" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="5888:33224" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="5904:38631" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="5904:38632" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="5904:38633" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="5904:38634" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="5904:38635" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="5904:38636" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="5904:38637" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="5888:33232" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="5888:33233" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="5888:33234" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="5888:33235" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="5888:33236" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="5888:33237" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="5888:33238" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="5888:33239" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="5888:33240" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="5888:33241" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="5888:33242" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="5888:33243" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="5888:33244" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="5888:33245" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21432:37040" name="row" x="128" y="8280" width="1240" height="616">
+        <instance id="21432:37041" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21432:37042" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21432:37043" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21432:37044" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="21432:37045" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="21432:37046" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="21432:37047" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="21432:37048" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="21432:37049" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21432:37050" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21432:37051" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21432:37052" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37053" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37054" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37055" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37056" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21432:37057" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21432:37058" name="tui-button" x="40" y="40" width="290" height="56" />
+            <text id="21432:37059" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37060" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37061" name="tui-button" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37062" name="tui-button" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37063" name="tui-button" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21432:37161" name="row" x="128" y="8896" width="1240" height="616">
+        <instance id="21432:37162" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21432:37163" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21432:37164" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21432:37165" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="21432:37166" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="21432:37167" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="21432:37168" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="21432:37169" name="tui-button [on-light-on-dark]" x="40" y="424" width="56" height="56" />
+            <instance id="21432:37170" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21432:37171" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21432:37172" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21432:37173" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37174" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37175" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37176" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37177" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21432:37178" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21432:37179" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21432:37180" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37181" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37182" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37183" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37184" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="19762:7297" name="row" x="128" y="9512" width="1240" height="616">
+        <instance id="19762:7298" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="19762:7299" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="19762:7300" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="19762:7301" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="19762:7302" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="19762:7303" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="19762:7304" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="19762:7305" name="tui-button [on-light-on-dark]" x="40" y="424" width="103" height="56" />
+            <instance id="19762:7306" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21432:37363" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <instance id="21432:37364" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21432:37365" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37366" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37367" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37368" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37369" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21432:37393" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <instance id="21432:37394" name="tui-button [on-light-on-dark]" x="40" y="40" width="290" height="56" />
+            <text id="21432:37395" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21432:37396" name="Button Label" x="40" y="232" width="290" height="56" />
+            <instance id="21432:37397" name="tui-button [on-light-on-dark]" x="40" y="328" width="290" height="56" />
+            <instance id="21432:37398" name="tui-button [on-light-on-dark]" x="40" y="424" width="290" height="56" />
+            <instance id="21432:37399" name="tui-button [on-light-on-dark]" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="81:57223" name="row" x="128" y="10128" width="1240" height="616">
+        <instance id="81:57224" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57225" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57226" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57227" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="81:57228" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="81:57229" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="81:57230" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="81:57231" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="81:57232" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57233" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <text id="81:57234" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="81:57235" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57236" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="81:57237" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="81:57238" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="81:57239" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57240" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <text id="81:57241" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="81:57242" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57243" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="81:57244" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="81:57245" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="81:57246" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:32271" name="row" x="128" y="10744" width="1240" height="616">
+        <instance id="21430:32272" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:32273" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:32274" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:32275" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="21430:32276" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="21430:32277" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="21430:32278" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="21430:32279" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="21430:32280" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:32281" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <text id="21430:32282" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:32283" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32284" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:32285" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:32286" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:32287" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:32288" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <text id="21430:32289" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:32290" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32291" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:32292" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:32293" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:32294" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:32346" name="row" x="128" y="11360" width="1240" height="616">
+        <instance id="21430:32347" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:32348" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:32349" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:32350" name="tui-button" x="40" y="40" width="90" height="56" />
+            <instance id="21430:32351" name="tui-button" x="40" y="136" width="82" height="56" />
+            <instance id="21430:32352" name="tui-button" x="40" y="232" width="81" height="56" />
+            <instance id="21430:32353" name="tui-button" x="40" y="328" width="95" height="56" />
+            <instance id="21430:32354" name="tui-button" x="40" y="424" width="103" height="56" />
+            <instance id="21430:32355" name="tui-button" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:32356" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <text id="21430:32357" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:32358" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32359" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:32360" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:32361" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:32362" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:32363" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <text id="21430:32364" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:32365" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:32366" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:32367" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:32368" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:32369" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="81:57247" name="row" x="128" y="11976" width="1240" height="616">
+        <instance id="81:57248" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57249" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="81:57250" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="81:57251" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="81:57252" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="81:57253" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="81:57254" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="81:57255" name="tui-button [on-light-on-dark]" x="40" y="424" width="103" height="56" />
+            <instance id="81:57256" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="81:57257" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <text id="81:57258" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="81:57259" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57260" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="81:57261" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="81:57262" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="81:57263" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="81:57264" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <text id="81:57265" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="81:57266" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="81:57267" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="81:57268" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="81:57269" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="81:57270" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21430:10370" name="row" x="128" y="12592" width="1240" height="616">
+        <instance id="21430:10371" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21430:10372" name="preview" x="310" y="0" width="930" height="616">
+          <frame id="21430:10373" name="tui-table сell" x="0" y="0" width="190" height="616">
+            <instance id="21430:10374" name="tui-button [on-light-on-dark]" x="40" y="40" width="90" height="56" />
+            <instance id="21430:10375" name="tui-button [on-light-on-dark]" x="40" y="136" width="82" height="56" />
+            <instance id="21430:10376" name="tui-button [on-light-on-dark]" x="40" y="232" width="81" height="56" />
+            <instance id="21430:10377" name="tui-button [on-light-on-dark]" x="40" y="328" width="95" height="56" />
+            <instance id="21430:10378" name="tui-button [on-light-on-dark]" x="40" y="424" width="103" height="56" />
+            <instance id="21430:10379" name="tui-button [on-light-on-dark]" x="40" y="520" width="110" height="56" />
+          </frame>
+          <frame id="21430:10380" name="tui-table сell" x="190" y="0" width="370" height="616">
+            <text id="21430:10381" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:10382" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:10383" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:10384" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:10385" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:10386" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+          <frame id="21430:10387" name="tui-table сell" x="560" y="0" width="370" height="616">
+            <text id="21430:10388" name="Button Label" x="40" y="40" width="290" height="56" />
+            <text id="21430:10389" name="Button Label" x="40" y="136" width="290" height="56" />
+            <text id="21430:10390" name="Button Label" x="40" y="232" width="290" height="56" />
+            <text id="21430:10391" name="Button Label" x="40" y="328" width="290" height="56" />
+            <text id="21430:10392" name="Button Label" x="40" y="424" width="290" height="56" />
+            <text id="21430:10393" name="Button Label" x="40" y="520" width="290" height="56" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="21432:36864" name="row" x="128" y="13208" width="1240" height="616">
+        <instance id="21432:36865" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="21432:36866" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+      <frame id="81:57181" name="row" x="128" y="13824" width="1240" height="616">
+        <instance id="81:57182" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57183" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+      <frame id="81:57163" name="row" x="128" y="14440" width="1240" height="616">
+        <instance id="81:57164" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57165" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+      <frame id="81:57139" name="row" x="128" y="15056" width="1240" height="616">
+        <instance id="81:57140" name="tui-table-сell" x="0" y="0" width="310" height="616" />
+        <frame id="81:57141" name="preview" x="310" y="0" width="930" height="616" />
+      </frame>
+    </frame>
+    <frame id="81:48109" name="Состояния" x="3586" y="100" width="1190" height="5351">
+      <instance id="81:48110" name="H1 + P" x="128" y="128" width="934" height="132" />
+      <instance id="81:48112" name="H2 + P" x="128" y="260" width="934" height="120" />
+      <instance id="81:48114" name="H2 + P" x="128" y="380" width="934" height="120" />
+      <instance id="81:48115" name="List Bulleted" x="128" y="500" width="934" height="101" />
+      <frame id="110:171207" name="Frame 12343642" x="128" y="601" width="934" height="368">
+        <instance id="110:171158" name="Image 1x1" x="0" y="0" width="934" height="352" />
+        <instance id="110:171208" name="[deprecated] Hand Pointer" x="557" y="178" width="21" height="22" />
+      </frame>
+      <instance id="81:48125" name="tui-spacing" x="128" y="969" width="934" height="40" />
+      <instance id="110:171215" name="H2 + P" x="128" y="1009" width="934" height="120" />
+      <frame id="110:171942" name="Desktop" x="128" y="1129" width="934" height="368">
+        <instance id="110:171943" name="Illustrated Text" x="0" y="0" width="934" height="352" />
+        <instance id="110:172021" name="[deprecated] Hand Pointer" x="159" y="176" width="21" height="22" />
+        <instance id="110:172022" name="[deprecated] Hand Pointer" x="296" y="176" width="21" height="22" />
+      </frame>
+      <frame id="110:171334" name="iOS" x="128" y="1497" width="934" height="368">
+        <instance id="110:171219" name="Illustrated Text" x="0" y="0" width="934" height="352" />
+        <ellipse id="110:171335" name="Ellipse 1" x="308" y="197" width="40" height="40" />
+      </frame>
+      <frame id="110:171336" name="Android" x="128" y="1865" width="934" height="368">
+        <instance id="110:171337" name="Illustrated Text" x="0" y="0" width="934" height="352" />
+        <frame id="110:171416" name="Frame 12343645" x="226" y="177" width="160" height="56" />
+        <ellipse id="110:171338" name="Ellipse 1" x="308" y="197" width="40" height="40" />
+      </frame>
+      <instance id="81:48160" name="tui-spacing" x="128" y="2233" width="934" height="40" />
+      <instance id="81:48161" name="H2 + P" x="128" y="2273" width="934" height="120" />
+      <instance id="81:48162" name="List Bulleted" x="128" y="2393" width="934" height="149" />
+      <instance id="110:171489" name="Image 1x1" x="128" y="2542" width="934" height="352" />
+      <instance id="81:48171" name="tui-spacing" x="128" y="2894" width="934" height="40" />
+      <instance id="81:48172" name="H2 + P" x="128" y="2934" width="934" height="120" />
+      <instance id="81:48173" name="List Bulleted" x="128" y="3054" width="934" height="101" />
+      <instance id="704:2724" name="H3 + P" x="128" y="3155" width="934" height="72" />
+      <frame id="704:2465" name="image" x="128" y="3227" width="934" height="566">
+        <frame id="704:2499" name="img-placeholder" x="0" y="0" width="934" height="518">
+          <frame id="704:2568" name="placeholder-instance-mlutiple" x="287" y="117" width="352" height="56">
+            <instance id="704:2618" name="tui-button" x="0" y="0" width="128" height="56" />
+            <instance id="704:2628" name="tui-button" x="144" y="0" width="56" height="56" />
+            <instance id="704:2620" name="tui-button" x="216" y="0" width="136" height="56" />
+            <instance id="704:2572" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2573" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+          <frame id="704:2649" name="placeholder-instance-mlutiple" x="299" y="208" width="332" height="44">
+            <instance id="704:2650" name="tui-button" x="0" y="0" width="120" height="44" />
+            <instance id="704:2651" name="tui-button" x="136" y="0" width="56" height="44" />
+            <instance id="704:2652" name="tui-button" x="208" y="0" width="124" height="44" />
+            <instance id="704:2653" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2654" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+          <frame id="704:2672" name="placeholder-instance-mlutiple" x="325" y="287" width="282" height="32">
+            <instance id="704:2673" name="tui-button" x="0" y="0" width="96" height="32" />
+            <instance id="704:2674" name="tui-button" x="112" y="0" width="56" height="32" />
+            <instance id="704:2675" name="tui-button" x="184" y="0" width="98" height="32" />
+            <instance id="704:2676" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2677" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+          <frame id="704:2695" name="placeholder-instance-mlutiple" x="331" y="354" width="268" height="24">
+            <instance id="704:2696" name="tui-button" x="0" y="0" width="88" height="24" />
+            <instance id="704:2697" name="tui-button" x="104" y="0" width="56" height="24" />
+            <instance id="704:2698" name="tui-button" x="176" y="0" width="92" height="24" />
+            <instance id="704:2699" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2700" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="704:2746" name="H3 + P" x="128" y="3793" width="934" height="72" />
+      <frame id="704:2749" name="image" x="128" y="3865" width="934" height="494">
+        <frame id="704:2750" name="img-placeholder" x="0" y="0" width="934" height="446">
+          <frame id="704:2751" name="placeholder-instance-mlutiple" x="103" y="117" width="728" height="56">
+            <instance id="704:2819" name="tui-button" x="0" y="0" width="320" height="56" />
+            <instance id="704:2753" name="tui-button" x="336" y="0" width="56" height="56" />
+            <instance id="704:2823" name="tui-button" x="408" y="0" width="320" height="56" />
+            <instance id="704:2755" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2756" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+          <frame id="704:2829" name="placeholder-instance-mlutiple" x="103" y="203" width="728" height="56">
+            <instance id="704:2830" name="tui-button" x="0" y="6" width="320" height="44" />
+            <instance id="704:2831" name="tui-button" x="336" y="0" width="56" height="56" />
+            <instance id="704:2832" name="tui-button" x="408" y="6" width="320" height="44" />
+            <instance id="704:2833" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2834" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+          <frame id="704:2856" name="placeholder-instance-mlutiple" x="354" y="289" width="222" height="56">
+            <instance id="704:2857" name="tui-button" x="0" y="13" width="65" height="30" />
+            <instance id="704:2858" name="tui-button" x="81" y="0" width="56" height="56" />
+            <instance id="704:2859" name="tui-button" x="153" y="13" width="69" height="30" />
+            <instance id="704:2860" name="Instance Container" x="156" y="0" width="40" height="40" hidden="true" />
+            <instance id="704:2861" name="Instance Container" x="208" y="0" width="40" height="40" hidden="true" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="81:48185" name="tui-spacing" x="128" y="4359" width="934" height="40" />
+      <instance id="81:48186" name="H2 + P" x="128" y="4399" width="934" height="120" />
+      <instance id="110:171719" name="Illustrated Text" x="128" y="4519" width="934" height="352" />
+      <instance id="110:171874" name="Illustrated Text" x="128" y="4871" width="934" height="352" />
+    </frame>
+    <frame id="81:48206" name="Размеры" x="5176" y="100" width="1190" height="1286">
+      <instance id="81:48207" name="H1 + P" x="128" y="128" width="934" height="132" />
+      <instance id="81:48208" name="H2 + P" x="128" y="260" width="934" height="120" />
+      <frame id="81:48209" name="card-1x1" x="128" y="380" width="934" height="353">
+        <frame id="81:48210" name="Container" x="0" y="0" width="934" height="305">
+          <instance id="81:48211" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="81:48212" name="card-content" x="0" y="32" width="934" height="241">
+            <frame id="81:48213" name="image" x="32" y="0" width="870" height="241">
+              <instance id="81:48214" name="tui-button" x="206" y="93" width="137" height="56" />
+              <instance id="81:48215" name="tui-button" x="365" y="93" width="89" height="44" />
+              <instance id="81:48216" name="tui-button" x="478" y="93" width="53" height="32" />
+              <instance id="81:48217" name="tui-button" x="553" y="93" width="55" height="24" />
+            </frame>
+          </frame>
+          <instance id="81:48218" name=".card-footer" x="0" y="273" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="81:48219" name="H2 + P" x="128" y="733" width="934" height="120" />
+      <frame id="81:48220" name="card-1x1" x="128" y="853" width="934" height="305">
+        <frame id="81:48221" name="Container" x="0" y="0" width="934" height="305">
+          <instance id="81:48222" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="81:48223" name="card-content" x="0" y="32" width="934" height="241">
+            <frame id="81:48224" name="image" x="32" y="0" width="870" height="241">
+              <instance id="81:48225" name="Instance Container" x="210" y="93" width="162" height="56" />
+              <instance id="81:48226" name="Instance Container" x="399.5" y="93" width="92" height="44" />
+              <instance id="81:48227" name="Instance Container" x="526" y="93" width="57" height="30" />
+            </frame>
+          </frame>
+          <instance id="81:48228" name=".card-footer" x="0" y="273" width="934" height="32" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="81:48229" name="Дополнительные возможности" x="6766" y="100" width="1190" height="6295">
+      <instance id="81:48230" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="81:48231" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <frame id="81:48232" name="Frame 2" x="128" y="304" width="934" height="352">
+        <instance id="81:48233" name="Image 1x1" x="0" y="0" width="934" height="352" />
+        <instance id="81:48234" name="tui-sensitive-mode" x="481" y="103" width="52" height="18" />
+        <instance id="81:48235" name="tui-sensitive-mode" x="482" y="165" width="52" height="18" />
+        <instance id="81:48236" name="tui-sensitive-mode" x="392" y="214" width="45" height="18" />
+      </frame>
+      <frame id="11096:17944" name="Frame 3" x="128" y="656" width="934" height="352">
+        <instance id="11096:17945" name="Image 1x1" x="0" y="0" width="934" height="352" />
+        <instance id="11096:17946" name="tui-sensitive-mode" x="481" y="103" width="52" height="18" />
+        <instance id="11096:17947" name="tui-sensitive-mode" x="482" y="165" width="52" height="18" />
+        <instance id="11096:17948" name="tui-sensitive-mode" x="392" y="214" width="45" height="18" />
+      </frame>
+      <instance id="81:48237" name="H2 + P" x="128" y="1008" width="934" height="120" />
+      <frame id="81:48238" name="card-1x1" x="128" y="1128" width="934" height="544">
+        <frame id="81:48239" name="Container" x="0" y="0" width="934" height="496">
+          <instance id="81:48240" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="81:48241" name="card-content" x="0" y="32" width="934" height="432">
+            <frame id="81:48242" name="image" x="32" y="0" width="870" height="432">
+              <instance id="81:48243" name="tui-button" x="54" y="105" width="78" height="56" />
+              <instance id="772:20492" name="tui-button" x="54" y="183" width="70" height="44" />
+              <instance id="772:20566" name="tui-button" x="54" y="249" width="53" height="32" />
+              <instance id="772:20640" name="tui-button" x="54" y="303" width="45" height="24" />
+              <instance id="81:48244" name="tui-button" x="165" y="105" width="151" height="56" />
+              <instance id="772:20493" name="tui-button" x="165" y="183" width="141" height="44" />
+              <instance id="772:20567" name="tui-button" x="165" y="249" width="110" height="32" />
+              <instance id="772:20641" name="tui-button" x="165" y="303" width="102" height="24" />
+              <instance id="772:20477" name="tui-button" x="430" y="105" width="143" height="56" />
+              <instance id="772:20714" name="tui-button" x="606" y="105" width="178" height="56" />
+              <instance id="772:20494" name="tui-button" x="430" y="183" width="133" height="44" />
+              <instance id="772:20715" name="tui-button" x="606" y="183" width="166" height="44" />
+              <instance id="772:20568" name="tui-button" x="430" y="249" width="110" height="32" />
+              <instance id="772:20716" name="tui-button" x="606" y="249" width="134" height="32" />
+              <instance id="772:20642" name="tui-button" x="430" y="303" width="102" height="24" />
+              <instance id="772:20717" name="tui-button" x="606" y="303" width="126" height="24" />
+              <instance id="81:48245" name="tui-button" x="345" y="105" width="56" height="56" />
+              <instance id="772:20495" name="tui-button" x="345" y="183" width="44" height="44" />
+              <instance id="772:20569" name="tui-button" x="345" y="249" width="32" height="32" />
+              <instance id="772:20643" name="tui-button" x="345" y="303" width="24" height="24" />
+            </frame>
+          </frame>
+          <instance id="81:48246" name=".card-footer" x="0" y="464" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="81:48247" name="H2 + P" x="128" y="1672" width="934" height="120" />
+      <instance id="129:27042" name="List Bulleted" x="128" y="1792" width="934" height="157" />
+      <frame id="81:48248" name="card-1x1" x="128" y="1949" width="934" height="345">
+        <frame id="81:48249" name="Container" x="0" y="0" width="934" height="305">
+          <instance id="81:48250" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="81:48251" name="card-content" x="0" y="32" width="934" height="241">
+            <frame id="81:48252" name="image" x="32" y="0" width="870" height="241">
+              <instance id="129:27128" name="tui-button" x="327" y="92" width="212" height="56" />
+            </frame>
+          </frame>
+          <instance id="81:48253" name=".card-footer" x="0" y="273" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="233:4566" name="Note" x="128" y="2294" width="934" height="164" />
+      <instance id="17369:6845" name="H2 + P" x="128" y="2458" width="934" height="120" />
+      <instance id="17369:7059" name="List Bulleted" x="128" y="2578" width="934" height="101" />
+      <frame id="17369:6851" name="card-1x1" x="128" y="2679" width="934" height="544">
+        <frame id="17369:6852" name="Container" x="0" y="0" width="934" height="496">
+          <instance id="17369:6853" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="17369:6854" name="card-content" x="0" y="32" width="934" height="432">
+            <frame id="17369:6855" name="image" x="32" y="0" width="870" height="432">
+              <instance id="17369:6856" name="tui-button" x="54" y="105" width="78" height="56" />
+              <instance id="17369:6857" name="tui-button" x="54" y="183" width="70" height="44" />
+              <instance id="17369:6858" name="tui-button" x="54" y="249" width="53" height="32" />
+              <instance id="17369:6859" name="tui-button" x="54" y="303" width="45" height="24" />
+              <instance id="17369:6860" name="tui-button" x="165" y="105" width="151" height="56" />
+              <instance id="17369:6861" name="tui-button" x="165" y="183" width="141" height="44" />
+              <instance id="17369:6862" name="tui-button" x="165" y="249" width="110" height="32" />
+              <instance id="17369:6863" name="tui-button" x="165" y="303" width="102" height="24" />
+              <instance id="17369:6864" name="tui-button" x="430" y="105" width="143" height="56" />
+              <instance id="17369:6865" name="tui-button" x="606" y="105" width="178" height="56" />
+              <instance id="17369:6866" name="tui-button" x="430" y="183" width="133" height="44" />
+              <instance id="17369:6867" name="tui-button" x="606" y="183" width="166" height="44" />
+              <instance id="17369:6868" name="tui-button" x="430" y="249" width="110" height="32" />
+              <instance id="17369:6869" name="tui-button" x="606" y="249" width="134" height="32" />
+              <instance id="17369:6870" name="tui-button" x="430" y="303" width="102" height="24" />
+              <instance id="17369:6871" name="tui-button" x="606" y="303" width="126" height="24" />
+              <instance id="17369:6872" name="tui-button" x="345" y="105" width="56" height="56" />
+              <instance id="17369:6873" name="tui-button" x="345" y="183" width="44" height="44" />
+              <instance id="17369:6874" name="tui-button" x="345" y="249" width="32" height="32" />
+              <instance id="17369:6875" name="tui-button" x="345" y="303" width="24" height="24" />
+            </frame>
+          </frame>
+          <instance id="17369:6876" name=".card-footer" x="0" y="464" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="17369:7090" name="Paragraph" x="128" y="3223" width="934" height="40" />
+      <frame id="17369:7035" name="card-1x1" x="128" y="3263" width="934" height="337">
+        <frame id="17369:7036" name="Container" x="0" y="0" width="934" height="305">
+          <instance id="17369:7037" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="17369:7038" name="card-content" x="0" y="32" width="934" height="241">
+            <frame id="17369:7039" name="image" x="32" y="0" width="870" height="241">
+              <instance id="17369:7040" name="Instance Container" x="200" y="63" width="162" height="56" />
+              <instance id="17369:7115" name="Instance Container" x="397" y="63" width="56" height="56" />
+              <instance id="17371:7134" name="tui-button" x="487" y="63" width="186" height="56" />
+              <instance id="17369:7041" name="Instance Container" x="201" y="135" width="92" height="44" />
+              <instance id="17369:7116" name="Instance Container" x="397" y="135" width="44" height="44" />
+              <instance id="17371:7133" name="tui-button" x="487" y="135" width="116" height="44" />
+            </frame>
+          </frame>
+          <instance id="17369:7043" name=".card-footer" x="0" y="273" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="17371:7209" name="Paragraph" x="128" y="3600" width="934" height="40" />
+      <instance id="17371:7270" name="Image 1x1" x="128" y="3640" width="934" height="502" />
+      <instance id="19406:18331" name="H2 + P" x="128" y="4142" width="934" height="144" />
+      <instance id="19474:10210" name="H3 + P" x="128" y="4286" width="934" height="104" />
+      <instance id="19474:10203" name="Image 1x1" x="128" y="4390" width="934" height="352" />
+      <instance id="19474:10215" name="H3 + P" x="128" y="4742" width="934" height="72" />
+      <instance id="19474:10230" name="Image 1x1" x="128" y="4814" width="934" height="400" />
+      <instance id="19406:18333" name="H3 + P" x="128" y="5214" width="934" height="72" />
+      <instance id="19406:18334" name="List Bulleted" x="128" y="5286" width="934" height="73" />
+      <instance id="19406:18335" name="Image 1x1" x="128" y="5359" width="934" height="352" />
+      <instance id="19406:18336" name="H3 + P" x="128" y="5711" width="934" height="104" />
+      <instance id="19406:18337" name="Image 1x1" x="128" y="5815" width="934" height="352" />
+    </frame>
+    <frame id="130:282986" name="Корнер-кейсы" x="8356" y="100" width="1190" height="1818">
+      <instance id="130:282987" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="129:27323" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <instance id="129:27495" name="List Bulleted" x="128" y="304" width="934" height="125" />
+      <frame id="129:27466" name="card-1x1" x="128" y="429" width="934" height="524">
+        <frame id="129:27467" name="Container" x="0" y="0" width="934" height="476">
+          <instance id="129:27468" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="129:27469" name="card-content" x="0" y="32" width="934" height="412">
+            <frame id="129:27470" name="image" x="32" y="0" width="870" height="412">
+              <instance id="129:27471" name="tui-button" x="295" y="77" width="272" height="56" />
+              <instance id="135:27380" name="tui-button" x="215" y="251" width="436" height="56" />
+              <instance id="135:5880" name="tui-button" x="259" y="164" width="348" height="56" />
+            </frame>
+          </frame>
+          <instance id="129:27474" name=".card-footer" x="0" y="444" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="1052:3299" name="H2 + P" x="128" y="953" width="934" height="88" />
+      <instance id="1052:3300" name="List Bulleted" x="128" y="1041" width="934" height="125" />
+      <frame id="1052:3320" name="card-1x1" x="128" y="1166" width="934" height="524">
+        <frame id="1052:3321" name="Container" x="0" y="0" width="934" height="476">
+          <instance id="1052:3322" name="Card Header" x="0" y="0" width="934" height="32" />
+          <frame id="1052:3323" name="card-content" x="0" y="32" width="934" height="412">
+            <frame id="1052:3324" name="image" x="32" y="0" width="870" height="412">
+              <instance id="1052:3325" name="tui-button" x="292" y="77" width="310" height="56" />
+              <instance id="1052:3326" name="tui-button" x="201" y="251" width="492" height="56" />
+              <instance id="1052:3327" name="tui-button" x="250" y="164" width="394" height="56" />
+            </frame>
+          </frame>
+          <instance id="1052:3328" name=".card-footer" x="0" y="444" width="934" height="32" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="10160:5003" name="Изменения" x="11536" y="100" width="976" height="3884">
+      <instance id="10160:5004" name="H1 + P" x="128" y="128" width="720" height="88" />
+      <frame id="10160:5005" name="Items" x="128" y="216" width="720" height="3540">
+        <instance id="37036:22503" name="changelog-item" x="0" y="0" width="720" height="170" />
+        <instance id="33730:11860" name="changelog-item" x="0" y="182" width="720" height="122" />
+        <instance id="29855:12029" name="changelog-item" x="0" y="316" width="720" height="170" />
+        <instance id="29855:12011" name="changelog-item" x="0" y="498" width="720" height="122" />
+        <instance id="25085:14180" name="changelog-item" x="0" y="632" width="720" height="122" />
+        <instance id="24755:9714" name="changelog-item" x="0" y="766" width="720" height="350" />
+        <instance id="24263:8169" name="changelog-item" x="0" y="1128" width="720" height="288" />
+        <instance id="21461:26204" name="changelog-item" x="0" y="1428" width="720" height="122" />
+        <instance id="20932:10260" name="changelog-item" x="0" y="1562" width="720" height="150" />
+        <instance id="20484:54821" name="changelog-item" x="0" y="1724" width="720" height="122" />
+        <instance id="19766:21503" name="changelog-item" x="0" y="1858" width="720" height="210" />
+        <instance id="19607:10572" name="changelog-item" x="0" y="2080" width="720" height="142" />
+        <instance id="19474:10623" name="changelog-item" x="0" y="2234" width="720" height="122" />
+        <instance id="19407:18950" name="changelog-item" x="0" y="2368" width="720" height="122" />
+        <instance id="17371:7182" name="changelog-item" x="0" y="2502" width="720" height="232" />
+        <instance id="14730:7728" name="changelog-item" x="0" y="2746" width="720" height="192" />
+        <instance id="14286:6648" name="changelog-item" x="0" y="2950" width="720" height="122" />
+        <instance id="14133:14290" name="changelog-item" x="0" y="3084" width="720" height="122" />
+        <instance id="10800:4140" name="changelog-item" x="0" y="3218" width="720" height="122" />
+        <instance id="10160:5006" name="[deprecated] changelog-v1" x="0" y="3352" width="684" height="88" />
+        <instance id="10645:3807" name="[deprecated] changelog-v1" x="0" y="3452" width="684" height="88" />
+      </frame>
+    </frame>
+    <frame id="14133:8499" name="Построение" x="1996" y="100" width="1190" height="3717">
+      <instance id="14133:8500" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="14133:8501" name="H2 + P" x="128" y="216" width="934" height="88" />
+      <instance id="14133:8502" name="Image 1x1" x="128" y="304" width="934" height="300" />
+      <instance id="14133:8503" name="H3 + P" x="128" y="604" width="934" height="72" />
+      <instance id="14133:8504" name="List Bulleted" x="128" y="676" width="934" height="73" />
+      <instance id="14133:8505" name="Image 1x1" x="128" y="749" width="934" height="852" />
+      <instance id="14133:8506" name="H2 + P" x="128" y="1601" width="934" height="88" />
+      <instance id="14133:8507" name="Image 1x1" x="128" y="1689" width="934" height="300" />
+      <instance id="14133:8508" name="H3 + P" x="128" y="1989" width="934" height="128" />
+      <instance id="14287:11672" name="Image 1x1" x="128" y="2117" width="934" height="672" />
+      <instance id="14309:11174" name="H3 + P" x="128" y="2789" width="934" height="128" />
+      <instance id="14309:11180" name="Image 1x1" x="128" y="2917" width="934" height="672" />
+    </frame>
+    <frame id="25085:11903" name="Доступность" x="9946" y="100" width="1190" height="4925">
+      <instance id="25085:11904" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="25085:11905" name="H2 + P" x="128" y="216" width="934" height="120" />
+      <instance id="25085:11906" name="Note" x="128" y="336" width="934" height="164" />
+      <instance id="25085:11907" name="H3 + P" x="128" y="500" width="934" height="72" />
+      <instance id="25085:11908" name="List Bulleted" x="128" y="572" width="934" height="181" />
+      <instance id="25085:11909" name="Image 1x1" x="128" y="753" width="934" height="1323" />
+      <instance id="25085:11910" name="H3 + P" x="128" y="2076" width="934" height="72" />
+      <instance id="25085:11911" name="List Bulleted" x="128" y="2148" width="934" height="181" />
+      <instance id="25085:11912" name="Image 1x1" x="128" y="2329" width="934" height="1354" />
+      <instance id="25085:11913" name="H2 + P" x="128" y="3683" width="934" height="168" />
+      <instance id="25085:11914" name="Table Header" x="128" y="3851" width="934" height="56" />
+      <instance id="25085:11915" name="Table Row" x="128" y="3907" width="934" height="178" />
+      <instance id="25085:11916" name="Table Row" x="128" y="4085" width="934" height="178" />
+      <instance id="25085:11917" name="Table Row" x="128" y="4263" width="934" height="156" />
+      <instance id="25085:11918" name="Table Row" x="128" y="4419" width="934" height="200" />
+      <instance id="25085:11919" name="Table Row" x="128" y="4619" width="934" height="178" />
+    </frame>
+  </section>
+  <instance id="102:158715" name="page-title" x="-656" y="854" width="968" height="592" />
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

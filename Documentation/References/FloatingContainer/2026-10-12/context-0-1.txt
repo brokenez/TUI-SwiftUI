@@ -1,0 +1,157 @@
+<canvas id="0:1" name="🧾 Дизайн" x="0" y="0" width="0" height="0">
+  <frame id="4351:40796" name="Построение" x="5747" y="1160" width="1190" height="1924">
+    <instance id="4351:40797" name="H1 + P" x="128" y="128" width="934" height="132" />
+    <instance id="4351:40798" name="Image 1x1" x="128" y="260" width="934" height="672" />
+    <instance id="4351:40799" name="H2 + P" x="128" y="932" width="934" height="120" />
+    <instance id="4351:40800" name="Image 1x1" x="128" y="1052" width="934" height="352" />
+    <instance id="4351:40801" name="Paragraph" x="128" y="1404" width="934" height="40" />
+    <instance id="4351:40802" name="Image 1x1" x="128" y="1444" width="934" height="352" />
+  </frame>
+  <frame id="4351:40803" name="Поведение" x="7337" y="1160" width="1190" height="2148">
+    <instance id="4351:40804" name="H1 + P" x="128" y="128" width="934" height="156" />
+    <instance id="4351:40805" name="H2 + P" x="128" y="284" width="934" height="120" />
+    <instance id="4351:40806" name="Code 2x1" x="128" y="404" width="934" height="160" />
+    <instance id="4351:40807" name="H2 + P" x="128" y="564" width="934" height="120" />
+    <instance id="4351:40808" name="Code 1x1" x="128" y="684" width="934" height="120" />
+    <instance id="4351:40809" name="H2 + P" x="128" y="804" width="934" height="120" />
+    <instance id="4351:40810" name="Code 2x1" x="128" y="924" width="934" height="160" />
+    <instance id="4351:40811" name="H2 + P" x="128" y="1084" width="934" height="120" />
+    <instance id="4351:40812" name="Code 2x1" x="128" y="1204" width="934" height="160" />
+    <instance id="4351:40813" name="H2 + P" x="128" y="1364" width="934" height="144" />
+    <instance id="4351:40814" name="Image 1x1" x="128" y="1508" width="934" height="352" />
+    <instance id="4351:40815" name="Code 2x1" x="128" y="1860" width="934" height="160" />
+  </frame>
+  <frame id="4351:40816" name="Кастомизация" x="8927" y="1160" width="1190" height="1952">
+    <instance id="4351:40817" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="4351:40818" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="4351:40819" name="Image 1x1" x="128" y="336" width="934" height="352" />
+    <instance id="4351:40820" name="H2 + P" x="128" y="688" width="934" height="144" />
+    <instance id="4351:40821" name="Image 1x1" x="128" y="832" width="934" height="352" />
+    <instance id="4351:40822" name="H2 + P" x="128" y="1184" width="934" height="144" />
+    <instance id="4351:40823" name="Image 1x1" x="128" y="1328" width="934" height="352" />
+    <instance id="4351:40824" name="H2 + P" x="128" y="1680" width="934" height="144" />
+  </frame>
+  <frame id="4351:40825" name="Правила использования" x="10517" y="1160" width="1190" height="4039">
+    <instance id="4351:40826" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="4351:40827" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="4351:40828" name="H3 + P" x="128" y="336" width="934" height="72" />
+    <instance id="4351:40829" name="List Bulleted" x="128" y="408" width="934" height="73" />
+    <instance id="4351:40830" name="H3 + P" x="128" y="481" width="934" height="72" />
+    <instance id="4351:40831" name="List Bulleted" x="128" y="553" width="934" height="73" />
+    <instance id="4351:40832" name="Rules 2x1" x="128" y="626" width="934" height="962" />
+    <instance id="4351:40833" name="H2 + P" x="128" y="1588" width="934" height="120" />
+    <instance id="4351:40834" name="List Bulleted" x="128" y="1708" width="934" height="129" />
+    <instance id="4351:40835" name="Rules 2x1" x="128" y="1837" width="934" height="392" />
+    <instance id="4351:40836" name="H2 + P" x="128" y="2229" width="934" height="144" />
+    <instance id="4351:40837" name="Rules 2x1" x="128" y="2373" width="934" height="392" />
+    <instance id="4351:40838" name="Spacing" x="128" y="2765" width="934" height="32" />
+    <instance id="4351:40839" name="Paragraph" x="128" y="2797" width="934" height="40" />
+    <instance id="4351:40840" name="Rules 2x1" x="128" y="2837" width="934" height="392" />
+    <instance id="6781:4924" name="H2 + P" x="128" y="3229" width="934" height="120" />
+    <instance id="6781:6448" name="Image 1x1" x="128" y="3349" width="934" height="562" />
+  </frame>
+  <instance id="4351:40841" name="page-title" x="4004" y="0" width="1250" height="344" />
+  <frame id="4351:40842" name="Стили" x="3996" y="1160" width="1351" height="1380">
+    <instance id="4351:40843" name="H1 + P" x="148" y="148" width="1055" height="88" />
+    <frame id="4351:40844" name="row" x="148" y="256" width="1055" height="56">
+      <instance id="4351:40845" name="tui-table-сell" x="0" y="0" width="256" height="56" />
+      <instance id="4351:40846" name="tui-table-сell" x="256" y="0" width="415" height="56" />
+      <instance id="4351:40847" name="tui-table-сell" x="671" y="0" width="384" height="56" />
+    </frame>
+    <frame id="4351:40848" name="row" x="148" y="332" width="1055" height="210">
+      <instance id="4351:40849" name="tui-table-сell" x="0" y="40" width="240" height="52" />
+      <frame id="4351:40850" name="table сell" x="280" y="40" width="375" height="170">
+        <instance id="4351:40851" name="tui-floating-container" x="0" y="0" width="375" height="80" />
+      </frame>
+      <frame id="4351:40852" name="table сell" x="695" y="40" width="360" height="170">
+        <instance id="4351:40853" name="tui-floating-container" x="0" y="0" width="360" height="80" />
+      </frame>
+    </frame>
+    <frame id="4351:40854" name="row" x="148" y="562" width="1055" height="210">
+      <instance id="4351:40855" name="tui-table-сell" x="0" y="40" width="240" height="52" />
+      <frame id="4351:40856" name="table сell" x="280" y="40" width="375" height="170">
+        <instance id="4351:40857" name="tui-floating-container" x="0" y="0" width="375" height="136.00100708007812" />
+      </frame>
+      <frame id="4351:40858" name="table сell" x="695" y="40" width="360" height="170">
+        <instance id="4351:40859" name="tui-floating-container" x="0" y="0" width="360" height="136.00100708007812" />
+      </frame>
+    </frame>
+    <frame id="4351:40860" name="row" x="148" y="792" width="1055" height="210">
+      <instance id="4351:40861" name="tui-table-сell" x="0" y="40" width="240" height="76" />
+      <frame id="4351:40862" name="table сell" x="280" y="40" width="375" height="170">
+        <instance id="4351:40863" name="tui-floating-container" x="0" y="0" width="375" height="120.0009994506836" />
+      </frame>
+      <frame id="4351:40864" name="table сell" x="695" y="40" width="360" height="170">
+        <instance id="4351:40865" name="tui-floating-container" x="0" y="0" width="360" height="120.0009994506836" />
+      </frame>
+    </frame>
+    <frame id="4351:40866" name="row" x="148" y="1022" width="1055" height="210">
+      <instance id="4351:40867" name="tui-table-сell" x="0" y="40" width="240" height="76" />
+      <frame id="4351:40868" name="table сell" x="280" y="40" width="375" height="170">
+        <instance id="4351:40869" name="tui-floating-container" x="0" y="0" width="375" height="80" />
+      </frame>
+      <frame id="4351:40870" name="table сell" x="695" y="40" width="360" height="170">
+        <instance id="4351:40871" name="tui-floating-container" x="0" y="0" width="360" height="80" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4351:40872" name="Изменения" x="15287" y="1160" width="976" height="1688">
+    <instance id="4351:40873" name="H1 + P" x="128" y="128" width="720" height="88" />
+    <frame id="4351:40874" name="Items" x="128" y="216" width="720" height="1344">
+      <instance id="6676:17274" name="changelog" x="0" y="0" width="720" height="122" />
+      <instance id="6781:6796" name="changelog" x="0" y="134" width="720" height="142" />
+      <instance id="4816:13318" name="[deprecated] changelog-v1" x="0" y="288" width="720" height="140" />
+      <instance id="4351:40875" name="changelog" x="0" y="440" width="720" height="288" />
+      <instance id="4351:40876" name="[deprecated] changelog-v1" x="0" y="740" width="684" height="120" />
+      <instance id="4351:40877" name="[deprecated] changelog-v1" x="0" y="872" width="684" height="120" />
+      <instance id="4351:40878" name="[deprecated] changelog-v1" x="0" y="1004" width="684" height="120" />
+      <instance id="4351:40879" name="[deprecated] changelog-v1" x="0" y="1136" width="684" height="108" />
+      <instance id="4351:40880" name="[deprecated] changelog-v1" x="0" y="1256" width="684" height="88" />
+    </frame>
+  </frame>
+  <section id="4351:40881" name="Доступность" x="12107" y="1160" width="2780" height="5603">
+    <frame id="4351:40882" name="Озвучка" x="1590" y="0" width="1190" height="5587">
+      <instance id="4351:40883" name="H1 + P" x="128" y="128" width="934" height="88" />
+      <instance id="4351:40884" name="H2 + P" x="128" y="216" width="934" height="144" />
+      <instance id="4351:40885" name="Image 1x1" x="128" y="360" width="934" height="360" />
+      <instance id="4351:40886" name="Paragraph" x="128" y="720" width="934" height="40" />
+      <instance id="4351:40887" name="Image 1x1" x="128" y="760" width="934" height="500" />
+      <instance id="4351:40888" name="H3 + P" x="128" y="1260" width="934" height="128" />
+      <instance id="4351:40889" name="Image 1x1" x="128" y="1388" width="934" height="492" />
+      <instance id="4351:40890" name="Paragraph" x="128" y="1880" width="934" height="40" />
+      <instance id="4351:40891" name="Image 1x1" x="128" y="1920" width="934" height="492" />
+      <instance id="4351:40892" name="H2 + P" x="128" y="2412" width="934" height="144" />
+      <instance id="4351:40893" name="Image 1x1" x="128" y="2556" width="934" height="360" />
+      <instance id="4351:40894" name="Paragraph" x="128" y="2916" width="934" height="40" />
+      <instance id="4351:40895" name="Image 1x1" x="128" y="2956" width="934" height="500" />
+      <instance id="4351:40896" name="H3 + P" x="128" y="3456" width="934" height="128" />
+      <instance id="4351:40897" name="Image 1x1" x="128" y="3584" width="934" height="572" />
+      <instance id="4351:40898" name="Paragraph" x="128" y="4156" width="934" height="40" />
+      <instance id="4351:40899" name="Image 1x1" x="128" y="4196" width="934" height="572" />
+      <instance id="6676:16432" name="H2 + P" x="128" y="4768" width="934" height="120" />
+      <instance id="6676:16433" name="Paragraph" x="128" y="4888" width="934" height="64" />
+      <instance id="6676:16434" name="Image 2x1" x="128" y="4952" width="934" height="507" />
+    </frame>
+    <frame id="4351:40900" name="Увеличение шрифтов" x="0" y="0" width="1190" height="3808">
+      <instance id="4351:40901" name="H1 + P" x="128" y="128" width="934" height="132" />
+      <instance id="4351:40902" name="Note" x="128" y="260" width="934" height="164" />
+      <instance id="4351:40903" name="H2 + P" x="128" y="424" width="934" height="120" />
+      <instance id="4351:40904" name="H3 + P" x="128" y="544" width="934" height="72" />
+      <instance id="4351:40905" name="Image 1x1" x="128" y="616" width="934" height="352" />
+      <instance id="4351:40906" name="H3 + P" x="128" y="968" width="934" height="72" />
+      <instance id="4351:40907" name="Image 1x1" x="128" y="1040" width="934" height="352" />
+      <instance id="4351:40908" name="H3 + P" x="128" y="1392" width="934" height="72" />
+      <instance id="4351:40909" name="Image 1x1" x="128" y="1464" width="934" height="352" />
+      <instance id="4351:40910" name="H2 + P" x="128" y="1816" width="934" height="168" />
+      <instance id="4351:40911" name="H3 + P" x="128" y="1984" width="934" height="72" />
+      <instance id="4351:40912" name="Image 1x1" x="128" y="2056" width="934" height="352" />
+      <instance id="4351:40913" name="H3 + P" x="128" y="2408" width="934" height="72" />
+      <instance id="4351:40914" name="Image 1x1" x="128" y="2480" width="934" height="352" />
+      <instance id="4351:40915" name="H3 + P" x="128" y="2832" width="934" height="72" />
+      <instance id="4351:40916" name="Image 1x1" x="128" y="2904" width="934" height="352" />
+      <instance id="4351:40917" name="H3 + P" x="128" y="3256" width="934" height="72" />
+      <instance id="4351:40918" name="Image 1x1" x="128" y="3328" width="934" height="352" />
+    </frame>
+  </section>
+</canvas>
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

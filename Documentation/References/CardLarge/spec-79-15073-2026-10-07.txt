@@ -1,0 +1,528 @@
+const imgTuiIcFixedColorAlertWarning = "https://www.figma.com/api/mcp/asset/2f6daf95-b419-4495-a1d6-25ded29896f9.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/a376e555-9767-4156-bd63-999919bed989.svg";
+const imgIcon = "https://www.figma.com/api/mcp/asset/915f198e-000f-41b8-83cc-2ddd2ce177b5.svg";
+const imgIcon1 = "https://www.figma.com/api/mcp/asset/c3959845-ce3a-48f0-afee-b3134594729c.svg";
+const imgIcon2 = "https://www.figma.com/api/mcp/asset/8fddcdd2-86f7-48bf-b8b1-d5c1f098713f.svg";
+const imgColor1 = "https://www.figma.com/api/mcp/asset/174df48b-b822-49d7-a825-6d6af1f7b081.svg";
+
+function TuiIcFixedColorAlertWarning({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="31110:32673" data-name="tui-ic-fixed-color / alert-warning">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorAlertWarning} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start p-[128px] relative rounded-[80px] size-full" data-node-id="79:15073" data-name="Доступность">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="79:15074" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I79:15074;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I79:15074;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Доступность
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="79:15075" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I79:15075;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I79:15075;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Увеличенные шрифты
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I79:15075;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I79:15075;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I79:15075;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I79:15075;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I79:15075;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I79:15075;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I79:15075;2128:283;6917:52782">
+                  accessibility
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I79:15075;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I79:15075;9462:7170">
+            Если карточки располагаются горизонтально, при разработке их нужно обернуть в компонент tui-adaptive-row. Этот компонент управляет расположением объектов при увеличении шрифтов в системе.
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="17718:26295" data-name="Note">
+        <div className="bg-[var(--tui-status-warning-pale,rgba(255,221,45,0.3))] content-stretch flex flex-[1_0_0] gap-[16px] items-start min-w-px p-[24px] relative rounded-[var(--roundings\/note-rounding,24px)]" data-node-id="I17718:26295;9462:8076" data-name="container">
+          <div className="content-stretch flex items-start pt-px relative shrink-0" data-node-id="I17718:26295;9462:8032" data-name="Icon">
+            <TuiIcFixedColorAlertWarning className="relative shrink-0 size-[24px]" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I17718:26295;9462:8034" data-name="Text">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I17718:26295;9462:8035" style={{ fontFeatureSettings: '"liga" 0' }}>
+              Превью увеличенных шрифтов может отличаться от прода
+            </p>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I17718:26295;9462:8079" data-name="Paragraph">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I17718:26295;9462:8078">
+                <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://www.figma.com/community/plugin/1270346206221731428/a11y-font-size-preview" target="_blank">
+                  <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/community/plugin/1270346206221731428/a11y-font-size-preview" target="_blank">
+                    Плагин
+                  </span>
+                </a>
+                <span className="leading-[24px]">{` показывает принцип работы компонента, но не гарантирует точное совпадение. На дизайн-ревью важно проверить корректность лейаута и сам факт увеличения шрифта. `}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="79:15076" data-name="image">
+        <div className="bg-[#f6f7f8] h-[395px] relative rounded-[24px] shrink-0 w-full" data-node-id="79:15077" data-name="img-placeholder">
+          <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[279px] top-[54px]" data-node-id="79:15078">
+            <div className="content-stretch flex gap-[24px] items-start px-[16px] relative shrink-0 w-full" data-node-id="79:15079" data-name="Container">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="79:15080" data-name="tui-card-large">
+                <div className="bg-white content-stretch flex flex-col items-start overflow-clip pb-[4px] relative rounded-[var(--radius,24px)] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="I79:15080;42587:292245" data-name="CardCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I79:15080;44193:342889" data-name="card-header">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[20px] pt-[var(--padding-compensated,16px)] relative self-stretch" data-node-id="I79:15080;42587:292246" data-name="tui-header">
+                      <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="I79:15080;42587:292246;44217:299617" data-name="HeaderCont">
+                        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px relative self-stretch" data-node-id="I79:15080;42587:292246;44217:299618" data-name="Header+Subheader">
+                          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I79:15080;42587:292246;44217:299619" data-name="HeaderTextCont">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="I79:15080;42587:292246;44217:299620">
+                              QR-код
+                            </p>
+                          </div>
+                          <div className="content-stretch flex items-start pb-[2px] relative shrink-0 w-full" data-node-id="I79:15080;42587:292246;44217:299621" data-name="SubheaderTextCont">
+                            <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.24px] whitespace-nowrap" data-node-id="I79:15080;42587:292246;44217:299622">
+                              Для пополнения
+                            </p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[16px] h-[24px] items-center relative shrink-0" data-node-id="I79:15080;42587:292246;44217:299623" data-name="Accessory">
+                          <div className="content-stretch flex items-center justify-center pt-[2px] relative shrink-0" data-node-id="I79:15080;42587:292246;44217:299628" data-name="ActionCont">
+                            <div className="content-stretch flex gap-[4px] items-start relative rounded-[100px] shrink-0" data-node-id="I79:15080;42587:292246;44217:299629" data-name="tui-button [link]">
+                              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I79:15080;42587:292246;44217:299629;42010:287123" data-name="Left iconCont">
+                                <div className="relative shrink-0 size-[24px]" data-node-id="I79:15080;42587:292246;44217:299629;42010:287124" data-name="Icon">
+                                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="79:15081" data-name="tui-card-large">
+                <div className="bg-white content-stretch flex flex-col items-start overflow-clip pb-[4px] relative rounded-[var(--radius,24px)] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="I79:15081;42587:292245" data-name="CardCont">
+                  <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I79:15081;44193:342889" data-name="card-header">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[20px] pt-[var(--padding-compensated,16px)] relative self-stretch" data-node-id="I79:15081;42587:292246" data-name="tui-header">
+                      <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="I79:15081;42587:292246;44217:299617" data-name="HeaderCont">
+                        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px relative self-stretch" data-node-id="I79:15081;42587:292246;44217:299618" data-name="Header+Subheader">
+                          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I79:15081;42587:292246;44217:299619" data-name="HeaderTextCont">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="I79:15081;42587:292246;44217:299620">
+                              Ссылка
+                            </p>
+                          </div>
+                          <div className="content-stretch flex items-start pb-[2px] relative shrink-0 w-full" data-node-id="I79:15081;42587:292246;44217:299621" data-name="SubheaderTextCont">
+                            <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-['SF_Pro_Text:Regular'] from-[85.065%] from-[rgba(0,16,36,0.44)] leading-[normal] not-italic relative shrink-0 text-[15px] text-[transparent] to-[rgba(51,51,51,0)] tracking-[-0.24px] whitespace-nowrap" data-node-id="I79:15081;42587:292246;44217:299622">
+                              tinkoff.ru/rm/bla
+                            </p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[16px] h-[24px] items-center relative shrink-0" data-node-id="I79:15081;42587:292246;44217:299623" data-name="Accessory">
+                          <div className="content-stretch flex items-center justify-center pt-[2px] relative shrink-0" data-node-id="I79:15081;42587:292246;44217:299628" data-name="ActionCont">
+                            <div className="content-stretch flex gap-[4px] items-start relative rounded-[100px] shrink-0" data-node-id="I79:15081;42587:292246;44217:299629" data-name="tui-button [link]">
+                              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I79:15081;42587:292246;44217:299629;42010:287123" data-name="Left iconCont">
+                                <div className="relative shrink-0 size-[24px]" data-node-id="I79:15081;42587:292246;44217:299629;42010:287124" data-name="Icon">
+                                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start px-[16px] relative shrink-0 w-[375px]" data-node-id="79:15082" data-name="tui-card-large">
+              <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--radius,24px)] shadow-[0px_var(--hide-from-publishing\/shadow\/medium\/y-axis,6px)_var(--hide-from-publishing\/shadow\/medium\/blur,34px)_0px_var(--hide-from-publishing\/shadow\/medium\/color,rgba(0,0,0,0.12))] shrink-0 w-full" data-node-id="I79:15082;42587:292048" data-name="CardCont">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I79:15082;44193:340201" data-name="card-header">
+                  <div className="content-stretch flex flex-col gap-[8px] items-start pb-[var(--padding-reduced,12px)] pl-[var(--padding,20px)] pr-[20px] pt-[var(--padding-compensated,16px)] relative shrink-0 w-full" data-node-id="I79:15082;42587:292049" data-name="tui-header">
+                    <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="I79:15082;42587:292049;44217:299617" data-name="HeaderCont">
+                      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="I79:15082;42587:292049;44217:299618" data-name="Header+Subheader">
+                        <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I79:15082;42587:292049;44217:299619" data-name="HeaderTextCont">
+                          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="I79:15082;42587:292049;44217:299620">
+                            Реквизиты
+                          </p>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[16px] h-[24px] items-center relative shrink-0" data-node-id="I79:15082;42587:292049;44217:299623" data-name="Accessory">
+                        <div className="content-stretch flex items-center justify-center pt-[2px] relative shrink-0" data-node-id="I79:15082;42587:292049;44217:299628" data-name="ActionCont">
+                          <div className="content-stretch flex gap-[4px] items-start relative rounded-[100px] shrink-0" data-node-id="I79:15082;42587:292049;44217:299629" data-name="tui-button [link]">
+                            <div className="content-stretch flex items-start relative shrink-0" data-node-id="I79:15082;42587:292049;44217:299629;42010:287123" data-name="Left iconCont">
+                              <div className="relative shrink-0 size-[24px]" data-node-id="I79:15082;42587:292049;44217:299629;42010:287124" data-name="Icon">
+                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon1} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[4px] items-start pb-[12px] px-[var(--temp-padding-additional,4px)] relative shrink-0 w-[343px]" data-node-id="I79:15082;42587:292050" data-name="card-content">
+                  <div className="content-stretch flex items-start min-h-[56px] px-[var(--padding,16px)] relative shrink-0 w-[335px]" data-node-id="I79:15082;42587:292051" data-name="tui-cell">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[var(--padding-text,8px)] relative self-stretch" data-node-id="I79:15082;42587:292051;41569:290641" data-name="TextCont">
+                      <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I79:15082;42587:292051;41569:290644" data-name="TitleCont">
+                        <div className="content-stretch flex flex-[1_0_0] h-[20px] items-start min-w-px relative" data-node-id="I79:15082;42587:292051;41569:290645" data-name="CellTitleCont">
+                          <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-1,#333)] leading-[normal] min-w-px not-italic relative text-[17px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/primary-fade-point-2,rgba(51,51,51,0))] tracking-[-0.41px]" data-node-id="I79:15082;42587:292051;41569:290646">
+                            Номер счета
+                          </p>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="I79:15082;42587:292051;41569:290647" data-name="DescriptionCont">
+                        <div className="content-stretch flex flex-[1_0_0] h-[16px] items-start min-w-px relative" data-node-id="I79:15082;42587:292051;41569:290648" data-name="TitleDescriptionCont">
+                          <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px]" data-node-id="I79:15082;42587:292051;41569:290649">
+                            40817810700015707835
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start pb-[var(--padding,20px)] px-[var(--padding,20px)] relative shrink-0 w-full" data-node-id="I79:15082;42587:292055" data-name="card-footer">
+                  <div className="content-stretch flex gap-[4px] items-start relative rounded-[100px] shrink-0 w-full" data-node-id="I79:15082;42587:292057" data-name="tui-button [link]">
+                    <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0" data-node-id="I79:15082;42587:292057;42010:287146" data-name="LabelCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-action,#428bf9)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I79:15082;42587:292057;42010:287147">
+                        Показать все
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="79:15083" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-full not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-[min-content]" data-node-id="I79:15083;9459:12596">
+          Пример с увеличенными шрифтами и перестроением лейаута
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col h-[595px] items-start overflow-clip relative rounded-[24px] shrink-0 w-[934px]" data-node-id="79:15084" data-name="image">
+        <div className="bg-[#f6f7f8] h-[595px] overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="79:15085" data-name="img-placeholder">
+          <div className="absolute content-stretch flex flex-col gap-[24px] items-start left-[282px] px-[16px] top-[58px] w-[375px]" data-node-id="79:15086">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22282" data-name="tui-card (deprecated)">
+              <div className="bg-white content-stretch flex flex-col items-start overflow-clip pb-[8px] relative rounded-[24px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] shrink-0 w-full" data-node-id="28254:22283" data-name="CardCont">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22525" data-name="card-header">
+                  <div className="content-stretch flex flex-col gap-[8px] items-start pb-[8px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="28254:22606" data-name="Master">
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="28254:22607" data-name="HeaderCont">
+                      <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="28254:22608">
+                        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-full items-start justify-center min-w-px overflow-clip relative" data-name="Header cont">
+                          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="28254:22609" data-name="Header">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[#333] text-[36px] tracking-[0.38px]" data-node-id="28254:22610">
+                              QR-код
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[20px] h-[30px] items-center relative shrink-0" data-node-id="28254:22613" data-name="Accessory">
+                        <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="28254:22618" data-name="Action cont">
+                          <div className="content-stretch flex items-start relative shrink-0" data-node-id="28254:22619" data-name="[heavy] tui-button link">
+                            <div className="content-stretch flex gap-[5px] items-center justify-center relative rounded-[100px] shrink-0" data-node-id="I28254:22619;16831:438124" data-name="Master">
+                              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22619;16831:438124;16079:30" data-name="Left iconCont">
+                                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22619;16831:438124;16079:31" data-name="Icon">
+                                  <div className="relative shrink-0 size-[30px]" data-node-id="I28254:22619;16831:438124;16079:31;6957:7383" data-name="cont">
+                                    <div className="absolute left-[3.11px] size-[23.425px] top-[3.24px]" data-node-id="I28254:22619;16831:438124;16079:31;6957:7385" data-name="vector">
+                                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon2} />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex items-center pb-[2px] relative shrink-0 w-full" data-node-id="28254:22622" data-name="Description">
+                      <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[#9299a2] text-[27px] tracking-[-0.24px]" data-node-id="28254:22623">
+                        Для пополнения
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22425" data-name="tui-card (deprecated)">
+              <div className="bg-white content-stretch flex flex-col items-start overflow-clip pb-[8px] relative rounded-[24px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] shrink-0 w-full" data-node-id="28254:22426" data-name="CardCont">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22686" data-name="card-header">
+                  <div className="content-stretch flex flex-col gap-[8px] items-start pb-[8px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="28254:22764" data-name="Master">
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="28254:22765" data-name="HeaderCont">
+                      <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="28254:22766">
+                        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-full items-start justify-center min-w-px overflow-clip relative" data-name="Header cont">
+                          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="28254:22767" data-name="Header">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[#333] text-[36px] tracking-[0.38px]" data-node-id="28254:22768">
+                              Ссылка
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[20px] h-[30px] items-center relative shrink-0" data-node-id="28254:22771" data-name="Accessory">
+                        <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="28254:22776" data-name="Action cont">
+                          <div className="content-stretch flex items-start relative shrink-0" data-node-id="28254:22777" data-name="[heavy] tui-button link">
+                            <div className="content-stretch flex gap-[5px] items-center justify-center relative rounded-[100px] shrink-0" data-node-id="I28254:22777;16831:438124" data-name="Master">
+                              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22777;16831:438124;16079:30" data-name="Left iconCont">
+                                <div className="relative shrink-0 size-[30px]" data-node-id="I28254:22777;16831:438124;16079:31" data-name="Icon">
+                                  <div className="absolute bg-[#428bf9] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_5.5px] mask-size-[24px_14px]" data-node-id="I28254:22777;16831:438124;16079:31;1524:546" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex items-center pb-[2px] relative shrink-0 w-full" data-node-id="28254:22780" data-name="Description">
+                      <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Regular'] from-[85.065%] from-[rgba(0,16,36,0.44)] leading-[normal] min-w-px not-italic relative text-[27px] text-[transparent] to-[rgba(51,51,51,0)] tracking-[-0.24px]" data-node-id="28254:22781">
+                        tinkoff.ru/sl/7h7DPDZkp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22221" data-name="tui-card (deprecated)">
+              <div className="bg-white content-stretch flex flex-col items-start overflow-clip pb-[8px] relative rounded-[24px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] shrink-0 w-full" data-node-id="28254:22222" data-name="CardCont">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="28254:22844" data-name="card-header">
+                  <div className="content-stretch flex flex-col gap-[8px] items-start pb-[8px] pt-[16px] px-[20px] relative shrink-0 w-full" data-node-id="28254:22927" data-name="Master">
+                    <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="28254:22928" data-name="HeaderCont">
+                      <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="28254:22929">
+                        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-full items-start justify-center min-w-px overflow-clip relative" data-name="Header cont">
+                          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="28254:22930" data-name="Header">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[#333] text-[36px] tracking-[0.38px]" data-node-id="28254:22931">
+                              Реквизиты
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[20px] h-[30px] items-center relative shrink-0" data-node-id="28254:22934" data-name="Accessory">
+                        <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="28254:22939" data-name="Action cont">
+                          <div className="content-stretch flex items-start relative shrink-0" data-node-id="28254:22940" data-name="[heavy] tui-button link">
+                            <div className="content-stretch flex gap-[5px] items-center justify-center relative rounded-[100px] shrink-0" data-node-id="I28254:22940;16831:438124" data-name="Master">
+                              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22940;16831:438124;16079:30" data-name="Left iconCont">
+                                <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22940;16831:438124;16079:31" data-name="Icon">
+                                  <div className="relative shrink-0 size-[30px]" data-node-id="I28254:22940;16831:438124;16079:31;6957:7383" data-name="cont">
+                                    <div className="absolute left-[3.11px] size-[23.425px] top-[3.24px]" data-node-id="I28254:22940;16831:438124;16079:31;6957:7385" data-name="vector">
+                                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon2} />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[4px] items-start p-[4px] relative shrink-0 w-[343px]" data-node-id="28254:22224" data-name="card-content (deprecated)">
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I28254:22224;24119:640011" data-name="Replace">
+                    <div className="content-stretch flex flex-[1_0_0] gap-[16px] items-start min-w-px pl-[16px] relative" data-node-id="I28254:22224;24119:640011;23999:446632" data-name="Master">
+                      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[8px] relative self-stretch" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425825" data-name="TextCont">
+                        <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425828" data-name="TitleCont">
+                          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425829" data-name="CellTitleCont">
+                            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[#333] text-[30px] tracking-[-0.41px]" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425830">
+                              Номер счета
+                            </p>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425833" data-name="DescriptionCont">
+                          <div className="content-stretch flex flex-[1_0_0] items-start min-w-px relative" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425834" data-name="TitleDescriptionCont">
+                            <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r font-['SF_Pro_Text:Regular'] from-[85.065%] from-[rgba(0,16,36,0.44)] leading-[normal] not-italic relative shrink-0 text-[27px] text-[transparent] to-[rgba(51,51,51,0)] tracking-[-0.24px] whitespace-nowrap" data-node-id="I28254:22224;24119:640011;23999:446632;23999:425835">
+                              4081781070001570783
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start justify-center px-[20px] py-[10px] relative shrink-0 w-full" data-node-id="28254:22225" data-name="card-footer (deprecated)">
+                  <div className="content-stretch flex items-start relative shrink-0" data-node-id="I28254:22225;31192:471792" data-name="tui-button link">
+                    <div className="content-stretch flex gap-[4px] items-center justify-center relative rounded-[100px] self-stretch shrink-0" data-node-id="I28254:22225;31192:471792;16079:73" data-name="Master">
+                      <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0" data-node-id="I28254:22225;31192:471792;16079:73;16079:32" data-name="LabelCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[#428bf9] text-[28px] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I28254:22225;31192:471792;16079:73;16079:33">
+                          Показать все
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Day/Background/elevation-1: #FFFFFF, Day/Text/secondary-fade: , Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Text/action: #428BF9, Gradient/Text/Primary Fade: , iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Text/primary: #333333, iOS Accessibility/Heading M: Font(family: "SF Pro Display", style: Bold, size: 36, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), Day/Text/secondary: #9299A2, iOS Accessibility/Body M: Font(family: "SF Pro Text", style: Regular, size: 27, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), [Deprecated]/shadow-medium: Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 6), radius: 34, spread: 0), iOS Accessibility/Body L: Font(family: "SF Pro Text", style: Regular, size: 30, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-badge
+**Node ID:** 31110:26978
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 1:135485
+
+save, mark, favorite, remember
+
+## Note
+**Node ID:** 34001:17729
+
+v 1.1.0
+
+## tui-ic-fixed-color / alert-warning
+**Node ID:** 31110:32673
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-card-large
+**Node ID:** 34001:34084
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 34001:31705
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-button [link]
+**Node ID:** 31110:30037
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-link](https://go.tcsbank.ru/tui-button-link)
+
+## tui-ic-medium / qr-code
+**Node ID:** 22931:29833
+
+QR scanner, barcode, code reader
+
+## tui-ic-medium / share
+**Node ID:** 1:14284
+
+upload, iOS
+
+## tui-cell
+**Node ID:** 34001:32315
+
+Ячейка с текстом
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-specs](https://go.tcsbank.ru/tui-cell-specs)
+
+## System=iOS, Content=Icon, State=base
+**Node ID:** 1:21811
+
+🟢 Released
+
+## [heavy] tui-button link
+**Node ID:** 1:21808
+
+🛑 Тяжелый figma-компонент Стиль Link компонента Button
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340)
+
+## Master
+**Node ID:** 1:21841
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-ic-medium / link
+**Node ID:** 1:14289
+
+copy
+
+## System=iOS, Content=Icon, State=base
+**Node ID:** 1:7380
+
+🟢 Released
+
+## [heavy] tui-button link
+**Node ID:** 1:7377
+
+🛑 Тяжелый figma-компонент Стиль Link компонента Button
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340)
+
+## Master
+**Node ID:** 1:7410
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## Type=Cell List, System=iOS
+**Node ID:** 1:17793
+
+🔴 Deprecated
+
+## System=iOS, Avatar=off, Caption=off, Description=on, RightValue=off, FixedHeight=off
+**Node ID:** 1:10226
+
+🟢 Released CellTextContentView CellTextContentViewCell
+
+## [heavy] tui-cell / text
+**Node ID:** 1:10210
+
+🛑 Тяжелый figma-компонент Простая ячейка с текстом
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=12106%3A190392](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=12106%3A190392)
+
+## Master
+**Node ID:** 1:10315
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## System=iOS, Horizontal=off, Type=ButtonLink, Deprecated=off
+**Node ID:** 1:23885
+
+🔴 Deprecated
+
+## System=iOS, Content=Label, State=base
+**Node ID:** 1:25867
+
+🟢 Released
+
+## tui-button link
+**Node ID:** 1:25866
+
+Стиль Link компонента Button
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

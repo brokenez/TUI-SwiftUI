@@ -1,0 +1,226 @@
+{
+  "method": "Unmodified Figma 1x exports; native 3x alpha composited on white and LANCZOS downsampled to 1x. No geometry alignment. Sheet enlarges all 1x comparisons equally with nearest neighbor. Night uses white only to compare contours, not to verify scene background.",
+  "automaticAcceptance": false,
+  "pairs": [
+    {
+      "variantID": "42819:293394",
+      "size": 12,
+      "theme": "Day",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293394.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/3BE57BE0-DB90-4D82-97AF-A3072C17D31F.png",
+      "meanAbsoluteRGBDifference": 2.300925925925926,
+      "maximumRGBDifference": 27,
+      "pixelsOver16": 22
+    },
+    {
+      "variantID": "42819:293394",
+      "size": 12,
+      "theme": "Night",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293394.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/E3B10888-AD7B-4B53-9DA2-4575A5D90023.png",
+      "meanAbsoluteRGBDifference": 2.300925925925926,
+      "maximumRGBDifference": 27,
+      "pixelsOver16": 22
+    },
+    {
+      "variantID": "42819:293394",
+      "size": 12,
+      "theme": "Day",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293394.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/BFF5FD24-C1C3-4EA5-84BD-5FC5E10630D5.png",
+      "meanAbsoluteRGBDifference": 3.9722222222222223,
+      "maximumRGBDifference": 144,
+      "pixelsOver16": 26
+    },
+    {
+      "variantID": "42819:293394",
+      "size": 12,
+      "theme": "Night",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293394.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/DDEA80AA-FDC4-47F9-97AD-17034394ADE0.png",
+      "meanAbsoluteRGBDifference": 3.9722222222222223,
+      "maximumRGBDifference": 144,
+      "pixelsOver16": 26
+    },
+    {
+      "variantID": "42678:293418",
+      "size": 16,
+      "theme": "Day",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42678-293418.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/8FBD2C30-6271-434B-8CA2-C7463D9BEE27.png",
+      "meanAbsoluteRGBDifference": 1.5716145833333333,
+      "maximumRGBDifference": 26,
+      "pixelsOver16": 17
+    },
+    {
+      "variantID": "42678:293418",
+      "size": 16,
+      "theme": "Night",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42678-293418.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/7EB6D3CC-C7D9-4BE7-9D03-44A87A9ACB46.png",
+      "meanAbsoluteRGBDifference": 1.5716145833333333,
+      "maximumRGBDifference": 26,
+      "pixelsOver16": 17
+    },
+    {
+      "variantID": "42678:293418",
+      "size": 16,
+      "theme": "Day",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42678-293418.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/B27E053B-039B-472C-A62C-FBABD28DAC44.png",
+      "meanAbsoluteRGBDifference": 2.89453125,
+      "maximumRGBDifference": 144,
+      "pixelsOver16": 49
+    },
+    {
+      "variantID": "42678:293418",
+      "size": 16,
+      "theme": "Night",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42678-293418.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/64430CBC-9ED9-4F8A-9A40-E4F2F9C86845.png",
+      "meanAbsoluteRGBDifference": 2.89453125,
+      "maximumRGBDifference": 144,
+      "pixelsOver16": 49
+    },
+    {
+      "variantID": "42819:293395",
+      "size": 24,
+      "theme": "Day",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293395.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/81FCC19B-F1BF-4530-AFC5-53793AB25224.png",
+      "meanAbsoluteRGBDifference": 1.3530092592592593,
+      "maximumRGBDifference": 37,
+      "pixelsOver16": 47
+    },
+    {
+      "variantID": "42819:293395",
+      "size": 24,
+      "theme": "Night",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293395.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/D65D79FF-A528-46CC-B300-AADB3ECC0B04.png",
+      "meanAbsoluteRGBDifference": 1.3530092592592593,
+      "maximumRGBDifference": 37,
+      "pixelsOver16": 47
+    },
+    {
+      "variantID": "42819:293395",
+      "size": 24,
+      "theme": "Day",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293395.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/2F4B9F51-EB8F-49F1-93C3-73D773AF15B3.png",
+      "meanAbsoluteRGBDifference": 1.9021990740740742,
+      "maximumRGBDifference": 173,
+      "pixelsOver16": 49
+    },
+    {
+      "variantID": "42819:293395",
+      "size": 24,
+      "theme": "Night",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42819-293395.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/66039217-EB4F-470C-A266-685819C14F9C.png",
+      "meanAbsoluteRGBDifference": 1.9021990740740742,
+      "maximumRGBDifference": 173,
+      "pixelsOver16": 49
+    },
+    {
+      "variantID": "42977:286792",
+      "size": 32,
+      "theme": "Day",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42977-286792.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/6F5BFB41-7F69-41D0-802D-306F25489A47.png",
+      "meanAbsoluteRGBDifference": 0.9313151041666666,
+      "maximumRGBDifference": 31,
+      "pixelsOver16": 13
+    },
+    {
+      "variantID": "42977:286792",
+      "size": 32,
+      "theme": "Night",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/42977-286792.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/C2062637-C97C-4F12-BD23-B8FFCC3DA8E9.png",
+      "meanAbsoluteRGBDifference": 0.9313151041666666,
+      "maximumRGBDifference": 31,
+      "pixelsOver16": 13
+    },
+    {
+      "variantID": "42977:286792",
+      "size": 32,
+      "theme": "Day",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42977-286792.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/C11B0825-0EED-4588-98BD-549E9715FFAF.png",
+      "meanAbsoluteRGBDifference": 1.4697265625,
+      "maximumRGBDifference": 237,
+      "pixelsOver16": 25
+    },
+    {
+      "variantID": "42977:286792",
+      "size": 32,
+      "theme": "Night",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/42977-286792.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/3DF43C2B-3545-45A3-8A8A-732FE06D0222.png",
+      "meanAbsoluteRGBDifference": 1.4697265625,
+      "maximumRGBDifference": 237,
+      "pixelsOver16": 25
+    },
+    {
+      "variantID": "43680:292637",
+      "size": 40,
+      "theme": "Day",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/43680-292637.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/27B4CDAA-3F7D-44B7-922A-11891543DED7.png",
+      "meanAbsoluteRGBDifference": 0.853125,
+      "maximumRGBDifference": 34,
+      "pixelsOver16": 33
+    },
+    {
+      "variantID": "43680:292637",
+      "size": 40,
+      "theme": "Night",
+      "branch": "source-svg",
+      "source": "Documentation/References/Loader/FreshFigma/43680-292637.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/EDD46DE3-8A8D-4562-A4FD-65A885F951CD.png",
+      "meanAbsoluteRGBDifference": 0.853125,
+      "maximumRGBDifference": 34,
+      "pixelsOver16": 33
+    },
+    {
+      "variantID": "43680:292637",
+      "size": 40,
+      "theme": "Day",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/43680-292637.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/871D9CAE-4DCC-4617-931E-2FDB32918195.png",
+      "meanAbsoluteRGBDifference": 1.4104166666666667,
+      "maximumRGBDifference": 236,
+      "pixelsOver16": 52
+    },
+    {
+      "variantID": "43680:292637",
+      "size": 40,
+      "theme": "Night",
+      "branch": "native-circle-source-pose",
+      "source": "Documentation/References/Loader/FreshFigma/43680-292637.png",
+      "native": "Documentation/Validation/2026-10-09/Loader/PackageNative/9A2FBBA7-3F9E-493A-96CB-5BBBF2C937A4.png",
+      "meanAbsoluteRGBDifference": 1.4104166666666667,
+      "maximumRGBDifference": 236,
+      "pixelsOver16": 52
+    }
+  ]
+}

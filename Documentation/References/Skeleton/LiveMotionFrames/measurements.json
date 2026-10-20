@@ -1,0 +1,131 @@
+{
+  "samples": [
+    {
+      "frame": 0,
+      "liveCore": 13,
+      "staticCore": 25,
+      "liveText": 13,
+      "staticText": 25
+    },
+    {
+      "frame": 1,
+      "liveCore": 25,
+      "staticCore": 25,
+      "liveText": 25,
+      "staticText": 25
+    },
+    {
+      "frame": 2,
+      "liveCore": 17,
+      "staticCore": 25,
+      "liveText": 17,
+      "staticText": 25
+    },
+    {
+      "frame": 3,
+      "liveCore": 15,
+      "staticCore": 25,
+      "liveText": 15,
+      "staticText": 25
+    },
+    {
+      "frame": 4,
+      "liveCore": 25,
+      "staticCore": 25,
+      "liveText": 25,
+      "staticText": 25
+    },
+    {
+      "frame": 5,
+      "liveCore": 16,
+      "staticCore": 25,
+      "liveText": 16,
+      "staticText": 25
+    },
+    {
+      "frame": 6,
+      "liveCore": 17,
+      "staticCore": 25,
+      "liveText": 17,
+      "staticText": 25
+    },
+    {
+      "frame": 7,
+      "liveCore": 25,
+      "staticCore": 25,
+      "liveText": 25,
+      "staticText": 25
+    },
+    {
+      "frame": 8,
+      "liveCore": 15,
+      "staticCore": 25,
+      "liveText": 15,
+      "staticText": 25
+    },
+    {
+      "frame": 9,
+      "liveCore": 19,
+      "staticCore": 25,
+      "liveText": 19,
+      "staticText": 25
+    },
+    {
+      "frame": 10,
+      "liveCore": 25,
+      "staticCore": 25,
+      "liveText": 25,
+      "staticText": 25
+    },
+    {
+      "frame": 11,
+      "liveCore": 14,
+      "staticCore": 25,
+      "liveText": 14,
+      "staticText": 25
+    },
+    {
+      "frame": 12,
+      "liveCore": 22,
+      "staticCore": 25,
+      "liveText": 22,
+      "staticText": 25
+    },
+    {
+      "frame": 13,
+      "liveCore": 22,
+      "staticCore": 25,
+      "liveText": 22,
+      "staticText": 25
+    },
+    {
+      "frame": 14,
+      "liveCore": 13,
+      "staticCore": 25,
+      "liveText": 13,
+      "staticText": 25
+    },
+    {
+      "frame": 15,
+      "liveCore": 24,
+      "staticCore": 25,
+      "liveText": 24,
+      "staticText": 25
+    }
+  ],
+  "liveCoreRange": [
+    13,
+    25
+  ],
+  "liveTextRange": [
+    13,
+    25
+  ],
+  "staticCoreValues": [
+    25
+  ],
+  "staticTextValues": [
+    25
+  ],
+  "limitation": "Capture intervals do not establish frame-accurate transition duration; exact curve and duration are verified independently by the motion tests."
+}

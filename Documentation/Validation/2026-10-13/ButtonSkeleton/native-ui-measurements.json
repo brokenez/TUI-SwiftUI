@@ -1,0 +1,42 @@
+[
+  {
+    "name": "button-skeleton-small-night-live-measurements_0_20C92A76-F7EE-4551-976C-7FDC95AE39FE.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/93912872-0290-4D79-8942-D4E48309105D.txt",
+    "measurement": "size=small, theme=night, centerRed=[20, 15, 13, 17, 23, 25, 24, 18]"
+  },
+  {
+    "name": "button-skeleton-medium-night-live-measurements_0_AF987F7B-2D26-4BF2-86BB-8A03039FA6DA.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/59458EFF-3B01-403A-A382-34C3DCC5E4E2.txt",
+    "measurement": "size=medium, theme=night, centerRed=[19, 14, 13, 19, 24, 25, 21, 16]"
+  },
+  {
+    "name": "button-skeleton-large-night-live-measurements_0_4DF4288E-A149-4067-AA0A-0EF5B95569B5.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/561F50C7-60D5-47AC-B28B-0882FCE5DC26.txt",
+    "measurement": "size=large, theme=night, centerRed=[22, 25, 23, 17, 13, 18, 24, 25]"
+  },
+  {
+    "name": "button-skeleton-small-day-live-measurements_0_CBCD869C-162A-4ED7-BE8D-1EFC0EA249FA.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/ED3EAB1E-3435-4128-A909-38329FFABD39.txt",
+    "measurement": "size=small, theme=day, centerRed=[250, 251, 250, 248, 247, 248, 250, 251]"
+  },
+  {
+    "name": "button-skeleton-medium-day-live-measurements_0_2FDD6321-37DC-49F7-A02C-C321D6FD867F.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/4FC0DEF0-5FA0-433F-94E9-25DEE867B199.txt",
+    "measurement": "size=medium, theme=day, centerRed=[250, 251, 248, 251, 249, 248, 249, 251]"
+  },
+  {
+    "name": "button-skeleton-large-day-live-measurements_0_61C22F2C-7043-4A67-8662-B854AC0EA634.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/774763D1-ED5A-40ED-AA3A-C23F0F1310CF.txt",
+    "measurement": "size=large, theme=day, centerRed=[249, 251, 251, 250, 248, 247, 248, 250]"
+  },
+  {
+    "name": "skeleton-existing-route-after-textfield-probe_0_9A974616-2332-436E-A646-D520F77B556D.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/552E7D41-DE04-48BD-BD9B-00D660CD0D75.txt",
+    "measurement": "Attributes: Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'\nElement subtree:\n →Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'\n    Window (Main), 0x113c5a940, {{0.0, 0.0}, {402.0, 874.0}}\n      Other, 0x113c5a800, {{0.0, 0.0}, {402.0, 874.0}}\n        Other, 0x113c59040, {{0.0, 0.0}, {402.0, 874.0}}\n          Other, 0x113c59180, {{0.0, 0.0}, {402.0, 874.0}}\n            Other, 0x113c588c0, {{0.0, 0.0}, {402.0, 874.0}}\n              Other, 0x113c5ae40, {{0.0, 0.0}, {402.0, 874.0}}\n                NavigationBar, 0x113c5ad00, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Skeleton motion QA'\n                  StaticText, 0x113c5a440, {{122.3, 73.7}, {157.0, 20.7}}, label: 'Skeleton motion QA'\n                Other, 0x113c5a300, {{0.0, 0.0}, {402.0, 874.0}}\n                  Other, 0x113c59f40, {{0.0, 0.0}, {402.0, 874.0}}\n                    Other, 0x113c59a40, {{0.0, 0.0}, {402.0, 874.0}}\n                      Other, 0x113c58280, {{0.0, 0.0}, {402.0, 874.0}}\n                        StaticText, 0x113c583c0, {{150.0, 335.3}, {102.0, 20.3}}, label: 'Scene: active'\n                        StaticText, 0x113c58dc0, {{128.7, 387.7}, {144.7, 20.3}}, label: 'Reduce Motion: off'\n                        StaticText, 0x113c5af80, {{98.2, 440.0}, {205.7, 20.3}}, label: 'System Reduce Motion: off'\n                        StaticText, 0x113c58640, {{119.5, 492.3}, {31.0, 20.3}}, label: 'Live'\n                        Other, 0x113c5a6c0, {{115.0, 528.7}, {40.0, 40.0}}\n                        Other, 0x113c5a580, {{89.0, 590.7}, {92.0, 24.0}}\n                        StaticText, 0x113c59400, {{245.0, 492.3}, {44.0, 20.3}}, label: 'Static'\n                        Other, 0x113c5a1c0, {{247.0, 528.7}, {40.0, 40.0}}\n                        Other, 0x113c59680, {{221.0, 590.7}, {92.0, 24.0}}\n                Other, 0x113c5abc0, {{0.0, 0.0}, {402.0, 874.0}}\n                  Other, 0x113c5aa80, {{0.0, 0.0}, {402.0, 874.0}}\nPath to element:\n →Application, 0x113c59b80, pid: 37900, label: 'TUIDesignSystemCatalog'\nQuery chain:\n →Find: Target Application 'local.TUIDesignSystemCatalog'\n  Output: {\n    Application, 0x113c58780, pid: 37900, label: 'TUIDesignSystemCatalog'\n  }\n"
+  },
+  {
+    "name": "skeleton-text-textfield-host-route-regression-measurements_0_20E82BD7-1ACF-46D3-A391-45FDB0703DB5.txt",
+    "file": "Documentation/Validation/2026-10-13/ButtonSkeleton/NativeUI/1EDE7397-F4DC-41FD-8291-CFB21A7B77B4.txt",
+    "measurement": "text=[22, 15, 15, 24, 24, 16, 13, 19]"
+  }
+]

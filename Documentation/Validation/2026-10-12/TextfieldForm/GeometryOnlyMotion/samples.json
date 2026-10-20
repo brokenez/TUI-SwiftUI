@@ -1,0 +1,846 @@
+{
+  "capture" : "Active UIWindow.drawHierarchy; native editor model\/presentation bounds from CADisplayLink",
+  "events" : [
+    {
+      "elapsed" : 0.32095204165671021,
+      "name" : "first"
+    },
+    {
+      "elapsed" : 1.2232346249948023,
+      "name" : "repeated"
+    },
+    {
+      "elapsed" : 1.9687945416662842,
+      "name" : "focus-only"
+    },
+    {
+      "elapsed" : 2.7462757499888539,
+      "name" : "reset"
+    }
+  ],
+  "frames" : [
+    {
+      "elapsed" : 0.031467999986489303,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.048390666663181037,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.064693583321059123,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.081402666663052514,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.098024666658602655,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.11469899999792688,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.13135674998920877,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.14803854166530073,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.16468795832770411,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.18137537498841994,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.19802616666129325,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.21469349999097176,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.23136829165741801,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.24803279165644199,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.26470508333295584,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.28136312498827465,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.29802470833237749,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.31468662498809863,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.35402354165853467,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.3646759583207313,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.38133695832220837,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.3986225416592788,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 422
+    },
+    {
+      "elapsed" : 0.41480287499143742,
+      "isFirstResponder" : false,
+      "modelX" : 52.333333333333329,
+      "renderedX" : 52.333333333333329,
+      "renderedY" : 419.6514949798584
+    },
+    {
+      "elapsed" : 0.43197108332242351,
+      "isFirstResponder" : false,
+      "modelX" : 52,
+      "renderedX" : 52,
+      "renderedY" : 417.55138683319092
+    },
+    {
+      "elapsed" : 0.44844799999555107,
+      "isFirstResponder" : false,
+      "modelX" : 51.333333333333329,
+      "renderedX" : 51.333333333333329,
+      "renderedY" : 415.62593555450439
+    },
+    {
+      "elapsed" : 0.46468670832109638,
+      "isFirstResponder" : false,
+      "modelX" : 50.333333333333329,
+      "renderedX" : 50.333333333333329,
+      "renderedY" : 413.84970664978027
+    },
+    {
+      "elapsed" : 0.48136604165483732,
+      "isFirstResponder" : false,
+      "modelX" : 50.666666666666664,
+      "renderedX" : 50.666666666666664,
+      "renderedY" : 412.20850086212158
+    },
+    {
+      "elapsed" : 0.49802312499377877,
+      "isFirstResponder" : false,
+      "modelX" : 52.333333333333329,
+      "renderedX" : 52.333333333333329,
+      "renderedY" : 410.69310569763184
+    },
+    {
+      "elapsed" : 0.51527445833198726,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 409.29705238342285
+    },
+    {
+      "elapsed" : 0.53134679165668786,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 408.01561450958252
+    },
+    {
+      "elapsed" : 0.56470945832552388,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 406.84518718719482
+    },
+    {
+      "elapsed" : 0.58136433332401793,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 405.78298664093018
+    },
+    {
+      "elapsed" : 0.59812179165601265,
+      "isFirstResponder" : false,
+      "modelX" : 51.666666666666664,
+      "renderedX" : 51.666666666666664,
+      "renderedY" : 404.82682991027832
+    },
+    {
+      "elapsed" : 0.61473812499025371,
+      "isFirstResponder" : false,
+      "modelX" : 50,
+      "renderedX" : 50,
+      "renderedY" : 403.97501468658447
+    },
+    {
+      "elapsed" : 0.63139670832606498,
+      "isFirstResponder" : false,
+      "modelX" : 51.333333333333329,
+      "renderedX" : 51.333333333333329,
+      "renderedY" : 403.22623920440674
+    },
+    {
+      "elapsed" : 0.64806799999496434,
+      "isFirstResponder" : false,
+      "modelX" : 52.333333333333329,
+      "renderedX" : 52.333333333333329,
+      "renderedY" : 402.57944202423096
+    },
+    {
+      "elapsed" : 0.66471808332426008,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 402.03390216827393
+    },
+    {
+      "elapsed" : 0.68137324998679105,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 401.58901882171631
+    },
+    {
+      "elapsed" : 0.6980467916582711,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 401.24445152282715
+    },
+    {
+      "elapsed" : 0.71480654165497981,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.73139070832985453,
+      "isFirstResponder" : false,
+      "modelX" : 55.333333333333329,
+      "renderedX" : 55.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.74814912499277852,
+      "isFirstResponder" : false,
+      "modelX" : 55,
+      "renderedX" : 55,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.76478095832862891,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.78137320833047852,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.79806079165427946,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.81472495832713321,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.83136449998710304,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.84806358332571108,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.86469070833118167,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.88135758331918623,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.89804333331994712,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.91473966666671913,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.93140541666070931,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.94805037499463651,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.96474229166051373,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.98141558333009016,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 0.99807795832748525,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0147525416541612,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0314087083243066,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0480527916661231,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0647744583257008,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.0814059166586958,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.098084833327448,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1147458749910584,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1314004166633822,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1480814999958966,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.164750041658408,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.181500958322431,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.1983916666649748,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2147306249971734,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2535946249990957,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2814216666592984,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.2980328333214857,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3147733749938197,
+      "isFirstResponder" : false,
+      "modelX" : 52.666666666666664,
+      "renderedX" : 52.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3314343749952968,
+      "isFirstResponder" : false,
+      "modelX" : 52,
+      "renderedX" : 52,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3480287083220901,
+      "isFirstResponder" : false,
+      "modelX" : 51,
+      "renderedX" : 51,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.364698249992216,
+      "isFirstResponder" : false,
+      "modelX" : 50.333333333333329,
+      "renderedX" : 50.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.3815784583275672,
+      "isFirstResponder" : false,
+      "modelX" : 51.333333333333329,
+      "renderedX" : 51.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4024815833254252,
+      "isFirstResponder" : false,
+      "modelX" : 52.666666666666664,
+      "renderedX" : 52.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4148382083221804,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.431371249986114,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4480147916619899,
+      "isFirstResponder" : false,
+      "modelX" : 55.666666666666664,
+      "renderedX" : 55.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4646744583296822,
+      "isFirstResponder" : false,
+      "modelX" : 55,
+      "renderedX" : 55,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4813704999978654,
+      "isFirstResponder" : false,
+      "modelX" : 54.666666666666664,
+      "renderedX" : 54.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.4980277916620253,
+      "isFirstResponder" : false,
+      "modelX" : 54.333333333333329,
+      "renderedX" : 54.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5147146666568005,
+      "isFirstResponder" : false,
+      "modelX" : 54,
+      "renderedX" : 54,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5313749166525668,
+      "isFirstResponder" : false,
+      "modelX" : 53.666666666666664,
+      "renderedX" : 53.666666666666664,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5480436249927152,
+      "isFirstResponder" : false,
+      "modelX" : 53.333333333333329,
+      "renderedX" : 53.333333333333329,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5647028749954188,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.581475999992108,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.5980413749930449,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6147395416628569,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6313799166528042,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6480643749964656,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6647448749863543,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6814017500000773,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.6980666249874048,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7147359166556271,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7314008333196398,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.748060333324247,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7647349583276082,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7814002916566096,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.7980659583263332,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8147464166540885,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8313976249919506,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8480629166588187,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8647318333241856,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8813977083336795,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.8980526249943068,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.9147504166612634,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.9313985416665673,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.9480684583249968,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 1.9647482499858597,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.0301409166568192,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 2.8797895416646497,
+      "isFirstResponder" : true,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 3.0348062916600611,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    },
+    {
+      "elapsed" : 3.0650840833259281,
+      "isFirstResponder" : false,
+      "modelX" : 53,
+      "renderedX" : 53,
+      "renderedY" : 401
+    }
+  ],
+  "scale" : 3,
+  "screenshotNames" : [
+
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "source": {
+    "fileKey": "gGt4PaQxQhX7ozPVImsgL5",
+    "nodeId": "12472:11173",
+    "url": "https://www.figma.com/design/gGt4PaQxQhX7ozPVImsgL5/TUI-Foundations?node-id=12472-11173",
+    "retrievedAt": "2026-10-08",
+    "method": "Figma Desktop MCP get_design_context"
+  },
+  "roles": [
+    {
+      "sourceName": "Heading Mobile / L",
+      "tokenPrefix": "Typography/Heading Mobile/L",
+      "baseSize": 30,
+      "textStyle": "Large Title",
+      "approximateSystemSize": 34
+    },
+    {
+      "sourceName": "Heading Mobile / M",
+      "tokenPrefix": "Typography/Heading Mobile/M",
+      "baseSize": 20,
+      "textStyle": "Title 3",
+      "approximateSystemSize": 20
+    },
+    {
+      "sourceName": "Heading Mobile / S Bold",
+      "tokenPrefix": "Typography/Heading Mobile/S Bold",
+      "baseSize": 17,
+      "textStyle": "Headline",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "Heading Mobile / S",
+      "tokenPrefix": "Typography/Heading Mobile/S",
+      "baseSize": 17,
+      "textStyle": "Headline",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "Body / L Bold",
+      "tokenPrefix": "Typography/Body/L Bold",
+      "baseSize": 17,
+      "textStyle": "Body",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "Body / L",
+      "tokenPrefix": "Typography/Body/L",
+      "baseSize": 17,
+      "textStyle": "Body",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "Body / M Bold",
+      "tokenPrefix": "Typography/Body/M Bold",
+      "baseSize": 15,
+      "textStyle": "Subheadline",
+      "approximateSystemSize": 15
+    },
+    {
+      "sourceName": "Body / M",
+      "tokenPrefix": "Typography/Body/M",
+      "baseSize": 15,
+      "textStyle": "Subheadline",
+      "approximateSystemSize": 15
+    },
+    {
+      "sourceName": "Body / S Bold",
+      "tokenPrefix": "Typography/Body/S Bold",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "Body / S",
+      "tokenPrefix": "Typography/Body/S",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "Body / XS Bold",
+      "tokenPrefix": "Typography/Body/XS Bold",
+      "baseSize": 12,
+      "textStyle": "Caption 1",
+      "approximateSystemSize": 12
+    },
+    {
+      "sourceName": "Body / XS",
+      "tokenPrefix": "Typography/Body/XS",
+      "baseSize": 12,
+      "textStyle": "Caption 1",
+      "approximateSystemSize": 12
+    },
+    {
+      "sourceName": "UI / L Bold",
+      "tokenPrefix": "Typography/UI/L Bold",
+      "baseSize": 17,
+      "textStyle": "Body",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "UI / L",
+      "tokenPrefix": "Typography/UI/L",
+      "baseSize": 17,
+      "textStyle": "Body",
+      "approximateSystemSize": 17
+    },
+    {
+      "sourceName": "UI / M Bold",
+      "tokenPrefix": "Typography/UI/M Bold",
+      "baseSize": 15,
+      "textStyle": "Subheadline",
+      "approximateSystemSize": 15
+    },
+    {
+      "sourceName": "UI / M",
+      "tokenPrefix": "Typography/UI/M",
+      "baseSize": 15,
+      "textStyle": "Subheadline",
+      "approximateSystemSize": 15
+    },
+    {
+      "sourceName": "UI / S Bold",
+      "tokenPrefix": "Typography/UI/S Bold",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "UI / S",
+      "tokenPrefix": "Typography/UI/S",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "UI / XS Bold",
+      "tokenPrefix": "Typography/UI/XS Bold",
+      "baseSize": 12,
+      "textStyle": "Caption 1",
+      "approximateSystemSize": 12
+    },
+    {
+      "sourceName": "UI / XS",
+      "tokenPrefix": "Typography/UI/XS",
+      "baseSize": 12,
+      "textStyle": "Caption 1",
+      "approximateSystemSize": 12
+    },
+    {
+      "sourceName": "UI / 2XS Bold",
+      "tokenPrefix": "Typography/UI/2XS Bold",
+      "baseSize": 11,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "UI / 2XS",
+      "tokenPrefix": "Typography/UI/2XS",
+      "baseSize": 11,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "UI / 3XS Bold",
+      "tokenPrefix": "Typography/UI/3XS Bold",
+      "baseSize": 9,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "UI / 3XS",
+      "tokenPrefix": "Typography/UI/3XS",
+      "baseSize": 9,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "Caps / S Bold",
+      "tokenPrefix": "Typography/Caps/S Bold",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "Caps / S",
+      "tokenPrefix": "Typography/Caps/S",
+      "baseSize": 13,
+      "textStyle": "Footnote",
+      "approximateSystemSize": 13
+    },
+    {
+      "sourceName": "Caps / 2XS Bold",
+      "tokenPrefix": "Typography/Caps/2XS Bold",
+      "baseSize": 11,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "Caps / 2XS",
+      "tokenPrefix": "Typography/Caps/2XS",
+      "baseSize": 11,
+      "textStyle": "Caption 2",
+      "approximateSystemSize": 11
+    },
+    {
+      "sourceName": "Number / 2XL",
+      "tokenPrefix": "Typography/Numbers/2XL",
+      "baseSize": 48,
+      "textStyle": "Large Title",
+      "approximateSystemSize": 34
+    },
+    {
+      "sourceName": "Number / XL",
+      "tokenPrefix": "Typography/Numbers/XL",
+      "baseSize": 30,
+      "textStyle": "Title 1",
+      "approximateSystemSize": 28
+    },
+    {
+      "sourceName": "Number / M",
+      "tokenPrefix": "Typography/Numbers/M",
+      "baseSize": 20,
+      "textStyle": "Title 3",
+      "approximateSystemSize": 20
+    }
+  ],
+  "lineHeight": {
+    "sourceNode": "13928:8371",
+    "observedExample": {
+      "token": "body/xs",
+      "respectsFontLineHeight": true,
+      "textStyle": "Caption 1"
+    },
+    "status": "PARTIAL",
+    "limitations": "The source example is confirmed. This extraction does not establish the boolean value or exact renderer contract for every role."
+  },
+  "tracking": {
+    "status": "VERIFIED_SOURCE",
+    "sourceNodes": [
+      "8705:3250",
+      "8705:3272",
+      "8705:3304",
+      "8705:3348",
+      "8705:3368"
+    ],
+    "rule": "Letter Spacing* is a Figma-only reference; iOS supplies spacing automatically. Do not add it again to the system font."
+  }
+}

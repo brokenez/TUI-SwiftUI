@@ -58,7 +58,19 @@ public final class TUITokenCatalog: @unchecked Sendable {
             })
         else { return nil }
 
+        if let modeName, !modes(in: collectionName).contains(where: {
+            $0.caseInsensitiveCompare(modeName) == .orderedSame
+        }) {
+            return nil
+        }
         return resolve(variable: variable, collection: collection, modeName: modeName, visited: [])
+    }
+
+    /// Source mode names, in their declared order. Unknown modes never silently
+    /// resolve as Day or iOS at the public lookup boundary.
+    public func modes(in collectionName: String) -> [String] {
+        (collection(named: collectionName)?["modes"] as? [[String: Any]] ?? [])
+            .compactMap { $0["name"] as? String }
     }
 
     public func number(
@@ -88,7 +100,7 @@ public final class TUITokenCatalog: @unchecked Sendable {
         let modes = collection["modes"] as? [[String: Any]] ?? []
         let chosenMode = modeName.flatMap { requested in
             modes.first { ($0["name"] as? String)?.caseInsensitiveCompare(requested) == .orderedSame }
-        } ?? modes.first
+        } ?? modes.first { $0["modeId"] as? String == collection["defaultModeId"] as? String }
         guard
             let modeID = chosenMode?["modeId"] as? String,
             let values = variable["valuesByMode"] as? [String: Any],

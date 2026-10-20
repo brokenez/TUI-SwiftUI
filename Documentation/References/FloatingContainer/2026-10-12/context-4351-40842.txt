@@ -1,0 +1,359 @@
+import { imgColor, imgColor1, imgColor2 } from "./svg-wj3ae";
+type TuiSpacingProps = {
+  className?: string;
+  size?: "00 - 0px" | "05 - 16px";
+  visible?: boolean;
+};
+
+function TuiSpacing({ className, size = "00 - 0px", visible = false }: TuiSpacingProps) {
+  const is0516PxAndFalse = size === "05 - 16px" && !visible;
+  return (
+    <div className={className || `relative ${is0516PxAndFalse ? "content-stretch flex flex-col items-start w-[16px]" : "h-0 w-[0.01px]"}`} id={is0516PxAndFalse ? "node-22_2812" : "node-22_2786"}>
+      <div className={is0516PxAndFalse ? "h-[16px] relative shrink-0 w-full" : "absolute inset-[0_90%_99.9%_0]"} id={is0516PxAndFalse ? "node-22_2813" : "node-22_2787"} data-name />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col gap-[20px] items-start p-[148px] relative rounded-[120px] size-full" data-node-id="4351:40842" data-name="Стили">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="4351:40843" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I4351:40843;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I4351:40843;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Варианты
+          </p>
+          <div className="flex flex-row items-center self-stretch" data-node-id="I4351:40843;4925:370">
+            <div className="content-stretch flex flex-col h-full items-start justify-center relative shrink-0" data-name="badge">
+              <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I4351:40843;4925:371" data-name="tui-badge">
+                <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I4351:40843;4925:371;6917:52779" data-name="IconCont">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I4351:40843;4925:371;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                    <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I4351:40843;4925:371;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I4351:40843;4925:371;6917:52781" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I4351:40843;4925:371;6917:52782">
+                    preset
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="4351:40844" data-name="row">
+        <div className="border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex items-center relative shrink-0 w-[256px]" data-node-id="4351:40845" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="I4351:40845;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="I4351:40845;30429:176791" data-name="Content">
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I4351:40845;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I4351:40845;30429:176794">
+                  Property name
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex items-center justify-center relative shrink-0 w-[415px]" data-node-id="4351:40846" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I4351:40846;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I4351:40846;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px relative" data-node-id="I4351:40846;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I4351:40846;30429:176794">{`IOS `}</p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+        <div className="border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-b border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="4351:40847" data-name="tui-table-сell">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px px-[40px] relative" data-node-id="I4351:40847;30429:176789" data-name="Container">
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="I4351:40847;30429:176791" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px relative" data-node-id="I4351:40847;30429:176793" data-name="Text + Sort icon">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I4351:40847;30429:176794">
+                  Android
+                </p>
+              </div>
+            </div>
+            <TuiSpacing className="content-stretch flex flex-col h-[16px] items-start relative shrink-0 w-full" size="05 - 16px" />
+          </div>
+        </div>
+      </div>
+      <div className="border-solid border-t border-white content-stretch flex gap-[40px] items-start pt-[40px] relative shrink-0 w-full" data-node-id="4351:40848" data-name="row">
+        <div className="content-stretch flex h-[52px] items-center relative shrink-0 w-[240px]" data-node-id="4351:40849" data-name="tui-table-сell">
+          <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I4351:40849;30429:176578">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Regular'] h-full items-start justify-center min-w-px not-italic relative" data-name="Text">
+              <p className="leading-[28px] relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primary,rgba(0,0,0,0.8))] w-full" data-node-id="I4351:40849;30429:176580">
+                Action
+              </p>
+              <p className="leading-[24px] relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40849;30429:176581">
+                Одна primary кнопка
+              </p>
+            </div>
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40850" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[375px]" data-node-id="4351:40851" data-name="tui-floating-container">
+            <div className="content-stretch flex flex-col items-start pb-[24px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40851;44286:299617" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40851;44286:299618" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4351:40851;44286:299618;41658:296910" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4351:40851;44286:299618;41658:296911">
+                    Main action
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40852" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[360px]" data-node-id="4351:40853" data-name="tui-floating-container">
+            <div className="content-stretch flex flex-col items-start pb-[24px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40853;44286:299640" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40853;44286:299641" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I4351:40853;44286:299641;41658:296917" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center whitespace-nowrap" data-node-id="I4351:40853;44286:299641;41658:296918" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Main action
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="border-solid border-t border-white content-stretch flex gap-[40px] items-start pt-[40px] relative shrink-0 w-full" data-node-id="4351:40854" data-name="row">
+        <div className="content-stretch flex h-[52px] items-center relative shrink-0 w-[240px]" data-node-id="4351:40855" data-name="tui-table-сell">
+          <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I4351:40855;30429:176578">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Regular'] h-full items-start justify-center min-w-px not-italic relative" data-name="Text">
+              <p className="leading-[28px] relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primary,rgba(0,0,0,0.8))] w-full" data-node-id="I4351:40855;30429:176580">
+                Two actions
+              </p>
+              <p className="leading-[24px] relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40855;30429:176581">
+                Кнопки primary и secondary
+              </p>
+            </div>
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40856" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[375px]" data-node-id="4351:40857" data-name="tui-floating-container">
+            <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="I4351:40857;44286:299511" data-name="fade">
+              <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="I4351:40857;44286:299512" data-name="container">
+                <div className="absolute bg-[var(--UIColor.tui.background.base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="I4351:40857;44286:299514" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40857;44286:299515" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40857;44286:299516" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4351:40857;44286:299516;41658:296910" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4351:40857;44286:299516;41658:296911">
+                    Main action
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40857;44286:299517" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4351:40857;44286:299517;42596:297181" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.action,#428bf9)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4351:40857;44286:299517;42596:297182">
+                    Secondary action
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40858" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[360px]" data-node-id="4351:40859" data-name="tui-floating-container">
+            <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="I4351:40859;44286:299537" data-name="fade">
+              <div className="absolute bottom-[-151px] h-[151px] left-0 overflow-clip right-0" data-node-id="I4351:40859;44286:299538" data-name="container">
+                <div className="absolute bg-[var(--UIColor.tui.background.base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[360px_151px]" data-node-id="I4351:40859;44286:299540" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40859;44286:299541" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40859;44286:299542" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I4351:40859;44286:299542;41658:296917" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center whitespace-nowrap" data-node-id="I4351:40859;44286:299542;41658:296918" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Main action
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40859;44286:299543" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I4351:40859;44286:299543;42596:297198" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.action,#428bf9)] text-center whitespace-nowrap" data-node-id="I4351:40859;44286:299543;42596:297199" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Secondary action
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="border-solid border-t border-white content-stretch flex gap-[40px] items-start pt-[40px] relative shrink-0 w-full" data-node-id="4351:40860" data-name="row">
+        <div className="content-stretch flex h-[76px] items-center relative shrink-0 w-[240px]" data-node-id="4351:40861" data-name="tui-table-сell">
+          <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I4351:40861;30429:176578">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Regular'] h-full items-start justify-center min-w-px not-italic relative" data-name="Text">
+              <p className="leading-[28px] relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primary,rgba(0,0,0,0.8))] w-full" data-node-id="I4351:40861;30429:176580">
+                Action + legal
+              </p>
+              <p className="leading-[24px] relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40861;30429:176581">
+                Primary кнопка и текстовая часть
+              </p>
+            </div>
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40862" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[375px]" data-node-id="4351:40863" data-name="tui-floating-container">
+            <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="I4351:40863;44286:299554" data-name="fade">
+              <div className="absolute bottom-[-170px] h-[170px] left-0 overflow-clip right-0" data-node-id="I4351:40863;44286:299555" data-name="container">
+                <div className="absolute bg-[var(--UIColor.tui.background.base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[375px_170px]" data-node-id="I4351:40863;44286:299557" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40863;44286:299558" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40863;44286:299559" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I4351:40863;44286:299559;41658:296910" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I4351:40863;44286:299559;41658:296911">
+                    Main action
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-start justify-center min-h-[48px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40863;44286:299561" data-name="LegalTextCont">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--UIColor.tui.text.secondary,#9299a2)] text-center tracking-[-0.08px]" data-node-id="I4351:40863;44286:299562">
+                Legal text, max 3 lines
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40864" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[360px]" data-node-id="4351:40865" data-name="tui-floating-container">
+            <div className="h-[0.001px] relative shrink-0 w-full" data-node-id="I4351:40865;44286:299586" data-name="fade">
+              <div className="absolute bottom-[-151px] h-[151px] left-0 overflow-clip right-0" data-node-id="I4351:40865;44286:299587" data-name="container">
+                <div className="absolute bg-[var(--UIColor.tui.background.base,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[360px_151px]" data-node-id="I4351:40865;44286:299589" style={{ maskImage: `url("${imgColor2}")` }} data-name="Color" />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start pb-[16px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40865;44286:299590" data-name="Buttons cont">
+              <div className="bg-[var(--UIColor.tui.background.accent1,#ffdd2d)] content-stretch flex items-center justify-center overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius-large,16px)] shrink-0 w-full" data-node-id="I4351:40865;44286:299591" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip pb-[2px] pt-[3px] px-[8px] relative shrink-0" data-node-id="I4351:40865;44286:299591;41658:296917" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['Roboto:Regular'] font-normal leading-[normal] relative shrink-0 text-[16px] text-[color:var(--UIColor.tui.text.primaryOnAccent1,#333)] text-center whitespace-nowrap" data-node-id="I4351:40865;44286:299591;41658:296918" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Main action
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[10px] items-start justify-center min-h-[48px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40865;44286:299593" data-name="LegalTextCont">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[13px] text-[color:var(--UIColor.tui.text.secondary,#9299a2)] text-center" data-node-id="I4351:40865;44286:299594" style={{ fontVariationSettings: '"wdth" 100' }}>
+                Legal text, max 3 lines
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="border-solid border-t border-white content-stretch flex gap-[40px] items-start pt-[40px] relative shrink-0 w-full" data-node-id="4351:40866" data-name="row">
+        <div className="content-stretch flex h-[76px] items-center relative shrink-0 w-[240px]" data-node-id="4351:40867" data-name="tui-table-сell">
+          <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="I4351:40867;30429:176578">
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Neue_Haas_Unica_W1G:Regular'] h-full items-start justify-center min-w-px not-italic relative" data-name="Text">
+              <p className="leading-[28px] relative shrink-0 text-[17px] text-[color:var(--UIColor.tui.text.primary,rgba(0,0,0,0.8))] w-full" data-node-id="I4351:40867;30429:176580">
+                Custom content
+              </p>
+              <p className="leading-[24px] relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I4351:40867;30429:176581">
+                Место для любого контента внизу экрана
+              </p>
+            </div>
+          </div>
+          <TuiSpacing className="flex flex-row items-center self-stretch" size="05 - 16px" />
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40868" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[375px]" data-node-id="4351:40869" data-name="tui-floating-container">
+            <div className="content-stretch flex flex-col items-start pb-[24px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40869;44286:299622" data-name="Buttons cont">
+              <div className="content-stretch flex flex-col h-[56px] items-start relative shrink-0 w-full" data-node-id="I4351:40869;44286:299623" data-name="Placeholder">
+                <div className="border-[0.5px] border-[var(--UIColor.tui.text.secondary,#9299a2)] border-dashed content-stretch flex flex-[1_0_0] items-center justify-center min-h-px py-[16px] relative rounded-[8px] w-full" data-node-id="I4351:40869;44286:299623;13167:125434" data-name="frame">
+                  <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.secondary,#9299a2)] text-center tracking-[-0.24px]" data-node-id="I4351:40869;44286:299623;13167:125435">
+                    <p className="leading-[normal]">Custom View</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex h-[170px] items-start justify-end relative shrink-0" data-node-id="4351:40870" data-name="table сell">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[360px]" data-node-id="4351:40871" data-name="tui-floating-container">
+            <div className="content-stretch flex flex-col items-start pb-[24px] px-[16px] relative shrink-0 w-full" data-node-id="I4351:40871;55061:284243" data-name="Buttons cont">
+              <div className="content-stretch flex flex-col h-[56px] items-start relative shrink-0 w-full" data-node-id="I4351:40871;55061:284244" data-name="Placeholder">
+                <div className="border-[0.5px] border-[var(--UIColor.tui.text.secondary,#9299a2)] border-dashed content-stretch flex flex-[1_0_0] items-center justify-center min-h-px py-[16px] relative rounded-[8px] w-full" data-node-id="I4351:40871;55061:284244;13167:125434" data-name="frame">
+                  <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.secondary,#9299a2)] text-center tracking-[-0.24px]" data-node-id="I4351:40871;55061:284244;13167:125435">
+                    <p className="leading-[normal]">Custom View</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10), Desktop/Body M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 24, letterSpacing: 0), Desktop/Body L: Font(family: "Neue Haas Unica W1G", style: Regular, size: 17, weight: 400, lineHeight: 28, letterSpacing: 0), Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), Day/Text/secondary: #9299A2, iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Android/UI S: Font(family: "Roboto", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-badge
+**Node ID:** 7524:5521
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 23:2541
+
+save, mark, favorite, remember
+
+## tui-table-сell
+**Node ID:** 7524:11789
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-table](https://go.tcsbank.ru/tui-table)
+
+## tui-spacing
+**Node ID:** 22:2785
+
+Компонент отступов. Лучше использовать родные фигмовские отступы автолейауте, эти подойдут если нужны разные отступы внутри блока
+
+## tui-floating-container
+**Node ID:** 7524:16482
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6044
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 7524:6043
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## system=android, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6089
+
+Ex. primary-tinkoff
+
+## Placeholder
+**Node ID:** 7524:16472
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/4351-40842/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

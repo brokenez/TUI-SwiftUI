@@ -1,0 +1,105 @@
+Attributes: Application, 0x10a493200, pid: 86718, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x10a493200, pid: 86718, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x10a493340, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a491f40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a492080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a4921c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a492300, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a492440, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x10a492580, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'tui-button'
+                  Button, 0x10a4926c0, {{16.0, 62.0}, {44.0, 44.0}}, identifier: 'BackButton', label: 'TUI Design System'
+                  StaticText, 0x10a492800, {{160.3, 73.7}, {81.0, 20.7}}, label: 'tui-button'
+                Other, 0x10a492940, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10a492a80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10a492bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10a492d00, {{0.0, 0.0}, {402.0, 874.0}}
+                        CollectionView, 0x10a492e40, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x10a492f80, {{-16.0, -1632.0}, {434.0, 2372.0}}
+                          Other, 0x10a4930c0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106e435c0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Cell, 0x106e43700, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x106e43840, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x106e43980, {{16.0, 116.0}, {370.0, 40.3}}
+                              Other, 0x106e43ac0, {{16.0, 116.0}, {370.0, 40.3}}
+                                Other, 0x106e43c00, {{16.0, 116.0}, {370.0, 40.3}}
+                                  StaticText, 0x106e43d40, {{16.0, 116.0}, {370.0, 40.3}}, label: 'Живой компонент'
+                          Cell, 0x106e43e80, {{16.0, 156.3}, {370.0, 566.0}}
+                            Other, 0x10a4d4000, {{16.0, 156.3}, {370.0, 566.0}}
+                              Other, 0x10a4d4140, {{16.0, 156.3}, {370.0, 566.0}}
+                            Other, 0x10a4d4280, {{16.0, 156.3}, {370.0, 566.0}}
+                              Other, 0x10a4d43c0, {{16.0, 156.3}, {370.0, 566.0}}
+                                Other, 0x10a4d4500, {{16.0, 156.3}, {370.0, 566.0}}
+                                  Button, 0x10a4d4640, {{164.0, 203.3}, {74.0, 44.0}}, identifier: 'buttonPlaygroundComponent', label: 'Label'
+                                    Other, 0x10a4d4780, {{0.0, 0.0}, {0.0, 0.0}}
+                                    StaticText, 0x10a4d48c0, {{164.0, 203.3}, {74.0, 44.0}}, label: 'Label'
+                                  StaticText, 0x10a4d4a00, {{32.0, 297.3}, {71.3, 20.3}}, label: 'Нажатий'
+                                  StaticText, 0x10a4d4b40, {{32.0, 297.3}, {338.0, 20.3}}, label: 'Нажатий, 1'
+                                  StaticText, 0x10a4d4c80, {{32.0, 335.7}, {66.0, 14.3}}, label: 'Figma node'
+                                  StaticText, 0x10a4d4dc0, {{32.0, 335.7}, {338.0, 14.3}}, label: 'Figma node, 41658:296935'
+                                  TextField, 0x10a4d4f00, {{32.0, 368.0}, {338.0, 22.0}}, placeholderValue: 'Текст', value: Label
+                                  StaticText, 0x10a4d5040, {{32.0, 408.0}, {105.3, 20.3}}, label: 'Оформление'
+                                  Button, 0x10a4d5180, {{32.0, 401.0}, {338.0, 34.3}}, label: 'Оформление, primary'
+                                    StaticText, 0x10a4d52c0, {{295.3, 408.0}, {58.0, 20.3}}, label: 'primary'
+                                  StaticText, 0x10a4d5400, {{32.0, 446.3}, {60.3, 20.3}}, label: 'Размер'
+                                  Button, 0x10a4d5540, {{32.0, 439.3}, {338.0, 34.3}}, identifier: 'buttonSizePicker', label: 'Размер, medium'
+                                    StaticText, 0x10a4d5680, {{292.3, 446.3}, {61.3, 20.3}}, label: 'medium'
+                                  SegmentedControl, 0x10a4d57c0, {{32.0, 484.7}, {338.0, 31.0}}, identifier: 'buttonMediumWidthPicker'
+                                    Button, 0x10a4d5900, {{32.0, 484.7}, {169.0, 32.0}}, label: 'На всю ширину'
+                                    Button, 0x10a4d5a40, {{201.0, 484.7}, {169.0, 32.0}}, label: 'По содержимому', Selected
+                                  StaticText, 0x10a4d5b80, {{32.0, 533.7}, {85.7, 20.3}}, label: 'Состояние'
+                                  Button, 0x10a4d5cc0, {{32.0, 526.7}, {338.0, 34.3}}, identifier: 'buttonStatePicker', label: 'Состояние, normal'
+                                    StaticText, 0x10a4d5e00, {{301.0, 533.7}, {52.7, 20.3}}, label: 'normal'
+                                  Switch, 0x10a4d5f40, {{32.0, 568.3}, {338.0, 28.0}}, label: 'Иконка', value: 0
+                                    StaticText, 0x10a4d6080, {{32.0, 572.0}, {58.0, 20.3}}, label: 'Иконка'
+                                    Switch, 0x10a4d61c0, {{309.0, 568.3}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x10a4d6300, {{32.0, 606.7}, {338.0, 28.0}}, label: 'Текст', value: 1
+                                    StaticText, 0x10a4d6440, {{32.0, 610.3}, {44.3, 20.3}}, label: 'Текст'
+                                    Switch, 0x10a4d6580, {{309.0, 606.7}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x10a4d66c0, {{32.0, 645.0}, {338.0, 28.0}}, label: 'Skeleton', value: 0
+                                    StaticText, 0x10a4d6800, {{32.0, 648.7}, {66.0, 20.3}}, label: 'Skeleton'
+                                    Switch, 0x10a4d6940, {{309.0, 645.0}, {63.0, 28.0}}, value: 0
+                                  Button, 0x10a4d6a80, {{32.0, 687.0}, {338.0, 20.3}}, label: 'Кастомизация по спецификации'
+                                    StaticText, 0x10a4d6bc0, {{32.0, 687.0}, {260.3, 20.3}}, label: 'Кастомизация по спецификации'
+                                    Button, 0x10a4d6d00, {{359.7, 690.0}, {10.3, 14.0}}
+                                      Image, 0x10a4d6e40, {{359.7, 690.0}, {10.3, 14.0}}, identifier: 'collapsed'
+                          Other, 0x10a4d6f80, {{-16.0, 740.0}, {434.0, 266.0}}
+                          Cell, 0x10a4d70c0, {{16.0, 740.0}, {370.0, 40.3}}
+                            Other, 0x10a4d7200, {{16.0, 740.0}, {370.0, 40.3}}
+                            Other, 0x10a4d7340, {{16.0, 740.0}, {370.0, 40.3}}
+                              Other, 0x10a4d7480, {{16.0, 740.0}, {370.0, 40.3}}
+                                Other, 0x10a4d75c0, {{16.0, 740.0}, {370.0, 40.3}}
+                                  StaticText, 0x10a4d7700, {{16.0, 740.0}, {370.0, 40.3}}, label: 'Coverage'
+                          Cell, 0x10a4d7840, {{16.0, 780.3}, {370.0, 52.0}}
+                            Other, 0x10a4d7980, {{16.0, 780.3}, {370.0, 52.0}}
+                              Other, 0x10a4d7ac0, {{16.0, 780.3}, {370.0, 52.0}}
+                            Other, 0x10a4d7c00, {{16.0, 780.3}, {370.0, 52.0}}
+                              Other, 0x10a4d7d40, {{16.0, 780.3}, {370.0, 52.0}}
+                                Other, 0x10a4d7e80, {{16.0, 780.3}, {370.0, 52.0}}
+                                  StaticText, 0x10a4dc000, {{32.0, 796.2}, {55.0, 20.3}}, label: 'Статус'
+                                  StaticText, 0x10a4dc140, {{16.0, 780.3}, {370.0, 52.0}}, label: 'Статус, На проверке'
+                          Cell, 0x10a4dc280, {{16.0, 832.3}, {370.0, 52.0}}
+                            Other, 0x10a4dc3c0, {{16.0, 832.3}, {370.0, 52.0}}
+                              Other, 0x10a4dc500, {{16.0, 832.3}, {370.0, 52.0}}
+                            Other, 0x10a4dc640, {{16.0, 832.3}, {370.0, 52.0}}
+                              Other, 0x10a4dc780, {{16.0, 832.3}, {370.0, 52.0}}
+                                Other, 0x10a4dc8c0, {{16.0, 832.3}, {370.0, 52.0}}
+                                  StaticText, 0x10a4dca00, {{32.0, 848.2}, {135.0, 20.3}}, label: 'Варианты iOS 26'
+                                  StaticText, 0x10a4dcb40, {{16.0, 832.3}, {370.0, 52.0}}, label: 'Варианты iOS 26, 147'
+                          Other, 0x10a4dcc80, {{32.0, 831.3}, {338.0, 1.0}}
+                          Other, 0x10a4dcdc0, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 13 pages', value: 0 %
+                            Other, 0x10a4dcf00, {{396.0, 119.0}, {3.0, 64.7}}
+                          Other, 0x10a4dd040, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 13 pages', value: 0 %
+                            Other, 0x10a4dd180, {{396.0, 119.0}, {3.0, 64.7}}
+                Other, 0x10a4dd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10a4dd400, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a4dd540, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a4dd680, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a4dd7c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10a493200, pid: 86718, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x10a4dd900, pid: 86718, label: 'TUIDesignSystemCatalog'
+  }

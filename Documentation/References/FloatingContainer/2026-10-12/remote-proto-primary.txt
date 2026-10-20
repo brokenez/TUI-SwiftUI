@@ -1,0 +1,76 @@
+type SystemBottomBarProps = {
+  className?: string;
+  appearance?: "Opposite";
+  keyboard?: "off";
+  system?: "iOS 18";
+  type?: "Dragger";
+};
+
+function SystemBottomBar({ className, appearance = "Opposite", keyboard = "off", system = "iOS 18", type = "Dragger" }: SystemBottomBarProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start relative w-[375px]"} data-node-id="12601:9241">
+      <div className="h-[34px] relative shrink-0 w-full" data-node-id="12601:9382" data-name="cont">
+        <div className="-translate-x-1/2 absolute bg-[var(--tui-background-accent-opposite,black)] bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="12601:9383" data-name="bar" />
+      </div>
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <a className="bg-white block cursor-pointer relative size-full" data-node-id="3445:1212" data-name="Появление и скрытие праймари кнопки">
+      <div className="absolute bottom-[-120px] h-[234px] left-0 w-[375px]" data-node-id="3445:1237" data-name="tui-floating-container">
+        <div className="absolute h-[80px] left-0 top-[154px] w-[375px]" data-node-id="3445:1238" data-name="Buttons cont">
+          <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex items-center justify-center left-[16px] overflow-clip p-[16px] rounded-[var(--radius-large,16px)] top-0 w-[343px]" data-node-id="3445:1239" data-name="tui-button">
+            <div className="content-stretch flex flex-col items-center overflow-clip px-[8px] py-[2px] relative shrink-0" data-node-id="I3445:1239;41658:296910" data-name="LabelCont">
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary-on-accent-1,#333)] text-center tracking-[-0.41px] whitespace-nowrap" data-node-id="I3445:1239;41658:296911">
+                Main action
+              </p>
+            </div>
+          </div>
+        </div>
+        <SystemBottomBar className="absolute content-stretch flex flex-col items-start left-0 top-[80px] w-[375px]" />
+      </div>
+    </a>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Light - Background / elevation1: #FFFFFF.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 12601:2227
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 12601:2226
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 12601:9241
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 12601:9212
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

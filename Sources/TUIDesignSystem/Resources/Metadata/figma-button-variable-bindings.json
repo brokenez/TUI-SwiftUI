@@ -1,0 +1,145 @@
+{
+  "source": "Figma TUI Foundations",
+  "fileKey": "gGt4PaQxQhX7ozPVImsgL5",
+  "retrievedAt": "2026-10-08",
+  "variables": [
+    {
+      "key": "236218e08131742a19118642f00ff45b48942627",
+      "name": "Text/Primary On Accent 1",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "ef357c4f74488894f5e2ada1a4acfdc960ffe339",
+      "name": "Background/Accent 1",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "ff8fa430139a9fc0ffcd9efef1128cad55015f56",
+      "name": "Service/Skeleton",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "bad78d2a883ae80303cb815e9d7eb7c3ac48f3ba",
+      "name": "Text/Action",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "d468661b4928f785ef8034b99adad89be04d911a",
+      "name": "Background/Neutral 1",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "70e49e0ddcbb84b3700edcdbc1b7e46b9764c073",
+      "name": "Text/Negative",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "c5987816b848d51827e1368f05d1d05e7b0ed4d3",
+      "name": "Text/Primary",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "7b0b6cc10f74a823d78af60e69d27c002ed6bc07",
+      "name": "Text/Primary On Dark",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "d22a72802d06c277cefb637b0e29d2c14ae1c38e",
+      "name": "Background/Overlay Glass",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "b65a03dbf32d4bdf36bc382a6bade10cf4570b9f",
+      "name": "Background/Accent 2",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "7b6b227eef226c9da36112f7db5fd549756169bd",
+      "name": "Status/Negative",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "dff2ae5b233066263db9984816409b3be07eac79",
+      "name": "Text/Primary On Opposite",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "44c17047e4c8d3497547e5078584860a64be6c87",
+      "name": "Background/Accent Opposite",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "915e403c0985773ff8d5a559419a1bca89e80f8f",
+      "name": "Text/Tertiary",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "17309c5fa3d62e5619f0c92ca709183bb16c83f6",
+      "name": "Text/Tertiary On Dark",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "67df45d692e087c05d0f7ba9416c466df484aa28",
+      "name": "State/Background/Accent 1 Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "0db84cc31aa0800d5e2efb834727004b34f45fbf",
+      "name": "State/Background/Neutral 1 Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "1e9f4d632276c18a595f77b2c7783ccf68050e03",
+      "name": "State/Background/Overlay Glass Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "a69f5a4c22a9159c8e1fd0c1213a27e55ca28053",
+      "name": "State/Background/Accent 2 Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "d5dc260e76047b8b8d89c292a185f1df7fafa2c7",
+      "name": "State/Status/Negative Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "e29a1cddd54281c75f36068cdd560172b145c745",
+      "name": "State/Background/Accent Opposite Pressed",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "241ca726fafd57881fc16572cac2fe352b7f86f7",
+      "name": "Background/Elevation 1",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    },
+    {
+      "key": "b92a008ec386050bbcfef1be9cfaf754a02d18c7",
+      "name": "Background/Neutral 1 Opaque",
+      "collection": "Theme",
+      "variableSetKey": "f6fe0b22714c9aff72d30c3f24a331f294e5c20a"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+The following is a diff from the previous accessibility tree for Window: "[ARCHIVE] Animation Examples - Floating-container" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 31, 34-39, 43-125, 299-300, 314-318, 334-395, 397-410, 412-421, 426, 431-480, 483-524
+~0 стандартное окно [ARCHIVE] Animation Examples - Floating-container, Secondary Actions: Raise
+~	1 container [ARCHIVE] Animation Examples - Floating-container
+~							30 tab (settable, integer) Description: tui-floating-container, Value: 0
++							329 tab (selected) Description: [ARCHIVE] Animation Examples - Floating-container, Value: 1
++								330 кнопка Close tab
++			331 HTML-содержание [ARCHIVE] Animation Examples - Floating-container, URL: figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?type=design&node-id=3438-381&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3438%3A381&show-proto-sidebar=1&page-id=3351%3A2207
++				332 container
++					333 container
++						334 container Prototype controls
++							335 кнопка Skip to content
++							336 link Description: File browser, Value: figma.com/
++							337 кнопка Close flows list
++							338 кнопка Comment
++								339 изображение
++							340 заголовок [ARCHIVE] Animation Examples, Value: 1
++								341 текст [ARCHIVE] Animation Examples
++							342 всплывающая кнопка Options dropdown
++								343 изображение
++							344 всплывающая кнопка Multiplayer tools
++								345 изображение
++							346 кнопка Share prototype
++							347 всплывающая кнопка Options
++								348 изображение
++							349 кнопка Enter full screen (F)
++								350 изображение
++						351 container
++							352 container Flows
++								353 container
++									354 container
++										355 текст Flows
++										356 кнопка Close
++											357 изображение
++									358 container
++										359 ссылка Смена второстепенной кнопки на текст и наоборот
++											360 изображение
++											361 текст Смена второстепенной кнопки на текст и наоборот
++										362 ссылка Смена второстепенной кнопки на текст и наоборот 1
++											363 текст Смена второстепенной кнопки на текст и наоборот 1
++										364 ссылка Замена элемента на элемент другой формы
++											365 текст Замена элемента на элемент другой формы
++										366 ссылка Изменение праймари кнопки
++											367 текст Изменение праймари кнопки
++										368 ссылка Появление и скрытие праймари кнопки
++											369 текст Появление и скрытие праймари кнопки
++										370 ссылка Появление и скрытие второстепенной кнопки или текста
++											371 текст Появление и скрытие второстепенной кнопки или текста
++									372 container Flow description
++										373 текст No description
++						374 container
++							375 ссылка tui-floating-container
++								376 container tui-floating-container
++									377 container tui-button
++										378 текст Main action
++									379 container tui-button
++										380 текст Secondary action
++									381 container system-bottom-bar
++							382 container Pages
++								383 панель инструментов Stepper
++									384 кнопка (disabled) Previous frame
++										385 изображение
++									386 кнопка Next frame
++										387 изображение
++								388 кнопка Restart
++									389 изображение
++									390 текст Restart
+The focused UI element is 331 HTML-содержание [ARCHIVE] Animation Examples - Floating-container, URL: figma.com/proto/usDNc7HuHlFSGp0DZhPKVL/-ARCHIVE--Animation-Examples?type=design&node-id=3438-381&t=34YlKF8HCExqXItS-0&scaling=min-zoom&starting-point-node-id=3438%3A381&show-proto-sidebar=1&page-id=3351%3A2207

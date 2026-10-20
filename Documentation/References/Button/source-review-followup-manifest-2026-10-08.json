@@ -1,0 +1,241 @@
+{
+  "reviewedAt": "2026-10-08",
+  "componentSetID": "41658:296906",
+  "scope": "Read-only specification/context and diagram review. Not runtime visual acceptance.",
+  "files": [
+    {
+      "path": "Documentation/References/Button/source-large-ios-41658-296907-2026-10-08.txt",
+      "sha256": "32a60f6bacc0a594b6f017acb0fcbcaca88398cf02d5dc0c298b66882e6ab1cf",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-matrix-41658-296906-2026-10-08.txt",
+      "sha256": "192cf703909b1c0a6f1be7c7b919f26380078944429d39a98d2be9ce50f3dcf8",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-medium-ios-41658-296935-2026-10-08.txt",
+      "sha256": "a04864d406182ab5d47ebfd5c37b7e532f460eb690bfc44a41ba7bcef8901b74",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-nested-loader-41658-297261-2026-10-08.txt",
+      "sha256": "fe7fec5e7d1c38e0bf06396d9a4783338c28e319d43cc215264757e46345d7d5",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-nested-loader-motion-2026-10-08.json",
+      "sha256": "ac08ce34ba4f8123618661bef2425f7028ffb9ac740578a3ee88684d2523fee8",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-review-followup-2026-10-08.md",
+      "sha256": "9463c135c900d0f5de9c2298dc15a070773dd5b3973f27b78130939ff3ec4518",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/source-small-ios-41658-296921-2026-10-08.txt",
+      "sha256": "e4662a2059ebdb1478f79a85ff3e593acbd4b2f7c1f3fb0b51b246a9bdf4abbf",
+      "reviewStatus": "read",
+      "kind": "source-context"
+    },
+    {
+      "path": "Documentation/References/Button/spec-diagram-1052-3300-2026-10-08.png",
+      "sha256": "cde8509cb0fb517ae40ba4ef3144a151ae3f5744559615628a5a16482f8ca3fd",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/spec-diagram-11096-17944-2026-10-08.png",
+      "sha256": "bc15b76c8d79389e8b42ad69ba8ec515f626069e34c0307b6da647f4df5a77d9",
+      "reviewStatus": "clipped-not-complete",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/spec-diagram-4-19709-2026-10-08.png",
+      "sha256": "1edc8b0ecbea23bdac0ba76204b25a6e20c528c27d6c4e0dc481096119870371",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/spec-diagram-81-48232-2026-10-08.png",
+      "sha256": "bc15b76c8d79389e8b42ad69ba8ec515f626069e34c0307b6da647f4df5a77d9",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/spec-diagram-81-48238-2026-10-08.png",
+      "sha256": "d2f7df335d77b38e217fb9d184bd5eaafbe15a3a70b49d0ab74deb676f27d104",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/spec-radius-17369-7090-2026-10-08.png",
+      "sha256": "d1b11c08dc96fe1b2bbad634bb99599520c56a4eaf7ae54c54c62a411008341d",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-19762-7297-2026-10-08.png",
+      "sha256": "e822cf845ca01812d5228005639a2b7fa42958da9bd66b1edb3e2ba4eb558861",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-10370-2026-10-08.png",
+      "sha256": "ebd07a6e3c73ba91301f4c5a1fdea3d6542d6633c4d191b2244df3cc50ab22a5",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-32271-2026-10-08.png",
+      "sha256": "42ebce6b83a663e7d6cbc6bc47631906e63d9bad66aaf63d6471cb0a8e413593",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-32346-2026-10-08.png",
+      "sha256": "d055a6d75467a227c9035e99dc083cdd255c613a83a225344e4e21020f5ceb36",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-32421-2026-10-08.png",
+      "sha256": "78021473da7ba7a98dc062bc7accb54989457f9a8a5cfbd56420cb700d7f258c",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-32569-2026-10-08.png",
+      "sha256": "6a452effd66956248833cb93cf0b09e76098e37fce3d75c1f540f67ac306e824",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21430-32690-2026-10-08.png",
+      "sha256": "a176953f72764fb7f96e2afbe2b5be9f265a3e6106f9bfd8c2c9245909bbd0e6",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21432-36864-2026-10-08.png",
+      "sha256": "f90bb3555c09ad4ee4b0ccd5a7c8d98fee8918a5bb2f12491bd2ad5c3c588f98",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21432-37040-2026-10-08.png",
+      "sha256": "d6633ba01b3396807755925e23ca4e89aab1ce2aa3ada5d767a0c52736879422",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-21432-37161-2026-10-08.png",
+      "sha256": "29b3188a793f7438a0364ae0aab658207f5c0307b005bf7118241b5367f2b528",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-5888-33222-2026-10-08.png",
+      "sha256": "77b6cfbd5c72b4c61dc1e62968c2b0a40cac8f0f3216ad3a39ff3ce2755b2965",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-6480-62219-2026-10-08.png",
+      "sha256": "7dcfc515eeea65b4baf1d210b22557660616a0c688db71b85e7b08a5acff71c9",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57044-2026-10-08.png",
+      "sha256": "81d7abff8fdd5fe06650b9fd57b1401feb5a6ea646e6de66b02f9be62990a85e",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57049-2026-10-08.png",
+      "sha256": "2ae277f317c09c7b5d9b2ca0f022287891e4c6b2889e5aa584b9c05d6a7f2f7c",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57073-2026-10-08.png",
+      "sha256": "1909d9420f07095a9450d403ae8b383c9c1987cb4e6352f99e1d2259b480ffde",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57097-2026-10-08.png",
+      "sha256": "20c45a84cd54e0e187bc0a5cd401b68426f8bbf460ccda7b7904ff024c30209a",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57118-2026-10-08.png",
+      "sha256": "0114e3880dbd579aa3dedc29a4d84c5a095a6b4ea0a77b030e6ebf1aac798405",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57139-2026-10-08.png",
+      "sha256": "5b08822b663c92522c3bb362e7118f8425ab8633b50098cbc7265a31a345c5fb",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57163-2026-10-08.png",
+      "sha256": "aee2e2b415a561a43c09ab27c145eed69b193b6d9d563f280176bb54220dd81d",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57181-2026-10-08.png",
+      "sha256": "943b1b0b0c849bcafa3c1a63c25fc417fccc6d5d313370fa2968c45c4af6dd35",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57223-2026-10-08.png",
+      "sha256": "6e09552922caa05263ca673904a842b51933566909c94e27f4f657198cd4cb21",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-81-57247-2026-10-08.png",
+      "sha256": "b519af3ee844e9d528167aef8c032b4abd26d992795a77ed5ffccfced09c6279",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-94-86374-2026-10-08.png",
+      "sha256": "1bce58b5bf1c4ae707ffbc03177614491cb05936d3a10e9197bb217dc9f97622",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-94-86483-2026-10-08.png",
+      "sha256": "dddc36dd162553eb3f5f7c0fc1328e85f51e8bdf0d45fec4b3fa85cec303e814",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-98-14253-2026-10-08.png",
+      "sha256": "7f74cab4cc32394d5e8800ccebcf8835eb4c491a3b7ec3d58ec095380606eeb9",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    },
+    {
+      "path": "Documentation/References/Button/style-row-98-2528-2026-10-08.png",
+      "sha256": "4f78a956ed1c4924c2d942541fffc21e2e9b0317091d61cb5026e12c700705a7",
+      "reviewStatus": "read",
+      "kind": "source-diagram"
+    }
+  ]
+}

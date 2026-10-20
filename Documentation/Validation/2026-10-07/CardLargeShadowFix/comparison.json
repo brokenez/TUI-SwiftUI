@@ -1,0 +1,158 @@
+{
+  "scope": "Three elevated Day compositions, full original Figma export bounds. Native 3x reduced with LANCZOS; both composited on white. Outside-surface mask excludes x=34..376, y=28..naturalHeight+27. Measurements are diagnostic, not automatic acceptance.",
+  "results": [
+    {
+      "variantID": "42587:292099",
+      "mode": "composited-blur",
+      "sourceSize": [
+        411,
+        152
+      ],
+      "nativeSize": [
+        1233,
+        456
+      ],
+      "MAE_255": 2.3744,
+      "outsideSurfaceMAE_255": 3.81411,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292099-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/31BA4D35-EF29-4388-A902-FBB6097C32A0.png"
+    },
+    {
+      "variantID": "42587:292099",
+      "mode": "composited-half-blur",
+      "sourceSize": [
+        411,
+        152
+      ],
+      "nativeSize": [
+        1233,
+        456
+      ],
+      "MAE_255": 0.75305,
+      "outsideSurfaceMAE_255": 0.81488,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292099-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/1A01743A-EED9-42A3-840D-F76E52A7F4F4.png"
+    },
+    {
+      "variantID": "42587:292099",
+      "mode": "production",
+      "sourceSize": [
+        411,
+        152
+      ],
+      "nativeSize": [
+        1233,
+        456
+      ],
+      "MAE_255": 0.75305,
+      "outsideSurfaceMAE_255": 0.81488,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292099-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/2259189A-4248-4342-B118-831213474D9E.png"
+    },
+    {
+      "variantID": "42587:292105",
+      "mode": "composited-blur",
+      "sourceSize": [
+        411,
+        212
+      ],
+      "nativeSize": [
+        1233,
+        636
+      ],
+      "MAE_255": 2.08535,
+      "outsideSurfaceMAE_255": 3.92138,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292105-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/443F2555-2CD7-4B29-9F8C-91F2D62268E4.png"
+    },
+    {
+      "variantID": "42587:292105",
+      "mode": "composited-half-blur",
+      "sourceSize": [
+        411,
+        212
+      ],
+      "nativeSize": [
+        1233,
+        636
+      ],
+      "MAE_255": 0.79748,
+      "outsideSurfaceMAE_255": 0.94992,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292105-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/19BCD7D8-7408-47BA-88BF-C744C599E802.png"
+    },
+    {
+      "variantID": "42587:292105",
+      "mode": "production",
+      "sourceSize": [
+        411,
+        212
+      ],
+      "nativeSize": [
+        1233,
+        636
+      ],
+      "MAE_255": 0.79748,
+      "outsideSurfaceMAE_255": 0.94992,
+      "outsideSurfaceMax_255": 15.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/42587-292105-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/6E757915-C048-4935-A2A7-5EDBF29DB1AF.png"
+    },
+    {
+      "variantID": "44231:308359",
+      "mode": "composited-blur",
+      "sourceSize": [
+        411,
+        140
+      ],
+      "nativeSize": [
+        1233,
+        420
+      ],
+      "MAE_255": 2.42331,
+      "outsideSurfaceMAE_255": 3.78547,
+      "outsideSurfaceMax_255": 16.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-308359-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/1551792C-BF67-40B7-A1F1-6B38C7BF981E.png"
+    },
+    {
+      "variantID": "44231:308359",
+      "mode": "composited-half-blur",
+      "sourceSize": [
+        411,
+        140
+      ],
+      "nativeSize": [
+        1233,
+        420
+      ],
+      "MAE_255": 0.81069,
+      "outsideSurfaceMAE_255": 0.97056,
+      "outsideSurfaceMax_255": 16.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-308359-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/A0210700-4309-4879-A292-1D4B771EDD9E.png"
+    },
+    {
+      "variantID": "44231:308359",
+      "mode": "production",
+      "sourceSize": [
+        411,
+        140
+      ],
+      "nativeSize": [
+        1233,
+        420
+      ],
+      "MAE_255": 0.81069,
+      "outsideSurfaceMAE_255": 0.97056,
+      "outsideSurfaceMax_255": 16.0,
+      "source": "Documentation/References/CardLarge/FigmaPNG/44231-308359-day-1x.png",
+      "native": "Documentation/Validation/2026-10-07/CardLargeShadowFix/B4D5BC2B-6E9D-4501-B9BF-7FFD83D8D9A8.png"
+    }
+  ]
+}

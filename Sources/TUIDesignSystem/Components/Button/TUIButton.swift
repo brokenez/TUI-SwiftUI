@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 public enum TUIButtonAppearance: String, CaseIterable, Sendable {
     case primary
@@ -30,7 +31,14 @@ public enum TUIButtonState: String, CaseIterable, Sendable {
 
 /// A TUI button whose visual states are backed by the iOS variants in Figma.
 public struct TUIButton: View {
+    public static let figmaComponentSetID = "41658:296906"
     static var importedVariantCount: Int { TUIButtonStyleCatalog.shared.count }
+
+    /// The exact base variant. Instance content/customization does not change
+    /// its source ID; nil means the requested combination is not in Figma.
+    public var figmaNodeID: String? {
+        TUIButtonStyleCatalog.shared.style(appearance: appearance, size: size, state: state, skeleton: skeleton)?.id
+    }
 
     public let title: String
     public let appearance: TUIButtonAppearance
@@ -39,7 +47,28 @@ public struct TUIButton: View {
     public let skeleton: Bool
     public let showsIcon: Bool
     public let showsLabel: Bool
+    /// Figma `Icon`: replacement for the Large/Medium icon slot.
+    public let icon: Image?
+    /// Figma `Icon (16)`: independent replacement for the Small icon slot.
+    public let smallIcon: Image?
+    /// Use .original for fixed-color/multicolor artwork. This applies only
+    /// to replacement images; the source default icons remain templates.
+    public let iconRenderingMode: Image.TemplateRenderingMode
+    /// Explicit customization allowed by the source specification. Prefer
+    /// the built-in appearances and TUIColor tokens; nil preserves them.
+    public let backgroundColor: Color?
+    public let textColor: Color?
+    public let iconColor: Color?
+    public let cornerRadius: CGFloat?
+    /// Explicit container width, including Small and icon-only buttons.
+    /// Nil keeps the original size-dependent layout.
+    public let width: CGFloat?
+    /// Masks every literal occurrence inside the label, preserving the original
+    /// text geometry and tap area. Nil or an empty string shows the whole label.
+    public let sensitiveText: String?
     private let action: () -> Void
+    @AccessibilityFocusState(for: .voiceOver) private var hasVoiceOverFocus: Bool
+    @Environment(\.accessibilityVoiceOverEnabled) private var voiceOverEnabled
 
     public init(
         _ title: String,
@@ -49,6 +78,15 @@ public struct TUIButton: View {
         skeleton: Bool = false,
         showsIcon: Bool = false,
         showsLabel: Bool = true,
+        icon: Image? = nil,
+        smallIcon: Image? = nil,
+        iconRenderingMode: Image.TemplateRenderingMode = .template,
+        backgroundColor: Color? = nil,
+        textColor: Color? = nil,
+        iconColor: Color? = nil,
+        cornerRadius: CGFloat? = nil,
+        width: CGFloat? = nil,
+        sensitiveText: String? = nil,
         action: @escaping () -> Void
     ) {
         self.title = title
@@ -58,32 +96,85 @@ public struct TUIButton: View {
         self.skeleton = skeleton
         self.showsIcon = showsIcon
         self.showsLabel = showsLabel
+        self.icon = icon
+        self.smallIcon = smallIcon
+        self.iconRenderingMode = iconRenderingMode
+        self.backgroundColor = backgroundColor
+        self.textColor = textColor
+        self.iconColor = iconColor
+        self.cornerRadius = cornerRadius
+        self.width = width
+        self.sensitiveText = sensitiveText
         self.action = action
     }
 
     public var body: some View {
-        Button(title, action: action)
+        if voiceOverEnabled {
+            nativeButton
+                .accessibilityFocused($hasVoiceOverFocus)
+                .onChange(of: state) { previous, current in
+                    // Announce completion only while this button retains focus;
+                    // never move VoiceOver away from another control.
+                    if previous == .loading && current != .loading && hasVoiceOverFocus {
+                        UIAccessibility.post(notification: .announcement, argument: title)
+                    }
+                }
+        } else {
+            // The native focus bridge is needed only for VoiceOver. Keeping it
+            // out of other modes also preserves offscreen ImageRenderer output.
+            nativeButton
+        }
+    }
+
+    private var nativeButton: some View {
+        Button(title) {
+            // Loading stays a focusable, enabled accessibility button, but
+            // cannot repeat the action (speech table 25085:11915–11919).
+            guard state != .loading && state != .disabled && !skeleton else { return }
+            action()
+        }
             .buttonStyle(
                 TUIButtonFigmaStyle(
+                    title: title,
                     appearance: appearance,
                     size: size,
                     state: state,
                     skeleton: skeleton,
                     showsIcon: showsIcon,
-                    showsLabel: showsLabel
+                    showsLabel: showsLabel,
+                    icon: size == .small ? smallIcon : icon,
+                    iconRenderingMode: iconRenderingMode,
+                    backgroundColorOverride: backgroundColor,
+                    textColorOverride: textColor,
+                    iconColorOverride: iconColor,
+                    cornerRadiusOverride: cornerRadius,
+                    widthOverride: width,
+                    sensitiveText: sensitiveText
                 )
             )
-            .disabled(state == .disabled || state == .loading || skeleton)
+            .disabled(state == .disabled || skeleton)
+            .accessibilityLabel(Text(state == .loading ? "Идет загрузка" : title))
     }
 }
 
 private struct TUIButtonFigmaStyle: ButtonStyle {
+    let title: String
     let appearance: TUIButtonAppearance
     let size: TUIButtonSize
     let state: TUIButtonState
     let skeleton: Bool
     let showsIcon: Bool
     let showsLabel: Bool
+    let icon: Image?
+    let iconRenderingMode: Image.TemplateRenderingMode
+    let backgroundColorOverride: Color?
+    let textColorOverride: Color?
+    let iconColorOverride: Color?
+    let cornerRadiusOverride: CGFloat?
+    let widthOverride: CGFloat?
+    let sensitiveText: String?
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @Environment(\.colorScheme) private var colorScheme
 
     func makeBody(configuration: Configuration) -> some View {
         let displayedState: TUIButtonState = state == .normal && configuration.isPressed && !skeleton
@@ -102,38 +193,73 @@ private struct TUIButtonFigmaStyle: ButtonStyle {
             skeleton: false
         )
         let textPaint = style?.text?.fill ?? normalStyle?.text?.fill
-        let textColor = textPaint?.swiftUIColor ?? Color.primary
-        let background = style?.fill?.swiftUIColor ?? .clear
-        let radius = style?.radius ?? size.radius
+        let sourceTextColor = textPaint?.swiftUIColor ?? Color.primary
+        let textColor = textColorOverride ?? sourceTextColor
+        let iconColor = iconColorOverride ?? sourceTextColor
+        let background = backgroundColorOverride ?? style?.fill?.swiftUIColor ?? .clear
+        let radius = max(0, cornerRadiusOverride ?? style?.radius ?? size.radius)
         let dropShadow = style?.effects?.first(where: { $0.type == "DROP_SHADOW" })
+        // Native SF Pro, per the 2026-10-20 distribution typography decision.
+        let baseSize = normalStyle?.text?.fontSize ?? size.fontSize
+        let baseFont = size == .small ? UIFont.systemFont(ofSize: baseSize, weight: .semibold)
+            : TUIFigmaTextFont.regular(size: baseSize)
+        let font = UIFontMetrics(forTextStyle: size.typographyRole.textStyle.uiKitTextStyle)
+            .scaledFont(for: baseFont, compatibleWith: UITraitCollection(preferredContentSizeCategory: contentSizeCategory))
+        let tracking = style?.text?.tracking ?? size.tracking
+        let metrics = TUIHeaderFontMetrics(font: font, lineHeight: font.lineHeight,
+                                          firstBaseline: font.ascender, tracking: tracking, color: textColor)
+        // iOS guide 25085:11908 / diagram 25085:11909: one icon increase at AX1.
+        let iconSize = size.iconSize * (dynamicTypeSize >= .accessibility1 ? 1.25 : 1)
 
         HStack(spacing: 0) {
-            if displayedState == .loading {
-                TUIButtonLoadingGlyph(color: normalStyle?.text?.fill?.swiftUIColor ?? .primary)
-                    .frame(width: size.loadingSize, height: size.loadingSize)
-            } else {
-                if showsIcon {
-                    Image(size == .small ? "tui-button-star-small" : "tui-button-star", bundle: .module)
-                        .renderingMode(.template)
-                        .resizable()
-                        .foregroundStyle(textColor)
+            if showsIcon {
+                Group {
+                    if let icon {
+                        // Corner case 130:282986: fit oversized artwork,
+                        // retain smaller artwork inside the unchanged slot.
+                        ViewThatFits(in: [.horizontal, .vertical]) {
+                            icon.renderingMode(iconRenderingMode).fixedSize()
+                            icon.renderingMode(iconRenderingMode).resizable().scaledToFit()
+                        }
                         .frame(width: size.iconSize, height: size.iconSize)
-                        .accessibilityHidden(true)
+                        .scaleEffect(iconSize / size.iconSize)
+                        .frame(width: iconSize, height: iconSize)
+                    } else {
+                        Image(size == .small ? "tui-button-star-small" : "tui-button-star", bundle: .module)
+                            .renderingMode(.template)
+                            .resizable()
+                            .frame(width: iconSize, height: iconSize)
+                    }
                 }
-                if showsLabel {
-                    configuration.label
-                        .font(.system(size: style?.text?.fontSize ?? size.fontSize, weight: size == .small ? .semibold : .regular))
-                        .tracking(style?.text?.tracking ?? size.tracking)
-                        .foregroundStyle(textColor)
-                        .padding(.horizontal, size.labelHorizontalPadding)
-                        .padding(.vertical, size.labelVerticalPadding)
-                        .opacity(skeleton ? 0 : 1)
-                }
+                .foregroundStyle(iconColor)
+                .accessibilityHidden(true)
+            }
+            if showsLabel {
+                TUIHeaderText(value: AttributedString(title), metrics: metrics, color: textColor,
+                              tracking: tracking, overflow: .singleLineFade, centered: false,
+                              inlineText: sensitiveText.map { TUISensitiveText.annotatedText(title, masking: $0, color: textColor) },
+                              usesIntrinsicWidth: true,
+                              masksSensitiveText: !(sensitiveText ?? "").isEmpty)
+                    .padding(.horizontal, size.labelHorizontalPadding)
             }
         }
-        .opacity(skeleton ? 0 : 1)
-        .frame(maxWidth: size == .small ? nil : .infinity)
-        .frame(height: style?.height ?? size.height)
+        // Keep the original label/icon in layout while loading. The source
+        // guide requires the container to retain its normal size (81:48109).
+        .opacity(skeleton || displayedState == .loading ? 0 : 1)
+        // Construction 14133:8499: label-only totals 24/18/11 pt,
+        // with icon + label the outer insets are 16/10/7 pt.
+        .padding(.horizontal, showsLabel ? size.outerHorizontalPadding : max(0, (size.height - iconSize) / 2))
+        .padding(.vertical, size.minimumVerticalInset)
+        .frame(width: widthOverride ?? (showsIcon && !showsLabel ? size.height : nil))
+        .frame(maxWidth: widthOverride != nil || size == .small || !showsLabel ? nil : .infinity)
+        .frame(minHeight: style?.height ?? size.height)
+        .overlay {
+            if displayedState == .loading && !skeleton {
+                TUIButtonLoadingGlyph(color: textColorOverride ?? normalStyle?.text?.fill?.swiftUIColor ?? .primary)
+                    .frame(width: size.loadingSize, height: size.loadingSize)
+                    .accessibilityHidden(true)
+            }
+        }
         .background {
             if appearance == .glass {
                 RoundedRectangle(cornerRadius: radius)
@@ -144,18 +270,45 @@ private struct TUIButtonFigmaStyle: ButtonStyle {
         }
         .clipShape(RoundedRectangle(cornerRadius: radius))
         .shadow(
-            color: dropShadow?.color?.swiftUIColor ?? .clear,
-            radius: dropShadow?.radius ?? 0,
+            color: appearance == .floating && dropShadow != nil ? TUIShadow.smallColor
+                : dropShadow?.color?.swiftUIColor ?? .clear,
+            radius: appearance == .floating && dropShadow != nil
+                // Figma Blur 20 matches SwiftUI radius 10 in native source pairs.
+                ? TUIShadow.smallBlur(theme: colorScheme == .dark ? .night : .day) / 2
+                : dropShadow?.radius ?? 0,
             x: dropShadow?.offset?.x ?? 0,
-            y: dropShadow?.offset?.y ?? 0
+            y: appearance == .floating && dropShadow != nil
+                ? TUIShadow.smallYOffset(theme: colorScheme == .dark ? .night : .day)
+                : dropShadow?.offset?.y ?? 0
         )
         .overlay {
             if skeleton {
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(TUIColor.named("Service/Skeleton", fallback: 0xF7F7F7))
+                GeometryReader { geometry in
+                    TUISkeleton(width: geometry.size.width, height: geometry.size.height,
+                                cornerRadius: radius)
+                }
+                .allowsHitTesting(false)
             }
         }
         .contentShape(RoundedRectangle(cornerRadius: radius))
+    }
+
+    private var contentSizeCategory: UIContentSizeCategory {
+        switch dynamicTypeSize {
+        case .xSmall: .extraSmall
+        case .small: .small
+        case .medium: .medium
+        case .large: .large
+        case .xLarge: .extraLarge
+        case .xxLarge: .extraExtraLarge
+        case .xxxLarge: .extraExtraExtraLarge
+        case .accessibility1: .accessibilityMedium
+        case .accessibility2: .accessibilityLarge
+        case .accessibility3: .accessibilityExtraLarge
+        case .accessibility4: .accessibilityExtraExtraLarge
+        case .accessibility5: .accessibilityExtraExtraExtraLarge
+        @unknown default: .large
+        }
     }
 }
 
@@ -211,12 +364,28 @@ private extension TUIButtonSize {
     var iconSize: CGFloat { self == .small ? 16 : 24 }
     var loadingSize: CGFloat { self == .small ? 16 : 24 }
     var labelHorizontalPadding: CGFloat { self == .small ? 4 : 8 }
-
-    var labelVerticalPadding: CGFloat {
+    var outerHorizontalPadding: CGFloat {
         switch self {
-        case .large: 2
-        case .medium: 3
-        case .small: 4
+        case .large: 16
+        case .medium: 10
+        case .small: 7
+        }
+    }
+
+    // Minimum insets annotated in the iOS scaling diagram 25085:11909.
+    var minimumVerticalInset: CGFloat {
+        switch self {
+        case .large: 8
+        case .medium: 6
+        case .small: 2
+        }
+    }
+
+    var typographyRole: TUITypographyRole {
+        switch self {
+        case .large: .uiLarge
+        case .medium: .uiMedium
+        case .small: .uiSmallBold
         }
     }
 }
@@ -244,9 +413,15 @@ private struct TUIButtonText: Decodable {
 private struct TUIButtonPaint: Decodable {
     let opacity: Double?
     let color: TUIButtonRGBA?
+    let alias: String?
 
     var swiftUIColor: Color {
-        color?.swiftUIColor.opacity(opacity ?? 1) ?? .clear
+        if let alias, let name = TUIButtonStyleCatalog.shared.tokenName(for: alias) {
+            // The bound Theme token already contains its mode-specific alpha.
+            // Figma's resolved Day paint opacity must not multiply it again.
+            return TUIColor.named(name)
+        }
+        return color?.swiftUIColor.opacity(opacity ?? 1) ?? .clear
     }
 }
 
@@ -276,6 +451,7 @@ private struct TUIButtonOffset: Decodable {
 private final class TUIButtonStyleCatalog: @unchecked Sendable {
     static let shared = TUIButtonStyleCatalog()
     private let styles: [String: TUIButtonStyleReference]
+    private let tokenNamesByKey: [String: String]
 
     var count: Int { styles.count }
 
@@ -288,6 +464,20 @@ private final class TUIButtonStyleCatalog: @unchecked Sendable {
         styles = Dictionary(uniqueKeysWithValues: entries.map { entry in
             (Self.key(entry.properties), entry)
         })
+        let bindingsURL = Bundle.module.url(forResource: "figma-button-variable-bindings", withExtension: "json", subdirectory: "Metadata")
+            ?? Bundle.module.url(forResource: "figma-button-variable-bindings", withExtension: "json")
+        let bindings = bindingsURL.flatMap { try? Data(contentsOf: $0) }
+            .flatMap { try? JSONSerialization.jsonObject(with: $0) as? [String: Any] }?["variables"] as? [[String: String]] ?? []
+        tokenNamesByKey = Dictionary(uniqueKeysWithValues: bindings.compactMap { value in
+            guard value["collection"] == "Theme", let key = value["key"], let name = value["name"] else { return nil }
+            return (key, name)
+        })
+    }
+
+    func tokenName(for alias: String) -> String? {
+        guard alias.hasPrefix("VariableID:") else { return nil }
+        let key = alias.dropFirst("VariableID:".count).split(separator: "/").first.map(String.init)
+        return key.flatMap { tokenNamesByKey[$0] }
     }
 
     func style(

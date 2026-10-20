@@ -1,0 +1,47 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 23078,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T14-13-34-567Z_pid90401_9f8cf26f.log",
+      "xcresultPath": "/private/tmp/tui-card-large-header-web-examples-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T14-13-34-567Z_pid90401_cc12ad48.xctestproducts"
+    },
+    "tests": {
+      "selected": [
+        "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+      ],
+      "discovered": {
+        "total": 1,
+        "items": [
+          "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+        ]
+      }
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "WebCatalogExamplesTests",
+        "test": "testCopyableExamplesCompileAndRenderThroughPublicPackageAPI",
+        "status": "passed",
+        "durationMs": 1607
+      }
+    ]
+  }
+}

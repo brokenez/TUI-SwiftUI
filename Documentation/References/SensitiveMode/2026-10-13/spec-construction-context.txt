@@ -1,0 +1,855 @@
+const imgTuiIcFixedColorAlertWarning = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgColor = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgBullet = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgTuiIcMediumStar = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgMinHeight = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgVector34 = "[TEMPORARY_ASSET_URL_REDACTED]";
+const imgVector35 = "[TEMPORARY_ASSET_URL_REDACTED]";
+
+function CardFooter({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="3894:164" data-name="Card Footer">
+      <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-bl-[var(--roundings\/card-rounding,24px)] rounded-br-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="3894:165" data-name="Footer Container" />
+    </div>
+  );
+}
+
+type CardHeaderProps = {
+  className?: string;
+  content?: "off";
+};
+
+function CardHeader({ className, content = "off" }: CardHeaderProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="3894:3997">
+      <div className="bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="3894:4002" data-name="card-container" />
+    </div>
+  );
+}
+
+function TuiIcFixedColorAlertWarning({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="4073:966" data-name="tui-ic-fixed-color / alert-warning">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorAlertWarning} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="1:8621" data-name="Построение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="3:295" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I3:295;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:295;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Sensitive Mode
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I3:295;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full whitespace-pre-wrap" data-node-id="I3:295;9462:7160">
+            {`Sensitive Mode — фича, позволяющая скрывать чувствительные данные под пиксельной маской. `}
+            <br aria-hidden />
+            Это могут быть балансы счетов, суммы списаний и любой другой контент
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4072:953" data-name="Note">
+        <div className="bg-[var(--tui-status-warning-pale,rgba(255,221,45,0.3))] content-stretch flex flex-[1_0_0] gap-[16px] items-start min-w-px p-[24px] relative rounded-[var(--roundings\/note-rounding,24px)]" data-node-id="I4072:953;9462:8076" data-name="container">
+          <div className="content-stretch flex items-start pt-px relative shrink-0" data-node-id="I4072:953;9462:8032" data-name="Icon">
+            <TuiIcFixedColorAlertWarning className="relative shrink-0 size-[24px]" />
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I4072:953;9462:8034" data-name="Text">
+            <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I4072:953;9462:8035" style={{ fontFeatureSettings: '"liga" 0' }}>
+              В МБ идет переход на новый Sensitive
+            </p>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I4072:953;9462:8079" data-name="Paragraph">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I4072:953;9462:8078">
+                <span className="leading-[24px]">{`Подробнее как выглядит и работает — `}</span>
+                <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://www.figma.com/design/wPfMPxqxK6L7xfBHRCOkiO/TUI-Labs-%F0%9F%A7%AA?node-id=10820-395&p=f&t=uW1Fi566nhvqANyn-11" target="_blank">
+                  <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/design/wPfMPxqxK6L7xfBHRCOkiO/TUI-Labs-%F0%9F%A7%AA?node-id=10820-395&p=f&t=uW1Fi566nhvqANyn-11" target="_blank">
+                    тут
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="3:299" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3:299;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I3:299;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как работает маска
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I3:299;2312:289" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I3:299;2312:290" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I3:299;2312:290;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I3:299;2312:290;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I3:299;2312:290;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I3:299;2312:290;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I3:299;2312:290;6917:52782">
+                  cell-mask
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="3:337" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I3:337;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:337;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:337;9460:7064;9460:7062">
+            Берем цвет текста
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:337;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:337;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:337;9460:7070;9460:7062">
+            Скрываем текст
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:337;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:337;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:337;9460:7077;9460:7062">{`Формируем маску из квадратиков с цветом текста и рандомной прозрачностью от 0.2 до 0.4. `}</p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:337;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:337;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:337;9460:7082;9460:7062">{`Если маскируем только текст, то у контейнера с маской добавляем 4рх скругление. `}</p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:337;9460:7087" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:337;9460:7087;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:337;9460:7087;9460:7062">
+            Если маскируем компонент, например бейдж, нужно покрывать всю площадь и наследовать радиус
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="3:305" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="3:306" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[397px] items-start px-[32px] relative shrink-0 w-full" data-node-id="3:308" data-name="card-content">
+            <div className="h-[357px] relative shrink-0 w-full" data-node-id="3:309" data-name="image">
+              <div className="absolute bg-white content-stretch flex items-start left-[262px] min-h-[80px] pl-[6px] pr-[16px] top-[45px] w-[346px]" data-node-id="3:2056" data-name="tui-cell [operation]">
+                <div className="content-stretch flex items-start pr-[4px] py-[37px] relative self-stretch shrink-0 w-[10px]" data-node-id="I3:2056;44290:314733" data-name="NotificationCont" />
+                <div className="content-stretch flex items-start pr-[16px] py-[20px] relative self-stretch shrink-0" data-node-id="I3:2056;44290:314147" data-name="Avatar">
+                  <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I3:2056;44290:314148" data-name="tui-avatar">
+                    <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I3:2056;44290:314148;25745:690432" data-name="Container">
+                      <div className="absolute inset-[20%]" data-node-id="I3:2056;44290:314148;25745:690434" data-name="tui-ic-medium / star">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[20px] relative self-stretch" data-node-id="I3:2056;44290:314149" data-name="TextCont">
+                  <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I3:2056;44290:314152" data-name="TitleCont">
+                    <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px overflow-clip relative" data-node-id="I3:2056;44290:314153" data-name="CellTitleCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I3:2056;44290:314155">
+                        Sensitive text
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I3:2056;44290:314157" data-name="CellValueCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[#00b92d] text-[17px] tracking-[-0.41px] whitespace-nowrap" data-node-id="I3:2056;44290:314158">
+                        +1 000 ₽
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I3:2056;44290:314159" data-name="DescriptionCont">
+                    <div className="content-stretch flex flex-[1_0_0] gap-[4px] h-[16px] items-center min-w-px relative" data-node-id="I3:2056;44290:314160" data-name="TitleDescriptionCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I3:2056;44290:314162">
+                        Sensitive text
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I3:2056;44290:314164" data-name="ValueDescriptionCont">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I3:2056;44290:314165">
+                        Sensitive text
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[4px] relative shrink-0 w-full" data-node-id="I3:2056;44290:314697" data-name="BadgeCont">
+                    <div className="bg-[#428bf9] content-stretch flex items-center justify-center min-h-[20px] min-w-[20px] px-[4px] relative rounded-[100px] shrink-0" data-node-id="I3:2056;44290:314698" data-name="tui-badge">
+                      <div className="content-stretch flex flex-col items-center justify-center pb-[2.5px] pt-[1.5px] px-[2px] relative shrink-0" data-node-id="I3:2056;44290:314698;25738:688233" data-name="LabelCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-center text-white tracking-[-0.08px] whitespace-nowrap" data-node-id="I3:2056;44290:314698;25738:688234">
+                          Sensitive text
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex h-[80px] items-center justify-center relative shrink-0 w-0" data-node-id="I3:2056;44290:314166">
+                  <div className="flex-none rotate-90">
+                    <div className="h-0 relative w-[80px]" data-name="min-height">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinHeight} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex h-[31.75px] items-center justify-center left-[439.25px] top-[178px] w-0" data-node-id="3:5818">
+                <div className="flex-none rotate-90">
+                  <div className="h-0 relative w-[31.75px]">
+                    <div className="absolute inset-[-7.36px_-3.15%_-7.36px_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector34} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents left-[268px] top-[235px]" data-node-id="1943:338">
+                <div className="absolute bg-white content-stretch flex items-start left-[268px] min-h-[80px] pl-[6px] pr-[16px] top-[235px] w-[346px]" data-node-id="1943:339" data-name="tui-cell [operation]">
+                  <div className="content-stretch flex items-start pr-[4px] py-[37px] relative self-stretch shrink-0 w-[10px]" data-node-id="I1943:339;44290:314733" data-name="NotificationCont" />
+                  <div className="content-stretch flex items-start pr-[16px] py-[20px] relative self-stretch shrink-0" data-node-id="I1943:339;44290:314147" data-name="Avatar">
+                    <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I1943:339;44290:314148" data-name="tui-avatar">
+                      <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I1943:339;44290:314148;25745:690432" data-name="Container">
+                        <div className="absolute inset-[20%]" data-node-id="I1943:339;44290:314148;25745:690434" data-name="tui-ic-medium / star">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center min-w-px py-[20px] relative self-stretch" data-node-id="I1943:339;44290:314149" data-name="TextCont">
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I1943:339;44290:314152" data-name="TitleCont">
+                      <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px overflow-clip relative" data-node-id="I1943:339;44290:314153" data-name="CellTitleCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic opacity-0 relative shrink-0 text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px] whitespace-nowrap" data-node-id="I1943:339;44290:314155">
+                          Sensitive text
+                        </p>
+                      </div>
+                      <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I1943:339;44290:314157" data-name="CellValueCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic opacity-0 relative shrink-0 text-[#00b92d] text-[17px] tracking-[-0.41px] whitespace-nowrap" data-node-id="I1943:339;44290:314158">
+                          +1 000 ₽
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I1943:339;44290:314159" data-name="DescriptionCont">
+                      <div className="content-stretch flex flex-[1_0_0] gap-[4px] h-[16px] items-center min-w-px relative" data-node-id="I1943:339;44290:314160" data-name="TitleDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic opacity-0 relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I1943:339;44290:314162">
+                          Sensitive text
+                        </p>
+                      </div>
+                      <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="I1943:339;44290:314164" data-name="ValueDescriptionCont">
+                        <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic opacity-0 relative shrink-0 text-[13px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.08px] whitespace-nowrap" data-node-id="I1943:339;44290:314165">
+                          Sensitive text
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start pt-[4px] relative shrink-0 w-full" data-node-id="I1943:339;44290:314697" data-name="BadgeCont">
+                      <div className="bg-[#428bf9] content-stretch flex items-center justify-center min-h-[20px] min-w-[20px] px-[4px] relative rounded-[100px] shrink-0" data-node-id="I1943:339;44290:314698" data-name="tui-badge">
+                        <div className="content-stretch flex flex-col items-center justify-center opacity-0 pb-[2.5px] pt-[1.5px] px-[2px] relative shrink-0" data-node-id="I1943:339;44290:314698;25738:687729" data-name="LabelCont">
+                          <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic opacity-0 relative shrink-0 text-[#333] text-[13px] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I1943:339;44290:314698;25738:687730">
+                            Sensitive text
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex h-[80px] items-center justify-center relative shrink-0 w-0" data-node-id="I1943:339;44290:314166">
+                    <div className="flex-none rotate-90">
+                      <div className="h-0 relative w-[80px]" data-name="min-height">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinHeight} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute h-[20px] left-[340px] overflow-clip rounded-[4px] top-[255px] w-[103px]" data-node-id="1943:340" data-name="Frame">
+                  <div className="absolute bg-[#333] left-0 opacity-27 size-[10px] top-0" data-node-id="1943:341" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-0 opacity-33 size-[10px] top-[10px]" data-node-id="1943:342" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[10px] opacity-24 size-[10px] top-0" data-node-id="1943:343" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[10px] opacity-38 size-[10px] top-[10px]" data-node-id="1943:344" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[20px] opacity-35 size-[10px] top-0" data-node-id="1943:345" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[20px] opacity-37 size-[10px] top-[10px]" data-node-id="1943:346" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[30px] opacity-39 size-[10px] top-0" data-node-id="1943:347" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[30px] opacity-38 size-[10px] top-[10px]" data-node-id="1943:348" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[40px] opacity-36 size-[10px] top-0" data-node-id="1943:349" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[40px] opacity-23 size-[10px] top-[10px]" data-node-id="1943:350" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[50px] opacity-31 size-[10px] top-0" data-node-id="1943:351" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[50px] opacity-21 size-[10px] top-[10px]" data-node-id="1943:352" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[60px] opacity-24 size-[10px] top-0" data-node-id="1943:353" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[60px] opacity-27 size-[10px] top-[10px]" data-node-id="1943:354" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[70px] opacity-34 size-[10px] top-0" data-node-id="1943:355" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[70px] opacity-23 size-[10px] top-[10px]" data-node-id="1943:356" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[80px] opacity-23 size-[10px] top-0" data-node-id="1943:357" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[80px] opacity-32 size-[10px] top-[10px]" data-node-id="1943:358" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[90px] opacity-25 size-[10px] top-0" data-node-id="1943:359" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[90px] opacity-36 size-[10px] top-[10px]" data-node-id="1943:360" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[100px] opacity-28 size-[10px] top-0" data-node-id="1943:361" data-name="Rectangle" />
+                  <div className="absolute bg-[#333] left-[100px] opacity-35 size-[10px] top-[10px]" data-node-id="1943:362" data-name="Rectangle" />
+                </div>
+                <div className="absolute h-[20px] left-[529px] overflow-clip rounded-[4px] top-[255px] w-[69px]" data-node-id="1943:363" data-name="Frame">
+                  <div className="absolute bg-[#00b92d] left-0 opacity-36 size-[10px] top-0" data-node-id="1943:364" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-0 opacity-31 size-[10px] top-[10px]" data-node-id="1943:365" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[10px] opacity-31 size-[10px] top-0" data-node-id="1943:366" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[10px] opacity-35 size-[10px] top-[10px]" data-node-id="1943:367" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[20px] opacity-31 size-[10px] top-0" data-node-id="1943:368" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[20px] opacity-26 size-[10px] top-[10px]" data-node-id="1943:369" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[30px] opacity-21 size-[10px] top-0" data-node-id="1943:370" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[30px] opacity-27 size-[10px] top-[10px]" data-node-id="1943:371" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[40px] opacity-37 size-[10px] top-0" data-node-id="1943:372" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[40px] opacity-24 size-[10px] top-[10px]" data-node-id="1943:373" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[50px] opacity-21 size-[10px] top-0" data-node-id="1943:374" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[50px] opacity-35 size-[10px] top-[10px]" data-node-id="1943:375" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[60px] opacity-39 size-[10px] top-0" data-node-id="1943:376" data-name="Rectangle" />
+                  <div className="absolute bg-[#00b92d] left-[60px] opacity-22 size-[10px] top-[10px]" data-node-id="1943:377" data-name="Rectangle" />
+                </div>
+                <div className="absolute h-[16px] left-[340px] overflow-clip rounded-[4px] top-[279px] w-[82px]" data-node-id="1943:378" data-name="Frame">
+                  <div className="absolute bg-[#9299a2] left-0 opacity-28 size-[8px] top-0" data-node-id="1943:379" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-0 opacity-30 size-[8px] top-[8px]" data-node-id="1943:380" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[8px] opacity-38 size-[8px] top-0" data-node-id="1943:381" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[8px] opacity-22 size-[8px] top-[8px]" data-node-id="1943:382" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[16px] opacity-34 size-[8px] top-0" data-node-id="1943:383" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[16px] opacity-27 size-[8px] top-[8px]" data-node-id="1943:384" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[24px] opacity-27 size-[8px] top-0" data-node-id="1943:385" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[24px] opacity-32 size-[8px] top-[8px]" data-node-id="1943:386" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[32px] opacity-29 size-[8px] top-0" data-node-id="1943:387" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[32px] opacity-28 size-[8px] top-[8px]" data-node-id="1943:388" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[40px] opacity-38 size-[8px] top-0" data-node-id="1943:389" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[40px] opacity-29 size-[8px] top-[8px]" data-node-id="1943:390" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[48px] opacity-32 size-[8px] top-0" data-node-id="1943:391" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[48px] opacity-36 size-[8px] top-[8px]" data-node-id="1943:392" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[56px] opacity-29 size-[8px] top-0" data-node-id="1943:393" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[56px] opacity-32 size-[8px] top-[8px]" data-node-id="1943:394" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[64px] opacity-37 size-[8px] top-0" data-node-id="1943:395" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[64px] opacity-22 size-[8px] top-[8px]" data-node-id="1943:396" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[72px] opacity-30 size-[8px] top-0" data-node-id="1943:397" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[72px] opacity-36 size-[8px] top-[8px]" data-node-id="1943:398" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[80px] opacity-29 size-[8px] top-0" data-node-id="1943:399" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[80px] opacity-24 size-[8px] top-[8px]" data-node-id="1943:400" data-name="Rectangle" />
+                </div>
+                <div className="absolute h-[16px] left-[516px] overflow-clip rounded-[4px] top-[279px] w-[82px]" data-node-id="1943:401" data-name="Frame">
+                  <div className="absolute bg-[#9299a2] left-0 opacity-29 size-[8px] top-0" data-node-id="1943:402" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-0 opacity-30 size-[8px] top-[8px]" data-node-id="1943:403" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[8px] opacity-31 size-[8px] top-0" data-node-id="1943:404" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[8px] opacity-30 size-[8px] top-[8px]" data-node-id="1943:405" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[16px] opacity-25 size-[8px] top-0" data-node-id="1943:406" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[16px] opacity-29 size-[8px] top-[8px]" data-node-id="1943:407" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[24px] opacity-26 size-[8px] top-0" data-node-id="1943:408" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[24px] opacity-22 size-[8px] top-[8px]" data-node-id="1943:409" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[32px] opacity-33 size-[8px] top-0" data-node-id="1943:410" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[32px] opacity-28 size-[8px] top-[8px]" data-node-id="1943:411" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[40px] opacity-34 size-[8px] top-0" data-node-id="1943:412" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[40px] opacity-40 size-[8px] top-[8px]" data-node-id="1943:413" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[48px] opacity-39 size-[8px] top-0" data-node-id="1943:414" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[48px] opacity-32 size-[8px] top-[8px]" data-node-id="1943:415" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[56px] opacity-21 size-[8px] top-0" data-node-id="1943:416" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[56px] opacity-22 size-[8px] top-[8px]" data-node-id="1943:417" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[64px] opacity-37 size-[8px] top-0" data-node-id="1943:418" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[64px] opacity-21 size-[8px] top-[8px]" data-node-id="1943:419" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[72px] opacity-30 size-[8px] top-0" data-node-id="1943:420" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[72px] opacity-38 size-[8px] top-[8px]" data-node-id="1943:421" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[80px] opacity-26 size-[8px] top-0" data-node-id="1943:422" data-name="Rectangle" />
+                  <div className="absolute bg-[#9299a2] left-[80px] opacity-21 size-[8px] top-[8px]" data-node-id="1943:423" data-name="Rectangle" />
+                </div>
+                <div className="absolute h-[20.001px] left-[340px] overflow-clip rounded-[100px] top-[303px] w-[98px]" data-node-id="1943:424" data-name="Frame">
+                  <div className="absolute bg-white left-0 opacity-30 size-[10px] top-0" data-node-id="1943:425" data-name="Rectangle" />
+                  <div className="absolute bg-white left-0 opacity-35 size-[10px] top-[10px]" data-node-id="1943:426" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[10px] opacity-26 size-[10px] top-0" data-node-id="1943:427" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[10px] opacity-24 size-[10px] top-[10px]" data-node-id="1943:428" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[20px] opacity-32 size-[10px] top-0" data-node-id="1943:429" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[20px] opacity-33 size-[10px] top-[10px]" data-node-id="1943:430" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[30px] opacity-36 size-[10px] top-0" data-node-id="1943:431" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[30px] opacity-25 size-[10px] top-[10px]" data-node-id="1943:432" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[40px] opacity-36 size-[10px] top-0" data-node-id="1943:433" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[40px] opacity-37 size-[10px] top-[10px]" data-node-id="1943:434" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[50px] opacity-25 size-[10px] top-0" data-node-id="1943:435" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[50px] opacity-27 size-[10px] top-[10px]" data-node-id="1943:436" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[60px] opacity-36 size-[10px] top-0" data-node-id="1943:437" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[60px] opacity-25 size-[10px] top-[10px]" data-node-id="1943:438" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[70px] opacity-37 size-[10px] top-0" data-node-id="1943:439" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[70px] opacity-20 size-[10px] top-[10px]" data-node-id="1943:440" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[80px] opacity-27 size-[10px] top-0" data-node-id="1943:441" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[80px] opacity-21 size-[10px] top-[10px]" data-node-id="1943:442" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[90px] opacity-31 size-[10px] top-0" data-node-id="1943:443" data-name="Rectangle" />
+                  <div className="absolute bg-white left-[90px] opacity-39 size-[10px] top-[10px]" data-node-id="1943:444" data-name="Rectangle" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="3:412" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3:412;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I3:412;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Размеры
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I3:412;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I3:412;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I3:412;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I3:412;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I3:412;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I3:412;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I3:412;2128:283;6917:52782">
+                  size
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="3:425" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I3:425;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:425;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:425;9460:7064;9460:7062">
+            Контейнер с тайлами равен высоте строки (line height).
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:425;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:425;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:425;9460:7070;9460:7062">
+            Размер контейнера маски должен совпадать с размером текстового блока
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:425;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:425;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:425;9460:7082;9460:7062">
+            По умолчанию выводим маску из двух рядов квадратиков
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3:425;9460:7087" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3:425;9460:7087;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:425;9460:7087;9460:7062">
+            Начиная с высоты контейнера маски 32рх показываем три ряда, и далее прибавляем по одному ряду каждые следующие 16рх
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="3:5819" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="3:5820" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[290px] items-start px-[32px] relative shrink-0 w-full" data-node-id="3:5822" data-name="card-content">
+            <div className="h-[357px] relative shrink-0 w-full" data-node-id="3:5823" data-name="image">
+              <p className="[word-break:break-word] absolute bottom-[73.95%] font-['SF_Pro_Text:Regular'] leading-[normal] left-[calc(50%-249px)] not-italic text-[#333] text-[13px] top-[21.57%] tracking-[-0.08px] whitespace-nowrap" data-node-id="3:5867">
+                Sensitive text
+              </p>
+              <p className="[word-break:break-word] absolute bottom-[58.26%] font-['SF_Pro_Display:Bold'] leading-[normal] left-[calc(50%-249px)] not-italic text-[#333] text-[20px] top-[35.01%] tracking-[0.38px] whitespace-nowrap" data-node-id="3:5869">
+                Sensitive text
+              </p>
+              <p className="[word-break:break-word] absolute bottom-[39.22%] font-['SF_Pro_Display:Bold'] leading-[normal] left-[calc(50%-249px)] not-italic text-[#333] text-[30px] top-[50.7%] tracking-[0.36px] whitespace-nowrap" data-node-id="4:492">
+                Sensitive text
+              </p>
+              <div className="absolute flex h-0 items-center justify-center left-[421px] top-[137px] w-[35.25px]" data-node-id="3:6083">
+                <div className="flex-none rotate-90">
+                  <div className="h-[35.25px] relative w-0">
+                    <div className="absolute inset-[-2.84%_-7.36px_0_-7.36px]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector35} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-[16px] left-[506px] overflow-clip rounded-[4px] top-[77px] w-[82px]" data-node-id="3:6036" data-name="Frame">
+                <div className="absolute bg-[#333] left-0 opacity-21 size-[8px] top-0" data-node-id="3:6037" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-0 opacity-31 size-[8px] top-[8px]" data-node-id="3:6038" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[8px] opacity-21 size-[8px] top-0" data-node-id="3:6039" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[8px] opacity-32 size-[8px] top-[8px]" data-node-id="3:6040" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[16px] opacity-39 size-[8px] top-0" data-node-id="3:6041" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[16px] opacity-22 size-[8px] top-[8px]" data-node-id="3:6042" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[24px] opacity-21 size-[8px] top-0" data-node-id="3:6043" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[24px] opacity-35 size-[8px] top-[8px]" data-node-id="3:6044" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[32px] opacity-36 size-[8px] top-0" data-node-id="3:6045" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[32px] opacity-36 size-[8px] top-[8px]" data-node-id="3:6046" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[40px] opacity-32 size-[8px] top-0" data-node-id="3:6047" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[40px] opacity-21 size-[8px] top-[8px]" data-node-id="3:6048" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[48px] opacity-33 size-[8px] top-0" data-node-id="3:6049" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[48px] opacity-38 size-[8px] top-[8px]" data-node-id="3:6050" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[56px] opacity-22 size-[8px] top-0" data-node-id="3:6051" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[56px] opacity-35 size-[8px] top-[8px]" data-node-id="3:6052" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[64px] opacity-39 size-[8px] top-0" data-node-id="3:6053" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[64px] opacity-31 size-[8px] top-[8px]" data-node-id="3:6054" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[72px] opacity-28 size-[8px] top-0" data-node-id="3:6055" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[72px] opacity-35 size-[8px] top-[8px]" data-node-id="3:6056" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[80px] opacity-39 size-[8px] top-0" data-node-id="3:6057" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[80px] opacity-31 size-[8px] top-[8px]" data-node-id="3:6058" data-name="Rectangle" />
+              </div>
+              <div className="absolute h-[24px] left-[506px] overflow-clip rounded-[4px] top-[121px] w-[129px]" data-node-id="3:6059" data-name="Frame">
+                <div className="absolute bg-[#333] left-0 opacity-23 size-[12px] top-0" data-node-id="3:6060" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-0 opacity-24 size-[12px] top-[12px]" data-node-id="3:6061" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[12px] opacity-31 size-[12px] top-0" data-node-id="3:6062" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[12px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6063" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[24px] opacity-33 size-[12px] top-0" data-node-id="3:6064" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[24px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6065" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[36px] opacity-37 size-[12px] top-0" data-node-id="3:6066" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[36px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6067" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[48px] opacity-26 size-[12px] top-0" data-node-id="3:6068" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[48px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6069" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[60px] opacity-26 size-[12px] top-0" data-node-id="3:6070" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[60px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6071" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[72px] opacity-37 size-[12px] top-0" data-node-id="3:6072" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[72px] opacity-27 size-[12px] top-[12px]" data-node-id="3:6073" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[84px] opacity-21 size-[12px] top-0" data-node-id="3:6074" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[84px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6075" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[96px] opacity-38 size-[12px] top-0" data-node-id="3:6076" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[96px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6077" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[108px] opacity-33 size-[12px] top-0" data-node-id="3:6078" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[108px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6079" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[120px] opacity-30 size-[12px] top-0" data-node-id="3:6080" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[120px] opacity-29 size-[12px] top-[12px]" data-node-id="3:6081" data-name="Rectangle" />
+              </div>
+              <div className="absolute h-[36px] left-[506px] overflow-clip rounded-[5.333px] top-[174px] w-[190px]" data-node-id="3:6084" data-name="Frame">
+                <div className="absolute bg-[#333] left-0 opacity-23 size-[12px] top-0" data-node-id="3:6085" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[132px] opacity-23 size-[12px] top-0" data-node-id="3:6122" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-0 opacity-24 size-[12px] top-[12px]" data-node-id="3:6086" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[132px] opacity-24 size-[12px] top-[12px]" data-node-id="3:6123" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[120px] size-[12px] top-[24px]" data-node-id="3:6108">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-24 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[252px] size-[12px] top-[24px]" data-node-id="3:6124">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-24 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[12px] opacity-31 size-[12px] top-0" data-node-id="3:6087" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[144px] opacity-31 size-[12px] top-0" data-node-id="3:6125" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[12px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6088" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[144px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6126" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[108px] size-[12px] top-[24px]" data-node-id="3:6109">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-34 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[240px] size-[12px] top-[24px]" data-node-id="3:6127">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-34 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[24px] opacity-33 size-[12px] top-0" data-node-id="3:6089" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[156px] opacity-33 size-[12px] top-0" data-node-id="3:6128" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[24px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6090" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[156px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6129" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[96px] size-[12px] top-[24px]" data-node-id="3:6110">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-21 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[228px] size-[12px] top-[24px]" data-node-id="3:6130">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-21 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[36px] opacity-37 size-[12px] top-0" data-node-id="3:6091" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[168px] opacity-37 size-[12px] top-0" data-node-id="3:6131" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[36px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6092" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[168px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6132" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[84px] size-[12px] top-[24px]" data-node-id="3:6111">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-35 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[216px] size-[12px] top-[24px]" data-node-id="3:6133">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-35 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[48px] opacity-26 size-[12px] top-0" data-node-id="3:6093" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[180px] opacity-26 size-[12px] top-0" data-node-id="3:6134" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[48px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6094" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[180px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6135" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[72px] size-[12px] top-[24px]" data-node-id="3:6112">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-25 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[204px] size-[12px] top-[24px]" data-node-id="3:6136">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-25 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[60px] opacity-26 size-[12px] top-0" data-node-id="3:6095" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[192px] opacity-26 size-[12px] top-0" data-node-id="3:6137" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[60px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6096" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[192px] opacity-25 size-[12px] top-[12px]" data-node-id="3:6138" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[60px] size-[12px] top-[24px]" data-node-id="3:6113">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-25 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[192px] size-[12px] top-[24px]" data-node-id="3:6139">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-25 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[72px] opacity-37 size-[12px] top-0" data-node-id="3:6097" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[204px] opacity-37 size-[12px] top-0" data-node-id="3:6140" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[72px] opacity-27 size-[12px] top-[12px]" data-node-id="3:6098" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[204px] opacity-27 size-[12px] top-[12px]" data-node-id="3:6141" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[48px] size-[12px] top-[24px]" data-node-id="3:6114">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-27 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[180px] size-[12px] top-[24px]" data-node-id="3:6142">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-27 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[84px] opacity-21 size-[12px] top-0" data-node-id="3:6099" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[216px] opacity-21 size-[12px] top-0" data-node-id="3:6143" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[84px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6100" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[216px] opacity-34 size-[12px] top-[12px]" data-node-id="3:6144" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[36px] size-[12px] top-[24px]" data-node-id="3:6115">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-34 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[168px] size-[12px] top-[24px]" data-node-id="3:6145">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-34 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[96px] opacity-38 size-[12px] top-0" data-node-id="3:6101" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[228px] opacity-38 size-[12px] top-0" data-node-id="3:6146" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[96px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6102" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[228px] opacity-35 size-[12px] top-[12px]" data-node-id="3:6147" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[24px] size-[12px] top-[24px]" data-node-id="3:6116">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-35 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[156px] size-[12px] top-[24px]" data-node-id="3:6148">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-35 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[108px] opacity-33 size-[12px] top-0" data-node-id="3:6103" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[240px] opacity-33 size-[12px] top-0" data-node-id="3:6149" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[108px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6104" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[240px] opacity-21 size-[12px] top-[12px]" data-node-id="3:6150" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-[12px] size-[12px] top-[24px]" data-node-id="3:6117">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-21 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[144px] size-[12px] top-[24px]" data-node-id="3:6151">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-21 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute bg-[#333] left-[120px] opacity-30 size-[12px] top-0" data-node-id="3:6105" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[252px] opacity-30 size-[12px] top-0" data-node-id="3:6152" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[120px] opacity-29 size-[12px] top-[12px]" data-node-id="3:6106" data-name="Rectangle" />
+                <div className="absolute bg-[#333] left-[252px] opacity-29 size-[12px] top-[12px]" data-node-id="3:6153" data-name="Rectangle" />
+                <div className="absolute flex items-center justify-center left-0 size-[12px] top-[24px]" data-node-id="3:6118">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-29 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+                <div className="absolute flex items-center justify-center left-[132px] size-[12px] top-[24px]" data-node-id="3:6154">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="bg-[#333] opacity-29 relative size-[12px]" data-name="Rectangle" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="2428:393" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I2428:393;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] font-['T-Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="I2428:393;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение в тексте
+          </p>
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="I2428:393;2130:408" data-name="badge">
+            <div className="backdrop-blur-[5px] bg-[var(--tui-background-neutral-4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="I2428:393;2128:283" data-name="tui-badge">
+              <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I2428:393;2128:283;6917:52779" data-name="IconCont">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I2428:393;2128:283;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                  <div className="absolute bg-[var(--tui-text-primary-on-dark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I2428:393;2128:283;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I2428:393;2128:283;6917:52781" data-name="LabelCont">
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-dark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I2428:393;2128:283;6917:52782">
+                  in-text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="2428:551" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I2428:551;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I2428:551;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I2428:551;9460:7064;9460:7062">
+            Если внутри текстового блока сочетаются разные цвета текста, цвет маски должен подстраиваться
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I2428:551;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I2428:551;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I2428:551;9460:7070;9460:7062">
+            Если маска закрывает часть ссылки, ссылка продолжает нажиматься целиком
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="2428:426" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2428:427" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[290px] items-start px-[32px] relative shrink-0 w-full" data-node-id="2428:429" data-name="card-content">
+            <div className="h-[357px] relative shrink-0 w-full" data-node-id="2428:430" data-name="image">
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[0] left-[291px] not-italic text-[17px] text-[color:var(--tui-text-primary,#333)] top-[71px] tracking-[-0.41px] whitespace-nowrap" data-node-id="2428:582">
+                <span className="leading-[normal]">{`В этом месяце `}</span>
+                <span className="leading-[normal] text-[#428bf9]">потратили 123 098 ₽</span>
+                <span className="leading-[normal]">
+                  <br aria-hidden />
+                  {`при пополнениях на `}
+                </span>
+                <span className="leading-[normal] text-[#428bf9]">128 890 ₽</span>
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[0] left-[291px] not-italic text-[17px] text-[color:var(--tui-text-primary,#333)] top-[162px] tracking-[-0.41px] whitespace-nowrap" data-node-id="2428:597">
+                <span className="leading-[normal]">{`В этом месяце `}</span>
+                <span className="leading-[normal] text-[#428bf9]">потратили</span>
+                <span className="leading-[normal]">
+                  <br aria-hidden />
+                  при пополнениях на
+                </span>
+              </p>
+              <div className="absolute h-[20px] left-[455px] overflow-clip rounded-[4px] top-[183px] w-[79px]" data-node-id="2428:634" data-name="Frame">
+                <div className="absolute bg-[#428bf9] left-0 opacity-30 size-[10px] top-0" data-node-id="2428:635" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-0 opacity-27 size-[10px] top-[10px]" data-node-id="2428:636" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[10px] opacity-38 size-[10px] top-0" data-node-id="2428:637" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[10px] opacity-31 size-[10px] top-[10px]" data-node-id="2428:638" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[20px] opacity-35 size-[10px] top-0" data-node-id="2428:639" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[20px] opacity-25 size-[10px] top-[10px]" data-node-id="2428:640" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[30px] opacity-29 size-[10px] top-0" data-node-id="2428:641" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[30px] opacity-37 size-[10px] top-[10px]" data-node-id="2428:642" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[40px] opacity-30 size-[10px] top-0" data-node-id="2428:643" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[40px] opacity-36 size-[10px] top-[10px]" data-node-id="2428:644" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[50px] opacity-27 size-[10px] top-0" data-node-id="2428:645" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[50px] opacity-27 size-[10px] top-[10px]" data-node-id="2428:646" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[60px] opacity-34 size-[10px] top-0" data-node-id="2428:647" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[60px] opacity-28 size-[10px] top-[10px]" data-node-id="2428:648" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[70px] opacity-21 size-[10px] top-0" data-node-id="2428:649" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[70px] opacity-38 size-[10px] top-[10px]" data-node-id="2428:650" data-name="Rectangle" />
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[normal] left-[457px] not-italic opacity-0 text-[17px] text-[color:var(--tui-text-action,#428bf9)] top-[182px] tracking-[-0.41px] whitespace-nowrap" data-node-id="2428:598">
+                128 890 ₽
+              </p>
+              <div className="absolute h-[20px] left-[501px] overflow-clip rounded-[4px] top-[162px] w-[79px]" data-node-id="2428:617" data-name="Frame">
+                <div className="absolute bg-[#428bf9] left-0 opacity-30 size-[10px] top-0" data-node-id="2428:618" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-0 opacity-27 size-[10px] top-[10px]" data-node-id="2428:619" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[10px] opacity-38 size-[10px] top-0" data-node-id="2428:620" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[10px] opacity-31 size-[10px] top-[10px]" data-node-id="2428:621" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[20px] opacity-35 size-[10px] top-0" data-node-id="2428:622" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[20px] opacity-25 size-[10px] top-[10px]" data-node-id="2428:623" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[30px] opacity-29 size-[10px] top-0" data-node-id="2428:624" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[30px] opacity-37 size-[10px] top-[10px]" data-node-id="2428:625" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[40px] opacity-30 size-[10px] top-0" data-node-id="2428:626" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[40px] opacity-36 size-[10px] top-[10px]" data-node-id="2428:627" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[50px] opacity-27 size-[10px] top-0" data-node-id="2428:628" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[50px] opacity-27 size-[10px] top-[10px]" data-node-id="2428:629" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[60px] opacity-34 size-[10px] top-0" data-node-id="2428:630" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[60px] opacity-28 size-[10px] top-[10px]" data-node-id="2428:631" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[70px] opacity-21 size-[10px] top-0" data-node-id="2428:632" data-name="Rectangle" />
+                <div className="absolute bg-[#428bf9] left-[70px] opacity-38 size-[10px] top-[10px]" data-node-id="2428:633" data-name="Rectangle" />
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="3:418" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3:418;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3:418;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как вставить в фигме
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I3:418;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[0px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3:418;9462:7170">
+            <span className="leading-[24px] text-[15px]">{`Скачайте наш `}</span>
+            <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] text-[15px] underline" href="https://www.figma.com/community/plugin/1312358064688403855/sensitive-mode" target="_blank">
+              <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/community/plugin/1312358064688403855/sensitive-mode" target="_blank">
+                плагин Sensitive Mode
+              </span>
+            </a>
+            <span className="leading-[24px] text-[15px]">. Чтобы с ним работать, достаточно выделить текстовые слои или фреймы и запустить плагин</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), bg blur: Effect(type: BACKGROUND_BLUR, radius: 10), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Day/Text/positive: #00B92D, iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Text/primary-on-dark: #FFFFFF, Day/Background/accent-2: #428BF9, Light/Text/primary-on-brand: #333333, Day/Base/base-02: #F6F7F8, Day/Text/primary: #333333, iOS/Body S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 700, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Note
+**Node ID:** 4073:971
+
+v 1.1.0
+
+## tui-ic-fixed-color / alert-warning
+**Node ID:** 4073:966
+
+Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-badge
+**Node ID:** 3894:1035
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+## tui-ic-small / bookmark-filled
+**Node ID:** 1:545
+
+save, mark, favorite, remember
+
+## tui-cell [operation]
+**Node ID:** 3894:3382
+
+Ячейка операции.
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-cell-operation-specs](https://go.tcsbank.ru/tui-cell-operation-specs)
+
+## tui-avatar
+**Node ID:** 3894:2057
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 1937:525
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-badge
+**Node ID:** 3894:1566
+
+Бейдж для использования в ячейках, заголовках, карточках и любых других местах
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-specs](https://go.tcsbank.ru/tui-badge-specs)
+
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL_REDACTED]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

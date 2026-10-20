@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-07",
+  "componentSetID": "42587:291989",
+  "componentsFileKey": "OBPLqL8JDThLuOP8M4JzBL",
+  "specificationFileKey": "J47iKq86xSm5piVUwsUwYX",
+  "specificationDesignPageID": "1:186853",
+  "platformPolicy": "iOS 26; Android variants are outside implementation scope",
+  "counts": {
+    "allVariants": 48,
+    "applicableIOSVariants": 24,
+    "androidVariants": 24,
+    "savedFullVariantContexts": 24,
+    "implementedVariants": 1,
+    "acceptedVariants": 0,
+    "implementedContainerLayouts": 24
+  },
+  "variants": [
+    {
+      "variantID": "16782:41985",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Scroll card",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 276
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-16782-41985-2026-10-07.txt",
+        "sha256": "04a46a3d1aa9a5d04cb740c6690512960e108f682a70fb690000cf8512425b57",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "16785:42812",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Scroll card",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 212
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-16785-42812-2026-10-07.txt",
+        "sha256": "b639dadb5c197ab6f44e11481de781991ab54018b9eb35f5fe6a5c238c217f6c",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:291990",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 122
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-291990-2026-10-07.txt",
+        "sha256": "209fef5828ddaa5585a89ffbaf6f5ce7d6b82f2fa26c0347aa524a2466ba287f",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:291998",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 186
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-custom-footer-42587-291998-2026-10-07.txt",
+        "sha256": "ff2b860261c1c8895af4409affe97c3f2dd18ea92d086243a9bb9588698a02d6",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292047",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell List",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 364
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292047-2026-10-07.txt",
+        "sha256": "cee1ab317683144c684af91352c0d4d60df705a31b73a57dd862ddd3d1262fbb",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292058",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292058-2026-10-07.txt",
+        "sha256": "73e8037750ab68a1adffc61282aa68c9ad7156cb5179d04daa6e0f4eb38fa52f",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292066",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell List",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 300
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292066-2026-10-07.txt",
+        "sha256": "f10548c1543ec557c4142ce73af4bbdd129a29b7b6f8b3b6645651b49bbca2b0",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292099",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header Subheader",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 84
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292099-2026-10-07.txt",
+        "sha256": "c3acaa8d4041dbf900ff75d7ea4a61bdf0ecf5e4a64c12c9591a464df9caf9c1",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292105",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header Subheader",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 144
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292105-2026-10-07.txt",
+        "sha256": "0b412afae0cc1e2680e4e81855f9eb5223003df0e3d35d5f15255ea2c07a2e8a",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "42587:292244",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Small",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 187.5,
+        "height": 122
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-42587-292244-2026-10-07.txt",
+        "sha256": "55f3ee1d767ea6c425ed6041e73eb65f05ab41296e5e155f1eb307de41311b2a",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:308359",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 72
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-308359-2026-10-07.txt",
+        "sha256": "3be9212bcfdd33a496d791b99c3cee0944950ded45c2ee5986da11265fcd9c56",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312813",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 122
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312813-2026-10-07.txt",
+        "sha256": "6b767ac5cd214de5e7e5077a49745ac805906956834c20b6ed6ed3c5f44f9541",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312821",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Custom",
+        "Flat": "True",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 186
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312821-2026-10-07.txt",
+        "sha256": "71bca5bf91595519bb3c150c07ca0b652e19cf9b6c86a08d6877153d9304c058",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312857",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell List",
+        "Flat": "True",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 364
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312857-2026-10-07.txt",
+        "sha256": "5b8e327b5dfd2649291f1f62a168b772dfcceb1ba25dfffe6fdd7a4d9a4a18cf",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312868",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312868-2026-10-07.txt",
+        "sha256": "4a3af4a435a98209fd2f54bf3a0adabb898d5f221e85575bbac8a8212e9e3200",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312872",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell List",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 300
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312872-2026-10-07.txt",
+        "sha256": "dc3bc4fd88ab66092dd064e926790c294d5d9456a23e75323c60c7244c9e775c",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312881",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header Subheader",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 84
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312881-2026-10-07.txt",
+        "sha256": "7c33560ec868b07956265799e26a93fe7f151a6d23af3d50abd3d398b05baf77",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312885",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 72
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312885-2026-10-07.txt",
+        "sha256": "447ea0d0c1b10b722c08d99107832a1f861f06d1e2897b1908ea0e07a07a2518",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312889",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header Subheader",
+        "Flat": "True",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 144
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312889-2026-10-07.txt",
+        "sha256": "8fb8996bde64701ae8f6af8a3e8dbb8a77b6563fde9be5b8e00b6c26b7450362",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "44231:312977",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Small",
+        "Flat": "True",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 187.5,
+        "height": 122
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-44231-312977-2026-10-07.txt",
+        "sha256": "4b431f5c41d91a4ce3b94b9ed01711f72a7c924429a9d0b7d42919c2f1d878a2",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "46739:304459",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell + Close",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 80
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-46739-304459-2026-10-07.txt",
+        "sha256": "b778ecb8ad4711af0eda087394a8f2e288871b8a128abb70ff1e509830fa77f0",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "50523:298748",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Map",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 196
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-50523-298748-2026-10-07.txt",
+        "sha256": "4e1e21275f9c1e8c87248e221e59997b6f6fd1a3a34b9b777b07725e962b31ff",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    },
+    {
+      "variantID": "56027:299894",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Header Subheader",
+        "Flat": "False",
+        "Footer": "False",
+        "Skeleton": "True"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 84
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-56027-299894-2026-10-07.txt",
+        "sha256": "04067e2aaf215631e9766a66f13b42df858c0713cfaa0388b2780e7a4f108225",
+        "kind": "design-context"
+      },
+      "implementation": "skeleton-implemented",
+      "verification": "pending"
+    },
+    {
+      "variantID": "65635:312455",
+      "properties": {
+        "Systеm": "iOS",
+        "Preset": "Cell + Button",
+        "Flat": "False",
+        "Footer": "True",
+        "Skeleton": "False"
+      },
+      "sourceSize": {
+        "width": 375,
+        "height": 144
+      },
+      "sourceContext": {
+        "path": "Documentation/References/CardLarge/source-65635-312455-2026-10-07.txt",
+        "sha256": "54ae4f80bd500ddc8157cc2da0838b383ae35ad6a03610c3a2a06653fda98f5b",
+        "kind": "design-context"
+      },
+      "implementation": "container-layout-only; inner composition pending",
+      "verification": "pending"
+    }
+  ],
+  "specificationSections": [
+    {
+      "nodeID": "79:14693",
+      "name": "API",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14724",
+      "name": "Как пользоваться в фигме",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14734",
+      "name": "Стили",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14805",
+      "name": "Отступы",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14819",
+      "name": "Построение",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14839",
+      "name": "Построение: шапка",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14846",
+      "name": "Построение: контент",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14881",
+      "name": "Построение: подвал",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:14911",
+      "name": "Типы карточек",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:15016",
+      "name": "Дополнительные возможности",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:15020",
+      "name": "Кастомизация",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:15066",
+      "name": "Группировка",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "79:15073",
+      "name": "Доступность",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "3207:17106",
+      "name": "Правила использования",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "6696:11809",
+      "name": "Изменения",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "24800:15629",
+      "name": "Озвучка",
+      "status": "identified-not-accepted"
+    },
+    {
+      "nodeID": "28207:45962",
+      "name": "Дополнительные примеры озвучки",
+      "status": "identified-not-accepted"
+    }
+  ],
+  "limitations": [
+    "The specification inventory identifies sections but does not prove they have all been read.",
+    "No Card Large public API, native runtime comparison or consumer acceptance exists yet.",
+    "Remote access recovered on 2026-10-07: all 24 variant contexts have been obtained. Source preparation is not implementation or acceptance."
+  ]
+}

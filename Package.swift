@@ -2,11 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "TUIDesignSystem",
+    name: "TUI-SwiftUI",
     platforms: [
         .iOS(.v26)
     ],
     products: [
+        .library(name: "TUI-SwiftUI", targets: ["TUIDesignSystem"]),
         .library(name: "TUIDesignSystem", targets: ["TUIDesignSystem"])
     ],
     targets: [

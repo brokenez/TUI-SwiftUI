@@ -1,0 +1,6615 @@
+{
+  "scope": "Unaltered native pixels and timestamps; diagnostic, not full acceptance",
+  "scale": 3.0,
+  "markerYInPixels": 372,
+  "source": "Documentation/Validation/2026-10-12/FloatingContainerHeight/InitialFrames/frames.json",
+  "events": [
+    {
+      "elapsed": 1.1467842916754307,
+      "name": "show-primary",
+      "stage": 1,
+      "firstRenderedMovieTime": 49.01833333333333,
+      "maximumActiveFrameInterval": 0.018333333333337976,
+      "sampleCount": 32,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00099.png",
+          "time": 49.01833333333333,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00100.png",
+          "time": 49.02166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [],
+          "elapsedFromFirstRenderedStage": 0.003333333333337407
+        },
+        {
+          "height": 2622,
+          "path": "frame-00101.png",
+          "time": 49.03666666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.666666666666668,
+                860.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.018333333333337976
+        },
+        {
+          "height": 2622,
+          "path": "frame-00102.png",
+          "time": 49.053333333333335,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                846.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.035000000000003695
+        },
+        {
+          "height": 2622,
+          "path": "frame-00103.png",
+          "time": 49.068333333333335,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                832.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.05000000000000426
+        },
+        {
+          "height": 2622,
+          "path": "frame-00104.png",
+          "time": 49.085,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                818.3333333333334,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.06666666666666998
+        },
+        {
+          "height": 2622,
+          "path": "frame-00105.png",
+          "time": 49.10166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                805.3333333333334,
+                385.6666666666667,
+                861.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0833333333333357
+        },
+        {
+          "height": 2622,
+          "path": "frame-00106.png",
+          "time": 49.11666666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                793.3333333333334,
+                385.6666666666667,
+                849.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.09833333333333627
+        },
+        {
+          "height": 2622,
+          "path": "frame-00107.png",
+          "time": 49.13333333333333,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                782.6666666666666,
+                385.6666666666667,
+                838.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.11500000000000199
+        },
+        {
+          "height": 2622,
+          "path": "frame-00108.png",
+          "time": 49.15,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                774.0,
+                385.6666666666667,
+                830.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.1316666666666677
+        },
+        {
+          "height": 2622,
+          "path": "frame-00109.png",
+          "time": 49.166666666666664,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                767.6666666666666,
+                385.6666666666667,
+                823.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14833333333333343
+        },
+        {
+          "height": 2622,
+          "path": "frame-00110.png",
+          "time": 49.185,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                763.3333333333334,
+                385.6666666666667,
+                819.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.1666666666666714
+        },
+        {
+          "height": 2622,
+          "path": "frame-00111.png",
+          "time": 49.20166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                816.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.18333333333333712
+        },
+        {
+          "height": 2622,
+          "path": "frame-00112.png",
+          "time": 49.218333333333334,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.3333333333334,
+                385.6666666666667,
+                814.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.20000000000000284
+        },
+        {
+          "height": 2622,
+          "path": "frame-00113.png",
+          "time": 49.235,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.21666666666666856
+        },
+        {
+          "height": 2622,
+          "path": "frame-00114.png",
+          "time": 49.251666666666665,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                756.6666666666666,
+                385.6666666666667,
+                812.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.23333333333333428
+        },
+        {
+          "height": 2622,
+          "path": "frame-00115.png",
+          "time": 49.26833333333333,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                756.6666666666666,
+                385.6666666666667,
+                812.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.25
+        },
+        {
+          "height": 2622,
+          "path": "frame-00116.png",
+          "time": 49.285,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                756.6666666666666,
+                385.6666666666667,
+                812.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2666666666666657
+        },
+        {
+          "height": 2622,
+          "path": "frame-00117.png",
+          "time": 49.30166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.0,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.28333333333333854
+        },
+        {
+          "height": 2622,
+          "path": "frame-00118.png",
+          "time": 49.318333333333335,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.30000000000000426
+        },
+        {
+          "height": 2622,
+          "path": "frame-00119.png",
+          "time": 49.335,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.6666666666666,
+                385.6666666666667,
+                813.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.31666666666667
+        },
+        {
+          "height": 2622,
+          "path": "frame-00120.png",
+          "time": 49.35166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.0,
+                385.6666666666667,
+                813.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3333333333333357
+        },
+        {
+          "height": 2622,
+          "path": "frame-00121.png",
+          "time": 49.36666666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.3333333333334,
+                385.6666666666667,
+                814.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.34833333333333627
+        },
+        {
+          "height": 2622,
+          "path": "frame-00122.png",
+          "time": 49.38333333333333,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.6666666666666,
+                385.6666666666667,
+                814.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.365000000000002
+        },
+        {
+          "height": 2622,
+          "path": "frame-00123.png",
+          "time": 49.401666666666664,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.0,
+                385.6666666666667,
+                815.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.38333333333333286
+        },
+        {
+          "height": 2622,
+          "path": "frame-00124.png",
+          "time": 49.41833333333334,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.3333333333334,
+                385.6666666666667,
+                815.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4000000000000057
+        },
+        {
+          "height": 2622,
+          "path": "frame-00125.png",
+          "time": 49.435,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.3333333333334,
+                385.6666666666667,
+                815.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4166666666666714
+        },
+        {
+          "height": 2622,
+          "path": "frame-00126.png",
+          "time": 49.45166666666667,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.6666666666666,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4333333333333371
+        },
+        {
+          "height": 2622,
+          "path": "frame-00127.png",
+          "time": 49.468333333333334,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.45000000000000284
+        },
+        {
+          "height": 2622,
+          "path": "frame-00128.png",
+          "time": 49.485,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.46666666666666856
+        },
+        {
+          "height": 2622,
+          "path": "frame-00129.png",
+          "time": 49.501666666666665,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4833333333333343
+        },
+        {
+          "height": 2622,
+          "path": "frame-00130.png",
+          "time": 49.52,
+          "width": 1206,
+          "stage": 1,
+          "markerRGB": [
+            17.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5016666666666723
+        }
+      ]
+    },
+    {
+      "elapsed": 2.320486416676431,
+      "name": "same-shape-primary",
+      "stage": 2,
+      "firstRenderedMovieTime": 50.115,
+      "maximumActiveFrameInterval": 0.01999999999999602,
+      "sampleCount": 6,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00131.png",
+          "time": 50.115,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00132.png",
+          "time": 50.135,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.01999999999999602
+        },
+        {
+          "height": 2622,
+          "path": "frame-00133.png",
+          "time": 50.151666666666664,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.03666666666666174
+        },
+        {
+          "height": 2622,
+          "path": "frame-00134.png",
+          "time": 50.16833333333334,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.053333333333334565
+        },
+        {
+          "height": 2622,
+          "path": "frame-00135.png",
+          "time": 50.185,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07000000000000028
+        },
+        {
+          "height": 2622,
+          "path": "frame-00136.png",
+          "time": 50.20333333333333,
+          "width": 1206,
+          "stage": 2,
+          "markerRGB": [
+            33.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.08833333333333115
+        }
+      ]
+    },
+    {
+      "elapsed": 3.4215114999969956,
+      "name": "same-shape-primary-return",
+      "stage": 3,
+      "firstRenderedMovieTime": 51.215,
+      "maximumActiveFrameInterval": 0.01999999999999602,
+      "sampleCount": 8,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00137.png",
+          "time": 51.215,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00138.png",
+          "time": 51.235,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.01999999999999602
+        },
+        {
+          "height": 2622,
+          "path": "frame-00139.png",
+          "time": 51.251666666666665,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.03666666666666174
+        },
+        {
+          "height": 2622,
+          "path": "frame-00140.png",
+          "time": 51.26833333333333,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.05333333333332746
+        },
+        {
+          "height": 2622,
+          "path": "frame-00141.png",
+          "time": 51.285,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.06999999999999318
+        },
+        {
+          "height": 2622,
+          "path": "frame-00142.png",
+          "time": 51.30166666666667,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.086666666666666
+        },
+        {
+          "height": 2622,
+          "path": "frame-00143.png",
+          "time": 51.62166666666667,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4066666666666663
+        },
+        {
+          "height": 2622,
+          "path": "frame-00144.png",
+          "time": 51.625,
+          "width": 1206,
+          "stage": 3,
+          "markerRGB": [
+            49.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4099999999999966
+        }
+      ]
+    },
+    {
+      "elapsed": 4.586135416670004,
+      "name": "different-shape-compact",
+      "stage": 4,
+      "firstRenderedMovieTime": 52.391666666666666,
+      "maximumActiveFrameInterval": 0.035000000000003695,
+      "sampleCount": 58,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00145.png",
+          "time": 52.391666666666666,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00146.png",
+          "time": 52.401666666666664,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                763.3333333333334,
+                385.6666666666667,
+                819.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                149.33333333333334,
+                863.3333333333334,
+                253.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.00999999999999801
+        },
+        {
+          "height": 2622,
+          "path": "frame-00147.png",
+          "time": 52.41833333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                766.6666666666666,
+                385.6666666666667,
+                822.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                852.3333333333334,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.026666666666670835
+        },
+        {
+          "height": 2622,
+          "path": "frame-00148.png",
+          "time": 52.435,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                769.6666666666666,
+                385.6666666666667,
+                825.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                841.3333333333334,
+                253.66666666666666,
+                871.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.043333333333336554
+        },
+        {
+          "height": 2622,
+          "path": "frame-00149.png",
+          "time": 52.45166666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                772.6666666666666,
+                385.6666666666667,
+                828.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                831.0,
+                253.66666666666666,
+                861.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.060000000000002274
+        },
+        {
+          "height": 2622,
+          "path": "frame-00150.png",
+          "time": 52.46666666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                776.0,
+                385.6666666666667,
+                850.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07500000000000284
+        },
+        {
+          "height": 2622,
+          "path": "frame-00151.png",
+          "time": 52.485,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                778.6666666666666,
+                385.6666666666667,
+                841.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.09333333333333371
+        },
+        {
+          "height": 2622,
+          "path": "frame-00152.png",
+          "time": 52.501666666666665,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                781.0,
+                385.6666666666667,
+                836.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.10999999999999943
+        },
+        {
+          "height": 2622,
+          "path": "frame-00153.png",
+          "time": 52.52,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                782.6666666666666,
+                385.6666666666667,
+                838.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.1283333333333374
+        },
+        {
+          "height": 2622,
+          "path": "frame-00154.png",
+          "time": 52.53333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.3333333333334,
+                385.6666666666667,
+                840.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14166666666666572
+        },
+        {
+          "height": 2622,
+          "path": "frame-00155.png",
+          "time": 52.553333333333335,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                785.3333333333334,
+                385.6666666666667,
+                841.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.16166666666666885
+        },
+        {
+          "height": 2622,
+          "path": "frame-00156.png",
+          "time": 52.56666666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                841.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.17500000000000426
+        },
+        {
+          "height": 2622,
+          "path": "frame-00157.png",
+          "time": 52.585,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.6666666666666,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.19333333333333513
+        },
+        {
+          "height": 2622,
+          "path": "frame-00158.png",
+          "time": 52.605,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.0,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.21333333333333115
+        },
+        {
+          "height": 2622,
+          "path": "frame-00159.png",
+          "time": 52.61833333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                783.6666666666666,
+                385.6666666666667,
+                842.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.22666666666666657
+        },
+        {
+          "height": 2622,
+          "path": "frame-00160.png",
+          "time": 52.63666666666666,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                783.3333333333334,
+                385.6666666666667,
+                842.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.24499999999999744
+        },
+        {
+          "height": 2622,
+          "path": "frame-00161.png",
+          "time": 52.65,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                783.3333333333334,
+                385.6666666666667,
+                842.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.25833333333333286
+        },
+        {
+          "height": 2622,
+          "path": "frame-00162.png",
+          "time": 52.666666666666664,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                783.6666666666666,
+                385.6666666666667,
+                842.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2749999999999986
+        },
+        {
+          "height": 2622,
+          "path": "frame-00163.png",
+          "time": 52.685,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.0,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.29333333333333655
+        },
+        {
+          "height": 2622,
+          "path": "frame-00164.png",
+          "time": 52.70166666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.0,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3100000000000023
+        },
+        {
+          "height": 2622,
+          "path": "frame-00165.png",
+          "time": 52.718333333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.6666666666666,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.326666666666668
+        },
+        {
+          "height": 2622,
+          "path": "frame-00166.png",
+          "time": 52.735,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                784.6666666666666,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3433333333333337
+        },
+        {
+          "height": 2622,
+          "path": "frame-00167.png",
+          "time": 52.755,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                785.0,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.36333333333333684
+        },
+        {
+          "height": 2622,
+          "path": "frame-00168.png",
+          "time": 52.77166666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                785.3333333333334,
+                385.6666666666667,
+                842.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.38000000000000256
+        },
+        {
+          "height": 2622,
+          "path": "frame-00169.png",
+          "time": 52.788333333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                785.3333333333334,
+                385.6666666666667,
+                842.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3966666666666683
+        },
+        {
+          "height": 2622,
+          "path": "frame-00170.png",
+          "time": 52.805,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                785.6666666666666,
+                385.6666666666667,
+                842.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.413333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00171.png",
+          "time": 52.821666666666665,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                842.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4299999999999997
+        },
+        {
+          "height": 2622,
+          "path": "frame-00172.png",
+          "time": 52.83833333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                842.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.44666666666666544
+        },
+        {
+          "height": 2622,
+          "path": "frame-00173.png",
+          "time": 52.85,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                841.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4583333333333357
+        },
+        {
+          "height": 2622,
+          "path": "frame-00174.png",
+          "time": 52.86833333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                841.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.47666666666666657
+        },
+        {
+          "height": 2622,
+          "path": "frame-00175.png",
+          "time": 52.88333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                841.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.49166666666666714
+        },
+        {
+          "height": 2622,
+          "path": "frame-00176.png",
+          "time": 52.91833333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                855.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5266666666666708
+        },
+        {
+          "height": 2622,
+          "path": "frame-00177.png",
+          "time": 52.935,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                786.0,
+                385.6666666666667,
+                871.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5433333333333366
+        },
+        {
+          "height": 2622,
+          "path": "frame-00178.png",
+          "time": 52.955,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                835.3333333333334,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5633333333333326
+        },
+        {
+          "height": 2622,
+          "path": "frame-00179.png",
+          "time": 52.968333333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                855.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.576666666666668
+        },
+        {
+          "height": 2622,
+          "path": "frame-00180.png",
+          "time": 52.98833333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                22.666666666666668,
+                870.6666666666666,
+                379.3333333333333,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5966666666666711
+        },
+        {
+          "height": 2622,
+          "path": "frame-00181.png",
+          "time": 53.001666666666665,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6099999999999994
+        },
+        {
+          "height": 2622,
+          "path": "frame-00182.png",
+          "time": 53.01833333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6266666666666652
+        },
+        {
+          "height": 2622,
+          "path": "frame-00183.png",
+          "time": 53.035,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6433333333333309
+        },
+        {
+          "height": 2622,
+          "path": "frame-00184.png",
+          "time": 53.166666666666664,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7749999999999986
+        },
+        {
+          "height": 2622,
+          "path": "frame-00185.png",
+          "time": 53.18333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7916666666666643
+        },
+        {
+          "height": 2622,
+          "path": "frame-00186.png",
+          "time": 53.2,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8083333333333371
+        },
+        {
+          "height": 2622,
+          "path": "frame-00187.png",
+          "time": 53.21666666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8250000000000028
+        },
+        {
+          "height": 2622,
+          "path": "frame-00188.png",
+          "time": 53.233333333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8416666666666686
+        },
+        {
+          "height": 2622,
+          "path": "frame-00189.png",
+          "time": 53.25,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8583333333333343
+        },
+        {
+          "height": 2622,
+          "path": "frame-00190.png",
+          "time": 53.266666666666666,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.875
+        },
+        {
+          "height": 2622,
+          "path": "frame-00191.png",
+          "time": 53.28333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8916666666666657
+        },
+        {
+          "height": 2622,
+          "path": "frame-00192.png",
+          "time": 53.3,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.9083333333333314
+        },
+        {
+          "height": 2622,
+          "path": "frame-00193.png",
+          "time": 53.31666666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.9250000000000043
+        },
+        {
+          "height": 2622,
+          "path": "frame-00194.png",
+          "time": 53.333333333333336,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.94166666666667
+        },
+        {
+          "height": 2622,
+          "path": "frame-00195.png",
+          "time": 53.35,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.9583333333333357
+        },
+        {
+          "height": 2622,
+          "path": "frame-00196.png",
+          "time": 53.36666666666667,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.9750000000000014
+        },
+        {
+          "height": 2622,
+          "path": "frame-00197.png",
+          "time": 53.38333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.9916666666666671
+        },
+        {
+          "height": 2622,
+          "path": "frame-00198.png",
+          "time": 53.401666666666664,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 1.009999999999998
+        },
+        {
+          "height": 2622,
+          "path": "frame-00199.png",
+          "time": 53.416666666666664,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 1.0249999999999986
+        },
+        {
+          "height": 2622,
+          "path": "frame-00200.png",
+          "time": 53.43333333333333,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 1.0416666666666643
+        },
+        {
+          "height": 2622,
+          "path": "frame-00201.png",
+          "time": 53.45,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 1.0583333333333371
+        },
+        {
+          "height": 2622,
+          "path": "frame-00202.png",
+          "time": 53.468333333333334,
+          "width": 1206,
+          "stage": 4,
+          "markerRGB": [
+            65.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 1.076666666666668
+        }
+      ]
+    },
+    {
+      "elapsed": 5.709897374996217,
+      "name": "different-shape-large",
+      "stage": 5,
+      "firstRenderedMovieTime": 53.505,
+      "maximumActiveFrameInterval": 0.03333333333333144,
+      "sampleCount": 51,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00203.png",
+          "time": 53.505,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00204.png",
+          "time": 53.52,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                841.3333333333334,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.015000000000000568
+        },
+        {
+          "height": 2622,
+          "path": "frame-00205.png",
+          "time": 53.535,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                786.0,
+                253.66666666666666,
+                815.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                831.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.02999999999999403
+        },
+        {
+          "height": 2622,
+          "path": "frame-00206.png",
+          "time": 53.55,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                782.6666666666666,
+                253.66666666666666,
+                812.6666666666666
+              ],
+              "wide": false
+            },
+            {
+              "boundsPoints": [
+                16.0,
+                817.6666666666666,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0449999999999946
+        },
+        {
+          "height": 2622,
+          "path": "frame-00207.png",
+          "time": 53.56666666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                779.6666666666666,
+                385.6666666666667,
+                861.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.061666666666667425
+        },
+        {
+          "height": 2622,
+          "path": "frame-00208.png",
+          "time": 53.583333333333336,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                776.6666666666666,
+                385.6666666666667,
+                849.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07833333333333314
+        },
+        {
+          "height": 2622,
+          "path": "frame-00209.png",
+          "time": 53.6,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                773.3333333333334,
+                385.6666666666667,
+                840.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.09499999999999886
+        },
+        {
+          "height": 2622,
+          "path": "frame-00210.png",
+          "time": 53.61833333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                770.3333333333334,
+                385.6666666666667,
+                832.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.11333333333332973
+        },
+        {
+          "height": 2622,
+          "path": "frame-00211.png",
+          "time": 53.635,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                767.6666666666666,
+                385.6666666666667,
+                825.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.12999999999999545
+        },
+        {
+          "height": 2622,
+          "path": "frame-00212.png",
+          "time": 53.65,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                765.3333333333334,
+                385.6666666666667,
+                821.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14499999999999602
+        },
+        {
+          "height": 2622,
+          "path": "frame-00213.png",
+          "time": 53.666666666666664,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                762.0,
+                385.6666666666667,
+                817.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.16166666666666174
+        },
+        {
+          "height": 2622,
+          "path": "frame-00214.png",
+          "time": 53.685,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.17999999999999972
+        },
+        {
+          "height": 2622,
+          "path": "frame-00215.png",
+          "time": 53.7,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.3333333333334,
+                385.6666666666667,
+                814.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.19500000000000028
+        },
+        {
+          "height": 2622,
+          "path": "frame-00216.png",
+          "time": 53.71666666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.211666666666666
+        },
+        {
+          "height": 2622,
+          "path": "frame-00217.png",
+          "time": 53.733333333333334,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.22833333333333172
+        },
+        {
+          "height": 2622,
+          "path": "frame-00218.png",
+          "time": 53.75,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.0,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.24499999999999744
+        },
+        {
+          "height": 2622,
+          "path": "frame-00219.png",
+          "time": 53.766666666666666,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.26166666666666316
+        },
+        {
+          "height": 2622,
+          "path": "frame-00220.png",
+          "time": 53.785,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.3333333333334,
+                385.6666666666667,
+                813.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.27999999999999403
+        },
+        {
+          "height": 2622,
+          "path": "frame-00221.png",
+          "time": 53.8,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                757.6666666666666,
+                385.6666666666667,
+                813.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2949999999999946
+        },
+        {
+          "height": 2622,
+          "path": "frame-00222.png",
+          "time": 53.818333333333335,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.0,
+                385.6666666666667,
+                813.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3133333333333326
+        },
+        {
+          "height": 2622,
+          "path": "frame-00223.png",
+          "time": 53.835,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.3333333333334,
+                385.6666666666667,
+                814.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3299999999999983
+        },
+        {
+          "height": 2622,
+          "path": "frame-00224.png",
+          "time": 53.85,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                758.6666666666666,
+                385.6666666666667,
+                814.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.34499999999999886
+        },
+        {
+          "height": 2622,
+          "path": "frame-00225.png",
+          "time": 53.86666666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.0,
+                385.6666666666667,
+                815.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3616666666666646
+        },
+        {
+          "height": 2622,
+          "path": "frame-00226.png",
+          "time": 53.88333333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.3333333333334,
+                385.6666666666667,
+                815.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3783333333333303
+        },
+        {
+          "height": 2622,
+          "path": "frame-00227.png",
+          "time": 53.9,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.3333333333334,
+                385.6666666666667,
+                815.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.394999999999996
+        },
+        {
+          "height": 2622,
+          "path": "frame-00228.png",
+          "time": 53.91833333333334,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                759.6666666666666,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.413333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00229.png",
+          "time": 53.93333333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.42833333333332746
+        },
+        {
+          "height": 2622,
+          "path": "frame-00230.png",
+          "time": 53.95166666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.44666666666666544
+        },
+        {
+          "height": 2622,
+          "path": "frame-00231.png",
+          "time": 53.96666666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.461666666666666
+        },
+        {
+          "height": 2622,
+          "path": "frame-00232.png",
+          "time": 53.985,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4799999999999969
+        },
+        {
+          "height": 2622,
+          "path": "frame-00233.png",
+          "time": 54.01833333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5133333333333283
+        },
+        {
+          "height": 2622,
+          "path": "frame-00234.png",
+          "time": 54.03333333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5283333333333289
+        },
+        {
+          "height": 2622,
+          "path": "frame-00235.png",
+          "time": 54.05166666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5466666666666669
+        },
+        {
+          "height": 2622,
+          "path": "frame-00236.png",
+          "time": 54.068333333333335,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5633333333333326
+        },
+        {
+          "height": 2622,
+          "path": "frame-00237.png",
+          "time": 54.083333333333336,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5783333333333331
+        },
+        {
+          "height": 2622,
+          "path": "frame-00238.png",
+          "time": 54.10166666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                830.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.596666666666664
+        },
+        {
+          "height": 2622,
+          "path": "frame-00239.png",
+          "time": 54.11666666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                848.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6116666666666646
+        },
+        {
+          "height": 2622,
+          "path": "frame-00240.png",
+          "time": 54.13333333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                834.0,
+                253.66666666666666,
+                863.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6283333333333303
+        },
+        {
+          "height": 2622,
+          "path": "frame-00241.png",
+          "time": 54.151666666666664,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                846.0,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6466666666666612
+        },
+        {
+          "height": 2622,
+          "path": "frame-00242.png",
+          "time": 54.16833333333334,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                854.3333333333334,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.663333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00243.png",
+          "time": 54.185,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                860.0,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6799999999999997
+        },
+        {
+          "height": 2622,
+          "path": "frame-00244.png",
+          "time": 54.20166666666667,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                149.33333333333334,
+                863.3333333333334,
+                253.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.6966666666666654
+        },
+        {
+          "height": 2622,
+          "path": "frame-00245.png",
+          "time": 54.218333333333334,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                150.66666666666666,
+                866.0,
+                251.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7133333333333312
+        },
+        {
+          "height": 2622,
+          "path": "frame-00246.png",
+          "time": 54.235,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                152.33333333333334,
+                868.3333333333334,
+                250.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7299999999999969
+        },
+        {
+          "height": 2622,
+          "path": "frame-00247.png",
+          "time": 54.251666666666665,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                154.33333333333334,
+                870.0,
+                248.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7466666666666626
+        },
+        {
+          "height": 2622,
+          "path": "frame-00248.png",
+          "time": 54.26833333333333,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7633333333333283
+        },
+        {
+          "height": 2622,
+          "path": "frame-00249.png",
+          "time": 54.285,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.779999999999994
+        },
+        {
+          "height": 2622,
+          "path": "frame-00250.png",
+          "time": 54.305,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.7999999999999972
+        },
+        {
+          "height": 2622,
+          "path": "frame-00251.png",
+          "time": 54.321666666666665,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8166666666666629
+        },
+        {
+          "height": 2622,
+          "path": "frame-00252.png",
+          "time": 54.336666666666666,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8316666666666634
+        },
+        {
+          "height": 2622,
+          "path": "frame-00253.png",
+          "time": 54.355,
+          "width": 1206,
+          "stage": 5,
+          "markerRGB": [
+            81.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.8499999999999943
+        }
+      ]
+    },
+    {
+      "elapsed": 6.830584875002387,
+      "name": "show-secondary",
+      "stage": 6,
+      "firstRenderedMovieTime": 54.638333333333335,
+      "maximumActiveFrameInterval": 0.03666666666666174,
+      "sampleCount": 35,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00254.png",
+          "time": 54.638333333333335,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00255.png",
+          "time": 54.65,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.011666666666663161
+        },
+        {
+          "height": 2622,
+          "path": "frame-00256.png",
+          "time": 54.666666666666664,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.02833333333332888
+        },
+        {
+          "height": 2622,
+          "path": "frame-00257.png",
+          "time": 54.69,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                753.3333333333334,
+                385.6666666666667,
+                809.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                151.33333333333334,
+                867.3333333333334,
+                251.0,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.05166666666666231
+        },
+        {
+          "height": 2622,
+          "path": "frame-00258.png",
+          "time": 54.70166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                746.3333333333334,
+                385.6666666666667,
+                802.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                860.3333333333334,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.06333333333333258
+        },
+        {
+          "height": 2622,
+          "path": "frame-00259.png",
+          "time": 54.718333333333334,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                739.3333333333334,
+                385.6666666666667,
+                795.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                853.3333333333334,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0799999999999983
+        },
+        {
+          "height": 2622,
+          "path": "frame-00260.png",
+          "time": 54.735,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                732.6666666666666,
+                385.6666666666667,
+                788.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                846.6666666666666,
+                253.66666666666666,
+                874.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.09666666666666401
+        },
+        {
+          "height": 2622,
+          "path": "frame-00261.png",
+          "time": 54.755,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                726.3333333333334,
+                385.6666666666667,
+                782.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                840.3333333333334,
+                253.66666666666666,
+                870.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.11666666666666714
+        },
+        {
+          "height": 2622,
+          "path": "frame-00262.png",
+          "time": 54.76833333333333,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.3333333333334,
+                385.6666666666667,
+                776.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                834.3333333333334,
+                253.66666666666666,
+                864.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.12999999999999545
+        },
+        {
+          "height": 2622,
+          "path": "frame-00263.png",
+          "time": 54.788333333333334,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                715.3333333333334,
+                385.6666666666667,
+                771.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                829.3333333333334,
+                253.66666666666666,
+                859.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14999999999999858
+        },
+        {
+          "height": 2622,
+          "path": "frame-00264.png",
+          "time": 54.80166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                711.0,
+                385.6666666666667,
+                767.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                825.0,
+                253.66666666666666,
+                855.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.163333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00265.png",
+          "time": 54.83833333333333,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                708.0,
+                385.6666666666667,
+                763.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                822.0,
+                253.66666666666666,
+                851.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.19999999999999574
+        },
+        {
+          "height": 2622,
+          "path": "frame-00266.png",
+          "time": 54.85166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                760.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                848.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.21333333333333115
+        },
+        {
+          "height": 2622,
+          "path": "frame-00267.png",
+          "time": 54.86833333333333,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.3333333333334,
+                385.6666666666667,
+                759.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.3333333333334,
+                253.66666666666666,
+                847.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.22999999999999687
+        },
+        {
+          "height": 2622,
+          "path": "frame-00268.png",
+          "time": 54.885,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2466666666666626
+        },
+        {
+          "height": 2622,
+          "path": "frame-00269.png",
+          "time": 54.901666666666664,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2633333333333283
+        },
+        {
+          "height": 2622,
+          "path": "frame-00270.png",
+          "time": 54.91833333333334,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.28000000000000114
+        },
+        {
+          "height": 2622,
+          "path": "frame-00271.png",
+          "time": 54.93666666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.298333333333332
+        },
+        {
+          "height": 2622,
+          "path": "frame-00272.png",
+          "time": 54.95166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3133333333333326
+        },
+        {
+          "height": 2622,
+          "path": "frame-00273.png",
+          "time": 54.968333333333334,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                816.6666666666666,
+                253.66666666666666,
+                846.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3299999999999983
+        },
+        {
+          "height": 2622,
+          "path": "frame-00274.png",
+          "time": 54.985,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                702.6666666666666,
+                385.6666666666667,
+                758.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.0,
+                253.66666666666666,
+                846.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.346666666666664
+        },
+        {
+          "height": 2622,
+          "path": "frame-00275.png",
+          "time": 55.001666666666665,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.0,
+                385.6666666666667,
+                759.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.0,
+                253.66666666666666,
+                847.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.36333333333332973
+        },
+        {
+          "height": 2622,
+          "path": "frame-00276.png",
+          "time": 55.01833333333333,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.3333333333334,
+                385.6666666666667,
+                759.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.3333333333334,
+                253.66666666666666,
+                847.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.37999999999999545
+        },
+        {
+          "height": 2622,
+          "path": "frame-00277.png",
+          "time": 55.035,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.3333333333334,
+                385.6666666666667,
+                759.0
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.3333333333334,
+                253.66666666666666,
+                847.0
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.39666666666666117
+        },
+        {
+          "height": 2622,
+          "path": "frame-00278.png",
+          "time": 55.05166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.6666666666666,
+                385.6666666666667,
+                759.3333333333334
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.6666666666666,
+                253.66666666666666,
+                847.3333333333334
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.413333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00279.png",
+          "time": 55.068333333333335,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                703.6666666666666,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                817.6666666666666,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4299999999999997
+        },
+        {
+          "height": 2622,
+          "path": "frame-00280.png",
+          "time": 55.085,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.44666666666666544
+        },
+        {
+          "height": 2622,
+          "path": "frame-00281.png",
+          "time": 55.10166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.46333333333333115
+        },
+        {
+          "height": 2622,
+          "path": "frame-00282.png",
+          "time": 55.11833333333333,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4799999999999969
+        },
+        {
+          "height": 2622,
+          "path": "frame-00283.png",
+          "time": 55.135,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.4966666666666626
+        },
+        {
+          "height": 2622,
+          "path": "frame-00284.png",
+          "time": 55.151666666666664,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5133333333333283
+        },
+        {
+          "height": 2622,
+          "path": "frame-00285.png",
+          "time": 55.185,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            },
+            {
+              "boundsPoints": [
+                148.66666666666666,
+                818.0,
+                253.66666666666666,
+                847.6666666666666
+              ],
+              "wide": false
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5466666666666669
+        },
+        {
+          "height": 2622,
+          "path": "frame-00286.png",
+          "time": 55.20166666666667,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5633333333333326
+        },
+        {
+          "height": 2622,
+          "path": "frame-00287.png",
+          "time": 55.218333333333334,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.5799999999999983
+        },
+        {
+          "height": 2622,
+          "path": "frame-00288.png",
+          "time": 55.235,
+          "width": 1206,
+          "stage": 6,
+          "markerRGB": [
+            97.0,
+            51.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.596666666666664
+        }
+      ]
+    },
+    {
+      "elapsed": 7.962089291671873,
+      "name": "secondary-to-legal",
+      "stage": 7,
+      "firstRenderedMovieTime": 55.775,
+      "maximumActiveFrameInterval": 0.033333333333338544,
+      "sampleCount": 13,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00289.png",
+          "time": 55.775,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00290.png",
+          "time": 55.80166666666667,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.6666666666666,
+                385.6666666666667,
+                760.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.026666666666670835
+        },
+        {
+          "height": 2622,
+          "path": "frame-00291.png",
+          "time": 55.818333333333335,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                706.6666666666666,
+                385.6666666666667,
+                762.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.043333333333336554
+        },
+        {
+          "height": 2622,
+          "path": "frame-00292.png",
+          "time": 55.835,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                708.6666666666666,
+                385.6666666666667,
+                764.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.060000000000002274
+        },
+        {
+          "height": 2622,
+          "path": "frame-00293.png",
+          "time": 55.85,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                711.0,
+                385.6666666666667,
+                767.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07500000000000284
+        },
+        {
+          "height": 2622,
+          "path": "frame-00294.png",
+          "time": 55.86833333333333,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                713.3333333333334,
+                385.6666666666667,
+                769.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.09333333333333371
+        },
+        {
+          "height": 2622,
+          "path": "frame-00295.png",
+          "time": 55.885,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                714.6666666666666,
+                385.6666666666667,
+                770.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.10999999999999943
+        },
+        {
+          "height": 2622,
+          "path": "frame-00296.png",
+          "time": 55.91833333333334,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                716.3333333333334,
+                385.6666666666667,
+                772.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14333333333333798
+        },
+        {
+          "height": 2622,
+          "path": "frame-00297.png",
+          "time": 55.935,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                717.6666666666666,
+                385.6666666666667,
+                773.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.1600000000000037
+        },
+        {
+          "height": 2622,
+          "path": "frame-00298.png",
+          "time": 55.95166666666667,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                718.6666666666666,
+                385.6666666666667,
+                774.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.17666666666666941
+        },
+        {
+          "height": 2622,
+          "path": "frame-00299.png",
+          "time": 55.968333333333334,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                719.3333333333334,
+                385.6666666666667,
+                775.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.19333333333333513
+        },
+        {
+          "height": 2622,
+          "path": "frame-00300.png",
+          "time": 55.985,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.21000000000000085
+        },
+        {
+          "height": 2622,
+          "path": "frame-00301.png",
+          "time": 56.00666666666667,
+          "width": 1206,
+          "stage": 7,
+          "markerRGB": [
+            112.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.23166666666666913
+        }
+      ]
+    },
+    {
+      "elapsed": 9.09383300000627,
+      "name": "legal-to-secondary",
+      "stage": 8,
+      "firstRenderedMovieTime": 56.89666666666667,
+      "maximumActiveFrameInterval": 0.021666666666668277,
+      "sampleCount": 19,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00302.png",
+          "time": 56.89666666666667,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00303.png",
+          "time": 56.91833333333334,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                720.0,
+                385.6666666666667,
+                775.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.021666666666668277
+        },
+        {
+          "height": 2622,
+          "path": "frame-00304.png",
+          "time": 56.935,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                718.6666666666666,
+                385.6666666666667,
+                774.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.038333333333333997
+        },
+        {
+          "height": 2622,
+          "path": "frame-00305.png",
+          "time": 56.95,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                717.3333333333334,
+                385.6666666666667,
+                773.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.053333333333334565
+        },
+        {
+          "height": 2622,
+          "path": "frame-00306.png",
+          "time": 56.968333333333334,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                716.0,
+                385.6666666666667,
+                771.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07166666666666544
+        },
+        {
+          "height": 2622,
+          "path": "frame-00307.png",
+          "time": 56.985,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                714.6666666666666,
+                385.6666666666667,
+                770.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.08833333333333115
+        },
+        {
+          "height": 2622,
+          "path": "frame-00308.png",
+          "time": 57.001666666666665,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                713.3333333333334,
+                385.6666666666667,
+                769.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.10499999999999687
+        },
+        {
+          "height": 2622,
+          "path": "frame-00309.png",
+          "time": 57.02333333333333,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                712.0,
+                385.6666666666667,
+                767.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.12666666666666515
+        },
+        {
+          "height": 2622,
+          "path": "frame-00310.png",
+          "time": 57.038333333333334,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                710.6666666666666,
+                385.6666666666667,
+                766.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.14166666666666572
+        },
+        {
+          "height": 2622,
+          "path": "frame-00311.png",
+          "time": 57.055,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                709.3333333333334,
+                385.6666666666667,
+                765.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.15833333333333144
+        },
+        {
+          "height": 2622,
+          "path": "frame-00312.png",
+          "time": 57.07,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                708.3333333333334,
+                385.6666666666667,
+                764.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.173333333333332
+        },
+        {
+          "height": 2622,
+          "path": "frame-00313.png",
+          "time": 57.08833333333333,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                707.3333333333334,
+                385.6666666666667,
+                763.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.19166666666666288
+        },
+        {
+          "height": 2622,
+          "path": "frame-00314.png",
+          "time": 57.105,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                706.6666666666666,
+                385.6666666666667,
+                762.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2083333333333286
+        },
+        {
+          "height": 2622,
+          "path": "frame-00315.png",
+          "time": 57.12,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                706.0,
+                385.6666666666667,
+                761.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.22333333333332916
+        },
+        {
+          "height": 2622,
+          "path": "frame-00316.png",
+          "time": 57.135,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                705.3333333333334,
+                385.6666666666667,
+                761.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.23833333333332973
+        },
+        {
+          "height": 2622,
+          "path": "frame-00317.png",
+          "time": 57.155,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                705.0,
+                385.6666666666667,
+                760.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.25833333333333286
+        },
+        {
+          "height": 2622,
+          "path": "frame-00318.png",
+          "time": 57.16833333333334,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.6666666666666,
+                385.6666666666667,
+                760.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2716666666666683
+        },
+        {
+          "height": 2622,
+          "path": "frame-00319.png",
+          "time": 57.185,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.3333333333334,
+                385.6666666666667,
+                760.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.288333333333334
+        },
+        {
+          "height": 2622,
+          "path": "frame-00320.png",
+          "time": 57.20166666666667,
+          "width": 1206,
+          "stage": 8,
+          "markerRGB": [
+            128.0,
+            50.0,
+            204.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.3049999999999997
+        }
+      ]
+    },
+    {
+      "elapsed": 10.266560416668653,
+      "name": "hide-secondary",
+      "stage": 9,
+      "firstRenderedMovieTime": 58.06666666666667,
+      "maximumActiveFrameInterval": 0.01833333333333087,
+      "sampleCount": 17,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00321.png",
+          "time": 58.06666666666667,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                704.0,
+                385.6666666666667,
+                759.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00322.png",
+          "time": 58.085,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                706.0,
+                385.6666666666667,
+                761.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.01833333333333087
+        },
+        {
+          "height": 2622,
+          "path": "frame-00323.png",
+          "time": 58.10166666666667,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                709.3333333333334,
+                385.6666666666667,
+                765.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.03499999999999659
+        },
+        {
+          "height": 2622,
+          "path": "frame-00324.png",
+          "time": 58.11833333333333,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                713.3333333333334,
+                385.6666666666667,
+                769.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.05166666666666231
+        },
+        {
+          "height": 2622,
+          "path": "frame-00325.png",
+          "time": 58.135,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                718.0,
+                385.6666666666667,
+                773.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.06833333333332803
+        },
+        {
+          "height": 2622,
+          "path": "frame-00326.png",
+          "time": 58.151666666666664,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                722.6666666666666,
+                385.6666666666667,
+                778.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.08499999999999375
+        },
+        {
+          "height": 2622,
+          "path": "frame-00327.png",
+          "time": 58.16833333333334,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                727.3333333333334,
+                385.6666666666667,
+                783.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.10166666666666657
+        },
+        {
+          "height": 2622,
+          "path": "frame-00328.png",
+          "time": 58.185,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                732.6666666666666,
+                385.6666666666667,
+                788.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.11833333333333229
+        },
+        {
+          "height": 2622,
+          "path": "frame-00329.png",
+          "time": 58.20166666666667,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                738.0,
+                385.6666666666667,
+                793.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.134999999999998
+        },
+        {
+          "height": 2622,
+          "path": "frame-00330.png",
+          "time": 58.218333333333334,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                743.3333333333334,
+                385.6666666666667,
+                799.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.15166666666666373
+        },
+        {
+          "height": 2622,
+          "path": "frame-00331.png",
+          "time": 58.235,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                748.6666666666666,
+                385.6666666666667,
+                804.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.16833333333332945
+        },
+        {
+          "height": 2622,
+          "path": "frame-00332.png",
+          "time": 58.251666666666665,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                754.3333333333334,
+                385.6666666666667,
+                810.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.18499999999999517
+        },
+        {
+          "height": 2622,
+          "path": "frame-00333.png",
+          "time": 58.26833333333333,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2016666666666609
+        },
+        {
+          "height": 2622,
+          "path": "frame-00334.png",
+          "time": 58.285,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.2183333333333266
+        },
+        {
+          "height": 2622,
+          "path": "frame-00335.png",
+          "time": 58.30166666666667,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.23499999999999943
+        },
+        {
+          "height": 2622,
+          "path": "frame-00336.png",
+          "time": 58.318333333333335,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.25166666666666515
+        },
+        {
+          "height": 2622,
+          "path": "frame-00337.png",
+          "time": 58.335,
+          "width": 1206,
+          "stage": 9,
+          "markerRGB": [
+            144.0,
+            51.0,
+            203.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.26833333333333087
+        }
+      ]
+    },
+    {
+      "elapsed": 11.424004750006134,
+      "name": "hide-primary",
+      "stage": 10,
+      "firstRenderedMovieTime": 59.19833333333333,
+      "maximumActiveFrameInterval": 0.021666666666668277,
+      "sampleCount": 16,
+      "samples": [
+        {
+          "height": 2622,
+          "path": "frame-00338.png",
+          "time": 59.19833333333333,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.0
+        },
+        {
+          "height": 2622,
+          "path": "frame-00339.png",
+          "time": 59.20166666666667,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                760.0,
+                385.6666666666667,
+                815.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.003333333333337407
+        },
+        {
+          "height": 2622,
+          "path": "frame-00340.png",
+          "time": 59.218333333333334,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                764.0,
+                385.6666666666667,
+                819.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.020000000000003126
+        },
+        {
+          "height": 2622,
+          "path": "frame-00341.png",
+          "time": 59.235,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                770.6666666666666,
+                385.6666666666667,
+                826.3333333333334
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.036666666666668846
+        },
+        {
+          "height": 2622,
+          "path": "frame-00342.png",
+          "time": 59.251666666666665,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                778.6666666666666,
+                385.6666666666667,
+                834.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.053333333333334565
+        },
+        {
+          "height": 2622,
+          "path": "frame-00343.png",
+          "time": 59.26833333333333,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                788.0,
+                385.6666666666667,
+                843.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.07000000000000028
+        },
+        {
+          "height": 2622,
+          "path": "frame-00344.png",
+          "time": 59.285,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                797.6666666666666,
+                385.6666666666667,
+                853.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.086666666666666
+        },
+        {
+          "height": 2622,
+          "path": "frame-00345.png",
+          "time": 59.30166666666667,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                808.0,
+                385.6666666666667,
+                863.6666666666666
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.10333333333333883
+        },
+        {
+          "height": 2622,
+          "path": "frame-00346.png",
+          "time": 59.318333333333335,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                818.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.12000000000000455
+        },
+        {
+          "height": 2622,
+          "path": "frame-00347.png",
+          "time": 59.335,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                828.6666666666666,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.13666666666667027
+        },
+        {
+          "height": 2622,
+          "path": "frame-00348.png",
+          "time": 59.35166666666667,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                840.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.15333333333333599
+        },
+        {
+          "height": 2622,
+          "path": "frame-00349.png",
+          "time": 59.36833333333333,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                16.0,
+                851.0,
+                385.6666666666667,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.1700000000000017
+        },
+        {
+          "height": 2622,
+          "path": "frame-00350.png",
+          "time": 59.385,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [
+            {
+              "boundsPoints": [
+                17.0,
+                862.6666666666666,
+                385.0,
+                874.0
+              ],
+              "wide": true
+            }
+          ],
+          "elapsedFromFirstRenderedStage": 0.18666666666666742
+        },
+        {
+          "height": 2622,
+          "path": "frame-00351.png",
+          "time": 59.401666666666664,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [],
+          "elapsedFromFirstRenderedStage": 0.20333333333333314
+        },
+        {
+          "height": 2622,
+          "path": "frame-00352.png",
+          "time": 59.42333333333333,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [],
+          "elapsedFromFirstRenderedStage": 0.22500000000000142
+        },
+        {
+          "height": 2622,
+          "path": "frame-00353.png",
+          "time": 60.35,
+          "width": 1206,
+          "stage": 10,
+          "markerRGB": [
+            160.0,
+            51.0,
+            205.0
+          ],
+          "yellowComponents": [],
+          "elapsedFromFirstRenderedStage": 1.1516666666666708
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "First rendered stage is quantized to the recorded frame interval",
+    "Compressed color thresholds do not prove per-pixel opacity curves",
+    "Overlapping yellow buttons may form one detected component"
+  ]
+}

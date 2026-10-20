@@ -1,0 +1,64 @@
+{
+  "capture" : "External simctl native movie; no replicated component or animation",
+  "captureID" : "10ACD515-EBEE-4415-AC95-59EC337A3C8D",
+  "complete" : true,
+  "consumerContainer" : {
+    "height" : 724,
+    "scale" : 3,
+    "width" : 402
+  },
+  "device" : "iPhone",
+  "events" : [
+    {
+      "elapsed" : 1.1693046666623559,
+      "name" : "show-primary",
+      "stage" : 1
+    },
+    {
+      "elapsed" : 2.3071568750019651,
+      "name" : "same-shape-primary",
+      "stage" : 2
+    },
+    {
+      "elapsed" : 3.4326401666621678,
+      "name" : "same-shape-primary-return",
+      "stage" : 3
+    },
+    {
+      "elapsed" : 4.6029276249901159,
+      "name" : "different-shape-compact",
+      "stage" : 4
+    },
+    {
+      "elapsed" : 5.7326778749993537,
+      "name" : "different-shape-large",
+      "stage" : 5
+    },
+    {
+      "elapsed" : 6.886674541659886,
+      "name" : "show-secondary",
+      "stage" : 6
+    },
+    {
+      "elapsed" : 8.0001326249912381,
+      "name" : "secondary-to-legal",
+      "stage" : 7
+    },
+    {
+      "elapsed" : 9.170075291665853,
+      "name" : "legal-to-secondary",
+      "stage" : 8
+    },
+    {
+      "elapsed" : 10.336959916661726,
+      "name" : "hide-secondary",
+      "stage" : 9
+    },
+    {
+      "elapsed" : 11.484442541666795,
+      "name" : "hide-primary",
+      "stage" : 10
+    }
+  ],
+  "stageMarker" : "RGB(stage\/16, 0.2, 0.8), first native rendered frame; movie resolution governs time precision"
+}

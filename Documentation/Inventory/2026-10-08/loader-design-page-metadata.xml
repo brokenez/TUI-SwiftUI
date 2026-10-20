@@ -1,0 +1,118 @@
+<canvas id="0:1" name="🧾 Дизайн" x="0" y="0" width="0" height="0">
+  <frame id="6001:9192" name="Поведение" x="-2392" y="639" width="1190" height="1086">
+    <instance id="6001:9193" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="6005:1766" name="List Bulleted" x="128" y="216" width="934" height="73" />
+    <instance id="6044:2321" name="H2 + P" x="128" y="289" width="934" height="120" />
+    <instance id="6080:760" name="List Bulleted" x="128" y="409" width="934" height="173" />
+    <instance id="6234:1243" name="Spacing" x="128" y="582" width="934" height="24" />
+    <instance id="6132:5858" name="Image 1x1" x="128" y="606" width="934" height="352" />
+  </frame>
+  <frame id="6001:19145" name="Кастомизация" x="-802" y="639" width="1190" height="1903">
+    <instance id="6001:19146" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="6120:4919" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="6042:1093" name="Image 1x1" x="128" y="336" width="934" height="352" />
+    <instance id="6132:6149" name="H2 + P" x="128" y="688" width="934" height="120" />
+    <instance id="6132:6150" name="Image 1x1" x="128" y="808" width="934" height="352" />
+    <instance id="6120:4928" name="H2 + P" x="128" y="1160" width="934" height="120" />
+    <instance id="6221:1190" name="Image 1x1" x="128" y="1280" width="934" height="355" />
+    <instance id="6241:1242" name="Note" x="128" y="1635" width="934" height="140" />
+  </frame>
+  <frame id="6082:1102" name="Правила использования" x="-3982" y="639" width="1190" height="1312">
+    <instance id="6082:1103" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="6120:4903" name="H2 + P" x="128" y="216" width="934" height="144" />
+    <instance id="6082:1107" name="Image 1x1" x="128" y="360" width="934" height="352" />
+    <instance id="6115:5558" name="H2 + P" x="128" y="712" width="934" height="120" />
+    <instance id="6107:4429" name="Image 1x1" x="128" y="832" width="934" height="352" />
+  </frame>
+  <frame id="6004:2625" name="Варианты" x="-5572" y="639" width="1190" height="599">
+    <instance id="6004:2626" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <frame id="6005:1750" name="Table Header" x="128" y="216" width="934" height="55">
+      <frame id="6005:1751" name="Heading Column" x="0" y="0" width="240" height="55">
+        <instance id="6005:1752" name="Heading Column" x="0" y="0" width="240" height="55" />
+      </frame>
+      <frame id="6005:1753" name="Column 1" x="256" y="0" width="122.80000305175781" height="55">
+        <text id="6005:1754" name="12x12" x="16" y="16" width="90.80000305175781" height="23" />
+      </frame>
+      <frame id="6005:1755" name="Column 2" x="394.79998779296875" y="0" width="122.80000305175781" height="55">
+        <text id="6005:1756" name="16x16" x="16" y="16" width="90.80000305175781" height="23" />
+      </frame>
+      <frame id="6005:1757" name="Column 3" x="533.5999755859375" y="0" width="122.80001068115234" height="55">
+        <text id="6005:1758" name="24x24" x="0" y="16" width="122.80001068115234" height="23" />
+      </frame>
+      <frame id="6005:1764" name="Column 5" x="672.4000244140625" y="0" width="122.80000305175781" height="55">
+        <text id="6005:1765" name="32x32" x="0" y="16" width="122.80000305175781" height="23" />
+      </frame>
+      <frame id="6005:1759" name="Column 4" x="811.2000122070312" y="0" width="122.80000305175781" height="55">
+        <text id="6005:1760" name="40x40" x="0" y="16" width="122.80000305175781" height="23" />
+      </frame>
+      <rounded-rectangle id="6005:1761" name="Divider" x="0" y="54" width="934" height="1" />
+      <text id="6005:1762" name="__VPN__" x="0" y="55" width="934" height="24" hidden="true" />
+    </frame>
+    <frame id="6004:3339" name="Table Row" x="128" y="271" width="934" height="200">
+      <frame id="6005:1707" name="Table Row Content" x="0" y="0" width="934" height="100">
+        <instance id="6005:1708" name="Heading Row" x="0" y="0" width="240" height="88" />
+        <frame id="6005:1709" name="Columns" x="272" y="0" width="662" height="76">
+          <frame id="6005:1710" name="Row 1" x="0" y="0" width="662" height="76">
+            <frame id="6005:1711" name="Row 1 / Cell 1" x="0" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1712" name="tui-loader" x="0" y="32" width="12" height="12" />
+            </frame>
+            <frame id="6005:1713" name="Row 1 / Cell 5" x="132.39999389648438" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1714" name="tui-loader" x="0" y="32" width="16" height="16" />
+            </frame>
+            <frame id="6005:1715" name="Row 1 / Cell 2" x="264.79998779296875" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1716" name="tui-loader" x="0" y="32" width="24" height="24" />
+            </frame>
+            <frame id="6005:1717" name="Row 1 / Cell 3" x="397.1999816894531" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1718" name="tui-loader" x="0" y="32" width="32" height="32" />
+            </frame>
+            <frame id="6005:1719" name="Row 1 / Cell 4" x="529.5999755859375" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1720" name="tui-loader" x="0" y="32" width="40" height="40" />
+            </frame>
+          </frame>
+        </frame>
+        <rounded-rectangle id="6005:1721" name="Divider" x="0" y="99" width="934" height="1" />
+      </frame>
+      <frame id="6004:3340" name="Table Row Content" x="0" y="100" width="934" height="100">
+        <instance id="6004:3341" name="Heading Row" x="0" y="0" width="240" height="88" />
+        <frame id="6004:3362" name="Columns" x="272" y="0" width="662" height="76">
+          <frame id="6004:3363" name="Row 1" x="0" y="0" width="662" height="76">
+            <frame id="6005:1684" name="Row 1 / Cell 1" x="0" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1685" name="tui-loader" x="0" y="32" width="12" height="12" />
+            </frame>
+            <frame id="6005:1696" name="Row 1 / Cell 5" x="132.39999389648438" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1697" name="tui-loader" x="0" y="32" width="16" height="16" />
+            </frame>
+            <frame id="6005:1687" name="Row 1 / Cell 2" x="264.79998779296875" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1688" name="tui-loader" x="0" y="32" width="24" height="24" />
+            </frame>
+            <frame id="6005:1693" name="Row 1 / Cell 3" x="397.1999816894531" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1694" name="tui-loader" x="0" y="32" width="32" height="32" />
+            </frame>
+            <frame id="6005:1690" name="Row 1 / Cell 4" x="529.5999755859375" y="0" width="132.39999389648438" height="76">
+              <instance id="6005:1691" name="tui-loader" x="0" y="32" width="40" height="40" />
+            </frame>
+          </frame>
+        </frame>
+        <rounded-rectangle id="6004:3343" name="Divider" x="0" y="99" width="934" height="1" hidden="true" />
+      </frame>
+      <frame id="6004:3344" name="Table Row Bottom Indent" x="0" y="88" width="934" height="32" hidden="true" />
+    </frame>
+  </frame>
+  <frame id="6001:1183" name="Доступность" x="788" y="639" width="1190" height="791">
+    <instance id="6001:1184" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="6001:1185" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="6001:1186" name="H2 + P" x="128" y="336" width="934" height="144" />
+    <instance id="6001:1187" name="Table Header" x="128" y="480" width="934" height="55" />
+    <instance id="6001:1188" name="Table Row" x="128" y="535" width="934" height="128" />
+  </frame>
+  <instance id="6190:1342" name="page-title" x="-5572" y="-505" width="1250" height="344" />
+  <frame id="6246:1351" name="Изменения" x="2378" y="652" width="976" height="836">
+    <instance id="6246:1352" name="H1 + P" x="128" y="128" width="720" height="88" />
+    <frame id="6246:1353" name="Items" x="128" y="216" width="720" height="492">
+      <instance id="6246:1354" name="changelog" x="0" y="0" width="720" height="122" />
+      <instance id="7237:556" name="changelog" x="0" y="134" width="720" height="224" />
+      <instance id="6246:1409" name="changelog" x="0" y="370" width="720" height="122" />
+    </frame>
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

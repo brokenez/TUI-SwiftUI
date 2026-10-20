@@ -1,0 +1,322 @@
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/112ff66f-be2b-4021-9255-fa3f02e90614.svg";
+const imgTuiAvatar = "https://www.figma.com/api/mcp/asset/d952214e-1704-4a35-bd86-20573d80f65d.svg";
+
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="4790:1158" data-name="placeholder-single" />;
+}
+
+type TuiSkeletonProps = {
+  className?: string;
+  keyframe?: "1";
+};
+
+function TuiSkeleton({ className, keyframe = "1" }: TuiSkeletonProps) {
+  return <div className={className || "bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] overflow-clip relative rounded-[4px] size-[40px]"} data-node-id="37840:45834" />;
+}
+
+type TuiSkeletonTextProps = {
+  className?: string;
+  system?: "iOS" | "Android";
+  textStyle?: "heading-l" | "body-m" | "body-l";
+};
+
+function TuiSkeletonText({ className, system = "iOS", textStyle = "heading-l" }: TuiSkeletonTextProps) {
+  const isBodyMAndAndroid = textStyle === "body-m" && system === "Android";
+  const isBodyMAndIOs = textStyle === "body-m" && system === "iOS";
+  const isHeadingLAndAndroid = textStyle === "heading-l" && system === "Android";
+  return (
+    <div className={className || `content-stretch flex items-center relative w-[92px] ${system === "Android" && ["body-l", "body-m"].includes(textStyle) ? "py-[2.5px]" : system === "iOS" && ["body-l", "body-m"].includes(textStyle) ? "py-[3px]" : isHeadingLAndAndroid ? "py-[5.5px]" : "py-[6px]"}`} id={isBodyMAndAndroid ? "node-37840_45863" : isBodyMAndIOs ? "node-37840_45861" : textStyle === "body-l" && system === "Android" ? "node-37840_45859" : textStyle === "body-l" && system === "iOS" ? "node-37840_45857" : isHeadingLAndAndroid ? "node-37840_45847" : "node-37840_45837"}>
+      <TuiSkeleton className={`bg-[var(--tui-service-skeleton,rgba(0,0,0,0.03))] flex-[1_0_0] min-w-px relative rounded-[4px] ${isBodyMAndAndroid ? "h-[11px]" : isBodyMAndIOs ? "h-[12px]" : textStyle === "body-l" ? "h-[14px]" : isHeadingLAndAndroid ? "h-[22px]" : "h-[24px]"}`} />
+    </div>
+  );
+}
+
+type TuiHeaderLargeProps = {
+  className?: string;
+  descrption?: string;
+  extended?: boolean;
+  showDescription?: boolean;
+  showIcon?: boolean;
+  showSubheader?: boolean;
+  skeleton?: boolean;
+  subheader?: string;
+  system?: "iOS" | "Android";
+  textAlign?: "start" | "center";
+  title?: string;
+};
+
+export default function TuiHeaderLarge({ className, descrption = "Description", extended = false, showDescription = false, showIcon = false, showSubheader = true, skeleton = false, subheader = "Subheader", system = "iOS", textAlign = "start", title = "Header" }: TuiHeaderLargeProps) {
+  const isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot = system === "Android" && !showDescription && textAlign === "center" && !skeleton && !extended;
+  const isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended = system === "Android" && !showDescription && textAlign === "center" && skeleton && !extended;
+  const isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended = system === "Android" && !showDescription && textAlign === "start" && !skeleton && extended;
+  const isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot = system === "Android" && !showDescription && textAlign === "start" && !skeleton && !extended;
+  const isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended = system === "Android" && !showDescription && textAlign === "start" && skeleton && !extended;
+  const isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended = system === "Android" && showDescription && textAlign === "center" && !skeleton && !extended;
+  const isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended = system === "Android" && showDescription && textAlign === "center" && skeleton && !extended;
+  const isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended = system === "Android" && showDescription && textAlign === "start" && !skeleton && extended;
+  const isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended = system === "Android" && showDescription && textAlign === "start" && !skeleton && !extended;
+  const isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended = system === "Android" && showDescription && textAlign === "start" && skeleton && !extended;
+  const isAndroidAndSkeletonAndNotExtended = system === "Android" && skeleton && !extended;
+  const isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended = system === "iOS" && !showDescription && textAlign === "center" && !skeleton && !extended;
+  const isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended = system === "iOS" && !showDescription && textAlign === "center" && skeleton && !extended;
+  const isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended = system === "iOS" && !showDescription && textAlign === "start" && !skeleton && extended;
+  const isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended = system === "iOS" && !showDescription && textAlign === "start" && !skeleton && !extended;
+  const isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended = system === "iOS" && !showDescription && textAlign === "start" && skeleton && !extended;
+  const isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended = system === "iOS" && showDescription && textAlign === "center" && !skeleton && !extended;
+  const isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended = system === "iOS" && showDescription && textAlign === "center" && skeleton && !extended;
+  const isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended = system === "iOS" && showDescription && textAlign === "start" && !skeleton && extended;
+  const isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended = system === "iOS" && showDescription && textAlign === "start" && skeleton && !extended;
+  const isNotShowDescriptionAndIsNotExtendedOrStartAndNotSkeletonAnd = !showDescription && (!extended || (textAlign === "start" && !skeleton && extended));
+  const isShowDescriptionAndStartAndNotSkeletonAndExtended = showDescription && textAlign === "start" && !skeleton && extended;
+  const isStartAndNotSkeletonAndExtendedAndIsAndroidAndShowDescriptionOr = textAlign === "start" && !skeleton && extended && ((system === "Android" && showDescription) || !showDescription);
+  return (
+    <div className={className || `content-stretch flex flex-col items-start pb-[24px] pt-[8px] px-[var(--screen-padding,16px)] relative w-[375px] ${isNotShowDescriptionAndIsNotExtendedOrStartAndNotSkeletonAnd ? "" : "gap-[16px]"}`} id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44906" : isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_52010" : isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot ? "node-547_151744" : isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_52000" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44952" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot ? "node-42587_299914" : isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51990" : isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151734" : isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51980" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44942" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42565_305051" : isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51970" : isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151724" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51960" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44907" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42587_299904" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51950" : isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151714" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51940" : "node-42565_305013"}>
+      <div className={`content-stretch flex items-start relative shrink-0 w-full ${isNotShowDescriptionAndIsNotExtendedOrStartAndNotSkeletonAnd ? "" : "gap-[16px]"}`} id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_42725" : isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_52011" : isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot ? "node-547_151745" : isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_52001" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44953" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot ? "node-42587_299915" : isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51991" : isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151735" : isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51981" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44943" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42565_305052" : isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51971" : isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151725" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51961" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44908" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42587_299905" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51951" : isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151715" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51941" : "node-42565_305014"} data-name="HeaderCont">
+        <div className={`content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px overflow-clip relative self-stretch ${isNotShowDescriptionAndIsNotExtendedOrStartAndNotSkeletonAnd ? "gap-[16px]" : ""}`} id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_42726" : isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_52012" : isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot ? "node-547_151746" : isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_52002" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44954" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot ? "node-42587_299916" : isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51992" : isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151736" : isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51982" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44944" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42565_305053" : isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51972" : isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151726" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51962" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44909" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42587_299906" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51952" : isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151716" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51942" : "node-42565_305015"} data-name="Header+Subheader">
+          <div className={`content-stretch flex relative shrink-0 w-full ${isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "gap-[10px] items-center" : system === "Android" && textAlign === "center" && skeleton && !extended ? "h-[33px] items-center justify-center" : system === "Android" && textAlign === "start" && skeleton && !extended ? "h-[33px] items-center" : isStartAndNotSkeletonAndExtendedAndIsAndroidAndShowDescriptionOr ? "gap-[10px] items-start" : system === "iOS" && textAlign === "center" && skeleton && !extended ? "h-[36px] items-center justify-center" : system === "iOS" && textAlign === "start" && skeleton && !extended ? "h-[36px] items-center" : "items-start"}`} id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_42727" : isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_52013" : isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot ? "node-547_151747" : isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_52003" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44955" : isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot ? "node-42587_299917" : isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51993" : isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151737" : isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51983" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44945" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42565_305054" : isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51973" : isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151727" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51963" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44910" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42587_299907" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51953" : isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151717" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51943" : "node-42565_305016"} data-name="HeaderTextCont">
+            {skeleton && !extended && <TuiSkeletonText className={`content-stretch flex items-center relative shrink-0 w-[130px] ${isAndroidAndSkeletonAndNotExtended ? "py-[5.5px]" : "py-[6px]"}`} system={isAndroidAndSkeletonAndNotExtended ? "Android" : undefined} />}
+            {isStartAndNotSkeletonAndExtendedAndIsAndroidAndShowDescriptionOr && (
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" id={isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44982" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44980" : "node-18083_44934"} data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            )}
+            {system === "Android" && textAlign === "start" && !skeleton && (
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Bold'] font-bold leading-[normal] min-w-px relative text-[28px] text-[color:var(--tui-text-primary,#333)]" data-node-id="42587:299908" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {title}
+              </p>
+            )}
+            {system === "iOS" && textAlign === "start" && !skeleton && (!extended || (!showDescription && extended)) && (
+              <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[30px] text-[color:var(--tui-text-primary,#333)] tracking-[0.36px]" data-node-id="42565:305017">
+                {title}
+              </p>
+            )}
+            {isStartAndNotSkeletonAndExtendedAndIsAndroidAndShowDescriptionOr && (
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" id={isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44984" : isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44978" : "node-18083_44938"} data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            )}
+            {system === "iOS" && textAlign === "center" && !skeleton && !extended && (
+              <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[30px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[0.36px]" data-node-id="547:151718">
+                {title}
+              </p>
+            )}
+            {system === "Android" && textAlign === "center" && !skeleton && !extended && (
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Bold'] font-bold leading-[normal] min-w-px relative text-[28px] text-[color:var(--tui-text-primary,#333)] text-center" data-node-id="547:151728" style={{ fontVariationSettings: '"wdth" 100' }}>
+                {title}
+              </p>
+            )}
+            {isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended && (
+              <>
+                <div className="flex flex-row items-center self-stretch" data-node-id="18083:44927">
+                  <div className="content-stretch flex h-full items-center relative shrink-0" data-name="PlaceholderCont">
+                    <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[30px] text-[color:var(--tui-text-primary,#333)] tracking-[0.36px]" data-node-id="18083:42728">
+                  Header
+                </p>
+                <div className="flex flex-row items-center self-stretch" data-node-id="18083:44928">
+                  <div className="content-stretch flex h-full items-center relative shrink-0" data-name="PlaceholderCont">
+                    <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
+          {isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="42565:305056" data-name="SubheaderTextCont">
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.24px]" data-node-id="42565:305057">
+                  {subheader}
+                </p>
+              )}
+            </div>
+          )}
+          {isIOsAndNotShowDescriptionAndStartAndNotSkeletonAndExtended && showSubheader && (
+            <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="18083:44947" data-name="SubheaderTextCont">
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" data-node-id="18083:44976" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.24px]" data-node-id="18083:44948">
+                  {subheader}
+                </p>
+              )}
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" data-node-id="18083:44974" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            </div>
+          )}
+          {isIOsAndNotShowDescriptionAndStartAndSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex h-[18px] items-center relative shrink-0 w-full" data-node-id="17714:51985" data-name="SubheaderTextCont">
+              <TuiSkeletonText className="content-stretch flex items-center py-[3px] relative shrink-0 w-[130px]" textStyle="body-m" />
+            </div>
+          )}
+          {isIOsAndNotShowDescriptionAndCenterAndNotSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="547:151739" data-name="SubheaderTextCont">
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] text-center tracking-[-0.24px]" data-node-id="547:151740">
+                  {subheader}
+                </p>
+              )}
+            </div>
+          )}
+          {isIOsAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex h-[18px] items-center justify-center relative shrink-0 w-full" data-node-id="17714:51995" data-name="SubheaderTextCont">
+              <TuiSkeletonText className="content-stretch flex items-center py-[3px] relative shrink-0 w-[185px]" textStyle="body-m" />
+            </div>
+          )}
+          {isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndNot && showSubheader && (
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="42587:299919" data-name="SubheaderTextCont">
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-secondary,#9299a2)]" data-node-id="42587:299920" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {subheader}
+                </p>
+              )}
+            </div>
+          )}
+          {isAndroidAndNotShowDescriptionAndStartAndNotSkeletonAndExtended && showSubheader && (
+            <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="18083:44957" data-name="SubheaderTextCont">
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" data-node-id="18083:44988" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-secondary,#9299a2)]" data-node-id="18083:44958" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {subheader}
+                </p>
+              )}
+              <div className="content-stretch flex items-center relative self-stretch shrink-0" data-node-id="18083:44986" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            </div>
+          )}
+          {isAndroidAndNotShowDescriptionAndStartAndSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex h-[16px] items-center relative shrink-0 w-full" data-node-id="17714:52005" data-name="SubheaderTextCont">
+              <TuiSkeletonText className="content-stretch flex items-center py-[2.5px] relative shrink-0 w-[130px]" system="Android" textStyle="body-m" />
+            </div>
+          )}
+          {isAndroidAndNotShowDescriptionAndCenterAndNotSkeletonAndNot && showSubheader && (
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="547:151749" data-name="SubheaderTextCont">
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[14px] text-[color:var(--tui-text-secondary,#9299a2)] text-center" data-node-id="547:151750" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  {subheader}
+                </p>
+              )}
+            </div>
+          )}
+          {isAndroidAndNotShowDescriptionAndCenterAndSkeletonAndNotExtended && showSubheader && (
+            <div className="content-stretch flex h-[16px] items-center justify-center relative shrink-0 w-full" data-node-id="17714:52015" data-name="SubheaderTextCont">
+              <TuiSkeletonText className="content-stretch flex items-center py-[2.5px] relative shrink-0 w-[185px]" system="Android" textStyle="body-m" />
+            </div>
+          )}
+        </div>
+        {system === "Android" && (!extended || (textAlign === "start" && !skeleton && extended)) && showIcon && (
+          <div className="content-stretch flex h-[36px] items-center relative shrink-0" data-node-id="42587:299909" data-name="Accessory">
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="42587:299910" data-name="IconCont">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0 size-[36px]" data-node-id="42587:299911" data-name="tui-avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative rounded-[1000px]" data-node-id="I42587:299911;25745:690432" data-name="Container">
+                  <div className="absolute inset-[20%]" data-node-id="I42587:299911;25745:690434" data-name="tui-ic-medium / star">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiAvatar} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {system === "iOS" && (!extended || (!showDescription && textAlign === "start" && !skeleton && extended)) && showIcon && (
+          <div className="content-stretch flex h-[36px] items-center relative shrink-0" data-node-id="42579:291127" data-name="Accessory">
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="42579:291128" data-name="IconCont">
+              <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0 size-[36px]" data-node-id="42579:291129" data-name="tui-avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative rounded-[1000px]" data-node-id="I42579:291129;25745:690432" data-name="Container">
+                  <div className="absolute inset-[20%]" data-node-id="I42579:291129;25745:690434" data-name="tui-ic-medium / star">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+      {showDescription && (!extended || (textAlign === "start" && !skeleton && extended)) && (
+        <div className={`content-stretch flex items-center relative shrink-0 w-full ${isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "h-[19px] justify-center" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "h-[19px]" : isShowDescriptionAndStartAndNotSkeletonAndExtended ? "gap-[10px]" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "h-[20px] justify-center" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "h-[20px]" : ""}`} id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_42732" : isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51978" : isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151732" : isAndroidAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51968" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44915" : isAndroidAndShowDescriptionAndStartAndNotSkeletonAndNotExtended ? "node-42587_299912" : isIOsAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "node-17714_51958" : isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended ? "node-547_151722" : isIOsAndShowDescriptionAndStartAndSkeletonAndNotExtended ? "node-17714_51948" : "node-42565_305018"} data-name="Description">
+          {showDescription && skeleton && !extended && <TuiSkeletonText className={`content-stretch flex items-center relative shrink-0 w-[185px] ${isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "py-[2.5px]" : "py-[3px]"}`} system={isAndroidAndShowDescriptionAndCenterAndSkeletonAndNotExtended ? "Android" : undefined} textStyle={showDescription && textAlign === "center" && skeleton && !extended ? "body-l" : "body-m"} />}
+          {isShowDescriptionAndStartAndNotSkeletonAndExtended && (
+            <div className="flex flex-row items-center self-stretch" id={isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended ? "node-18083_44932" : "node-18083_44936"}>
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            </div>
+          )}
+          {system === "Android" && showDescription && textAlign === "start" && !skeleton && (
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[16px] text-[color:var(--tui-text-primary,#333)]" data-node-id="42587:299913" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {descrption}
+            </p>
+          )}
+          {system === "iOS" && showDescription && textAlign === "start" && !skeleton && !extended && (
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px]" data-node-id="42565:305019">
+              {descrption}
+            </p>
+          )}
+          {isIOsAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended && (
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[17px] text-[color:var(--tui-text-primary,#333)] text-center tracking-[-0.41px]" data-node-id="547:151723">
+              {descrption}
+            </p>
+          )}
+          {isAndroidAndShowDescriptionAndStartAndNotSkeletonAndExtended && (
+            <div className="flex flex-row items-center self-stretch" data-node-id="18083:44940">
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-name="PlaceholderCont">
+                <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+              </div>
+            </div>
+          )}
+          {isAndroidAndShowDescriptionAndCenterAndNotSkeletonAndNotExtended && (
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Roboto:Regular'] font-normal leading-[normal] min-w-px relative text-[16px] text-[color:var(--tui-text-primary,#333)] text-center" data-node-id="547:151733" style={{ fontVariationSettings: '"wdth" 100' }}>
+              {descrption}
+            </p>
+          )}
+          {isIOsAndShowDescriptionAndStartAndNotSkeletonAndExtended && (
+            <>
+              <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[17px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.41px]" data-node-id="18083:42733">
+                Description
+              </p>
+              <div className="flex flex-row items-center self-stretch" data-node-id="18083:44930">
+                <div className="content-stretch flex h-full items-center relative shrink-0" data-name="PlaceholderCont">
+                  <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+                </div>
+              </div>
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Android/Heading L: Font(family: "Roboto", style: Bold, size: 28, weight: 700, lineHeight: 100, letterSpacing: 0), Android/Body L: Font(family: "Roboto", style: Regular, size: 16, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Android/Body M: Font(family: "Roboto", style: Regular, size: 14, weight: 400, lineHeight: 100, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-header [large]
+**Node ID:** 42565:305012
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## placeholder-single
+**Node ID:** 4790:1158
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

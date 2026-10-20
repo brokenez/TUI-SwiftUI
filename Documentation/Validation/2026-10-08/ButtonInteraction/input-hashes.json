@@ -1,0 +1,20 @@
+{
+  "Sources/TUIDesignSystem/Components/Button/TUIButton.swift": "8d9e0f0529424bebb8a58878ca30fea01abc90d80e6ecd60a1fe968262993dfc",
+  "Sources/TUIDesignSystem/Components/Header/TUIHeaderLarge.swift": "20758a7be605f41296d479bd90f5b98f7805fd5c2ea7c8da453e477c92e76bc7",
+  "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift": "b2c4138d1325afbc6c658d59457aed3450d00db0a781f7eedb129ae3ca3a2e3b",
+  "Sources/TUIDesignSystem/Foundation/TUITokenCatalog.swift": "34b8980e8499e8de7d10b7869f52f278f436c3247b8055dbefc810112aad8f97",
+  "Sources/TUIDesignSystem/Foundation/TUITypography.swift": "32a865a6e6f61aa41f1008dfdb8180fc97c37fe2befc63b5446bdeca16e0a7d7",
+  "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift": "28d38f57c34755caa0b5f3333f5ce94f6f060fc22a8b0e5f5962e080418c4fd4",
+  "Sources/TUIDesignSystem/Resources/Metadata/figma-button-styles.json": "57cdda0088f7ab6c1df28edbefe38e868cda07ec6fdce285c66ea2957fa2bb63",
+  "Sources/TUIDesignSystem/Resources/Metadata/figma-button-variable-bindings.json": "1f110f8cccecec052c7069fcb26ca7eb7d6fe5babf573f123dd0096880b299cb",
+  "Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json": "bc3140e4761494f35fdbc7f00174c8b55e05e55a4d2547878c73052b6c52b11a",
+  "Tests/TUIDesignSystemTests/ButtonColorTests.swift": "c7d9b56afcf1504a5ab76e32e18fd924ff6759b51a67c042f50bf70ffdc24a0c",
+  "Tests/TUIDesignSystemTests/ButtonTests.swift": "edf16a1db64216767b28453d2169c0c5aefdf9b3a3ac3252a14512a97c31bee4",
+  "Tests/TUIDesignSystemTests/FoundationTokenTests.swift": "aa6d8108c444b00cb957a3dc943ffd01001cd8e37d4bef53296dc2fb2af02d69",
+  "CatalogApp/ButtonInteractionProbe.swift": "a5f44bf425219bdcf097ac237aed690a2f0ebbcc5b40cd5962899ef50768ca5e",
+  "CatalogApp/TUIDesignSystemCatalogApp.swift": "ac2b55fc7be363cdce2b2f6f3f143189c89bfc85e6a631e5b392b0117d91a2e5",
+  "CatalogUITests/ButtonInteractionUITests.swift": "dae2917e826c9f1ca8a6ab4073de6d6ba7d9274d9e136a9a393eb6b1a7f3ee46",
+  "Documentation/References/Button/additional-features-review-2026-10-08.md": "944f64399ffc39f39e413ef25c7f846f101011a861e0970e8e8a2ac8106e7da3",
+  "Documentation/References/Button/interaction-accessibility-review-2026-10-08.md": "6c7ed9d1f8a4746000ae5c9743bc331fc304ec00a3cd8b120c706082b015c258",
+  "Documentation/References/Button/construction-accessibility-review-2026-10-08.md": "0c4e00d21f93e58d6de81b316f225eaf7ccd583cc3db57ce7d13514aa72b11ed"
+}

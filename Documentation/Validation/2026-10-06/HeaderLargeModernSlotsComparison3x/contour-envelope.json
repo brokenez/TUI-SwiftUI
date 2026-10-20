@@ -1,0 +1,125 @@
+{
+  "method": "No shifts or color changes. Bidirectional 1 native-pixel envelope at 3x, foreground threshold any channel <245. Title ink bounds use all RGB channels <80 in top 44 pt. Diagnostic only; not an automatic completion gate.",
+  "variants": [
+    {
+      "variantId": "17714:51940",
+      "sourceTitleInkBounds3x": null,
+      "nativeTitleInkBounds3x": null,
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "17714:51950",
+      "sourceTitleInkBounds3x": null,
+      "nativeTitleInkBounds3x": null,
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "17714:51980",
+      "sourceTitleInkBounds3x": null,
+      "nativeTitleInkBounds3x": null,
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "17714:51990",
+      "sourceTitleInkBounds3x": null,
+      "nativeTitleInkBounds3x": null,
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "18083:44906",
+      "sourceTitleInkBounds3x": [
+        132,
+        48,
+        430,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        132,
+        48,
+        429,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "18083:44942",
+      "sourceTitleInkBounds3x": [
+        132,
+        48,
+        430,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        132,
+        48,
+        429,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "42565:305013",
+      "sourceTitleInkBounds3x": [
+        54,
+        48,
+        352,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        54,
+        48,
+        351,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "42565:305051",
+      "sourceTitleInkBounds3x": [
+        54,
+        48,
+        352,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        54,
+        48,
+        351,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 0
+    },
+    {
+      "variantId": "547:151714",
+      "sourceTitleInkBounds3x": [
+        415,
+        48,
+        713,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        415,
+        48,
+        713,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 1
+    },
+    {
+      "variantId": "547:151734",
+      "sourceTitleInkBounds3x": [
+        415,
+        48,
+        713,
+        111
+      ],
+      "nativeTitleInkBounds3x": [
+        415,
+        48,
+        713,
+        111
+      ],
+      "foregroundPixelsOutsideOnePixelEnvelope": 1
+    }
+  ]
+}

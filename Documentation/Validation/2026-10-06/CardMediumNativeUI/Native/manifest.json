@@ -1,0 +1,50 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "5E2BAD63-9C49-44FC-9601-6B3034B523CE.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-native-button-and-disabled-state_0_37AE25FE-8FFF-43D3-8635-DA7FE239E4AB.txt",
+        "timestamp" : 1791301909.345
+      }
+    ],
+    "testIdentifier" : "CardMediumUITests/testActualCardReceivesActionsSelectionAndDisabledState()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/CardMediumUITests/testActualCardReceivesActionsSelectionAndDisabledState"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F06BA8F2-5551-4B76-A743-8FD77C2828CD.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-native-textBottomSkeleton_0_A0612021-4D61-4E6A-851E-D1D64D2C5ED0.png",
+        "timestamp" : 1791301937.35
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "9ADBE9D1-31D1-4793-A538-99AB0A4CFD4A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-native-avatarTopFill_0_2ED3EC8A-0E09-4503-B240-B857613EFA3C.png",
+        "timestamp" : 1791301930.175
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "3198427B-D6F1-422A-B563-7ADA1DA3AF03.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "card-medium-native-badgeBottomImage_0_47F1594C-2CD1-4ED0-BCA9-28DAFC966E59.png",
+        "timestamp" : 1791301924.615
+      }
+    ],
+    "testIdentifier" : "CardMediumUITests/testVariantPickerDisplaysLegacyBadgeAvatarAndSkeleton()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/CardMediumUITests/testVariantPickerDisplaysLegacyBadgeAvatarAndSkeleton"
+  }
+]

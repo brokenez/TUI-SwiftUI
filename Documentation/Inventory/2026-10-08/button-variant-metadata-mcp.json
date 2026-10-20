@@ -1,0 +1,15 @@
+{
+  "nodeId": "21516:56078",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"21516:56078\" name=\"system=ios, size=large, appearance=flat-destructive, state=normal, skeleton=off\" x=\"26\" y=\"2627\" width=\"323\" height=\"56\">\n  <frame id=\"21516:56079\" name=\"Left iconCont\" x=\"120.5\" y=\"16\" width=\"24\" height=\"24\" hidden=\"true\">\n    <instance id=\"21516:56080\" name=\"tui-ic-medium / star\" x=\"0\" y=\"0\" width=\"24\" height=\"24\" hidden=\"true\" />\n  </frame>\n  <frame id=\"21516:56081\" name=\"LabelCont\" x=\"132.5\" y=\"16\" width=\"58\" height=\"24\">\n    <text id=\"21516:56082\" name=\"Button Label\" x=\"8\" y=\"2\" width=\"42\" height=\"20\" />\n  </frame>\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ]
+  }
+}

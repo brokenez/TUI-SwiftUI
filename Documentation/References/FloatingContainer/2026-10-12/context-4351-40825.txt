@@ -1,0 +1,20 @@
+<frame id="4351:40825" name="Правила использования" x="10517" y="1160" width="1190" height="4039">
+  <instance id="4351:40826" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="4351:40827" name="H2 + P" x="128" y="216" width="934" height="120" />
+  <instance id="4351:40828" name="H3 + P" x="128" y="336" width="934" height="72" />
+  <instance id="4351:40829" name="List Bulleted" x="128" y="408" width="934" height="73" />
+  <instance id="4351:40830" name="H3 + P" x="128" y="481" width="934" height="72" />
+  <instance id="4351:40831" name="List Bulleted" x="128" y="553" width="934" height="73" />
+  <instance id="4351:40832" name="Rules 2x1" x="128" y="626" width="934" height="962" />
+  <instance id="4351:40833" name="H2 + P" x="128" y="1588" width="934" height="120" />
+  <instance id="4351:40834" name="List Bulleted" x="128" y="1708" width="934" height="129" />
+  <instance id="4351:40835" name="Rules 2x1" x="128" y="1837" width="934" height="392" />
+  <instance id="4351:40836" name="H2 + P" x="128" y="2229" width="934" height="144" />
+  <instance id="4351:40837" name="Rules 2x1" x="128" y="2373" width="934" height="392" />
+  <instance id="4351:40838" name="Spacing" x="128" y="2765" width="934" height="32" />
+  <instance id="4351:40839" name="Paragraph" x="128" y="2797" width="934" height="40" />
+  <instance id="4351:40840" name="Rules 2x1" x="128" y="2837" width="934" height="392" />
+  <instance id="6781:4924" name="H2 + P" x="128" y="3229" width="934" height="120" />
+  <instance id="6781:6448" name="Image 1x1" x="128" y="3349" width="934" height="562" />
+</frame>
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

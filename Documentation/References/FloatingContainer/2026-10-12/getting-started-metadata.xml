@@ -1,0 +1,24 @@
+<canvas id="373:3430" name="📖 Getting Started" x="0" y="0" width="0" height="0">
+  <frame id="381:7353" name="Getting Started" x="781" y="55" width="480" height="478">
+    <frame id="381:7354" name="thumbnail" x="0" y="0" width="480" height="290">
+      <frame id="386:1534" name="Frame 5" x="133" y="0" width="215" height="212">
+        <frame id="381:7355" name="tui-onboarding-flow" x="-0.1077880859375" y="-253" width="214.74754333496094" height="464.9999694824219">
+          <instance id="381:7356" name="tui-floating-container" x="-0.00000425864936914877" y="385.13720703125" width="214.88638305664062" height="80.28324890136719" />
+        </frame>
+      </frame>
+      <frame id="381:7357" name="Tags" x="16" y="21" width="65" height="28">
+        <instance id="381:7358" name="[deprecated] tui-tag" x="0" y="0" width="65" height="28" />
+        <frame id="381:7359" name="Tag" x="67.0671615600586" y="0.000019073473595199175" width="49.81340408325195" height="33.67277145385742" hidden="true">
+          <text id="381:7360" name="Text" x="8.905158996582031" y="5.5657453536987305" width="35" height="23" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="381:7361" name="Frame 4" x="0" y="290" width="480" height="188">
+      <frame id="381:7362" name="List of Pages" x="48" y="48" width="384" height="92">
+        <text id="381:7363" name="📖 Getting Started -&gt;" x="0" y="0" width="177" height="22" />
+        <text id="381:7364" name="🧾 Дизайн -&gt;" x="0" y="30" width="110" height="22" />
+      </frame>
+    </frame>
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

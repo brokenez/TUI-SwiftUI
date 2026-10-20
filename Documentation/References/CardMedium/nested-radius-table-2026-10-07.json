@@ -1,0 +1,83 @@
+{
+  "source": {
+    "fileKey": "J47iKq86xSm5piVUwsUwYX",
+    "pageID": "1:186855",
+    "nodeID": "14:40913",
+    "url": "https://www.figma.com/design/J47iKq86xSm5piVUwsUwYX/tui-card-large?node-id=14-40913",
+    "observedAt": "2026-10-07",
+    "method": "Native Figma layer selection and full-size table screenshot",
+    "screenshot": "nested-radius-table-native-2026-10-07.png"
+  },
+  "outerRadius": [
+    24,
+    20,
+    16,
+    8
+  ],
+  "rows": [
+    {
+      "padding": 40,
+      "innerRadius": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 32,
+      "innerRadius": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 24,
+      "innerRadius": [
+        8,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 20,
+      "innerRadius": [
+        12,
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 16,
+      "innerRadius": [
+        12,
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 12,
+      "innerRadius": [
+        12,
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "padding": 8,
+      "innerRadius": [
+        16,
+        12,
+        8,
+        4
+      ]
+    }
+  ],
+  "scope": "Explicit mobile table from linked custom-card guide. No interpolation or automatic rule for unlisted outer radii is implied."
+}

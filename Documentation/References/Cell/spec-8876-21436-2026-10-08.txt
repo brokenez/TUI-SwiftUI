@@ -1,0 +1,47 @@
+<frame id="8876:21436" name="Озвучка" x="1690" y="100" width="1190" height="8283">
+  <instance id="8876:21437" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="8876:21438" name="List Bulleted" x="128" y="216" width="934" height="97" />
+  <instance id="8876:21439" name="H2 + P" x="128" y="313" width="934" height="120" />
+  <instance id="8876:21440" name="Table Row" x="128" y="433" width="934" height="254" />
+  <instance id="8876:21441" name="Table Row" x="128" y="687" width="934" height="240" />
+  <instance id="8876:21442" name="Table Row" x="128" y="927" width="934" height="218" />
+  <instance id="8876:21443" name="Paragraph" x="128" y="1145" width="934" height="40" />
+  <instance id="8876:21444" name="Table Row" x="128" y="1185" width="934" height="210" />
+  <instance id="12254:18052" name="Paragraph" x="128" y="1395" width="934" height="40" />
+  <instance id="12254:18190" name="Table Row" x="128" y="1435" width="934" height="196" />
+  <instance id="12254:18103" name="Paragraph" x="128" y="1631" width="934" height="64" />
+  <instance id="12254:18144" name="Table Row" x="128" y="1695" width="934" height="218" />
+  <instance id="8876:21445" name="H2 + P" x="128" y="1913" width="934" height="88" />
+  <instance id="8876:21446" name="Table Row" x="128" y="2001" width="934" height="218" />
+  <instance id="8876:21447" name="Table Row" x="128" y="2219" width="934" height="258" />
+  <instance id="8876:21448" name="H2 + P" x="128" y="2477" width="934" height="88" />
+  <instance id="8876:21449" name="Table Row" x="128" y="2565" width="934" height="322" />
+  <instance id="8876:21450" name="Table Row" x="128" y="2887" width="934" height="366" />
+  <instance id="8876:21451" name="H2 + P" x="128" y="3253" width="934" height="88" />
+  <instance id="8876:21452" name="Table Row" x="128" y="3341" width="934" height="218" />
+  <instance id="8876:21453" name="H2 + P" x="128" y="3559" width="934" height="88" />
+  <instance id="8876:21454" name="Table Row" x="128" y="3647" width="934" height="218" />
+  <instance id="8876:21455" name="H2 + P" x="128" y="3865" width="934" height="88" />
+  <instance id="8876:21456" name="Note" x="128" y="3953" width="934" height="104" />
+  <instance id="8876:21457" name="Table Row" x="128" y="4057" width="934" height="214" />
+  <instance id="8876:21458" name="Table Row" x="128" y="4271" width="934" height="254" />
+  <instance id="8876:21459" name="H2 + P" x="128" y="4525" width="934" height="88" />
+  <instance id="8876:21460" name="Table Row" x="128" y="4613" width="934" height="218" />
+  <instance id="8876:21461" name="Table Row" x="128" y="4831" width="934" height="262" />
+  <instance id="8876:21462" name="H2 + P" x="128" y="5093" width="934" height="88" />
+  <instance id="8876:21463" name="Table Row" x="128" y="5181" width="934" height="258" />
+  <instance id="8876:21464" name="Table Row" x="128" y="5439" width="934" height="236" />
+  <instance id="8876:21465" name="Table Row" x="128" y="5675" width="934" height="254" />
+  <instance id="8876:21466" name="Table Row" x="128" y="5929" width="934" height="254" />
+  <instance id="8876:21467" name="Table Row" x="128" y="6183" width="934" height="254" />
+  <instance id="8876:21468" name="Table Row" x="128" y="6437" width="934" height="236" />
+  <instance id="8876:21469" name="H2 + P" x="128" y="6673" width="934" height="88" />
+  <instance id="8876:21470" name="Table Row" x="128" y="6761" width="934" height="236" />
+  <instance id="8876:21471" name="Table Row" x="128" y="6997" width="934" height="196" />
+  <instance id="8876:21472" name="Table Row" x="128" y="7193" width="934" height="254" />
+  <instance id="8876:21473" name="Table Row" x="128" y="7447" width="934" height="196" />
+  <instance id="8876:21474" name="Table Row" x="128" y="7643" width="934" height="276" />
+  <instance id="8876:21475" name="Table Row" x="128" y="7919" width="934" height="236" />
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

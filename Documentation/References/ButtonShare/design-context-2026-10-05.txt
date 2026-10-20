@@ -1,0 +1,86 @@
+const imgTuiIcMediumShare = "https://www.figma.com/api/mcp/asset/bd484744-4689-4397-af36-31cdefc65d85.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/43e51840-47b0-45f2-ba9f-564b20033f80.svg";
+const imgTuiIcMediumShare1 = "https://www.figma.com/api/mcp/asset/1db72d4b-556e-41d1-91c7-f323ae0a2ff1.svg";
+
+type TuiButtonShareProps = {
+  className?: string;
+  appearance?: "glass-on-light" | "secondary" | "glass-on-dark";
+  state?: "normal" | "pressed";
+  system?: "ios" | "android";
+};
+
+export default function TuiButtonShare({ className, appearance = "secondary", state = "normal", system = "ios" }: TuiButtonShareProps) {
+  const isAndroidAndGlassOnDarkAndNormal = system === "android" && appearance === "glass-on-dark" && state === "normal";
+  const isAndroidAndGlassOnLightAndNormal = system === "android" && appearance === "glass-on-light" && state === "normal";
+  const isAndroidAndGlassOnLightAndPressed = system === "android" && appearance === "glass-on-light" && state === "pressed";
+  const isAndroidAndSecondaryAndNormal = system === "android" && appearance === "secondary" && state === "normal";
+  const isGlassOnDark = appearance === "glass-on-dark";
+  const isGlassOnDarkAndNormal = appearance === "glass-on-dark" && state === "normal";
+  const isGlassOnLight = appearance === "glass-on-light";
+  const isGlassOnLightAndNormal = appearance === "glass-on-light" && state === "normal";
+  const isGlassOnLightAndPressed = appearance === "glass-on-light" && state === "pressed";
+  const isGlassOnLightOrGlassOnDark = ["glass-on-light", "glass-on-dark"].includes(appearance);
+  const isIosAndGlassOnDarkAndNormal = system === "ios" && appearance === "glass-on-dark" && state === "normal";
+  const isIosAndGlassOnDarkAndPressed = system === "ios" && appearance === "glass-on-dark" && state === "pressed";
+  const isIosAndGlassOnLightAndNormal = system === "ios" && appearance === "glass-on-light" && state === "normal";
+  const isIosAndGlassOnLightAndPressed = system === "ios" && appearance === "glass-on-light" && state === "pressed";
+  const isIosAndSecondaryAndPressed = system === "ios" && appearance === "secondary" && state === "pressed";
+  return (
+    <div className={className || `content-stretch flex flex-col items-start overflow-clip relative rounded-[22px] ${isIosAndGlassOnDarkAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark-pressed,rgba(255,255,255,0.5))]" : appearance === "glass-on-dark" && (state === "normal" || (system === "android" && state === "pressed")) ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-dark,rgba(255,255,255,0.3))]" : isIosAndGlassOnLightAndPressed ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light-pressed,rgba(0,0,0,0.6))]" : appearance === "glass-on-light" && (state === "normal" || (system === "android" && state === "pressed")) ? "backdrop-blur-[16px] bg-[var(--tui-background-overlay-glass-on-light,rgba(0,0,0,0.4))]" : isIosAndSecondaryAndPressed ? "bg-[var(--tui-background-neutral-1-pressed,rgba(0,16,36,0.06))]" : "bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))]"}`} id={system === "android" && appearance === "glass-on-dark" && state === "pressed" ? "node-52061_47169" : isIosAndGlassOnDarkAndPressed ? "node-52061_47166" : isAndroidAndGlassOnDarkAndNormal ? "node-26951_47049" : isIosAndGlassOnDarkAndNormal ? "node-26951_47046" : isAndroidAndGlassOnLightAndPressed ? "node-52061_47207" : isIosAndGlassOnLightAndPressed ? "node-52061_47210" : isAndroidAndGlassOnLightAndNormal ? "node-44290_299202" : isIosAndGlassOnLightAndNormal ? "node-44290_299200" : system === "android" && appearance === "secondary" && state === "pressed" ? "node-52061_47187" : isIosAndSecondaryAndPressed ? "node-52061_47184" : isAndroidAndSecondaryAndNormal ? "node-44290_299206" : "node-44290_299204"}>
+      {(state === "normal" || isIosAndSecondaryAndPressed || isGlassOnLightAndPressed || isIosAndGlassOnDarkAndPressed) && (
+        <div className="content-stretch flex items-start p-[10px] relative shrink-0" id={isIosAndGlassOnDarkAndPressed ? "node-52061_47167" : isAndroidAndGlassOnDarkAndNormal ? "node-26951_47050" : isIosAndGlassOnDarkAndNormal ? "node-26951_47047" : isAndroidAndGlassOnLightAndPressed ? "node-52061_47208" : isIosAndGlassOnLightAndPressed ? "node-52061_47211" : isAndroidAndGlassOnLightAndNormal ? "node-44290_299964" : isIosAndGlassOnLightAndNormal ? "node-44290_299919" : isIosAndSecondaryAndPressed ? "node-52061_47185" : isAndroidAndSecondaryAndNormal ? "node-44290_299976" : "node-44290_299896"} data-name="Left iconCont">
+          {system === "ios" && (
+            <div className="relative shrink-0 size-[24px]" id={appearance === "glass-on-dark" && state === "pressed" ? "node-52061_47168" : isGlassOnDarkAndNormal ? "node-26951_47048" : isGlassOnLightAndPressed ? "node-52061_47212" : isGlassOnLightAndNormal ? "node-44290_299920" : appearance === "secondary" && state === "pressed" ? "node-52061_47186" : "node-44290_299897"} data-name="tui-ic-medium / share">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={isGlassOnLightOrGlassOnDark ? imgTuiIcMediumShare1 : imgTuiIcMediumShare} />
+            </div>
+          )}
+          {system === "android" && (state === "normal" || (appearance === "glass-on-light" && state === "pressed")) && (
+            <div className="relative shrink-0 size-[24px]" id={isGlassOnDarkAndNormal ? "node-26951_47051" : isGlassOnLightAndPressed ? "node-52061_47209" : isGlassOnLightAndNormal ? "node-44290_299965" : "node-44290_299977"} data-name="tui-ic-medium / share-2">
+              <div className={`absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px] ${isGlassOnLight || isGlassOnDarkAndNormal ? "bg-[var(--tui-text-primary-on-dark,white)]" : "bg-[var(--tui-text-action,#428bf9)]"}`} id={isGlassOnDarkAndNormal ? "node-I26951_47051-1524_724" : isGlassOnLightAndPressed ? "node-I52061_47209-1524_724" : isGlassOnLightAndNormal ? "node-I44290_299965-1524_724" : "node-I44290_299977-1524_724"} style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+            </div>
+          )}
+        </div>
+      )}
+      {system === "android" && state === "pressed" && <div className={`-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+10px)] rounded-[1000px] size-[44px] top-[calc(50%+10px)] ${isGlassOnLightOrGlassOnDark ? "bg-[var(--tui-service-android-ripple-on-dark,rgba(255,255,255,0.13))]" : "bg-[var(--tui-service-android-ripple,rgba(0,0,0,0.04))]"}`} id={isGlassOnDark ? "node-52061_47182" : isGlassOnLight ? "node-52061_47223" : "node-52061_47198"} data-name="ripple" />}
+      {system === "android" && state === "pressed" && ["secondary", "glass-on-dark"].includes(appearance) && (
+        <div className="content-stretch flex items-start p-[10px] relative shrink-0" id={isGlassOnDark ? "node-52061_47170" : "node-52061_47188"} data-name="Left iconCont">
+          <div className="relative shrink-0 size-[24px]" id={isGlassOnDark ? "node-52061_47171" : "node-52061_47189"} data-name="tui-ic-medium / share-2">
+            <div className={`absolute inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1.5px_2px] mask-size-[19px_20px] ${isGlassOnDark ? "bg-[var(--tui-text-primary-on-dark,white)]" : "bg-[var(--tui-text-action,#428bf9)]"}`} id={isGlassOnDark ? "node-I52061_47171-1524_724" : "node-I52061_47189-1524_724"} style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button [share]
+**Node ID:** 44290:299199
+
+Стиль компонента Button
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-share](https://go.tcsbank.ru/tui-button-share)
+
+## tui-ic-medium / share
+**Node ID:** 62300:60262
+
+social-share, network-share, distribute, broadcast
+
+## tui-ic-medium / share-2
+**Node ID:** 62300:59991
+
+social-share, network-share, distribute, broadcast
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,96 @@
+const imgContainer = "https://www.figma.com/api/mcp/asset/1df60808-0974-4661-a0e0-8300390c8d62.svg";
+
+type TuiCardMediumProps = {
+  className?: string;
+  background?: "fill";
+  content?: "text+badge";
+  skeleton?: "off";
+  system?: "iOS";
+  textPosition?: "bottom";
+};
+
+function TuiCardMedium({ className, background = "fill", content = "text+badge", skeleton = "off", system = "iOS", textPosition = "bottom" }: TuiCardMediumProps) {
+  return (
+    <div className={className || "bg-[var(--tui-background-neutral-1-opaque,#f6f7f8)] content-stretch flex flex-col gap-[var(--gap,12px)] items-start overflow-clip pb-[var(--padding-compensated,10px)] pt-[var(--padding,12px)] px-[var(--padding,12px)] relative rounded-[var(--radius,12px)] size-[140px]"} data-node-id="11335:41685">
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="11335:41686" data-name="container">
+        <div className="bg-[var(--tui-brand-pro,#85e808)] content-stretch flex items-center min-h-[20px] px-[4px] relative rounded-[100px] shrink-0" data-node-id="11335:41687" data-name="[legacy] tui-badge [subscription]">
+          <div className="content-stretch flex h-[20px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I11335:41687;2091:66425" data-name="IconCont">
+            <div className="content-stretch flex items-start relative shrink-0 size-[12px]" data-node-id="I11335:41687;2091:66426" data-name="Icon">
+              <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="I11335:41687;2091:66426;55409:4321" data-name="Container">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgContainer} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center justify-center pb-[2.5px] pt-[1.5px] px-[2px] relative shrink-0" data-node-id="I11335:41687;45235:304731" data-name="LabelCont">
+            <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-light,#333)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I11335:41687;45235:304732">
+              10%
+            </p>
+            <div className="h-[0.001px] opacity-0 relative shrink-0 w-[4px]" data-node-id="I11335:41687;45235:304733" data-name="min-width" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-end min-h-px overflow-clip relative w-full" data-node-id="11335:41688" data-name="tui-header [card-medium]">
+        <div className="content-stretch flex flex-col gap-[4px] items-start justify-end relative shrink-0 w-full" data-node-id="I11335:41688;12022:50620" data-name="stack">
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I11335:41688;12022:50621" data-name="title-stack">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I11335:41688;12022:50622">
+              Title
+            </p>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I11335:41688;12022:50623" data-name="subtitle-stack">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I11335:41688;12022:50624">
+              Subtitle
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-medium 
+**Node ID:** 11335:41574
+
+Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-medium-specs](https://go.tcsbank.ru/tui-card-medium-specs)
+
+## [legacy] tui-badge [subscription]
+**Node ID:** 45235:304495
+
+Устаревшая версия компонента  
+Презеты бейджей с иконками подписок со старой брендовой графикой  
+  
+[Как перейти на новую версию](https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge--tui-badged-content?node-id=11163-18553&t=jyEPNBUu0NXRpM4u-4)
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-badge-subscription](https://go.tcsbank.ru/tui-badge-subscription)
+
+## tui-logo / subscription-dot-pro
+**Node ID:** 52740:47376
+
+Компактная версия лого Pro.
+
+  
+
+Черный цвет отличается от других подписок: у Pro #000, у остальных — #333.
+
+  
+
+В бейджах черный круг должен занимать 54% от фона
+
+## tui-header [card-medium]
+**Node ID:** 12022:50602
+
+⚪ Not In TUI
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

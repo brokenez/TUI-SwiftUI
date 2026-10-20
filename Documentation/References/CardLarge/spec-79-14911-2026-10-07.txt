@@ -1,0 +1,198 @@
+<frame id="79:14911" name="Типы карточек" x="-10959" y="-3625" width="2777" height="6338">
+  <instance id="79:14912" name="H1 + P" x="128" y="128" width="2521" height="88" />
+  <frame id="79:14913" name="row" x="128" y="216" width="2521" height="56">
+    <instance id="79:14914" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+    <instance id="79:14915" name="tui-table-сell" x="310" y="0" width="737" height="56" />
+    <instance id="79:14916" name="tui-table-сell" x="1047" y="0" width="737" height="56" />
+    <instance id="79:14917" name="tui-table-сell" x="1784" y="0" width="737" height="56" />
+  </frame>
+  <frame id="79:14918" name="row" x="128" y="272" width="2521" height="576">
+    <instance id="79:14919" name="tui-table-сell" x="0" y="0" width="310" height="576" />
+    <frame id="79:14920" name="preview" x="310" y="0" width="2211" height="576">
+      <frame id="79:14921" name="row" x="0" y="64" width="2211" height="448">
+        <frame id="79:14922" name="tui-table сell" x="0" y="0" width="737" height="448">
+          <instance id="79:14923" name="tui-card-large" x="40" y="0" width="570" height="238" />
+          <instance id="79:14924" name="tui-card-large" x="40" y="278" width="570" height="170" />
+        </frame>
+        <frame id="79:14925" name="tui-table сell" x="737" y="0" width="737" height="391">
+          <instance id="79:14926" name="tui-card-large" x="24" y="0" width="375" height="186" />
+          <instance id="79:14927" name="tui-card-large" x="24" y="269" width="375" height="122" />
+        </frame>
+        <frame id="79:14928" name="tui-table сell" x="1474" y="0" width="737" height="391">
+          <instance id="79:14929" name="tui-card-large" x="24" y="0" width="360" height="186" />
+          <instance id="79:14930" name="tui-card-large" x="24" y="269" width="360" height="122" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14931" name="row" x="128" y="848" width="2521" height="428">
+    <instance id="79:14932" name="tui-table-сell" x="0" y="0" width="310" height="428" />
+    <frame id="79:14933" name="preview" x="310" y="0" width="2211" height="428">
+      <frame id="79:14934" name="row" x="0" y="64" width="2211" height="300">
+        <frame id="79:14935" name="tui-table сell" x="0" y="0" width="737" height="300">
+          <instance id="79:14936" name="tui-card-large" x="40" y="0" width="480" height="164" />
+          <instance id="79:14937" name="tui-card-large" x="40" y="204" width="480" height="96" />
+        </frame>
+        <frame id="79:14938" name="tui-table сell" x="737" y="0" width="737" height="288">
+          <instance id="79:14939" name="tui-card-large" x="24" y="0" width="375" height="144" />
+          <instance id="79:14940" name="tui-card-large" x="24" y="204" width="375" height="84" />
+        </frame>
+        <frame id="79:14941" name="tui-table сell" x="1474" y="0" width="737" height="282">
+          <instance id="79:14942" name="tui-card-large" x="24" y="0" width="360" height="141" />
+          <instance id="79:14943" name="tui-card-large" x="24" y="201" width="360" height="81" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14944" name="row" x="128" y="1276" width="2521" height="216">
+    <instance id="79:14945" name="tui-table-сell" x="0" y="0" width="310" height="216" />
+    <frame id="79:14946" name="preview" x="310" y="0" width="2211" height="216">
+      <frame id="79:14947" name="row" x="0" y="64" width="2211" height="88">
+        <frame id="79:14948" name="tui-table сell" x="0" y="0" width="737" height="88">
+          <instance id="79:14949" name="tui-card-large" x="40" y="0" width="480" height="88" />
+        </frame>
+        <frame id="79:14950" name="tui-table сell" x="737" y="0" width="737" height="80">
+          <instance id="79:14951" name="tui-card-large" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="79:14952" name="tui-table сell" x="1474" y="0" width="737" height="80">
+          <instance id="79:14953" name="tui-card-large" x="24" y="0" width="360" height="80" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="22931:42877" name="row" x="128" y="1492" width="2521" height="216">
+    <instance id="22931:42878" name="tui-table-сell" x="0" y="0" width="310" height="216" />
+    <frame id="22931:42879" name="preview" x="310" y="0" width="2211" height="216">
+      <frame id="22931:42880" name="row" x="0" y="64" width="2211" height="88">
+        <frame id="22931:42881" name="tui-table сell" x="0" y="0" width="737" height="88">
+          <instance id="22931:42882" name="tui-card-large" x="40" y="0" width="480" height="88" />
+        </frame>
+        <frame id="22931:42883" name="tui-table сell" x="737" y="0" width="737" height="80">
+          <instance id="22931:42884" name="tui-card-large" x="24" y="0" width="375" height="80" />
+        </frame>
+        <frame id="22931:42885" name="tui-table сell" x="1474" y="0" width="737" height="80">
+          <instance id="22931:42886" name="tui-card-large" x="24" y="0" width="360" height="80" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14954" name="row" x="128" y="1708" width="2521" height="420">
+    <instance id="79:14955" name="tui-table-сell" x="0" y="0" width="310" height="420" />
+    <frame id="79:14956" name="preview" x="310" y="0" width="2211" height="420">
+      <frame id="79:14957" name="row" x="0" y="64" width="2211" height="292">
+        <frame id="79:14958" name="tui-table сell" x="0" y="0" width="737" height="292">
+          <instance id="79:14959" name="tui-card-large" x="40" y="0" width="480" height="292" />
+        </frame>
+        <frame id="79:14960" name="tui-table сell" x="737" y="0" width="737" height="276">
+          <instance id="79:14961" name="tui-card-large" x="24" y="0" width="375" height="276" />
+        </frame>
+        <frame id="79:14962" name="tui-table сell" x="1474" y="0" width="737" height="276">
+          <instance id="79:14963" name="tui-card-large" x="24" y="0" width="360" height="276" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14964" name="row" x="128" y="2128" width="2521" height="1156">
+    <instance id="79:14965" name="tui-table-сell" x="0" y="0" width="310" height="1156" />
+    <frame id="79:14966" name="preview" x="310" y="0" width="2211" height="1156">
+      <frame id="79:14967" name="row" x="0" y="64" width="2211" height="1028">
+        <frame id="79:14968" name="tui-table сell" x="0" y="0" width="737" height="1028">
+          <instance id="79:14969" name="tui-card-large" x="40" y="0" width="570" height="528" />
+          <instance id="79:14970" name="tui-card-large" x="40" y="568" width="570" height="460" />
+        </frame>
+        <frame id="79:14971" name="tui-table сell" x="737" y="0" width="737" height="844">
+          <instance id="79:14972" name="tui-card-large" x="24" y="0" width="375" height="364" />
+          <instance id="79:14973" name="tui-card-large" x="24" y="544" width="375" height="300" />
+        </frame>
+        <frame id="79:14974" name="tui-table сell" x="1474" y="0" width="737" height="844">
+          <instance id="79:14975" name="tui-card-large" x="24" y="0" width="360" height="364" />
+          <instance id="79:14976" name="tui-card-large" x="24" y="544" width="360" height="300" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14977" name="row" x="128" y="3284" width="2521" height="1036">
+    <instance id="79:14978" name="tui-table-сell" x="0" y="0" width="310" height="1036" />
+    <frame id="79:14979" name="preview" x="310" y="0" width="2211" height="1036">
+      <frame id="79:14980" name="row" x="0" y="64" width="2211" height="908">
+        <frame id="79:14981" name="tui-table сell" x="0" y="0" width="2211" height="908">
+          <instance id="79:14982" name="tui-card-large" x="40" y="0" width="570" height="468" />
+          <instance id="79:14983" name="tui-card-large" x="40" y="508" width="570" height="400" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14984" name="row" x="128" y="4320" width="2521" height="516">
+    <instance id="79:14985" name="tui-table-сell" x="0" y="0" width="310" height="516" />
+    <frame id="79:14986" name="preview" x="310" y="0" width="2211" height="516">
+      <frame id="79:14987" name="row" x="0" y="64" width="2211" height="388">
+        <frame id="79:14988" name="tui-table сell" x="0" y="0" width="737" height="388">
+          <instance id="79:14989" name="tui-card-large" x="40" y="0" width="480" height="388" />
+        </frame>
+        <frame id="79:14990" name="tui-table сell" x="737" y="0" width="737" height="260">
+          <instance id="79:14991" name="tui-card-large" x="24" y="0" width="375" height="260" />
+        </frame>
+        <frame id="79:14992" name="tui-table сell" x="1474" y="0" width="737" height="260">
+          <instance id="79:14993" name="tui-card-large" x="24" y="0" width="360" height="260" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14994" name="row" x="128" y="4836" width="2521" height="500">
+    <instance id="79:14995" name="tui-table-сell" x="0" y="0" width="310" height="500" />
+    <frame id="79:14996" name="preview" x="310" y="0" width="2211" height="500">
+      <frame id="79:14997" name="row" x="0" y="64" width="2211" height="372">
+        <frame id="79:14998" name="tui-table сell" x="0" y="0" width="737" height="372">
+          <instance id="79:14999" name="tui-card-large" x="40" y="0" width="480" height="200" />
+          <instance id="79:15000" name="tui-card-large" x="40" y="240" width="480" height="132" />
+        </frame>
+        <frame id="79:15001" name="tui-table сell" x="737" y="0" width="737" height="347">
+          <instance id="79:15002" name="tui-card-large" x="24" y="0" width="375" height="176" />
+          <instance id="79:15003" name="tui-card-large" x="24" y="235" width="375" height="112" />
+        </frame>
+        <frame id="79:15004" name="tui-table сell" x="1474" y="0" width="737" height="340">
+          <instance id="79:15005" name="tui-card-large" x="24" y="0" width="375" height="176" />
+          <instance id="103:13674" name="tui-card-large" x="24" y="228" width="375" height="112" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:15006" name="row" x="128" y="5336" width="2521" height="418">
+    <instance id="79:15007" name="tui-table-сell" x="0" y="0" width="310" height="418" />
+    <frame id="79:15008" name="preview" x="310" y="0" width="2211" height="418">
+      <frame id="79:15009" name="row" x="0" y="64" width="2211" height="290">
+        <frame id="79:15010" name="tui-table сell" x="0" y="0" width="737" height="290">
+          <instance id="79:15011" name="tui-card-large" x="40" y="0" width="480" height="290" />
+        </frame>
+        <frame id="79:15012" name="tui-table сell" x="737" y="0" width="737" height="224">
+          <instance id="79:15013" name="tui-card-large" x="24" y="0" width="375" height="224" />
+        </frame>
+        <frame id="79:15014" name="tui-table сell" x="1474" y="0" width="737" height="224">
+          <instance id="79:15015" name="tui-card-large" x="24" y="0" width="375" height="224" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="80:54760" name="row" x="128" y="5754" width="2521" height="228">
+    <instance id="80:54761" name="tui-table-сell" x="0" y="0" width="310" height="228" />
+    <frame id="80:54762" name="preview" x="310" y="0" width="2211" height="228">
+      <frame id="80:54763" name="row" x="0" y="64" width="2211" height="100">
+        <frame id="80:54764" name="tui-table сell" x="0" y="0" width="2211" height="100">
+          <instance id="80:54765" name="tui-card-large" x="40" y="0" width="480" height="100" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="80:54959" name="row" x="128" y="5982" width="2521" height="228">
+    <instance id="80:54960" name="tui-table-сell" x="0" y="0" width="310" height="228" />
+    <frame id="80:54961" name="preview" x="310" y="0" width="2211" height="228">
+      <frame id="80:54962" name="row" x="0" y="64" width="2211" height="100">
+        <frame id="80:54963" name="tui-table сell" x="0" y="0" width="2211" height="100">
+          <instance id="80:54964" name="tui-card-large" x="40" y="0" width="480" height="100" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

@@ -1,0 +1,23 @@
+Failed to get matching snapshot: Find single matching element. Multiple matching elements found for <XCUIElementQuery: 0x1062cab70>.
+Sparse tree of matches:
+→Application, pid: 63915, label: 'TUIConsumer'
+  ↳Window (Main)
+    ↳Other
+      ↳Other
+        ↳Other
+          ↳Other
+            ↳Other
+              ↳Other
+                ↳Other
+                  ↳Other
+                    ↳Other
+                      ↳StaticText, identifier: 'headerSuffix', label: 'Очень длинный заголовок, который не помещается в одну строку, 42'
+                        ↳StaticText, identifier: 'headerSuffix', label: '42'
+Possibly caused by runtime issues:
+Automation type mismatch: computed Other from legacy attributes vs StaticText from modern attribute. Input attributes and values: {
+    "XC_kAXXCAttributeAutomationType" = 48;
+    "XC_kAXXCAttributeElementBaseType" = UILabel;
+    "XC_kAXXCAttributeElementType" = UILabel;
+    "XC_kAXXCAttributeTraits" = 8590000128;
+}
+See test report attachments for more detail.

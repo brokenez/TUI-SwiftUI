@@ -1,0 +1,320 @@
+{
+  "componentSetID": "65702:51131",
+  "observedVariants": 44,
+  "applicableIOS26": 22,
+  "otherPlatformAndroid": 22,
+  "missingIDs": [],
+  "newIDs": [],
+  "changedVariantProperties": [],
+  "source": "Documentation/References/Textfield/source-set-65702-51131.txt",
+  "observedProperties": {
+    "65702:51141": {
+      "system": "Android",
+      "state": "normal",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51150": {
+      "system": "iOS",
+      "state": "normal",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "on"
+    },
+    "65702:51152": {
+      "system": "Android",
+      "state": "normal",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "on"
+    },
+    "65702:51154": {
+      "system": "iOS",
+      "state": "read-only",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51163": {
+      "system": "Android",
+      "state": "read-only",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51172": {
+      "system": "iOS",
+      "state": "disabled",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51181": {
+      "system": "Android",
+      "state": "disabled",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51190": {
+      "system": "iOS",
+      "state": "focus",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51206": {
+      "system": "Android",
+      "state": "focus",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51222": {
+      "system": "iOS",
+      "state": "invalid",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51231": {
+      "system": "iOS",
+      "state": "invalid",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51240": {
+      "system": "Android",
+      "state": "invalid",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51249": {
+      "system": "Android",
+      "state": "invalid",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51258": {
+      "system": "iOS",
+      "state": "invalid-focus",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51274": {
+      "system": "Android",
+      "state": "invalid-focus",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51290": {
+      "system": "iOS",
+      "state": "normal",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51300": {
+      "system": "Android",
+      "state": "normal",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51310": {
+      "system": "iOS",
+      "state": "read-only",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51320": {
+      "system": "Android",
+      "state": "read-only",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51330": {
+      "system": "iOS",
+      "state": "disabled",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51340": {
+      "system": "Android",
+      "state": "disabled",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51350": {
+      "system": "iOS",
+      "state": "focus",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51368": {
+      "system": "Android",
+      "state": "focus",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51386": {
+      "system": "iOS",
+      "state": "invalid",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51396": {
+      "system": "Android",
+      "state": "invalid",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51406": {
+      "system": "iOS",
+      "state": "invalid-focus",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51424": {
+      "system": "Android",
+      "state": "invalid-focus",
+      "is-filled": "on",
+      "show-label": "on",
+      "skeleton": "off"
+    },
+    "65702:51442": {
+      "system": "iOS",
+      "state": "normal",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51451": {
+      "system": "Android",
+      "state": "normal",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51460": {
+      "system": "iOS",
+      "state": "read-only",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51470": {
+      "system": "Android",
+      "state": "read-only",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51480": {
+      "system": "iOS",
+      "state": "disabled",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51490": {
+      "system": "Android",
+      "state": "disabled",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51500": {
+      "system": "iOS",
+      "state": "focus",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51517": {
+      "system": "Android",
+      "state": "focus",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51534": {
+      "system": "iOS",
+      "state": "invalid",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51543": {
+      "system": "Android",
+      "state": "invalid",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51552": {
+      "system": "iOS",
+      "state": "invalid-focus",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51569": {
+      "system": "Android",
+      "state": "invalid-focus",
+      "is-filled": "on",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51586": {
+      "system": "iOS",
+      "state": "focus",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51601": {
+      "system": "Android",
+      "state": "focus",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51616": {
+      "system": "iOS",
+      "state": "invalid-focus",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51631": {
+      "system": "Android",
+      "state": "invalid-focus",
+      "is-filled": "off",
+      "show-label": "off",
+      "skeleton": "off"
+    },
+    "65702:51132": {
+      "system": "iOS",
+      "state": "normal",
+      "is-filled": "off",
+      "show-label": "on",
+      "skeleton": "off"
+    }
+  }
+}

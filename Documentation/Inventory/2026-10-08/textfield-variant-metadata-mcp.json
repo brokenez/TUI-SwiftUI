@@ -1,0 +1,15 @@
+{
+  "nodeId": "65702:51132",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "<symbol id=\"65702:51132\" name=\"system=iOS, state=normal, is-filled=off, show-label=on, skeleton=off\" x=\"46.671875\" y=\"50.25\" width=\"320\" height=\"56\">\n  <frame id=\"65702:51133\" name=\"container\" x=\"16\" y=\"0\" width=\"288\" height=\"56\">\n    <frame id=\"65702:51134\" name=\"start-accessories\" x=\"16\" y=\"0\" width=\"24\" height=\"56\" hidden=\"true\">\n      <instance id=\"65702:51135\" name=\"placeholder-single\" x=\"0\" y=\"20\" width=\"16\" height=\"16\" />\n    </frame>\n    <frame id=\"65702:51136\" name=\"content\" x=\"12\" y=\"0\" width=\"264\" height=\"56\">\n      <text id=\"65702:51137\" name=\"label\" x=\"0\" y=\"18\" width=\"264\" height=\"20\" />\n    </frame>\n    <frame id=\"65702:51138\" name=\"end-accessories\" x=\"260\" y=\"0\" width=\"16\" height=\"56\" hidden=\"true\">\n      <frame id=\"65702:51139\" name=\"accessory-slot\" x=\"0\" y=\"0\" width=\"16\" height=\"56\">\n        <instance id=\"65702:51140\" name=\"placeholder\" x=\"0\" y=\"20\" width=\"16\" height=\"16\" />\n      </frame>\n    </frame>\n  </frame>\n</symbol>"
+      },
+      {
+        "type": "text",
+        "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+      }
+    ]
+  }
+}

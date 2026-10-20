@@ -1,0 +1,435 @@
+[
+  {
+    "id": "37840:45833",
+    "description": "",
+    "documentationLinks": [],
+    "variants": [
+      {
+        "id": "37840:45834",
+        "properties": {
+          "keyframe": "1"
+        },
+        "width": 40,
+        "height": 40,
+        "opacity": 1,
+        "cornerRadius": 4,
+        "cornerSmoothing": 0,
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "37840:45835",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "CUSTOM_CUBIC_BEZIER",
+                  "easingFunctionCubicBezier": {
+                    "x1": 0.20000000298023224,
+                    "y1": 0,
+                    "x2": 0.4000000059604645,
+                    "y2": 0.8999999761581421
+                  }
+                },
+                "duration": 0.5
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "37840:45835",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "CUSTOM_CUBIC_BEZIER",
+                    "easingFunctionCubicBezier": {
+                      "x1": 0.20000000298023224,
+                      "y1": 0,
+                      "x2": 0.4000000059604645,
+                      "y2": 0.8999999761581421
+                    }
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "AFTER_TIMEOUT",
+              "timeout": 0.0010000000474974513
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "37840:45835",
+        "properties": {
+          "keyframe": "2"
+        },
+        "width": 40,
+        "height": 40,
+        "opacity": 0.5,
+        "cornerRadius": 4,
+        "cornerSmoothing": 0,
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "37840:45834",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "CUSTOM_CUBIC_BEZIER",
+                  "easingFunctionCubicBezier": {
+                    "x1": 0.20000000298023224,
+                    "y1": 0,
+                    "x2": 0.4000000059604645,
+                    "y2": 0.8999999761581421
+                  }
+                },
+                "duration": 0.5
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "37840:45834",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "CUSTOM_CUBIC_BEZIER",
+                    "easingFunctionCubicBezier": {
+                      "x1": 0.20000000298023224,
+                      "y1": 0,
+                      "x2": 0.4000000059604645,
+                      "y2": 0.8999999761581421
+                    }
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "AFTER_TIMEOUT",
+              "timeout": 0.0010000000474974513
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "37840:45836",
+    "description": "",
+    "documentationLinks": [],
+    "variants": [
+      {
+        "id": "37840:45837",
+        "properties": {
+          "text-style": "heading-l",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 36,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45838",
+            "width": 92,
+            "height": 24,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45839",
+        "properties": {
+          "text-style": "numbers-xl",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 36,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45840",
+            "width": 92,
+            "height": 24,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45843",
+        "properties": {
+          "text-style": "numbers-m",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 24,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45844",
+            "width": 92,
+            "height": 16,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45849",
+        "properties": {
+          "text-style": "heading-m",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 24,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45850",
+            "width": 92,
+            "height": 16,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45853",
+        "properties": {
+          "text-style": "heading-s",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 20,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45854",
+            "width": 92,
+            "height": 14,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45857",
+        "properties": {
+          "text-style": "body-l",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 20,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45858",
+            "width": 92,
+            "height": 14,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45861",
+        "properties": {
+          "text-style": "body-m",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 18,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45862",
+            "width": 92,
+            "height": 12,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45865",
+        "properties": {
+          "text-style": "body-s",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 16,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45866",
+            "width": 92,
+            "height": 10,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45869",
+        "properties": {
+          "text-style": "ui-l",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 20,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45870",
+            "width": 92,
+            "height": 14,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45873",
+        "properties": {
+          "text-style": "ui-m",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 18,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45874",
+            "width": 92,
+            "height": 12,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45877",
+        "properties": {
+          "text-style": "ui-s",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 16,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45878",
+            "width": 92,
+            "height": 10,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45881",
+        "properties": {
+          "text-style": "ui-xs",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 14,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45882",
+            "width": 92,
+            "height": 10,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      },
+      {
+        "id": "37840:45883",
+        "properties": {
+          "text-style": "ui-xxs",
+          "system": "iOS"
+        },
+        "width": 92,
+        "height": 13,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "cornerSmoothing": 0,
+        "reactions": [],
+        "children": [
+          {
+            "id": "37840:45884",
+            "width": 92,
+            "height": 9,
+            "cornerRadius": 4,
+            "cornerSmoothing": 0,
+            "motionInherited": true
+          }
+        ]
+      }
+    ]
+  }
+]

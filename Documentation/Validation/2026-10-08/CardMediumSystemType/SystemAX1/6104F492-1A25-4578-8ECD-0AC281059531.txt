@@ -1,0 +1,97 @@
+System category: UICTContentSizeCategoryAccessibilityM
+Expected width: 214.66666666666666
+Actual frame: (32.0, 184.66666666666666, 214.66666666666666, 215.00000000000003)
+Attributes: Application, 0x105ffd2c0, pid: 56627, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x105ffd2c0, pid: 56627, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x105ffd400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105ffef80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fff0c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fff200, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fff340, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fff480, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x105fff5c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'tui-card-medium'
+                  Button, 0x105fff700, {{16.0, 62.0}, {44.0, 44.0}}, identifier: 'BackButton', label: 'TUI Design System'
+                  StaticText, 0x105fff840, {{119.0, 71.3}, {163.7, 25.3}}, label: 'tui-card-medium '
+                Other, 0x105fff980, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105fffac0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105fffc00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105fffd40, {{0.0, 0.0}, {402.0, 874.0}}
+                        CollectionView, 0x105fffe80, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x105ffcf00, {{-16.0, -1632.0}, {434.0, 3524.3}}
+                          Other, 0x105ffd040, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x105ffd180, {{0.0, 0.0}, {402.0, 874.0}}
+                          Cell, 0x105ffc8c0, {{16.0, 116.0}, {370.0, 53.7}}
+                            Other, 0x105ffca00, {{16.0, 116.0}, {370.0, 53.7}}
+                            Other, 0x105ffcb40, {{16.0, 116.0}, {370.0, 53.7}}
+                              Other, 0x105ffcc80, {{16.0, 116.0}, {370.0, 53.7}}
+                                Other, 0x105ffd540, {{16.0, 116.0}, {370.0, 53.7}}
+                                  StaticText, 0x105ffd680, {{16.0, 116.0}, {370.0, 53.7}}, label: 'Живой компонент'
+                          Cell, 0x105ffd7c0, {{16.0, 169.7}, {370.0, 344.3}}
+                            Other, 0x105ffd900, {{16.0, 169.7}, {370.0, 344.3}}
+                              Other, 0x112cac000, {{16.0, 169.7}, {370.0, 344.3}}
+                            Other, 0x112cac140, {{16.0, 169.7}, {370.0, 344.3}}
+                              Other, 0x112cac280, {{16.0, 169.7}, {370.0, 344.3}}
+                                Other, 0x112cac3c0, {{16.0, 169.7}, {370.0, 344.3}}
+                                  Other, 0x112cac500, {{32.0, 184.7}, {214.7, 314.2}}
+                                    Button, 0x112cac640, {{32.0, 184.7}, {214.7, 215.0}}, identifier: '11335:41575', label: 'Title, Subtitle', Selected
+                                      Other, 0x112cac780, {{32.0, 184.7}, {214.7, 215.0}}
+                                      StaticText, 0x112cac8c0, {{44.0, 331.5}, {44.3, 27.7}}, label: 'Title'
+                                      StaticText, 0x112caca00, {{44.0, 363.5}, {69.3, 25.3}}, label: 'Subtitle'
+                                    StaticText, 0x112cacb40, {{69.3, 415.5}, {140.0, 33.7}}, identifier: 'cardMediumTapCount', label: 'Нажатий: 1'
+                                    StaticText, 0x112cacc80, {{82.5, 465.2}, {113.7, 33.7}}, identifier: 'cardMediumSelection', label: 'Выбрано'
+                          Cell, 0x112cacdc0, {{16.0, 514.0}, {370.0, 115.3}}
+                            Other, 0x112cacf00, {{16.0, 514.0}, {370.0, 115.3}}
+                              Other, 0x112cad040, {{16.0, 514.0}, {370.0, 115.3}}
+                            Other, 0x112cad180, {{16.0, 514.0}, {370.0, 115.3}}
+                              Other, 0x112cad2c0, {{16.0, 514.0}, {370.0, 115.3}}
+                                Other, 0x112cad400, {{16.0, 514.0}, {370.0, 115.3}}
+                                  StaticText, 0x112cad540, {{32.0, 529.0}, {187.7, 33.7}}, label: 'Вариант Figma'
+                                  Button, 0x112cad680, {{32.0, 529.0}, {243.3, 85.3}}, identifier: 'cardMediumVariantPicker', label: 'Вариант Figma, textBottomImage'
+                                    StaticText, 0x112cad7c0, {{44.0, 573.7}, {207.7, 33.7}}, label: 'textBottomImage'
+                          Other, 0x112cad900, {{63.7, 513.0}, {306.3, 1.0}}
+                          Cell, 0x112cada40, {{16.0, 629.3}, {370.0, 65.7}}
+                            Other, 0x112cadb80, {{16.0, 629.3}, {370.0, 65.7}}
+                              Other, 0x112cadcc0, {{16.0, 629.3}, {370.0, 65.7}}
+                            Other, 0x112cade00, {{16.0, 629.3}, {370.0, 65.7}}
+                              Other, 0x112cadf40, {{16.0, 629.3}, {370.0, 65.7}}
+                                Other, 0x112cae080, {{16.0, 629.3}, {370.0, 65.7}}
+                                  TextField, 0x112cae1c0, {{32.0, 644.3}, {338.0, 35.3}}, placeholderValue: 'Заголовок', value: Title
+                          Other, 0x112cae300, {{32.0, 628.3}, {338.0, 1.0}}
+                          Cell, 0x112cae440, {{16.0, 695.0}, {370.0, 65.7}}
+                            Other, 0x112cae580, {{16.0, 695.0}, {370.0, 65.7}}
+                              Other, 0x112cae6c0, {{16.0, 695.0}, {370.0, 65.7}}
+                            Other, 0x112cae800, {{16.0, 695.0}, {370.0, 65.7}}
+                              Other, 0x112cae940, {{16.0, 695.0}, {370.0, 65.7}}
+                                Other, 0x112caea80, {{16.0, 695.0}, {370.0, 65.7}}
+                                  TextField, 0x112caebc0, {{32.0, 710.0}, {338.0, 35.3}}, placeholderValue: 'Подпись', value: Subtitle
+                          Other, 0x112caed00, {{32.0, 694.0}, {338.0, 1.0}}
+                          Cell, 0x112caee40, {{16.0, 760.7}, {370.0, 65.7}}
+                            Other, 0x112caef80, {{16.0, 760.7}, {370.0, 65.7}}
+                              Other, 0x112caf0c0, {{16.0, 760.7}, {370.0, 65.7}}
+                            Other, 0x112caf200, {{16.0, 760.7}, {370.0, 65.7}}
+                              Other, 0x112caf340, {{16.0, 760.7}, {370.0, 65.7}}
+                                Other, 0x112caf480, {{16.0, 760.7}, {370.0, 65.7}}
+                                  TextField, 0x112caf5c0, {{32.0, 775.7}, {338.0, 35.3}}, placeholderValue: 'Pro-бейдж', value: 10%
+                          Other, 0x112caf700, {{32.0, 759.7}, {338.0, 1.0}}
+                          Cell, 0x112caf840, {{16.0, 826.3}, {370.0, 65.7}}
+                            Other, 0x112caf980, {{16.0, 826.3}, {370.0, 65.7}}
+                              Other, 0x112cafac0, {{16.0, 826.3}, {370.0, 65.7}}
+                            Other, 0x112cafc00, {{16.0, 826.3}, {370.0, 65.7}}
+                              Other, 0x112cafd40, {{16.0, 826.3}, {370.0, 65.7}}
+                                Other, 0x112cafe80, {{16.0, 826.3}, {370.0, 65.7}}
+                                  TextField, 0x112cb4000, {{32.0, 841.3}, {338.0, 35.3}}, placeholderValue: 'Уведомлений', value: 1
+                          Other, 0x112cb4140, {{32.0, 825.3}, {338.0, 1.0}}
+                          Other, 0x112cb4280, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 6 pages', value: 0 %
+                            Other, 0x112cb43c0, {{396.0, 119.0}, {3.0, 150.0}}
+                          Other, 0x112cb4500, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 6 pages', value: 0 %
+                            Other, 0x112cb4640, {{396.0, 119.0}, {3.0, 150.0}}
+                Other, 0x112cb4780, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x112cb48c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105ffd2c0, pid: 56627, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x112cb4a00, pid: 56627, label: 'TUIDesignSystemCatalog'
+  }

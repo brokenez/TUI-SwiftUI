@@ -1,0 +1,39 @@
+const imgBullet = "https://www.figma.com/api/mcp/asset/6293e5dc-9f4a-4eeb-b919-a3c025dcd828.svg";
+
+export default function ListBulleted() {
+  return (
+    <div className="content-stretch flex flex-col items-start pb-[var(--spacing\/paragraph-spacing,16px)] relative size-full" data-node-id="8876:21438" data-name="List Bulleted">
+      <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I8876:21438;9460:7064" data-name="Item">
+        <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I8876:21438;9460:7064;9460:7060" data-name="Bullet">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I8876:21438;9460:7064;9460:7062">
+          <span className="leading-[24px]">{`Вложенные бейджи озвучиваем по `}</span>
+          <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline" href="https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-75&node-type=frame&t=UMlhnJYwy2C1tC7t-11" target="_blank">
+            <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/design/ikMEnYrX6tP8AjIZJLR6eI/tui-badge%2C-tui-badged-content?node-id=4-75&node-type=frame&t=UMlhnJYwy2C1tC7t-11" target="_blank">
+              правилам компонента
+            </span>
+          </a>
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I8876:21438;9460:7070" data-name="Item">
+        <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I8876:21438;9460:7070;9460:7060" data-name="Bullet">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+        </div>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I8876:21438;9460:7070;9460:7062">
+          Иконки по умолчанию не озвучиваются, их значение передается в строке другого элемента, например, в value
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Container">
+<rect x="8.99999" y="8.99984" width="22" height="22" rx="11" fill="#001024" fill-opacity="0.06"/>
+<path id="Ripple" fill-rule="evenodd" clip-rule="evenodd" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z" fill="black" fill-opacity="0.04"/>
+<g id="TooltipIcon">
+<mask id="mask0_9348_10819" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="14" width="6" height="11">
+<g id="Mask">
+<path id="Mask_2" fill-rule="evenodd" clip-rule="evenodd" d="M19.75 16.4998C19.1977 16.4998 18.75 16.0521 18.75 15.4998V14.4998H20.25C20.8023 14.4998 21.25 14.9476 21.25 15.4998V16.4998H19.75ZM21.25 22.4998H22C22.5523 22.4998 23 22.9476 23 23.4998V24.4998H18.5C17.9477 24.4998 17.5 24.0521 17.5 23.4998V22.4998H19.25V19.7498H19C18.4477 19.7498 18 19.3021 18 18.7498V17.9998H20.25C20.8023 17.9998 21.25 18.4476 21.25 18.9998V22.4998Z" fill="black"/>
+</g>
+</mask>
+<g mask="url(#mask0_9348_10819)">
+<path id="Color" d="M14 13.9998H26V25.9998H14V13.9998Z" fill="#9299A2"/>
+</g>
+</g>
+</g>
+</svg>

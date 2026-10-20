@@ -1,0 +1,32 @@
+[
+  {
+    "nodeID": "41637:306904",
+    "cropPixels": [
+      41,
+      463,
+      1125,
+      168
+    ],
+    "meanAbsoluteError1x": 0.91457
+  },
+  {
+    "nodeID": "41637:306919",
+    "cropPixels": [
+      41,
+      770,
+      1125,
+      168
+    ],
+    "meanAbsoluteError1x": 0.91289
+  },
+  {
+    "nodeID": "55902:297311",
+    "cropPixels": [
+      41,
+      1077,
+      1125,
+      168
+    ],
+    "meanAbsoluteError1x": 0.00719
+  }
+]

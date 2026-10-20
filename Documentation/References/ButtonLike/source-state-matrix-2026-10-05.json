@@ -1,0 +1,614 @@
+{
+  "id": "44290:299166",
+  "description": "Стиль компонента Button",
+  "documentationLinks": [
+    {
+      "uri": "https://go.tcsbank.ru/tui-button-like"
+    }
+  ],
+  "properties": {
+    "system": {
+      "type": "VARIANT",
+      "defaultValue": "ios",
+      "variantOptions": [
+        "ios",
+        "android"
+      ]
+    },
+    "appearance": {
+      "type": "VARIANT",
+      "defaultValue": "secondary",
+      "variantOptions": [
+        "secondary",
+        "glass-on-light",
+        "glass-on-dark"
+      ]
+    },
+    "is-selected": {
+      "type": "VARIANT",
+      "defaultValue": "off",
+      "variantOptions": [
+        "off",
+        "on"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "normal",
+      "variantOptions": [
+        "normal",
+        "pressed"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "44290:299175",
+      "properties": {
+        "system": "ios",
+        "appearance": "secondary",
+        "is-selected": "off",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.029999999329447746,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.062745101749897,
+            "b": 0.1411764770746231
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d468661b4928f785ef8034b99adad89be04d911a/13139:44"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "icons": [
+        {
+          "id": "44290:300011",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299177",
+      "properties": {
+        "system": "ios",
+        "appearance": "secondary",
+        "is-selected": "on",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.029999999329447746,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.062745101749897,
+            "b": 0.1411764770746231
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d468661b4928f785ef8034b99adad89be04d911a/13139:44"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "icons": [
+        {
+          "id": "44290:300022",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299191",
+      "properties": {
+        "system": "ios",
+        "appearance": "secondary",
+        "is-selected": "off",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.05999999865889549,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.062745101749897,
+            "b": 0.1411764770746231
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:0db84cc31aa0800d5e2efb834727004b34f45fbf/13679:86"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "icons": [
+        {
+          "id": "44290:299875",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299193",
+      "properties": {
+        "system": "ios",
+        "appearance": "secondary",
+        "is-selected": "on",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.05999999865889549,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0.062745101749897,
+            "b": 0.1411764770746231
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:0db84cc31aa0800d5e2efb834727004b34f45fbf/13679:86"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "icons": [
+        {
+          "id": "44290:299864",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299167",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-light",
+        "is-selected": "off",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4bb8cf76627ce2fe1e17d275fa1802b6564df15d/13139:84"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "44290:300055",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299169",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-light",
+        "is-selected": "on",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4bb8cf76627ce2fe1e17d275fa1802b6564df15d/13139:84"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "44290:300044",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299183",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-light",
+        "is-selected": "off",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a928dd21a42421c0208db0091914c336bd302cde/13679:93"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "44290:299989",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "44290:299185",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-light",
+        "is-selected": "on",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a928dd21a42421c0208db0091914c336bd302cde/13679:93"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "44290:299886",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "26951:46960",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-dark",
+        "is-selected": "off",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.30000001192092896,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a031597190608af6af0d580bdbb26c56a35c6802/13139:80"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "26951:46962",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "26951:46966",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-dark",
+        "is-selected": "on",
+        "state": "normal"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.30000001192092896,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a031597190608af6af0d580bdbb26c56a35c6802/13139:80"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "26951:46968",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "26951:46984",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-dark",
+        "is-selected": "off",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44cf87ea0ba2ac5a91fb6e296939e239010e6d1c/13679:91"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "26951:46986",
+          "name": "tui-ic-medium / heart-outline",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "26951:46990",
+      "properties": {
+        "system": "ios",
+        "appearance": "glass-on-dark",
+        "is-selected": "on",
+        "state": "pressed"
+      },
+      "width": 44,
+      "height": 44,
+      "cornerRadius": 22,
+      "cornerSmoothing": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44cf87ea0ba2ac5a91fb6e296939e239010e6d1c/13679:91"
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 32,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "icons": [
+        {
+          "id": "26951:46992",
+          "name": "tui-ic-medium / heart-filled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "reactions": []
+    }
+  ]
+}

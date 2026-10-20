@@ -1,0 +1,1 @@
+Path for asset writes as tool argument is required for write-to-disk option

@@ -1,0 +1,33 @@
+Attributes: Application, 0x114555400, pid: 56374, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x114555400, pid: 56374, label: 'TUIConsumer'
+    Window (Main), 0x114555540, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x114555680, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x114556080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1145561c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x114556300, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x114556440, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x114556580, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x1145566c0, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x114556800, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114556940, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x114554140, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1145543c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x114554500, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x114554640, {{29.7, 176.3}, {343.0, 108.0}}, label: 'Длинный заголовок, очень длинный, на три строки, с иконкой в конце и дополнительным текстом'
+                        StaticText, 0x114554780, {{147.3, 324.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x1145548c0, {{160.7, 360.7}, {80.7, 20.3}}, label: 'Ссылок: 0'
+                        StaticText, 0x114554a00, {{128.7, 397.0}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x114554b40, {{98.2, 433.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x1145557c0, {{150.0, 469.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x114554dc0, {{130.7, 506.0}, {141.0, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, multilineFade'
+                          StaticText, 0x114555b80, {{142.7, 513.0}, {100.7, 20.3}}, label: 'multilineFade'
+                Other, 0x114555e00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114554f00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x114555400, pid: 56374, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x114556a80, pid: 56374, label: 'TUIConsumer'
+  }

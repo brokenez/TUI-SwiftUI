@@ -1,0 +1,151 @@
+<canvas id="64:20367" name="📖 Правила" x="0" y="0" width="0" height="0">
+  <instance id="80:37690" name="page-title" x="-3168" y="-4168" width="2432" height="488" />
+  <frame id="80:38105" name="Как поменять фон в фигме" x="-3168" y="-2985" width="1190" height="5944">
+    <frame id="80:38162" name="Как поменять фон в фигме" x="128" y="128" width="934" height="5688">
+      <instance id="80:38163" name="H1 + P" x="0" y="0" width="934" height="132" />
+      <instance id="80:38164" name="Rules 2x1" x="0" y="132" width="934" height="392" />
+      <instance id="80:38165" name="H2 + P" x="0" y="524" width="934" height="88" />
+      <frame id="80:38166" name="card-1x1" x="0" y="612" width="934" height="680">
+        <frame id="80:38167" name="Container" x="0" y="0" width="934" height="632">
+          <instance id="1091:17059" name="Card Header" x="0" y="0" width="934" height="104" />
+          <frame id="80:38169" name="card-content" x="0" y="104" width="934" height="496">
+            <frame id="80:38170" name="image" x="32" y="0" width="870" height="496">
+              <rounded-rectangle id="80:38171" name="Снимок экрана 2023-07-03 в 12.29 1" x="463" y="48" width="191.4556427001953" height="399" />
+              <instance id="80:38172" name="Instance Container" x="66" y="182" width="76" height="140" />
+              <instance id="80:38173" name="Instance Container" x="727" y="182" width="76" height="140" />
+              <vector id="80:38174" name="Vector 829" x="174" y="249" width="32" height="0.000002797529077724903" />
+              <vector id="80:38175" name="Vector 830" x="409" y="249" width="32" height="0.000002797529077724903" />
+              <vector id="80:38176" name="Vector 831" x="647" y="249" width="32" height="0.000002797529077724903" />
+              <rounded-rectangle id="80:38177" name="Снимок экрана 2023-07-03 в 13.27 1" x="457" y="67" width="190" height="326.9956970214844" />
+              <instance id="80:38178" name="[deprecated] Hand Pointer" x="548" y="367" width="21" height="22" />
+              <rounded-rectangle id="80:38179" name="Снимок экрана 2023-07-03 в 13.30 1" x="222" y="104" width="187" height="296" />
+              <instance id="80:38180" name="[deprecated] Hand Pointer" x="380" y="275" width="21" height="22" />
+            </frame>
+          </frame>
+          <instance id="80:38181" name=".card-footer" x="0" y="600" width="934" height="32" />
+        </frame>
+      </frame>
+      <instance id="80:38182" name="image-usage" x="0" y="1292" width="934" height="4396" />
+    </frame>
+  </frame>
+  <frame id="80:38443" name="Для дизайнеров: что делать, если ... " x="-1563" y="-2985" width="1190" height="2508">
+    <frame id="80:38725" name="Для дизайнеров: что делать, если ... " x="128" y="128" width="934" height="2252">
+      <frame id="80:38726" name="card-1x1" x="0" y="0" width="934" height="1148">
+        <frame id="80:38727" name="Container" x="0" y="0" width="934" height="1100">
+          <instance id="80:38728" name="H1 + P" x="0" y="0" width="934" height="88" />
+          <instance id="80:38729" name="Card Header" x="0" y="88" width="934" height="80" />
+          <frame id="80:38730" name="card-content" x="0" y="168" width="934" height="900">
+            <frame id="80:38731" name="image" x="32" y="0" width="870" height="900">
+              <frame id="80:38732" name="Group 12342910" x="51" y="40" width="281" height="204">
+                <instance id="80:38733" name="tui-card-medium " x="51" y="40" width="140" height="140" />
+                <frame id="80:38734" name="rules" x="51" y="220" width="281" height="24">
+                  <instance id="80:38735" name="tui-ic-medium / cross-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38736" name="Проблема: обрезается часть текста" x="32" y="0" width="249" height="24" />
+                </frame>
+                <instance id="80:38737" name="Outside - Bottom" x="51" y="171" width="140" height="18" />
+                <instance id="80:38738" name="Horizontal - Centered" x="51" y="180" width="140" height="24" />
+                <instance id="80:38739" name="Vertical - Centered" x="191" y="40" width="32" height="140" />
+              </frame>
+              <frame id="80:38740" name="Group 12342908" x="51" y="308" width="310" height="228">
+                <instance id="80:38741" name="tui-card-medium " x="51" y="308" width="140" height="140" />
+                <frame id="80:38742" name="rules" x="51" y="488" width="310" height="48">
+                  <instance id="80:38743" name="tui-ic-fixed-color / check-circle-positive" x="0" y="0" width="24" height="24" />
+                  <text id="80:38744" name="Решение 1: сократили текст заголовка,  сохранив размер карточки" x="32" y="0" width="278" height="48" />
+                </frame>
+                <instance id="80:38745" name="Horizontal - Centered" x="51" y="448" width="140" height="24" />
+                <instance id="80:38746" name="Vertical - Centered" x="191" y="308" width="32" height="140" />
+              </frame>
+              <frame id="80:38747" name="Group 12342907" x="51" y="624" width="357" height="236">
+                <instance id="80:38748" name="tui-card-medium " x="51" y="624" width="148" height="148" />
+                <frame id="80:38749" name="rules" x="51" y="812" width="357" height="48">
+                  <instance id="80:38750" name="tui-ic-medium / check-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38751" name="Решение 3: равномерно увеличили высоту и ширину карточки, сохранив контент" x="32" y="0" width="325" height="48" />
+                </frame>
+                <instance id="80:38752" name="Horizontal - Centered" x="51" y="772" width="148" height="24" />
+                <instance id="80:38753" name="Vertical - Centered" x="199" y="624" width="32" height="148" />
+              </frame>
+              <frame id="80:38754" name="Group 12342909" x="451" y="308" width="368" height="252">
+                <instance id="80:38755" name="tui-card-medium " x="451" y="308" width="140" height="140" />
+                <frame id="80:38756" name="rules" x="451" y="488" width="368" height="72">
+                  <instance id="80:38757" name="tui-ic-fixed-color / check-circle-positive" x="0" y="0" width="24" height="24" />
+                  <text id="80:38758" name="Решение 2: выставили заголовок в одну строку и увели в фейд, сохранив размер карточки и контент" x="32" y="0" width="336" height="72" />
+                </frame>
+                <instance id="80:38759" name="Horizontal - Centered" x="451" y="448" width="140" height="24" />
+                <instance id="80:38760" name="Vertical - Centered" x="591" y="308" width="32" height="140" />
+              </frame>
+              <frame id="80:38761" name="Group 12342906" x="451" y="624" width="368" height="236">
+                <instance id="80:38762" name="tui-card-medium " x="451" y="624" width="140" height="140" />
+                <frame id="80:38763" name="rules" x="451" y="812" width="368" height="48">
+                  <instance id="80:38764" name="tui-ic-medium / check-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38765" name="Решение 4: уменьшили размер аватара, сохранив размер карточки и текст" x="32" y="0" width="336" height="48" />
+                </frame>
+                <instance id="80:38766" name="Horizontal - Centered" x="451" y="764" width="140" height="24" />
+                <instance id="80:38767" name="Vertical - Centered" x="591" y="624" width="32" height="140" />
+              </frame>
+            </frame>
+          </frame>
+          <instance id="80:38768" name=".card-footer" x="0" y="1068" width="934" height="32" />
+        </frame>
+      </frame>
+      <frame id="80:38769" name="card-1x1" x="0" y="1148" width="934" height="1104">
+        <frame id="80:38770" name="Container" x="0" y="0" width="934" height="1056">
+          <instance id="80:38771" name="Card Header" x="0" y="0" width="934" height="80" />
+          <frame id="80:38772" name="card-content" x="0" y="80" width="934" height="944">
+            <frame id="80:38773" name="image" x="32" y="0" width="870" height="944">
+              <frame id="80:38774" name="Group 12342911" x="51" y="40" width="287" height="212">
+                <instance id="80:38775" name="tui-card-medium " x="51" y="40" width="148" height="148" />
+                <frame id="80:38776" name="rules" x="51" y="228" width="287" height="24">
+                  <instance id="80:38777" name="tui-ic-medium / cross-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38778" name="Проблема: не вмещается 4-й аватар" x="32" y="0" width="255" height="24" />
+                </frame>
+                <instance id="80:38779" name="Inside - Right" x="176" y="40" width="48" height="148" />
+                <instance id="80:38780" name="Inside - Bottom" x="51" y="160" width="148" height="48" />
+                <instance id="80:38781" name="Horizontal - Centered" x="51" y="188" width="148" height="24" />
+                <instance id="80:38782" name="Vertical - Centered" x="199" y="40" width="32" height="148" />
+              </frame>
+              <frame id="80:38783" name="Group 12342912" x="51" y="316" width="325" height="236">
+                <instance id="80:38784" name="tui-card-medium " x="51" y="316" width="148" height="148" />
+                <frame id="80:38785" name="rules" x="51" y="504" width="325" height="48">
+                  <instance id="80:38786" name="tui-ic-fixed-color / check-circle-positive" x="0" y="0" width="24" height="24" />
+                  <text id="80:38787" name="Решение 1: сократили количество до 3-х,  сохранив размер карточки" x="32" y="0" width="293" height="48" />
+                </frame>
+                <instance id="80:38788" name="Horizontal - Centered" x="51" y="464" width="148" height="24" />
+                <instance id="80:38789" name="Vertical - Centered" x="199" y="316" width="32" height="148" />
+              </frame>
+              <frame id="80:38790" name="Group 12342914" x="51" y="616" width="357" height="288">
+                <instance id="80:38791" name="tui-card-medium " x="51" y="616" width="176" height="176" />
+                <frame id="80:38792" name="rules" x="51" y="832" width="357" height="72">
+                  <instance id="80:38793" name="tui-ic-small / check-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38794" name="Решение 3: равномерно увеличили высоту и ширину карточки, сохранив контент и пропорции карточки" x="32" y="0" width="325" height="72" />
+                </frame>
+                <instance id="80:38795" name="Horizontal - Centered" x="51" y="792" width="176" height="24" />
+                <instance id="80:38796" name="Vertical - Centered" x="227" y="616" width="32" height="176" />
+              </frame>
+              <frame id="80:38797" name="Group 12342913" x="462" y="316" width="344" height="236">
+                <instance id="80:38798" name="tui-card-medium " x="462" y="316" width="148" height="148" />
+                <frame id="80:38799" name="rules" x="462" y="504" width="344" height="48">
+                  <instance id="80:38800" name="tui-ic-fixed-color / check-circle-positive" x="0" y="0" width="24" height="24" />
+                  <text id="80:38801" name="Решение 2: изменили размер аватар-стека,  сохранив размер карточки" x="32" y="0" width="312" height="48" />
+                </frame>
+                <instance id="80:38802" name="Horizontal - Centered" x="462" y="464" width="148" height="24" />
+                <instance id="80:38803" name="Vertical - Centered" x="610" y="316" width="32" height="148" />
+              </frame>
+              <frame id="80:38804" name="Group 12342915" x="462" y="616" width="357" height="264">
+                <instance id="80:38805" name="tui-card-medium " x="462" y="616" width="176" height="148" />
+                <frame id="80:38806" name="rules" x="462" y="832" width="357" height="48">
+                  <instance id="80:38807" name="tui-ic-medium / check-circle" x="0" y="0" width="24" height="24" />
+                  <text id="80:38808" name="Решение 4: увеличили ширину карточки, сохранив контент" x="32" y="0" width="325" height="48" />
+                </frame>
+                <instance id="80:38809" name="Horizontal - Centered" x="462" y="764" width="176" height="24" />
+                <instance id="80:38810" name="Vertical - Centered" x="638" y="616" width="32" height="148" />
+              </frame>
+            </frame>
+          </frame>
+          <instance id="80:38811" name=".card-footer" x="0" y="1024" width="934" height="32" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</canvas>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

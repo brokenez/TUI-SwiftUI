@@ -1,0 +1,88 @@
+const imgTuiLoader = "ASSET_URL_REDACTED";
+
+type TuiTextfieldProps = {
+  className?: string;
+  accessoryType?: React.ReactNode | null;
+  errorText?: string;
+  isFilled?: "off";
+  placeholderText?: string;
+  showEndAccessory?: boolean;
+  showLabel?: "off";
+  showLoader?: boolean;
+  showPlaceholder?: boolean;
+  showStartAccessory?: boolean;
+  skeleton?: "off";
+  state?: "invalid-focus";
+  system?: "iOS";
+};
+
+function TuiTextfield({ className, accessoryType = null, errorText = "Error", isFilled = "off", placeholderText = "Placeholder", showEndAccessory = false, showLabel = "off", showLoader = false, showPlaceholder = true, showStartAccessory = false, skeleton = "off", state = "invalid-focus", system = "iOS" }: TuiTextfieldProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start px-[var(--screen-padding,16px)] relative w-[320px]"} data-node-id="65702:51616">
+      <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex gap-[8px] items-start min-h-[56px] px-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="65702:51617" data-name="container">
+        {showStartAccessory && (
+          <div className="content-stretch flex items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51618" data-name="start-accessories">
+            <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="65702:51619" data-name="placeholder-single" />
+          </div>
+        )}
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-h-[56px] min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="65702:51620" data-name="content">
+          <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="65702:51621" data-name="value-container">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] h-[19px] mr-[-1px] relative rounded-[2px] shrink-0 w-[2px]" data-node-id="65702:51622" data-name="cursor" />
+            {showPlaceholder && (
+              <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[17px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.41px] whitespace-nowrap" data-node-id="65702:51623">
+                {placeholderText}
+              </p>
+            )}
+          </div>
+        </div>
+        {showEndAccessory && (
+          <div className="content-stretch flex gap-[12px] items-center justify-end relative self-stretch shrink-0" data-node-id="65702:51624" data-name="end-accessories">
+            {showLoader && (
+              <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51625" data-name="accessory-slot">
+                <div className="relative shrink-0 size-[24px]" data-node-id="65702:51626" data-name="tui-loader">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLoader} />
+                </div>
+              </div>
+            )}
+            <div className="content-stretch flex h-full items-center relative shrink-0" data-node-id="65702:51627" data-name="accessory-slot">
+              {accessoryType || (
+                <div className="content-stretch flex flex-col items-center justify-center relative shrink-0" data-node-id="65702:51628" data-name="placeholder">
+                  <div className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" data-node-id="I65702:51628;8820:76609" data-name="placeholder-single" />
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="content-stretch flex items-start p-[12px] relative shrink-0 w-full" data-node-id="65702:51629" data-name="error-container">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="65702:51630">
+          {errorText}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-textfield 
+**Node ID:** 65702:51131
+
+Поле для ввода текста. Используется в фреймворке SmartFields, PWA, WebView
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-textfield-specs](https://go.tcsbank.ru/tui-textfield-specs)
+
+Images and SVGs will be stored as constants, e.g. const image = 'ASSET_URL_REDACTED'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

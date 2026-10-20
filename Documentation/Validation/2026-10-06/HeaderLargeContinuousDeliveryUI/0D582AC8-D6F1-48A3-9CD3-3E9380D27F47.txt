@@ -1,0 +1,99 @@
+Attributes: Application, 0x113e1fd40, pid: 95062, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x113e1fd40, pid: 95062, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x113e1fe80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113e1f700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113e1f840, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113e1f980, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113e1fac0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113e1fc00, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x113e1d7c0, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'tui-header [large]'
+                  Button, 0x113e1d900, {{16.0, 62.0}, {44.0, 44.0}}, identifier: 'BackButton', label: 'TUI Design System'
+                  StaticText, 0x113e1da40, {{130.3, 73.7}, {141.3, 20.7}}, label: 'tui-header [large]'
+                Other, 0x113dfde00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113dfdb80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113dfdcc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113e27c00, {{0.0, 0.0}, {402.0, 874.0}}
+                        CollectionView, 0x113e27840, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x113e27980, {{-16.0, -1632.0}, {434.0, 2580.7}}
+                          Other, 0x113e27ac0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x113e25540, {{0.0, 0.0}, {402.0, 874.0}}
+                          Cell, 0x113e275c0, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x113e27700, {{16.0, 116.0}, {370.0, 40.3}}
+                            Other, 0x113e25400, {{16.0, 116.0}, {370.0, 40.3}}
+                              Other, 0x113e27d40, {{16.0, 116.0}, {370.0, 40.3}}
+                                Other, 0x113e27e80, {{16.0, 116.0}, {370.0, 40.3}}
+                                  StaticText, 0x113e24a00, {{16.0, 116.0}, {370.0, 40.3}}, label: 'Живой компонент'
+                          Cell, 0x113e248c0, {{16.0, 156.3}, {370.0, 774.7}}
+                            Other, 0x113e257c0, {{16.0, 156.3}, {370.0, 774.7}}
+                              Other, 0x113e26d00, {{16.0, 156.3}, {370.0, 774.7}}
+                            Other, 0x113e243c0, {{16.0, 156.3}, {370.0, 774.7}}
+                              Other, 0x113e24500, {{16.0, 156.3}, {370.0, 774.7}}
+                                Other, 0x113e24640, {{16.0, 156.3}, {370.0, 774.7}}
+                                  StaticText, 0x113e24780, {{32.0, 164.3}, {261.0, 70.0}}, label: 'Header, Subheader'
+                                    StaticText, 0x113e24c80, {{32.0, 164.8}, {102.7, 36.0}}, label: 'Header'
+                                      Link, 0x113e24dc0, {{32.0, 164.8}, {102.6, 35.8}}, identifier: 'https://go.tcsbank.ru/tui-header-specs', label: 'Header'
+                                    StaticText, 0x113e24f00, {{32.0, 216.2}, {74.7, 18.0}}, label: 'Subheader'
+                                      Link, 0x113e25040, {{32.0, 216.2}, {74.5, 17.9}}, identifier: 'https://go.tcsbank.ru/tui-header-specs', label: 'Subheader'
+                                  Switch, 0x113e25180, {{309.0, 168.3}, {61.0, 28.0}}, label: 'Выбрать раздел', value: 0
+                                    Switch, 0x113e252c0, {{309.0, 168.3}, {63.0, 28.0}}, value: 0
+                                  StaticText, 0x113e58000, {{32.0, 274.5}, {117.7, 20.3}}, label: 'Вариант Figma'
+                                  Button, 0x113e58140, {{32.0, 267.3}, {338.0, 34.3}}, identifier: 'headerVariantPicker', label: 'Вариант Figma, subheaderLeading'
+                                    StaticText, 0x113e58280, {{212.3, 274.3}, {141.3, 20.3}}, label: 'subheaderLeading'
+                                  TextField, 0x113e583c0, {{32.0, 306.7}, {338.0, 22.0}}, placeholderValue: 'Заголовок', value: Header
+                                  TextField, 0x113e58500, {{32.0, 340.7}, {338.0, 22.0}}, placeholderValue: 'Подзаголовок', value: Subheader
+                                  TextField, 0x113e58640, {{32.0, 374.7}, {338.0, 22.0}}, placeholderValue: 'Описание', value: Description
+                                  Switch, 0x113e58780, {{32.0, 405.0}, {338.0, 28.0}}, label: 'Подзаголовок', value: 1
+                                    StaticText, 0x113e588c0, {{32.0, 408.8}, {113.0, 20.3}}, label: 'Подзаголовок'
+                                    Switch, 0x113e58a00, {{309.0, 405.0}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113e58b40, {{32.0, 437.3}, {338.0, 28.0}}, label: 'Иконка справа', value: 0
+                                    StaticText, 0x113e58c80, {{32.0, 441.2}, {118.7, 20.3}}, label: 'Иконка справа'
+                                    Switch, 0x113e58dc0, {{309.0, 437.3}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x113e58f00, {{32.0, 469.7}, {338.0, 28.0}}, label: 'Анимация skeleton', value: 1
+                                    StaticText, 0x113e59040, {{32.0, 473.5}, {149.3, 20.3}}, label: 'Анимация skeleton'
+                                    Switch, 0x113e59180, {{309.0, 469.7}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113e592c0, {{32.0, 502.0}, {338.0, 28.0}}, identifier: 'headerCustomAccessory', label: 'Интерактивный accessory', value: 1
+                                    StaticText, 0x113e59400, {{32.0, 505.8}, {207.7, 20.3}}, label: 'Интерактивный accessory'
+                                    Switch, 0x113e59540, {{309.0, 502.0}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113e59680, {{32.0, 534.3}, {338.0, 28.0}}, label: 'Accessory под текстом на AX1', value: 0
+                                    StaticText, 0x113e597c0, {{32.0, 538.2}, {239.0, 20.3}}, label: 'Accessory под текстом на AX1'
+                                    Switch, 0x113e59900, {{309.0, 534.3}, {63.0, 28.0}}, value: 0
+                                  Switch, 0x113e59a40, {{32.0, 566.7}, {338.0, 28.0}}, identifier: 'headerTitleLink', label: 'Ссылки в текстовых блоках', value: 1
+                                    StaticText, 0x113e59b80, {{32.0, 570.5}, {220.0, 20.3}}, label: 'Ссылки в текстовых блоках'
+                                    Switch, 0x113e59cc0, {{309.0, 566.7}, {63.0, 28.0}}, value: 1
+                                  Switch, 0x113e59e00, {{32.0, 599.0}, {338.0, 28.0}}, label: 'Иконка внутри текста', value: 0
+                                    StaticText, 0x113e59f40, {{32.0, 602.8}, {173.7, 20.3}}, label: 'Иконка внутри текста'
+                                    Switch, 0x113e5a080, {{309.0, 599.0}, {63.0, 28.0}}, value: 0
+                                  StaticText, 0x113e5a1c0, {{32.0, 635.2}, {232.3, 20.3}}, label: 'Выравнивание слотов текста'
+                                  Button, 0x113e5a300, {{32.0, 628.0}, {338.0, 34.3}}, label: 'Выравнивание слотов текста, center'
+                                    StaticText, 0x113e5a440, {{304.7, 635.0}, {49.0, 20.3}}, label: 'center'
+                                  StaticText, 0x113e5a580, {{101.2, 667.5}, {199.7, 20.3}}, label: 'Выравнивание accessory'
+                                  Button, 0x113e5a6c0, {{101.2, 667.5}, {199.7, 58.5}}, label: 'Выравнивание accessory, firstLineCenter'
+                                    StaticText, 0x113e5a800, {{113.3, 698.7}, {113.0, 20.3}}, label: 'firstLineCenter'
+                                  StaticText, 0x113e5a940, {{113.8, 738.2}, {174.3, 20.3}}, label: 'Переполнение текста'
+                                  Button, 0x113e5aa80, {{113.8, 738.2}, {174.3, 58.5}}, label: 'Переполнение текста, Несколько строк'
+                                    StaticText, 0x113e5abc0, {{126.0, 769.3}, {135.3, 20.3}}, label: 'Несколько строк'
+                                  StaticText, 0x113e5ad00, {{32.0, 808.8}, {116.0, 20.3}}, label: 'Размер текста'
+                                  Button, 0x113e5ae40, {{32.0, 801.7}, {338.0, 34.3}}, label: 'Размер текста, Стандартный'
+                                    StaticText, 0x113e5af80, {{246.7, 808.7}, {107.0, 20.3}}, label: 'Стандартный'
+                                  SegmentedControl, 0x113e5b0c0, {{32.0, 841.0}, {338.0, 31.0}}
+                                    Button, 0x113e5b200, {{32.0, 841.0}, {169.0, 32.0}}, label: 'Day', Selected
+                                    Button, 0x113e5b340, {{201.0, 841.0}, {169.0, 32.0}}, label: 'Night'
+                                  StaticText, 0x113e5b480, {{32.0, 884.2}, {74.3, 14.3}}, label: 'Figma node'
+                                  StaticText, 0x113e5b5c0, {{32.0, 884.2}, {338.0, 14.3}}, label: 'Figma node, 42565:305051'
+                                  Button, 0x113e5b700, {{32.0, 910.5}, {335.7, 20.3}}, label: 'Матрица всех 10 вариантов'
+                                    StaticText, 0x113e5b840, {{32.0, 910.5}, {221.0, 20.3}}, label: 'Матрица всех 10 вариантов'
+                                    Image, 0x113e5b980, {{360.7, 914.7}, {7.0, 12.0}}, identifier: 'chevron.forward'
+                          Other, 0x113e5bac0, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 4 pages', value: 0 %
+                            Other, 0x113e5bc00, {{396.0, 119.0}, {3.0, 248.7}}
+                          Other, 0x113e5bd40, {{369.0, 116.0}, {30.0, 696.0}}, label: 'Vertical scroll bar, 4 pages', value: 0 %
+                            Other, 0x113e5be80, {{396.0, 119.0}, {3.0, 248.7}}
+                Other, 0x113e60000, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113e60140, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113e1fd40, pid: 95062, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x113e60280, pid: 95062, label: 'TUIDesignSystemCatalog'
+  }

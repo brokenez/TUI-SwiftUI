@@ -1,0 +1,158 @@
+<canvas id="4885:31175" name="🏃 Прототипы" x="0" y="0" width="0" height="0">
+  <frame id="4900:42206" name="hover-1" x="360" y="-132" width="450" height="238">
+    <instance id="4900:42207" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="4904:9190" name="click-1" x="984" y="-132" width="450" height="238">
+    <instance id="4904:9191" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="5007:34922" name="hint-1" x="-316" y="-132" width="450" height="238">
+    <instance id="5007:34923" name="tui-input" x="65" y="91" width="320" height="56" />
+    <frame id="5007:34972" name="description" x="65" y="147" width="320" height="1">
+      <text id="5007:34973" name="DescriptionData" x="0" y="-19" width="68" height="20" />
+    </frame>
+  </frame>
+  <frame id="4904:12998" name="tap-1" x="1608" y="-132" width="450" height="238">
+    <frame id="9937:184164" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184165" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13195" name="tap-1" x="2284" y="-132" width="450" height="238">
+    <frame id="9937:184194" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184195" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13293" name="shake-1" x="2930" y="-132" width="450" height="268">
+    <frame id="9937:184224" name="[deprecated] tui-textfield" x="80" y="68" width="290" height="58">
+      <instance id="9937:184225" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4904:13322" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2229" name="shake-2" x="2930" y="177" width="450" height="268">
+    <frame id="9937:184258" name="[deprecated] tui-textfield" x="77" y="68" width="290" height="58">
+      <instance id="9937:184259" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2231" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2256" name="shake-3" x="2930" y="486" width="450" height="268">
+    <frame id="9937:184292" name="[deprecated] tui-textfield" x="83" y="68" width="290" height="58">
+      <instance id="9937:184293" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2258" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2270" name="shake-4" x="2930" y="795" width="450" height="268">
+    <frame id="9937:184326" name="[deprecated] tui-textfield" x="76" y="68" width="290" height="58">
+      <instance id="9937:184327" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2272" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2326" name="shake-4" x="2930" y="2031" width="450" height="268">
+    <frame id="9937:184360" name="[deprecated] tui-textfield" x="76" y="68" width="290" height="58">
+      <instance id="9937:184361" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2328" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2284" name="shake-5" x="2930" y="1104" width="450" height="268">
+    <frame id="9937:184394" name="[deprecated] tui-textfield" x="82" y="68" width="290" height="58">
+      <instance id="9937:184395" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2286" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2329" name="shake-5" x="2930" y="2340" width="450" height="268">
+    <frame id="9937:184428" name="[deprecated] tui-textfield" x="82" y="68" width="290" height="58">
+      <instance id="9937:184429" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2331" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2298" name="shake-6" x="2930" y="1413" width="450" height="268">
+    <frame id="9937:184462" name="[deprecated] tui-textfield" x="80" y="68" width="290" height="58">
+      <instance id="9937:184463" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2300" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2332" name="shake-6" x="2930" y="2649" width="450" height="268">
+    <frame id="9937:184496" name="[deprecated] tui-textfield" x="80" y="68" width="290" height="58">
+      <instance id="9937:184497" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2334" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4923:2312" name="shake-6" x="2930" y="1722" width="450" height="268">
+    <frame id="9937:184530" name="[deprecated] tui-textfield" x="80" y="68" width="290" height="58">
+      <instance id="9937:184531" name="tui-textfield " x="0" y="0" width="290" height="58" />
+    </frame>
+    <instance id="4923:2314" name="tui-button" x="80" y="143" width="290" height="56" />
+  </frame>
+  <frame id="4904:13018" name="tap-2" x="1608" y="158" width="450" height="238">
+    <frame id="9937:184560" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184561" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13197" name="tap-2" x="2284" y="158" width="450" height="238">
+    <frame id="9937:184586" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184587" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13026" name="tap-3" x="1608" y="443" width="450" height="238">
+    <frame id="9937:184612" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184613" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13199" name="tap-3" x="2284" y="443" width="450" height="238">
+    <frame id="9937:184639" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184640" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4904:13229" name="tap-3" x="2284" y="739" width="450" height="238">
+    <frame id="9937:184659" name="[deprecated] tui-textfield" x="115" y="91" width="220" height="56">
+      <instance id="9937:184660" name="tui-textfield " x="0" y="0" width="220" height="56" />
+    </frame>
+  </frame>
+  <frame id="4900:42236" name="hover-2" x="360" y="147" width="450" height="238">
+    <instance id="4900:42237" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="4904:9192" name="click-2" x="984" y="147" width="450" height="238">
+    <instance id="4904:9193" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="5007:34924" name="hint-2" x="-316" y="147" width="450" height="238">
+    <instance id="5007:34925" name="tui-input" x="65" y="91" width="320" height="56" />
+    <frame id="5007:34974" name="description" x="65" y="147" width="320" height="1">
+      <text id="5007:34975" name="DescriptionData" x="0" y="-19" width="68" height="20" />
+    </frame>
+  </frame>
+  <frame id="4904:9212" name="click-3" x="984" y="443" width="450" height="238">
+    <instance id="4904:9213" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="5007:34926" name="hint-3" x="-316" y="443" width="450" height="238">
+    <instance id="5007:34927" name="tui-input" x="65" y="91" width="320" height="56" />
+    <frame id="5007:34976" name="description" x="65" y="151" width="320" height="24">
+      <text id="5007:34977" name="DescriptionData" x="0" y="4" width="68" height="20" />
+    </frame>
+  </frame>
+  <frame id="4904:13043" name="click-3" x="984" y="739" width="450" height="238">
+    <instance id="4904:13044" name="tui-input" x="65" y="91" width="320" height="56" />
+  </frame>
+  <frame id="9934:60155" name="iPhone " x="3647" y="-132" width="375" height="667">
+    <frame id="9934:60156" name="Navbar" x="0" y="0" width="375" height="44">
+      <instance id="9934:60157" name="system-status-bar" x="0" y="0" width="375" height="44" />
+    </frame>
+    <frame id="9934:60158" name="tui-textfield" x="0" y="84" width="375" height="148">
+      <frame id="9934:60159" name="tui-textfield" x="16" y="12" width="343" height="56">
+        <instance id="9934:60160" name="MasterHint" x="0" y="0" width="343" height="60" />
+        <instance id="9934:65379" name="tui-textfield " x="0" y="0" width="343" height="56" />
+      </frame>
+      <instance id="9934:65288" name="tui-textfield " x="16" y="80" width="343" height="56" />
+    </frame>
+  </frame>
+  <frame id="9934:60163" name="iPhone " x="4083" y="-132" width="375" height="667">
+    <frame id="9934:60164" name="Navbar" x="0" y="0" width="375" height="44">
+      <instance id="9934:60165" name="system-status-bar" x="0" y="0" width="375" height="44" />
+    </frame>
+    <frame id="9934:60166" name="tui-textfield" x="0" y="84" width="375" height="208">
+      <frame id="9934:60167" name="tui-textfield" x="16" y="12" width="343" height="116">
+        <instance id="9934:60168" name="MasterHint" x="0" y="56" width="343" height="60" />
+        <instance id="9934:65355" name="tui-textfield " x="0" y="-2.842170943040401e-14" width="343" height="56" />
+      </frame>
+      <instance id="9934:65330" name="tui-textfield " x="16" y="140" width="343" height="56" />
+    </frame>
+  </frame>
+</canvas>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

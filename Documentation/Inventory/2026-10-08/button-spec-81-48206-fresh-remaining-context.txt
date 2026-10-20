@@ -1,0 +1,158 @@
+const imgTuiButton = "[TEMPORARY_ASSET_URL]";
+const imgTuiButton1 = "[TEMPORARY_ASSET_URL]";
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="81:48206" data-name="Размеры">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="81:48207" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I81:48207;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48207;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Размеры
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I81:48207;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48207;9462:7160">
+            Здесь описываем только внешний вид. Правила использования — на отдельной странице
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48208" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48208;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48208;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Desktop
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48208;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48208;9462:7170">
+            Для десктопных интерфейсов есть 4 базовых размера
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="81:48209" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="81:48210" data-name="Container">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48211" data-name="Card Header">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I81:48211;9510:6914" data-name="card-container" />
+          </div>
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col items-start px-[32px] relative shrink-0 w-full" data-node-id="81:48212" data-name="card-content">
+            <div className="h-[241px] relative shrink-0 w-full" data-node-id="81:48213" data-name="image">
+              <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[206px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[93px]" data-node-id="81:48214" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I81:48214;200:101982" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48214;200:101983">
+                    Large (default)
+                  </p>
+                </div>
+              </div>
+              <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[365px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[93px]" data-node-id="81:48215" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I81:48215;200:102682" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48215;200:102683">
+                    Medium
+                  </p>
+                </div>
+              </div>
+              <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[478px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[93px]" data-node-id="81:48216" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I81:48216;200:102332" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48216;200:102333">
+                    Small
+                  </p>
+                </div>
+              </div>
+              <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[553px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[93px]" data-node-id="81:48217" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I81:48217;201:99387" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48217;201:99388">
+                    X-small
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48218" data-name=".card-footer">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I81:48218;9499:6876" data-name="footer-container" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="81:48219" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I81:48219;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I81:48219;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Mobile
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I81:48219;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I81:48219;9462:7170">
+            На мобиле только три основных размера, меньше чем в десктопе
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[24px] shrink-0 w-[934px]" data-node-id="81:48220" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="81:48221" data-name="Container">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48222" data-name="Card Header">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I81:48222;9510:6914" data-name="card-container" />
+          </div>
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col items-start px-[32px] relative shrink-0 w-full" data-node-id="81:48223" data-name="card-content">
+            <div className="h-[241px] relative shrink-0 w-full" data-node-id="81:48224" data-name="image">
+              <div className="absolute content-stretch flex items-start left-[210px] top-[93px]" data-node-id="81:48225" data-name="Instance Container">
+                <div className="relative shrink-0 size-[220px]" data-node-id="I81:48225;525:2120" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex items-start left-[399.5px] top-[93px]" data-node-id="81:48226" data-name="Instance Container">
+                <div className="relative shrink-0 size-[220px]" data-node-id="I81:48226;525:2120" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex items-start left-[526px] top-[93px]" data-node-id="81:48227" data-name="Instance Container">
+                <div className="relative shrink-0 size-[128px]" data-node-id="I81:48227;525:2116" data-name=".Instance">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiButton1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48228" data-name=".card-footer">
+            <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I81:48228;9499:6876" data-name="footer-container" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Background/base-alt: #F6F7F8, Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), Desktop/UI S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 32862:25087
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15277
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 32862:15276
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## system=ios, size=medium, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15457
+
+Ex. primary-tinkoff
+
+## system=ios, size=small, appearance=primary, state=normal, skeleton=off
+**Node ID:** 32862:15367
+
+Ex. primary-tinkoff
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

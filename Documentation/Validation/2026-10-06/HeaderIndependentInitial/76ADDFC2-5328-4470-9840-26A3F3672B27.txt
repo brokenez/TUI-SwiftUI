@@ -1,0 +1,26 @@
+Application, 0x113fce080, pid: 63915, label: 'TUIConsumer' <App element pid: 63915>
+  Window (Main), 0x113fcfe80, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4393026560.4>
+    Other, 0x113fcfd40, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463376384.5>
+      Other, 0x113fcfc00, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463320576.6>
+        Other, 0x113fcfac0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4393027584.7>
+          Other, 0x113fcf980, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4394515328.8>
+            Other, 0x113fce1c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463388736.9>
+              NavigationBar, 0x113969180, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект' <AX element pid: 63915, elementOrHash.elementID: 4386892064.10>
+                StaticText, 0x113969040, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект' <AX element pid: 63915, elementOrHash.elementID: 4395109888.13>
+              Other, 0x1139697c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463389184.11>
+                Other, 0x1138008c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4395077120.14>
+                  Other, 0x113800640, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4395106304.16>
+                    Other, 0x113802d00, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4394596352.17>
+                      StaticText, 0x113802e40, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live' <AX element pid: 63915, elementOrHash.elementID: 4394583360.18>
+                      StaticText, 0x113803840, {{29.5, 176.7}, {967.3, 36.0}}, identifier: 'headerSuffix', label: 'Очень длинный заголовок, который не помещается в одну строку, 42' <AX element pid: 63915, elementOrHash.elementID: 4394586496.19>
+                        StaticText, 0x113802bc0, {{29.5, 176.7}, {967.3, 36.0}}, label: 'Очень длинный заголовок, который не помещается в одну строку' <AX element pid: 63915, elementOrHash.elementID: 4394584704.26>
+                        StaticText, 0x113803340, {{354.5, 185.3}, {18.0, 18.0}}, identifier: 'headerSuffix', label: '42' <AX element pid: 63915, elementOrHash.elementID: 4394586048.27>
+                      StaticText, 0x113800a00, {{147.3, 252.3}, {107.3, 20.3}}, label: 'Выбрано: нет' <AX element pid: 63915, elementOrHash.elementID: 4394589184.20>
+                      StaticText, 0x113801cc0, {{160.7, 288.7}, {80.7, 20.3}}, label: 'Ссылок: 0' <AX element pid: 63915, elementOrHash.elementID: 4394590080.21>
+                      StaticText, 0x113801e00, {{128.7, 325.0}, {144.7, 20.3}}, label: 'Reduce Motion: off' <AX element pid: 63915, elementOrHash.elementID: 4394591424.22>
+                      StaticText, 0x113801540, {{98.2, 361.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off' <AX element pid: 63915, elementOrHash.elementID: 4394592320.23>
+                      StaticText, 0x1138012c0, {{150.0, 397.7}, {102.0, 20.3}}, label: 'Scene: active' <AX element pid: 63915, elementOrHash.elementID: 4394593216.24>
+                      Button, 0x113801f40, {{164.0, 434.0}, {74.3, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, fade' <AX element pid: 63915, elementOrHash.elementID: 4386918528.25>
+                        StaticText, 0x1138035c0, {{175.7, 441.0}, {34.0, 20.3}}, label: 'fade' <AX element pid: 63915, elementOrHash.elementID: 4395108096.28>
+              Other, 0x113803d40, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463972352.12>
+                Other, 0x113800780, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 63915, elementOrHash.elementID: 4463974400.15>

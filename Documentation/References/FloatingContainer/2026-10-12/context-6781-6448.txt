@@ -1,0 +1,188 @@
+import { imgDimensionVer, imgStart, img3 } from "./svg-451yg";
+
+function DimensionVer({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[8px] relative w-[5px]"} data-node-id="6781:6379" data-name=".DimensionVer">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+    </div>
+  );
+}
+
+export default function Image1X() {
+  return (
+    <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="6781:6448" data-name="Image 1x1">
+      <div className="content-stretch flex flex-col gap-[530px] items-center overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I6781:6448;9469:7126" data-name="Image Placeholder">
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I6781:6448;9469:7126;9469:7234" data-name="Start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I6781:6448;9469:7126;9469:7235" data-name="End">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I6781:6448;9469:7126;5375:1824" data-name="Content Appearance" />
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-end justify-center left-1/2 pb-[460px] top-1/2" data-node-id="I6781:6448;9469:7126;9470:7246" data-name="Instance Container">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I6781:6448;9469:7126;9470:7246;525:2057" data-name=".Instance">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I6781:6448;9469:7126;8349:7026">
+          ...
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Background/elevation-1: #FFFFFF, iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), Day/Text/action: #428BF9, Лого партнеров/Старбакс: , Day/Component/badge-notification: #F52222, Лого партнеров/Dodo: , Лого партнеров/goods: , iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Text/primary-on-dark: #FFFFFF, Лого партнеров/Пятерочка: , iOS/UI XS: Font(family: "SF Pro Text", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## template-navigation-bar
+**Node ID:** 7524:23902
+
+Дизайн-шаблон верхней части экрана со статусбаром и навбаром/аппбаром.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547)
+
+## system-status-bar
+**Node ID:** 7524:20861
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## progress
+**Node ID:** 7524:20270
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-card-large
+**Node ID:** 7524:19201
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 7524:17012
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## Placeholder
+**Node ID:** 7524:16472
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## system=ios, size=medium, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6224
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 7524:6043
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-ic-medium / arrows-left-right
+**Node ID:** 7524:944
+
+left and right arrows, horizontal arrows, bidirectional arrows, double arrows, arrows pointing left and right
+
+## tui-row [card-medium]
+**Node ID:** 7524:18824
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-row-specs](https://go.tcsbank.ru/tui-row-specs)
+
+## tui-card-medium 
+**Node ID:** 7524:18645
+
+Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-medium-specs](https://go.tcsbank.ru/tui-card-medium-specs)
+
+## tui-avatar-stack
+**Node ID:** 7524:15233
+
+Стопка аватаров для использования в карточках или отдельно. Чтобы убрать лишние аватары, просто удалите их
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-stack-specs](https://go.tcsbank.ru/tui-avatar-stack-specs)
+
+## tui-avatar
+**Node ID:** 7524:14026
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## Mask
+**Node ID:** 7524:15196
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-header [card-medium]
+**Node ID:** 7524:17782
+
+⚪ Not In TUI
+
+## tui-ic-medium / camera-video
+**Node ID:** 7524:137
+
+multimedia, film, movie, clip
+
+## tui-ic-medium / music
+**Node ID:** 7524:939
+
+audio, sound, melody, tune
+
+## tui-ic-medium / fork-knife
+**Node ID:** 7524:142
+
+cutlery, utensils, dining, silverware
+
+## tui-ic-medium / star
+**Node ID:** 3263:2750
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-floating-container
+**Node ID:** 7524:16482
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 7524:6044
+
+Ex. primary-tinkoff
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 7524:16324
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 7524:16295
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/FloatingContainer/2026-10-12/Assets/6781-6448/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

@@ -1,0 +1,45 @@
+const imgTuiLogoPaymentSbp = "https://www.figma.com/api/mcp/asset/9f459344-717d-4279-9366-bd9e827ef188.svg";
+const imgStart = "https://www.figma.com/api/mcp/asset/d07f3648-fe68-4774-8e38-4c2f868075d3.svg";
+const imgTextMobile = "https://www.figma.com/api/mcp/asset/f779aa44-5c1a-4364-b123-2ba0a14a450b.svg";
+
+function TuiLogoPaymentSbp({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="1443:5422" data-name="tui-logo / payment-sbp">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiLogoPaymentSbp} />
+    </div>
+  );
+}
+
+export default function Image1X1() {
+  return (
+    <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start pb-[var(--indents\/bottom-indent-l,32px)] relative size-full" data-node-id="1443:5467" data-name="Image 1x1">
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[320px] items-start min-h-px overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] w-full" data-node-id="I1443:5467;9469:7126" data-name="Image Placeholder">
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I1443:5467;9469:7126;9469:7234" data-name="Start">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="h-0 relative shrink-0 w-full" data-node-id="I1443:5467;9469:7126;9469:7235" data-name="End">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+        </div>
+        <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I1443:5467;9469:7126;5375:1824" data-name="Content Appearance" />
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I1443:5467;9469:7126;9470:7246" data-name="Instance Container">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I1443:5467;9469:7126;9470:7246;525:2057" data-name=".Instance">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTextMobile} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I1443:5467;9469:7126;8349:7026">
+          ...
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Gradient/Text/Primary Fade: .
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,421 @@
+const imgImgPlaceholder = "https://www.figma.com/api/mcp/asset/df698dd4-a835-4fd9-8dbc-b6ccb6358ba5.png";
+const imgImgPlaceholder1 = "https://www.figma.com/api/mcp/asset/f7c2235e-d20c-4ea0-9f8f-8dc01870ec02.png";
+const imgImgPlaceholder2 = "https://www.figma.com/api/mcp/asset/dc2b8cd1-487d-42bb-820e-803fca68d527.png";
+const imgImgPlaceholder3 = "https://www.figma.com/api/mcp/asset/64015971-eb10-436d-a565-d58396b52569.png";
+const imgImgPlaceholder4 = "https://www.figma.com/api/mcp/asset/a62652ab-bb11-48c9-84ff-956590f7842a.png";
+const imgImgPlaceholder5 = "https://www.figma.com/api/mcp/asset/5d7dbba1-7143-4ad0-ad61-d2496239b2fd.png";
+const imgStart = "https://www.figma.com/api/mcp/asset/c4706579-da1f-4710-9179-9f7ec3bfa49b.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/d708659e-7095-40e0-ac35-8ad7d8e67f61.svg";
+
+type H4PProps = {
+  className?: string;
+  text?: "off";
+  titleText?: string;
+};
+
+function H4P({ className, text = "off", titleText = "### H4" }: H4PProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[20px] pt-[24px] relative w-[934px]"} data-node-id="1:4042">
+      <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[20px] not-italic relative shrink-0 text-[20px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="1:4043" style={{ fontFeatureSettings: '"liga" 0' }}>
+        {titleText}
+      </p>
+    </div>
+  );
+}
+
+type H2PProps = {
+  className?: string;
+  text?: boolean;
+  titleText?: string;
+};
+
+function H2P({ className, text = true, titleText = "## H2" }: H2PProps) {
+  const isNotText = !text;
+  return (
+    <div className={className || `content-stretch flex flex-col items-start pt-[16px] relative w-[934px] ${isNotText ? "pb-[32px]" : "pb-[20px]"}`} id={isNotText ? "node-1_4035" : "node-1_4031"}>
+      <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="1:4032" style={{ fontFeatureSettings: '"liga" 0' }}>
+        {titleText}
+      </p>
+      {text && (
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="1:4033" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="1:4034">
+            Paragraph text
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ImageUsage({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-center relative"} data-node-id="1:4011" data-name="image-usage">
+      <H2P className="content-stretch flex flex-col items-start pb-[32px] pt-[16px] relative shrink-0 w-[934px]" text={false} titleText="Как вставлять картинки" />
+      <H4P className="content-stretch flex flex-col items-start pb-[20px] pt-[24px] relative shrink-0 w-[934px]" titleText="Способ №1 — вставка стилем" />
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="1:4014" data-name="list-numbered">
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] pt-px relative shrink-0 w-full" data-node-id="I1:4014;9460:7184" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4014;9460:7184;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4014;9460:7184;9460:7139">
+              1.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4014;9460:7184;9460:7137">
+            Перетаскиваем нужную картинку в любое место холста
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4014;9460:7185" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4014;9460:7185;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4014;9460:7185;9460:7139">
+              2.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4014;9460:7185;9460:7137">
+            Выделяем картинку
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4014;9460:7186" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4014;9460:7186;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4014;9460:7186;9460:7139">
+              3.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] min-w-px not-italic relative text-[0px] text-[rgba(0,0,0,0.8)] whitespace-pre-wrap" data-node-id="I1:4014;9460:7186;9460:7137">
+            <span className="leading-[24px] text-[15px]">
+              {`Жмем правой кнопкой мыши, выбираем “Copy/Paste as”, а затем “Copy properties”. `}
+              <br aria-hidden />
+              {`Чтобы было быстрее, можно на клавиатуре нажать `}
+            </span>
+            <span className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] text-[15px]">CMD+Alt+C</span>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4015" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4015;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 mix-blend-multiply overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[92.34%] left-[16.31%] max-w-none top-[8.1%] w-[84.58%]" src={imgImgPlaceholder} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4015;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4015;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="1:4016" data-name="list-numbered">
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4016;9460:7187" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4016;9460:7187;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4016;9460:7187;9460:7139">
+              4.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4016;9460:7187;9460:7137">
+            Выделяем блок с картинкой: удерживаем CMD и жмем левой кнопкой мыши по блоку
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4016;9460:7188" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4016;9460:7188;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4016;9460:7188;9460:7139">
+              5.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] min-w-px not-italic relative text-[0px] text-[rgba(0,0,0,0.8)] whitespace-pre-wrap" data-node-id="I1:4016;9460:7188;9460:7137">
+            <span className="leading-[24px] text-[15px]">
+              {`Жмем правой кнопкой мыши, выбираем “Copy/Paste as”, а затем “Paste properties”. `}
+              <br aria-hidden />
+              {`Чтобы было быстрее, можно на клавиатуре `}
+            </span>
+            <span className="font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] text-[15px]">нажать CMD+Alt+V</span>
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4016;9460:7189" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4016;9460:7189;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4016;9460:7189;9460:7139">
+              6.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4016;9460:7189;9460:7137">
+            Картинка должна вставиться. Как ей управлять, сморите ниже, в разделе “Как настраивать картинки”
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4017" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4017;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 mix-blend-multiply overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[116.85%] left-[9.69%] max-w-none top-[0.96%] w-[91.16%]" src={imgImgPlaceholder1} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4017;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4017;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+      <H4P className="content-stretch flex flex-col items-start pb-[20px] pt-[24px] relative shrink-0 w-[934px]" titleText="Загрузка с компьютера" />
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="1:4019" data-name="list-numbered">
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] pt-px relative shrink-0 w-full" data-node-id="I1:4019;9460:7184" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4019;9460:7184;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4019;9460:7184;9460:7139">
+              1.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4019;9460:7184;9460:7137">
+            Выделить компонент удерживая CMD и нажав на него левой кнопкой мыши
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4019;9460:7185" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4019;9460:7185;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4019;9460:7185;9460:7139">
+              2.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4019;9460:7185;9460:7137">
+            Найти на правой панели блок с цветами и заливками
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4019;9460:7186" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4019;9460:7186;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4019;9460:7186;9460:7139">
+              3.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4019;9460:7186;9460:7137">
+            Нажать на миниатюру картинки (Image)
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4019;9460:7187" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4019;9460:7187;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4019;9460:7187;9460:7139">
+              4.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4019;9460:7187;9460:7137">
+            Нажать на choose file и загрузить нужную картинку с компьютера
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start pb-[4px] pl-[14px] relative shrink-0 w-full" data-node-id="I1:4019;9460:7188" data-name=".list-items">
+          <div className="content-stretch flex items-start relative self-stretch shrink-0" data-node-id="I1:4019;9460:7188;9460:7135" data-name="Bullet">
+            <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="I1:4019;9460:7188;9460:7139">
+              5.
+            </p>
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4019;9460:7188;9460:7137">
+            Картинка должна вставиться. Как ей управлять, сморите ниже, в разделе “Как настраивать картинки”
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4020" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4020;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[159.52%] left-[6.53%] max-w-none top-[2.44%] w-[82.24%]" src={imgImgPlaceholder2} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4020;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4020;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="1:4021" data-name="h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I1:4021;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          Как настраивать картинки
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I1:4021;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I1:4021;9462:7170">
+            Позиционированием картинки внутри фрейма можно управлять. Для этого нужно поменять режим масштабирования
+          </p>
+        </div>
+      </div>
+      <H4P className="content-stretch flex flex-col items-start pb-[20px] pt-[24px] relative shrink-0 w-[934px]" titleText="Режимы fit и fill" />
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="1:4023" data-name="list-bulleted">
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] pt-px relative shrink-0 w-full" data-node-id="I1:4023;9460:7064" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4023;9460:7064;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4023;9460:7064;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4023;9460:7064;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4023;9460:7064;9460:7062">
+              Выделить компонент удерживая CMD и нажав на него левой кнопкой мыши
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4023;9460:7070" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4023;9460:7070;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4023;9460:7070;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4023;9460:7070;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4023;9460:7070;9460:7062">
+              Найти на правой панели блок с цветами и заливками
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4023;9460:7077" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4023;9460:7077;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4023;9460:7077;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4023;9460:7077;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4023;9460:7077;9460:7062">
+              Нажать на миниатюру картинки (Image)
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4023;9460:7082" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4023;9460:7082;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4023;9460:7082;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4023;9460:7082;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4023;9460:7082;9460:7062">
+              В левой верхней части найти переключалку режима
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4023;9460:7087" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4023;9460:7087;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4023;9460:7087;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4023;9460:7087;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4023;9460:7087;9460:7062">
+              Выбрать нужный режим
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4024" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4024;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[205.76%] left-[-4.09%] max-w-none top-[-7.86%] w-[131.19%]" src={imgImgPlaceholder3} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4024;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4024;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] relative shrink-0 w-[934px]" data-node-id="1:4025" data-name="paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full whitespace-pre-wrap" data-node-id="I1:4025;9459:12596">{`Режим Fill заполняет всю доступную область фрейма.  Режим Fit подгоняет картинку по ширине или высоте под фрейм`}</p>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4026" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4026;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[117.28%] left-[4.58%] max-w-none top-[1.09%] w-full" src={imgImgPlaceholder4} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4026;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4026;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+      <H4P className="content-stretch flex flex-col items-start pb-[20px] pt-[24px] relative shrink-0 w-[934px]" titleText="Режим crop" />
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="1:4028" data-name="list-bulleted">
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] pt-px relative shrink-0 w-full" data-node-id="I1:4028;9460:7064" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4028;9460:7064;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4028;9460:7064;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4028;9460:7064;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4028;9460:7064;9460:7062">
+              Режим кропа можно выбрать в той же выпадашке, что и в прошлом пункте
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4028;9460:7070" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4028;9460:7070;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4028;9460:7070;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4028;9460:7070;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4028;9460:7070;9460:7062">
+              Мышкой можно двигать картинку, в том числе выдвигая ее за пределы фрейма
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4028;9460:7077" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4028;9460:7077;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4028;9460:7077;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4028;9460:7077;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4028;9460:7077;9460:7062">
+              Можно менять размер потянув за углы
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pb-[4px] pl-[16px] relative shrink-0 w-full" data-node-id="I1:4028;9460:7082" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I1:4028;9460:7082;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I1:4028;9460:7082;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I1:4028;9460:7082;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I1:4028;9460:7082;9460:7062">
+              Почти все картинки в этом гайде вставлены через кроп, можете посмореть
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="1:4029" data-name="image">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[24px] shrink-0 w-full" data-node-id="I1:4029;9469:7126" data-name="img-placeholder">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[24px]">
+            <div className="absolute bg-[#f6f7f8] inset-0 rounded-[24px]" />
+            <div className="absolute inset-0 mix-blend-multiply overflow-hidden rounded-[24px]">
+              <img alt="" className="absolute h-[100.24%] left-[13.01%] max-w-none top-[0.12%] w-[68.47%]" src={imgImgPlaceholder5} />
+            </div>
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4029;9469:7126;9469:7120" data-name="start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-[760px]" data-node-id="I1:4029;9469:7126;9469:7121" data-name="end">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function ImageUsage1() {
+  return <ImageUsage className="content-stretch flex flex-col items-center relative size-full" />;
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Text/primary: #000000, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

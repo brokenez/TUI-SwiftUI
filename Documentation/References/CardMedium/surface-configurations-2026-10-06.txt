@@ -1,0 +1,354 @@
+const imgBullet = "https://www.figma.com/api/mcp/asset/42b9a7e4-9324-45bb-b781-a378d6a829fe.svg";
+const imgStart = "https://www.figma.com/api/mcp/asset/9207a88e-792f-4300-8750-dfb42cfb2cad.svg";
+const imgOnBase = "https://www.figma.com/api/mcp/asset/8be8d285-818b-4ff9-9a2b-2ab2d5e7c95e.svg";
+
+type SpacingProps = {
+  className?: string;
+  size?: "07 - 24px";
+};
+
+function Spacing({ className, size = "07 - 24px" }: SpacingProps) {
+  return <div className={className || "h-[24px] relative w-[934px]"} data-node-id="3490:3822" />;
+}
+
+export default function Configurations() {
+  return (
+    <div className="bg-[var(--figma-library\/guide-artboard,white)] content-stretch flex flex-col items-start p-[128px] relative rounded-[var(--roundings\/artboard-rounding,80px)] size-full" data-node-id="3479:3040" data-name="Configurations">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="3479:3041" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I3479:3041;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3479:3041;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Пресеты
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I3479:3041;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3479:3041;9462:7160">
+            Уже сконфигурированные комбинации фона и поведения
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="3479:3042" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3479:3042;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3479:3042;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Для базового фона
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I3479:3042;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3479:3042;9462:7170">
+            Используем на фоне base, то есть на обычных немодальных экранах
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="3479:3689" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I3479:3689;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3479:3689;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I3479:3689;9460:7064;9460:7062">{`Elevated —   для целиком кликабельных карточек с белым фоном и тенью`}</p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3479:3689;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3479:3689;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I3479:3689;9460:7070;9460:7062">{`Plain —  для некликабельных карточек с непрозрачным фоном`}</p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3479:3689;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3479:3689;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I3479:3689;9460:7077;9460:7062">{`Flat [legacy] —  устаревший пресет для некликабельных карточек, больше не поддерживается`}</p>
+        </div>
+      </div>
+      <Spacing className="h-[24px] relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] h-[620px] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="3484:3921" data-name="Image 1x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[320px] items-start min-h-px overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] w-full" data-node-id="I3484:3921;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I3484:3921;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I3484:3921;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I3484:3921;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I3484:3921;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I3484:3921;9469:7126;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOnBase} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I3484:3921;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="3479:4956" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3479:4956;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3479:4956;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Для модальных окон
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I3479:4956;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3479:4956;9462:7170">
+            Используем на фоне elevation-1, то есть, например, на шторках
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-full" data-node-id="3479:4957" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I3479:4957;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3479:4957;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I3479:4957;9460:7064;9460:7062">{`Elevated-on-modal  —  для целиком кликабельных карточек с белым фоном и тенью`}</p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I3479:4957;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I3479:4957;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] whitespace-pre-wrap" data-node-id="I3479:4957;9460:7070;9460:7062">{`Plain-on-modal  —  для некликабельных карточек с непрозрачным фоном`}</p>
+        </div>
+      </div>
+      <Spacing className="h-[24px] relative shrink-0 w-full" />
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] h-[600px] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="3479:3045" data-name="Image 1x1">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[320px] items-start min-h-px overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] w-full" data-node-id="I3479:3045;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I3479:3045;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I3479:3045;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I3479:3045;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I3479:3045;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I3479:3045;9469:7126;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOnBase} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I3479:3045;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-full" data-node-id="3479:3053" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I3479:3053;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I3479:3053;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Поведение
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I3479:3053;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3479:3053;9462:7170">
+            Если необходимо переключение между конфигурациями, мы плавно анимируем
+            <br aria-hidden />
+            все параметры в соответствии с описанием в разделе Properties
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="3479:3054" data-name="Table Header">
+        <div className="content-stretch flex items-start relative shrink-0 w-[240px]" data-node-id="I3479:3054;6076:10274" data-name="Heading Column">
+          <div className="content-stretch flex items-start py-[16px] relative shrink-0 w-[240px]" data-node-id="I3479:3054;6076:10275" data-name="Heading Column">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I3479:3054;6076:10275;6076:9589">
+              Preset
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] h-[55px] items-start justify-center min-w-px py-[16px] relative" data-node-id="I3479:3054;6076:10276" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center" data-node-id="I3479:3054;6076:10277">
+            normal
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] h-[55px] items-start justify-center min-w-px py-[16px] relative" data-node-id="I3479:3054;6076:10278" data-name="Column 2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center" data-node-id="I3479:3054;6076:10279">
+            onPress, onTap
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] h-[55px] items-start justify-center min-w-px py-[16px] relative" data-node-id="I3479:3054;6076:10280" data-name="Column 3">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center" data-node-id="I3479:3054;6076:10281">
+            onHover
+          </p>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] h-[55px] items-start justify-center min-w-px py-[16px] relative" data-node-id="I3479:3054;6076:10282" data-name="Column 4">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] text-center" data-node-id="I3479:3054;6076:10283">
+            onDrag
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I3479:3054;6076:10284" data-name="Divider" />
+      </div>
+      <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="3479:3055">
+        <div className="bg-[var(--tui-background-base,white)] col-1 h-[159.415px] ml-[254.96px] mt-0 relative row-1 w-[679.044px]" data-node-id="3479:3058" />
+        <div className="col-1 content-stretch flex flex-col gap-[8px] items-start ml-0 mt-[25.42px] py-[var(--vertical-spacing,32px)] relative row-1 w-[197px]" data-node-id="3479:3059" data-name="Heading Row">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I3479:3059;6076:9603">
+            Elevated, elevated-on-modal
+          </p>
+        </div>
+        <div className="col-1 content-stretch flex flex-col gap-[8px] items-start ml-0 mt-[159px] py-[var(--vertical-spacing,32px)] relative row-1 w-[197px]" data-node-id="3479:3061" data-name="Heading Row">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Medium'] leading-[0] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full whitespace-pre-wrap" data-node-id="I3479:3061;6076:9603">
+            <span className="leading-[24px]">{`Plain,  `}</span>
+            <span className="leading-[24px]">Plain-on-modal</span>
+          </p>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-end justify-center ml-[799.5px] mt-[33.42px] pb-[8px] relative row-1 w-[127.5px]" data-node-id="3479:3066" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[24px] shadow-[0px_20px_50px_0px_rgba(0,0,0,0.2)] shrink-0 size-[96px]" data-node-id="3479:3067" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[11px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="3479:3068">
+              offset
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-center justify-center ml-[626px] mt-[193.5px] relative row-1 w-[127.5px]" data-node-id="3479:3075" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-neutral-1,rgba(0,16,36,0.03))] content-stretch flex items-center justify-center overflow-clip p-[11px] relative rounded-[26.4px] shrink-0 size-[105.6px]" data-node-id="3479:3076" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[26.4px] relative shrink-0 text-[12.1px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="3479:3077">
+              scale 1.05
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-end justify-center ml-[626px] mt-[33.42px] pb-[4px] relative row-1 w-[127.5px]" data-node-id="3479:3078" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[24px] shadow-[0px_12px_36px_0px_rgba(0,0,0,0.2)] shrink-0 size-[96px]" data-node-id="3479:3079" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[11px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="3479:3080">
+              offset
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-center justify-center ml-[452.5px] mt-[193.5px] relative row-1 w-[127.5px]" data-node-id="3479:3081" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-neutral-1-on-base,#f6f7f8)] content-stretch flex items-center justify-center overflow-clip p-[9.025px] relative rounded-[21.66px] shrink-0 size-[91.2px]" data-node-id="3479:3082" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[21.66px] relative shrink-0 text-[10.45px] text-[color:var(--tui-text-primary,#333)] text-center whitespace-nowrap" data-node-id="3479:3083">
+              scale 0.95
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-center justify-center ml-[279px] mt-[193.5px] relative row-1 w-[127.5px]" data-node-id="3479:3087" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-neutral-1-on-base,#f6f7f8)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[24px] shrink-0 size-[96px]" data-node-id="3479:3088" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[11px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="3479:3089">
+              none
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-center justify-center ml-[452.5px] mt-[33.42px] relative row-1 w-[127.5px]" data-node-id="3479:3093" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex items-center justify-center overflow-clip p-[9.025px] relative rounded-[21.66px] shadow-[0px_5.415px_30.685px_0px_rgba(0,0,0,0.12)] shrink-0 size-[91.2px]" data-node-id="3479:3094" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[21.66px] relative shrink-0 text-[10.45px] text-[color:var(--tui-text-primary,#333)] text-center whitespace-nowrap" data-node-id="3479:3095">
+              scale 0.95
+            </p>
+          </div>
+        </div>
+        <div className="col-1 content-stretch flex h-[96px] items-center justify-center ml-[279px] mt-[33.42px] relative row-1 w-[127.5px]" data-node-id="3479:3099" data-name="Wrapper">
+          <div className="bg-[var(--tui-background-elevation-1,white)] content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[24px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] shrink-0 size-[96px]" data-node-id="3479:3100" data-name="tui-surface">
+            <p className="[word-break:break-word] font-['JetBrains_Mono:Regular'] font-normal leading-[24px] relative shrink-0 text-[11px] text-[color:var(--tui-text-primary,#333)] whitespace-nowrap" data-node-id="3479:3101">
+              none
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), Day/Service/navbar: #FFFFFF, iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Shadow/Medium: Effect(type: DROP_SHADOW, color: Hide from publishing/Shadow/Medium/Color, offset: (0, Hide from publishing/Shadow/Medium/Y-axis), radius: Hide from publishing/Shadow/Medium/Blur, spread: 0), iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Desktop/Body M Bold: Font(family: "Neue Haas Unica W1G", style: Medium, size: 15, weight: 500, lineHeight: 24, letterSpacing: 0), shadow-popup: Effect(type: DROP_SHADOW, color: #00000033, offset: (0, 20), radius: 50, spread: 0), Shadow / Default hover: Effect(type: DROP_SHADOW, color: #00000033, offset: (0, 12), radius: 36, spread: 0), shadow-medium: Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 6), radius: 34, spread: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## template-navigation-bar
+**Node ID:** 3964:6220
+
+Дизайн-шаблон верхней части экрана со статусбаром и навбаром/аппбаром.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547)
+
+## Appearance=Light Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 3477:2881
+
+⚪ Not In TUI (Native)
+
+## system-status-bar
+**Node ID:** 3477:2867
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-app-bar
+**Node ID:** 3477:27740
+
+Навигационный блок для верхней части экрана  
+  
+tui-appbar, navbar
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-appbar-specs](https://go.tcsbank.ru/tui-appbar-specs)
+
+## tui-header [large]
+**Node ID:** 3964:5987
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-card-large
+**Node ID:** 3964:8418
+
+Карточка с разным контентом внутри
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-large-specs](https://go.tcsbank.ru/tui-card-large-specs)
+
+## tui-header [card]
+**Node ID:** 3964:6366
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-avatar
+**Node ID:** 3964:4818
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 3477:3543
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-bottom-sheet
+**Node ID:** 3964:3931
+
+Модальная или немодальная шторка с кастомным контентом внутри  
+  
+keywords: bottomsheet, sheet, tui-sheet
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-bottomsheet-specs](https://go.tcsbank.ru/tui-bottomsheet-specs)
+
+## Appearance=Dark Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 3477:2883
+
+⚪ Not In TUI (Native)
+
+## bottomsheet-bar
+**Node ID:** 3477:3127
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-header
+**Node ID:** 3477:3290
+
+Заголовок для группы контента или шторки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 3964:3677
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 3964:3648
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

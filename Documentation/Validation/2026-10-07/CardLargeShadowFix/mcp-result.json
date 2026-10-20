@@ -1,0 +1,94 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 22824,
+      "counts": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T14-27-45-252Z_pid90401_1c63b5b6.log",
+      "xcresultPath": "/private/tmp/tui-card-large-shadow-fix-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T14-27-45-253Z_pid90401_bfa50e51.xctestproducts"
+    },
+    "tests": {
+      "selected": [
+        "TUIDesignSystemTests/CardLargeTests/testElevatedShadowWithFullFigmaEffectBounds",
+        "TUIDesignSystemTests/CardLargeTests/testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+        "TUIDesignSystemTests/CardLargeTests/testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+        "TUIDesignSystemTests/CardLargeTests/testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+        "TUIDesignSystemTests/CardLargeTests/testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+        "TUIDesignSystemTests/CardLargeTests/testSourceContainerGeometryWithMeasuredSlotFixtures",
+        "TUIDesignSystemTests/WebCatalogExamplesTests/testCopyableExamplesCompileAndRenderThroughPublicPackageAPI"
+      ],
+      "discovered": {
+        "total": 7,
+        "items": [
+          "TUIDesignSystemTests/CardLargeTests/testElevatedShadowWithFullFigmaEffectBounds",
+          "TUIDesignSystemTests/CardLargeTests/testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+          "TUIDesignSystemTests/CardLargeTests/testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+          "TUIDesignSystemTests/CardLargeTests/testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+          "TUIDesignSystemTests/CardLargeTests/testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+          "TUIDesignSystemTests/CardLargeTests/testSourceContainerGeometryWithMeasuredSlotFixtures"
+        ]
+      }
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "CardLargeTests",
+        "test": "testElevatedShadowWithFullFigmaEffectBounds",
+        "status": "passed",
+        "durationMs": 725
+      },
+      {
+        "suite": "CardLargeTests",
+        "test": "testMatrixPreservesEveryImportedIOSPropertyIncludingCyrillicKey",
+        "status": "passed",
+        "durationMs": 15
+      },
+      {
+        "suite": "CardLargeTests",
+        "test": "testMinimumHeightDoesNotClipLargerContentAndFooterCanMoveToBottom",
+        "status": "passed",
+        "durationMs": 14
+      },
+      {
+        "suite": "CardLargeTests",
+        "test": "testSixSourceHeaderCompositionsUsePublicChildrenInBothThemes",
+        "status": "passed",
+        "durationMs": 138
+      },
+      {
+        "suite": "CardLargeTests",
+        "test": "testSmallPresetHasNoScreenInsetAndCustomPreservesSixteenPoints",
+        "status": "passed",
+        "durationMs": 10
+      },
+      {
+        "suite": "CardLargeTests",
+        "test": "testSourceContainerGeometryWithMeasuredSlotFixtures",
+        "status": "passed",
+        "durationMs": 150
+      },
+      {
+        "suite": "WebCatalogExamplesTests",
+        "test": "testCopyableExamplesCompileAndRenderThroughPublicPackageAPI",
+        "status": "passed",
+        "durationMs": 833
+      }
+    ]
+  }
+}

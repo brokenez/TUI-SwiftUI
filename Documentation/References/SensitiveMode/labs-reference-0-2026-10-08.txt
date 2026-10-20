@@ -1,0 +1,263 @@
+const imgBullet = "[TEMPORARY_ASSET_URL_REDACTED]";
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="10820:5531" data-name="Компонент">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="10820:5532" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I10820:5532;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5532;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            🧪 tui-labs-sensitive-mode
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5537" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5537;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5537;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Создатели
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5538" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I10820:5538;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I10820:5538;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5538;9460:7064;9460:7062">
+            <span className="font-['Neue_Haas_Unica_W1G:Bold'] leading-[24px]">Создатели:</span>
+            <span className="leading-[24px]">{` @p.korostelev, @andrey.alekseev6, @k.y.moskalenko, @ser.s.egorov`}</span>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5539" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5539;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5539;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Где используется
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10820:5539;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I10820:5539;9462:7170">
+            Везде, где есть чуствительные данные, например балансы
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="13073:1712" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I13073:1712;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I13073:1712;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Реализация в фигме
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I13073:1712;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full" data-node-id="I13073:1712;9462:7170">
+            <span className="leading-[24px]">{`Используйте `}</span>
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline" href="https://www.figma.com/community/plugin/1598366380969583893/sensitive-mode-2-0" target="_blank">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/community/plugin/1598366380969583893/sensitive-mode-2-0" target="_blank">
+                плагин
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5541" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5541;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5541;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Реализация в коде
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I10820:5541;9462:7169" data-name="Paragraph">
+          <div className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary,#333)] w-full whitespace-pre-wrap" data-node-id="I10820:5541;9462:7170">
+            <p className="mb-0">
+              <span className="leading-[24px]">{`— `}</span>
+              <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://gitlab.tcsbank.ru/k.y.moskalenko/particle-effect-poc" target="_blank">
+                <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://gitlab.tcsbank.ru/k.y.moskalenko/particle-effect-poc" target="_blank">
+                  iOS
+                </span>
+              </a>
+              <span className="leading-[24px]">{` `}</span>
+            </p>
+            <p className="mb-0">
+              <span className="leading-[24px]">{`— `}</span>
+              <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://gitlab.tcsbank.ru/coretech-mobile-android/corehidebalances" target="_blank">
+                <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://gitlab.tcsbank.ru/coretech-mobile-android/corehidebalances" target="_blank">
+                  Android
+                </span>
+              </a>
+            </p>
+            <p>
+              <span className="leading-[24px]">{`— `}</span>
+              <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://s3-msk.tinkoff.ru/ib-ux-shared/master/storybook/index.html?path=/docs/atoms-atom-sensitive-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F--docs" target="_blank">
+                <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://s3-msk.tinkoff.ru/ib-ux-shared/master/storybook/index.html?path=/docs/atoms-atom-sensitive-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F--docs" target="_blank">
+                  Webview
+                </span>
+              </a>
+              <span className="leading-[24px]">
+                {` (React)`}
+                <br aria-hidden />
+                {`— `}
+              </span>
+              <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline" href="https://taiga-ui.tcsbank.ru/sensitive" target="_blank">
+                <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://taiga-ui.tcsbank.ru/sensitive" target="_blank">
+                  Angular
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="10820:5542" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I10820:5542;2130:420" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I10820:5542;9500:6999" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Чейнджлог
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0" data-node-id="10820:5543" data-name="changelog">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[934px]" data-node-id="10820:5544" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I10820:5544;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I10820:5544;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--tui-text-primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I10820:5544;4874:5826">
+                09.06.2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I10820:5544;4874:7388" data-name="Changed">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I10820:5544;4874:7388;4874:7054">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I10820:5544;4874:7388;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] w-full" data-node-id="I10820:5544;4874:7388;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I10820:5544;4874:7388;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I10820:5544;4874:7388;4874:7058">
+                    Добавлен кейс для обновления балансов под маской через fade in / fade out
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0" data-node-id="25226:1895" data-name="changelog">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[934px]" data-node-id="25226:1896" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I25226:1896;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I25226:1896;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--tui-text-primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I25226:1896;4874:5826">
+                30.01.2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I25226:1896;4874:7388" data-name="Changed">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I25226:1896;4874:7388;4874:7054">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I25226:1896;4874:7388;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] w-full" data-node-id="I25226:1896;4874:7388;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I25226:1896;4874:7388;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I25226:1896;4874:7388;4874:7058">
+                    Добавлены корнер-кейсы связанные с моментальным входом, а так же поведение маски, если под ней изменится баланс в моменте
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0" data-node-id="12778:1398" data-name="changelog">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[934px]" data-node-id="12778:1399" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I12778:1399;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I12778:1399;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--tui-text-primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I12778:1399;4874:5826">
+                20.01.2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I12778:1399;4874:7388" data-name="Changed">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I12778:1399;4874:7388;4874:7054">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I12778:1399;4874:7388;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] w-full" data-node-id="I12778:1399;4874:7388;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I12778:1399;4874:7388;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I12778:1399;4874:7388;4874:7058">
+                    Сделали плагин для быстрого маскирования в макетах
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[16px] relative shrink-0" data-node-id="11004:19634" data-name="changelog">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[934px]" data-node-id="11004:19635" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I11004:19635;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I11004:19635;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--tui-text-primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I11004:19635;4874:5826">
+                19.01.2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I11004:19635;4874:7388" data-name="Changed">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I11004:19635;4874:7388;4874:7054">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I11004:19635;4874:7388;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] w-full" data-node-id="I11004:19635;4874:7388;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I11004:19635;4874:7388;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I11004:19635;4874:7388;4874:7058">
+                    Добавили подробное описание базовой логики и анимации
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="10856:1880" data-name="changelog">
+        <div className="bg-[var(--figma-library\/guide-image,#f6f7f8)] content-stretch flex gap-[12px] items-center px-[20px] py-[16px] relative rounded-[var(--rounding-3x,12px)] shrink-0 w-[934px]" data-node-id="10856:1881" data-name="changelog">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-w-px relative" data-node-id="I10856:1881;4874:5824" data-name="Main Part">
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="I10856:1881;4874:5825" data-name="Version Header">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[20px] not-italic relative shrink-0 text-[18px] text-[color:var(--tui-text-primary,#333)] tracking-[0.18px] whitespace-nowrap" data-node-id="I10856:1881;4874:5826">
+                15.01.2026
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[636px]" data-node-id="I10856:1881;4874:7388" data-name="Changed">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] h-[20px] leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] uppercase w-[636px]" data-node-id="I10856:1881;4874:7388;4874:7054">
+                Changed
+              </p>
+              <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="I10856:1881;4874:7388;4874:7055" data-name="Bulleted List">
+                <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Regular'] gap-[10px] items-start leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--tui-text-primary,#333)] tracking-[0.16px] w-full" data-node-id="I10856:1881;4874:7388;4874:7056" data-name="Bulleted Line">
+                  <p className="relative shrink-0 whitespace-nowrap" data-node-id="I10856:1881;4874:7388;4874:7057">
+                    —
+                  </p>
+                  <p className="flex-[1_0_0] min-w-px relative" data-node-id="I10856:1881;4874:7388;4874:7058">
+                    Добавили страницу посвященную новому компоненту
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## changelog
+**Node ID:** 24900:13547
+
+Компонент для создания чейнджлога (истории изменений) Можно применять к компонентам, гайдам, спекам, макетам
+
+**Documentation:**
+- [https://www.figma.com/design/OycBnZPdO0BV9GDuiwEkTN/TUI-%D0%9Delpers?node-id=6688-0&t=y5BvNWUgbNtuWzIB-11](https://www.figma.com/design/OycBnZPdO0BV9GDuiwEkTN/TUI-%D0%9Delpers?node-id=6688-0&t=y5BvNWUgbNtuWzIB-11)
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL_REDACTED]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

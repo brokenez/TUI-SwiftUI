@@ -1,0 +1,151 @@
+{
+  "method": "Native app XCUIElement frame crop at 3x, downsample BOX to original Figma 44x44 PNG. No alignment adjustment or recoloring. Figma node exports have white backdrop; this does not certify blur on patterned/dark backdrops.",
+  "uiTestsPassed": 4,
+  "runtimeThemeRenders": 36,
+  "comparisons": [
+    {
+      "id": "26951:46960",
+      "reference": "Documentation/References/ButtonLike/figma-26951-46960-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-26951-46960-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 4.849,
+      "maxChannelDifference": 8,
+      "pixelsOver10": 0
+    },
+    {
+      "id": "26951:46966",
+      "reference": "Documentation/References/ButtonLike/figma-26951-46966-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-26951-46966-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 4.553,
+      "maxChannelDifference": 21,
+      "pixelsOver10": 23
+    },
+    {
+      "id": "26951:46984",
+      "reference": "Documentation/References/ButtonLike/figma-26951-46984-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-26951-46984-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.435,
+      "maxChannelDifference": 6,
+      "pixelsOver10": 0
+    },
+    {
+      "id": "26951:46990",
+      "reference": "Documentation/References/ButtonLike/figma-26951-46990-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-26951-46990-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.29,
+      "maxChannelDifference": 23,
+      "pixelsOver10": 26
+    },
+    {
+      "id": "26951:47046",
+      "reference": "Documentation/References/ButtonShare/figma-26951-47046-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-26951-47046-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 4.806,
+      "maxChannelDifference": 8,
+      "pixelsOver10": 0
+    },
+    {
+      "id": "44290:299167",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299167-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299167-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 4.47,
+      "maxChannelDifference": 19,
+      "pixelsOver10": 35
+    },
+    {
+      "id": "44290:299169",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299169-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299169-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.905,
+      "maxChannelDifference": 18,
+      "pixelsOver10": 18
+    },
+    {
+      "id": "44290:299175",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299175-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299175-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.592,
+      "maxChannelDifference": 24,
+      "pixelsOver10": 37
+    },
+    {
+      "id": "44290:299177",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299177-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299177-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.558,
+      "maxChannelDifference": 27,
+      "pixelsOver10": 27
+    },
+    {
+      "id": "44290:299183",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299183-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299183-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.529,
+      "maxChannelDifference": 24,
+      "pixelsOver10": 53
+    },
+    {
+      "id": "44290:299185",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299185-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299185-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 2.901,
+      "maxChannelDifference": 22,
+      "pixelsOver10": 33
+    },
+    {
+      "id": "44290:299191",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299191-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299191-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.351,
+      "maxChannelDifference": 24,
+      "pixelsOver10": 38
+    },
+    {
+      "id": "44290:299193",
+      "reference": "Documentation/References/ButtonLike/figma-44290-299193-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonLike/ios-44290-299193-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.341,
+      "maxChannelDifference": 27,
+      "pixelsOver10": 26
+    },
+    {
+      "id": "44290:299200",
+      "reference": "Documentation/References/ButtonShare/figma-44290-299200-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-44290-299200-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 4.209,
+      "maxChannelDifference": 16,
+      "pixelsOver10": 10
+    },
+    {
+      "id": "44290:299204",
+      "reference": "Documentation/References/ButtonShare/figma-44290-299204-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-44290-299204-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.372,
+      "maxChannelDifference": 20,
+      "pixelsOver10": 10
+    },
+    {
+      "id": "52061:47166",
+      "reference": "Documentation/References/ButtonShare/figma-52061-47166-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-52061-47166-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.403,
+      "maxChannelDifference": 6,
+      "pixelsOver10": 0
+    },
+    {
+      "id": "52061:47184",
+      "reference": "Documentation/References/ButtonShare/figma-52061-47184-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-52061-47184-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 0.144,
+      "maxChannelDifference": 21,
+      "pixelsOver10": 7
+    },
+    {
+      "id": "52061:47210",
+      "reference": "Documentation/References/ButtonShare/figma-52061-47210-2026-10-05.png",
+      "runtime": "Documentation/References/ButtonShare/ios-52061-47210-day-2026-10-05-3x.png",
+      "meanAbsoluteChannelDifference": 3.135,
+      "maxChannelDifference": 20,
+      "pixelsOver10": 16
+    }
+  ]
+}

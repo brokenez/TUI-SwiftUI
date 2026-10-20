@@ -1,0 +1,368 @@
+{
+  "method": "Exact Figma Day 1x PNG compared with active native 3x PNG downsampled to its measured frame with LANCZOS on white. For observed blank source overflow, extend only the comparison canvas at the right without scaling content. No alignment correction, RGB correction, cursor painting or automatic acceptance.",
+  "sourceMatrix": {
+    "path": "Sources/TUIDesignSystem/Resources/Metadata/figma-component-variants.json",
+    "sha256": "41d1b91fc5df5854b95f728d7f6bb21eda51a903243afa48ce0ad540373a8c11"
+  },
+  "nightSourceComparison": "UNVERIFIED: these source exports represent Day; Night native snapshots are retained without fabricated Night references.",
+  "variants": [
+    {
+      "variantID": "65702:51132",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51132.png",
+      "referenceSHA256": "e50d51e2066d495f853ab1e974370047b7cb4807ef68a6ff722aa17bc653187f",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/F639255A-1249-4843-BE1A-8482FDEAC242.png",
+      "nativeSHA256": "6a990e9955b58cdfc775c6c82dafa57d69561dbb43013dbc2c4493fd94254db1",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.6424479166666667,
+      "maximumRGBDifference": 53,
+      "fractionPixelsOver12": 0.0109375
+    },
+    {
+      "variantID": "65702:51150",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51150.png",
+      "referenceSHA256": "d5a316184a0b33efc8935bafaed3a57b4099982a54f4ec25dcf1388b0a8e9f26",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/4DA006B7-36D4-440A-8F02-E993B09DBE0C.png",
+      "nativeSHA256": "430e5f9cc707ea204f052c42bfdfce706598311a10c1654c6acc6cd784a28d68",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.002455357142857143,
+      "maximumRGBDifference": 1,
+      "fractionPixelsOver12": 0.0
+    },
+    {
+      "variantID": "65702:51154",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51154.png",
+      "referenceSHA256": "a5dd37a7154a7b06686f52596bbd7f93f06fd0425f670d87264f78b71c1e1e2a",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/1C63A744-DA47-4735-912B-092A20304970.png",
+      "nativeSHA256": "722849f0f6954aff2fc776adaa5cecd6298a07f509095ecef35916ad80cf88d0",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.007905505952381,
+      "maximumRGBDifference": 104,
+      "fractionPixelsOver12": 0.014341517857142856
+    },
+    {
+      "variantID": "65702:51172",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51172.png",
+      "referenceSHA256": "683ac7dc4f3da27515476e34db8d8e2031b201d8ed83fcd02ee48ceef36e4b53",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/5EB3C665-77B0-4AB7-9092-8C220E194B7E.png",
+      "nativeSHA256": "2db299e81516df9a52f8b3bdbca927d34ea789d49e4cba31f4e60ea32de23958",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.6561383928571428,
+      "maximumRGBDifference": 53,
+      "fractionPixelsOver12": 0.0109375
+    },
+    {
+      "variantID": "65702:51190",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51190.png",
+      "referenceSHA256": "37e4f04c1e5ced38478e7f14014ab85f96c3c4326e4131fe3973d3bffd83ed70",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/25321314-AF51-4B91-BDDC-99ADFAA1D742.png",
+      "nativeSHA256": "adb8ddbd6890ab974e30edcf5e8d76899e5670180799eaffc6dc5d7e158f8973",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.4258370535714286,
+      "maximumRGBDifference": 100,
+      "fractionPixelsOver12": 0.03404017857142857
+    },
+    {
+      "variantID": "65702:51222",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51222.png",
+      "referenceSHA256": "b439c09282aadfb5adfac97ba1c748c07137ab5dde9881c2ab5713444735bed3",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/7FEE2D13-79C0-46AC-86F1-8044F28046E2.png",
+      "nativeSHA256": "e0136d13dea1a8ab20cf80fa46991b94df52f90503f16ec1a82d17b7e4a89597",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.7958333333333333,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.014341517857142856
+    },
+    {
+      "variantID": "65702:51231",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51231.png",
+      "referenceSHA256": "b439c09282aadfb5adfac97ba1c748c07137ab5dde9881c2ab5713444735bed3",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/478343B4-F147-4E7B-81D9-14854E668D3C.png",
+      "nativeSHA256": "e0136d13dea1a8ab20cf80fa46991b94df52f90503f16ec1a82d17b7e4a89597",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.7958333333333333,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.014341517857142856
+    },
+    {
+      "variantID": "65702:51258",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51258.png",
+      "referenceSHA256": "5afe7c61e47d172c6f043cd1745fc2c7e64db21f8f62d729acc997a0b1b5d4d4",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/A9153B3F-702A-446D-8D8E-CE86353B20A9.png",
+      "nativeSHA256": "4ab2e994a3c4ad8a61d80a4495f0b0faae4ca7529b5e24f0274b1476e19775d1",
+      "sourceSize": [
+        336,
+        98
+      ],
+      "sourceOverflow": {
+        "sourceParentWidth": 320,
+        "exportWidth": 336,
+        "blankWhiteRightOverflow": 16,
+        "sourceEvidence": "Documentation/References/Textfield/width-source-65702-51258-metadata-2026-10-09.txt",
+        "acceptance": "UNVERIFIED: source hint bounds differ from parent; no Figma change or content scaling applied."
+      },
+      "meanAbsoluteRGBDifference": 1.062024214447684,
+      "maximumRGBDifference": 132,
+      "fractionPixelsOver12": 0.024052478134110787
+    },
+    {
+      "variantID": "65702:51290",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51290.png",
+      "referenceSHA256": "7964a3f4da618fec06a7b0ffb141a0ae13872362a3edda28f5cb86535723d84d",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/6C2104CE-63A7-4B39-9327-9C22EA5011CC.png",
+      "nativeSHA256": "7b4f15c6dcd692c54f6b2c24a1f5a81328288f1a2fc452fd6df339a0ebf2d65a",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.110546875,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.020145089285714287
+    },
+    {
+      "variantID": "65702:51310",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51310.png",
+      "referenceSHA256": "f768bf2d14587069c1e32e28bcf883a4afa8b1af5027e25b234e3ecebc556c36",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/47AFCACE-1CD8-40BF-B5EA-993C6A4E1FBB.png",
+      "nativeSHA256": "9956b60d811675e00e2ee8caa8a71d42ed3e7ce0aff067f37bac9726133c2b31",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.1242373511904762,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.020145089285714287
+    },
+    {
+      "variantID": "65702:51330",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51330.png",
+      "referenceSHA256": "e2a46ec6cf4db47743d061e6367d00676dca40339a16169d19c5e21362cedfcd",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/9B6E7D24-23DC-475D-BED2-5E7E9B3A6183.png",
+      "nativeSHA256": "0b38d452ee38c0954f4aa60478ecba94a6b4f9e60494130ec6fa88314162db38",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.8377232142857143,
+      "maximumRGBDifference": 62,
+      "fractionPixelsOver12": 0.016183035714285716
+    },
+    {
+      "variantID": "65702:51350",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51350.png",
+      "referenceSHA256": "8882f45acdfcb9b62a79e9a0ed4690382a74cb8a4aa89fa3888337ece9340d9b",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/C2BAD7E6-3077-4350-B452-4E3CB0A27563.png",
+      "nativeSHA256": "c5b029a3b26122b5a40a0659a051da2e0e3de1a132d9ed5821ddd9c6ef1a8530",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.5202566964285715,
+      "maximumRGBDifference": 217,
+      "fractionPixelsOver12": 0.025223214285714286
+    },
+    {
+      "variantID": "65702:51386",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51386.png",
+      "referenceSHA256": "1bf3a96fee96da834f6eeaaa0893b08e8f8feb6296a1d325ebf8a72fd80ef4de",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/39421D26-ABF3-4595-9B1D-89CB56A8D0ED.png",
+      "nativeSHA256": "b88411c1720db062204bbc981113153dbb536536ab49fdb7d8368e88a05839a6",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.2146763392857143,
+      "maximumRGBDifference": 132,
+      "fractionPixelsOver12": 0.021819196428571427
+    },
+    {
+      "variantID": "65702:51406",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51406.png",
+      "referenceSHA256": "4559013a26acfec64ab9f30342160d0786f0807d2c321cb2a046b05d1c61c0bb",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/FC3C0FA7-D5CB-48E2-A342-4D92494CB20A.png",
+      "nativeSHA256": "4717f866385c216e1ceba9cfd53570e987656b016b1162d739c0caa0554f3c89",
+      "sourceSize": [
+        320,
+        98
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.169079506802721,
+      "maximumRGBDifference": 217,
+      "fractionPixelsOver12": 0.020216836734693877
+    },
+    {
+      "variantID": "65702:51442",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51442.png",
+      "referenceSHA256": "f4808da7c57dd04d529b99b58174dc866e9e7ba36d746e0483121ce351c7e7a1",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/17B361D4-AFFF-463C-9B44-63C19203DB2C.png",
+      "nativeSHA256": "0fa843762d8d744a5c46a7b54825d18e084375d85ab1c3250e50489e99134a00",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.8712053571428572,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.012890625
+    },
+    {
+      "variantID": "65702:51460",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51460.png",
+      "referenceSHA256": "146cf8ee1ac9496690d26042688c3cfa57460121c24e598bc648f9c8e879f835",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/3A290E64-7D13-4A87-9FC6-20C00603A1E9.png",
+      "nativeSHA256": "232177f51ea5325bfdeb08878e1b0b8df0cdf22cb1a5144b1d674ac670078447",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.8848958333333333,
+      "maximumRGBDifference": 112,
+      "fractionPixelsOver12": 0.012890625
+    },
+    {
+      "variantID": "65702:51480",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51480.png",
+      "referenceSHA256": "bac36d73134bf22a75c3b37adf2c40ca007a74ec732130e002efc9d3634e16e4",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/F2F26D4F-393B-4889-B9BA-4B812593A47C.png",
+      "nativeSHA256": "e1332a00f8651d1e3355e33e50486942e1407bd749d3cba18e185664dededa9c",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.5983816964285714,
+      "maximumRGBDifference": 58,
+      "fractionPixelsOver12": 0.008928571428571428
+    },
+    {
+      "variantID": "65702:51500",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51500.png",
+      "referenceSHA256": "d8e27d156b6f399fe22f2c43168d14853ff87d6bfb40212fc29f500713daf426",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/F0E814FA-29A6-4C4A-835B-70F8FBC4E729.png",
+      "nativeSHA256": "86f12e58c5fa1491d28d152304faefae2d7a2fe43668ad2bfd99bb63b1691e4c",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.2810825892857143,
+      "maximumRGBDifference": 218,
+      "fractionPixelsOver12": 0.01796875
+    },
+    {
+      "variantID": "65702:51534",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51534.png",
+      "referenceSHA256": "bffd1de8edff245c3c4dbe77cf604f1f2246431d9461359f0beef60a5f4a98c1",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/3C9C3942-169B-4A6F-A988-D8868552D35D.png",
+      "nativeSHA256": "ccc5402fcf11c03259624467e76344bf4360c89bd65d384834556efaf7987c88",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.7083333333333334,
+      "maximumRGBDifference": 121,
+      "fractionPixelsOver12": 0.013113839285714286
+    },
+    {
+      "variantID": "65702:51552",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51552.png",
+      "referenceSHA256": "55ac15a9d37d1849941bde1a446f09ac7779d24d46c85cdc876a7898659a605e",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/C9D192EB-4BBE-4ECD-9452-E73E9794AE2A.png",
+      "nativeSHA256": "e70723edcd86654b5e0c67878a52f96a1df71b96b3a1c5e496fb33a059625664",
+      "sourceSize": [
+        320,
+        98
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.8939306972789116,
+      "maximumRGBDifference": 218,
+      "fractionPixelsOver12": 0.015178571428571428
+    },
+    {
+      "variantID": "65702:51586",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51586.png",
+      "referenceSHA256": "086c793fd45c2c83970dad48d3e76e1a75834ab35c551183fa401849299621aa",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/B1E498A1-68BD-4384-90E0-2BE6F06DB773.png",
+      "nativeSHA256": "68f27e9a1799b8376f68455bf5c6f5c8d236def8569e66323ea61d769728f125",
+      "sourceSize": [
+        320,
+        56
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 1.1866629464285714,
+      "maximumRGBDifference": 100,
+      "fractionPixelsOver12": 0.026785714285714284
+    },
+    {
+      "variantID": "65702:51616",
+      "theme": "day",
+      "reference": "Documentation/References/Textfield/FreshFigma/65702-51616.png",
+      "referenceSHA256": "970547f22d778c8113b1efc49b4b37999f636b33871859a9e8aa05a39e4c3c2d",
+      "native": "Documentation/Validation/2026-10-09/Textfield/ValidationMatrixVerified/40B4E868-7C7C-4C98-8887-7E58A38C0A6D.png",
+      "nativeSHA256": "ade97ae44f89c6106f541c1e2fb57441ef2f2b53cb23665ccfc319d3cfc8c8de",
+      "sourceSize": [
+        320,
+        98
+      ],
+      "sourceOverflow": null,
+      "meanAbsoluteRGBDifference": 0.9189519557823129,
+      "maximumRGBDifference": 107,
+      "fractionPixelsOver12": 0.020153061224489795
+    }
+  ]
+}

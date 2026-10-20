@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-05",
+  "packageTests": "Documentation/Validation/2026-10-05/swift-tests-skeleton-final-summary.json",
+  "passed": 52,
+  "failed": 0,
+  "catalogBuild": {
+    "result": "passed",
+    "derivedData": "/private/tmp/tui-audit-derived"
+  },
+  "liveMotionProbe": "Documentation/References/Skeleton/LiveMotionFrames/measurements.json",
+  "manualChecksPending": [
+    "system Reduce Motion",
+    "background/resume",
+    "accessibility tree"
+  ],
+  "sourceHashes": {
+    "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift": "af5c224b63c27820b38d6c9ef47a4895c5ab75bcd172d3c10f37bf1a7b462fce",
+    "Sources/TUIDesignSystem/Components/Skeleton/TUISkeletonText.swift": "6dffa0b61bc62380fb1596807fb47f013ddbff65e458d563d06c70d635110a1e",
+    "Sources/TUIDesignSystem/Foundation/TUIMotion.swift": "cc1f4bfc079a8a5f07d7058eb40cd6a46925b031775ef9069b4a0cf3b9813071",
+    "CatalogApp/TUIDesignSystemCatalogApp.swift": "45fa89ecef4add8c4aba48f26a0c334bf44b96fc5209e796a3da3dfcc3400e58",
+    "CatalogApp/SkeletonMotionProbe.swift": "bb62d3a1ebed56f90a3732aebbd96bca4202027dcd7228c818b805011685622f"
+  }
+}

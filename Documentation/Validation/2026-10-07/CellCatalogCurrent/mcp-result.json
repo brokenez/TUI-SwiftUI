@@ -1,0 +1,36 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 49626,
+      "counts": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T14-58-43-710Z_pid90401_1cf663d9.log",
+      "xcresultPath": "/private/tmp/tui-cell-catalog-current-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T14-58-43-710Z_pid90401_b2a7e4e0.xctestproducts"
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "CellUITests",
+        "test": "testHintUsesConsumerStateAndVariantsAreSelectable",
+        "status": "passed",
+        "durationMs": 17658
+      }
+    ]
+  }
+}

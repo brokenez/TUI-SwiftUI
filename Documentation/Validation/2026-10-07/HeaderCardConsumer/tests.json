@@ -1,0 +1,132 @@
+{
+  "devices" : [
+    {
+      "architecture" : "arm64",
+      "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+      "deviceName" : "iPhone 17 Pro",
+      "modelName" : "iPhone 17 Pro",
+      "osBuildNumber" : "23E254a",
+      "osVersion" : "26.4.1",
+      "platform" : "iOS Simulator"
+    }
+  ],
+  "testNodes" : [
+    {
+      "children" : [
+        {
+          "children" : [
+            {
+              "children" : [
+                {
+                  "duration" : "21 с",
+                  "durationInSeconds" : 21.935974955558777,
+                  "name" : "testIndependentCardOwnsSelectionAndPresentsNativeSheet()",
+                  "nodeIdentifier" : "CardMediumConsumerUITests/testIndependentCardOwnsSelectionAndPresentsNativeSheet()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/CardMediumConsumerUITests/testIndependentCardOwnsSelectionAndPresentsNativeSheet",
+                  "nodeType" : "Test Case",
+                  "result" : "Passed"
+                }
+              ],
+              "name" : "CardMediumConsumerUITests",
+              "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/CardMediumConsumerUITests",
+              "nodeType" : "Test Suite",
+              "result" : "Passed"
+            },
+            {
+              "children" : [
+                {
+                  "children" : [
+                    {
+                      "name" : "HeaderCardConsumerUITests.swift:76: XCTAssertEqual failed: (\"Ссылок: 2\") is not equal to (\"Ссылок: 3\")",
+                      "nodeType" : "Failure Message"
+                    },
+                    {
+                      "name" : "HeaderCardConsumerUITests.swift:78: XCTAssertEqual failed: (\"tui-consumer://header-card/title, tui-consumer://header-card/subheader\") is not equal to (\"tui-consumer://header-card/title, tui-consumer://header-card/subheader, tui-consumer://header-card/description\")",
+                      "nodeType" : "Failure Message"
+                    },
+                    {
+                      "name" : "HeaderCardConsumerUITests.swift:108: XCTAssertTrue failed",
+                      "nodeType" : "Failure Message"
+                    },
+                    {
+                      "name" : "HeaderCardConsumerUITests.swift:81: Failed to not hittable: Button, {{20.0, 790.3}, {264.7, 20.3}}, identifier: 'consumerHeaderCardAX-Подробнее об уведомлениях', label: 'AX: Подробнее об уведомлениях'",
+                      "nodeType" : "Failure Message"
+                    }
+                  ],
+                  "duration" : "14 с",
+                  "durationInSeconds" : 14.338849067687988,
+                  "name" : "testHeadingLinksBadgeCaptionAndHintRemainAccessible()",
+                  "nodeIdentifier" : "HeaderCardConsumerUITests/testHeadingLinksBadgeCaptionAndHintRemainAccessible()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderCardConsumerUITests/testHeadingLinksBadgeCaptionAndHintRemainAccessible",
+                  "nodeType" : "Test Case",
+                  "result" : "Failed"
+                },
+                {
+                  "duration" : "1 мин 4 с",
+                  "durationInSeconds" : 64.26004600524902,
+                  "name" : "testIndependentMatrixAndButtonActions()",
+                  "nodeIdentifier" : "HeaderCardConsumerUITests/testIndependentMatrixAndButtonActions()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderCardConsumerUITests/testIndependentMatrixAndButtonActions",
+                  "nodeType" : "Test Case",
+                  "result" : "Passed"
+                },
+                {
+                  "duration" : "10 с",
+                  "durationInSeconds" : 10.440534949302673,
+                  "name" : "testNativeSwitchUsesBindingAndPreservesIndependentActions()",
+                  "nodeIdentifier" : "HeaderCardConsumerUITests/testNativeSwitchUsesBindingAndPreservesIndependentActions()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderCardConsumerUITests/testNativeSwitchUsesBindingAndPreservesIndependentActions",
+                  "nodeType" : "Test Case",
+                  "result" : "Passed"
+                }
+              ],
+              "name" : "HeaderCardConsumerUITests",
+              "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderCardConsumerUITests",
+              "nodeType" : "Test Suite",
+              "result" : "Failed"
+            },
+            {
+              "children" : [
+                {
+                  "duration" : "10 с",
+                  "durationInSeconds" : 10.607307076454163,
+                  "name" : "testNativeLinksInTitleSubheaderAndDescriptionExecuteDistinctTargets()",
+                  "nodeIdentifier" : "HeaderConsumerUITests/testNativeLinksInTitleSubheaderAndDescriptionExecuteDistinctTargets()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testNativeLinksInTitleSubheaderAndDescriptionExecuteDistinctTargets",
+                  "nodeType" : "Test Case",
+                  "result" : "Passed"
+                },
+                {
+                  "duration" : "7 с",
+                  "durationInSeconds" : 7.798220992088318,
+                  "name" : "testNativeStandardHeadingUsesAdditionalLinkAction()",
+                  "nodeIdentifier" : "HeaderConsumerUITests/testNativeStandardHeadingUsesAdditionalLinkAction()",
+                  "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests/testNativeStandardHeadingUsesAdditionalLinkAction",
+                  "nodeType" : "Test Case",
+                  "result" : "Passed"
+                }
+              ],
+              "name" : "HeaderConsumerUITests",
+              "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests/HeaderConsumerUITests",
+              "nodeType" : "Test Suite",
+              "result" : "Passed"
+            }
+          ],
+          "name" : "TUIDesignSystemCatalogUITests",
+          "nodeIdentifierURL" : "test://com.apple.xcode/TUIDesignSystemCatalog/TUIDesignSystemCatalogUITests",
+          "nodeType" : "UI test bundle",
+          "result" : "Failed"
+        }
+      ],
+      "name" : "TUIDesignSystemCatalogUITests",
+      "nodeType" : "Test Plan",
+      "result" : "Failed"
+    }
+  ],
+  "testPlanConfigurations" : [
+    {
+      "configurationId" : "1",
+      "configurationName" : "Test Scheme Action"
+    }
+  ]
+}

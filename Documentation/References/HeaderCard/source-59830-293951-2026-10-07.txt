@@ -1,0 +1,97 @@
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="4790:1158" data-name="placeholder-single" />;
+}
+
+type PlaceholderMultipleProps = {
+  className?: string;
+  quantity?: "1";
+};
+
+function PlaceholderMultiple({ className, quantity = "1" }: PlaceholderMultipleProps) {
+  return (
+    <div className={className || "content-stretch flex items-start relative"} data-node-id="23657:461706">
+      <PlaceholderSingle className="bg-[var(--tui-background-neutral-1-on-light,rgba(0,0,0,0.03))] relative rounded-[100px] shrink-0 size-[16px]" />
+    </div>
+  );
+}
+
+type TuiHeaderCardProps = {
+  className?: string;
+  accessory?: "None";
+  caption?: boolean;
+  captionText?: string;
+  extended?: "On";
+  headerText?: string;
+  skeleton?: "off";
+  subheader?: boolean;
+  subheaderText?: string;
+  system?: "iOS";
+};
+
+function TuiHeaderCard({ className, accessory = "None", caption = true, captionText = "Caption", extended = "On", headerText = "Header", skeleton = "off", subheader = true, subheaderText = "Subheader", system = "iOS" }: TuiHeaderCardProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--padding-reduced,12px)] pt-[var(--padding-compensated,16px)] px-[var(--padding,20px)] relative w-[375px]"} data-node-id="59830:293951">
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="59830:293952" data-name="HeaderCont">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="59830:293953" data-name="Header+Subheader">
+          {caption && (
+            <div className="content-stretch flex gap-[10px] h-[12px] items-start relative shrink-0 w-full" data-node-id="59830:293954" data-name="CaptionCont">
+              <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Medium'] from-[85.065%] from-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-1,#9299a2)] h-[16px] leading-[normal] min-w-px not-italic relative text-[13px] text-[transparent] to-[var(--hide-from-publishing\/gradient\/text\/secondary-fade-point-2,rgba(146,153,162,0))] uppercase" data-node-id="59830:293955">
+                {captionText}
+              </p>
+            </div>
+          )}
+          <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="59830:293956" data-name="HeaderTextCont">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[20px] text-[color:var(--tui-text-primary,#333)] tracking-[0.38px]" data-node-id="59830:293957">
+              {headerText}
+            </p>
+          </div>
+          {subheader && (
+            <div className="content-stretch flex gap-[8px] items-center pb-[2px] relative shrink-0 w-full" data-node-id="59830:293958" data-name="SubheaderTextCont">
+              <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+              {subheader && (
+                <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,#9299a2)] tracking-[-0.24px] whitespace-nowrap" data-node-id="59830:293960">
+                  {subheaderText}
+                </p>
+              )}
+              <PlaceholderMultiple className="content-stretch flex items-start relative shrink-0" />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Gradient/Text/Secondary Fade: , iOS/UI CAPS: Font(family: "SF Pro Text", style: Medium, size: 13, weight: 500, lineHeight: 100, letterSpacing: 0), iOS/Heading M: Font(family: "SF Pro Display", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3799999952316284), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-header [card]
+**Node ID:** 44217:298609
+
+Заголовок для карточки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## placeholder-multiple
+**Node ID:** 23657:461568
+
+Это плейсхолдер, чтобы вставлять свои инстансы
+
+## placeholder-single
+**Node ID:** 4790:1158
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

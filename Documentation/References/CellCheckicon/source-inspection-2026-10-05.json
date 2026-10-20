@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-05",
+  "method": "Native Figma app, accessibility Properties panel; read-only selection and text inspection",
+  "fileKey": "OBPLqL8JDThLuOP8M4JzBL",
+  "setId": "41637:306903",
+  "componentDefaults": {
+    "show-avatar": true,
+    "show-caption": false,
+    "show-description": true,
+    "show-selected": true,
+    "title": "Title",
+    "description": "Description",
+    "caption": "Caption"
+  },
+  "variants": [
+    {"id": "41637:306904", "properties": {"system": "iOS", "fixed-height": "on", "skeleton": "off"}, "width": "Fixed (375px)", "height": "min-height"},
+    {"id": "41637:306919", "properties": {"system": "iOS", "fixed-height": "off", "skeleton": "off"}, "width": "Fixed (375px)", "height": "Hug (56px)"},
+    {"id": "55902:297311", "properties": {"system": "iOS", "fixed-height": "on", "skeleton": "on"}, "width": "Fixed (375px)", "height": "Hug (56px)"}
+  ],
+  "textLayers": [
+    {"id": "41637:306912", "name": "CellTitle", "style": "iOS/Body L", "family": "SF Pro Text", "weight": 400, "size": 17, "letterSpacing": -0.41, "lineHeightInspector": "100%", "layerHeight": 20, "gradientStyle": "Gradient/Text/Primary Fade", "gradientColors": ["#333333 100%", "#333333 0%"]},
+    {"id": "41637:306915", "name": "TitleDescription", "style": "iOS/UI S", "family": "SF Pro Text", "weight": 400, "size": 13, "letterSpacing": -0.08, "lineHeightInspector": "100%", "layerHeight": 16, "gradientStyle": "Gradient/Text/Secondary Fade", "gradientColors": ["#9299A2 100%", "#9299A2 0%"]}
+  ],
+  "textContainer": {"reportedGap": 4, "reportedWidth": 255, "reportedHeight": 56},
+  "documentationLink": "https://go.tcsbank.ru/tui-cell-specs",
+  "limitations": [
+    "Figma MCP design context currently unavailable (transport HTTP 403).",
+    "Only listed source properties were inspected; this does not refresh the complete export or specification.",
+    "No new runtime screenshots or motion recordings captured.",
+    "Inspector line height 100% and actual layer heights 20/16 are recorded separately; no renderer equivalence inferred."
+  ]
+}

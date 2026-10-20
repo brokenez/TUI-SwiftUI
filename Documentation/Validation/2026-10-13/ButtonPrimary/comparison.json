@@ -1,0 +1,139 @@
+{
+  "scope": "Twelve exact Primary Day source exports and 270 native source-frame renders. Native 3x reduced with LANCZOS on white. No alignment or color correction. Static loading pose only, not animation timing. Night source comparison is UNVERIFIED.",
+  "sourcePairs": 12,
+  "nativeMatrix": 270,
+  "measurements": [
+    {
+      "variantID": "41658:297301",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297301.png",
+      "sourceSHA256": "f193b6e0cfb399f9c305aa6cddf881a2ceff04fa4fbdac318b4ce52df9f7e22a",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/7E6C20CD-D9C0-4141-964E-36459434851C.png",
+      "nativeSHA256": "1bf7c9d1238f7a414618aa9dd79fef37bd1588ab4e878ea4d44617755bc8f6b2",
+      "MAE_255": 0.73365,
+      "contentColumnMAE_255": 1.10978,
+      "maxDifference_255": 15
+    },
+    {
+      "variantID": "41658:297205",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297205.png",
+      "sourceSHA256": "aae733011bb857071335921ec96a28a9f365972e0cf222216701b305861eaeb0",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/0EB5E74A-A246-46B7-8160-E165C75845AC.png",
+      "nativeSHA256": "294a2b1a44b3267c87b72d0b057b402cae4e96e122f5ca82de711c7d40e30010",
+      "MAE_255": 0.20839,
+      "contentColumnMAE_255": 1.91319,
+      "maxDifference_255": 48
+    },
+    {
+      "variantID": "41658:296907",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-296907.png",
+      "sourceSHA256": "9c1113d1112de38d51b82f947ecccc36eb89f5f61a2430868ed612174cd0d7db",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/B48E11E0-BF6E-47D9-8497-1EEBE6A358AC.png",
+      "nativeSHA256": "afb0fb5d35616f12ea2a64a5527d599414ed34686fc567c156fe80ce8d45812b",
+      "MAE_255": 0.24637,
+      "contentColumnMAE_255": 1.19425,
+      "maxDifference_255": 55
+    },
+    {
+      "variantID": "41658:297102",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297102.png",
+      "sourceSHA256": "4fd36c1b7a49e06eb9faa6da6a96c95d6af3344fd7e142154fe0ad609906aa2c",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/70440CCF-FB96-405D-B695-BE052CE54267.png",
+      "nativeSHA256": "ecc4ff0ac59f0ea71465a052a82635bc70eaba22089d46645e0dbc5526826373",
+      "MAE_255": 0.23599,
+      "contentColumnMAE_255": 1.1155,
+      "maxDifference_255": 55
+    },
+    {
+      "variantID": "41658:297321",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297321.png",
+      "sourceSHA256": "0258a51438716facd15a6345509c0cec47f37f5720151db8ca9370fef15c42a2",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/7D180713-8116-4D6C-8B2A-38FE8E23DBEC.png",
+      "nativeSHA256": "4c5ea97d655f2603e83c60e88cef79fff9352c572b040a0af0ec69dd20001758",
+      "MAE_255": 0.91613,
+      "contentColumnMAE_255": 2.22742,
+      "maxDifference_255": 38
+    },
+    {
+      "variantID": "41658:297225",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297225.png",
+      "sourceSHA256": "feb7c917252ed293302c84aff199d81470d04fc3ddccc2b625311dc6b9ca4e70",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/C57515E1-98B0-4500-AE50-F5336783621F.png",
+      "nativeSHA256": "4cb6f2e70062a300e4b83a1cc5d52e060bb077973c08801d7e572e3b5b99aa5b",
+      "MAE_255": 0.24819,
+      "contentColumnMAE_255": 2.43497,
+      "maxDifference_255": 48
+    },
+    {
+      "variantID": "41658:296935",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-296935.png",
+      "sourceSHA256": "bf3b6b3fb474e3e315d2c93e6b176b7d74b3bc01306332176fe6ae06f5107f3f",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/88EB78E3-8843-4658-8A6E-D85E2B16EAFE.png",
+      "nativeSHA256": "8e57cb810c6ffee7f925960f050fd44578f058c77dffb9b63895396ba21bafdb",
+      "MAE_255": 0.68782,
+      "contentColumnMAE_255": 3.95047,
+      "maxDifference_255": 142
+    },
+    {
+      "variantID": "41658:297122",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297122.png",
+      "sourceSHA256": "4158c021d6188a087dc73e505f4063e6e908463e1938ac8d7ce4100564759812",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/1439D96F-5072-46DB-BBEE-8009CA27FBDD.png",
+      "nativeSHA256": "968cf5d411f40ca151484ebc96374a43c6d2837a46156198390f09c4a584ede8",
+      "MAE_255": 0.65182,
+      "contentColumnMAE_255": 3.71066,
+      "maxDifference_255": 142
+    },
+    {
+      "variantID": "41658:297311",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297311.png",
+      "sourceSHA256": "b1f36ec59739ae81bcb625a4482e60587115f18d31198db39d93266ad63221cf",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/DFAEC4CA-37E5-4E5C-AB6C-996A84DC1258.png",
+      "nativeSHA256": "1bdd2dbd56b5d6fceb6d246ca22285c600d761ae0fe9a2a399b9568bcd988c24",
+      "MAE_255": 1.9308,
+      "contentColumnMAE_255": 2.07607,
+      "maxDifference_255": 30
+    },
+    {
+      "variantID": "41658:297215",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297215.png",
+      "sourceSHA256": "a4178c60978b10ea56cbedb0d011a8b54dd16603bb1e197b105d67316cb73782",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/650C1D95-9474-4166-9AF5-EA1C111861A2.png",
+      "nativeSHA256": "42470fb8ef36385e12178c19b9d8fcd8900c74e7f768587ef785b34f54627bcb",
+      "MAE_255": 1.66852,
+      "contentColumnMAE_255": 2.05347,
+      "maxDifference_255": 32
+    },
+    {
+      "variantID": "41658:296921",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-296921.png",
+      "sourceSHA256": "1527c9293c97e70d0f701bc40f2b40971e910241125af5e36dff59373cce3420",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/8E5CDA06-FB2B-4773-A2A0-D9DD19AB6BE6.png",
+      "nativeSHA256": "5af1f29f2c06ce64cfc736e1b03889e0ebe3a23999abeccd7c8be885a7a45ac2",
+      "MAE_255": 3.89883,
+      "contentColumnMAE_255": 4.14808,
+      "maxDifference_255": 108
+    },
+    {
+      "variantID": "41658:297112",
+      "theme": "day",
+      "source": "Documentation/References/Button/2026-10-13/primary-41658-297112.png",
+      "sourceSHA256": "7dd59806c739aad941302bfe58806fa2c581f717f486804097e28ba59f01422f",
+      "native": "Documentation/Validation/2026-10-13/ButtonPrimary/Native/98F2E03C-B220-4D6E-9EE8-162DC977C531.png",
+      "nativeSHA256": "af254c1bb282ae5664407802fbee3d4733ca6f57870262b31ff19be7615073c8",
+      "MAE_255": 3.73197,
+      "contentColumnMAE_255": 3.95919,
+      "maxDifference_255": 108
+    }
+  ]
+}

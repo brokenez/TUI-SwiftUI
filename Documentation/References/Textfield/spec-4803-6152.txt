@@ -1,0 +1,319 @@
+const imgSize16X16 = "ASSET_URL_REDACTED";
+const imgStart = "ASSET_URL_REDACTED";
+const imgColor = "ASSET_URL_REDACTED";
+const imgColor1 = "ASSET_URL_REDACTED";
+const imgRowCell = "ASSET_URL_REDACTED";
+
+type TuiLoaderProps = {
+  className?: string;
+  size?: "16x16";
+};
+
+function TuiLoader({ className, size = "16x16" }: TuiLoaderProps) {
+  return (
+    <div className={className || "relative size-[16px]"} data-node-id="11261:117124">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSize16X16} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-[var(--figma-library\/guide-artboard,white)] content-stretch flex flex-col items-start overflow-clip p-[var(--paddings\/artboard-padding,128px)] relative rounded-[var(--roundings\/artboard-rounding,80px)] size-full" data-node-id="4803:6152" data-name="Построение">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4803:6153" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I4803:6153;4925:362" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--tui-text-primary,#333)]" data-node-id="I4803:6153;9499:6973" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Построение
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="4891:19843" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[450px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I4891:19843;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I4891:19843;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center justify-center left-1/2 top-1/2" data-node-id="I4891:19843;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19840" data-name="Group">
+              <div className="border border-[var(--tui-status-negative,#f52222)] border-solid col-1 content-stretch flex flex-col gap-[10px] h-[140px] items-start ml-0 mt-[44px] p-[10px] relative rounded-[8px] row-1 w-[634px]" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19813" data-name="left-content">
+                <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19814">
+                  <p className="leading-[16px]">tui-textfield</p>
+                </div>
+                <div className="content-stretch flex gap-[9px] items-start relative rounded-[4px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19815">
+                  <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex flex-col gap-[10px] items-start p-[10px] relative rounded-[8px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19816" data-name="left-content">
+                    <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19817">
+                      <p className="leading-[16px]">start-accessories</p>
+                    </div>
+                    <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex flex-col items-start p-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19818" data-name="left-content">
+                      <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19819">
+                        <p className="leading-[16px]">item</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border border-[#e50000] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px p-[10px] relative rounded-[8px]" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19820" data-name="left-content">
+                    <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19821">
+                      <p className="leading-[16px]">content</p>
+                    </div>
+                    <div className="border border-[#e50000] border-solid content-stretch flex flex-col items-start justify-center p-[5px] relative rounded-[4px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19822" data-name="left-content">
+                      <div className="content-stretch flex items-start relative rounded-[4px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19823">
+                        <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19824">
+                          <p className="leading-[16px]">label</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="border border-[#e50000] border-solid content-stretch flex items-start relative rounded-[4px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19825">
+                      <div className="content-stretch flex flex-[1_0_0] items-center min-w-px p-[5px] relative rounded-[2px]" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19826" data-name="left-content">
+                        <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19827">
+                          <p>
+                            <span className="leading-[16px]">value</span>
+                            <span className="leading-[16px] text-[rgba(0,0,0,0.48)]">{` (required)`}</span>
+                            <span className="leading-[16px]">{` / `}</span>
+                            <span className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic">placeholder</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex flex-col gap-[10px] items-start justify-center p-[10px] relative rounded-[8px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19828" data-name="left-content">
+                    <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19829">
+                      <p className="leading-[16px]">end-accessories</p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center relative rounded-[4px] shrink-0 w-full" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19830">
+                      <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex items-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19831" data-name="left-content">
+                        <TuiLoader className="relative shrink-0 size-[16px]" />
+                      </div>
+                      <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex items-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19833" data-name="left-content">
+                        <div className="relative shrink-0 size-[16px]" data-node-id="I4891:19843;9469:7126;9470:7246;6617:36852" data-name="tui-ic-small-pragmatic / cross">
+                          <div className="absolute bg-[var(--tui-text-secondary,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I4891:19843;9469:7126;9470:7246;6617:36852;246:3843" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                        </div>
+                      </div>
+                      <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex items-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;4891:20513" data-name="left-content">
+                        <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:20514">
+                          <p className="leading-[16px]">content</p>
+                        </div>
+                      </div>
+                      <div className="border border-[var(--tui-status-negative,#f52222)] border-solid content-stretch flex items-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="I4891:19843;9469:7126;9470:7246;6617:36821" data-name="left-content">
+                        <div className="relative shrink-0 size-[16px]" data-node-id="I4891:19843;9469:7126;9470:7246;6617:36868" data-name="tui-ic-small / lock">
+                          <div className="absolute bg-[var(--tui-text-secondary,#9299a2)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3px_1.4px] mask-size-[10px_11.998px]" data-node-id="I4891:19843;9469:7126;9470:7246;6617:36868;34189:245" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="border border-[var(--tui-status-negative,#f52222)] border-solid col-1 content-stretch flex flex-col items-start ml-0 mt-[192px] p-[10px] relative rounded-[8px] row-1 w-[634px]" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19835" data-name="left-content">
+                <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19836">
+                  <p className="leading-[16px]">hint</p>
+                </div>
+              </div>
+              <div className="border border-[var(--tui-status-negative,#f52222)] border-solid col-1 content-stretch flex flex-col items-start ml-0 mt-0 p-[10px] relative rounded-[8px] row-1 w-[634px]" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19837" data-name="left-content">
+                <div className="[word-break:break-word] flex flex-col font-['Neue_Haas_Unica_W1G:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[11px] text-black text-center tracking-[0.4px] whitespace-nowrap" data-node-id="I4891:19843;9469:7126;9470:7246;4891:19838">
+                  <p className="leading-[16px]">top-label</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I4891:19843;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:36663" data-name="Table Header">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I6897:36663;6076:10250" data-name="Heading Column">
+          <div className="content-stretch flex items-start py-[16px] relative shrink-0 w-[400px]" data-node-id="I6897:36663;6076:10251" data-name="Heading Column">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I6897:36663;6076:10251;6076:9591">
+              Блок
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[var(--table\/column-horizontal-gap,40px)] items-start min-w-px py-[16px] relative" data-node-id="I6897:36663;6076:10252" data-name="Column 1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Medium'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))]" data-node-id="I6897:36663;6076:10253">
+            Элемент
+          </p>
+        </div>
+        <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:36663;6076:10254" data-name="Divider" />
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:36677" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I6897:36677;12677:6892" data-name="Table Row Content">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I6897:36677;6076:10291" data-name="Heading Row">
+            <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:36677;6076:10291;6076:9608">
+              Сontent
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:36677;6076:10291;6076:9609">
+              Область для ввода данных
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px relative" data-node-id="I6897:36677;6076:10292" data-name="Merged Rows=3">
+            <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start relative shrink-0 w-full" data-node-id="I6897:36677;6076:10292;6076:9239" data-name="Row 1">
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px not-italic py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:36677;6076:10292;6076:9240" data-name="Row Cell">
+                <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:36677;6076:10292;6076:9240;6076:9578">
+                  Label
+                </p>
+                <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:36677;6076:10292;6076:9240;6076:9579">
+                  Заголовок поля, необязательно
+                </p>
+              </div>
+              <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:36677;6076:10292;6076:9241" data-name="Divider" />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start relative shrink-0 w-full" data-node-id="I6897:36677;6076:10292;6076:9242" data-name="Row 2">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:36677;6076:10292;6076:9243" data-name="Row 2 / Cell 1">
+                <div className="border border-[var(--figma-library\/component,#9747ff)] border-dashed content-stretch flex items-center justify-center overflow-clip py-[20px] relative rounded-[24px] shrink-0 w-full" data-node-id="I6897:36677;6076:10292;6076:9243;6076:9576" data-name=".Placeholder Table Cell">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="I6897:36677;6076:10292;6076:9243;6076:9576;20052:6614" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRowCell} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:36677;6076:10292;6076:9244" data-name="Divider" />
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing\/column-between-spacing,32px)] items-start relative shrink-0 w-full" data-node-id="I6897:36677;6076:10292;6076:9245" data-name="Row 3">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:36677;6076:10292;6076:9246" data-name="Row 3 / Cell 1">
+                <div className="border border-[var(--figma-library\/component,#9747ff)] border-dashed content-stretch flex items-center justify-center overflow-clip py-[20px] relative rounded-[24px] shrink-0 w-full" data-node-id="I6897:36677;6076:10292;6076:9246;6076:9576" data-name=".Placeholder Table Cell">
+                  <div className="relative shrink-0 size-[24px]" data-node-id="I6897:36677;6076:10292;6076:9246;6076:9576;20052:6614" data-name=".Instance">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRowCell} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:36677;6076:10293" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:36701" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I6897:36701;12677:6892" data-name="Table Row Content">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I6897:36701;6076:10291" data-name="Heading Row">
+            <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:36701;6076:10291;6076:9608">
+              Start accessories
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:36701;6076:10291;6076:9609">
+              Область для дополнительных элементов слева
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I6897:36701;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I6897:36701;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:36701;6076:10292;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:36701;6076:10292;6076:9231;6076:9579">
+                  Необязательно
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:36701;6076:10293" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:37107" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I6897:37107;12677:6892" data-name="Table Row Content">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I6897:37107;6076:10291" data-name="Heading Row">
+            <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:37107;6076:10291;6076:9608">
+              End accessories
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:37107;6076:10291;6076:9609">
+              Область для дополнительных элементов справа
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I6897:37107;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I6897:37107;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:37107;6076:10292;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:37107;6076:10292;6076:9231;6076:9579">
+                  Необязательно
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:37107;6076:10293" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:37119" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I6897:37119;12677:6892" data-name="Table Row Content">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I6897:37119;6076:10291" data-name="Heading Row">
+            <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:37119;6076:10291;6076:9608">
+              Top label
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full whitespace-pre-wrap" data-node-id="I6897:37119;6076:10291;6076:9609">
+              <span className="leading-[24px] text-[rgba(0,0,0,0.54)]">
+                {`Текстовая подпись, добавляется отдельно. `}
+                <br aria-hidden />
+                {`Подробнее в разделе `}
+              </span>
+              <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#126df7] underline">
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline">дополнительные возможности</span>
+              </a>
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I6897:37119;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I6897:37119;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:37119;6076:10292;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:37119;6076:10292;6076:9231;6076:9579">
+                  Необязательно
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border border-[var(--tui-border-normal,rgba(0,16,36,0.12))] border-solid bottom-0 h-px left-0 right-0" data-node-id="I6897:37119;6076:10293" data-name="Divider" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[934px]" data-node-id="6897:37131" data-name="Table Row">
+        <div className="content-stretch flex gap-[32px] items-start relative shrink-0 w-full" data-node-id="I6897:37131;12677:6892" data-name="Table Row Content">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic py-[var(--vertical-spacing,32px)] relative shrink-0 w-[400px]" data-node-id="I6897:37131;6076:10291" data-name="Heading Row">
+            <p className="font-['Tinkoff_Sans:Medium'] leading-[24px] relative shrink-0 text-[20px] text-[color:var(--tui-text-primary,rgba(0,0,0,0.8))] w-full" data-node-id="I6897:37131;6076:10291;6076:9608">
+              Hint
+            </p>
+            <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full whitespace-pre-wrap" data-node-id="I6897:37131;6076:10291;6076:9609">
+              <span className="leading-[normal]">
+                {`Текстовая подсказка, добавляется отдельно. `}
+                <br aria-hidden />
+                {`Подробнее в `}
+              </span>
+              <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] text-[#126df7] underline">
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline">разделе про подсказки</span>
+              </a>
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I6897:37131;6076:10292" data-name="Columns">
+            <div className="content-stretch flex flex-[1_0_0] gap-[var(--spacing\/column-between-spacing,32px)] items-start min-w-px relative" data-node-id="I6897:37131;6076:10292;6076:9230" data-name="Row 1">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px py-[var(--vertical-spacing,32px)] relative" data-node-id="I6897:37131;6076:10292;6076:9231" data-name="Row Cell">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[normal] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I6897:37131;6076:10292;6076:9231;6076:9579">
+                  Необязательно
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-loader
+**Node ID:** 11261:117123
+
+Индикатор загрузки
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-loader-specs](https://go.tcsbank.ru/tui-loader-specs)
+
+## tui-ic-small-pragmatic / cross
+**Node ID:** 2:54
+
+delete, remove, cancel, close
+
+## tui-ic-small / lock
+**Node ID:** 14555:54364
+
+security, secure, privacy
+
+Images and SVGs will be stored as constants, e.g. const image = 'ASSET_URL_REDACTED These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

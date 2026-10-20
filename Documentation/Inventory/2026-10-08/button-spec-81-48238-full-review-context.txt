@@ -1,0 +1,276 @@
+const imgTuiIcMediumStar = "[TEMPORARY_ASSET_URL]";
+const imgColor = "[TEMPORARY_ASSET_URL]";
+const imgColor1 = "[TEMPORARY_ASSET_URL]";
+
+export default function Card1X1() {
+  return (
+    <div className="content-stretch flex flex-col items-start overflow-clip pb-[48px] relative rounded-[24px] size-full" data-node-id="81:48238" data-name="card-1x1">
+      <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="81:48239" data-name="Container">
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48240" data-name="Card Header">
+          <div className="bg-[#f6f7f8] h-[32px] relative rounded-tl-[var(--roundings\/card-rounding,24px)] rounded-tr-[var(--roundings\/card-rounding,24px)] shrink-0 w-full" data-node-id="I81:48240;9510:6914" data-name="card-container" />
+        </div>
+        <div className="bg-[#f6f7f8] content-stretch flex flex-col items-start px-[32px] relative shrink-0 w-full" data-node-id="81:48241" data-name="card-content">
+          <div className="h-[432px] relative shrink-0 w-full" data-node-id="81:48242" data-name="image">
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[54px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[105px]" data-node-id="81:48243" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I81:48243;200:101982" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48243;200:101983">
+                  Label
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[54px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[183px]" data-node-id="772:20492" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I772:20492;200:102682" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20492;200:102683">
+                  Label
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[54px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[249px]" data-node-id="772:20566" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20566;200:102332" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20566;200:102333">
+                  Label
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[54px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[303px]" data-node-id="772:20640" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20640;201:99387" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20640;201:99388">
+                  Label
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[165px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[105px]" data-node-id="81:48244" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I81:48244;200:101980" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I81:48244;200:101981" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I81:48244;200:101982" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I81:48244;200:101983">
+                  Label + Icon
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[165px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[183px]" data-node-id="772:20493" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I772:20493;200:102680" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I772:20493;200:102681" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I772:20493;200:102682" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20493;200:102683">
+                  Label + Icon
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[165px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[249px]" data-node-id="772:20567" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20567;200:102330" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20567;200:102331" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20567;200:102331;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20567;200:102332" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20567;200:102333">
+                  Label + Icon
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[165px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[303px]" data-node-id="772:20641" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20641;201:99385" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20641;201:99386" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20641;201:99386;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20641;201:99387" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20641;201:99388">
+                  Label + Icon
+                </p>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[430px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[105px]" data-node-id="772:20477" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I772:20477;200:101982" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20477;200:101983">
+                  Label + Icon
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20477;2346:32205" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20477;2346:32206" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20477;2346:32206;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[606px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[105px]" data-node-id="772:20714" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I772:20714;200:101980" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I772:20714;200:101981" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I772:20714;200:101982" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20714;200:101983">
+                  Label + Icons
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20714;2346:32205" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20714;2346:32206" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20714;2346:32206;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[430px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[183px]" data-node-id="772:20494" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I772:20494;200:102682" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20494;200:102683">
+                  Label + Icon
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20494;2365:30162" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20494;2365:30163" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20494;2365:30163;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[606px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[183px]" data-node-id="772:20715" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I772:20715;200:102680" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I772:20715;200:102681" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I772:20715;200:102682" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20715;200:102683">
+                  Label + Icons
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20715;2365:30162" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20715;2365:30163" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20715;2365:30163;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[430px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[249px]" data-node-id="772:20568" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20568;200:102332" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20568;200:102333">
+                  Label + Icon
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20568;2365:30321" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20568;2365:30322" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20568;2365:30322;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[606px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[249px]" data-node-id="772:20716" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20716;200:102330" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20716;200:102331" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20716;200:102331;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20716;200:102332" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20716;200:102333">
+                  Label + Icons
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20716;2365:30321" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20716;2365:30322" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20716;2365:30322;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[430px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[303px]" data-node-id="772:20642" data-name="tui-button">
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20642;201:99387" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20642;201:99388">
+                  Label + Icon
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20642;2365:30368" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20642;2365:30369" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20642;2365:30369;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[606px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[303px]" data-node-id="772:20717" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20717;201:99385" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20717;201:99386" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20717;201:99386;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I772:20717;201:99387" data-name="container">
+                <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--tui-text-primary-on-accent-1,#333)] whitespace-nowrap" data-node-id="I772:20717;201:99388">
+                  Label + Icons
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center py-[4px] relative shrink-0" data-node-id="I772:20717;2365:30368" data-name="container">
+                <div className="relative rounded-[30px] shrink-0 size-[16px]" data-node-id="I772:20717;2365:30369" data-name="tui-ic-small-pragmatic / chevron-down">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[16px_16px]" data-node-id="I772:20717;2365:30369;246:4378" style={{ maskImage: `url("${imgColor1}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center left-[345px] min-h-[56px] overflow-clip p-[16px] rounded-[var(--tui-button\/radius\/large,12px)] top-[105px]" data-node-id="81:48245" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I81:48245;200:101980" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I81:48245;200:101981" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[345px] min-h-[44px] overflow-clip p-[10px] rounded-[var(--tui-button\/radius\/medium,8px)] top-[183px]" data-node-id="772:20495" data-name="tui-button">
+              <div className="content-stretch flex items-start relative shrink-0" data-node-id="I772:20495;200:102680" data-name="container">
+                <div className="relative shrink-0 size-[24px]" data-node-id="I772:20495;200:102681" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[345px] min-h-[32px] overflow-clip px-[8px] py-[4px] rounded-[var(--tui-button\/radius\/small,8px)] top-[249px]" data-node-id="772:20569" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20569;200:102330" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20569;200:102331" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20569;200:102331;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[var(--tui-background-accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center left-[345px] min-h-[24px] overflow-clip px-[4px] rounded-[var(--tui-button\/radius\/xsmall,4px)] top-[303px]" data-node-id="772:20643" data-name="tui-button">
+              <div className="content-stretch flex items-start py-[4px] relative shrink-0" data-node-id="I772:20643;201:99385" data-name="container">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I772:20643;201:99386" data-name="Icon">
+                  <div className="absolute bg-[var(--tui-text-primary-on-accent-1,#333)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[1px_1px] mask-size-[14px_13.5px]" data-node-id="I772:20643;201:99386;7545:394" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="81:48246" data-name=".card-footer">
+          <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="I81:48246;9499:6876" data-name="footer-container" />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Background/base-alt: #F6F7F8, Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), Desktop/UI S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0).
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-button
+**Node ID:** 32862:25087
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## tui-ic-medium / star
+**Node ID:** 17368:26748
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-ic-small / star
+**Node ID:** 17368:26752
+
+favorites
+
+## tui-ic-small-pragmatic / chevron-down
+**Node ID:** 722:3915
+
+expand, show more, dropdown, arrow down
+Images and SVGs will be stored as constants, e.g. const image = '[TEMPORARY_ASSET_URL]'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,1043 @@
+Currently selected nodes:
+- 27760:140089: Note
+
+
+
+<canvas id="1:186853" name="🧾 Дизайн" x="0" y="0" width="0" height="0">
+  <instance id="79:14597" name="page-title" x="-10925" y="-4657" width="1318" height="344" />
+  <frame id="79:14693" name="API" x="14478" y="-3629" width="1190" height="930">
+    <instance id="79:14694" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:14695" name="Note" x="128" y="216" width="934" height="140" />
+    <frame id="79:14696" name="row" x="128" y="356" width="934" height="56">
+      <instance id="79:14697" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+      <instance id="79:14698" name="tui-table-сell" x="310" y="0" width="624" height="56" />
+    </frame>
+    <frame id="79:14699" name="row" x="128" y="412" width="934" height="146">
+      <frame id="79:14700" name="tui-table сell" x="0" y="0" width="310" height="146">
+        <instance id="79:14701" name="tui-spacing" x="0" y="16" width="16" height="44" hidden="true" />
+        <frame id="79:14702" name="Text" x="0" y="32" width="278" height="58">
+          <text id="79:14703" name="Caption" x="0" y="0" width="224" height="20" hidden="true" />
+          <instance id="79:14704" name="`code`" x="0" y="0" width="70" height="28" />
+          <text id="79:14705" name="презет" x="0" y="38" width="278" height="20" />
+        </frame>
+        <instance id="79:14706" name="tui-spacing" x="240" y="16" width="16" height="44" hidden="true" />
+      </frame>
+      <frame id="79:14707" name="preview" x="310" y="0" width="624" height="146">
+        <frame id="79:14708" name="tui-table сell" x="0" y="0" width="624" height="146">
+          <instance id="79:14709" name="`code`" x="40" y="40" width="70" height="28" />
+          <instance id="79:14710" name="`code`" x="120" y="40" width="52" height="28" />
+          <instance id="79:14711" name="`code`" x="182" y="40" width="97" height="28" />
+          <instance id="80:54716" name="`code`" x="289" y="40" width="160" height="28" />
+          <instance id="80:54718" name="`code`" x="459" y="40" width="43" height="28" />
+          <instance id="80:54720" name="`code`" x="40" y="78" width="88" height="28" />
+          <instance id="80:54754" name="`code`" x="138" y="78" width="106" height="28" />
+          <instance id="80:54756" name="`code`" x="254" y="78" width="61" height="28" />
+          <instance id="80:54758" name="`code`" x="325" y="78" width="106" height="28" />
+          <instance id="80:54722" name="`code`" x="441" y="78" width="70" height="28" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14712" name="row" x="128" y="558" width="934" height="122">
+      <frame id="79:14713" name="tui-table сell" x="0" y="0" width="310" height="122">
+        <instance id="79:14714" name="tui-spacing" x="0" y="16" width="16" height="44" hidden="true" />
+        <frame id="79:14715" name="Text" x="0" y="32" width="278" height="58">
+          <text id="79:14716" name="Caption" x="0" y="0" width="224" height="20" hidden="true" />
+          <instance id="79:14717" name="`code`" x="0" y="0" width="106" height="28" />
+          <text id="79:14718" name="Презет внешнего вида" x="0" y="38" width="278" height="20" />
+        </frame>
+        <instance id="79:14719" name="tui-spacing" x="240" y="16" width="16" height="44" hidden="true" />
+      </frame>
+      <frame id="79:14720" name="preview" x="310" y="0" width="624" height="122">
+        <frame id="79:14721" name="tui-table сell" x="0" y="0" width="624" height="122">
+          <instance id="79:14722" name="`code`" x="40" y="40" width="88" height="28" />
+          <instance id="79:14723" name="`code`" x="138" y="40" width="52" height="28" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="80:54724" name="row" x="128" y="680" width="934" height="122">
+      <frame id="80:54725" name="tui-table сell" x="0" y="0" width="310" height="122">
+        <instance id="80:54726" name="tui-spacing" x="0" y="16" width="16" height="44" hidden="true" />
+        <frame id="80:54727" name="Text" x="0" y="32" width="278" height="58">
+          <text id="80:54728" name="Caption" x="0" y="0" width="224" height="20" hidden="true" />
+          <instance id="80:54729" name="`code`" x="0" y="0" width="61" height="28" />
+          <text id="80:54730" name="Режим отступов внутри карточки" x="0" y="38" width="278" height="20" />
+        </frame>
+        <instance id="80:54731" name="tui-spacing" x="240" y="16" width="16" height="44" hidden="true" />
+      </frame>
+      <frame id="80:54732" name="preview" x="310" y="0" width="624" height="122">
+        <frame id="80:54733" name="tui-table сell" x="0" y="0" width="624" height="122">
+          <instance id="80:54734" name="`code`" x="40" y="40" width="70" height="28" />
+          <instance id="80:54735" name="`code`" x="120" y="40" width="79" height="28" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14724" name="Как пользоваться в фигме" x="6528" y="-3629" width="1190" height="2052">
+    <instance id="79:14725" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:14726" name="H2 + P" x="128" y="216" width="934" height="144" />
+    <instance id="79:14727" name="Image 1x1" x="128" y="360" width="934" height="702" />
+    <instance id="79:14728" name="H2 + P" x="128" y="1062" width="934" height="144" />
+    <frame id="79:14729" name="image" x="128" y="1206" width="934" height="718">
+      <frame id="79:14730" name="img-placeholder" x="0" y="0" width="934" height="670">
+        <instance id="79:14731" name="tui-card-large" x="83" y="139" width="375" height="364" />
+        <vector id="79:14732" name="Vector 713" x="502" y="329" width="58" height="0" />
+        <rounded-rectangle id="79:14733" name="Screenshot 2022-08-31 at 17.43 1" x="602" y="128" width="225" height="373" />
+      </frame>
+    </frame>
+  </frame>
+  <instance id="126:13979" name="Instance Container" x="5664" y="-4475" width="375" height="408" hidden="true" />
+  <frame id="79:14734" name="Стили" x="-1422" y="-3625" width="1190" height="6113">
+    <instance id="79:14735" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <frame id="33144:15757" name="блок про элевейтед и флет скрыт от греха" x="128" y="216" width="934" height="529" hidden="true">
+      <instance id="79:14736" name="List Bulleted" x="128" y="216" width="934" height="97" />
+      <instance id="79:14737" name="Image 2x1" x="128" y="313" width="934" height="432" />
+    </frame>
+    <instance id="79:14738" name="H2 + P" x="128" y="216" width="934" height="336" />
+    <instance id="79:14739" name="Image 2x1" x="128" y="552" width="934" height="432" />
+    <instance id="79:14740" name="Paragraph" x="128" y="984" width="934" height="40" />
+    <instance id="79:14741" name="Image 2x1" x="128" y="1024" width="934" height="432" />
+    <instance id="79:14742" name="H2 + P" x="128" y="1456" width="934" height="120" />
+    <instance id="79:14743" name="H3 + P" x="128" y="1576" width="934" height="128" />
+    <instance id="80:55126" name="List Bulleted" x="128" y="1704" width="934" height="101" />
+    <instance id="80:56239" name="Paragraph" x="128" y="1805" width="934" height="40" />
+    <frame id="79:14744" name="image" x="128" y="1845" width="934" height="431">
+      <frame id="79:14745" name="img-placeholder" x="0" y="0" width="934" height="383">
+        <instance id="80:55071" name="tui-card-large" x="146" y="136" width="300" height="96" />
+        <instance id="80:55097" name="tui-card-large" x="485" y="132" width="300" height="96" />
+        <vector id="80:55124" name="Vector 714" x="115" y="233" width="703.5" height="0" />
+        <vector id="80:55125" name="Vector 715" x="115" y="136" width="703.5" height="0" />
+      </frame>
+    </frame>
+    <instance id="79:14748" name="H3 + P" x="128" y="2276" width="934" height="128" />
+    <frame id="79:14749" name="image" x="128" y="2404" width="934" height="558">
+      <frame id="79:14750" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <vector id="79:14751" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:14752" name="end" x="0" y="510" width="760" height="0" />
+        <instance id="79:14753" name="tui-card-large" x="283" y="79" width="367" height="340" />
+      </frame>
+    </frame>
+    <instance id="79:14754" name="Paragraph" x="128" y="2962" width="934" height="40" />
+    <frame id="79:14755" name="image" x="128" y="3002" width="934" height="452">
+      <frame id="79:14756" name="img-placeholder" x="0" y="0" width="934" height="404">
+        <vector id="79:14757" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:14758" name="end" x="0" y="510" width="760" height="0" />
+        <instance id="79:14759" name="tui-card-large" x="204" y="106" width="525" height="192" />
+      </frame>
+    </frame>
+    <instance id="79:14760" name="H2 + P" x="128" y="3454" width="934" height="120" />
+    <instance id="79:14761" name="H3 + P" x="128" y="3574" width="934" height="152" />
+    <instance id="79:14762" name="List Bulleted" x="128" y="3726" width="934" height="101" />
+    <frame id="79:14763" name="image" x="128" y="3827" width="934" height="451">
+      <frame id="79:14764" name="img-placeholder" x="0" y="0" width="934" height="403">
+        <vector id="79:14765" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:14766" name="end" x="0" y="510" width="760" height="0" />
+        <instance id="79:14767" name="tui-card-large" x="279" y="106" width="375" height="80" />
+        <frame id="79:14768" name="tui-card-large" x="279" y="225" width="375" height="84">
+          <frame id="79:14769" name="CardCont" x="25" y="2.2040815353393555" width="325" height="76.32069396972656">
+            <frame id="79:14770" name="card-header" x="0" y="0" width="325" height="76.32069396972656">
+              <instance id="79:14771" name="tui-header [card]" x="0" y="0" width="325" height="72.53060913085938" />
+            </frame>
+          </frame>
+          <ellipse id="79:14772" name="Ellipse 2" x="165" y="54.734375" width="40" height="40" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="79:14773" name="Paragraph" x="128" y="4278" width="934" height="72" />
+    <instance id="79:14774" name="Image 2x1" x="128" y="4350" width="934" height="432" />
+    <instance id="27760:140089" name="Note" x="128" y="4782" width="934" height="136" />
+    <instance id="79:14775" name="H3 + P" x="128" y="4918" width="934" height="104" />
+    <frame id="79:14776" name="image" x="128" y="5022" width="934" height="451">
+      <frame id="79:14777" name="img-placeholder" x="0" y="0" width="934" height="403">
+        <vector id="79:14778" name="end" x="0" y="510" width="760" height="0" />
+        <instance id="79:14779" name="tui-card-large" x="287" y="106" width="360" height="78" />
+        <frame id="79:14780" name="tui-card-large" x="287" y="219" width="360" height="78">
+          <frame id="79:14781" name="CardCont" x="16" y="0" width="328" height="78">
+            <ellipse id="79:14782" name="Ripple Effect" x="72" y="-84" width="230" height="230" />
+            <frame id="79:14783" name="card-header" x="0" y="0" width="328" height="78">
+              <instance id="79:14784" name="tui-header [card]" x="0" y="0" width="328" height="74" />
+            </frame>
+          </frame>
+          <ellipse id="79:14785" name="Ellipse 1" x="177" y="48" width="40" height="40" />
+        </frame>
+        <frame id="79:14786" name="Ripple" x="289" y="205" width="329" height="55" />
+      </frame>
+    </frame>
+    <instance id="79:14787" name="Paragraph" x="128" y="5473" width="934" height="64" />
+    <frame id="79:14788" name="image-2x1" x="128" y="5537" width="934" height="448">
+      <frame id="79:14789" name="image-1" x="0" y="0" width="451" height="400">
+        <frame id="79:14790" name="img-placeholder" x="0" y="0" width="451" height="400">
+          <vector id="79:14791" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="79:14792" name="end" x="0" y="400" width="760" height="0" />
+          <instance id="79:14793" name="Multiple Instances" x="65.5" y="80.5" width="320" height="240" />
+          <frame id="79:14794" name="ripple" x="81" y="193" width="288" height="56">
+            <ellipse id="79:14795" name="ripple" x="114" y="-78" width="212" height="212" />
+          </frame>
+        </frame>
+        <text id="79:14796" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+      </frame>
+      <frame id="79:14797" name="image-2" x="483" y="0" width="451" height="400">
+        <frame id="79:14798" name="img-placeholder" x="0" y="0" width="451" height="400">
+          <vector id="79:14799" name="start" x="0" y="0" width="760" height="0" />
+          <vector id="79:14800" name="end" x="0" y="400" width="760" height="0" />
+          <instance id="79:14801" name="Multiple Instances" x="65.5" y="80.5" width="320" height="240" />
+          <frame id="79:14802" name="ripple" x="81" y="193" width="288" height="56">
+            <ellipse id="79:14803" name="ripple" x="114" y="-78" width="212" height="212" />
+          </frame>
+        </frame>
+        <text id="79:14804" name="Annotation" x="0" y="336" width="451" height="24" hidden="true" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14805" name="Отступы" x="168" y="-3625" width="1190" height="2900">
+    <instance id="79:14806" name="H1 + P" x="128" y="128" width="934" height="180" />
+    <instance id="79:14807" name="H2 + P" x="128" y="308" width="934" height="88" />
+    <instance id="79:14808" name="Image 1x1" x="128" y="396" width="934" height="432" />
+    <instance id="79:14811" name="Paragraph" x="128" y="828" width="934" height="40" />
+    <frame id="80:56167" name="image" x="128" y="868" width="934" height="416">
+      <frame id="80:56168" name="img-placeholder" x="0" y="0" width="934" height="368">
+        <rounded-rectangle id="80:56224" name="Screenshot 2023-12-19 at 16.08" x="166" y="41" width="602" height="283" />
+      </frame>
+    </frame>
+    <instance id="79:14809" name="H2 + P" x="128" y="1284" width="934" height="88" />
+    <instance id="79:14810" name="Image 1x1" x="128" y="1372" width="934" height="432" />
+    <instance id="80:56236" name="Paragraph" x="128" y="1804" width="934" height="40" />
+    <frame id="80:56233" name="image" x="128" y="1844" width="934" height="416">
+      <frame id="80:56234" name="img-placeholder" x="0" y="0" width="934" height="368">
+        <rounded-rectangle id="80:56238" name="Screenshot 2023-12-19 at 16.09" x="166" y="62" width="602" height="243" />
+      </frame>
+    </frame>
+    <instance id="80:56102" name="H2 + P" x="128" y="2260" width="934" height="144" />
+    <frame id="79:14812" name="image" x="128" y="2404" width="934" height="368">
+      <frame id="79:14813" name="img-placeholder" x="0" y="0" width="934" height="320">
+        <rounded-rectangle id="79:14814" name="Screenshot 2023-09-08 at 13.26 1" x="422" y="-132" width="236" height="420" />
+        <instance id="79:14815" name="tui-sensitive-mode" x="552" y="140" width="79" height="18" />
+        <rounded-rectangle id="79:14816" name="Screenshot 2023-09-08 at 13.07" x="623" y="57" width="28" height="30" />
+        <rounded-rectangle id="79:14817" name="Screenshot 2023-12-15 at 13.18" x="237.5" y="118" width="197" height="128" />
+        <rounded-rectangle id="79:14818" name="Screenshot 2023-12-15 at 13.18" x="434.5" y="90" width="218" height="111" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14819" name="Построение" x="-7782" y="-3625" width="1190" height="2102">
+    <instance id="79:14820" name="H1 + P" x="128" y="128" width="934" height="136" />
+    <frame id="79:14821" name="image" x="128" y="264" width="934" height="398">
+      <frame id="79:14822" name="img-placeholder" x="0" y="0" width="934" height="350">
+        <vector id="79:14823" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:14824" name="end" x="0" y="320" width="760" height="0" />
+        <frame id="79:14825" name="left-content" x="300" y="88" width="342" height="174">
+          <text id="79:14826" name="tui-card-large" x="10" y="10" width="72" height="16" />
+          <frame id="79:14827" name="Frame 9" x="10" y="36" width="322" height="36">
+            <frame id="79:14828" name="left-content" x="0" y="0" width="322" height="36">
+              <text id="79:14829" name="card-header" x="10" y="10" width="64" height="16" />
+            </frame>
+          </frame>
+          <frame id="79:14830" name="Frame 10" x="10" y="82" width="322" height="36">
+            <frame id="79:14831" name="left-content" x="0" y="0" width="322" height="36">
+              <text id="79:14832" name="card-content" x="10" y="10" width="68" height="16" />
+            </frame>
+          </frame>
+          <frame id="79:14833" name="Frame 11" x="10" y="128" width="322" height="36">
+            <frame id="79:14834" name="left-content" x="0" y="0" width="322" height="36">
+              <text id="79:14835" name="card-footer" x="10" y="10" width="59" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="79:14836" name="H2 + P" x="128" y="662" width="934" height="144" />
+    <instance id="79:14837" name="H2 + P" x="128" y="806" width="934" height="144" />
+    <instance id="79:14838" name="H2 + P" x="128" y="950" width="934" height="144" />
+    <instance id="80:56687" name="H2 + P" x="128" y="1094" width="934" height="168" />
+    <instance id="80:56688" name="List Bulleted" x="128" y="1262" width="934" height="153" />
+    <frame id="80:56689" name="image" x="128" y="1415" width="934" height="559">
+      <frame id="80:56690" name="img-placeholder" x="0" y="0" width="934" height="511">
+        <instance id="82:13055" name="[deprecated] tui-card-large" x="280" y="83" width="375" height="276" />
+        <rounded-rectangle id="82:13178" name="Rectangle 1" x="316" y="123" width="304" height="12" />
+        <rounded-rectangle id="82:13182" name="Rectangle 2" x="316" y="83" width="303" height="16" />
+        <rounded-rectangle id="82:13186" name="Rectangle 6" x="316" y="275" width="303" height="20" />
+        <rounded-rectangle id="82:13185" name="Rectangle 5" x="316" y="339" width="303" height="20" />
+        <rounded-rectangle id="82:13183" name="Rectangle 3" x="296" y="83" width="20" height="276" />
+        <instance id="82:13187" name="Width - Bottom " x="296" y="180" width="20" height="24" />
+        <instance id="82:13211" name="Height - Right" x="418" y="83" width="20" height="16" />
+        <instance id="82:13242" name="Height - Right" x="418" y="339" width="20" height="20" />
+        <instance id="82:13253" name="Height - Right" x="418" y="275" width="20" height="20" />
+        <instance id="82:13231" name="Height - Right" x="418" y="123" width="20" height="12" />
+        <instance id="82:13197" name="Width - Bottom " x="620" y="133" width="20" height="24" />
+        <instance id="126:14157" name="Width - Bottom " x="620" y="342" width="20" height="24" />
+        <rounded-rectangle id="82:13184" name="Rectangle 4" x="619" y="275" width="20" height="83" />
+        <rounded-rectangle id="126:14156" name="Rectangle 7" x="619" y="83" width="20" height="82" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14839" name="Построение: шапка" x="-6192" y="-3625" width="1190" height="4939">
+    <instance id="79:14840" name="H1 + P" x="128" y="128" width="934" height="164" />
+    <instance id="80:56089" name="Note" x="128" y="292" width="934" height="140" />
+    <instance id="79:14841" name="H2 + P" x="128" y="432" width="934" height="120" />
+    <frame id="80:55911" name="image" x="128" y="552" width="934" height="462">
+      <frame id="80:55912" name="img-placeholder" x="0" y="0" width="934" height="414">
+        <instance id="82:13344" name="tui-header [card]" x="255" y="115" width="343" height="52" />
+        <instance id="82:13345" name="margin" x="255" y="131" width="20" height="36" />
+        <instance id="82:13346" name="margin" x="255" y="115" width="343" height="16" />
+        <instance id="82:13347" name="margin" x="579" y="131" width="19" height="36" />
+        <instance id="82:13348" name="margin" x="275" y="155" width="304" height="12" />
+        <instance id="83:19304" name="tui-card-large" x="255" y="213" width="447" height="68" />
+        <instance id="83:19339" name="margin" x="255" y="213" width="24" height="68" />
+        <instance id="83:19340" name="margin" x="678" y="213" width="24" height="68" />
+        <instance id="83:19341" name="margin" x="279" y="213" width="399" height="20" />
+        <instance id="83:19345" name="margin" x="279" y="261" width="399" height="20" />
+      </frame>
+    </frame>
+    <instance id="79:14842" name="H2 + P" x="128" y="1014" width="934" height="120" />
+    <instance id="79:14843" name="List Bulleted" x="128" y="1134" width="934" height="73" />
+    <frame id="80:56030" name="image" x="128" y="1207" width="934" height="558">
+      <frame id="80:56031" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="82:13325" name="tui-header [card]" x="244" y="129" width="343" height="80" />
+        <instance id="82:13326" name="margin" x="244" y="145" width="20" height="64" />
+        <instance id="82:13327" name="margin" x="245" y="129" width="342" height="16" />
+        <instance id="82:13328" name="margin" x="264" y="197" width="304" height="12" />
+        <instance id="82:13329" name="margin" x="264" y="168" width="304" height="8" />
+        <instance id="82:13330" name="margin" x="568" y="145" width="19" height="64" />
+        <instance id="83:13335" name="tui-card-large" x="244" y="255" width="447" height="96" />
+        <instance id="83:13361" name="margin" x="244" y="255" width="24" height="96" />
+        <instance id="83:13367" name="margin" x="667" y="255" width="24" height="96" />
+        <instance id="83:13363" name="margin" x="268" y="255" width="399" height="20" />
+        <instance id="83:13369" name="margin" x="268" y="331" width="399" height="20" />
+        <instance id="83:13365" name="margin" x="268" y="302" width="399" height="4" />
+      </frame>
+    </frame>
+    <instance id="79:14844" name="H2 + P" x="128" y="1765" width="934" height="120" />
+    <frame id="80:56032" name="image" x="128" y="1885" width="934" height="558">
+      <frame id="80:56033" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="82:13303" name="tui-header [card]" x="241" y="106" width="343" height="102" />
+        <instance id="82:13304" name="margin" x="241" y="122" width="20" height="86" />
+        <instance id="82:13305" name="margin" x="241" y="106" width="343" height="16" />
+        <instance id="82:13306" name="margin" x="565" y="122" width="19" height="86" />
+        <instance id="82:13307" name="margin" x="261" y="196" width="304" height="12" />
+        <instance id="82:13308" name="margin" x="261" y="146" width="304" height="8" />
+        <instance id="83:13371" name="tui-card-large" x="241" y="255" width="447" height="124" />
+        <instance id="83:13388" name="margin" x="241" y="255" width="24" height="124" />
+        <instance id="83:13389" name="margin" x="664" y="255" width="24" height="124" />
+        <instance id="83:13390" name="margin" x="265" y="255" width="399" height="20" />
+        <instance id="83:13391" name="margin" x="265" y="359" width="399" height="20" />
+        <instance id="83:13392" name="margin" x="265" y="304" width="399" height="8" />
+      </frame>
+    </frame>
+    <instance id="79:14845" name="H2 + P" x="128" y="2443" width="934" height="120" />
+    <frame id="82:13278" name="image" x="128" y="2563" width="934" height="558">
+      <frame id="82:13279" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="82:13280" name="tui-header [card]" x="238" y="119" width="343" height="102" />
+        <instance id="82:13281" name="margin" x="238" y="135" width="20" height="86" />
+        <instance id="82:13282" name="margin" x="238" y="119" width="343" height="16" />
+        <instance id="82:13283" name="margin" x="562" y="135" width="19" height="86" />
+        <instance id="82:13284" name="margin" x="258" y="209" width="304" height="12" />
+        <instance id="82:13285" name="margin" x="258" y="176" width="304" height="8" />
+        <instance id="82:13286" name="margin" x="258" y="150" width="304" height="4" />
+        <instance id="83:19272" name="tui-card-large" x="238" y="263" width="447" height="120" />
+        <instance id="83:19300" name="margin" x="262" y="304" width="399" height="4" />
+        <instance id="83:19302" name="margin" x="262" y="334" width="399" height="4" />
+        <instance id="83:19288" name="margin" x="238" y="263" width="24" height="120" />
+        <instance id="83:19289" name="margin" x="661" y="263" width="24" height="120" />
+        <instance id="83:19290" name="margin" x="262" y="263" width="399" height="20" />
+        <instance id="83:19291" name="margin" x="262" y="363" width="399" height="20" />
+      </frame>
+    </frame>
+    <instance id="82:13363" name="H2 + P" x="128" y="3121" width="934" height="120" />
+    <frame id="82:13369" name="image" x="128" y="3241" width="934" height="368">
+      <frame id="82:13370" name="img-placeholder" x="0" y="0" width="934" height="320">
+        <frame id="82:13394" name="Subheader" x="293" y="107" width="307" height="20">
+          <text id="82:13395" name="Short Subheader" x="0" y="0" width="307" height="18" />
+        </frame>
+        <frame id="82:13396" name="Description" x="293" y="151" width="307" height="42">
+          <text id="82:13397" name="Long Subheader" x="0" y="0" width="307" height="40" />
+        </frame>
+        <instance id="82:13398" name="margin" x="294" y="125" width="307" height="2" />
+        <instance id="82:13399" name="margin" x="294" y="192" width="307" height="2" />
+      </frame>
+    </frame>
+    <instance id="80:56034" name="H2 + P" x="128" y="3609" width="934" height="120" />
+    <instance id="80:56040" name="List Bulleted" x="128" y="3729" width="934" height="149" />
+    <frame id="80:56076" name="image" x="128" y="3878" width="934" height="933">
+      <frame id="80:56077" name="img-placeholder" x="0" y="0" width="934" height="885">
+        <frame id="80:56446" name="Group 2174" x="293" y="229" width="343" height="80">
+          <instance id="80:56447" name="tui-header [card]" x="293" y="229" width="343" height="80" />
+          <instance id="80:56448" name="margin" x="620" y="245" width="16" height="64" />
+          <instance id="80:56449" name="margin" x="293" y="229" width="342" height="16" />
+          <instance id="80:56450" name="margin" x="293" y="245" width="20" height="64" />
+        </frame>
+        <frame id="80:56451" name="Group 2175" x="293" y="106" width="343" height="80">
+          <instance id="80:56452" name="tui-header [card]" x="293" y="106" width="343" height="80" />
+          <instance id="80:56453" name="margin" x="293" y="106" width="343" height="16" />
+          <instance id="80:56454" name="margin" x="620" y="122" width="16" height="64" />
+          <instance id="80:56456" name="margin" x="293" y="122" width="20" height="64" />
+        </frame>
+        <instance id="80:56457" name="margin" x="620" y="362" width="16" height="54" />
+        <frame id="80:56458" name="Group 2171" x="293" y="346" width="343" height="80">
+          <instance id="80:56459" name="tui-header [card]" x="293" y="346" width="343" height="80" />
+          <instance id="80:56461" name="margin" x="293" y="346" width="343" height="16" />
+          <instance id="80:56464" name="margin" x="620" y="362" width="16" height="64" />
+          <instance id="80:56465" name="margin" x="293" y="362" width="20" height="64" />
+        </frame>
+        <frame id="80:56466" name="Group 2172" x="293" y="481" width="343" height="80">
+          <instance id="80:56467" name="tui-header [card]" x="293" y="481" width="343" height="80" />
+          <instance id="80:56468" name="margin" x="293" y="481" width="342" height="16" />
+          <instance id="80:56471" name="margin" x="293" y="497" width="20" height="64" />
+          <instance id="80:56472" name="margin" x="616" y="497" width="20" height="64" />
+        </frame>
+        <frame id="80:56474" name="Group 2173" x="293" y="598" width="343" height="180">
+          <instance id="80:56475" name="tui-header [card]" x="293" y="598" width="343" height="80" />
+          <instance id="80:56476" name="tui-header [card]" x="293" y="726" width="343" height="52" />
+          <instance id="80:56477" name="margin" x="293" y="598" width="342" height="16" />
+          <instance id="80:56478" name="margin" x="293" y="726" width="342" height="16" />
+          <instance id="80:56483" name="margin" x="293" y="614" width="20" height="64" />
+          <instance id="80:56484" name="margin" x="293" y="742" width="20" height="36" />
+          <instance id="80:56485" name="margin" x="616" y="614" width="20" height="64" />
+          <instance id="80:56486" name="margin" x="616" y="742" width="20" height="36" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14846" name="Построение: контент" x="-4602" y="-3625" width="1190" height="4050">
+    <instance id="79:14847" name="H1 + P" x="128" y="128" width="934" height="164" />
+    <instance id="79:14848" name="H2 + P" x="128" y="292" width="934" height="120" />
+    <instance id="79:14849" name="List Bulleted" x="128" y="412" width="934" height="125" />
+    <frame id="79:14850" name="image" x="128" y="537" width="934" height="558">
+      <frame id="79:14851" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="79:14852" name="tui-card-large" x="279" y="98" width="375" height="300" />
+        <instance id="79:14853" name="margin" x="295" y="263" width="341" height="4" />
+        <instance id="79:14854" name="margin" x="295" y="206" width="341" height="4" />
+        <instance id="79:14855" name="Width - Bottom " x="293" y="177" width="20" height="24" />
+        <instance id="79:14856" name="Width - Bottom " x="617" y="177" width="20" height="24" />
+        <instance id="79:14857" name="margin" x="295" y="328" width="341" height="4" />
+      </frame>
+    </frame>
+    <instance id="22931:33298" name="H2 + P" x="128" y="1095" width="934" height="144" />
+    <instance id="22931:33299" name="Image 1x1" x="128" y="1239" width="934" height="352" />
+    <instance id="22931:33300" name="H2 + P" x="128" y="1591" width="934" height="216" />
+    <instance id="22931:33301" name="Image 1x1" x="128" y="1807" width="934" height="447" />
+    <instance id="22931:33302" name="Paragraph" x="128" y="2254" width="934" height="64" />
+    <instance id="22931:33303" name="Image 1x1" x="128" y="2318" width="934" height="352" />
+    <instance id="79:14864" name="H2 + P" x="128" y="2670" width="934" height="168" />
+    <frame id="79:14865" name="image" x="128" y="2838" width="934" height="558">
+      <frame id="79:14866" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="79:14867" name="tui-card-large" x="497" y="144" width="375" height="204" />
+        <instance id="79:14868" name="Height - Right" x="649" y="184" width="36" height="16" />
+        <rounded-rectangle id="79:14869" name="Rectangle 1" x="532" y="185" width="304" height="16" />
+        <instance id="79:14870" name="tui-card-large" x="50" y="192" width="375" height="122" />
+        <vector id="79:14871" name="Vector 711" x="441" y="256" width="44" height="0" />
+      </frame>
+    </frame>
+    <instance id="79:14872" name="H2 + P" x="128" y="3396" width="934" height="120" />
+    <frame id="79:14873" name="image" x="128" y="3516" width="934" height="406">
+      <frame id="79:14874" name="img-placeholder" x="0" y="0" width="934" height="358">
+        <frame id="79:14875" name="Group 2177" x="280" y="139" width="375" height="80">
+          <instance id="79:14876" name="tui-card-large" x="280" y="139" width="375" height="80" />
+          <instance id="79:14877" name="Width - Bottom " x="623" y="164" width="16" height="24" />
+          <instance id="79:14878" name="Width - Bottom " x="591" y="164" width="8" height="24" />
+          <instance id="79:14879" name="Height - Right" x="609" y="139" width="16" height="16" />
+        </frame>
+        <rounded-rectangle id="79:14880" name="Rectangle 13" x="591" y="139" width="48" height="48" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14881" name="Построение: подвал" x="-3012" y="-3625" width="1190" height="3174">
+    <instance id="79:14882" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:14883" name="H2 + P" x="128" y="216" width="934" height="144" />
+    <frame id="79:14884" name="image" x="128" y="360" width="934" height="438">
+      <frame id="79:14885" name="img-placeholder" x="0" y="0" width="934" height="390">
+        <instance id="79:14886" name="tui-card-large" x="75" y="103" width="375" height="184" />
+        <instance id="79:14887" name="Height - Right" x="259" y="267" width="36" height="20" />
+        <instance id="79:14888" name="Width - Bottom " x="91" y="240" width="20" height="20" />
+        <instance id="79:14889" name="Width - Bottom " x="414" y="240" width="20" height="20" />
+        <instance id="79:14890" name="Height - Right" x="259" y="211" width="36" height="12" />
+        <instance id="79:14891" name="tui-card-large" x="481" y="103" width="375" height="144" />
+        <instance id="79:14892" name="Height - Right" x="679" y="171" width="36" height="12" />
+        <rounded-rectangle id="79:14893" name="Rectangle 15" x="517" y="169" width="251" height="2" />
+        <instance id="79:14894" name="Height - Right" x="682" y="227" width="36" height="20" />
+        <instance id="79:14895" name="Width - Bottom " x="497" y="201" width="20" height="20" />
+        <instance id="79:14896" name="Width - Bottom " x="820" y="201" width="20" height="20" />
+      </frame>
+    </frame>
+    <instance id="80:55175" name="Paragraph" x="128" y="798" width="934" height="40" />
+    <frame id="80:55182" name="image" x="128" y="838" width="934" height="438">
+      <frame id="80:55183" name="img-placeholder" x="0" y="0" width="934" height="390">
+        <instance id="80:55331" name="Instance Container" x="307" y="113" width="320" height="164" />
+        <instance id="80:55354" name="Height - Right" x="360" y="253" width="36" height="24" />
+        <instance id="80:55365" name="Width - Bottom " x="307" y="229" width="24" height="24" />
+      </frame>
+    </frame>
+    <instance id="79:14897" name="H2 + P" x="128" y="1276" width="934" height="120" />
+    <frame id="79:14898" name="image" x="128" y="1396" width="934" height="438">
+      <frame id="79:14899" name="img-placeholder" x="0" y="0" width="934" height="390">
+        <instance id="79:14900" name="tui-card-large" x="280" y="153" width="375" height="84" />
+        <rounded-rectangle id="79:14901" name="Rectangle 16" x="316" y="219" width="251" height="2" />
+        <instance id="79:14902" name="Height - Right" x="466" y="221" width="36" height="16" />
+        <instance id="79:14903" name="Height - Right" x="466" y="153" width="36" height="16" />
+      </frame>
+    </frame>
+    <instance id="82:13003" name="H2 + P" x="128" y="1834" width="934" height="144" />
+    <frame id="82:13009" name="image" x="128" y="1978" width="934" height="438">
+      <frame id="82:13010" name="img-placeholder" x="0" y="0" width="934" height="390">
+        <instance id="82:13403" name="tui-card-large" x="291" y="101" width="375" height="156" />
+        <rounded-rectangle id="82:13456" name="Rectangle 1" x="327" y="221" width="304" height="20" />
+        <instance id="82:13445" name="Height - Right" x="466" y="241" width="36" height="16" />
+        <instance id="117:13594" name="Height - Right" x="466" y="209" width="36" height="12" />
+      </frame>
+    </frame>
+    <instance id="79:14904" name="H2 + P" x="128" y="2416" width="934" height="120" />
+    <frame id="79:14905" name="image" x="128" y="2536" width="934" height="510">
+      <frame id="79:14906" name="img-placeholder" x="0" y="0" width="934" height="510">
+        <instance id="79:14907" name="tui-card-large" x="76" y="149" width="375" height="212" />
+        <instance id="12438:40520" name="tui-card-large" x="488" y="149" width="375" height="202" />
+        <instance id="79:14909" name="Height - Right" x="182" y="341" width="36" height="20" />
+        <instance id="79:14910" name="Height - Right" x="600" y="337" width="36" height="16" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:14911" name="Типы карточек" x="-10959" y="-3625" width="2777" height="6338">
+    <instance id="79:14912" name="H1 + P" x="128" y="128" width="2521" height="88" />
+    <frame id="79:14913" name="row" x="128" y="216" width="2521" height="56">
+      <instance id="79:14914" name="tui-table-сell" x="0" y="0" width="310" height="56" />
+      <instance id="79:14915" name="tui-table-сell" x="310" y="0" width="737" height="56" />
+      <instance id="79:14916" name="tui-table-сell" x="1047" y="0" width="737" height="56" />
+      <instance id="79:14917" name="tui-table-сell" x="1784" y="0" width="737" height="56" />
+    </frame>
+    <frame id="79:14918" name="row" x="128" y="272" width="2521" height="576">
+      <instance id="79:14919" name="tui-table-сell" x="0" y="0" width="310" height="576" />
+      <frame id="79:14920" name="preview" x="310" y="0" width="2211" height="576">
+        <frame id="79:14921" name="row" x="0" y="64" width="2211" height="448">
+          <frame id="79:14922" name="tui-table сell" x="0" y="0" width="737" height="448">
+            <instance id="79:14923" name="tui-card-large" x="40" y="0" width="570" height="238" />
+            <instance id="79:14924" name="tui-card-large" x="40" y="278" width="570" height="170" />
+          </frame>
+          <frame id="79:14925" name="tui-table сell" x="737" y="0" width="737" height="391">
+            <instance id="79:14926" name="tui-card-large" x="24" y="0" width="375" height="186" />
+            <instance id="79:14927" name="tui-card-large" x="24" y="269" width="375" height="122" />
+          </frame>
+          <frame id="79:14928" name="tui-table сell" x="1474" y="0" width="737" height="391">
+            <instance id="79:14929" name="tui-card-large" x="24" y="0" width="360" height="186" />
+            <instance id="79:14930" name="tui-card-large" x="24" y="269" width="360" height="122" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14931" name="row" x="128" y="848" width="2521" height="428">
+      <instance id="79:14932" name="tui-table-сell" x="0" y="0" width="310" height="428" />
+      <frame id="79:14933" name="preview" x="310" y="0" width="2211" height="428">
+        <frame id="79:14934" name="row" x="0" y="64" width="2211" height="300">
+          <frame id="79:14935" name="tui-table сell" x="0" y="0" width="737" height="300">
+            <instance id="79:14936" name="tui-card-large" x="40" y="0" width="480" height="164" />
+            <instance id="79:14937" name="tui-card-large" x="40" y="204" width="480" height="96" />
+          </frame>
+          <frame id="79:14938" name="tui-table сell" x="737" y="0" width="737" height="288">
+            <instance id="79:14939" name="tui-card-large" x="24" y="0" width="375" height="144" />
+            <instance id="79:14940" name="tui-card-large" x="24" y="204" width="375" height="84" />
+          </frame>
+          <frame id="79:14941" name="tui-table сell" x="1474" y="0" width="737" height="282">
+            <instance id="79:14942" name="tui-card-large" x="24" y="0" width="360" height="141" />
+            <instance id="79:14943" name="tui-card-large" x="24" y="201" width="360" height="81" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14944" name="row" x="128" y="1276" width="2521" height="216">
+      <instance id="79:14945" name="tui-table-сell" x="0" y="0" width="310" height="216" />
+      <frame id="79:14946" name="preview" x="310" y="0" width="2211" height="216">
+        <frame id="79:14947" name="row" x="0" y="64" width="2211" height="88">
+          <frame id="79:14948" name="tui-table сell" x="0" y="0" width="737" height="88">
+            <instance id="79:14949" name="tui-card-large" x="40" y="0" width="480" height="88" />
+          </frame>
+          <frame id="79:14950" name="tui-table сell" x="737" y="0" width="737" height="80">
+            <instance id="79:14951" name="tui-card-large" x="24" y="0" width="375" height="80" />
+          </frame>
+          <frame id="79:14952" name="tui-table сell" x="1474" y="0" width="737" height="80">
+            <instance id="79:14953" name="tui-card-large" x="24" y="0" width="360" height="80" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="22931:42877" name="row" x="128" y="1492" width="2521" height="216">
+      <instance id="22931:42878" name="tui-table-сell" x="0" y="0" width="310" height="216" />
+      <frame id="22931:42879" name="preview" x="310" y="0" width="2211" height="216">
+        <frame id="22931:42880" name="row" x="0" y="64" width="2211" height="88">
+          <frame id="22931:42881" name="tui-table сell" x="0" y="0" width="737" height="88">
+            <instance id="22931:42882" name="tui-card-large" x="40" y="0" width="480" height="88" />
+          </frame>
+          <frame id="22931:42883" name="tui-table сell" x="737" y="0" width="737" height="80">
+            <instance id="22931:42884" name="tui-card-large" x="24" y="0" width="375" height="80" />
+          </frame>
+          <frame id="22931:42885" name="tui-table сell" x="1474" y="0" width="737" height="80">
+            <instance id="22931:42886" name="tui-card-large" x="24" y="0" width="360" height="80" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14954" name="row" x="128" y="1708" width="2521" height="420">
+      <instance id="79:14955" name="tui-table-сell" x="0" y="0" width="310" height="420" />
+      <frame id="79:14956" name="preview" x="310" y="0" width="2211" height="420">
+        <frame id="79:14957" name="row" x="0" y="64" width="2211" height="292">
+          <frame id="79:14958" name="tui-table сell" x="0" y="0" width="737" height="292">
+            <instance id="79:14959" name="tui-card-large" x="40" y="0" width="480" height="292" />
+          </frame>
+          <frame id="79:14960" name="tui-table сell" x="737" y="0" width="737" height="276">
+            <instance id="79:14961" name="tui-card-large" x="24" y="0" width="375" height="276" />
+          </frame>
+          <frame id="79:14962" name="tui-table сell" x="1474" y="0" width="737" height="276">
+            <instance id="79:14963" name="tui-card-large" x="24" y="0" width="360" height="276" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14964" name="row" x="128" y="2128" width="2521" height="1156">
+      <instance id="79:14965" name="tui-table-сell" x="0" y="0" width="310" height="1156" />
+      <frame id="79:14966" name="preview" x="310" y="0" width="2211" height="1156">
+        <frame id="79:14967" name="row" x="0" y="64" width="2211" height="1028">
+          <frame id="79:14968" name="tui-table сell" x="0" y="0" width="737" height="1028">
+            <instance id="79:14969" name="tui-card-large" x="40" y="0" width="570" height="528" />
+            <instance id="79:14970" name="tui-card-large" x="40" y="568" width="570" height="460" />
+          </frame>
+          <frame id="79:14971" name="tui-table сell" x="737" y="0" width="737" height="844">
+            <instance id="79:14972" name="tui-card-large" x="24" y="0" width="375" height="364" />
+            <instance id="79:14973" name="tui-card-large" x="24" y="544" width="375" height="300" />
+          </frame>
+          <frame id="79:14974" name="tui-table сell" x="1474" y="0" width="737" height="844">
+            <instance id="79:14975" name="tui-card-large" x="24" y="0" width="360" height="364" />
+            <instance id="79:14976" name="tui-card-large" x="24" y="544" width="360" height="300" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14977" name="row" x="128" y="3284" width="2521" height="1036">
+      <instance id="79:14978" name="tui-table-сell" x="0" y="0" width="310" height="1036" />
+      <frame id="79:14979" name="preview" x="310" y="0" width="2211" height="1036">
+        <frame id="79:14980" name="row" x="0" y="64" width="2211" height="908">
+          <frame id="79:14981" name="tui-table сell" x="0" y="0" width="2211" height="908">
+            <instance id="79:14982" name="tui-card-large" x="40" y="0" width="570" height="468" />
+            <instance id="79:14983" name="tui-card-large" x="40" y="508" width="570" height="400" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14984" name="row" x="128" y="4320" width="2521" height="516">
+      <instance id="79:14985" name="tui-table-сell" x="0" y="0" width="310" height="516" />
+      <frame id="79:14986" name="preview" x="310" y="0" width="2211" height="516">
+        <frame id="79:14987" name="row" x="0" y="64" width="2211" height="388">
+          <frame id="79:14988" name="tui-table сell" x="0" y="0" width="737" height="388">
+            <instance id="79:14989" name="tui-card-large" x="40" y="0" width="480" height="388" />
+          </frame>
+          <frame id="79:14990" name="tui-table сell" x="737" y="0" width="737" height="260">
+            <instance id="79:14991" name="tui-card-large" x="24" y="0" width="375" height="260" />
+          </frame>
+          <frame id="79:14992" name="tui-table сell" x="1474" y="0" width="737" height="260">
+            <instance id="79:14993" name="tui-card-large" x="24" y="0" width="360" height="260" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:14994" name="row" x="128" y="4836" width="2521" height="500">
+      <instance id="79:14995" name="tui-table-сell" x="0" y="0" width="310" height="500" />
+      <frame id="79:14996" name="preview" x="310" y="0" width="2211" height="500">
+        <frame id="79:14997" name="row" x="0" y="64" width="2211" height="372">
+          <frame id="79:14998" name="tui-table сell" x="0" y="0" width="737" height="372">
+            <instance id="79:14999" name="tui-card-large" x="40" y="0" width="480" height="200" />
+            <instance id="79:15000" name="tui-card-large" x="40" y="240" width="480" height="132" />
+          </frame>
+          <frame id="79:15001" name="tui-table сell" x="737" y="0" width="737" height="347">
+            <instance id="79:15002" name="tui-card-large" x="24" y="0" width="375" height="176" />
+            <instance id="79:15003" name="tui-card-large" x="24" y="235" width="375" height="112" />
+          </frame>
+          <frame id="79:15004" name="tui-table сell" x="1474" y="0" width="737" height="340">
+            <instance id="79:15005" name="tui-card-large" x="24" y="0" width="375" height="176" />
+            <instance id="103:13674" name="tui-card-large" x="24" y="228" width="375" height="112" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:15006" name="row" x="128" y="5336" width="2521" height="418">
+      <instance id="79:15007" name="tui-table-сell" x="0" y="0" width="310" height="418" />
+      <frame id="79:15008" name="preview" x="310" y="0" width="2211" height="418">
+        <frame id="79:15009" name="row" x="0" y="64" width="2211" height="290">
+          <frame id="79:15010" name="tui-table сell" x="0" y="0" width="737" height="290">
+            <instance id="79:15011" name="tui-card-large" x="40" y="0" width="480" height="290" />
+          </frame>
+          <frame id="79:15012" name="tui-table сell" x="737" y="0" width="737" height="224">
+            <instance id="79:15013" name="tui-card-large" x="24" y="0" width="375" height="224" />
+          </frame>
+          <frame id="79:15014" name="tui-table сell" x="1474" y="0" width="737" height="224">
+            <instance id="79:15015" name="tui-card-large" x="24" y="0" width="375" height="224" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="80:54760" name="row" x="128" y="5754" width="2521" height="228">
+      <instance id="80:54761" name="tui-table-сell" x="0" y="0" width="310" height="228" />
+      <frame id="80:54762" name="preview" x="310" y="0" width="2211" height="228">
+        <frame id="80:54763" name="row" x="0" y="64" width="2211" height="100">
+          <frame id="80:54764" name="tui-table сell" x="0" y="0" width="2211" height="100">
+            <instance id="80:54765" name="tui-card-large" x="40" y="0" width="480" height="100" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="80:54959" name="row" x="128" y="5982" width="2521" height="228">
+      <instance id="80:54960" name="tui-table-сell" x="0" y="0" width="310" height="228" />
+      <frame id="80:54961" name="preview" x="310" y="0" width="2211" height="228">
+        <frame id="80:54962" name="row" x="0" y="64" width="2211" height="100">
+          <frame id="80:54963" name="tui-table сell" x="0" y="0" width="2211" height="100">
+            <instance id="80:54964" name="tui-card-large" x="40" y="0" width="480" height="100" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:15016" name="Дополнительные возможности" x="1758" y="-3625" width="1190" height="993">
+    <instance id="79:15017" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:15018" name="H2 + P" x="128" y="216" width="934" height="88" />
+    <instance id="281:11944" name="List Bulleted" x="128" y="304" width="934" height="129" />
+    <instance id="79:15019" name="Image 1x1" x="128" y="433" width="934" height="432" />
+  </frame>
+  <frame id="79:15020" name="Кастомизация" x="3348" y="-3629" width="1190" height="11297">
+    <instance id="79:15021" name="H1 + P" x="128" y="128" width="934" height="132" />
+    <instance id="79:15022" name="H2 + P" x="128" y="260" width="934" height="152" />
+    <frame id="79:15023" name="image" x="128" y="412" width="934" height="448">
+      <frame id="79:15024" name="img-placeholder" x="0" y="0" width="934" height="400">
+        <vector id="79:15025" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:15026" name="end" x="0" y="400" width="760" height="0" />
+        <instance id="79:15027" name="tui-card-large" x="131" y="91" width="672" height="218" />
+        <instance id="79:15028" name="Instance Container" x="225" y="118" width="40" height="40" hidden="true" />
+        <instance id="79:15029" name="Instance Container" x="277" y="118" width="40" height="40" hidden="true" />
+        <instance id="79:15030" name="Instance Container" x="329" y="118" width="40" height="40" hidden="true" />
+        <instance id="79:15031" name="Instance Container" x="381" y="118" width="40" height="40" hidden="true" />
+      </frame>
+    </frame>
+    <instance id="79:15032" name="Paragraph" x="128" y="860" width="934" height="72" />
+    <frame id="79:15033" name="image" x="128" y="932" width="934" height="448">
+      <frame id="79:15034" name="img-placeholder" x="0" y="0" width="934" height="400">
+        <instance id="79:15035" name="tui-card-large" x="111" y="100" width="340" height="200" />
+        <instance id="79:15036" name="tui-card-large" x="483" y="100" width="340" height="200" />
+      </frame>
+    </frame>
+    <instance id="79:15037" name="H2 + P" x="128" y="1380" width="934" height="88" />
+    <instance id="281:17640" name="List Bulleted" x="128" y="1468" width="934" height="149" />
+    <instance id="79:15038" name="Image 1x1" x="128" y="1617" width="934" height="392" />
+    <instance id="79:15039" name="H2 + P" x="128" y="2009" width="934" height="152" />
+    <instance id="79:15040" name="Image 1x1" x="128" y="2161" width="934" height="432" />
+    <instance id="79:15041" name="H2 + P" x="128" y="2593" width="934" height="180" />
+    <instance id="79:15042" name="H2 + P" x="128" y="2773" width="934" height="152" />
+    <instance id="79:15043" name="Image 1x1" x="128" y="2925" width="934" height="392" />
+    <instance id="79:15044" name="Paragraph" x="128" y="3317" width="934" height="44" />
+    <instance id="79:15045" name="Image 1x1" x="128" y="3361" width="934" height="392" />
+    <instance id="79:15046" name="Paragraph" x="128" y="3753" width="934" height="44" />
+    <instance id="79:15047" name="Image 1x1" x="128" y="3797" width="934" height="432" />
+    <instance id="4600:11827" name="Paragraph" x="128" y="4229" width="934" height="44" />
+    <instance id="4600:11789" name="Image 1x1" x="128" y="4273" width="934" height="432" />
+    <instance id="79:15048" name="H2 + P" x="128" y="4705" width="934" height="124" />
+    <instance id="79:15049" name="Image 1x1" x="128" y="4829" width="934" height="432" />
+    <instance id="79:15050" name="Paragraph" x="128" y="5261" width="934" height="44" />
+    <instance id="79:15051" name="Image 1x1" x="128" y="5305" width="934" height="432" />
+    <instance id="79:15052" name="Paragraph" x="128" y="5737" width="934" height="72" />
+    <instance id="79:15053" name="Image 1x1" x="128" y="5809" width="934" height="432" />
+    <instance id="1772:29035" name="Paragraph" x="128" y="6241" width="934" height="44" />
+    <instance id="1772:35096" name="Image 1x1" x="128" y="6285" width="934" height="432" />
+    <instance id="79:15054" name="Paragraph" x="128" y="6717" width="934" height="44" />
+    <instance id="79:15055" name="Image 1x1" x="128" y="6761" width="934" height="432" />
+    <instance id="79:15056" name="Paragraph" x="128" y="7193" width="934" height="72" />
+    <instance id="79:15057" name="Image 1x1" x="128" y="7265" width="934" height="432" />
+    <instance id="79:15058" name="H2 + P" x="128" y="7697" width="934" height="124" />
+    <instance id="79:15059" name="Image 1x1" x="128" y="7821" width="934" height="622" />
+    <instance id="12501:13445" name="Paragraph" x="128" y="8443" width="934" height="40" />
+    <instance id="12501:13404" name="Image 1x1" x="128" y="8483" width="934" height="622" />
+    <instance id="216:11388" name="Paragraph" x="128" y="9105" width="934" height="40" />
+    <instance id="216:11358" name="Image 1x1" x="128" y="9145" width="934" height="432" />
+    <instance id="79:15060" name="H2 + P" x="128" y="9577" width="934" height="124" />
+    <frame id="79:15061" name="image" x="128" y="9701" width="934" height="448">
+      <frame id="79:15062" name="img-placeholder" x="0" y="0" width="934" height="400">
+        <vector id="79:15063" name="start" x="0" y="0" width="760" height="0" />
+        <vector id="79:15064" name="end" x="0" y="400" width="760" height="0" />
+        <instance id="79:15065" name="tui-card-large" x="75" y="84" width="783" height="204" />
+      </frame>
+    </frame>
+    <instance id="2264:19307" name="H2 + P" x="128" y="10149" width="934" height="124" />
+    <instance id="2264:19322" name="Image 1x1" x="128" y="10273" width="934" height="432" />
+    <instance id="2264:19404" name="Paragraph" x="128" y="10705" width="934" height="72" />
+    <instance id="2264:19405" name="Rules 2x1" x="128" y="10777" width="934" height="392" />
+  </frame>
+  <frame id="79:15066" name="Группировка" x="8118" y="-3629" width="1190" height="3725">
+    <instance id="79:15067" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:15069" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="79:15070" name="H3 + P" x="128" y="336" width="934" height="72" />
+    <frame id="80:55496" name="image" x="128" y="408" width="934" height="604">
+      <frame id="80:55497" name="img-placeholder" x="0" y="0" width="934" height="556">
+        <instance id="83:19347" name="tui-card-large" x="200" y="394" width="570" height="280" />
+        <instance id="83:19348" name="tui-card-large" x="200" y="82" width="570" height="156" />
+        <instance id="83:19494" name="Height - Right" x="487" y="238" width="36" height="32" />
+        <instance id="83:19505" name="Height - Right" x="487" y="363" width="36" height="32" />
+        <instance id="83:19349" name="tui-card-large" x="200" y="270" width="570" height="92" />
+      </frame>
+    </frame>
+    <instance id="79:15071" name="H3 + P" x="128" y="1012" width="934" height="72" />
+    <frame id="80:55498" name="image" x="128" y="1084" width="934" height="494">
+      <frame id="80:55499" name="img-placeholder" x="0" y="0" width="934" height="446">
+        <instance id="80:55500" name="tui-card-large" x="279" y="70" width="375" height="84" />
+        <instance id="80:55563" name="Height - Right" x="457" y="154" width="36" height="20" />
+        <instance id="80:55574" name="Height - Right" x="457" y="258" width="36" height="20" />
+        <instance id="80:55521" name="tui-card-large" x="279" y="174" width="375" height="84" />
+        <instance id="80:55542" name="tui-card-large" x="279" y="278" width="375" height="84" />
+      </frame>
+    </frame>
+    <instance id="79:15068" name="H2 + P" x="128" y="1578" width="934" height="120" />
+    <frame id="80:55385" name="image" x="128" y="1698" width="934" height="434">
+      <frame id="80:55386" name="img-placeholder" x="0" y="0" width="934" height="386">
+        <frame id="80:55585" name="List" x="287" y="112" width="375" height="160">
+          <instance id="80:55586" name="tui-card-large" x="0" y="0" width="375" height="84" />
+          <frame id="80:55587" name="Container" x="0" y="104" width="375" height="56">
+            <instance id="80:55588" name="tui-card-large" x="16" y="0" width="162" height="56" />
+            <instance id="80:55589" name="tui-card-large" x="198" y="0" width="161" height="56" />
+          </frame>
+        </frame>
+        <instance id="80:55590" name="Height - Right" x="376" y="196" width="36" height="20" />
+        <instance id="80:55591" name="Width - Bottom " x="465" y="254" width="20" height="20" />
+      </frame>
+    </frame>
+    <instance id="80:55683" name="Paragraph" x="128" y="2132" width="934" height="40" />
+    <frame id="80:55690" name="image" x="128" y="2172" width="934" height="434">
+      <frame id="80:55691" name="img-placeholder" x="0" y="0" width="934" height="386">
+        <frame id="80:55790" name="Frame 2177" x="260" y="108" width="441" height="170">
+          <instance id="80:55791" name="tui-card-large" x="24" y="24" width="180" height="122" />
+          <instance id="80:55792" name="tui-card-large" x="220" y="24" width="180" height="122" />
+          <instance id="80:55793" name="tui-card-large" x="416" y="24" width="180" height="122" />
+        </frame>
+        <instance id="80:55794" name="Width - Bottom " x="464" y="197" width="16" height="20" />
+      </frame>
+    </frame>
+    <instance id="79:15072" name="H2 + P" x="128" y="2606" width="934" height="120" />
+    <instance id="80:54455" name="Code 2x1" x="128" y="2726" width="934" height="240" />
+    <frame id="80:54464" name="image" x="128" y="2966" width="934" height="631">
+      <frame id="80:54465" name="img-placeholder" x="0" y="0" width="934" height="631">
+        <frame id="80:54586" name="Group 2178" x="213" y="96" width="450" height="421">
+          <vector id="80:54587" name="Rectangle 14" x="248" y="237" width="32" height="280" />
+          <instance id="80:54588" name="tui-card-large" x="304" y="172.4130859375" width="343" height="73.17333221435547" />
+          <instance id="80:54589" name="tui-card-large" x="288" y="237" width="375" height="80" />
+          <instance id="80:54590" name="tui-card-large" x="288" y="96" width="375" height="80" />
+          <instance id="80:54591" name="tui-card-large" x="288" y="337" width="375" height="80" />
+          <instance id="80:54592" name="tui-card-large" x="288" y="437" width="375" height="80" />
+          <frame id="80:54594" name="Frame 12342885" x="213" y="335" width="70" height="70">
+            <vector id="80:54595" name="Arrow 2" x="35" y="53" width="0.000001573609551996924" height="36" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="79:15073" name="Доступность" x="9708" y="-3629" width="1190" height="1754">
+    <instance id="79:15074" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="79:15075" name="H2 + P" x="128" y="216" width="934" height="168" />
+    <instance id="17718:26295" name="Note" x="128" y="384" width="934" height="164" />
+    <frame id="79:15076" name="image" x="128" y="548" width="934" height="443">
+      <frame id="79:15077" name="img-placeholder" x="0" y="0" width="934" height="395">
+        <frame id="79:15078" name="Frame 12342881" x="279" y="54" width="375" height="264">
+          <frame id="79:15079" name="Container" x="0" y="0" width="375" height="84">
+            <instance id="79:15080" name="tui-card-large" x="16" y="0" width="159.5" height="84" />
+            <instance id="79:15081" name="tui-card-large" x="199.5" y="0" width="159.5" height="84" />
+          </frame>
+          <instance id="79:15082" name="tui-card-large" x="0" y="104" width="375" height="160" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="79:15083" name="Paragraph" x="128" y="991" width="934" height="40" />
+    <frame id="79:15084" name="image" x="128" y="1031" width="934" height="595">
+      <frame id="79:15085" name="img-placeholder" x="0" y="0" width="934" height="595">
+        <frame id="79:15086" name="Frame 12342880" x="282" y="58" width="375" height="506">
+          <frame id="28254:22282" name="tui-card (deprecated)" x="16" y="0" width="343" height="117">
+            <frame id="28254:22283" name="CardCont" x="0" y="0" width="343" height="117">
+              <frame id="28254:22525" name="card-header" x="0" y="0" width="343" height="109">
+                <frame id="28254:22606" name="Master" x="0" y="0" width="343" height="109">
+                  <frame id="28254:22607" name="HeaderCont" x="20" y="16" width="303" height="43">
+                    <frame id="28254:22608" name="Header cont" x="0" y="0" width="257" height="43">
+                      <frame id="28254:22609" name="Header" x="0" y="0" width="257" height="43">
+                        <text id="28254:22610" name="Text" x="0" y="0" width="257" height="43" />
+                      </frame>
+                      <frame id="28254:22611" name="Subheader" x="0" y="28" width="382" height="18" hidden="true">
+                        <text id="28254:22612" name="Short Subheader" x="0" y="0" width="382" height="18" />
+                      </frame>
+                    </frame>
+                    <frame id="28254:22613" name="Accessory" x="273" y="6.5" width="30" height="30">
+                      <frame id="28254:22614" name="Badge cont" x="0" y="-0.000499725341796875" width="30" height="30.001249313354492" hidden="true">
+                        <instance id="28254:22615" name="tui-badge notification" x="0" y="0" width="30" height="29.501249313354492" />
+                      </frame>
+                      <frame id="28254:22616" name="Hint cont" x="50" y="0" width="30" height="30" hidden="true">
+                        <instance id="28254:22617" name="tui-button tooltip" x="0" y="0" width="27.5" height="27.5" />
+                      </frame>
+                      <frame id="28254:22618" name="Action cont" x="0" y="0" width="30" height="30">
+                        <instance id="28254:22619" name="[heavy] tui-button link" x="0" y="0" width="30" height="30" />
+                      </frame>
+                      <frame id="28254:22620" name="ButtonCont" x="172.5" y="-3.75" width="71.25" height="37.5" hidden="true">
+                        <instance id="28254:22621" name="[heavy] tui-button" x="0" y="0" width="70.5" height="36.5" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="28254:22622" name="Description" x="20" y="67" width="303" height="34">
+                    <text id="28254:22623" name="Long Subheader" x="0" y="0" width="303" height="32" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="28254:22285" name="card-content (deprecated)" x="0" y="48" width="187.5" height="66" hidden="true" />
+              <instance id="28254:22286" name="card-footer (deprecated)" x="0" y="114.00100708007812" width="343" height="64" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="28254:22425" name="tui-card (deprecated)" x="16" y="141" width="343" height="117">
+            <frame id="28254:22426" name="CardCont" x="0" y="0" width="343" height="117">
+              <frame id="28254:22686" name="card-header" x="0" y="0" width="343" height="109">
+                <frame id="28254:22764" name="Master" x="0" y="0" width="343" height="109">
+                  <frame id="28254:22765" name="HeaderCont" x="20" y="16" width="303" height="43">
+                    <frame id="28254:22766" name="Header cont" x="0" y="0" width="257" height="43">
+                      <frame id="28254:22767" name="Header" x="0" y="0" width="257" height="43">
+                        <text id="28254:22768" name="Text" x="0" y="0" width="257" height="43" />
+                      </frame>
+                      <frame id="28254:22769" name="Subheader" x="0" y="28" width="382" height="18" hidden="true">
+                        <text id="28254:22770" name="Short Subheader" x="0" y="0" width="382" height="18" />
+                      </frame>
+                    </frame>
+                    <frame id="28254:22771" name="Accessory" x="273" y="6.5" width="30" height="30">
+                      <frame id="28254:22772" name="Badge cont" x="0" y="-0.000499725341796875" width="30" height="30.001249313354492" hidden="true">
+                        <instance id="28254:22773" name="tui-badge notification" x="0" y="0" width="30" height="29.501249313354492" />
+                      </frame>
+                      <frame id="28254:22774" name="Hint cont" x="50" y="0" width="30" height="30" hidden="true">
+                        <instance id="28254:22775" name="tui-button tooltip" x="0" y="0" width="27.5" height="27.5" />
+                      </frame>
+                      <frame id="28254:22776" name="Action cont" x="0" y="0" width="30" height="30">
+                        <instance id="28254:22777" name="[heavy] tui-button link" x="0" y="0" width="30" height="30" />
+                      </frame>
+                      <frame id="28254:22778" name="ButtonCont" x="172.5" y="-3.75" width="71.25" height="37.5" hidden="true">
+                        <instance id="28254:22779" name="[heavy] tui-button" x="0" y="0" width="70.5" height="36.5" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="28254:22780" name="Description" x="20" y="67" width="303" height="34">
+                    <text id="28254:22781" name="Long Subheader" x="0" y="0" width="303" height="32" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="28254:22428" name="card-content (deprecated)" x="0" y="48" width="187.5" height="66" hidden="true" />
+              <instance id="28254:22429" name="card-footer (deprecated)" x="0" y="114.00100708007812" width="343" height="64" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="28254:22221" name="tui-card (deprecated)" x="16" y="282" width="343" height="224">
+            <frame id="28254:22222" name="CardCont" x="0" y="0" width="343" height="224">
+              <frame id="28254:22844" name="card-header" x="0" y="0" width="343" height="67">
+                <frame id="28254:22927" name="Master" x="0" y="0" width="343" height="67">
+                  <frame id="28254:22928" name="HeaderCont" x="20" y="16" width="303" height="43">
+                    <frame id="28254:22929" name="Header cont" x="0" y="0" width="257" height="43">
+                      <frame id="28254:22930" name="Header" x="0" y="0" width="257" height="43">
+                        <text id="28254:22931" name="Text" x="0" y="0" width="257" height="43" />
+                      </frame>
+                      <frame id="28254:22932" name="Subheader" x="0" y="28" width="382" height="18" hidden="true">
+                        <text id="28254:22933" name="Short Subheader" x="0" y="0" width="382" height="18" />
+                      </frame>
+                    </frame>
+                    <frame id="28254:22934" name="Accessory" x="273" y="6.5" width="30" height="30">
+                      <frame id="28254:22935" name="Badge cont" x="0" y="-0.000499725341796875" width="30" height="30.001249313354492" hidden="true">
+                        <instance id="28254:22936" name="tui-badge notification" x="0" y="0" width="30" height="29.501249313354492" />
+                      </frame>
+                      <frame id="28254:22937" name="Hint cont" x="50" y="0" width="30" height="30" hidden="true">
+                        <instance id="28254:22938" name="tui-button tooltip" x="0" y="0" width="30" height="30" />
+                      </frame>
+                      <frame id="28254:22939" name="Action cont" x="0" y="0" width="30" height="30">
+                        <instance id="28254:22940" name="[heavy] tui-button link" x="0" y="0" width="30" height="30" />
+                      </frame>
+                      <frame id="28254:22941" name="ButtonCont" x="172.5" y="-3.75" width="71.25" height="37.5" hidden="true">
+                        <instance id="28254:22942" name="[heavy] tui-button" x="0" y="0" width="70.5" height="36.5" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="28254:22943" name="Description" x="16" y="66" width="593" height="20" hidden="true">
+                    <text id="28254:22944" name="Long Subheader" x="0" y="0" width="593" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="28254:22224" name="card-content (deprecated)" x="0" y="67" width="343" height="96" />
+              <instance id="28254:22225" name="card-footer (deprecated)" x="0" y="163" width="343" height="53" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="3207:17106" name="Правила использования" x="4938" y="-3629" width="1190" height="1073">
+    <instance id="3207:17107" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="3207:17108" name="H2 + P" x="128" y="216" width="934" height="144" />
+    <instance id="3207:17109" name="List Bulleted" x="128" y="360" width="934" height="73" />
+    <instance id="3207:17110" name="Rules 2x1" x="128" y="433" width="934" height="512" />
+  </frame>
+  <frame id="6696:11809" name="Изменения" x="16068" y="-3629" width="976" height="1648">
+    <instance id="6696:11810" name="H1 + P" x="128" y="128" width="720" height="88" />
+    <frame id="6696:11811" name="Items" x="128" y="216" width="720" height="1304">
+      <instance id="28207:80510" name="changelog" x="0" y="0" width="720" height="220" />
+      <instance id="23516:13823" name="changelog" x="0" y="232" width="720" height="142" />
+      <instance id="27760:140102" name="changelog" x="0" y="386" width="720" height="212" />
+      <instance id="20310:13385" name="changelog" x="0" y="610" width="720" height="192" />
+      <instance id="22931:42855" name="changelog" x="0" y="814" width="720" height="122" />
+      <instance id="10917:13344" name="changelog" x="0" y="948" width="720" height="122" />
+      <instance id="8444:29058" name="changelog" x="0" y="1082" width="720" height="122" />
+      <instance id="6696:11812" name="[deprecated] changelog-v1" x="0" y="1216" width="720" height="88" />
+    </frame>
+  </frame>
+  <frame id="24800:15629" name="Озвучка" x="11298" y="-3629" width="1328" height="6952">
+    <instance id="28207:18274" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="28207:18275" name="H2 + P" x="128" y="216" width="934" height="120" />
+    <instance id="28207:18276" name="H3 + P" x="128" y="336" width="934" height="72" />
+    <instance id="28207:18277" name="Image 1x1" x="128" y="408" width="934" height="320" />
+    <instance id="28207:18278" name="Paragraph" x="128" y="728" width="934" height="64" />
+    <instance id="28207:18279" name="Image 1x1" x="128" y="792" width="934" height="480" />
+    <instance id="28207:18280" name="H3 + P" x="128" y="1272" width="934" height="72" />
+    <instance id="28207:18281" name="Image 1x1" x="128" y="1344" width="934" height="320" />
+    <instance id="28207:18282" name="Paragraph" x="128" y="1664" width="934" height="64" />
+    <instance id="28207:18283" name="Image 1x1" x="128" y="1728" width="934" height="550" />
+    <instance id="28207:18284" name="H3 + P" x="128" y="2278" width="934" height="72" />
+    <instance id="28207:18285" name="Image 1x1" x="128" y="2350" width="934" height="320" />
+    <instance id="28207:18286" name="Paragraph" x="128" y="2670" width="934" height="64" />
+    <instance id="28207:18287" name="Image 1x1" x="128" y="2734" width="934" height="550" />
+    <instance id="28207:18288" name="H3 + P" x="128" y="3284" width="934" height="72" />
+    <instance id="28207:18289" name="Image 1x1" x="128" y="3356" width="934" height="320" />
+    <instance id="28207:18290" name="Paragraph" x="128" y="3676" width="1072" height="40" />
+    <instance id="28207:18291" name="Image 1x1" x="128" y="3716" width="934" height="440" />
+    <instance id="28207:18292" name="H3 + P" x="128" y="4156" width="934" height="72" />
+    <instance id="28207:18293" name="Image 1x1" x="128" y="4228" width="934" height="320" />
+    <instance id="28207:18294" name="Paragraph" x="128" y="4548" width="1072" height="64" />
+    <instance id="28207:18295" name="Image 1x1" x="128" y="4612" width="1072" height="580" />
+    <instance id="28207:18296" name="Note" x="128" y="5192" width="1072" height="188" />
+    <instance id="28207:18297" name="Image 1x1" x="128" y="5380" width="1072" height="580" />
+    <instance id="28207:18298" name="H2 + P" x="128" y="5960" width="934" height="144" />
+    <instance id="28207:18299" name="Image 1x1" x="128" y="6104" width="934" height="720" />
+  </frame>
+  <frame id="28207:45962" name="Дополнительные примеры озвучки" x="12888" y="-3625" width="1190" height="12307">
+    <instance id="28207:45963" name="H1 + P" x="128" y="128" width="934" height="132" />
+    <instance id="28207:45964" name="H2 + P" x="128" y="260" width="934" height="88" />
+    <instance id="28207:45965" name="Image 1x1" x="128" y="348" width="934" height="480" />
+    <instance id="28207:45966" name="Image 1x1" x="128" y="828" width="934" height="690" />
+    <instance id="28207:45967" name="Image 1x1" x="128" y="1518" width="934" height="939" />
+    <instance id="28207:45968" name="Image 1x1" x="128" y="2457" width="934" height="512" />
+    <instance id="28207:45969" name="H2 + P" x="128" y="2969" width="934" height="88" />
+    <instance id="28207:45970" name="Image 1x1" x="128" y="3057" width="934" height="512" />
+    <instance id="28207:45971" name="Image 1x1" x="128" y="3569" width="934" height="734" />
+    <instance id="28207:45972" name="Image 1x1" x="128" y="4303" width="934" height="393" />
+    <instance id="28207:45973" name="Image 1x1" x="128" y="4696" width="934" height="634" />
+    <instance id="28207:45974" name="H3 + P" x="128" y="5330" width="934" height="72" />
+    <instance id="28207:45975" name="Image 1x1" x="128" y="5402" width="934" height="494" />
+    <instance id="28207:45976" name="H2 + P" x="128" y="5896" width="934" height="88" />
+    <instance id="28207:45977" name="Image 1x1" x="128" y="5984" width="934" height="640" />
+    <instance id="28207:45978" name="Image 1x1" x="128" y="6624" width="934" height="768" />
+    <instance id="28207:45979" name="Image 1x1" x="128" y="7392" width="934" height="446" />
+    <instance id="28207:45980" name="Image 1x1" x="128" y="7838" width="934" height="496" />
+    <instance id="28207:45981" name="H2 + P" x="128" y="8334" width="934" height="88" />
+    <instance id="28207:45982" name="Image 1x1" x="128" y="8422" width="934" height="464" />
+    <instance id="28207:45983" name="Image 1x1" x="128" y="8886" width="934" height="385" />
+    <instance id="28207:45984" name="Image 1x1" x="128" y="9271" width="934" height="451" />
+    <instance id="28207:45985" name="H3 + P" x="128" y="9722" width="934" height="72" />
+    <instance id="28207:45986" name="Image 1x1" x="128" y="9794" width="934" height="451" />
+    <instance id="28207:45987" name="H2 + P" x="128" y="10245" width="934" height="88" />
+    <instance id="28207:45988" name="Image 1x1" x="128" y="10333" width="934" height="434" />
+    <instance id="28207:45989" name="H3 + P" x="128" y="10767" width="934" height="72" />
+    <instance id="28207:45990" name="Image 1x1" x="128" y="10839" width="934" height="862" />
+    <instance id="28207:45991" name="Image 1x1" x="128" y="11701" width="934" height="478" />
+  </frame>
+</canvas>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

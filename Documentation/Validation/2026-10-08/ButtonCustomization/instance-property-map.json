@@ -1,0 +1,127 @@
+{
+  "componentSetID": "41658:296906",
+  "source": "Sources/TUIDesignSystem/Resources/Metadata/figma-components.json",
+  "properties": {
+    "Icon#41658:0": {
+      "swiftParameter": "icon",
+      "appliesTo": [
+        "large",
+        "medium"
+      ],
+      "nilBehavior": "Source default icon; source instance ID 41881:45334",
+      "sourceDefinition": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "41881:45334",
+        "preferredValues": []
+      }
+    },
+    "Icon (16)#41658:7": {
+      "swiftParameter": "smallIcon",
+      "appliesTo": [
+        "small"
+      ],
+      "nilBehavior": "Source default icon; source instance ID 106794:35086",
+      "sourceDefinition": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "106794:35086",
+        "preferredValues": []
+      }
+    },
+    "show-Icon#41658:14": {
+      "swiftParameter": "showsIcon",
+      "sourceDefinition": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      }
+    },
+    "show-label#41658:21": {
+      "swiftParameter": "showsLabel",
+      "sourceDefinition": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      }
+    },
+    "Text#41658:28": {
+      "swiftParameter": "title",
+      "sourceDefinition": {
+        "type": "TEXT",
+        "defaultValue": "Label"
+      }
+    },
+    "system": {
+      "swiftParameter": null,
+      "target": "iOS 26",
+      "excluded": "android",
+      "sourceDefinition": {
+        "type": "VARIANT",
+        "defaultValue": "ios",
+        "variantOptions": [
+          "ios",
+          "android"
+        ]
+      }
+    },
+    "size": {
+      "swiftParameter": "size",
+      "sourceDefinition": {
+        "type": "VARIANT",
+        "defaultValue": "large",
+        "variantOptions": [
+          "large",
+          "medium",
+          "small"
+        ]
+      }
+    },
+    "appearance": {
+      "swiftParameter": "appearance",
+      "conversion": "TUIButtonAppearance(rawValue: sourceValue); hyphenated source values remain unchanged in enum raw values",
+      "sourceDefinition": {
+        "type": "VARIANT",
+        "defaultValue": "primary",
+        "variantOptions": [
+          "primary",
+          "accent",
+          "primary-destructive",
+          "primary-grayscale",
+          "secondary",
+          "secondary-destructive",
+          "secondary-grayscale",
+          "flat",
+          "flat-destructive",
+          "flat-grayscale",
+          "glass",
+          "floating"
+        ]
+      }
+    },
+    "state": {
+      "swiftParameter": "state",
+      "sourceDefinition": {
+        "type": "VARIANT",
+        "defaultValue": "normal",
+        "variantOptions": [
+          "normal",
+          "pressed",
+          "loading",
+          "disabled"
+        ]
+      }
+    },
+    "skeleton": {
+      "swiftParameter": "skeleton",
+      "conversion": {
+        "on": true,
+        "off": false
+      },
+      "sourceDefinition": {
+        "type": "VARIANT",
+        "defaultValue": "off",
+        "variantOptions": [
+          "off",
+          "on"
+        ]
+      }
+    }
+  }
+}

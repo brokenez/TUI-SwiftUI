@@ -1,0 +1,111 @@
+<frame id="730:20379" name="Высота ячеек" x="7256" y="100" width="1190" height="6263">
+  <instance id="730:20380" name="H1 + P" x="128" y="128" width="934" height="88" />
+  <instance id="730:20381" name="H2 + P" x="128" y="216" width="934" height="152" />
+  <instance id="730:20382" name="H3 + P" x="128" y="368" width="934" height="108" />
+  <frame id="730:20383" name="image" x="128" y="476" width="934" height="434">
+    <frame id="730:20384" name="img-placeholder" x="0" y="0" width="934" height="386">
+      <instance id="730:20385" name="tui-cell" x="316" y="100" width="292.5" height="56" />
+      <instance id="730:20386" name="tui-cell" x="316" y="178" width="292" height="44" />
+      <instance id="730:20387" name="tui-cell" x="316" y="244" width="292" height="36" />
+      <instance id="730:20388" name="Height - Right" x="616" y="100" width="36" height="56" />
+      <instance id="730:20389" name="Height - Right" x="618" y="178" width="36" height="44" />
+      <instance id="730:20390" name="Height - Right" x="620" y="244" width="36" height="36" />
+    </frame>
+  </frame>
+  <instance id="730:20391" name="Paragraph" x="128" y="910" width="934" height="40" />
+  <instance id="730:20392" name="List Bulleted" x="128" y="950" width="934" height="101" />
+  <frame id="730:20393" name="image" x="128" y="1051" width="934" height="645">
+    <frame id="730:20394" name="img-placeholder" x="0" y="0" width="934" height="597">
+      <vector id="730:20395" name="start" x="0" y="0" width="760" height="0" />
+      <vector id="730:20396" name="end" x="0" y="320" width="760" height="0" />
+      <instance id="730:20397" name="tui-cell" x="152" y="138" width="259" height="56" />
+      <instance id="730:20398" name="tui-cell" x="448" y="138" width="259" height="96" />
+      <instance id="730:20399" name="tui-cell" x="152" y="299" width="258" height="44" />
+      <instance id="730:20400" name="tui-cell" x="446" y="299" width="258" height="60" />
+      <instance id="730:20401" name="tui-cell" x="151" y="424" width="259" height="36" />
+      <instance id="730:20402" name="tui-cell" x="446" y="424" width="259" height="54" />
+      <instance id="730:20403" name="Height - Right" x="519" y="424" width="36" height="4" />
+      <instance id="730:20404" name="Height - Right" x="557" y="299" width="36" height="6" />
+      <instance id="730:20405" name="Height - Right" x="582" y="138" width="36" height="8" />
+      <rounded-rectangle id="730:20406" name="Rectangle 1711" x="213" y="299" width="181" height="6" />
+      <rounded-rectangle id="730:20407" name="Rectangle 1713" x="506" y="299" width="182" height="6" />
+      <rounded-rectangle id="730:20408" name="Rectangle 1715" x="520" y="138" width="171" height="8" />
+      <rounded-rectangle id="730:20409" name="Rectangle 1717" x="224" y="138" width="171" height="8" />
+      <rounded-rectangle id="730:20410" name="Rectangle 1718" x="224" y="186" width="171" height="8" />
+      <rounded-rectangle id="730:20411" name="Rectangle 1716" x="520" y="226" width="171" height="8" />
+      <rounded-rectangle id="730:20412" name="Rectangle 1714" x="506" y="353" width="182" height="6" />
+      <rounded-rectangle id="730:20413" name="Rectangle 1712" x="213" y="337" width="181" height="6" />
+      <rounded-rectangle id="730:20414" name="Rectangle 1719" x="199" y="424" width="181" height="2" />
+      <rounded-rectangle id="730:20415" name="Rectangle 1721" x="494" y="424" width="197" height="3" />
+      <rounded-rectangle id="730:20416" name="Rectangle 1722" x="494" y="475" width="197" height="3" />
+      <rounded-rectangle id="730:20417" name="Rectangle 1720" x="199" y="458" width="181" height="2" />
+    </frame>
+  </frame>
+  <instance id="730:20418" name="H3 + P" x="128" y="1696" width="934" height="108" />
+  <frame id="730:20419" name="image" x="128" y="1804" width="934" height="434">
+    <frame id="730:20420" name="img-placeholder" x="0" y="0" width="934" height="386">
+      <instance id="730:20421" name="tui-cell" x="256" y="165" width="374" height="56" />
+      <instance id="730:20422" name="Height - Right" x="643" y="165" width="36" height="56" />
+    </frame>
+  </frame>
+  <instance id="1471:12902" name="H2 + P" x="128" y="2238" width="934" height="208" />
+  <instance id="730:20424" name="Paragraph" x="128" y="2446" width="934" height="40" />
+  <frame id="730:20425" name="image" x="128" y="2486" width="934" height="368">
+    <frame id="730:20426" name="img-placeholder" x="0" y="0" width="934" height="320">
+      <instance id="730:20427" name="tui-cell" x="309" y="130" width="280" height="48" />
+      <instance id="730:20428" name="Height - Right" x="602.5" y="130.5" width="36" height="48" />
+    </frame>
+  </frame>
+  <instance id="730:20429" name="Paragraph" x="128" y="2854" width="934" height="40" />
+  <instance id="730:20430" name="Image 2x1" x="128" y="2894" width="934" height="482" />
+  <instance id="730:20431" name="Paragraph" x="128" y="3376" width="934" height="40" />
+  <frame id="730:20432" name="image" x="128" y="3416" width="934" height="368">
+    <frame id="730:20433" name="img-placeholder" x="0" y="0" width="934" height="320">
+      <instance id="730:20434" name="tui-cell" x="297" y="83" width="294" height="40" />
+      <instance id="730:20435" name="tui-cell" x="297" y="144" width="294" height="36" />
+      <instance id="730:20436" name="tui-cell" x="297" y="205" width="294" height="28" />
+      <instance id="730:20437" name="Height - Right" x="602" y="83" width="36" height="40" />
+      <instance id="730:20438" name="Height - Right" x="602" y="144" width="36" height="36" />
+      <instance id="730:20439" name="Height - Right" x="602" y="205" width="36" height="28" />
+    </frame>
+  </frame>
+  <instance id="730:20440" name="H2 + P" x="128" y="3784" width="934" height="152" />
+  <instance id="730:20441" name="Paragraph" x="128" y="3936" width="934" height="40" />
+  <frame id="730:20442" name="image" x="128" y="3976" width="934" height="368">
+    <frame id="730:20443" name="img-placeholder" x="0" y="0" width="934" height="320">
+      <instance id="730:20444" name="tui-cell" x="303" y="119" width="280" height="80" />
+      <instance id="730:20445" name="Height - Right" x="596" y="120" width="36" height="80" />
+    </frame>
+  </frame>
+  <instance id="730:20446" name="Paragraph" x="128" y="4344" width="934" height="40" />
+  <frame id="730:20447" name="image" x="128" y="4384" width="934" height="431">
+    <frame id="730:20448" name="img-placeholder" x="0" y="0" width="934" height="383">
+      <instance id="730:20449" name="tui-cell" x="294" y="63" width="292.5" height="80" />
+      <instance id="730:20450" name="tui-cell" x="294" y="166" width="292" height="64" />
+      <instance id="730:20451" name="tui-cell" x="294" y="253" width="292" height="44" />
+      <instance id="730:20452" name="Height - Right" x="612" y="63" width="36" height="80" />
+      <instance id="730:20453" name="Height - Right" x="612" y="163" width="36" height="67" />
+      <instance id="730:20454" name="Height - Right" x="612" y="253" width="36" height="44" />
+    </frame>
+  </frame>
+  <instance id="730:20455" name="H2 + P" x="128" y="4815" width="934" height="124" />
+  <instance id="30486:13513" name="H3 + P" x="128" y="4939" width="934" height="72" />
+  <instance id="30486:13576" name="Image Placeholder" x="128" y="5011" width="934" height="804">
+    <instance id="I30486:13576;33807:8254" name="Content Appearance" x="0" y="0" width="934" height="804" />
+    <slot id="I30486:13576;33807:8349" name="Slot" x="0" y="0" width="934" height="804">
+      <rounded-rectangle id="I30486:13576;33807:8349;30486:13575" name="image 2" x="-3" y="-3.355133056640625" width="940" height="810.7102661132812" />
+    </slot>
+    <text id="I30486:13576;33807:8256" name="Alt text" x="0" y="814" width="934" height="17" />
+  </instance>
+  <instance id="30486:13589" name="Spacing" x="128" y="5815" width="934" height="32" />
+  <instance id="30486:13557" name="H3 + P" x="128" y="5847" width="934" height="72" />
+  <instance id="30486:13599" name="Image Placeholder" x="128" y="5919" width="934" height="216">
+    <instance id="I30486:13599;33807:8254" name="Content Appearance" x="0" y="0" width="934" height="216" />
+    <slot id="I30486:13599;33807:8349" name="Slot" x="0" y="0" width="934" height="216">
+      <rounded-rectangle id="I30486:13599;33807:8349;30486:13598" name="image 1" x="-3" y="-2" width="940" height="220" />
+    </slot>
+    <text id="I30486:13599;33807:8256" name="Alt text" x="0" y="226" width="934" height="17" />
+  </instance>
+</frame>
+
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

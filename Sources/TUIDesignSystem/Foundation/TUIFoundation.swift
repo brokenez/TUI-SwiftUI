@@ -30,7 +30,7 @@ public enum TUIColor {
     public static let accent = dynamicToken("Background/Accent 1", fallbackLight: 0xFFDD2D, fallbackDark: 0xFFDD2D)
     public static let negative = dynamicToken("Text/Negative", fallbackLight: 0xE31C1C, fallbackDark: 0xFF6B6B)
     public static let positive = dynamicToken("Text/Positive", fallbackLight: 0x12B886, fallbackDark: 0x41D6A3)
-    public static let separator = Color(uiColor: .separator)
+    public static let separator = named("Border/Normal")
 
     public static func named(_ name: String, fallback: UInt = 0x808080) -> Color {
         dynamicToken(name, fallbackLight: fallback, fallbackDark: fallback)
@@ -50,6 +50,7 @@ public enum TUIColor {
 
 public enum TUISpacing {
     public static let x0: CGFloat = 0
+    public static let x0_5: CGFloat = 2
     public static let x1: CGFloat = 4
     public static let x2: CGFloat = 8
     public static let x3: CGFloat = 12
@@ -95,6 +96,27 @@ public enum TUIShadow {
             mode: theme.rawValue
         ) ?? (theme == .day ? 5 : 0))
     }
+
+    /// Medium is the documented shadow for cards and other large objects.
+    /// Desktop hover variants are not part of the iOS runtime API.
+    public static let mediumColor = TUIColor.named("Hide from publishing/Shadow/Medium/Color")
+
+    public static func mediumBlur(theme: TUITheme) -> CGFloat {
+        CGFloat(TUITokenCatalog.shared.number(
+            named: "Hide from publishing/Shadow/Medium/Blur",
+            collection: "Theme",
+            mode: theme.rawValue
+        ) ?? 0)
+    }
+
+    public static func mediumYOffset(theme: TUITheme) -> CGFloat {
+        CGFloat(TUITokenCatalog.shared.number(
+            named: "Hide from publishing/Shadow/Medium/Y-axis",
+            collection: "Theme",
+            mode: theme.rawValue
+        ) ?? 0)
+    }
+
     public static let popupColor = TUIColor.named("Hide from publishing/Shadow/Popup/Color")
 
     public static func popupBlur(theme: TUITheme) -> CGFloat {

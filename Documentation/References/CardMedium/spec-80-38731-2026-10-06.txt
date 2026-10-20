@@ -1,0 +1,344 @@
+const imgTuiIcFixedColorCheckCirclePositive = "https://www.figma.com/api/mcp/asset/b8e88106-1fe4-4adf-ba50-d5ad18f4f60e.svg";
+const imgTuiIcMediumStar = "https://www.figma.com/api/mcp/asset/d468dbcf-41c9-4e29-9930-25e6db57ede7.svg";
+const imgTuiIcMediumCrossCircle = "https://www.figma.com/api/mcp/asset/66743534-7d28-4df0-a880-47fdcdb41045.svg";
+const imgDimensionHor = "https://www.figma.com/api/mcp/asset/7b53b921-68cd-423a-8480-680cc94424f6.svg";
+const imgDimensionVer = "https://www.figma.com/api/mcp/asset/3913a9ee-67fb-4e36-b04a-dce7cd231a65.svg";
+const imgColor = "https://www.figma.com/api/mcp/asset/bb892521-2d5b-4f7f-82b7-b9ac7c105c10.svg";
+const imgDimensionHor1 = "https://www.figma.com/api/mcp/asset/02eeb914-c16a-4ff9-910c-59f71e62299b.svg";
+const imgDimensionVer1 = "https://www.figma.com/api/mcp/asset/2652d438-0958-4a8d-a09d-f1192b5a8bb1.svg";
+const imgTuiIcMediumStar1 = "https://www.figma.com/api/mcp/asset/b7c58c7d-9b3f-437b-b470-0eb716915f01.svg";
+
+function TuiIcFixedColorCheckCirclePositive({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="9190:3928" data-name="tui-ic-fixed-color / check-circle-positive">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcFixedColorCheckCirclePositive} />
+    </div>
+  );
+}
+
+export default function Image() {
+  return (
+    <div className="relative size-full" data-node-id="80:38731" data-name="image">
+      <div className="absolute contents left-[51px] top-[40px]" data-node-id="80:38732">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-314px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[140px] top-[40px]" data-node-id="80:38733" data-name="tui-card-medium">
+          <div className="bg-[rgba(245,34,34,0.1)] content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38733;11335:41632" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38733;11335:41632;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38733;11335:41632;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38733;11335:41632;12022:50622">
+                  Длинный заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38733;11335:41632;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38733;11335:41632;12022:50624">
+                  Какая-то подпись
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I80:38733;11335:41633" data-name="container">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I80:38733;11335:41634" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38733;11335:41634;25745:690407" data-name="Container">
+                <div className="absolute inset-[19.64%]" data-node-id="I80:38733;11335:41634;25745:690409" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[51px] top-[220px]" data-node-id="80:38734" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38735" data-name="tui-ic-medium / cross-circle">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumCrossCircle} />
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="80:38736">{`Проблема: обрезается часть текста `}</p>
+        </div>
+        <div className="absolute h-[18px] left-[51px] top-[171px] w-[140px]" data-node-id="80:38737" data-name="Outside - Bottom" />
+        <div className="absolute h-[24px] left-[51px] top-[180px] w-[140px]" data-node-id="80:38738" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38738;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38738;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38738;5686:297;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[140px] left-[191px] top-[40px] w-[32px]" data-node-id="80:38739" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38739;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38739;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38739;5686:266;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[51px] top-[308px]" data-node-id="80:38740">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-314px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[140px] top-[308px]" data-node-id="80:38741" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38741;11335:41632" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38741;11335:41632;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38741;11335:41632;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38741;11335:41632;12022:50622">
+                  Заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38741;11335:41632;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38741;11335:41632;12022:50624">
+                  Какая-то подпись
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I80:38741;11335:41633" data-name="container">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I80:38741;11335:41634" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38741;11335:41634;25745:690407" data-name="Container">
+                <div className="absolute inset-[19.64%]" data-node-id="I80:38741;11335:41634;25745:690409" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex gap-[8px] items-start left-[calc(50%-229px)] top-[488px]" data-node-id="80:38742" data-name="rules">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] whitespace-pre" data-node-id="80:38744">
+            {`Решение 1: сократили текст заголовка, `}
+            <br aria-hidden />
+            сохранив размер карточки
+          </p>
+        </div>
+        <div className="absolute h-[24px] left-[51px] top-[448px] w-[140px]" data-node-id="80:38745" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38745;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38745;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38745;5686:297;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[140px] left-[191px] top-[308px] w-[32px]" data-node-id="80:38746" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38746;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38746;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38746;5686:266;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[51px] top-[624px]" data-node-id="80:38747">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%-310px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[148px] top-[624px]" data-node-id="80:38748" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38748;11335:41632" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38748;11335:41632;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38748;11335:41632;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.24px]" data-node-id="I80:38748;11335:41632;12022:50622">
+                  Длинный заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38748;11335:41632;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[13px] text-[color:var(--tui-text-primary,#333)] tracking-[-0.08px]" data-node-id="I80:38748;11335:41632;12022:50624">
+                  Какая-то подпись
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I80:38748;11335:41633" data-name="container">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I80:38748;11335:41634" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38748;11335:41634;25745:690407" data-name="Container">
+                <div className="absolute inset-[19.64%]" data-node-id="I80:38748;11335:41634;25745:690409" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[8px] items-start left-[51px] top-[812px]" data-node-id="80:38749" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38750" data-name="tui-ic-medium / check-circle">
+            <div className="absolute bg-[#ffcd33] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.5px_2.5px] mask-size-[19px_19px]" data-node-id="I80:38750;216731:3844" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-[325px]" data-node-id="80:38751">{`Решение 3: равномерно увеличили высоту и ширину карточки, сохранив контент `}</p>
+        </div>
+        <div className="absolute h-[24px] left-[51px] top-[772px] w-[148px]" data-node-id="80:38752" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38752;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38752;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38752;5686:297;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[148px] left-[199px] top-[624px] w-[32px]" data-node-id="80:38753" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38753;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38753;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38753;5686:266;5685:1099">
+              <p className="leading-[normal]">148</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[451px] top-[308px]" data-node-id="80:38754">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%+86px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[140px] top-[308px]" data-node-id="80:38755" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38755;11335:41632" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38755;11335:41632;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38755;11335:41632;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] bg-clip-text bg-gradient-to-r flex-[1_0_0] font-['SF_Pro_Text:Semibold'] from-[#333] from-[85.065%] leading-[normal] min-w-px not-italic relative text-[15px] text-[transparent] to-[rgba(51,51,51,0)] tracking-[-0.24px]" data-node-id="I80:38755;11335:41632;12022:50622">
+                  Длинный загол
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38755;11335:41632;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[#333] text-[13px] tracking-[-0.08px]" data-node-id="I80:38755;11335:41632;12022:50624">
+                  Какая-то подпись
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I80:38755;11335:41633" data-name="container">
+            <div className="bg-[var(--tui-background-accent-2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I80:38755;11335:41634" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[56px]" data-node-id="I80:38755;11335:41634;25745:690407" data-name="Container">
+                <div className="absolute inset-[19.64%]" data-node-id="I80:38755;11335:41634;25745:690409" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex gap-[8px] items-start left-[calc(50%+200px)] top-[488px] w-[368px]" data-node-id="80:38756" data-name="rules">
+          <TuiIcFixedColorCheckCirclePositive className="relative shrink-0 size-[24px]" />
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="80:38758">{`Решение 2: выставили заголовок в одну строку и увели в фейд, сохранив размер карточки и контент `}</p>
+        </div>
+        <div className="absolute h-[24px] left-[451px] top-[448px] w-[140px]" data-node-id="80:38759" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38759;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38759;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38759;5686:297;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[140px] left-[591px] top-[308px] w-[32px]" data-node-id="80:38760" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38760;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38760;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38760;5686:266;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[451px] top-[624px]" data-node-id="80:38761">
+        <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col gap-[var(--gap,12px)] items-start left-[calc(50%+86px)] overflow-clip pb-[var(--padding,12px)] pt-[var(--padding-compensated,10px)] px-[var(--padding,12px)] rounded-[var(--radius,12px)] size-[140px] top-[624px]" data-node-id="80:38762" data-name="tui-card-medium">
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I80:38762;11335:41632" data-name="tui-header [card-medium]">
+            <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="I80:38762;11335:41632;12022:50620" data-name="stack">
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38762;11335:41632;12022:50621" data-name="title-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Semibold'] leading-[normal] min-w-px not-italic relative text-[#333] text-[15px] tracking-[-0.24px]" data-node-id="I80:38762;11335:41632;12022:50622">
+                  Длинный заголовок
+                </p>
+              </div>
+              <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I80:38762;11335:41632;12022:50623" data-name="subtitle-stack">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[#333] text-[13px] tracking-[-0.08px]" data-node-id="I80:38762;11335:41632;12022:50624">
+                  Какая-то подпись
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-end relative shrink-0 w-full" data-node-id="I80:38762;11335:41633" data-name="container">
+            <div className="bg-[#428bf9] content-stretch flex items-start relative rounded-[100px] shrink-0" data-node-id="I80:38762;11335:41634" data-name="tui-avatar">
+              <div className="relative rounded-[1000px] shrink-0 size-[40px]" data-node-id="I80:38762;11335:41634;25745:690432" data-name="Container">
+                <div className="absolute inset-[20%]" data-node-id="I80:38762;11335:41634;25745:690434" data-name="tui-ic-medium / star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar1} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex gap-[8px] items-start left-[calc(50%+200px)] top-[812px] w-[368px]" data-node-id="80:38763" data-name="rules">
+          <div className="relative shrink-0 size-[24px]" data-node-id="80:38764" data-name="tui-ic-medium / check-circle">
+            <div className="absolute bg-[#ffcd33] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[2.5px_2.5px] mask-size-[19px_19px]" data-node-id="I80:38764;216731:3844" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="80:38765">
+            Решение 4: уменьшили размер аватара, сохранив размер карточки и текст
+          </p>
+        </div>
+        <div className="absolute h-[24px] left-[451px] top-[764px] w-[140px]" data-node-id="80:38766" data-name="Horizontal - Centered">
+          <div className="-translate-y-1/2 absolute h-[5px] left-0 right-0 top-[calc(50%+0.5px)]" data-node-id="I80:38766;5686:296" data-name=".DimensionHor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38766;5686:297" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-end leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38766;5686:297;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[140px] left-[591px] top-[624px] w-[32px]" data-node-id="80:38767" data-name="Vertical - Centered">
+          <div className="-translate-x-1/2 absolute bottom-0 left-[calc(50%+0.5px)] top-0 w-[5px]" data-node-id="I80:38767;5686:265" data-name=".DimensionVer">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#f3f4f6] content-stretch flex items-start left-1/2 px-[4px] py-[2px] rounded-[4px] top-1/2" data-node-id="I80:38767;5686:266" data-name="comment-arrow">
+            <div className="[word-break:break-word] flex flex-col font-['SF_Pro_Text:Regular'] justify-center leading-[0] not-italic relative shrink-0 text-[#9299a2] text-[10px] text-center whitespace-nowrap" data-node-id="I80:38767;5686:266;5685:1099">
+              <p className="leading-[normal]">140</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Background/base-ios: #FFFFFF, Day/Status/negative: #F52222, Day/Text/primary: #000000, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Day/Text/secondary: #9299A2, Day/Status/warning: #FFCD33, Day/Text/primary-fade: , Day/Background/accent-2: #428BF9.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-card-medium 
+**Node ID:** 7834:17853
+
+Карточка — контейнер со скруглениями, который можно использовать отдельно или внутри tui-card-large
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-card-medium-specs](https://go.tcsbank.ru/tui-card-medium-specs)
+
+## tui-header [card-medium]
+**Node ID:** 7834:14232
+
+⚪ Not In TUI
+
+## tui-avatar
+**Node ID:** 7834:14754
+
+Компонент для представления личности, компании, бренда или просто иконки в круглом или квадратном контейнере
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-avatar-specs](https://go.tcsbank.ru/tui-avatar-specs)
+
+## tui-ic-medium / star
+**Node ID:** 7834:4732
+
+rating, favorite, bookmark, gold star, rating system
+
+## tui-ic-medium / cross-circle
+**Node ID:** 9190:3988
+
+cancel, delete, remove, X, удалить, убрать, закрыть, круг, крест
+
+## tui-ic-fixed-color / check-circle-positive
+**Node ID:** 9190:3928
+
+галочка, успех, Двухцветная иконка, которую нельзя перекрашивать
+
+## tui-ic-medium / check-circle
+**Node ID:** 9190:3438
+
+tick, mark, correct, галочка, готово, успех
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

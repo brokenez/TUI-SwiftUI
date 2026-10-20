@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-10-12",
+  "scope": "Geometry-only motion rerun. Only the catalog recorder changed to make synchronous bitmap capture opt-in; package component/consumer sources are unchanged from the 19 package + 11 native run.",
+  "inputHashes": {
+    "CatalogApp/TUIDesignSystemCatalogApp.swift": "d726e0d9181687ed24f5b872bedc5599b1d5018659694a2bf0915acd092c26a1",
+    "CatalogApp/TextfieldMotionProbe.swift": "15c6f94bd2d6527bb628ec93f6dfcdf9dd3c30aaafd21d0c1937360d0e175e32",
+    "CatalogUITests/TextfieldConsumerUITests.swift": "892a90d2817a5871ebeb3d6a0ee1ff36fa65c5688e3d31f70f1fa09747508247",
+    "CatalogUITests/TextfieldFormConsumerUITests.swift": "608018e60d16c4a3e6099488e8edd5ed8f19f375be919acdf6db0a519aeecf30",
+    "CatalogUITests/TextfieldUITests.swift": "5cb6f6fa349a161fcb8739be1c801059efffdff1631acdc93f12290b9119fcf8",
+    "Examples/ConsumerApp/App/TUIConsumerApp.swift": "f2b8d59a9ec129211b600eeecf52dc728565becd2d5f0dab212e0ba0e5ba8de7",
+    "Examples/ConsumerApp/App/TextfieldConsumerScreen.swift": "a7bf66ef4f03768c307ad15676c7c37c3c839b0af5dc09cf9d854752717b4f04",
+    "Examples/ConsumerApp/App/TextfieldFormConsumerScreen.swift": "a84b16cd94d54ca7f9c312f0e2da680e7b99443360efed7cac723b494112862b",
+    "Package.swift": "706a0cc949cc375f4539d9e8d36b4e12c0f954f46dac3c8ba9410d152e80ae10",
+    "Sources/TUIDesignSystem/Catalog/TUITextfieldFormPlayground.swift": "821e2e347c561450542a92622577905f377113090f4ea6fb275bc230d32f9fd9",
+    "Sources/TUIDesignSystem/Catalog/TUITextfieldPlayground.swift": "e6bfb041329acbfb9b2e06d84d3dc9dfc7ac60eba85983d9c5452fcad68cf880",
+    "Sources/TUIDesignSystem/Components/Button/TUIButton.swift": "1a01a801756bb71f8eb43ab5162e5012a6ff4e3aef3d9bbc6431e74a38ca0e67",
+    "Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift": "a4a7f668aac10f6cd7a8b4726aa662b09fd598cc6918a335e0cfc7399190a29c",
+    "Sources/TUIDesignSystem/Components/Textfield/TUITextfieldErrorFeedback.swift": "2e0f86ca091f6531988485ff81598d7af3e20032474c97215837168e34ce1968",
+    "Sources/TUIDesignSystem/Components/Textfield/TUITextfieldForm.swift": "6544a3dc6ec53fee3fea3ef56a4249910dadea5f647299d5a97dac34964c391e",
+    "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift": "28d38f57c34755caa0b5f3333f5ce94f6f060fc22a8b0e5f5962e080418c4fd4",
+    "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift": "b2c4138d1325afbc6c658d59457aed3450d00db0a781f7eedb129ae3ca3a2e3b",
+    "Sources/TUIDesignSystem/Foundation/TUIMotion.swift": "cc1f4bfc079a8a5f07d7058eb40cd6a46925b031775ef9069b4a0cf3b9813071",
+    "Sources/TUIDesignSystem/Foundation/TUITypography.swift": "32a865a6e6f61aa41f1008dfdb8180fc97c37fe2befc63b5446bdeca16e0a7d7",
+    "Tests/TUIDesignSystemTests/TextfieldAssemblyExampleTests.swift": "3bf9b9c6b3b23e75ddd1b864389d1b7b15ff7109ce9d4ebf9e3bf840636f2b8d",
+    "Tests/TUIDesignSystemTests/TextfieldFormTests.swift": "9e95163bb9dc8ff892c2cf6641f91f05352df7eb5be91f3ff5ec9cf74c077b43",
+    "Tests/TUIDesignSystemTests/TextfieldTests.swift": "3040da1cee1cc7683a53c477a4a31728a3010330d81e6a3aff32682179e39ff8"
+  }
+}

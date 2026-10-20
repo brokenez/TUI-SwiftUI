@@ -1,0 +1,609 @@
+import { imgDimensionVer, imgStart, imgDiamond, imgDimensionHor, imgDiamond1, imgDimensionHor1 } from "./svg-5vxsl";
+
+function DimensionVer({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[8px] relative w-[5px]"} data-node-id="5579:25947" data-name=".DimensionVer">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionVer} />
+    </div>
+  );
+}
+
+export default function Component() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="9702:66374" data-name="Отступы внутри формы">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="9702:66375" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I9702:66375;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66375;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Отступы внутри формы
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I9702:66375;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I9702:66375;9462:7160">
+            Отступы зависят от размера инпутов в форме
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="9702:66376" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[560px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66376;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute border border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-solid inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66376;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66376;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4975:25676" data-name="form">
+              <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37561" data-name="tui-input">
+                <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[16px] pr-[12px] relative rounded-[12px] shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37561;56647:53749" data-name="container">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-[56px] min-w-px overflow-clip py-[18px] relative rounded-[4px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37561;56647:53752" data-name="content">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37561;56647:53753">
+                      Label
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37561;56647:53754" data-name="end-accessories" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-center relative shrink-0 w-[582px]" data-node-id="I9702:66376;9469:7126;475:2321;4884:21190" data-name="row-compensated">
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[16px] pr-[12px] relative rounded-[12px] shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53749" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-[56px] min-w-px overflow-clip py-[18px] relative rounded-[4px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53752" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53753">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53754" data-name="end-accessories" />
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53759" data-name="hint-container">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4885:37483;56647:53760">
+                      Hint
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37499" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[16px] pr-[12px] relative rounded-[12px] shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37499;56647:53749" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-[56px] min-w-px overflow-clip py-[18px] relative rounded-[4px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37499;56647:53752" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37499;56647:53753">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37499;56647:53754" data-name="end-accessories" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[20px] h-[56px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37571" data-name="row">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66376;9469:7126;475:2321;4885:37572" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[16px] pr-[12px] relative rounded-[12px] shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37572;56647:53749" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-[56px] min-w-px overflow-clip py-[18px] relative rounded-[4px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37572;56647:53752" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37572;56647:53753">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37572;56647:53754" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66376;9469:7126;475:2321;4885:37573" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[16px] pr-[12px] relative rounded-[12px] shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37573;56647:53749" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-[56px] min-w-px overflow-clip py-[18px] relative rounded-[4px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37573;56647:53752" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66376;9469:7126;475:2321;4885:37573;56647:53753">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37573;56647:53754" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="absolute left-[281px] size-[20px] top-[24px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625" data-name="Width - Bottom">
+                  <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center left-1/2 top-[5px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625;5686:316" data-name="comment-arrow">
+                    <div className="h-[4px] relative shrink-0 w-[8px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625;5686:316;5685:1073" data-name="Diamond">
+                      <div className="absolute inset-[5.18%_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond} />
+                      </div>
+                    </div>
+                    <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625;5686:316;5685:1143" data-name="comment-arrow">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625;5686:316;5685:1143;5685:1099">
+                        20
+                      </p>
+                    </div>
+                  </div>
+                  <div className="absolute h-[5px] left-0 right-0 top-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37625;5686:317" data-name=".DimensionHor">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66376;9469:7126;475:2321;4975:25508" data-name="row">
+              <div className="bg-[var(--background\/accent-1,#ffdd2d)] content-stretch flex gap-[4px] items-center justify-center min-h-[56px] overflow-clip p-[16px] relative rounded-[var(--tui-button\/radius\/large,12px)] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4975:25509" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[4px] py-[2px] relative shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4975:25509;200:101982" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4975:25509;200:101983">
+                    Label
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[20px] left-[285px] top-[56px] w-[12px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37592" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66376;9469:7126;475:2321;4885:37592;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37592;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37592;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4885:37592;5686:348;5685:1160;5685:1099">
+                    20
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[20px] left-[151px] top-[232px] w-[12px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37614" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66376;9469:7126;475:2321;4885:37614;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37614;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37614;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4885:37614;5686:348;5685:1160;5685:1099">
+                    20
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[32px] left-[55px] top-[308px] w-[12px]" data-node-id="I9702:66376;9469:7126;475:2321;4975:29670" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66376;9469:7126;475:2321;4975:29670;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4975:29670;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4975:29670;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4975:29670;5686:348;5685:1160;5685:1099">
+                    32
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[16px] left-[285px] top-[160px] w-[12px]" data-node-id="I9702:66376;9469:7126;475:2321;4885:37603" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66376;9469:7126;475:2321;4885:37603;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37603;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66376;9469:7126;475:2321;4885:37603;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66376;9469:7126;475:2321;4885:37603;5686:348;5685:1160;5685:1099">
+                    16
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66376;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="9702:66377" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-full not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-[min-content]" data-node-id="I9702:66377;9459:12596">
+          На размере M отступы уменьшаются
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="9702:66378" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66378;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute border border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-solid inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66378;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[24px] items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66378;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29949" data-name="form">
+              <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29950" data-name="tui-input">
+                <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[12px] pr-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29950;56647:53839" data-name="container">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip py-[14px] relative rounded-[4px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29950;56647:53842" data-name="content">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29950;56647:53843">
+                      Label
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29950;56647:53844" data-name="end-accessories" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-[582px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29951" data-name="row-compensated">
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[12px] pr-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53839" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip py-[14px] relative rounded-[4px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53842" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53843">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53844" data-name="end-accessories" />
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53849" data-name="hint-container">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29952;56647:53850">
+                      Hint
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29953" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[12px] pr-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29953;56647:53839" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip py-[14px] relative rounded-[4px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29953;56647:53842" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29953;56647:53843">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29953;56647:53844" data-name="end-accessories" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29954" data-name="row">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66378;9469:7126;475:2321;4975:29955" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[12px] pr-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29955;56647:53839" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip py-[14px] relative rounded-[4px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29955;56647:53842" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29955;56647:53843">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29955;56647:53844" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66378;9469:7126;475:2321;4975:29956" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[12px] pr-[10px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29956;56647:53839" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip py-[14px] relative rounded-[4px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29956;56647:53842" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29956;56647:53843">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex gap-[4px] items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29956;56647:53844" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="absolute left-[281px] size-[20px] top-[24px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957" data-name="Width - Bottom">
+                  <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center left-1/2 top-[5px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957;5686:316" data-name="comment-arrow">
+                    <div className="h-[4px] relative shrink-0 w-[8px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957;5686:316;5685:1073" data-name="Diamond">
+                      <div className="absolute inset-[5.18%_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond} />
+                      </div>
+                    </div>
+                    <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957;5686:316;5685:1143" data-name="comment-arrow">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957;5686:316;5685:1143;5685:1099">
+                        16
+                      </p>
+                    </div>
+                  </div>
+                  <div className="absolute h-[5px] left-0 right-0 top-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29957;5686:317" data-name=".DimensionHor">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66378;9469:7126;475:2321;4975:29958" data-name="row">
+              <div className="bg-[var(--background\/accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center min-h-[44px] overflow-clip p-[10px] relative rounded-[var(--tui-button\/radius\/medium,8px)] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29959" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[6px] py-[2px] relative shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29959;200:102682" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[15px] text-[color:var(--text\/primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29959;200:102683">
+                    Label
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[24px] left-[45px] top-[248px] w-[12px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29962" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66378;9469:7126;475:2321;4975:29962;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29962;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29962;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29962;5686:348;5685:1160;5685:1099">
+                    24
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[16px] left-[162px] top-[188px] w-[11px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29961" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66378;9469:7126;475:2321;4975:29961;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29961;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29961;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29961;5686:348;5685:1160;5685:1099">
+                    16
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[16px] left-[285px] top-[44px] w-[12px]" data-node-id="I9702:66378;9469:7126;475:2321;4975:29963" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66378;9469:7126;475:2321;4975:29963;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29963;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4975:29963;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4975:29963;5686:348;5685:1160;5685:1099">
+                    16
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute left-[285px] size-[12px] top-[132px]" data-node-id="I9702:66378;9469:7126;475:2321;4980:30113" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66378;9469:7126;475:2321;4980:30113;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4980:30113;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66378;9469:7126;475:2321;4980:30113;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66378;9469:7126;475:2321;4980:30113;5686:348;5685:1160;5685:1099">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66378;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="9702:66379" data-name="Paragraph">
+        <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-full not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-[min-content]" data-node-id="I9702:66379;9459:12596">
+          На размере S — становятся еще меньше
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-full" data-node-id="9702:66380" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[480px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66380;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2302" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2303" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute border border-[var(--UIColor.tui.border.normal,rgba(0,16,36,0.12))] border-solid inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66380;9469:7126;5375:1772" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[20px] items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66380;9469:7126;475:2321" data-name="Multiple Instances">
+            <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33529" data-name="form">
+              <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33530" data-name="tui-input">
+                <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[10px] pr-[6px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33530;56647:53929" data-name="container">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33530;56647:53932" data-name="content">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33530;56647:53933">
+                      Label
+                    </p>
+                  </div>
+                  <div className="content-stretch flex items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33530;56647:53934" data-name="end-accessories" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[8px] items-center relative shrink-0 w-[582px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33531" data-name="row-compensated">
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[10px] pr-[6px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53929" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53932" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53933">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53934" data-name="end-accessories" />
+                  </div>
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53939" data-name="hint-container">
+                    <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[20px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33532;56647:53940">
+                      Hint
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33533" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[10px] pr-[6px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33533;56647:53929" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33533;56647:53932" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33533;56647:53933">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33533;56647:53934" data-name="end-accessories" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[12px] items-start relative shrink-0 w-[582px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33534" data-name="row">
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66380;9469:7126;475:2321;4980:33535" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[10px] pr-[6px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33535;56647:53929" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33535;56647:53932" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33535;56647:53933">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33535;56647:53934" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="I9702:66380;9469:7126;475:2321;4980:33536" data-name="tui-input">
+                  <div className="bg-[var(--background\/neutral-1,rgba(36,74,127,0.06))] content-stretch flex gap-[8px] items-start pl-[10px] pr-[6px] relative rounded-[8px] shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33536;56647:53929" data-name="container">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip py-[8px] relative rounded-[4px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33536;56647:53932" data-name="content">
+                      <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/secondary,rgba(0,0,0,0.54))] w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33536;56647:53933">
+                        Label
+                      </p>
+                    </div>
+                    <div className="content-stretch flex items-center justify-end min-w-px relative self-stretch shrink-0 w-[24px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33536;56647:53934" data-name="end-accessories" />
+                  </div>
+                </div>
+                <div className="absolute h-[20px] left-[285px] top-[14px] w-[12px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537" data-name="Width - Bottom">
+                  <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center left-1/2 top-[5px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537;5686:316" data-name="comment-arrow">
+                    <div className="h-[4px] relative shrink-0 w-[8px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537;5686:316;5685:1073" data-name="Diamond">
+                      <div className="absolute inset-[5.18%_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond} />
+                      </div>
+                    </div>
+                    <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537;5686:316;5685:1143" data-name="comment-arrow">
+                      <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537;5686:316;5685:1143;5685:1099">
+                        12
+                      </p>
+                    </div>
+                  </div>
+                  <div className="absolute h-[5px] left-0 right-0 top-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33537;5686:317" data-name=".DimensionHor">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDimensionHor1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="I9702:66380;9469:7126;475:2321;4980:33538" data-name="row">
+              <div className="bg-[var(--background\/accent-1,#ffdd2d)] content-stretch flex gap-[2px] items-center justify-center min-h-[32px] overflow-clip px-[8px] py-[4px] relative rounded-[var(--tui-button\/radius\/small,8px)] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33539" data-name="tui-button">
+                <div className="content-stretch flex flex-col items-center overflow-clip px-[2px] py-[4px] relative shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33539;200:102332" data-name="container">
+                  <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[16px] not-italic relative shrink-0 text-[13px] text-[color:var(--text\/primary-on-accent-1,#333)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33539;200:102333">
+                    Label
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[20px] left-[25px] top-[188px] w-[12px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33540" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66380;9469:7126;475:2321;4980:33540;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33540;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33540;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33540;5686:348;5685:1160;5685:1099">
+                    20
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[12px] left-[173px] top-[144px] w-[11px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33541" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66380;9469:7126;475:2321;4980:33541;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33541;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33541;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33541;5686:348;5685:1160;5685:1099">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute left-[285px] size-[12px] top-[32px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33542" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66380;9469:7126;475:2321;4980:33542;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33542;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33542;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33542;5686:348;5685:1160;5685:1099">
+                    12
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="absolute left-[288px] size-[12px] top-[101px]" data-node-id="I9702:66380;9469:7126;475:2321;4980:33543" data-name="Height - Right">
+              <DimensionVer className="absolute bottom-0 left-0 top-0 w-[5px]" />
+              <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[5px] top-1/2" data-node-id="I9702:66380;9469:7126;475:2321;4980:33543;5686:348" data-name="comment-arrow">
+                <div className="flex items-center justify-center relative shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33543;5686:348;5686:15">
+                  <div className="flex-none rotate-180">
+                    <div className="h-[8px] relative w-[4px]" data-name="Diamond">
+                      <div className="absolute inset-[0_5.18%_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgDiamond1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[var(--helper-1,#ff5a0d)] content-stretch flex items-start pb-[2px] pt-[3px] px-[4px] relative rounded-[4px] shrink-0" data-node-id="I9702:66380;9469:7126;475:2321;4980:33543;5686:348;5685:1160" data-name="comment-arrow">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Regular'] leading-[normal] not-italic relative shrink-0 text-[12px] text-[color:var(--text\/primary-on-dark,white)] text-center whitespace-nowrap" data-node-id="I9702:66380;9469:7126;475:2321;4980:33543;5686:348;5685:1160;5685:1099">
+                    8
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66380;9469:7126;8349:7195">
+            ...
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Desktop/UI M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 20, letterSpacing: 0), Desktop/Body S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 20, letterSpacing: 0), iOS/UI XS: Font(family: "SF Pro Text", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0), Desktop/UI S: Font(family: "Neue Haas Unica W1G", style: Regular, size: 13, weight: 400, lineHeight: 16, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## tui-input
+**Node ID:** 9563:725402
+
+Инпут для десктопа в @tui-react и на тайге версии 4 и выше. Меняйте тип инпута в правой части через параметр show-end-accessories → show-input-type  
+  
+keywords: input, input-date, input-time, input-copy, select, multiselect, textfield, input-password,combobox, autocomplete
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-input](https://go.tcsbank.ru/tui-input)
+
+## tui-button
+**Node ID:** 9089:52399
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/Textfield/FormsAssets/9702-66374/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

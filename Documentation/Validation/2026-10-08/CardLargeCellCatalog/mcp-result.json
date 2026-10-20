@@ -1,0 +1,50 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "\n🧪 Test\n\n✅ 2 tests passed, 0 failed, 0 skipped (⏱️ 82.4s)\n  └ Files:\n     ├── /private/tmp/tui-card-cell-catalog-2026-10-08.xcresult — Result Bundle\n     └── ~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/\n         ├── logs/test_sim_2026-10-08T07-40-13-974Z_pid90401_24a65d30.log — Build Logs\n         └── test-products/test_sim_2026-10-08T07-40-13-974Z_pid90401_7f33763f.xctestproducts — Test Products\n"
+    }
+  ],
+  "structuredContent": {
+    "schema": "xcodebuildmcp.output.test-result",
+    "schemaVersion": "3",
+    "didError": false,
+    "error": null,
+    "data": {
+      "summary": {
+        "status": "SUCCEEDED",
+        "durationMs": 82353,
+        "counts": {
+          "passed": 2,
+          "failed": 0,
+          "skipped": 0
+        },
+        "target": "simulator"
+      },
+      "artifacts": {
+        "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-08T07-40-13-974Z_pid90401_24a65d30.log",
+        "xcresultPath": "/private/tmp/tui-card-cell-catalog-2026-10-08.xcresult",
+        "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-08T07-40-13-974Z_pid90401_7f33763f.xctestproducts"
+      },
+      "diagnostics": {
+        "warnings": [],
+        "errors": [],
+        "testFailures": []
+      },
+      "testCases": [
+        {
+          "suite": "CardLargeUITests",
+          "test": "testCellPresetsShowTheRealPublicCell",
+          "status": "passed",
+          "durationMs": 23543
+        },
+        {
+          "suite": "CardLargeUITests",
+          "test": "testChildActionsAndSingleCardActionStayIndependent",
+          "status": "passed",
+          "durationMs": 14285
+        }
+      ]
+    }
+  }
+}

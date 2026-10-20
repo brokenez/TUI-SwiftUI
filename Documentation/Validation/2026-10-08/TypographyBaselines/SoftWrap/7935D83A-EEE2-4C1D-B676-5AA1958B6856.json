@@ -1,0 +1,481 @@
+[
+  {
+    "actualBaselineDistances" : [
+      23.999999999999996,
+      24
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 24,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/L"
+  },
+  {
+    "actualBaselineDistances" : [
+      23.999999999999996,
+      24,
+      24,
+      24,
+      23.999999999999986,
+      24.000000000000028,
+      24
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 24,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/L"
+  },
+  {
+    "actualBaselineDistances" : [
+      23.999999999999996,
+      24
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 24,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/L Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      23.999999999999996,
+      24,
+      24,
+      24,
+      23.999999999999986,
+      24.000000000000028,
+      24,
+      24
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 24,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/L Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      19.999999999999996,
+      20
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 20,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/M"
+  },
+  {
+    "actualBaselineDistances" : [
+      19.999999999999996,
+      20,
+      20,
+      20,
+      20,
+      19.999999999999986
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 20,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/M"
+  },
+  {
+    "actualBaselineDistances" : [
+      19.999999999999996,
+      20
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 20,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/M Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      19.999999999999996,
+      20,
+      20,
+      20,
+      20,
+      19.999999999999986
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 20,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/M Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      18,
+      17.999999999999996
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 18,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/S"
+  },
+  {
+    "actualBaselineDistances" : [
+      18,
+      17.999999999999996,
+      18,
+      18,
+      18
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 18,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/S"
+  },
+  {
+    "actualBaselineDistances" : [
+      18,
+      17.999999999999996
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 18,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/S Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      18,
+      17.999999999999996,
+      18,
+      18,
+      18,
+      18
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 18,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/S Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      17,
+      16.999999999999996
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 17,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/XS"
+  },
+  {
+    "actualBaselineDistances" : [
+      17,
+      16.999999999999996,
+      17,
+      17
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 17,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/XS"
+  },
+  {
+    "actualBaselineDistances" : [
+      17,
+      16.999999999999996
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 17,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/XS Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      17,
+      16.999999999999996,
+      17,
+      17
+    ],
+    "dynamicType" : "large",
+    "expectedBaselineDistance" : 17,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/XS Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      67.666666666666657,
+      67.666666666666657
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 67.666666666666671,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/L"
+  },
+  {
+    "actualBaselineDistances" : [
+      67.666666666666657,
+      67.666666666666657,
+      67.666666666666657,
+      67.666666666666686,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666686,
+      67.666666666666515,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666515,
+      67.66666666666697,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 67.666666666666671,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/L"
+  },
+  {
+    "actualBaselineDistances" : [
+      67.666666666666657,
+      67.666666666666657
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 67.666666666666671,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/L Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      67.666666666666657,
+      67.666666666666657,
+      67.666666666666657,
+      67.666666666666686,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666686,
+      67.666666666666515,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666629,
+      67.666666666666515,
+      67.66666666666697,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742,
+      67.666666666666742
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 67.666666666666671,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/L Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      57.999999999999993,
+      58
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 58,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/M"
+  },
+  {
+    "actualBaselineDistances" : [
+      57.999999999999993,
+      58,
+      58,
+      57.999999999999972,
+      58.000000000000057,
+      58,
+      58,
+      58,
+      57.999999999999943,
+      58,
+      58,
+      58,
+      58,
+      58,
+      58,
+      58,
+      57.999999999999886,
+      58.000000000000227
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 58,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/M"
+  },
+  {
+    "actualBaselineDistances" : [
+      57.999999999999993,
+      58
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 58,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/M Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      57.999999999999993,
+      58,
+      58,
+      57.999999999999972,
+      58.000000000000057,
+      58,
+      58,
+      58,
+      57.999999999999943,
+      58,
+      58,
+      58,
+      58,
+      58,
+      58,
+      58,
+      57.999999999999886,
+      58.000000000000227,
+      58
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 58,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/M Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      52,
+      52
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 52,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/S"
+  },
+  {
+    "actualBaselineDistances" : [
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 52,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/S"
+  },
+  {
+    "actualBaselineDistances" : [
+      52,
+      52
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 52,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/S Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 52,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/S Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      54.333333333333329,
+      54.333333333333343
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 54.333333333333336,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/XS"
+  },
+  {
+    "actualBaselineDistances" : [
+      54.333333333333329,
+      54.333333333333343,
+      54.333333333333343,
+      54.333333333333314,
+      54.333333333333286,
+      54.333333333333314,
+      54.333333333333314,
+      54.333333333333314,
+      54.333333333333258,
+      54.333333333333485,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 54.333333333333336,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/XS"
+  },
+  {
+    "actualBaselineDistances" : [
+      54.333333333333329,
+      54.333333333333343
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 54.333333333333336,
+    "layout" : "explicit-breaks",
+    "role" : "Typography\/Body\/XS Bold"
+  },
+  {
+    "actualBaselineDistances" : [
+      54.333333333333329,
+      54.333333333333343,
+      54.333333333333343,
+      54.333333333333314,
+      54.333333333333286,
+      54.333333333333314,
+      54.333333333333314,
+      54.333333333333314,
+      54.333333333333258,
+      54.333333333333485,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371,
+      54.333333333333371
+    ],
+    "dynamicType" : "accessibility5",
+    "expectedBaselineDistance" : 54.333333333333336,
+    "layout" : "soft-wrap",
+    "role" : "Typography\/Body\/XS Bold"
+  }
+]

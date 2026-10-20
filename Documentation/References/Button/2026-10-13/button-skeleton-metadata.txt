@@ -1,0 +1,11 @@
+<symbol id="55915:350412" name="system=ios, size=large, appearance=primary, state=normal, skeleton=on" x="26" y="3966" width="323" height="56">
+  <frame id="55915:350413" name="Left iconCont" x="120.5" y="16" width="24" height="24" hidden="true">
+    <instance id="55915:350414" name="tui-ic-medium / star" x="0" y="0" width="24" height="24" hidden="true" />
+  </frame>
+  <frame id="55915:350415" name="LabelCont" x="132.5" y="16" width="58" height="24">
+    <text id="55915:350416" name="Button Label" x="8" y="2" width="42" height="20" />
+  </frame>
+  <instance id="38183:69889" name="tui-skeleton" x="0" y="0" width="323" height="56" />
+</symbol>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

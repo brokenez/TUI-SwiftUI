@@ -1,0 +1,48 @@
+    @MainActor
+    func testLiveSkeletonPulsesAndStaticInspectionRemainsStill() async throws {
+        for staticInspection in [false, true] {
+            let host = UIHostingController(rootView: TUISkeleton(isAnimating: !staticInspection)
+                .background(Color.black)
+                .environment(\.colorScheme, .dark)
+                .environment(\.scenePhase, .active))
+            // Swift Package tests run without an application scene. A standalone
+            // test window is necessary to mount the SwiftUI lifecycle here.
+            let window = UIWindow(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+            window.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
+            window.rootViewController = host
+            window.makeKeyAndVisible()
+            defer { window.isHidden = true }
+            host.view.frame = window.bounds
+            host.view.layoutIfNeeded()
+            let format = UIGraphicsImageRendererFormat()
+            format.scale = 3
+            format.opaque = true
+            let renderer = UIGraphicsImageRenderer(size: window.bounds.size, format: format)
+            var values: [Int] = []
+            for frame in 0..<12 {
+                try await Task.sleep(for: .milliseconds(100))
+                let image = renderer.image { _ in
+                    host.view.drawHierarchy(in: window.bounds, afterScreenUpdates: true)
+                }
+                values.append(try rgb(XCTUnwrap(image.cgImage), x: 60, y: 60)[0])
+                let attachment = XCTAttachment(data: try XCTUnwrap(image.pngData()),
+                    uniformTypeIdentifier: "public.png")
+                attachment.name = "skeleton-live-static-inspection-\(staticInspection)-frame-\(frame)"
+                attachment.lifetime = .keepAlways
+                add(attachment)
+            }
+            if staticInspection {
+                XCTAssertEqual(Set(values).count, 1, "Static keyframe inspection must remain still")
+                XCTAssertLessThanOrEqual(abs((values.first ?? 0) - 26), 1)
+            } else {
+                XCTAssertGreaterThanOrEqual((values.max() ?? 0) - (values.min() ?? 0), 8,
+                    "The mounted native view must pulse, rather than only expose calculated keyframes")
+                XCTAssertTrue(values.allSatisfy { (12...27).contains($0) })
+            }
+            let measurement = XCTAttachment(string: "Static inspection: \(staticInspection); night center RGB: \(values)")
+            measurement.name = "skeleton-live-measurement-static-inspection-\(staticInspection)"
+            measurement.lifetime = .keepAlways
+            add(measurement)
+        }
+    }
+

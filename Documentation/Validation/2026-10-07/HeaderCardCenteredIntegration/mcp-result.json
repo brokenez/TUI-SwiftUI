@@ -1,0 +1,66 @@
+{
+  "schema": "xcodebuildmcp.output.test-result",
+  "schemaVersion": "3",
+  "didError": false,
+  "error": null,
+  "data": {
+    "summary": {
+      "status": "SUCCEEDED",
+      "durationMs": 187039,
+      "counts": {
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0
+      },
+      "target": "simulator"
+    },
+    "artifacts": {
+      "buildLogPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/logs/test_sim_2026-10-07T13-59-50-978Z_pid90401_227cdf0f.log",
+      "xcresultPath": "/private/tmp/tui-header-card-centered-integration-2026-10-07.xcresult",
+      "testProductsPath": "~/Library/Developer/XcodeBuildMCP/workspaces/TUI-Design-System-8c6a28b1fef3/test-products/test_sim_2026-10-07T13-59-50-979Z_pid90401_d3631f71.xctestproducts"
+    },
+    "diagnostics": {
+      "warnings": [],
+      "errors": [],
+      "testFailures": []
+    },
+    "testCases": [
+      {
+        "suite": "CardLargeUITests",
+        "test": "testChildActionsAndSingleCardActionStayIndependent",
+        "status": "passed",
+        "durationMs": 16651
+      },
+      {
+        "suite": "HeaderCardConsumerUITests",
+        "test": "testHeadingLinksBadgeCaptionAndHintRemainAccessible",
+        "status": "passed",
+        "durationMs": 11072
+      },
+      {
+        "suite": "HeaderCardConsumerUITests",
+        "test": "testIndependentMatrixAndButtonActions",
+        "status": "passed",
+        "durationMs": 64211
+      },
+      {
+        "suite": "HeaderCardConsumerUITests",
+        "test": "testNativeSwitchUsesBindingAndPreservesIndependentActions",
+        "status": "passed",
+        "durationMs": 10205
+      },
+      {
+        "suite": "HeaderCardUITests",
+        "test": "testButtonLinkAndNativeSwitchUseConsumerState",
+        "status": "passed",
+        "durationMs": 38461
+      },
+      {
+        "suite": "HeaderCardUITests",
+        "test": "testNativeSwitchRendersOnAnUnclipped375PointHost",
+        "status": "passed",
+        "durationMs": 6355
+      }
+    ]
+  }
+}

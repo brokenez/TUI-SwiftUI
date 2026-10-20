@@ -1,0 +1,52 @@
+Attributes: Switch, 0x106a9bc00, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 1
+Element subtree:
+ →Switch, 0x106a9bc00, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 1
+    Button, 0x106a9bac0, {{36.0, 150.0}, {185.3, 20.3}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения'
+    Switch, 0x106a9b700, {{305.0, 146.3}, {63.0, 28.0}}, value: 1
+Path to element:
+ →Application, 0x113a8c000, pid: 89907, label: 'Настройки'
+  ↳Window (Main), 0x113a8d2c0, {{0.0, 0.0}, {402.0, 874.0}}
+   ↳Other, 0x113a8d540, {{0.0, 0.0}, {402.0, 874.0}}
+    ↳Other, 0x113a8ef80, {{0.0, 0.0}, {402.0, 874.0}}
+     ↳Other, 0x113a8e440, {{0.0, 0.0}, {402.0, 874.0}}
+      ↳Other, 0x113a8db80, {{0.0, 0.0}, {402.0, 874.0}}
+       ↳Other, 0x113a8dcc0, {{0.0, 0.0}, {402.0, 874.0}}
+        ↳Other, 0x113a8da40, {{0.0, 0.0}, {402.0, 874.0}}
+         ↳Other, 0x113a8de00, {{0.0, 0.0}, {402.0, 874.0}}
+          ↳Other, 0x113a8e580, {{0.0, 0.0}, {402.0, 874.0}}
+           ↳Other, 0x113a89400, {{0.0, 0.0}, {402.0, 874.0}}
+            ↳Other, 0x113a89900, {{0.0, 0.0}, {402.0, 874.0}}
+             ↳Other, 0x113a89b80, {{0.0, 0.0}, {402.0, 874.0}}
+              ↳Other, 0x113a8a580, {{0.0, 0.0}, {402.0, 874.0}}
+               ↳Other, 0x113a892c0, {{0.0, 116.0}, {402.0, 724.0}}
+                ↳Table, 0x113a8a440, {{0.0, 0.0}, {402.0, 874.0}}
+                 ↳Cell, 0x106a9b480, {{20.0, 133.7}, {362.0, 53.0}}, identifier: 'REDUCE_MOTION'
+                  ↳Other, 0x106a9b340, {{20.0, 133.7}, {362.0, 53.0}}
+                   ↳Other, 0x106a9b980, {{20.0, 133.7}, {362.0, 53.0}}
+                    ↳Switch, 0x106a9bc00, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 1
+Query chain:
+ →Find: Application 'com.apple.Preferences'
+  Output: {
+    Application, 0x113a59400, pid: 89907, label: 'Настройки'
+  }
+  ↪︎Find: Descendants matching type Switch
+    Output: {
+      Switch, 0x113ab0780, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 1
+      Switch, 0x113ab12c0, {{36.0, 263.0}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS', label: 'Выбор перекрестных наплывов', value: 0
+      Switch, 0x113ab1e00, {{36.0, 430.5}, {330.0, 42.3}}, identifier: 'REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES', label: 'Автовоспроизведение анимированных изображений', value: 1
+      Switch, 0x113ab2580, {{36.0, 501.0}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS', label: 'Автопредпросмотр видео', value: 1
+      Switch, 0x113ab2d00, {{36.0, 554.0}, {330.0, 28.0}}, identifier: 'ReduceMotionAutoplayMessagesEffects', label: 'Эффекты сообщений', value: 1
+      Switch, 0x113ab3840, {{36.0, 689.5}, {330.0, 42.3}}, identifier: 'PREFER_NONBLINKING_CURSOR', label: 'Предпочтение курсора без мигания', value: 0
+      Switch, 0x113a583c0, {{36.0, 807.7}, {330.0, 28.0}}, identifier: 'REFRESH_RATE', label: 'Ограничение частоты кадров', value: 0
+      Switch, 0x113ab0a00, {{305.0, 146.3}, {63.0, 28.0}}, value: 1
+      Switch, 0x113ab1540, {{305.0, 263.0}, {63.0, 28.0}}, value: 0
+      Switch, 0x113ab2080, {{305.0, 437.7}, {63.0, 28.0}}, value: 1
+      Switch, 0x113ab2800, {{305.0, 501.0}, {63.0, 28.0}}, value: 1
+      Switch, 0x113ab2f80, {{305.0, 554.0}, {63.0, 28.0}}, value: 1
+      Switch, 0x113ab3ac0, {{305.0, 696.7}, {63.0, 28.0}}, value: 0
+      Switch, 0x113a58640, {{305.0, 807.7}, {63.0, 28.0}}, value: 0
+    }
+    ↪︎Find: Elements matching predicate '"REDUCE_MOTION" IN identifiers'
+      Output: {
+        Switch, 0x113a8f340, {{36.0, 146.3}, {330.0, 28.0}}, identifier: 'REDUCE_MOTION', label: 'Уменьшение движения', value: 1
+      }

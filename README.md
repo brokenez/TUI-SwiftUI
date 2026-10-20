@@ -1,28 +1,76 @@
-# TUI Design System for iOS
+# TUI-SwiftUI
 
-Самостоятельный Swift Package, собранный по библиотекам TUI Mobile, TUI Assets и TUI Foundations. Он не зависит от приложения «Зарплатный клуб».
+Нативная SwiftUI-библиотека для интерактивных iOS 26 прототипов из TUI Mobile. Публичный модуль — `TUIDesignSystem`; продукты Swift Package — `TUI-SwiftUI` и совместимый `TUIDesignSystem`. Каталог — самостоятельное приложение Xcode, компоненты в нём исполняются из библиотеки.
 
-## Источники
+Репозиторий: [brokenez/TUI-SwiftUI](https://github.com/brokenez/TUI-SwiftUI), приватный. Это текущая разработка, а не завершённый релиз всех компонентов. Полная приёмка определяется [реестром](Documentation/component-coverage.json), а не количеством экранов каталога или успешной сборкой.
 
-- Components: `OBPLqL8JDThLuOP8M4JzBL`
-- Assets: `R1oI4T6X9CHxl2x55MDypT`
-- Foundations: `gGt4PaQxQhX7ozPVImsgL5`
+## Подключение
 
-Минимальная версия — iOS 26. Компоненты используют нативные SwiftUI-контейнеры и системную навигацию. Полный снимок переменных Figma хранится в `Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json`; каталоги компонентов и ассетов — рядом с ним.
+В Xcode → Add Package Dependencies добавьте `https://github.com/brokenez/TUI-SwiftUI.git`, выберите ветку `main` и продукт `TUI-SwiftUI`. Нужен доступ к приватному репозиторию. Минимальная платформа — iOS 26, Swift tools 6.2. Для воспроизводимого прототипа закрепляйте проверенный commit в Package.resolved.
 
-В проекте сохранены 957 variables, 128 component sets, все 3 927 вариантов и индекс 3 518 ассетов. Из них 2 008 вариантов относятся к iOS, включая варианты, помеченные в Figma как iOS 18, iOS 26 или общие для платформ. `Documentation/component-coverage.json` хранит статус переноса каждого компонента. Наличие записи в каталоге не означает готовую SwiftUI-реализацию: статус `complete` выставляется только после реализации всей iOS-матрицы и визуального сравнения со спецификацией.
+```swift
+import SwiftUI
+import TUIDesignSystem
 
-## Структура проекта
+struct PrototypeScreen: View {
+    @State private var showDetails = false
 
-- `TUIDesignSystemCatalog.xcodeproj` — самостоятельное iOS-приложение-каталог для визуальной проверки.
-- `Package.swift` — библиотека `TUIDesignSystem`, которую можно подключать к любому сценарию как локальный Swift Package.
-- `Documentation/component-coverage.json` — измеряемый статус переноса каждого component set и его iOS-вариантов.
-- `Documentation/figma-spec-links.json` — прямые адреса отдельных Figma-спецификаций, полученные из ссылок компонентов.
-- `Documentation/assembling-screens-from-figma.md` — порядок поиска SwiftUI API по ссылке на Figma для новых сценариев.
-- `Scripts/resolve_figma_node.py` — определяет компонент, свойства варианта и публичный API по ссылке на узел TUI Mobile.
+    var body: some View {
+        NavigationStack {
+            VStack(alignment: .leading, spacing: TUISpacing.x4) {
+                Text("Зарплатный клуб").tuiTypography(.headingLarge)
+                Text("Переведите зарплату в Т-Банк, чтобы открыть преимущества")
+                    .tuiTypography(.bodyLarge)
+                    .foregroundStyle(TUIColor.textSecondary)
+                TUIButton("Как перевести зарплату") { showDetails = true }
+            }
+            .padding(TUISpacing.x4)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+            .background(TUIColor.backgroundPrimary)
+            .sheet(isPresented: $showDetails) {
+                NavigationStack {
+                    Text("Передайте работодателю реквизиты счёта в Т-Банке")
+                        .tuiTypography(.bodyLarge)
+                        .padding(TUISpacing.x4)
+                        .navigationTitle("Перевод зарплаты")
+                }
+            }
+        }
+    }
+}
+```
 
-Каталог запускается схемой `TUIDesignSystemCatalog`. В разделе «Интерактивные компоненты» он создаёт реальные SwiftUI-экземпляры, включая кнопки, чипы, списки, рейтинг, бейджи, загрузчики и нативные системные элементы. Можно нажимать на компоненты и менять их состояния, размеры и оформление. Скриншоты Figma используются только для сверки; они не подменяют компонент в каталоге.
+Это пример подключения API, не приёмка конкретного экрана Figma. Независимый проект-потребитель: [Examples/ConsumerApp](Examples/ConsumerApp).
 
-Остальные разделы пока показывают исходную матрицу вариантов и ссылки на спецификации. Их статус — `catalogued`; живой просмотр добавляется вместе с реализацией компонента. Сейчас 26 наборов имеют статус `in-progress` и охватывают 523 iOS-варианта; визуальная сверка каждого сочетания ещё не завершена. `tui-badge [t-client]` и `tui-badge [subscription-icon]` имеют статус `complete`: их iOS-варианты сверены с Figma и отображением в симуляторе. Каталог показывает, если выбранной комбинации свойств нет в Figma.
+## Foundations
 
-Проверки данных запускаются командами `python3 Scripts/generate_component_coverage.py --check` и `python3 Scripts/verify_live_components.py`. Для проверки интерфейса соберите схему `TUIDesignSystemCatalog` в iOS Simulator и откройте интерактивные компоненты.
+Пакет содержит 957 исходных Variables четырёх коллекций, разрешение ссылок между ними, 289 цветовых токенов Day/Night, 31 документированную роль iOS, токены размеров и теней, пять длительностей и шесть кривых анимации. По [решению пользователя](Documentation/typography-decision-2026-10-20.md) используется системный SF Pro iOS 26; файлы шрифтов не распространяются.
+
+В каталоге откройте «Foundations»: цвета, роли шрифтов, переключение темы и воспроизведение анимации работают на реальных API пакета. [Проверки и точные ограничения](Documentation/References/Foundations/release-2026-10-20.md): составные градиенты, полная визуальная приёмка теней и неоднозначность line box в первоисточнике ещё не приняты. Проверка чтения токенов не заменяет визуальную сверку с Figma.
+
+## Использование через Codex
+
+Сначала прочитайте [AGENTS.md](AGENTS.md), [инвентаризацию](docs/inventory.json), [спецификации](docs/specifications) и [правила сборки экранов](Documentation/assembling-screens-from-figma.md). Найдите Figma Component/Variant ID через `Scripts/resolve_figma_node.py`, проверьте публичный API и актуальную приёмку. Используйте компоненты и ресурсы пакета, без копирования реализаций в приложение.
+
+Текущий объём — 112 кастомных наборов. 16 системных Apple-наборов исключены; для них потребитель использует нативные iOS 26 API. Deprecated не переносим. Исторические варианты iOS 18 сохранены отдельно. Дополнительные режимы доступности исключены из текущей приёмки по решению пользователя. Оригинальные файлы Figma изменять запрещено.
+
+## Каталог и проверки
+
+Откройте `TUIDesignSystemCatalog.xcodeproj`, выберите схему `TUIDesignSystemCatalog` и iOS 26 Simulator. Пакетные тесты запускаются через `PackageTests.xcworkspace`, схему `TUIDesignSystemTests`.
+
+```sh
+python3 Scripts/generate_component_coverage.py --check
+python3 Scripts/verify_live_components.py
+```
+
+[Правила приёмки](Documentation/verification-workflow.md) требуют спецификации, применимых вариантов, визуальной сверки, поведения, анимации и интеграции. При изменении шрифта или общих исходников прежняя приёмка не переносится автоматически. В Git хранятся исходники, спецификации и доказательства из актуального реестра; полные временные DerivedData, старые сырые прогоны и локальный архив шрифтов не включаются.
+
+Разработка веб-каталога остановлена [решением от 13 октября](Documentation/native-catalog-focus-2026-10-13.md). Исторические файлы сохранены; текущая проверка проходит в нативном приложении.
+
+## Первоисточники
+
+- [TUI Mobile](https://www.figma.com/design/OBPLqL8JDThLuOP8M4JzBL/TUI-Mobile)
+- [TUI Foundations](https://www.figma.com/design/gGt4PaQxQhX7ozPVImsgL5/TUI-Foundations)
+- [TUI Assets](https://www.figma.com/design/R1oI4T6X9CHxl2x55MDypT/TUI-Assets)
+
+Репозиторий приватный; лицензия на открытое распространение материалов TUI не заявляется.

@@ -1,0 +1,30 @@
+Attributes: Application, 0x118c29cc0, pid: 88676, label: 'TUIDesignSystemCatalog'
+Element subtree:
+ →Application, 0x118c29cc0, pid: 88676, label: 'TUIDesignSystemCatalog'
+    Window (Main), 0x118c29e00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x118c29f40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x118c2a080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x118c2a1c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x118c2a300, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x118c2a440, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x118c2a580, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Social button QA'
+                  StaticText, 0x118c2a6c0, {{134.3, 73.7}, {133.0, 20.7}}, label: 'Social button QA'
+                Other, 0x118c2a800, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x118c2a940, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x118c2abc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x118c2ad00, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x118c2ae40, {{179.0, 132.0}, {44.0, 20.3}}, label: 'Share'
+                        StaticText, 0x118c2af80, {{146.8, 184.3}, {108.3, 14.3}}, label: 'secondary · normal'
+                        Button, 0x118c2b0c0, {{176.0, 424.0}, {50.0, 50.0}}, identifier: 'tuiButtonShare-44290:299204', label: 'Поделиться'
+                        StaticText, 0x118c2b200, {{195.8, 699.0}, {10.3, 20.3}}, identifier: 'socialProbeTapCount', label: '0'
+                        StaticText, 0x118c2b340, {{190.3, 751.3}, {21.3, 20.3}}, identifier: 'socialProbeSelection', label: 'off'
+                        StaticText, 0x118c2b480, {{178.2, 803.7}, {45.7, 20.3}}, identifier: 'socialProbeScene', label: 'active'
+                Other, 0x118c2b5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x118c2b700, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x118c29cc0, pid: 88676, label: 'TUIDesignSystemCatalog'
+Query chain:
+ →Find: Target Application 'local.TUIDesignSystemCatalog'
+  Output: {
+    Application, 0x118c2aa80, pid: 88676, label: 'TUIDesignSystemCatalog'
+  }

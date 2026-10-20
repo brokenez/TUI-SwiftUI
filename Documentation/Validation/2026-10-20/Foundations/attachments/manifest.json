@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "B58D7164-94B7-4942-AA7D-8F69E59A1A70.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "foundation-native-sf-31-roles-Night-3x_0_5D00234E-04D1-49E2-A2D7-7E92CA268039.png",
+        "timestamp" : 1792501684.268
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "6D3F35A1-AC30-4F0E-BDD6-0F912B714E59",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "7A39CF80-9F80-429C-BAA2-DC4C7FDC23EC.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "foundation-native-sf-31-roles-Day-3x_0_7D4648DC-63AD-498A-88D5-FC6256A0182E.png",
+        "timestamp" : 1792501683.978
+      }
+    ],
+    "testIdentifier" : "FoundationReleaseTests/testEveryIOSRoleRendersWithNativeFontsInDayAndNight()",
+    "testIdentifierURL" : "test://com.apple.xcode/TUI-SwiftUI/TUIDesignSystemTests/FoundationReleaseTests/testEveryIOSRoleRendersWithNativeFontsInDayAndNight"
+  }
+]

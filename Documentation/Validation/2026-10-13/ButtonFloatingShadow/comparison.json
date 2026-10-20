@@ -1,0 +1,112 @@
+{
+  "scope": "Three normal Floating Button Day source exports, full effect bounds. Native 3x reduced with LANCZOS and composited on white. Outside-surface metrics exclude the component rectangle and typography. Diagnostic measurements do not accept the whole component.",
+  "results": [
+    {
+      "variantID": "49513:311416",
+      "mode": "before",
+      "source": "Documentation/References/Button/2026-10-13/floating-large-49513-311416.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/Before/35114569-F420-4547-8993-5C12CE6B1634.png",
+      "sourceSize": [
+        363,
+        96
+      ],
+      "nativeSize": [
+        1089,
+        288
+      ],
+      "MAE_255": 1.88588,
+      "outsideSurfaceMAE_255": 3.3892,
+      "outsideSurfaceMax_255": 16
+    },
+    {
+      "variantID": "49513:311416",
+      "mode": "after",
+      "source": "Documentation/References/Button/2026-10-13/floating-large-49513-311416.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/MatrixNative/D9208583-FE0D-413C-B530-4B927D7DFAB3.png",
+      "sourceSize": [
+        363,
+        96
+      ],
+      "nativeSize": [
+        1089,
+        288
+      ],
+      "MAE_255": 0.62804,
+      "outsideSurfaceMAE_255": 0.75519,
+      "outsideSurfaceMax_255": 16
+    },
+    {
+      "variantID": "49513:311400",
+      "mode": "before",
+      "source": "Documentation/References/Button/2026-10-13/floating-medium-49513-311400.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/Before/6BB84FFC-152E-4AB2-B9D0-816F97249D83.png",
+      "sourceSize": [
+        363,
+        84
+      ],
+      "nativeSize": [
+        1089,
+        252
+      ],
+      "MAE_255": 2.29198,
+      "outsideSurfaceMAE_255": 3.26032,
+      "outsideSurfaceMax_255": 16
+    },
+    {
+      "variantID": "49513:311400",
+      "mode": "after",
+      "source": "Documentation/References/Button/2026-10-13/floating-medium-49513-311400.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/MatrixNative/0BF2FEA8-B14C-4EE2-9155-11434652466E.png",
+      "sourceSize": [
+        363,
+        84
+      ],
+      "nativeSize": [
+        1089,
+        252
+      ],
+      "MAE_255": 0.96566,
+      "outsideSurfaceMAE_255": 0.75559,
+      "outsideSurfaceMax_255": 16
+    },
+    {
+      "variantID": "49513:311393",
+      "mode": "before",
+      "source": "Documentation/References/Button/2026-10-13/floating-small-49513-311393.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/Before/0BE45ADB-7E85-497B-946D-263886610EAF.png",
+      "sourceSize": [
+        97,
+        70
+      ],
+      "nativeSize": [
+        291,
+        210
+      ],
+      "MAE_255": 3.06996,
+      "outsideSurfaceMAE_255": 2.09921,
+      "outsideSurfaceMax_255": 17
+    },
+    {
+      "variantID": "49513:311393",
+      "mode": "after",
+      "source": "Documentation/References/Button/2026-10-13/floating-small-49513-311393.png",
+      "native": "Documentation/Validation/2026-10-13/ButtonFloatingShadow/MatrixNative/A1D85A6E-68BB-4FBA-A6D0-E950CEB44446.png",
+      "sourceSize": [
+        97,
+        70
+      ],
+      "nativeSize": [
+        291,
+        210
+      ],
+      "MAE_255": 1.91222,
+      "outsideSurfaceMAE_255": 0.4876,
+      "outsideSurfaceMax_255": 16
+    }
+  ],
+  "nightPixelRegression": {
+    "49513:311416": true,
+    "49513:311400": true,
+    "49513:311393": true
+  }
+}

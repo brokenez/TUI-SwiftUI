@@ -1,0 +1,572 @@
+import { imgTuiIcMediumPlus, imgTuiIcMediumMinus, imgTuiIcMediumDirection, imgCont, imgTuiIcMediumStar, imgColor, imgStart, imgFormView, imgBullet } from "./svg-5ugyl";
+
+function Component({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch drop-shadow-[0px_5px_10px_rgba(0,0,0,0.1)] flex flex-col gap-[16px] items-start relative"} data-node-id="9702:66057" data-name="Кнопки карты">
+      <div className="bg-white content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[12px] shrink-0 w-[44px]" data-node-id="9702:66058" data-name="tui-button">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I9702:66058;42013:286639" data-name="Left iconCont">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I9702:66058;42013:286640" data-name="tui-ic-medium / star">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumPlus} />
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[12px] shrink-0 w-[44px]" data-node-id="9702:66059" data-name="tui-button">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I9702:66059;42013:286639" data-name="Left iconCont">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I9702:66059;42013:286640" data-name="tui-ic-medium / star">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumMinus} />
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[12px] shrink-0 w-[44px]" data-node-id="9702:66060" data-name="tui-button">
+        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I9702:66060;42013:286639" data-name="Left iconCont">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I9702:66060;42013:286640" data-name="tui-ic-medium / star">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumDirection} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CardTop({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-white h-[10px] overflow-clip relative rounded-tl-[10px] rounded-tr-[10px] w-[343px]"} data-node-id="9702:62809" data-name="_Card Top">
+      <div className="absolute bg-black h-[10px] left-0 opacity-12 right-0 top-0" data-node-id="9702:62810" data-name="cont" />
+    </div>
+  );
+}
+type SystemBottomBarProps = {
+  className?: string;
+  appearance?: "Light Bg" | "Dark Bg";
+  keyboard?: boolean;
+  system?: "Android" | "iOS";
+  type?: "Dragger" | "Buttons";
+};
+
+function SystemBottomBar({ className, appearance = "Dark Bg", keyboard = false, system = "Android", type = "Buttons" }: SystemBottomBarProps) {
+  const isDraggerAndLightBgAndIOsAndFalse = type === "Dragger" && appearance === "Light Bg" && system === "iOS" && !keyboard;
+  return (
+    <div className={className || `content-stretch flex flex-col items-start relative ${isDraggerAndLightBgAndIOsAndFalse ? "w-[375px]" : "bg-[#121212]"}`} id={isDraggerAndLightBgAndIOsAndFalse ? "node-9702_57419" : "node-9702_57268"}>
+      <div className={`relative shrink-0 ${isDraggerAndLightBgAndIOsAndFalse ? "h-[34px] w-full" : "h-[42px] w-[360px]"}`} id={isDraggerAndLightBgAndIOsAndFalse ? "node-9702_57420" : "node-9702_57269"} data-name="cont">
+        {type === "Buttons" && appearance === "Dark Bg" && system === "Android" && !keyboard && <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCont} />}
+        {isDraggerAndLightBgAndIOsAndFalse && <div className="-translate-x-1/2 absolute bg-black bottom-[8px] h-[5px] left-1/2 rounded-[100px] w-[133px]" data-node-id="9702:57421" data-name="bar" />}
+      </div>
+    </div>
+  );
+}
+
+function PlaceholderSingle({ className }: { className?: string }) {
+  return <div className={className || "bg-[var(--UIColor.tui.background.neutral1OnLight,rgba(0,0,0,0.03))] relative rounded-[100px] size-[16px]"} data-node-id="20378:10128" data-name="placeholder-single" />;
+}
+type TuiSkeletonProps = {
+  className?: string;
+  keyframe?: "1";
+};
+
+function TuiSkeleton({ className, keyframe = "1" }: TuiSkeletonProps) {
+  return <div className={className || "bg-[var(--UIColor.tui.service.skeleton,rgba(0,0,0,0.03))] overflow-clip relative rounded-[4px] size-[40px]"} data-node-id="20640:17459" />;
+}
+type TuiSkeletonTextProps = {
+  className?: string;
+  system?: "iOS" | "Android";
+  textStyle?: "heading-l" | "body-m" | "body-l";
+};
+
+function TuiSkeletonText({ className, system = "iOS", textStyle = "heading-l" }: TuiSkeletonTextProps) {
+  const isBodyMAndAndroid = textStyle === "body-m" && system === "Android";
+  const isBodyMAndIOs = textStyle === "body-m" && system === "iOS";
+  const isHeadingLAndAndroid = textStyle === "heading-l" && system === "Android";
+  return (
+    <div className={className || `content-stretch flex items-center relative w-[92px] ${system === "Android" && ["body-l", "body-m"].includes(textStyle) ? "py-[2.5px]" : system === "iOS" && ["body-l", "body-m"].includes(textStyle) ? "py-[3px]" : isHeadingLAndAndroid ? "py-[5.5px]" : "py-[6px]"}`} id={isBodyMAndAndroid ? "node-20640_19095" : isBodyMAndIOs ? "node-20640_19094" : textStyle === "body-l" && system === "Android" ? "node-20640_19093" : textStyle === "body-l" && system === "iOS" ? "node-20640_19092" : isHeadingLAndAndroid ? "node-20640_19087" : "node-20640_19082"}>
+      <TuiSkeleton className={`bg-[var(--UIColor.tui.service.skeleton,rgba(0,0,0,0.03))] flex-[1_0_0] min-w-px relative rounded-[4px] ${isBodyMAndAndroid ? "h-[11px]" : isBodyMAndIOs ? "h-[12px]" : textStyle === "body-l" ? "h-[14px]" : isHeadingLAndAndroid ? "h-[22px]" : "h-[24px]"}`} />
+    </div>
+  );
+}
+type TuiHeaderLargeProps = {
+  className?: string;
+  extended?: boolean;
+  showDescription?: boolean;
+  showIcon?: boolean;
+  showSubheader?: boolean;
+  skeleton?: boolean;
+  subheader?: string;
+  system?: "iOS";
+  textAlign?: "start";
+  title?: string;
+};
+
+function TuiHeaderLarge({ className, extended = false, showDescription = false, showIcon = false, showSubheader = true, skeleton = false, subheader = "Subheader", system = "iOS", textAlign = "start", title = "Header" }: TuiHeaderLargeProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[24px] pt-[8px] px-[16px] relative w-[375px]"} data-node-id="22232:42342">
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="22232:42442" data-name="HeaderCont">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start justify-center min-w-px overflow-clip relative self-stretch" data-node-id="22232:42443" data-name="Header+Subheader">
+          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="22232:42444" data-name="HeaderTextCont">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Display:Bold'] leading-[normal] min-w-px not-italic relative text-[30px] text-[color:var(--UIColor.tui.text.primary,#333)] tracking-[0.36px]" data-node-id="22232:42445">
+              {title}
+            </p>
+          </div>
+          {showSubheader && (
+            <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="22232:42446" data-name="SubheaderTextCont">
+              {showSubheader && (
+                <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro_Text:Regular'] leading-[normal] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.secondary,#9299a2)] tracking-[-0.24px]" data-node-id="22232:42447">
+                  {subheader}
+                </p>
+              )}
+            </div>
+          )}
+        </div>
+        {showIcon && (
+          <div className="content-stretch flex h-[36px] items-center relative shrink-0" data-node-id="22232:42448" data-name="Accessory">
+            <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="22232:42449" data-name="IconCont">
+              <div className="bg-[var(--UIColor.tui.background.accent2,#428bf9)] content-stretch flex items-start relative rounded-[100px] shrink-0 size-[36px]" data-node-id="22232:42450" data-name="tui-avatar">
+                <div className="flex-[1_0_0] h-full min-w-px relative rounded-[1000px]" data-node-id="I22232:42450;25745:690432" data-name="Container">
+                  <div className="absolute inset-[20%]" data-node-id="I22232:42450;25745:690434" data-name="tui-ic-medium / star">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTuiIcMediumStar} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+type SpacingProps = {
+  className?: string;
+  size?: "07 - 24px" | "10 - 48px";
+};
+
+function Spacing({ className, size = "10 - 48px" }: SpacingProps) {
+  const is0724Px = size === "07 - 24px";
+  return <div className={className || `relative w-[934px] ${is0724Px ? "h-[24px]" : "h-[48px]"}`} id={is0724Px ? "node-9708_17380" : "node-9708_17377"} />;
+}
+type H2PProps = {
+  className?: string;
+  showBadge?: boolean;
+  showParagraph?: boolean;
+  titleText?: string;
+};
+
+function H2P({ className, showBadge = false, showParagraph = true, titleText = "## H2" }: H2PProps) {
+  const isNotShowParagraph = !showParagraph;
+  return (
+    <div className={className || "content-stretch flex flex-col items-start pb-[var(--indents\\/bottom-indent-l,32px)] pt-[var(--indents\\/top-indent-s,16px)] relative w-[934px]"} id={isNotShowParagraph ? "node-22232_19526" : "node-22232_19525"}>
+      <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" id={isNotShowParagraph ? "node-22232_19533" : "node-22232_19527"} data-name="## H2">
+        <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="22232:19528" style={{ fontFeatureSettings: '"liga" 0' }}>
+          {titleText}
+        </p>
+        {showBadge && (
+          <div className="content-stretch flex flex-col items-start pt-[8px] relative self-stretch shrink-0" data-node-id="22232:19529" data-name="badge">
+            {showBadge && (
+              <div className="backdrop-blur-[5px] bg-[var(--UIColor.tui.background.neutral4,rgba(0,16,36,0.22))] content-stretch flex items-center justify-center min-h-[28px] min-w-[28px] px-[6px] relative rounded-[100px] shrink-0" data-node-id="22232:19530" data-name="tui-badge">
+                <div className="content-stretch flex flex-col h-[28px] items-center justify-center py-[4px] relative shrink-0" data-node-id="I22232:19530;6917:52779" data-name="IconCont">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I22232:19530;6917:52780" data-name="tui-ic-small / bookmark-filled">
+                    <div className="absolute bg-[var(--UIColor.tui.text.primaryOnDark,white)] inset-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[3.8px_2px] mask-size-[8.4px_11.954px]" data-node-id="I22232:19530;6917:52780;7545:352" style={{ maskImage: `url("${imgColor}")` }} data-name="Color" />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-center justify-center pb-[6.5px] pt-[5.5px] px-[4px] relative shrink-0" data-node-id="I22232:19530;6917:52781" data-name="LabelCont">
+                  <p className="[word-break:break-word] font-['SF_Pro_Text:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13px] text-[color:var(--UIColor.tui.text.primaryOnDark,white)] text-center tracking-[-0.08px] whitespace-nowrap" data-node-id="I22232:19530;6917:52782">
+                    story-name
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+      {showParagraph && (
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="22232:19531" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="22232:19532">
+            Paragraph
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function Component1() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[128px] relative rounded-[80px] size-full" data-node-id="9702:66356" data-name="Что такое формы">
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="9702:66357" data-name="H1 + P">
+        <div className="content-stretch flex gap-[10px] items-center relative shrink-0 w-full" data-node-id="I9702:66357;4925:367" data-name="# H1">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Bold'] leading-[56px] min-w-px not-italic relative text-[50px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66357;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Что такое формы
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[20px] relative shrink-0 w-full" data-node-id="I9702:66357;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I9702:66357;9462:7160">
+            Форма — это контейнер с набором элементов ввода (поля, элементы выбора, и т.д.), логикой, валидацией, форматированием, навигацией между элементами
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="9702:66358" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[916px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66358;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66358;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66358;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66358;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66358;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I9702:66358;9469:7126;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormView} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66358;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <H2P className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[935px]" showParagraph={false} titleText="Особенности " />
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="9702:66360" data-name="List Bulleted">
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] pt-px relative shrink-0 w-full" data-node-id="I9702:66360;9460:7064" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I9702:66360;9460:7064;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66360;9460:7064;9460:7062">
+            Могут содержать одно или несколько полей
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I9702:66360;9460:7070" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I9702:66360;9460:7070;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66360;9460:7070;9460:7062">
+            Могут использоваться как на полных экранах, так и на шторках и модалках
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I9702:66360;9460:7077" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I9702:66360;9460:7077;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66360;9460:7077;9460:7062">
+            Собираются из tui-компонентов, при необходимости можно добавить кастомные элементы
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I9702:66360;9460:7082" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I9702:66360;9460:7082;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66360;9460:7082;9460:7062">
+            <span className="leading-[24px]">{`Поддерживают `}</span>
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline" href="https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67357" target="_blank">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67357" target="_blank">
+                автоподскролл
+              </span>
+            </a>
+            <span className="leading-[24px]">: при фокусе поле поднимается над клавиатурой</span>
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-start pb-[4px] pl-[6px] relative shrink-0 w-full" data-node-id="I9702:66360;9460:7087" data-name="Item">
+          <div className="h-[24px] relative shrink-0 w-[8px]" data-node-id="I9702:66360;9460:7087;9460:7060" data-name="Bullet">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBullet} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] min-w-px not-italic relative text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66360;9460:7087;9460:7062">
+            <span className="leading-[24px]">{`Показывают `}</span>
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline" href="https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67384" target="_blank">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/design/jmEgQqdY10CU7Yq3gPsF50?node-id=8873-67384" target="_blank">
+                кнопку «Дальше» / «Готово»
+              </span>
+            </a>
+            <span className="leading-[24px]">{` над клавиатурой для перехода между полями`}</span>
+          </p>
+        </div>
+      </div>
+      <Spacing className="h-[24px] relative shrink-0 w-[934px]" size="07 - 24px" />
+      <div className="content-stretch flex flex-col gap-[var(--spacing\/description-spacing,16px)] items-start overflow-clip pb-[var(--indents\/bottom-indent-l,32px)] relative shrink-0 w-[934px]" data-node-id="9702:66361" data-name="Image 1x1">
+        <div className="content-stretch flex flex-col gap-[916px] items-start overflow-clip relative rounded-[var(--roundings\/image-rounding,24px)] shrink-0 w-full" data-node-id="I9702:66361;9469:7126" data-name="Image Placeholder">
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66361;9469:7126;9469:7234" data-name="Start">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="h-0 relative shrink-0 w-full" data-node-id="I9702:66361;9469:7126;9469:7235" data-name="End">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStart} />
+          </div>
+          <div className="absolute bg-[var(--figma-library\/guide-image,#f6f7f8)] inset-0 rounded-[var(--roundings\/image-rounding,24px)]" data-node-id="I9702:66361;9469:7126;5375:1824" data-name="Content Appearance" />
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center justify-center left-1/2 top-1/2" data-node-id="I9702:66361;9469:7126;9470:7246" data-name="Instance Container">
+            <div className="relative shrink-0 size-[24px]" data-node-id="I9702:66361;9469:7126;9470:7246;525:2057" data-name=".Instance">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormView} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute bottom-[-10px] font-['SF_Pro_Text:Regular'] leading-[normal] left-0 not-italic right-0 text-[14px] text-black translate-y-full" data-node-id="I9702:66361;9469:7126;8349:7026">
+            ...
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="9702:66362" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I9702:66362;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66362;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Смарт-поля для натива, обычные поля — для веба
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9702:66362;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full whitespace-pre-wrap" data-node-id="I9702:66362;9462:7170">
+            <span className="leading-[24px]">
+              {`На нативных платформах используется фреймворк смарт-полей (SmartFields). `}
+              <br aria-hidden />
+              {`Для веба (Desktop/PWA/WebView) смарт-полей нет, но `}
+            </span>
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline">обычные поля</span>
+            </a>
+            <span className="leading-[24px]">{` умеют все, что нужно: выпадающие списки, валидация, форматирование.`}</span>
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[var(--spacing\/paragraph-spacing,16px)] relative shrink-0 w-[934px]" data-node-id="9708:17383" data-name="Paragraph">
+        <a className="[word-break:break-word] block font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] min-w-full not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.action,#428bf9)] w-[min-content]" data-node-id="I9708:17383;9459:12596">
+          <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline">Подробнее о различиях между вебом и нативом</p>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[var(--indents\/bottom-indent-l,32px)] pt-[var(--indents\/top-indent-s,16px)] relative shrink-0 w-[934px]" data-node-id="9702:66363" data-name="H2 + P">
+        <div className="content-stretch flex gap-[10px] items-start relative shrink-0 w-full" data-node-id="I9702:66363;2130:381" data-name="## H2">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['T-Sans:Medium'] leading-[40px] min-w-px not-italic relative text-[36px] text-[color:var(--UIColor.tui.text.primary,#333)]" data-node-id="I9702:66363;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+            Как собирать в фигме
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9702:66363;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] max-w-[700px] not-italic relative shrink-0 text-[15px] text-[color:var(--UIColor.tui.text.primary,#333)] w-full" data-node-id="I9702:66363;9462:7170">
+            <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] text-[#428bf9] underline" href="https://www.figma.com/design/bM33PpijzSiXs0L14odXNu/TUI-Templates?node-id=814-22435&p=f&t=mfR1BQDG9MuxtpPU-11" target="_blank">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.figma.com/design/bM33PpijzSiXs0L14odXNu/TUI-Templates?node-id=814-22435&p=f&t=mfR1BQDG9MuxtpPU-11" target="_blank">
+                Шаблоны мобильных форм
+              </span>
+            </a>
+            <span className="leading-[24px]">{` есть в библиотеке TUI Templates. При необходимости их можно раздетачить и адаптировать под задачу`}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: iOS/Heading L: Font(family: "SF Pro Display", style: Bold, size: 30, weight: 700, lineHeight: 100, letterSpacing: 0.36000001430511475), Day/Service/navbar: #FFFFFF, iOS/Body L: Font(family: "SF Pro Text", style: Regular, size: 17, weight: 400, lineHeight: 100, letterSpacing: -0.4099999964237213), Day/Text/secondary: #9299A2, Gradient/Text/Secondary Fade: , blur-navbar: Effect(type: BACKGROUND_BLUR, radius: 40), iOS/Numbers M: Font(family: "SF Pro Rounded", style: Bold, size: 20, weight: 600, lineHeight: 100, letterSpacing: 0.3569999933242798), iOS/Body M: Font(family: "SF Pro Text", style: Regular, size: 15, weight: 400, lineHeight: 100, letterSpacing: -0.23999999463558197), Light/Text/primary-on-tinkoff: #333333, Light/Background/brand-tinkoff: #FFDD2D, Light/Background/opposite: #000000, [Deprecated]/shadow-small: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0), iOS Blur: Effect(type: BACKGROUND_BLUR, radius: 20), Day/Background/base-ios: #FFFFFF, Dark - Common / opposite: #FFFFFF, Light - Background / elevation1: #FFFFFF, Light - Common / opposite: #000000, Light - Common / general: #FFFFFF, Light - Text / primary: #333333, Global / N8: #428BF9, Global/Black - N15: #000000, Light - Common / negative: #F52222, Day/Status/info: #428BF9, Day/Text/primary-on-accent-1: #333333, Day/Background/accent-opposite: #000000, Light/Text/tertiary: #001024, Light/Background/neutral-1: #001024, iOS/UI S Bold: Font(family: "SF Pro Text", style: Semibold, size: 13, weight: 600, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Background/elevation-1: #FFFFFF, iOS/UI S: Font(family: "SF Pro Text", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: -0.07999999821186066), Day/Text/primary: #333333, iOS/UI M Bold: Font(family: "SF Pro Text", style: Semibold, size: 15, weight: 600, lineHeight: 100, letterSpacing: -0.23999999463558197), Day/Background/elevation-2: #FFFFFF, shadow-medium: Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 6), radius: 34, spread: 0), Day/Background/neutral-4: #001024, Light/Background/elevation-1: #FFFFFF, Day/Text/primary-on-light: #000000, Day/Background/accent-on-dark: #FFFFFF, shadow-small: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## template-navigation-bar
+**Node ID:** 22232:42565
+
+Дизайн-шаблон верхней части экрана со статусбаром и навбаром/аппбаром.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=147%3A2547)
+
+## Appearance=Light Bg, System=iOS 18, Device=iPhone 11 Pro
+**Node ID:** 20640:18843
+
+⚪ Not In TUI (Native)
+
+## system-status-bar
+**Node ID:** 20640:18829
+
+Нативная статусная панель
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-status-bar](https://go.tcsbank.ru/system-status-bar)
+
+## tui-app-bar
+**Node ID:** 20640:21560
+
+Навигационный блок для верхней части экрана  
+  
+tui-appbar, navbar
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-appbar-specs](https://go.tcsbank.ru/tui-appbar-specs)
+
+## tui-ic-service / back-ios-alt
+**Node ID:** 6583:28281
+
+arrow, iOS, system
+
+## tui-header [large]
+**Node ID:** 22232:42332
+
+Заголовок экрана
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-header-specs](https://go.tcsbank.ru/tui-header-specs)
+
+## tui-textfield 
+**Node ID:** 22232:43437
+
+Поле для ввода текста. Используется в фреймворке SmartFields, PWA, WebView
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-textfield-specs](https://go.tcsbank.ru/tui-textfield-specs)
+
+## tui-floating-container
+**Node ID:** 22232:42804
+
+Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-floating-container-specs](https://go.tcsbank.ru/tui-floating-container-specs)
+
+## system=ios, size=large, appearance=primary, state=normal, skeleton=off
+**Node ID:** 22128:19144
+
+Ex. primary-tinkoff
+
+## tui-button
+**Node ID:** 22128:19143
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-button-specs](https://go.tcsbank.ru/tui-button-specs)
+
+## Type=Dragger, Appearance=Opposite, System=iOS 18, Keyboard=off
+**Node ID:** 20640:37767
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 20640:37738
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-bottom-bar](https://go.tcsbank.ru/system-bottom-bar)
+
+## progress
+**Node ID:** 20640:20263
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## tui-textfield [number]
+**Node ID:** 22232:11364
+
+Поле для ввода текста. Используется в фреймворке SmartFields, PWA, WebView
+
+  
+keywords: amount, sum, money, quiantity, number  
+аналог в десктопе tui-input-number
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-textfield-number-specs](https://go.tcsbank.ru/tui-textfield-number-specs)
+
+## System=iOS, Type=Action, Home Indicator=on
+**Node ID:** 9702:57542
+
+🟢 Released FloatingContainer FloatingButtonGroup
+
+## [heavy] tui-floating-container
+**Node ID:** 9702:57435
+
+🛑 Тяжелый figma-компонент Блок с закрепленными при скролле действиями
+
+**Documentation:**
+- [http:// https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=18451%3A647671](http:// https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=18451%3A647671)
+
+## System=iOS, Size=L, Style=Primary - tinkoff, Content=Label, State=base
+**Node ID:** 9702:55344
+
+🟢 Released
+
+## [heavy] tui-button
+**Node ID:** 9702:55343
+
+🛑 Тяжелый figma-компонент Кнопки в разных стилях.
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/Mobile.-Demo-%26-Guides?node-id=34667%3A700340)
+
+## Master
+**Node ID:** 9702:55240
+
+Это мастер-компонент. Нажмите shift+enter чтобы подняться на уровень выше
+
+## Type=Dragger, Appearance=Light Bg, System=iOS, Keyboard=off
+**Node ID:** 9702:57419
+
+⚪ Not In TUI (Native)
+
+## system-bottom-bar
+**Node ID:** 9702:57267
+
+**Documentation:**
+- [https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/TDS-Mobile.-Components?node-id=8706%3A32](https://www.figma.com/file/kaOlSiPxzQ3WkMeeDfgotK/TDS-Mobile.-Components?node-id=8706%3A32)
+
+## system-keyboard
+**Node ID:** 22232:51960
+
+Системные клавиатуры
+
+**Documentation:**
+- [https://go.tcsbank.ru/system-keyboard](https://go.tcsbank.ru/system-keyboard)
+
+## system=ios, size=medium, appearance=accent, state=normal, skeleton=off
+**Node ID:** 22128:19333
+
+Ex. primary-accent
+
+## _Card Top
+**Node ID:** 9702:62809
+
+light: 12% opacity
+
+## tui-ic-medium / box
+**Node ID:** 9708:179131
+
+package, container, storage
+
+## tui-chip-group [list]
+**Node ID:** 22232:58251
+
+Вывод чипсов списком. Кликабельные и некликабельные
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-chip-group-specs](https://go.tcsbank.ru/tui-chip-group-specs)
+
+## tui-chip
+**Node ID:** 22232:36815
+
+Отдельный чипс. Используется как элемент выбора, элемент фильтра или как элемент вывода информации
+
+  
+
+Keywords: chip, chips, tag, чип, тэг, чипсы
+
+**Documentation:**
+- [https://go.tcsbank.ru/tui-chips-specs](https://go.tcsbank.ru/tui-chips-specs)
+
+## System=iOS, Size=M, Appearance=Primary - onDark, State=base, Skeleton=off
+**Node ID:** 9702:65624
+
+🟢 Released TinkoffUIFoundation.Button
+
+## tui-button
+**Node ID:** 9702:64863
+
+Обычные кнопки в разных стилях
+
+**Documentation:**
+- [https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=148-0&t=3JZPRZHMI77YUITJ-11](https://www.figma.com/file/N6hjLbUDTjT7XSNuyaKf64/TUI-Mobile.-Demo-%26-Guides?type=design&node-id=148-0&t=3JZPRZHMI77YUITJ-11)
+
+## tui-ic-medium / plus
+**Node ID:** 9702:64854
+
+add, increase, positive
+
+## tui-ic-medium / minus
+**Node ID:** 9702:66049
+
+subtraction, reduction, negative
+
+## tui-ic-medium / direction
+**Node ID:** 9702:66052
+
+compass, navigation, guide
+
+Image assets should be read from disk. Images and SVGs will be stored as constants, e.g. const image = '/Users/v.shtukert/Documents/TUI-Design-System/Documentation/References/Textfield/FormsAssets/9702-66356/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.

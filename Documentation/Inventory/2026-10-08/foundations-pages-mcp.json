@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "No nodeId was provided. Listing the top-level pages of the document. Call get_metadata again with one of the page ids below (or any node id underneath) to get the XML metadata for that subtree.\n\nTop-level pages of the document:\n- 1:75: 1. Color\n- 16652:2830:     ↳ [In Progress]\n- 2408:2549: 3. Shadow\n- 1348:2099: 2. Size\n- 7933:16869: 4. Typography [In Progress]\n- 15165:141: 5. Blur [In Progress]\n- 18704:9524: 6. Animation\n- 1717:2287: ---\n- 8640:7181: Changelog\n- 8640:7182: ---\n- 0:1: Thumbnail\n- 15471:9590: Sandbox\n- 16773:11732: Variable Color Swatches"
+    }
+  ]
+}

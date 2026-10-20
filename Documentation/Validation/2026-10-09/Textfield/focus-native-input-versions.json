@@ -1,0 +1,13 @@
+{
+  "scope": "Production source versions used by FocusRegressionInitial native renders; prior to the later input-limit delegate fix.",
+  "inputHashes": {
+    "Sources/TUIDesignSystem/Components/Textfield/TUITextfield.swift": "e6c1e03194a880f60ca15d8ff59557c54b3240dba74084739fc12971a3db166b",
+    "Sources/TUIDesignSystem/Components/Skeleton/TUISkeleton.swift": "af5c224b63c27820b38d6c9ef47a4895c5ab75bcd172d3c10f37bf1a7b462fce",
+    "Sources/TUIDesignSystem/Foundation/TUIFigmaTextFont.swift": "28d38f57c34755caa0b5f3333f5ce94f6f060fc22a8b0e5f5962e080418c4fd4",
+    "Sources/TUIDesignSystem/Foundation/TUIFoundation.swift": "b2c4138d1325afbc6c658d59457aed3450d00db0a781f7eedb129ae3ca3a2e3b",
+    "Sources/TUIDesignSystem/Foundation/TUITypography.swift": "32a865a6e6f61aa41f1008dfdb8180fc97c37fe2befc63b5446bdeca16e0a7d7",
+    "Sources/TUIDesignSystem/Foundation/TUIMotion.swift": "cc1f4bfc079a8a5f07d7058eb40cd6a46925b031775ef9069b4a0cf3b9813071",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-component-variants.json": "41d1b91fc5df5854b95f728d7f6bb21eda51a903243afa48ce0ad540373a8c11",
+    "Sources/TUIDesignSystem/Resources/Metadata/figma-foundations.json": "bc3140e4761494f35fdbc7f00174c8b55e05e55a4d2547878c73052b6c52b11a"
+  }
+}

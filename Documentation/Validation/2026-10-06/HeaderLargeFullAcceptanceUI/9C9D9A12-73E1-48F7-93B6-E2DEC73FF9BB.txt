@@ -1,0 +1,39 @@
+Attributes: Application, 0x113e08780, pid: 55236, label: 'TUIConsumer'
+Element subtree:
+ →Application, 0x113e08780, pid: 55236, label: 'TUIConsumer'
+    Window (Main), 0x113e0be80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113e0bd40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113e0bac0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113e0bc00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113e08140, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113e08640, {{0.0, 0.0}, {402.0, 874.0}}
+                NavigationBar, 0x113e08280, {{0.0, 62.0}, {402.0, 54.0}}, identifier: 'Header · отдельный проект'
+                  StaticText, 0x113e083c0, {{88.7, 73.7}, {224.3, 20.7}}, label: 'Header · отдельный проект'
+                Other, 0x113e08500, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113e08000, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113e09540, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113e097c0, {{0.0, 0.0}, {402.0, 874.0}}
+                        StaticText, 0x113e088c0, {{158.2, 132.0}, {85.7, 20.3}}, identifier: 'headerLiveAnchor', label: 'Header live'
+                        StaticText, 0x113e08a00, {{29.7, 176.3}, {266.0, 247.0}}, label: 'Настройки уведомлений, Получать новости и важные сообщения сервиса'
+                          Other, 0x113e08b40, {{29.5, 176.3}, {247.3, 147.0}}, label: 'Настройки уведомлений'
+                            StaticText, 0x113e0aa80, {{29.5, 176.3}, {247.3, 147.0}}, label: 'Настройки уведомлений'
+                              Link, 0x113e0abc0, {{29.5, 176.3}, {247.3, 146.9}}, identifier: 'https://go.tcsbank.ru/tui-header-specs', label: 'Настройки уведомлений'
+                          StaticText, 0x113e0ad00, {{29.5, 339.3}, {227.0, 83.7}}, label: 'Получать новости и важные сообщения сервиса'
+                        Switch, 0x113e0ae40, {{311.7, 187.0}, {61.0, 28.0}}, label: 'Получать уведомления', value: 0
+                          Switch, 0x113e0af80, {{311.7, 187.0}, {63.0, 28.0}}, value: 0
+                        StaticText, 0x113e0b0c0, {{147.3, 463.3}, {107.3, 20.3}}, label: 'Выбрано: нет'
+                        StaticText, 0x113e0b200, {{162.2, 499.7}, {77.7, 20.3}}, label: 'Ссылок: 1'
+                        StaticText, 0x113e0b340, {{128.7, 536.0}, {144.7, 20.3}}, label: 'Reduce Motion: off'
+                        StaticText, 0x113e0b480, {{98.2, 572.3}, {205.7, 20.3}}, label: 'System Reduce Motion: off'
+                        StaticText, 0x113e09b80, {{150.0, 608.7}, {102.0, 20.3}}, label: 'Scene: active'
+                        Button, 0x113e08dc0, {{168.3, 645.0}, {65.3, 34.3}}, identifier: 'headerConsumerMode', label: 'Режим проверки, ax1'
+                          StaticText, 0x113e08f00, {{180.0, 652.0}, {25.0, 20.3}}, label: 'ax1'
+                Other, 0x113e09040, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113e09180, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113e08780, pid: 55236, label: 'TUIConsumer'
+Query chain:
+ →Find: Application 'local.TUIConsumer'
+  Output: {
+    Application, 0x113e08c80, pid: 55236, label: 'TUIConsumer'
+  }

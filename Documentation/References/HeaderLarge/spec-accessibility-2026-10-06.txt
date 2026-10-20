@@ -1,0 +1,42 @@
+<section id="3895:8832" name="Доступность" x="-2230" y="4458" width="2980" height="6613">
+  <frame id="3895:8848" name="Озвучка" x="1690" y="100" width="1190" height="4054">
+    <instance id="3895:8849" name="H1 + P" x="128" y="128" width="934" height="88" />
+    <instance id="3895:8851" name="H2 + P" x="128" y="216" width="934" height="88" />
+    <instance id="3895:8852" name="Table Row" x="128" y="304" width="934" height="178" />
+    <instance id="3895:8853" name="Table Row" x="128" y="482" width="934" height="200" />
+    <instance id="3895:8855" name="Table Row" x="128" y="682" width="934" height="178" />
+    <instance id="3895:8856" name="H2 + P" x="128" y="860" width="934" height="88" />
+    <instance id="3895:8857" name="Table Row" x="128" y="948" width="934" height="200" />
+    <instance id="3895:8858" name="Table Row" x="128" y="1148" width="934" height="240" />
+    <instance id="3895:8859" name="H2 + P" x="128" y="1388" width="934" height="88" />
+    <instance id="3895:8860" name="Table Row" x="128" y="1476" width="934" height="262" />
+    <instance id="3895:8861" name="Table Row" x="128" y="1738" width="934" height="262" />
+    <instance id="3895:8862" name="H2 + P" x="128" y="2000" width="934" height="88" />
+    <instance id="3895:8863" name="Table Row" x="128" y="2088" width="934" height="308" />
+    <instance id="3895:8864" name="Table Row" x="128" y="2396" width="934" height="348" />
+    <instance id="3895:8865" name="H2 + P" x="128" y="2744" width="934" height="88" />
+    <instance id="3895:8866" name="Table Row" x="128" y="2832" width="934" height="348" />
+    <instance id="4298:14488" name="H2 + P" x="128" y="3180" width="934" height="144" />
+    <instance id="4298:14489" name="H3 + P" x="128" y="3324" width="934" height="72" />
+    <instance id="4298:14490" name="Table Row" x="128" y="3396" width="934" height="200" />
+    <instance id="4298:14491" name="H3 + P" x="128" y="3596" width="934" height="72" />
+    <instance id="4298:14492" name="Table Row" x="128" y="3668" width="934" height="258" />
+  </frame>
+  <frame id="12417:9918" name="Увеличение шрифтов" x="180" y="100" width="1190" height="4641">
+    <instance id="12417:9919" name="H1 + P" x="128" y="128" width="934" height="156" />
+    <instance id="12417:9920" name="Note" x="128" y="284" width="934" height="164" />
+    <instance id="12417:9921" name="H2 + P" x="128" y="448" width="934" height="120" />
+    <instance id="12417:9922" name="List Bulleted" x="128" y="568" width="934" height="73" />
+    <instance id="12417:9923" name="Image 1x1" x="128" y="641" width="934" height="1100" />
+    <instance id="12417:9924" name="H2 + P" x="128" y="1741" width="934" height="168" />
+    <instance id="12417:9925" name="List Bulleted" x="128" y="1909" width="934" height="100" />
+    <instance id="12417:9926" name="Note" x="128" y="2009" width="934" height="140" />
+    <instance id="12417:9927" name="Image 1x1" x="128" y="2149" width="934" height="900" />
+    <instance id="12417:9928" name="H3 + P" x="128" y="3049" width="934" height="72" />
+    <instance id="12417:9929" name="Image 1x1" x="128" y="3121" width="934" height="660" />
+    <instance id="12417:9930" name="H3 + P" x="128" y="3781" width="934" height="72" />
+    <instance id="12417:9931" name="Image 1x1" x="128" y="3853" width="934" height="660" />
+  </frame>
+</section>
+
+IMPORTANT: The user has selected a section node, so you have received a sparse metadata response. You MUST call get_design_context on the nodes or their sublayers individually based on their IDs to implement the design.

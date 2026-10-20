@@ -1,0 +1,1447 @@
+const imgCont = "https://www.figma.com/api/mcp/asset/09261934-1cb6-470a-a342-044a8885e732.svg";
+const imgRectangle2273 = "https://www.figma.com/api/mcp/asset/508d0a78-373a-4c9b-8cdd-d7158620b1ca.png";
+const imgRectangle2300 = "https://www.figma.com/api/mcp/asset/f72b2800-00e7-4665-b934-6310bf5c135d.png";
+const imgRectangle2259 = "https://www.figma.com/api/mcp/asset/87a513ac-24cf-4f72-86a6-332a9cf0b8a5.png";
+const imgRectangle2282 = "https://www.figma.com/api/mcp/asset/17f457b7-6682-4199-984d-42364818ce85.png";
+const imgExample = "https://www.figma.com/api/mcp/asset/60ef0470-e2fc-4b7d-b131-f84cb43267d3.png";
+const imgImage1 = "https://www.figma.com/api/mcp/asset/7f373f8b-3544-4924-a820-7d2dff5bfc44.png";
+const imgImage10 = "https://www.figma.com/api/mcp/asset/f5b531b7-014a-41a5-b81d-a85afb9eb8f5.png";
+const imgRectangle2311 = "https://www.figma.com/api/mcp/asset/87f0fc81-17f0-478b-8e53-58efaa4e5fa9.png";
+const imgCategoryIOsV4 = "https://www.figma.com/api/mcp/asset/6a681f9d-5cf2-4dce-a214-163d554d44d7.png";
+const imgVector829 = "https://www.figma.com/api/mcp/asset/2bc28287-1f85-4831-8b23-7f45e89a2cbc.svg";
+const imgVector830 = "https://www.figma.com/api/mcp/asset/cbb8e966-c6b1-46ec-ade5-4f08565a89dc.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/c3c5dc76-8c6c-4db9-b821-6c7eb7fd5a98.svg";
+const imgMaskedBorder = "https://www.figma.com/api/mcp/asset/b884d62e-cfcc-455b-8118-31c82d40917e.svg";
+const imgMaskedBorder1 = "https://www.figma.com/api/mcp/asset/658578af-33c9-4c21-bdb2-8f36a3a44d2f.svg";
+const imgVector849 = "https://www.figma.com/api/mcp/asset/866a1263-66b0-4eeb-987a-e2a109de1c15.svg";
+const imgCategoryIOsV3 = "https://www.figma.com/api/mcp/asset/3d90d76b-8f2e-43b4-b41a-54aba9b027f3.svg";
+const imgVector831 = "https://www.figma.com/api/mcp/asset/10921c98-6d26-4569-ad6c-81bd13b8ca3c.svg";
+const imgVector844 = "https://www.figma.com/api/mcp/asset/db0128b1-e52c-46ea-84df-f313742addc8.svg";
+const imgVector845 = "https://www.figma.com/api/mcp/asset/7719e80b-eae4-4d60-b1d2-83b0dde53a72.svg";
+const imgVector840 = "https://www.figma.com/api/mcp/asset/d2a56e08-4d84-4514-8cff-a70eaac5b29c.svg";
+const imgVector841 = "https://www.figma.com/api/mcp/asset/ca666582-4dd1-4f09-ae2e-1e015699330d.svg";
+const imgVector842 = "https://www.figma.com/api/mcp/asset/673a4351-9070-4023-bae7-4fee40a7111d.svg";
+const imgVector843 = "https://www.figma.com/api/mcp/asset/06bf7c1a-d69e-4bd6-af74-ca4d232fb279.svg";
+const imgBackground = "https://www.figma.com/api/mcp/asset/013a7ee9-30d9-4616-8fc8-304a743da752.svg";
+const imgVector846 = "https://www.figma.com/api/mcp/asset/64c0c32e-43f5-41b2-982e-8cf661fa5fe2.svg";
+const imgVector832 = "https://www.figma.com/api/mcp/asset/a82f2600-fa99-4ad6-8b6f-89dbc6079fd2.svg";
+const imgVector833 = "https://www.figma.com/api/mcp/asset/4b65a030-923f-44cb-9f3b-1f7ed4a7ee80.svg";
+
+function CardFooter({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col items-start overflow-clip relative w-[934px]"} data-node-id="9:41" data-name="card-footer">
+      <div className="bg-[#f6f7f8] h-[32px] relative rounded-bl-[24px] rounded-br-[24px] shrink-0 w-full" data-node-id="9:42" data-name="footer-container" />
+    </div>
+  );
+}
+
+type CardHeaderProps = {
+  className?: string;
+  content?: boolean;
+  showText?: boolean;
+  showTitle?: boolean;
+  text?: string;
+  title?: string;
+};
+
+function CardHeader({ className, content = true, showText = true, showTitle = true, text = "text", title = "Title" }: CardHeaderProps) {
+  const isNotContent = !content;
+  return (
+    <div className={className || `content-stretch flex flex-col items-start overflow-clip relative w-[934px] ${isNotContent ? "h-[32px]" : ""}`} id={isNotContent ? "node-9_39" : "node-9_34"}>
+      <div className={`bg-[#f6f7f8] relative rounded-tl-[24px] rounded-tr-[24px] shrink-0 w-full ${isNotContent ? "h-[120px]" : "content-stretch flex flex-col items-start pt-[32px] px-[32px]"}`} id={isNotContent ? "node-9_40" : "node-9_35"} data-name="card-container">
+        {content && (
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic pb-[24px] relative shrink-0 text-[rgba(0,0,0,0.8)] w-full" data-node-id="9:36" data-name="guide-header">
+            {showTitle && (
+              <p className="font-['Tinkoff_Sans:Medium'] leading-[32px] relative shrink-0 text-[28px] w-full" data-node-id="9:37" style={{ fontFeatureSettings: '"liga" 0' }}>
+                {title}
+              </p>
+            )}
+            {showText && (
+              <p className="font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] relative shrink-0 text-[15px] w-full" data-node-id="9:38">
+                {text}
+              </p>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function TuiIcSmallLock({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex items-start relative size-[16px]"} data-node-id="9:60" data-name="tui-ic-small / lock">
+      <div className="flex-[1_0_0] h-full min-w-px relative" data-node-id="9:61" data-name="cont">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCont} />
+      </div>
+    </div>
+  );
+}
+
+export default function Properties() {
+  return (
+    <div className="content-stretch flex flex-col items-center relative size-full" data-node-id="9:8214" data-name="Properties">
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="9:8215" data-name="# h1 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[56px] not-italic relative shrink-0 text-[50px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8215;9459:8631" style={{ fontFeatureSettings: '"liga" 0' }}>
+          Properties
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[24px] relative shrink-0 w-full" data-node-id="I9:8215;9462:7159" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full whitespace-pre-wrap" data-node-id="I9:8215;9462:7160">
+            {`Параметры, которые можно применить к контейнеру. Ограничений на комбинации параметров `}
+            <br aria-hidden />
+            нет, все на усмотрение дизайнера
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8216" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8216;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          radius
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8216;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full whitespace-pre-wrap" data-node-id="I9:8216;9462:7170">
+            {`Значения скруглений можно выбрать из токенов. При вкладывании одного контейнера в другой, `}
+            <br aria-hidden />
+            радиус должен уменьшаться. Правила вложений смотрите [ссылка будет позже]
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8217" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8218" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" content={false} />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8220" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8221" data-name="image">
+              <div className="absolute border border-[#9299a2] border-dashed left-[699px] rounded-[24px] size-[80px] top-[80px]" data-node-id="9:8222" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[574px] rounded-[20px] size-[80px] top-[80px]" data-node-id="9:8223" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[449px] rounded-[16px] size-[80px] top-[80px]" data-node-id="9:8224" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[199px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8225">
+                8px
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[74px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8226">
+                none
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[324px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8227">
+                12px
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[449px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8228">
+                16px
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[574px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8229">
+                20px
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[699px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[175px] whitespace-nowrap" data-node-id="9:8230">
+                24px
+              </p>
+              <div className="absolute border border-[#9299a2] border-dashed left-[324px] rounded-[12px] size-[80px] top-[80px]" data-node-id="9:8231" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[199px] rounded-[8px] size-[80px] top-[80px]" data-node-id="9:8232" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[74px] size-[80px] top-[80px]" data-node-id="9:8233" />
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8235" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8236" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" showTitle={false} text="При анимации плавно изменяется значение радиуса, фейд не используем" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8238" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8239" data-name="image">
+              <div className="absolute border border-[#9299a2] border-dashed left-[586.57px] rounded-[24px] size-[80px] top-[67px]" data-node-id="9:8240" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[184.57px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[171.42px] whitespace-nowrap" data-node-id="9:8241">
+                none
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[612px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[171.42px] whitespace-nowrap" data-node-id="9:8242">
+                24px
+              </p>
+              <div className="absolute border border-[#9299a2] border-dashed left-[184.57px] size-[80px] top-[67px]" data-node-id="9:8243" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[318.57px] rounded-[8px] size-[80px] top-[67px]" data-node-id="9:8244" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[452.57px] rounded-[16px] size-[80px] top-[67px]" data-node-id="9:8245" />
+              <div className="absolute h-0 left-[33.82%] right-[35.34%] top-[107px]" data-node-id="9:8246">
+                <div className="absolute inset-[-3.68px_-0.19%_-3.68px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector829} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[37.98%] not-italic right-[40.65%] text-[#333] text-[12px] text-center top-[171.42px] whitespace-nowrap" data-node-id="9:8247">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8249" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8250" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" showTitle={false} text="Можно задать независимые радиусы для контейнера" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8252" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8253" data-name="image">
+              <div className="absolute border border-[#9299a2] border-dashed left-[587px] rounded-bl-[24px] rounded-tr-[8px] size-[80px] top-[67px]" data-node-id="9:8254" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[184.57px] rounded-br-[24px] rounded-tl-[24px] size-[80px] top-[67.44px]" data-node-id="9:8255" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[318.57px] rounded-tl-[24px] size-[80px] top-[67.44px]" data-node-id="9:8256" />
+              <div className="absolute border border-[#9299a2] border-dashed left-[452.57px] rounded-br-[24px] rounded-tl-[8px] size-[80px] top-[67.44px]" data-node-id="9:8257" />
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8259" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8259;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          shadow
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8259;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8259;9462:7170">
+            Тень, отображаемая под контейнером. Можно выбрать из значений, которые есть в токенах
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8260" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8261" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" content={false} text="Выбираем отображение в соответствии с правилами вложенности" title="iOS" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[320px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8263" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8264" data-name="image">
+              <div className="absolute bg-white left-[75px] size-[112px] top-[91px]" data-node-id="9:8265" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[75px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[220px] whitespace-nowrap" data-node-id="9:8266">
+                none
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[273px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[220px] whitespace-nowrap" data-node-id="9:8267">
+                shadow-small
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[473px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[220px] whitespace-nowrap" data-node-id="9:8268">
+                shadow-medium
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[670px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[220px] whitespace-nowrap" data-node-id="9:8269">
+                shadow-popup
+              </p>
+              <div className="absolute bg-white left-[274px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.1)] size-[112px] top-[91px]" data-node-id="9:8270" />
+              <div className="absolute bg-white left-[473px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] size-[112px] top-[91px]" data-node-id="9:8271" />
+              <div className="absolute bg-white left-[672px] shadow-[0px_20px_50px_0px_rgba(0,0,0,0.2)] size-[112px] top-[91px]" data-node-id="9:8272" />
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8274" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8275" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" showTitle={false} text="При анимации плавно меняются параметры тени (прозрачность, радиус, отступ) , фейд не используем" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8277" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8278" data-name="image">
+              <div className="absolute bg-white left-[583.57px] shadow-[0px_6px_34px_0px_rgba(0,0,0,0.12)] size-[80px] top-[67.44px]" data-node-id="9:8279" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[184.57px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[162.44px] whitespace-nowrap" data-node-id="9:8280">
+                none
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[573.93px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[162.44px] whitespace-nowrap" data-node-id="9:8281">
+                shadow-medium
+              </p>
+              <div className="absolute bg-white left-[184.57px] size-[80px] top-[67.44px]" data-node-id="9:8282" />
+              <div className="absolute bg-white left-[317.57px] shadow-[0px_3px_14px_0px_rgba(0,0,0,0.04)] size-[80px] top-[67.44px]" data-node-id="9:8283" />
+              <div className="absolute bg-white left-[450.57px] shadow-[0px_3px_24px_0px_rgba(0,0,0,0.08)] size-[80px] top-[67.44px]" data-node-id="9:8284" />
+              <div className="absolute h-0 left-[33.01%] right-[35.8%] top-[108.44px]" data-node-id="9:8285">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector830} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[37.98%] not-italic right-[40.65%] text-[#333] text-[12px] text-center top-[162.44px] whitespace-nowrap" data-node-id="9:8286">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8288" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8288;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          border
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8288;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8288;9462:7170">
+            Обводка, применяемая к контейнеру
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[24px] relative shrink-0 w-[934px]" data-node-id="9:8289" data-name="- list-bulleted">
+        <div className="content-stretch flex flex-col items-start pl-[16px] pt-px relative shrink-0 w-full" data-node-id="I9:8289;9460:7064" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9:8289;9460:7064;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I9:8289;9460:7064;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I9:8289;9460:7064;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I9:8289;9460:7064;9460:7062">
+              Любой цвет из палитры или кастомный
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pl-[16px] pt-[4px] relative shrink-0 w-full" data-node-id="I9:8289;9460:7070" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9:8289;9460:7070;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I9:8289;9460:7070;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I9:8289;9460:7070;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I9:8289;9460:7070;9460:7062">
+              Можно задать любую толщину бордера
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pl-[16px] pt-[4px] relative shrink-0 w-full" data-node-id="I9:8289;9460:7082" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9:8289;9460:7082;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I9:8289;9460:7082;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I9:8289;9460:7082;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I9:8289;9460:7082;9460:7062">
+              В маскированном виде толщина зазора всегда равна толщине бордера
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start pl-[16px] pt-[4px] relative shrink-0 w-full" data-node-id="I9:8289;9460:7087" data-name=".list-items">
+          <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="I9:8289;9460:7087;9460:7059" data-name="ListCont">
+            <div className="content-stretch flex items-start pt-[10px] relative self-stretch shrink-0" data-node-id="I9:8289;9460:7087;9460:7060" data-name="Bullet">
+              <div className="relative shrink-0 size-[5px]" data-node-id="I9:8289;9460:7087;9460:7061">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] min-w-px not-italic relative text-[15px] text-[rgba(0,0,0,0.8)]" data-node-id="I9:8289;9460:7087;9460:7062">
+              У dashed варианта можно задавать длину штрихов и расстояние между штрихами
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8290" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8291" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col h-[32px] items-start overflow-clip relative shrink-0 w-full" content={false} text="Выбираем отображение в соответствии с правилами вложенности" title="iOS" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[320px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8293" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8294" data-name="image">
+              <div className="absolute bg-white border border-[#428bf9] border-dashed left-[681px] size-[100px] top-[102px]" data-node-id="9:8295" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[683px] not-italic text-[13px] text-[rgba(0,0,0,0.8)] top-[219px] whitespace-nowrap" data-node-id="9:8296">
+                dashed
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[50px] not-italic text-[13px] text-[rgba(0,0,0,0.8)] top-[219px] whitespace-nowrap" data-node-id="9:8297">
+                solid
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[351px] not-italic text-[13px] text-[rgba(0,0,0,0.8)] top-[219px] whitespace-nowrap" data-node-id="9:8298">
+                masked-solid
+              </p>
+              <div className="absolute bg-white border border-[#dddfe0] border-solid left-[50px] size-[100px] top-[100px]" data-node-id="9:8299" />
+              <div className="absolute bg-white border-2 border-[#428bf9] border-solid left-[167px] size-[100px] top-[100px]" data-node-id="9:8300" />
+              <div className="absolute bg-size-[auto_auto,32px_32px] bg-top-left h-[120px] left-[353px] rounded-[4px] top-[88px] w-[238px]" data-node-id="9:8301" style={{ backgroundImage: `linear-gradient(90deg, rgba(214, 214, 214, 0.88) 0%, rgba(214, 214, 214, 0.88) 100%), url("${imgRectangle2273}")` }} />
+              <div className="absolute left-[365.02px] size-[100px] top-[98.17px]" data-node-id="9:8302" data-name="MaskedBorder">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskedBorder} />
+              </div>
+              <div className="absolute left-[478px] size-[100px] top-[98.17px]" data-node-id="9:8306" data-name="MaskedBorder">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskedBorder1} />
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8311" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8312" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" showTitle={false} text="При анимации плавно меняется значение толщины. Фейд не используем" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8314" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8315" data-name="image">
+              <div className="absolute bg-white border-2 border-[#428bf9] border-solid left-[584px] size-[80px] top-[67px]" data-node-id="9:8316" />
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[184.57px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[162.44px] whitespace-nowrap" data-node-id="9:8317">
+                none
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[583.93px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[162.44px] whitespace-nowrap" data-node-id="9:8318">
+                2px
+              </p>
+              <div className="absolute bg-white left-[184.57px] size-[80px] top-[67.44px]" data-node-id="9:8319" />
+              <div className="absolute bg-white border-[#428bf9] border-[0.25px] border-solid left-[317.57px] size-[80px] top-[67.44px]" data-node-id="9:8320" />
+              <div className="absolute bg-white border border-[#428bf9] border-solid left-[450.57px] size-[80px] top-[67.44px]" data-node-id="9:8321" />
+              <div className="absolute h-0 left-[33.01%] right-[35.8%] top-[108.44px]" data-node-id="9:8322">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector830} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[37.98%] not-italic right-[40.65%] text-[#333] text-[12px] text-center top-[162.44px] whitespace-nowrap" data-node-id="9:8323">
+                duration:100ms
+                <br aria-hidden />
+                curve:productive-standard
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pb-[20px] pt-[16px] relative shrink-0 w-[934px]" data-node-id="9:8325" data-name="## h2 + p">
+        <p className="[word-break:break-word] font-['Tinkoff_Sans:Medium'] leading-[40px] not-italic relative shrink-0 text-[36px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8325;9459:8641" style={{ fontFeatureSettings: '"liga" 0' }}>
+          background
+        </p>
+        <div className="content-stretch flex flex-col items-start pt-[8px] relative shrink-0 w-full" data-node-id="I9:8325;9462:7169" data-name="Paragraph">
+          <p className="[word-break:break-word] font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] not-italic relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8325;9462:7170">
+            Разные виды фона для контейнера
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8326" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8327" data-name="Container">
+          <CardHeader
+            className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+            text="Для бэкграунда может использоваться любое количество слоев
+Слои можно менять местами, кроме overlay и blur-behind
+Слоев одного типа может быть несколько, например две картинки
+Контент всегда ограничен размером контейнера и обрезается
+Когда бэкграунд анимируется, анимируем только те слои, что изменились,  чтобы избежать лишнего моргания при кроссфейде"
+            title="Слои"
+          />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[513px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8329" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8330" data-name="image">
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[24.15%] text-[#333] text-[12px] top-[389.05px] whitespace-nowrap" data-node-id="9:8331">
+                blur-behind
+              </p>
+              <div className="absolute h-0 left-[477.5px] top-[400.52px] w-[87.462px]" data-node-id="9:8332">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[27.6%] text-[#333] text-[12px] top-[212.05px] whitespace-nowrap" data-node-id="9:8333">
+                overlay
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[30.13%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8334">
+                mask
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[27.6%] text-[#333] text-[12px] top-[120.01px] whitespace-nowrap" data-node-id="9:8335">
+                content
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[20.7%] text-[#333] text-[12px] top-[256.05px] whitespace-nowrap" data-node-id="9:8336">
+                blur-background
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[20.7%] text-[#333] text-[12px] top-[344.05px] whitespace-nowrap" data-node-id="9:8337">
+                color, gradient
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[66.42%] not-italic right-[23.23%] text-[#333] text-[12px] top-[300.05px] whitespace-nowrap" data-node-id="9:8338">
+                image, video
+              </p>
+              <div className="absolute contents left-[180.1px] top-[82px]" data-node-id="9:8339" data-name="Group">
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[290.06px] w-[298.399px]" data-node-id="9:8340">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="backdrop-blur-[16px] bg-[rgba(190,190,190,0.2)] h-[123.288px] relative w-[221.266px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[246.8px] w-[298.399px]" data-node-id="9:8341">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="bg-[#d0797a] h-[123.288px] relative w-[221.266px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[203.53px] w-[298.399px]" data-node-id="9:8342">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="h-[123.288px] relative w-[221.266px]">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[160.27px] w-[298.399px]" data-node-id="9:8343">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="backdrop-blur-[16px] bg-[rgba(0,0,0,0.01)] h-[123.288px] relative w-[221.266px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[117px] w-[298.399px]" data-node-id="9:8344">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="bg-[rgba(0,0,0,0.32)] h-[123.288px] relative w-[221.266px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[172.266px] items-center justify-center left-[181px] top-[82px] w-[298.399px]" data-node-id="9:8345">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <div className="h-[123.288px] relative w-[221.266px]" style={{ backgroundImage: "linear-gradient(176.94589661892945deg, rgba(0, 0, 0, 0.211) 73.796%, rgba(0, 0, 0, 0) 95.631%)" }} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[227.52px] w-[87.462px]" data-node-id="9:8346">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[193.48px] w-[87.462px]" data-node-id="9:8347">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[135.49px] w-[87.462px]" data-node-id="9:8348">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[270.52px] w-[87.462px]" data-node-id="9:8349">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[356.52px] w-[87.462px]" data-node-id="9:8350">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[477.5px] top-[313.52px] w-[87.462px]" data-node-id="9:8351">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector849} />
+                </div>
+              </div>
+              <TuiIcSmallLock className="absolute content-stretch flex items-start left-[631.92px] size-[16px] top-[216.69px]" />
+              <TuiIcSmallLock className="absolute content-stretch flex items-start left-[695px] size-[16px] top-[260px]" />
+              <TuiIcSmallLock className="absolute content-stretch flex items-start left-[613px] size-[16px] top-[180px]" />
+              <TuiIcSmallLock className="absolute content-stretch flex items-start left-[632.92px] size-[16px] top-[122.69px]" />
+              <TuiIcSmallLock className="absolute content-stretch flex items-start left-[666.9px] size-[16px] top-[392.52px]" />
+              <div className="absolute flex h-[172.266px] items-center justify-center left-[180.1px] top-[24.13px] w-[298.399px]" data-node-id="9:8357">
+                <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                  <div className="border border-black border-solid h-[123.288px] relative w-[221.266px]" />
+                </div>
+              </div>
+              <div className="absolute contents left-[230.66px] top-[45.47px]" data-node-id="9:8358" data-name="Group">
+                <div className="absolute flex h-[98.541px] items-center justify-center left-[230.66px] top-[45.47px] w-[170.693px]" data-node-id="9:8359">
+                  <div className="-skew-x-30 flex-none rotate-30 scale-y-87">
+                    <p className="[word-break:break-word] font-['SF_Mono:Bold'] h-[67.494px] leading-[24px] not-italic relative text-[22px] text-black w-[129.601px]">Some content</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8361" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8362" data-name="Container">
+          <CardHeader
+            className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+            text="При анимации изображений и видео используем кроссфейд
+[кривые укажу позже]"
+            title="Анимация изображений"
+          />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[260px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8364" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8365" data-name="image">
+              <div className="absolute left-[583.57px] size-[80px] top-[67.44px]" data-node-id="9:8366">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <div className="absolute bg-white inset-0" />
+                  <div className="absolute inset-0 overflow-hidden">
+                    <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute left-[184.57px] size-[80px] top-[67.44px]" data-node-id="9:8367">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <div className="absolute bg-white inset-0" />
+                  <div className="absolute inset-0 overflow-hidden">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute left-[317.57px] size-[80px] top-[67.44px]" data-node-id="9:8368">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <div className="absolute bg-white inset-0" />
+                  <div className="absolute inset-0 opacity-80 overflow-hidden">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                  <div className="absolute inset-0 opacity-32 overflow-hidden">
+                    <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute left-[450.57px] size-[80px] top-[67.44px]" data-node-id="9:8369">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <div className="absolute bg-white inset-0" />
+                  <div className="absolute inset-0 opacity-40 overflow-hidden">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                  <div className="absolute inset-0 opacity-62 overflow-hidden">
+                    <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-0 left-[33.01%] right-[35.8%] top-[108.44px]" data-node-id="9:8370">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector830} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[43.05%] not-italic right-[44.99%] text-[#333] text-[12px] text-center top-[166.66px] whitespace-nowrap" data-node-id="9:8371">
+                duration:100ms
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8373" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8374" data-name="Container">
+          <CardHeader
+            className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+            text="Накладывается поверх всех слоев, кроме контента
+Высоту градиентной маски можно задать вручную
+Несовместим с тенью"
+            title="mask"
+          />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[432px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8376" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8377" data-name="image">
+              <div className="absolute h-[208px] left-[8.28%] right-[60.11%] top-[57px]" data-node-id="9:8378" data-name="Category iOS v3">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[207px] left-[465px] overflow-clip top-[57px] w-[275px]" data-node-id="9:8379" data-name="img.masked">
+                <div className="absolute h-[208px] left-0 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[275px_207px] right-0 top-0" data-node-id="9:8383" style={{ maskImage: `url("${imgCategoryIOsV3}")` }} data-name="Category iOS v3">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute h-0 left-[392px] top-[162px] w-[28px]" data-node-id="9:8384">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[64px] leading-[24px] left-[72px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[295px] w-[275px]" data-node-id="9:8385">
+                Пример исходной картинки на фоне. Маска накладывается поверх всех слоев, кроме контента
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[44px] leading-[24px] left-[465px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[295px] w-[275px]" data-node-id="9:8386">
+                Итоговое изображение должно уходить в прозрачность
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[40px] items-start relative shrink-0 w-full" data-node-id="9:8388">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8389" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8390" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Любой цвет из токенов или кастомный
+Можно с прозрачностью
+Анимируется плавной сменой значений"
+              title="color"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[244px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8392" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8393" data-name="image">
+                <div className="absolute bg-[#428bf9] inset-[20.08%_52.74%_34.02%_18.02%]" data-node-id="9:8394" />
+                <div className="absolute inset-[20.08%_17.49%_34.02%_53.26%]" data-node-id="9:8395">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <div className="absolute bg-size-[32px_32px] bg-top-left inset-0 opacity-4" style={{ backgroundImage: `url("${imgRectangle2282}")` }} />
+                    <div className="absolute bg-[rgba(66,139,249,0.16)] inset-0" />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[38.11%_61.88%_52.05%_26.37%] leading-[24px] not-italic text-[12px] text-white whitespace-nowrap" data-node-id="9:8396">
+                  opaque
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[38.11%_21.41%_52.05%_57.18%] leading-[24px] not-italic text-[#336fee] text-[12px] whitespace-nowrap" data-node-id="9:8397">
+                  transparent
+                </p>
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8399" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8400" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Linear и Radial из 2 и более цветов
+Угол — любой"
+              title="gradient"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[244px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8402" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8403" data-name="image">
+                <div className="absolute inset-[19.67%_52.74%_34.43%_18.02%]" data-node-id="9:8404" style={{ backgroundImage: "linear-gradient(89.50529330702608deg, rgb(161, 161, 178) 0.36382%, rgb(212, 209, 216) 46.955%, rgb(247, 250, 250) 67.145%, rgb(212, 209, 216) 83.193%, rgb(161, 161, 178) 93.029%)" }} />
+                <div className="absolute inset-[19.67%_17.49%_34.43%_53.26%]" data-node-id="9:8405" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 112 112' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(3.429e-16 5.6 -5.6 3.429e-16 56 56)'><stop stop-color='rgba(90,187,242,1)' offset='0'/><stop stop-color='rgba(66,139,249,1)' offset='1'/></radialGradient></defs></svg>\")" }} />
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[38.11%_62.66%_52.05%_25.59%] leading-[24px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] whitespace-nowrap" data-node-id="9:8406">
+                  linear
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[38.11%_26.89%_52.05%_61.36%] leading-[24px] not-italic text-[12px] text-white whitespace-nowrap" data-node-id="9:8407">
+                  radial
+                </p>
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8409" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8410" data-name="Container">
+          <CardHeader
+            className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+            text="Картинка занимает всю видимую область
+Картинку можно загрузить по URL
+Анимируется кросс-фейдом "
+            title="image-filled"
+          />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[723px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8412" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8413" data-name="image">
+              <div className="absolute h-[208px] left-[8.28%] right-[60.11%] top-[57px]" data-node-id="9:8414" data-name="Category iOS v3">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-0 left-[392px] top-[162px] w-[28px]" data-node-id="9:8415">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+              <div className="absolute h-[119px] left-[69.31%] right-[11.61%] rounded-[16px] top-[148px]" data-node-id="9:8416" data-name="Example">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-white inset-0 rounded-[16px]" />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[73px] left-[69.31%] right-[11.61%] rounded-[16px] top-[56px]" data-node-id="9:8417" data-name="Example">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-white inset-0 rounded-[16px]" />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[211px] left-[51.72%] right-[32.87%] rounded-[16px] top-[56px]" data-node-id="9:8418" data-name="Example">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-white inset-0 rounded-[16px]" />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgExample} />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgRectangle2259} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[44px] leading-[24px] left-[449px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[295px] w-[320px]" data-node-id="9:8419">
+                Картинка занимает весь размер блока по узкой стороне, широкая сторона обрезается
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[44px] leading-[24px] left-[72px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[295px] w-[275px]" data-node-id="9:8420">
+                Пример исходной картинки. можно использоать файлы png, jpg, pdf, svg
+              </p>
+              <div className="absolute h-[140px] left-[8.28%] opacity-30 right-[69.08%] top-[442px]" data-node-id="9:8421" data-name="Category iOS v3">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[140px] left-[37.01%] opacity-30 right-[40.34%] top-[442px]" data-node-id="9:8422" data-name="Category iOS v3">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[140px] left-[65.75%] opacity-30 right-[11.61%] top-[442px]" data-node-id="9:8423" data-name="Category iOS v3">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle2259} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[42px] leading-[24px] left-[72px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[615px] w-[184px]" data-node-id="9:8424">
+                По умолчанию картинка растягивается из центра
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[42px] leading-[24px] left-[322px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[615px] w-[403px]" data-node-id="9:8425">
+                Направление растягивания можно изменить в любую сторону, на картинке пара примеров для понимания
+              </p>
+              <div className="absolute left-[101px] rounded-[16px] size-[140px] top-[442px]" data-node-id="9:8426">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-[#d9d9d9] inset-0 rounded-[16px]" />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute h-[140px] left-[380px] rounded-[16px] top-[442px] w-[139px]" data-node-id="9:8427">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-[#d9d9d9] inset-0 rounded-[16px]" />
+                  <img alt="" className="absolute max-w-none object-cover rounded-[16px] size-full" src={imgRectangle2259} />
+                </div>
+              </div>
+              <div className="absolute left-[572px] rounded-[16px] size-[140px] top-[442px]" data-node-id="9:8428">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[16px]">
+                  <div className="absolute bg-[#d9d9d9] inset-0 rounded-[16px]" />
+                  <div className="absolute inset-0 overflow-hidden rounded-[16px]">
+                    <img alt="" className="absolute h-full left-[-0.38%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex items-center justify-center left-[588px] size-[13px] top-[554px]" data-node-id="9:8429">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="relative size-[13px]">
+                    <div className="absolute inset-[0_-22.21%_-22.21%_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector844} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex h-[11px] items-center justify-center left-[589px] top-[556px] w-[10px]" data-node-id="9:8430">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="h-[11px] relative w-[10px]">
+                    <div className="absolute inset-[0_-3.7%_-3.06%_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector845} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex items-center justify-center left-[164px] size-[14px] top-[505px]" data-node-id="9:8431">
+                <div className="-scale-y-100 flex-none">
+                  <div className="relative size-[14px]">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector840} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex items-center justify-center left-[164px] size-[14px] top-[505px]" data-node-id="9:8432">
+                <div className="flex-none rotate-180">
+                  <div className="relative size-[14px]">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector841} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute left-[491px] size-[13px] top-[554px]" data-node-id="9:8433">
+                <div className="absolute inset-[0_-22.21%_-22.21%_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector842} />
+                </div>
+              </div>
+              <div className="absolute h-[11px] left-[493px] top-[556px] w-[10px]" data-node-id="9:8434">
+                <div className="absolute inset-[0_-3.7%_-3.06%_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector843} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8436" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8437" data-name="Container">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="9:8438" data-name="card-header">
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col items-start pt-[32px] px-[32px] relative rounded-tl-[24px] rounded-tr-[24px] shrink-0 w-full" data-node-id="I9:8438;9474:6895" data-name="card-container">
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic pb-[24px] relative shrink-0 text-[rgba(0,0,0,0.8)] w-full" data-node-id="I9:8438;9474:6896" data-name="guide-header">
+                <p className="font-['Tinkoff_Sans:Medium'] leading-[32px] relative shrink-0 text-[28px] w-full" data-node-id="I9:8438;9474:6897" style={{ fontFeatureSettings: '"liga" 0' }}>
+                  image-tiled
+                </p>
+                <ul className="block font-['Neue_Haas_Unica_W1G:Regular'] leading-[0] list-disc relative shrink-0 text-[15px] w-full" data-node-id="I9:8438;9474:6898">
+                  <li className="mb-0 ms-[22.5px]">
+                    <span className="leading-[24px]">Картинка которая повторяется как текстура с заданными параметрами</span>
+                  </li>
+                  <li className="mb-0 ms-[22.5px]">
+                    <span className="leading-[24px]">Картинку можно загрузить по URL</span>
+                  </li>
+                  <li className="ms-[22.5px]">
+                    <span className="leading-[24px]">Анимируется кросс-фейдом</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[689px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8439" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8440" data-name="image">
+              <div className="absolute left-[69.05px] size-[157.702px] top-[49.57px]" data-node-id="9:8441" data-name="image 1">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                  <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                </div>
+              </div>
+              <div className="absolute h-[88.491px] left-[351.42px] top-[49.72px] w-[84.937px]" data-node-id="9:8442" data-name="image 2">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <img alt="" className="absolute max-w-none object-contain size-full" src={imgImage1} />
+                  <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                </div>
+              </div>
+              <div className="absolute flex h-[79.486px] items-center justify-center left-[694.1px] top-[49.57px] w-[82.811px]" data-node-id="9:8443">
+                <div className="flex-none rotate-90">
+                  <div className="h-[82.811px] relative w-[79.486px]" data-name="image 12">
+                    <div aria-hidden className="absolute inset-0 pointer-events-none">
+                      <img alt="" className="absolute max-w-none object-contain size-full" src={imgImage1} />
+                      <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-size-[79px_79px] bg-top-left h-[154.415px] left-[69.05px] top-[394.22px] w-[332.294px]" data-node-id="9:8444" style={{ backgroundImage: `url("${imgImage10}")` }} data-name="image 10" />
+              <div className="absolute bg-size-[39.5px_39.5px] bg-top-left h-[154.415px] left-[444.62px] top-[394.22px] w-[332.294px]" data-node-id="9:8445" style={{ backgroundImage: `url("${imgImage10}")` }} data-name="image 11" />
+              <div className="absolute h-[88.491px] left-[436.36px] top-[49.72px] w-[84.937px]" data-node-id="9:8446" data-name="image 3">
+                <div aria-hidden className="absolute inset-0 pointer-events-none">
+                  <img alt="" className="absolute max-w-none object-contain size-full" src={imgImage1} />
+                  <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                </div>
+              </div>
+              <div className="absolute flex h-[79.486px] items-center justify-center left-[694.1px] top-[129.06px] w-[82.811px]" data-node-id="9:8447">
+                <div className="flex-none rotate-90">
+                  <div className="h-[82.811px] relative w-[79.486px]" data-name="image 13">
+                    <div aria-hidden className="absolute inset-0 pointer-events-none">
+                      <img alt="" className="absolute max-w-none object-contain size-full" src={imgImage1} />
+                      <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents left-[351.42px] top-[163.38px]" data-node-id="9:8448">
+                <div className="absolute h-[43.892px] left-[351.42px] top-[163.38px] w-[42.129px]" data-node-id="9:8449" data-name="image 6">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                    <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                  </div>
+                </div>
+                <div className="absolute h-[43.892px] left-[393.55px] top-[163.38px] w-[42.129px]" data-node-id="9:8450" data-name="image 7">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                    <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                  </div>
+                </div>
+                <div className="absolute h-[43.892px] left-[435.68px] top-[163.38px] w-[43.488px]" data-node-id="9:8451" data-name="image 8">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                    <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                  </div>
+                </div>
+                <div className="absolute h-[43.892px] left-[479.17px] top-[163.38px] w-[42.129px]" data-node-id="9:8452" data-name="image 9">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                    <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents h-[158.971px] left-[630.1px] top-[49.57px] w-[41.075px]" data-node-id="9:8453">
+                <div className="absolute flex h-[39.425px] items-center justify-center left-[630.1px] top-[49.57px] w-[41.075px]" data-node-id="9:8454">
+                  <div className="flex-none rotate-90">
+                    <div className="h-[41.075px] relative w-[39.425px]" data-name="image 6">
+                      <div aria-hidden className="absolute inset-0 pointer-events-none">
+                        <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                        <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[39.425px] items-center justify-center left-[630.1px] top-[89px] w-[41.075px]" data-node-id="9:8455">
+                  <div className="flex-none rotate-90">
+                    <div className="h-[41.075px] relative w-[39.425px]" data-name="image 7">
+                      <div aria-hidden className="absolute inset-0 pointer-events-none">
+                        <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                        <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[40.697px] items-center justify-center left-[630.1px] top-[128.42px] w-[41.075px]" data-node-id="9:8456">
+                  <div className="flex-none rotate-90">
+                    <div className="h-[41.075px] relative w-[40.697px]" data-name="image 8">
+                      <div aria-hidden className="absolute inset-0 pointer-events-none">
+                        <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                        <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[39.425px] items-center justify-center left-[630.1px] top-[169.12px] w-[41.075px]" data-node-id="9:8457">
+                  <div className="flex-none rotate-90">
+                    <div className="h-[41.075px] relative w-[39.425px]" data-name="image 9">
+                      <div aria-hidden className="absolute inset-0 pointer-events-none">
+                        <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1} />
+                        <div className="absolute bg-[#a381ff] inset-0 mix-blend-screen" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[40.14%] not-italic right-[54.46%] text-[#333] text-[12.646px] top-[234.69px] whitespace-nowrap" data-node-id="9:8458">
+                tile-x
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[7.94%] not-italic right-[85.74%] text-[#333] text-[12.646px] top-[562.99px] whitespace-nowrap" data-node-id="9:8459">
+                tile-xy
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[86.54%] not-italic right-[10.7%] text-[#333] text-[12.646px] top-[562.99px] whitespace-nowrap" data-node-id="9:8460">
+                25%
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[43.26%] not-italic right-[53.98%] text-[#333] text-[12.646px] top-[563.99px] whitespace-nowrap" data-node-id="9:8461">
+                50%
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[72.43%] not-italic right-[22.17%] text-[#333] text-[12.646px] top-[235.42px] whitespace-nowrap" data-node-id="9:8462">
+                tile-y
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[normal] left-[350.17px] not-italic text-[13.7px] text-[rgba(0,0,0,0.8)] top-[266.96px] tracking-[-0.0843px] w-[184.754px]" data-node-id="9:8463">
+                По y растягивается, по x размножается
+              </p>
+              <div className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[0] left-[69.05px] not-italic text-[13.7px] text-[rgba(0,0,0,0.8)] top-[267.69px] tracking-[-0.0843px] whitespace-nowrap" data-node-id="9:8464">
+                <p className="leading-[normal] mb-0">Исходная картинка</p>
+                <p className="leading-[normal]">любого размера</p>
+              </div>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[normal] left-[69.05px] not-italic text-[13.7px] text-[rgba(0,0,0,0.8)] top-[596.32px] tracking-[-0.0843px] w-[381.811px]" data-node-id="9:8465">
+                По вертикали растягивается, по горизонтали размножается. Можно задать зум текстуре
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Pro_Text:Regular'] leading-[normal] left-[630.1px] not-italic text-[13.7px] text-[rgba(0,0,0,0.8)] top-[267.69px] tracking-[-0.0843px] w-[146.811px]" data-node-id="9:8466">
+                По x растягивается, по y размножается
+              </p>
+              <p className="[word-break:break-word] absolute font-['SF_Mono:Bold'] leading-[25.293px] left-[7.94%] not-italic right-[86.66%] text-[#333] text-[12.646px] top-[235.42px] whitespace-nowrap" data-node-id="9:8467">
+                source
+              </p>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start overflow-clip pb-[32px] relative rounded-[24px] shrink-0 w-[934px]" data-node-id="9:8469" data-name="card-1x1">
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8470" data-name="Container">
+          <CardHeader className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" text="Позволяет прикрепить изображение к якорной точке.  При этом размер картинки задается пользователям и остается статичным" title="image-fixed" />
+          <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[1434px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8472" data-name="card-content">
+            <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8473" data-name="image">
+              <div className="absolute h-[134.686px] left-[29.87px] opacity-40 top-[515.96px] w-[194.466px]" data-node-id="9:8474">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle2311} />
+              </div>
+              <div className="absolute h-[143.705px] left-[603.9px] opacity-40 top-[473.28px] w-[194.466px]" data-node-id="9:8475">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.04%] left-0 max-w-none top-[-4.66%] w-full" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[143.705px] left-[168.32px] opacity-40 top-[800px] w-[194.466px]" data-node-id="9:8476">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.04%] left-0 max-w-none top-[-4.66%] w-full" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[143.705px] left-[535.32px] opacity-40 top-[800px] w-[194.466px]" data-node-id="9:8477">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.04%] left-0 max-w-none top-[-4.66%] w-full" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[98.393px] left-[81.1px] top-[515.96px] w-[143.234px]" data-node-id="9:8478">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[150.49%] left-[-35.77%] max-w-none top-[-6.8%] w-[135.77%]" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[143.684px] left-[626.53px] top-[473.3px] w-[104.932px]" data-node-id="9:8479">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.05%] left-[-21.05%] max-w-none top-[-4.66%] w-[185.33%]" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[143.684px] left-[190.95px] top-[800.02px] w-[104.932px]" data-node-id="9:8480">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.05%] left-[-21.05%] max-w-none top-[-4.66%] w-[185.33%]" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute h-[143.684px] left-[557.95px] top-[800.02px] w-[63.055px]" data-node-id="9:8481">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[103.05%] left-[-35.04%] max-w-none top-[-4.66%] w-[308.41%]" src={imgRectangle2311} />
+                </div>
+              </div>
+              <div className="absolute contents left-[73.12px] top-[80.87px]" data-node-id="9:8482">
+                <div className="absolute contents left-[73.12px] top-[80.87px]" data-node-id="9:8483">
+                  <div className="absolute border border-[#428bf9] border-dashed h-[228px] left-[86.82px] top-[87.08px] w-[404.507px]" data-node-id="9:8484" />
+                  <div className="absolute bg-[#428bf9] left-[81.12px] size-[12px] top-[308.87px]" data-node-id="9:8485" />
+                  <div className="absolute bg-[#428bf9] left-[81.12px] size-[12px] top-[80.87px]" data-node-id="9:8486" />
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[11.8%] not-italic right-[81.3%] text-[#333] text-[12px] top-[96.2px] whitespace-nowrap" data-node-id="9:8487">
+                    top-left
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[47.47%] not-italic right-[44.83%] text-[#333] text-[12px] top-[96.2px] whitespace-nowrap" data-node-id="9:8488">
+                    top-right
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[50.11%] not-italic right-[45.52%] text-[#333] text-[12px] top-[189.2px] whitespace-nowrap" data-node-id="9:8489">
+                    right
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[30.93%] not-italic right-[63.9%] text-[#333] text-[12px] top-[167.18px] whitespace-nowrap" data-node-id="9:8490">
+                    center
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[31.91%] not-italic right-[65.45%] text-[#333] text-[12px] top-[96.2px] whitespace-nowrap" data-node-id="9:8491">
+                    top
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[12.05%] not-italic right-[84.5%] text-[#333] text-[12px] top-[187.79px] whitespace-nowrap" data-node-id="9:8492">
+                    left
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[12.05%] not-italic right-[78.52%] text-[#333] text-[12px] top-[279.39px] whitespace-nowrap" data-node-id="9:8493">
+                    bottom-left
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[45.19%] not-italic right-[44.47%] text-[#333] text-[12px] top-[279.39px] whitespace-nowrap" data-node-id="9:8494">
+                    bottom-right
+                  </p>
+                  <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[30.93%] not-italic right-[63.89%] text-[#333] text-[12px] top-[279.39px] whitespace-nowrap" data-node-id="9:8495">
+                    bottom
+                  </p>
+                  <div className="absolute bg-[#428bf9] left-[284.12px] size-[12px] top-[80.87px]" data-node-id="9:8496" />
+                  <div className="absolute bg-[#428bf9] left-[284.12px] size-[12px] top-[194.87px]" data-node-id="9:8497" />
+                  <div className="absolute bg-[#428bf9] left-[81.12px] size-[12px] top-[194.87px]" data-node-id="9:8498" />
+                  <div className="absolute bg-[#428bf9] left-[485.12px] size-[12px] top-[194.87px]" data-node-id="9:8499" />
+                  <div className="absolute bg-[#428bf9] left-[284.12px] size-[12px] top-[308.87px]" data-node-id="9:8500" />
+                  <div className="absolute bg-[#428bf9] left-[485.12px] size-[12px] top-[80.87px]" data-node-id="9:8501" />
+                  <div className="absolute bg-[#428bf9] left-[485.12px] size-[12px] top-[308.87px]" data-node-id="9:8502" />
+                  <div className="absolute contents left-[580.7px] top-[80.87px]" data-node-id="9:8503">
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[62.658px] left-[580.7px] top-[80.87px] w-[150.757px]" data-node-id="9:8504" />
+                    <div className="absolute border-[#428bf9] border-[0.829px] border-solid content-stretch flex flex-col h-[56.356px] items-start left-[655.84px] overflow-clip top-[87.17px] w-[75.418px]" data-node-id="9:8505" data-name="Fixed-aspect-ratio-picture">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <img alt="" className="absolute h-[109.79%] left-[-3.71%] max-w-none top-[-6.55%] w-[108.14%]" src={imgRectangle2311} />
+                      </div>
+                      <div className="flex h-[66.327px] items-center justify-center relative shrink-0 w-full" data-node-id="I9:8505;154:141697">
+                        <div className="-rotate-45 flex-none w-full">
+                          <div className="content-stretch flex h-[88.436px] items-start relative w-full" data-name="Aspect ratio keeper # Additionally 45º rotated Auto Layout">
+                            <div className="flex h-full items-center justify-center relative shrink-0 w-[5.365px]" data-node-id="I9:8505;154:141698">
+                              <div className="flex-none h-full rotate-[3.48deg]">
+                                <div className="h-full relative w-0" data-name="Aspect ratio keeper # Rotated Auto Layout" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[#428bf9] h-[9.208px] left-[727.12px] top-[138.89px] w-[8.288px]" data-node-id="9:8506" />
+                  </div>
+                  <div className="absolute contents left-[580.7px] top-[167.83px]" data-node-id="9:8507">
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[62.658px] left-[580.7px] top-[167.83px] w-[150.757px]" data-node-id="9:8508" />
+                    <div className="absolute border-[#428bf9] border-[0.829px] border-solid content-stretch flex flex-col h-[56.356px] items-start left-[621.3px] overflow-clip top-[174.14px] w-[73.76px]" data-node-id="9:8509" data-name="Fixed-aspect-ratio-picture">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <img alt="" className="absolute h-[109.79%] left-[-3.71%] max-w-none top-[-6.55%] w-[108.14%]" src={imgRectangle2311} />
+                      </div>
+                      <div className="flex h-[66.327px] items-center justify-center relative shrink-0 w-full" data-node-id="I9:8509;154:141697">
+                        <div className="-rotate-45 flex-none w-full">
+                          <div className="content-stretch flex h-[88.436px] items-start relative w-full" data-name="Aspect ratio keeper # Additionally 45º rotated Auto Layout">
+                            <div className="flex h-full items-center justify-center relative shrink-0 w-[5.365px]" data-node-id="I9:8509;154:141698">
+                              <div className="flex-none h-full rotate-[3.48deg]">
+                                <div className="h-full relative w-0" data-name="Aspect ratio keeper # Rotated Auto Layout" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[#428bf9] h-[9.208px] left-[652.53px] top-[225.44px] w-[8.288px]" data-node-id="9:8510" />
+                  </div>
+                  <div className="absolute contents left-[577.02px] top-[250.09px]" data-node-id="9:8511">
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[62.658px] left-[580.7px] top-[250.09px] w-[150.757px]" data-node-id="9:8512" />
+                    <div className="absolute border-[#428bf9] border-[0.829px] border-solid content-stretch flex flex-col h-[56.356px] items-start left-[580.7px] overflow-clip top-[256.57px] w-[75.418px]" data-node-id="9:8513" data-name="Fixed-aspect-ratio-picture">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <img alt="" className="absolute h-[109.79%] left-[-3.71%] max-w-none top-[-6.55%] w-[108.14%]" src={imgRectangle2311} />
+                      </div>
+                      <div className="flex h-[66.327px] items-center justify-center relative shrink-0 w-full" data-node-id="I9:8513;154:141697">
+                        <div className="-rotate-45 flex-none w-full">
+                          <div className="content-stretch flex h-[88.436px] items-start relative w-full" data-name="Aspect ratio keeper # Additionally 45º rotated Auto Layout">
+                            <div className="flex h-full items-center justify-center relative shrink-0 w-[5.365px]" data-node-id="I9:8513;154:141698">
+                              <div className="flex-none h-full rotate-[3.48deg]">
+                                <div className="h-full relative w-0" data-name="Aspect ratio keeper # Rotated Auto Layout" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[#428bf9] h-[9.208px] left-[577.02px] top-[308.32px] w-[8.288px]" data-node-id="9:8514" />
+                  </div>
+                  <div className="absolute contents left-[73.12px] top-[473.17px]" data-node-id="9:8515">
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[135.848px] left-[81.1px] top-[479.13px] w-[286.47px]" data-node-id="9:8516" />
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[135.848px] left-[449.58px] top-[479.13px] w-[281.877px]" data-node-id="9:8517" />
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[136px] left-[86px] top-[806px] w-[210px]" data-node-id="9:8518" />
+                    <div className="absolute border-[#428bf9] border-[0.921px] border-dashed h-[136px] left-[453px] top-[806px] w-[168px]" data-node-id="9:8519" />
+                    <div className="absolute flex items-center justify-center left-[121.54px] size-[122.634px] top-[473.17px]" data-node-id="9:8520">
+                      <div className="-rotate-45 flex-none">
+                        <div className="content-stretch flex h-[163.512px] items-start relative" data-name="Aspect ratio keeper # Additionally 45º rotated Auto Layout">
+                          <div className="flex h-full items-center justify-center relative shrink-0 w-[9.919px]" data-node-id="9:8521">
+                            <div className="flex-none h-full rotate-[3.48deg]">
+                              <div className="h-full relative w-0" data-name="Aspect ratio keeper # Rotated Auto Layout" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[#428bf9] h-[19.965px] left-[73.12px] top-[604.38px] w-[17.968px]" data-node-id="9:8522" />
+                    <div className="absolute bg-[#428bf9] h-[19.965px] left-[722.28px] top-[537.08px] w-[17.968px]" data-node-id="9:8523" />
+                    <div className="absolute bg-[#428bf9] h-[19.965px] left-[286.69px] top-[863.8px] w-[17.968px]" data-node-id="9:8524" />
+                    <div className="absolute bg-[#428bf9] h-[19.965px] left-[611.69px] top-[870.8px] w-[17.968px]" data-node-id="9:8525" />
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] left-[87px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[398px] w-[543px]" data-node-id="9:8526">
+                Картинке можно задать оффсет, чтобы она выходила за пределы видимой области. Оффсет задается в пикселях по обеим осям
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] left-[87px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[718px] whitespace-nowrap" data-node-id="9:8527">
+                Можно задать минимальную ширину, меньше которой картинка уже не двигается
+              </p>
+              <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] leading-[24px] left-[505px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[1052px] w-[265px]" data-node-id="9:8528">
+                Можно закрепить не только картинку но и другой объект, например заблюренный круг, как в счетах
+              </p>
+              <div className="absolute h-[251px] left-[82px] top-[1070px] w-[375px]" data-node-id="9:8529" data-name="background">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBackground} />
+              </div>
+              <div className="absolute h-0 left-[395px] top-[548px] w-[28px]" data-node-id="9:8533">
+                <div className="absolute inset-[-2.89px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector831} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="9:8535">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8536" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8537" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Цвет по умолчанию — токены color.overlay
+Можно задать другой из токенов или кастомный
+Переходов между состояниями нет"
+              title="overlay"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[320px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8539" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8540" data-name="image">
+                <div className="absolute h-[100px] left-[3.1%] right-[85.4%] top-[64px]" data-node-id="9:8541">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                  </div>
+                </div>
+                <div className="absolute contents left-[35.86%] right-[52.64%] top-[64px]" data-node-id="9:8542">
+                  <div className="absolute h-[100px] left-[35.86%] right-[52.64%] top-[64px]" data-node-id="9:8543">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] h-[100px] left-[35.86%] right-[52.64%] to-[70.536%] to-[rgba(0,0,0,0)] top-[64px]" data-node-id="9:8544" />
+                </div>
+                <div className="absolute contents left-[49.89%] right-[38.62%] top-[64px]" data-node-id="9:8545">
+                  <div className="absolute h-[100px] left-[49.89%] right-[38.62%] top-[64px]" data-node-id="9:8546">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[12%] from-[rgba(0,0,0,0)] h-[100px] left-[49.89%] right-[38.62%] to-[86%] to-[rgba(0,0,0,0.5)] top-[64px]" data-node-id="9:8547" />
+                </div>
+                <div className="absolute contents left-[63.91%] right-[24.6%] top-[64px]" data-node-id="9:8548">
+                  <div className="absolute h-[100px] left-[63.91%] right-[24.6%] top-[64px]" data-node-id="9:8549">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                    </div>
+                  </div>
+                  <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0.5)] h-[100px] left-[63.91%] right-[24.6%] to-[rgba(0,0,0,0.5)] top-[64px] via-[51.72%] via-[rgba(0,0,0,0)]" data-node-id="9:8550" />
+                </div>
+                <div className="absolute contents left-[77.93%] right-[10.57%] top-[64px]" data-node-id="9:8551">
+                  <div className="absolute h-[100px] left-[77.93%] right-[10.57%] top-[64px]" data-node-id="9:8552">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                    </div>
+                  </div>
+                  <div className="absolute h-[100px] left-[77.93%] right-[10.57%] top-[64px]" data-node-id="9:8553" style={{ backgroundImage: "linear-gradient(225deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)" }} />
+                </div>
+                <div className="absolute contents left-[21.84%] right-[66.67%] top-[64px]" data-node-id="9:8554">
+                  <div className="absolute h-[100px] left-[21.84%] right-[66.67%] top-[64px]" data-node-id="9:8555">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-[-40.59%] max-w-none top-0 w-[140.9%]" src={imgRectangle2259} />
+                    </div>
+                  </div>
+                  <div className="absolute bg-[rgba(0,0,0,0.32)] h-[100px] left-[21.84%] right-[66.67%] top-[64px]" data-node-id="9:8556" />
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[21.72%] not-italic right-[67.93%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8557">
+                  overlay-full
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[35.86%] not-italic right-[54.71%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8558">
+                  overlay-top
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[49.66%] not-italic right-[38.39%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8559">
+                  overlay-bottom
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[63.91%] not-italic right-[25.75%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8560">
+                  overlay-both
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[77.93%] not-italic right-[5.86%] text-[#333] text-[12px] top-[178px] whitespace-nowrap" data-node-id="9:8561">
+                  overlay-bottom-left
+                </p>
+                <div className="absolute h-0 left-[16.67%] right-[80.52%] top-[119px]" data-node-id="9:8562">
+                  <div className="absolute inset-[-2.89px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector846} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="9:8564">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8565" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8566" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Радиус блюра — любой
+Блюрим фон самого контейнера
+Можно сочетать с оверлеем
+При анимации, плавно меняем значение блюра, фейд не используем"
+              title="blur-background"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[618px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8568" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8569" data-name="image">
+                <div className="absolute left-[288px] size-[112px] top-[72px]" data-node-id="9:8570" data-name="image 5">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[118px] size-[112px] top-[72px]" data-node-id="9:8571" data-name="image 8">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[464px] size-[112px] top-[72px]" data-node-id="9:8572" data-name="image 6">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[640px] size-[112px] top-[72px]" data-node-id="9:8573" data-name="image 7">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[32.99%] not-italic right-[63.56%] text-[#333] text-[12px] top-[195px] whitespace-nowrap" data-node-id="9:8574">
+                  32px
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[13.56%] not-italic right-[81.26%] text-[#333] text-[12px] top-[195px] whitespace-nowrap" data-node-id="9:8575">
+                  source
+                </p>
+                <div className="absolute left-[650.21px] size-[107.941px] top-[340.13px]" data-node-id="9:8576">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <div className="absolute bg-white inset-0" />
+                    <div className="absolute inset-0 overflow-hidden">
+                      <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] h-[32.382px] leading-[24px] left-[111.85px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[468.31px] w-[40.478px]" data-node-id="9:8577">
+                  none
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] h-[32.382px] leading-[24px] left-[650.7px] not-italic text-[12px] text-[rgba(0,0,0,0.8)] top-[468.31px] w-[31.033px]" data-node-id="9:8578">
+                  16px
+                </p>
+                <div className="absolute left-[111.85px] size-[107.941px] top-[340.13px]" data-node-id="9:8579">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <div className="absolute bg-white inset-0" />
+                    <div className="absolute inset-0 overflow-hidden">
+                      <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute border-[#428bf9] border-[0.25px] border-solid left-[291.3px] size-[107.941px] top-[340.13px]" data-node-id="9:8580">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <div className="absolute bg-white inset-0" />
+                    <div className="absolute inset-0 overflow-hidden">
+                      <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute backdrop-blur-[1.5px] bg-[rgba(255,255,255,0.01)] h-[108.073px] left-[33.45%] right-[54.11%] top-[340px]" data-node-id="9:8581" />
+                <div className="absolute border border-[#428bf9] border-solid left-[470.76px] size-[107.941px] top-[340.13px]" data-node-id="9:8582">
+                  <div aria-hidden className="absolute inset-0 pointer-events-none">
+                    <div className="absolute bg-white inset-0" />
+                    <div className="absolute inset-0 overflow-hidden">
+                      <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute backdrop-blur-[4px] bg-[rgba(255,255,255,0.01)] h-[108.073px] left-[54.11%] right-[33.45%] top-[340px]" data-node-id="9:8583" />
+                <div className="absolute backdrop-blur-[8px] bg-[rgba(255,255,255,0.01)] h-[108.073px] left-[74.68%] right-[12.87%] top-[340px]" data-node-id="9:8584" />
+                <div className="absolute h-0 left-[28.78%] right-[29.15%] top-[395.45px]" data-node-id="9:8585">
+                  <div className="absolute inset-[-2.89px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector832} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] h-[64.765px] leading-[24px] left-[35.47%] not-italic right-[35.68%] text-[#333] text-[12px] text-center top-[468.31px]" data-node-id="9:8586">
+                  duration:100ms
+                  <br aria-hidden />
+                  curve:productive-standard
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[53.45%] not-italic right-[43.1%] text-[#333] text-[12px] top-[195px] whitespace-nowrap" data-node-id="9:8587">
+                  16px
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] leading-[24px] left-[73.56%] not-italic right-[16.09%] text-[#333] text-[12px] top-[195px] whitespace-nowrap" data-node-id="9:8588">
+                  16px+overlay
+                </p>
+                <div className="absolute backdrop-blur-[16px] bg-[rgba(255,255,255,0.01)] h-[112px] left-[33.1%] right-[54.02%] top-[72px]" data-node-id="9:8589" />
+                <div className="absolute backdrop-blur-[8px] bg-[rgba(255,255,255,0.01)] h-[112px] left-[53.33%] right-[33.79%] top-[72px]" data-node-id="9:8590" />
+                <div className="absolute backdrop-blur-[8px] bg-[rgba(0,0,0,0.32)] h-[112px] left-[73.56%] right-[13.56%] top-[72px]" data-node-id="9:8591" />
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="9:8593">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8594" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8595" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Радиус блюра — любой
+Блюрим фон под контейнером
+Можно сочетать с оверлеем
+Не сочетается с тенью"
+              title="blur-behind"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[320px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8597" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8598" data-name="image">
+                <div className="absolute left-[288px] size-[112px] top-[72px]" data-node-id="9:8599" data-name="image 5">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[118px] size-[112px] top-[72px]" data-node-id="9:8600" data-name="image 8">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[464px] size-[112px] top-[72px]" data-node-id="9:8601" data-name="image 6">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <div className="absolute left-[640px] size-[112px] top-[72px]" data-node-id="9:8602" data-name="image 7">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[133.58%] left-0 max-w-none top-[-33.46%] w-full" src={imgRectangle2300} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[60.94%_63.56%_31.56%_32.99%] leading-[24px] not-italic text-[#333] text-[12px] whitespace-nowrap" data-node-id="9:8603">
+                  32px
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[60.94%_71.03%_31.56%_13.56%] leading-[24px] not-italic text-[#333] text-[12px] whitespace-nowrap" data-node-id="9:8604">
+                  bg under container
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[60.94%_43.1%_31.56%_53.45%] leading-[24px] not-italic text-[#333] text-[12px] whitespace-nowrap" data-node-id="9:8605">
+                  16px
+                </p>
+                <p className="[word-break:break-word] absolute font-['SF_Mono:Regular'] inset-[60.94%_16.09%_31.56%_73.56%] leading-[24px] not-italic text-[#333] text-[12px] whitespace-nowrap" data-node-id="9:8606">
+                  16px+overlay
+                </p>
+                <div className="absolute backdrop-blur-[16px] bg-[rgba(255,255,255,0.01)] inset-[25.96%_55.29%_45.96%_34.37%]" data-node-id="9:8607" />
+                <div className="absolute backdrop-blur-[8px] bg-[rgba(255,255,255,0.01)] inset-[26.08%_35.11%_46.08%_54.65%]" data-node-id="9:8608" />
+                <div className="absolute backdrop-blur-[8px] bg-[rgba(0,0,0,0.32)] inset-[25.93%_14.83%_45.93%_74.83%]" data-node-id="9:8609" />
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="9:8611">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[32px] relative rounded-[24px]" data-node-id="9:8612" data-name="card-1x1">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="9:8613" data-name="Container">
+            <CardHeader
+              className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full"
+              text="Воспроизведение стартует автоматически
+После окончания видео вопроизводится заново
+Поддерживается загрузка видео из сети
+Не блюрится"
+              title="video"
+            />
+            <div className="bg-[#f6f7f8] content-stretch flex flex-col h-[376px] items-start px-[32px] relative shrink-0 w-full" data-node-id="9:8615" data-name="card-content">
+              <div className="flex-[1_0_0] min-h-px relative w-full" data-node-id="9:8616" data-name="image">
+                <div className="absolute h-[208px] left-[7.82%] right-[58.28%] top-[42px]" data-node-id="9:8617" data-name="Category iOS v3">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCategoryIOsV4} />
+                </div>
+                <div className="absolute h-0 left-[388px] top-[147px] w-[45px]" data-node-id="9:8618">
+                  <div className="absolute inset-[-2.89px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector833} />
+                  </div>
+                </div>
+                <div className="absolute h-[119px] left-[71.15%] right-[9.77%] rounded-[16px] top-[133px]" data-node-id="9:8619" data-name="Example">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgCategoryIOsV4} />
+                </div>
+                <div className="absolute h-[73px] left-[71.15%] right-[9.77%] rounded-[16px] top-[41px]" data-node-id="9:8620" data-name="Example">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgCategoryIOsV4} />
+                </div>
+                <div className="absolute h-[211px] left-[53.56%] right-[31.03%] rounded-[16px] top-[41px]" data-node-id="9:8621" data-name="Example">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgCategoryIOsV4} />
+                </div>
+                <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[44px] leading-[24px] left-[465px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[280px] w-[320px]" data-node-id="9:8622">
+                  Видео занимает весь размер блока по узкой стороне, широкая сторона обрезается
+                </p>
+                <p className="[word-break:break-word] absolute font-['Neue_Haas_Unica_W1G:Regular'] h-[44px] leading-[24px] left-[68px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[280px] w-[275px]" data-node-id="9:8623">
+                  Пример исходного видео. можно использоать файлы mp4
+                </p>
+              </div>
+            </div>
+            <CardFooter className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Day/Text/text-01: #000000, Desktop/Heading 3: Font(family: "Tinkoff Sans", style: Medium, size: 36, weight: 500, lineHeight: 40, letterSpacing: 0), Day/Base/base-02: #F6F7F8, Light/Text/secondary: #9299A2, Desktop/Body M: Font(family: "Neue Haas Unica W1G", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), Light/Text/primary: #333333, shadow-small: Effect(type: DROP_SHADOW, color: #0000001A, offset: (0, 5), radius: 20, spread: 0), shadow-medium: Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 6), radius: 34, spread: 0), shadow-popup: Effect(type: DROP_SHADOW, color: #00000033, offset: (0, 20), radius: 50, spread: 0), Light/Foreground/info-accent: #428BF9, Day/Base/base-04: #DDDFE0, Day/Base/accent: #428BF9, Light/Text/accent: #428BF9, Desktop/Heading 4: Font(family: "Tinkoff Sans", style: Medium, size: 28, weight: 500, lineHeight: 32, letterSpacing: 0), Day/Text/text-01 (inverse): #FFFFFF, Day/Text/link: #336FEE, Day/Brand/tinkoff-pro: #AFF218.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

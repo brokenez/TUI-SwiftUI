@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-06",
+  "scale": 3,
+  "device": "iPhone 17",
+  "iOS": "26.4.1",
+  "packageSummary": {
+    "path": "Documentation/Validation/2026-10-06/header-large-multiline-natural-package-summary.json",
+    "sha256": "9af5e161872154261b1ad67c93f39a23a5d2180d105552eb493b35685616acda"
+  },
+  "earlierLines": {
+    "changedPixels": 20,
+    "maximumRGBDifference": 1,
+    "meanRGBDifference": 7.407407407407407e-05,
+    "evidence": [
+      {
+        "path": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/55E38AA5-89F1-408E-AD7E-E03110BF6456.png",
+        "sha256": "5010766537653c6d9a6fbde8c1007f6681d914ce856966243d76d08cf06e05ba"
+      },
+      {
+        "path": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/81AA1D48-6B90-4CDD-8C1B-FA847224A217.png",
+        "sha256": "f71d4074d51313d26132d6751457411ec3ddd9b942da19f42bc3de8b9af8368b"
+      }
+    ],
+    "decision": "8-bit opaque-mask rounding only; earlier line geometry preserved"
+  },
+  "nativeLinkBaselines": [
+    {
+      "alignment": "firstBaseline",
+      "runs": [
+        {
+          "text": "Header",
+          "baselineFromTop": 37.0,
+          "fontSize": 30.0
+        },
+        {
+          "text": "Second",
+          "baselineFromTop": 73.0,
+          "fontSize": 30.0
+        },
+        {
+          "text": "Все",
+          "baselineFromTop": 37.0,
+          "fontSize": 17.0
+        }
+      ],
+      "baselineDifference": 0.0,
+      "evidence": {
+        "path": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/F0C42BD1-1941-48E0-9A03-BC16959C129B.pdf",
+        "sha256": "70bef8c3d42c31823555f04908db1023259efb14206b23db8018dcf290a79ae6"
+      }
+    },
+    {
+      "alignment": "firstLineCenter",
+      "runs": [
+        {
+          "text": "Header",
+          "baselineFromTop": 37.0,
+          "fontSize": 30.0
+        },
+        {
+          "text": "Second",
+          "baselineFromTop": 73.0,
+          "fontSize": 30.0
+        },
+        {
+          "text": "Все",
+          "baselineFromTop": 32.0,
+          "fontSize": 17.0
+        }
+      ],
+      "baselineDifference": -5.0,
+      "evidence": {
+        "path": "Documentation/Validation/2026-10-06/HeaderLargeMultilineNaturalNative/E8E85132-B6F4-43EC-B0D3-B33DE850ACA7.pdf",
+        "sha256": "1c8684d2ca51c755afad70229447b9a655cf8880ce4773351f42f588d97921df"
+      }
+    }
+  ],
+  "sourceIllustration": {
+    "path": "Documentation/References/HeaderLarge/spec-multiline-image-2026-10-06.png",
+    "sha256": "bd8a1ed6c91d6ebfe93d35ef34dbff1e4f5054f2d3ba600271f2f251fe143966"
+  },
+  "unacceptedFinding": "Natural native lineLimit inserts an ellipsis; Figma illustration shows a faded word fragment without visible ellipsis. Multiline fade is not visually accepted."
+}
