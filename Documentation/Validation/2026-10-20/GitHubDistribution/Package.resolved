@@ -1,0 +1,15 @@
+{
+  "originHash" : "ec9e8796b636ae6a66a851f8b9d4b44d3ffc941510a30a8da691cfc64195219e",
+  "pins" : [
+    {
+      "identity" : "tui-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/brokenez/TUI-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c44dd5ead46cee016816967f4c8e4aa578f4be38"
+      }
+    }
+  ],
+  "version" : 3
+}

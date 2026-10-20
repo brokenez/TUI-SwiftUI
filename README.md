@@ -2,11 +2,11 @@
 
 Нативная SwiftUI-библиотека для интерактивных iOS 26 прототипов из TUI Mobile. Публичный модуль — `TUIDesignSystem`; продукты Swift Package — `TUI-SwiftUI` и совместимый `TUIDesignSystem`. Каталог — самостоятельное приложение Xcode, компоненты в нём исполняются из библиотеки.
 
-Репозиторий: [brokenez/TUI-SwiftUI](https://github.com/brokenez/TUI-SwiftUI), приватный. Это текущая разработка, а не завершённый релиз всех компонентов. Полная приёмка определяется [реестром](Documentation/component-coverage.json), а не количеством экранов каталога или успешной сборкой.
+Репозиторий: [brokenez/TUI-SwiftUI](https://github.com/brokenez/TUI-SwiftUI), публичный. Это текущая разработка, а не завершённый релиз всех компонентов. Полная приёмка определяется [реестром](Documentation/component-coverage.json), а не количеством экранов каталога или успешной сборкой.
 
 ## Подключение
 
-В Xcode → Add Package Dependencies добавьте `https://github.com/brokenez/TUI-SwiftUI.git`, выберите ветку `main` и продукт `TUI-SwiftUI`. Нужен доступ к приватному репозиторию. Минимальная платформа — iOS 26, Swift tools 6.2. Для воспроизводимого прототипа закрепляйте проверенный commit в Package.resolved.
+В Xcode → Add Package Dependencies добавьте `https://github.com/brokenez/TUI-SwiftUI.git`, выберите ветку `main` и продукт `TUI-SwiftUI`. Минимальная платформа — iOS 26, Swift tools 6.2. Для воспроизводимого прототипа закрепляйте проверенный commit в Package.resolved.
 
 ```swift
 import SwiftUI
@@ -73,4 +73,4 @@ python3 Scripts/verify_live_components.py
 - [TUI Foundations](https://www.figma.com/design/gGt4PaQxQhX7ozPVImsgL5/TUI-Foundations)
 - [TUI Assets](https://www.figma.com/design/R1oI4T6X9CHxl2x55MDypT/TUI-Assets)
 
-Репозиторий приватный; лицензия на открытое распространение материалов TUI не заявляется.
+Публичность репозитория не меняет текущие статусы приёмки компонентов.
